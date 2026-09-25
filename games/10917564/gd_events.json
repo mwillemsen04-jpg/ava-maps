@@ -1541,6 +1541,16 @@
    "no": 4,
    "sn": 1,
    "frm": "Libya"
+  },
+  "2099": {
+   "t": 4397,
+   "p": "Sevilla",
+   "c": "France",
+   "u": "Anti Tank",
+   "cap": false,
+   "no": 12,
+   "sn": 1,
+   "frm": "Portugal"
   }
  },
  "loss": {
@@ -3902,6 +3912,6 @@
     "Infantry": 2
    }
   },
-  "ts": 1790378076338
+  "ts": 1790378493411
  }
 }
