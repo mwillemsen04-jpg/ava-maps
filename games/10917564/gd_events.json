@@ -1431,6 +1431,96 @@
    "no": 3,
    "sn": 1,
    "frm": "Greater Romania"
+  },
+  "2087": {
+   "t": 4280,
+   "p": "Pecs",
+   "c": "France",
+   "u": "Armored Car",
+   "cap": false,
+   "no": 2,
+   "sn": 1,
+   "frm": "Greater Romania"
+  },
+  "2088": {
+   "t": 4286,
+   "p": "Leeds",
+   "c": "Southern United States",
+   "u": "Anti Tank",
+   "cap": false,
+   "no": 4,
+   "sn": 1,
+   "frm": "United Kingdom"
+  },
+  "2089": {
+   "t": 4296,
+   "p": "Evora",
+   "c": "Portugal",
+   "u": "Infantry",
+   "cap": false,
+   "no": 2,
+   "sn": 1,
+   "frm": "France"
+  },
+  "2090": {
+   "t": 4300,
+   "p": "Potenza",
+   "c": "France",
+   "u": "Infantry",
+   "cap": false,
+   "no": 4,
+   "sn": 1,
+   "frm": "Libya"
+  },
+  "2091": {
+   "t": 4300,
+   "p": "Badajoz",
+   "c": "France",
+   "u": "Anti Tank",
+   "cap": false,
+   "no": 12,
+   "sn": 1,
+   "frm": "Portugal"
+  },
+  "2092": {
+   "t": 4302,
+   "p": "Budapest",
+   "c": "Southern United States",
+   "u": "Infantry",
+   "cap": false,
+   "no": 17,
+   "sn": 1,
+   "frm": "Greater Romania"
+  },
+  "2094": {
+   "t": 4311,
+   "p": "Sivas",
+   "c": "Ukraine",
+   "u": "Infantry",
+   "cap": false,
+   "no": 4,
+   "sn": 3,
+   "frm": "Turkey"
+  },
+  "2095": {
+   "t": 4343,
+   "p": "Budapest",
+   "c": "Greater Romania",
+   "u": "Armored Car",
+   "cap": false,
+   "no": 22,
+   "sn": 1,
+   "frm": "Southern United States"
+  },
+  "2096": {
+   "t": 4347,
+   "p": "Safi",
+   "c": "Libya",
+   "u": "Infantry",
+   "cap": false,
+   "no": 1,
+   "sn": 6,
+   "frm": "Morocco"
   }
  },
  "loss": {
@@ -2696,6 +2786,48 @@
    "byu": "Infantry",
    "byn": 6,
    "by": "Libya"
+  },
+  "2079": {
+   "t": 4260,
+   "p": "Budapest",
+   "c": "Greater Romania",
+   "u": "Anti Tank",
+   "what": "1× Anti Tank",
+   "n": 1,
+   "dest": true,
+   "no": 17,
+   "byno": 18,
+   "byu": "Tactical Bomber",
+   "byn": 2,
+   "by": "France"
+  },
+  "2083": {
+   "t": 4274,
+   "p": "Budapest",
+   "c": "Greater Romania",
+   "u": "Infantry",
+   "what": "1× Infantry",
+   "n": 1,
+   "dest": true,
+   "no": 3,
+   "byno": 19,
+   "byu": "Interceptor",
+   "byn": 10,
+   "by": "Southern United States"
+  },
+  "2085": {
+   "t": 4280,
+   "p": "Pecs",
+   "c": "Greater Romania",
+   "u": "Infantry",
+   "what": "1× Infantry",
+   "n": 1,
+   "dest": true,
+   "no": 11,
+   "byno": 2,
+   "byu": "Armored Car",
+   "byn": 1,
+   "by": "France"
   }
  },
  "cas": {
@@ -3208,7 +3340,7 @@
    "ts": 1790352019000
   },
   "United Kingdom|Poland": {
-   "v": 7178,
+   "v": 7546,
    "ts": 1790352019000
   },
   "United Kingdom|France": {
@@ -3300,7 +3432,7 @@
    "ts": 1790352019000
   },
   "United Kingdom|Russian Empire": {
-   "v": 1217,
+   "v": 1677,
    "ts": 1790352019000
   },
   "Greece|Greater Romania": {
@@ -3418,6 +3550,22 @@
   "Communist Russia|Ukraine": {
    "v": 3097,
    "ts": 1790366483847
+  },
+  "France|Greater Romania": {
+   "v": 203,
+   "ts": 1790370023758
+  },
+  "Greater Romania|France": {
+   "v": 1865,
+   "ts": 1790370023758
+  },
+  "Southern United States|Greater Romania": {
+   "v": 14,
+   "ts": 1790370842668
+  },
+  "Greater Romania|Southern United States": {
+   "v": 105,
+   "ts": 1790370842668
   }
  },
  "teams": {
@@ -3549,8 +3697,9 @@
     "Anti Tank": 2
    },
    "Greater Romania": {
-    "Anti Air": 1,
-    "Anti Tank": 1
+    "Infantry": 2,
+    "Anti Tank": 2,
+    "Anti Air": 1
    },
    "Bulgaria": {
     "Armored Car": 1,
@@ -3733,6 +3882,6 @@
     "Infantry": 2
    }
   },
-  "ts": 1790369700739
+  "ts": 1790376563280
  }
 }
