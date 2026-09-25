@@ -1551,6 +1551,26 @@
    "no": 12,
    "sn": 1,
    "frm": "Portugal"
+  },
+  "2100": {
+   "t": 4412,
+   "p": "Yaroslavl",
+   "c": "Communist Russia",
+   "u": "Armored Car",
+   "cap": false,
+   "no": 6,
+   "sn": 1,
+   "frm": "Russian Empire"
+  },
+  "2101": {
+   "t": 4412,
+   "p": "Segezha",
+   "c": "Communist Russia",
+   "u": "Infantry",
+   "cap": false,
+   "no": 15,
+   "sn": 1,
+   "frm": "Russian Empire"
   }
  },
  "loss": {
@@ -3912,6 +3932,6 @@
     "Infantry": 2
    }
   },
-  "ts": 1790379146107
+  "ts": 1790379415722
  }
 }
