@@ -1,0 +1,65 @@
+{
+ "id": "10911706",
+ "name": "Test game",
+ "day": 9,
+ "score": {
+  "G": 210,
+  "R": 980
+ },
+ "provinces": {
+  "G": 126,
+  "R": 372
+ },
+ "fetched": 1790377852199,
+ "built": 1790377903031,
+ "game_over": true,
+ "winner": "R",
+ "teams": {
+  "G": [
+   {
+    "c": "Egypt",
+    "f": 2
+   },
+   {
+    "c": "Greater Romania",
+    "f": 3
+   },
+   {
+    "c": "Libya",
+    "f": 4
+   },
+   {
+    "c": "Poland",
+    "f": 3
+   },
+   {
+    "c": "Russian Empire",
+    "f": 4
+   }
+  ],
+  "R": [
+   {
+    "c": "Algeria",
+    "f": 2
+   },
+   {
+    "c": "France",
+    "f": 2
+   },
+   {
+    "c": "Germany",
+    "f": 1
+   },
+   {
+    "c": "Turkey",
+    "f": 3
+   },
+   {
+    "c": "Yugoslavia",
+    "f": 3
+   }
+  ]
+ },
+ "events": 359,
+ "losses": 623
+}
