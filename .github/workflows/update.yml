@@ -2,8 +2,9 @@ name: Update maps
 
 on:
   schedule:
-    - cron: '10,25,40,55 * * * *' # every 15 minutes; only the games whose own interval has passed are updated
-                                  # (each map chooses 15 min - 4 hours on its page; GitHub may start a few minutes late)
+    - cron: '0,15,30,45 * * * *'  # every quarter of an hour; a game is updated at its own whole moments
+                                  # (1 hour = 01:00, 02:00, ...; chosen on its map page; GitHub may start a few minutes late
+                                  # and a missed round is caught up by the next one)
   workflow_dispatch:              # "Run workflow" button, optionally to add or stop a game
     inputs:
       action:

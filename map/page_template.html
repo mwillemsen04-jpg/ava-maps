@@ -608,10 +608,12 @@ $('lab').addEventListener('change',()=>{if(!$('lab').checked)$('allrep').checked
 T=TO;slider.value=T;focusEurope();render();
 (function(){const el=$('upd');if(!D.built){el.hidden=true;return}
 const hm=ms=>new Date(ms).toLocaleTimeString('en-GB',{timeZone:'Europe/Amsterdam',hour:'2-digit',minute:'2-digit'});
-// GitHub checks every 15 minutes (at :10, :25, :40 and :55) and updates this map once its interval has passed
+// the map is updated at whole moments of its interval in Amsterdam time (1 hour: 01:00, 02:00, ...; 30 min: :00 and :30)
 const EV=D.every||60,RAN=D.ran||D.built;
-const nextSlot=t=>{const d=new Date(t);d.setSeconds(0,0);while(d.getTime()<t||d.getMinutes()%15!==10)d.setMinutes(d.getMinutes()+1);return d.getTime()};
-const nextRun=()=>nextSlot(RAN+(EV-5)*60000);
+const locMin=t=>{const p=new Intl.DateTimeFormat('en-GB',{timeZone:'Europe/Amsterdam',hour:'2-digit',minute:'2-digit',hourCycle:'h23'}).formatToParts(new Date(t));return +p.find(x=>x.type==='hour').value*60+ +p.find(x=>x.type==='minute').value};
+const markAfter=t=>{const m=Math.floor(t/60000)*60000;return m-(locMin(m)%EV)*60000+EV*60000};   // first whole moment after t
+const nextSlot=t=>{const q=15*60000;return Math.ceil(t/q)*q};   // the robot looks every quarter of an hour
+const nextRun=()=>markAfter(RAN);
 if(D.gid&&!D.ended){const w=$('everyw'),sel=$('every');w.hidden=false;sel.value=String(EV);if(!sel.value){sel.value='60'}
   sel.addEventListener('change',()=>{const v=sel.value;if(!D.repo){$('everyn').textContent='not on GitHub yet';$('everyn').hidden=false;sel.value=String(EV);return}
     window.open('https://github.com/'+D.repo+'/issues/new?title='+encodeURIComponent('Set update '+D.gid+' every '+v)+'&body='+encodeURIComponent('Update this map every '+sel.options[sel.selectedIndex].text+'.'),'_blank','noopener');

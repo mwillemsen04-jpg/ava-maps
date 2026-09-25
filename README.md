@@ -75,7 +75,7 @@ GitHub keeps these encrypted; nobody (not even people who view the repository) c
 
 ### Step 7 – Done
 
-From now on GitHub checks every 15 minutes which games are due and updates them. You can close your PC.
+From now on GitHub checks every quarter of an hour which games are due and updates them on the whole hour (or half hour, etc.). You can close your PC.
 
 ---
 
@@ -87,8 +87,9 @@ On the overview page, type the game code under **New map** and click **Create**.
 ### How often a map is updated
 Every map has **Update every** at the top right: 15 min, 30 min, 1 hour (default), 2 hours or 4 hours. Choosing a value opens a filled-in GitHub form: click **Submit new issue** and the new pace applies from the next round.
 
-- The robot runs every 15 minutes but only fetches the games whose time is up; when nothing is due it stops after a few seconds.
-- GitHub often starts scheduled runs 5–15 minutes late, so "15 min" is in practice roughly every 15–30 minutes.
+- Updates happen at whole moments in Amsterdam time: *1 hour* = 01:00, 02:00, …; *30 min* = :00 and :30; *15 min* = :00, :15, :30, :45; *2 hours* = 00:00, 02:00, 04:00, …; *4 hours* = 00:00, 04:00, 08:00, ….
+- The robot runs every quarter of an hour but only fetches the games whose moment has come; when nothing is due it stops after a few seconds. If GitHub skips a round, the next one catches up.
+- GitHub often starts scheduled runs a few minutes late (especially on the whole hour), so an update planned for 02:00 may appear at 02:05–02:15.
 - *Actions → Update maps → Run workflow* always updates all live games immediately.
 
 ### Stop, move or delete a game
@@ -120,7 +121,7 @@ The game's newspaper names a fleet after one ship type, which is not always righ
 | Overview | `scripts/build_site.py` | Builds the start page → `site/index.html` |
 | One round | `scripts/run.py` | All of the above for every game that is due; a finished game moves to *Saved games* |
 | List changes | `scripts/manage.py` | Add / stop / move / delete games, folders and update intervals |
-| Automation | `.github/workflows/update.yml` | Runs every 15 minutes (:10, :25, :40, :55) and on requests from the website, then publishes the site |
+| Automation | `.github/workflows/update.yml` | Runs every quarter of an hour (:00, :15, :30, :45) and on requests from the website, then publishes the site |
 
 `map/` holds the map itself (background, 634 provinces with exact borders, 140 cities, unit icons) and is the same for every game. `games/<code>/` holds the collected history of one game. Saved games keep their final page in `archive/<code>.html`.
 

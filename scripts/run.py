@@ -1,7 +1,7 @@
 """One update round: fetch every live game, rebuild its map, move finished games to the archive,
 and rebuild the overview page.
 
-  python3 scripts/run.py            fetch + build the games that are due (GitHub runs this every 15 minutes)
+  python3 scripts/run.py            fetch + build the games that are due (GitHub runs this at :00, :15, :30 and :45)
   python3 scripts/run.py --all      fetch + build every live game, due or not
   python3 scripts/run.py --no-fetch build from the game data already on disk
   python3 scripts/run.py --check    only say whether any game is due (GitHub: writes due=true/false)
@@ -22,10 +22,18 @@ def sh(*cmd):
     return subprocess.run(cmd, cwd=ROOT).returncode
 
 
+def last_mark(every, now_dt):
+    """The most recent whole-interval moment in local time: with 60 minutes the last full hour (01:00, 02:00, ...),
+    with 30 minutes the last :00 or :30, with 120 minutes the last even hour, and so on (counted from midnight)."""
+    mins = now_dt.hour * 60 + now_dt.minute
+    return now_dt.replace(second=0, microsecond=0) - dt.timedelta(minutes=mins % every)
+
+
 def is_due(g, now):
-    """A live game is due when its interval has passed since its last update (5 minutes early is fine:
-    the workflow runs every 15 minutes and GitHub often starts it a few minutes late)."""
-    return now - (g.get('ran') or 0) >= (int(g.get('every') or 60) - 5) * 60000
+    """A live game is due when it has not been updated since its last whole-interval moment."""
+    every = int(g.get('every') or 60)
+    mark = last_mark(every, dt.datetime.fromtimestamp(now / 1000, TZ))
+    return (g.get('ran') or 0) < int(mark.timestamp() * 1000)
 
 
 def main():
