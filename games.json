@@ -12,10 +12,10 @@
           "R": 580
         },
         "provinces": {
-          "G": 271,
-          "R": 226
+          "G": 273,
+          "R": 225
         },
-        "fetched": 1790377849487,
+        "fetched": 1790378076338,
         "winner": null,
         "teams": {
           "G": [
@@ -65,75 +65,7 @@
         }
       },
       "every": 240,
-      "ran": 1790377847261
-    },
-    {
-      "id": "10911706",
-      "name": "Test game",
-      "status": "saved",
-      "added": "2026-09-26 01:10",
-      "ran": 1790377847261,
-      "last": {
-        "day": 9,
-        "score": {
-          "G": 210,
-          "R": 980
-        },
-        "provinces": {
-          "G": 126,
-          "R": 372
-        },
-        "fetched": 1790377852199,
-        "winner": "R",
-        "teams": {
-          "G": [
-            {
-              "c": "Egypt",
-              "f": 2
-            },
-            {
-              "c": "Greater Romania",
-              "f": 3
-            },
-            {
-              "c": "Libya",
-              "f": 4
-            },
-            {
-              "c": "Poland",
-              "f": 3
-            },
-            {
-              "c": "Russian Empire",
-              "f": 4
-            }
-          ],
-          "R": [
-            {
-              "c": "Algeria",
-              "f": 2
-            },
-            {
-              "c": "France",
-              "f": 2
-            },
-            {
-              "c": "Germany",
-              "f": 1
-            },
-            {
-              "c": "Turkey",
-              "f": 3
-            },
-            {
-              "c": "Yugoslavia",
-              "f": 3
-            }
-          ]
-        }
-      },
-      "reason": "ended",
-      "ended": "2026-09-26 01:11"
+      "ran": 1790378074764
     }
   ]
 }

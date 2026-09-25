@@ -1521,6 +1521,26 @@
    "no": 1,
    "sn": 6,
    "frm": "Morocco"
+  },
+  "2097": {
+   "t": 4392,
+   "p": "Petrozavodsk",
+   "c": "Communist Russia",
+   "u": "Anti Tank",
+   "cap": false,
+   "no": 21,
+   "sn": 1,
+   "frm": "Karelia"
+  },
+  "2098": {
+   "t": 4393,
+   "p": "Bari",
+   "c": "France",
+   "u": "Infantry",
+   "cap": false,
+   "no": 4,
+   "sn": 1,
+   "frm": "Libya"
   }
  },
  "loss": {
@@ -3340,7 +3360,7 @@
    "ts": 1790352019000
   },
   "United Kingdom|Poland": {
-   "v": 7546,
+   "v": 7640,
    "ts": 1790352019000
   },
   "United Kingdom|France": {
@@ -3882,6 +3902,6 @@
     "Infantry": 2
    }
   },
-  "ts": 1790377849487
+  "ts": 1790378076338
  }
 }
