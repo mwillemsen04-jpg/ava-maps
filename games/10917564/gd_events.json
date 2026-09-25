@@ -1571,6 +1571,16 @@
    "no": 15,
    "sn": 1,
    "frm": "Russian Empire"
+  },
+  "2102": {
+   "t": 4416,
+   "p": "Vologda",
+   "c": "Communist Russia",
+   "u": "Armored Car",
+   "cap": false,
+   "no": 3,
+   "sn": 1,
+   "frm": "Russian Empire"
   }
  },
  "loss": {
@@ -3932,6 +3942,6 @@
     "Infantry": 2
    }
   },
-  "ts": 1790379415722
+  "ts": 1790379542364
  }
 }
