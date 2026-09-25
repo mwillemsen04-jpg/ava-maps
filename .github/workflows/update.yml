@@ -1,0 +1,140 @@
+name: Update maps
+
+on:
+  schedule:
+    - cron: '10,25,40,55 * * * *' # every 15 minutes; only the games whose own interval has passed are updated
+                                  # (each map chooses 15 min - 4 hours on its page; GitHub may start a few minutes late)
+  workflow_dispatch:              # "Run workflow" button, optionally to add or stop a game
+    inputs:
+      action:
+        description: 'Only update, or change the list first (add / stop / move / delete a game, make / delete a folder)'
+        type: choice
+        options: [update, add, stop, move, delete, folder, delete-folder]
+        default: update
+      game_id:
+        description: 'Game code (for add / stop / move / delete)'
+        required: false
+      name:
+        description: 'Name (for add) or folder (for stop / move / folder / delete-folder)'
+        required: false
+  issues:
+    types: [opened]               # requests from the website buttons (Add / Stop / Move / Delete game, Create / Delete folder)
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+  issues: write
+
+concurrency:
+  group: maps
+  cancel-in-progress: false
+
+jobs:
+  update:
+    # issues only count when a member of the repository opens them with the right title
+    if: >-
+      github.event_name != 'issues' ||
+      (contains(fromJSON('["OWNER","MEMBER","COLLABORATOR"]'), github.event.issue.author_association) &&
+       (startsWith(github.event.issue.title, 'Add game') || startsWith(github.event.issue.title, 'Stop game') || startsWith(github.event.issue.title, 'Move game') || startsWith(github.event.issue.title, 'Set update') || startsWith(github.event.issue.title, 'Delete game') || startsWith(github.event.issue.title, 'Create folder') || startsWith(github.event.issue.title, 'Delete folder')))
+    runs-on: ubuntu-latest
+    outputs:
+      due: ${{ steps.due.outputs.due }}
+    steps:
+      - uses: actions/checkout@v4
+
+      # a timed run stops here when no game is due yet (a button or a request always goes on)
+      - name: Is a game due?
+        id: due
+        run: |
+          if [ "${{ github.event_name }}" = "schedule" ]; then python3 scripts/run.py --check; else echo "due=true" >> "$GITHUB_OUTPUT"; fi
+
+      - uses: actions/setup-node@v4
+        if: steps.due.outputs.due == 'true'
+        with:
+          node-version: 20
+          cache: npm
+      - if: steps.due.outputs.due == 'true'
+        run: npm ci
+
+      - uses: actions/setup-python@v5
+        if: steps.due.outputs.due == 'true'
+        with:
+          python-version: '3.12'
+          cache: pip
+      - if: steps.due.outputs.due == 'true'
+        run: pip install -r requirements.txt
+
+      # the latest game data of every game is kept between runs (not committed: it is large),
+      # and so are the map pages: a game that is not due keeps the page of its last update
+      - uses: actions/cache@v4
+        if: steps.due.outputs.due == 'true'
+        with:
+          path: |
+            games/*/game_data.json
+            site/games
+          key: gamedata-${{ github.run_id }}
+          restore-keys: gamedata-
+
+      - name: Change the list (request from the website)
+        if: steps.due.outputs.due == 'true' && (github.event_name == 'issues')
+        env:
+          TITLE: ${{ github.event.issue.title }}
+          BODY: ${{ github.event.issue.body }}
+        run: python scripts/manage.py from-issue
+
+      - name: Change the list (Run workflow button)
+        if: steps.due.outputs.due == 'true' && (github.event_name == 'workflow_dispatch' && inputs.action != 'update')
+        env:
+          ACTION: ${{ inputs.action }}
+          GAME: ${{ inputs.game_id }}
+          NAME: ${{ inputs.name }}
+        run: python scripts/manage.py "$ACTION" "$GAME" "$NAME"
+
+      - name: Fetch and build
+        if: steps.due.outputs.due == 'true'
+        env:
+          COW_USERNAME: ${{ secrets.COW_USERNAME }}
+          COW_PASSWORD: ${{ secrets.COW_PASSWORD }}
+        run: python scripts/run.py
+
+      - name: Save history
+        if: steps.due.outputs.due == 'true'
+        run: |
+          git config user.name "ava-map-bot"
+          git config user.email "ava-map-bot@users.noreply.github.com"
+          git add -A          # .gitignore keeps node_modules, site and the large game data out
+          git diff --cached --quiet || git commit -m "Update maps $(date -u +'%Y-%m-%d %H:%M') UTC"
+          git push
+
+      - uses: actions/configure-pages@v5
+        if: steps.due.outputs.due == 'true'
+      - uses: actions/upload-pages-artifact@v3
+        if: steps.due.outputs.due == 'true'
+        with:
+          path: site
+
+      - name: Close the request
+        if: steps.due.outputs.due == 'true' && (github.event_name == 'issues')
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh issue close ${{ github.event.issue.number }} --comment "Done - the overview page is updated in a minute or two."
+
+      - name: Report a failed request
+        if: steps.due.outputs.due == 'true' && (failure() && github.event_name == 'issues')
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh issue comment ${{ github.event.issue.number }} --body "This did not work - see the run log: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
+
+  deploy:
+    needs: update
+    if: needs.update.outputs.due == 'true'
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - id: deploy
+        uses: actions/deploy-pages@v4

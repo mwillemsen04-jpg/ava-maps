@@ -1,0 +1,3806 @@
+{
+"Hamburg": {
+"start": "Germany",
+"slot": 1,
+"coastal": true,
+"city": true
+},
+"Berlin": {
+"start": "Germany",
+"slot": 1,
+"coastal": false,
+"city": true
+},
+"Duisburg": {
+"start": "Germany",
+"slot": 1,
+"coastal": false,
+"city": true
+},
+"Düsseldorf": {
+"start": "Germany",
+"slot": 1,
+"coastal": false,
+"city": false
+},
+"Frankfurt": {
+"start": "Germany",
+"slot": 1,
+"coastal": false,
+"city": false
+},
+"Breslau": {
+"start": "Germany",
+"slot": 1,
+"coastal": false,
+"city": false
+},
+"Kiel": {
+"start": "Germany",
+"slot": 1,
+"coastal": true,
+"city": false
+},
+"Stettin": {
+"start": "Germany",
+"slot": 1,
+"coastal": true,
+"city": false
+},
+"Munich": {
+"start": "Germany",
+"slot": 1,
+"coastal": false,
+"city": true
+},
+"Freiburg": {
+"start": "Germany",
+"slot": 1,
+"coastal": false,
+"city": false
+},
+"Rostock": {
+"start": "Germany",
+"slot": 1,
+"coastal": true,
+"city": false
+},
+"Osnabrück": {
+"start": "Germany",
+"slot": 1,
+"coastal": true,
+"city": false
+},
+"Kaiserslautern": {
+"start": "Germany",
+"slot": 1,
+"coastal": false,
+"city": false
+},
+"Cologne": {
+"start": "Germany",
+"slot": 1,
+"coastal": false,
+"city": true
+},
+"Königsberg": {
+"start": "Germany",
+"slot": 1,
+"coastal": true,
+"city": false
+},
+"Stuttgart": {
+"start": "Germany",
+"slot": 1,
+"coastal": false,
+"city": false
+},
+"Hanover": {
+"start": "Germany",
+"slot": 1,
+"coastal": false,
+"city": false
+},
+"Nuremburg": {
+"start": "Germany",
+"slot": 1,
+"coastal": false,
+"city": false
+},
+"Paris": {
+"start": "France",
+"slot": 2,
+"coastal": false,
+"city": true
+},
+"Marseille": {
+"start": "France",
+"slot": 2,
+"coastal": true,
+"city": true
+},
+"Nancy": {
+"start": "France",
+"slot": 2,
+"coastal": false,
+"city": true
+},
+"Bordeaux": {
+"start": "France",
+"slot": 2,
+"coastal": true,
+"city": true
+},
+"Brest": {
+"start": "France",
+"slot": 2,
+"coastal": true,
+"city": false
+},
+"La Rochelle": {
+"start": "France",
+"slot": 2,
+"coastal": true,
+"city": false
+},
+"Bayonne": {
+"start": "France",
+"slot": 2,
+"coastal": true,
+"city": false
+},
+"Nice": {
+"start": "France",
+"slot": 2,
+"coastal": true,
+"city": false
+},
+"Caen": {
+"start": "France",
+"slot": 2,
+"coastal": true,
+"city": false
+},
+"Amiens": {
+"start": "France",
+"slot": 2,
+"coastal": true,
+"city": false
+},
+"Strasbourg": {
+"start": "France",
+"slot": 2,
+"coastal": false,
+"city": false
+},
+"Dijon": {
+"start": "France",
+"slot": 2,
+"coastal": false,
+"city": false
+},
+"Auxerre": {
+"start": "France",
+"slot": 2,
+"coastal": false,
+"city": false
+},
+"Toulouse": {
+"start": "France",
+"slot": 2,
+"coastal": true,
+"city": false
+},
+"Orléans": {
+"start": "France",
+"slot": 2,
+"coastal": false,
+"city": false
+},
+"Poitiers": {
+"start": "France",
+"slot": 2,
+"coastal": false,
+"city": false
+},
+"Limoges": {
+"start": "France",
+"slot": 2,
+"coastal": false,
+"city": false
+},
+"Clermont": {
+"start": "France",
+"slot": 2,
+"coastal": false,
+"city": false
+},
+"St. Etienne": {
+"start": "France",
+"slot": 2,
+"coastal": false,
+"city": false
+},
+"London": {
+"start": "United Kingdom",
+"slot": 3,
+"coastal": true,
+"city": true
+},
+"Manchester": {
+"start": "United Kingdom",
+"slot": 3,
+"coastal": false,
+"city": true
+},
+"Glasgow": {
+"start": "United Kingdom",
+"slot": 3,
+"coastal": true,
+"city": true
+},
+"Birmingham": {
+"start": "United Kingdom",
+"slot": 3,
+"coastal": false,
+"city": true
+},
+"Plymouth": {
+"start": "United Kingdom",
+"slot": 3,
+"coastal": true,
+"city": true
+},
+"Portsmouth": {
+"start": "United Kingdom",
+"slot": 3,
+"coastal": true,
+"city": false
+},
+"Bristol": {
+"start": "United Kingdom",
+"slot": 3,
+"coastal": true,
+"city": false
+},
+"Exeter": {
+"start": "United Kingdom",
+"slot": 3,
+"coastal": true,
+"city": false
+},
+"Worcester": {
+"start": "United Kingdom",
+"slot": 3,
+"coastal": false,
+"city": false
+},
+"Ipswich": {
+"start": "United Kingdom",
+"slot": 3,
+"coastal": true,
+"city": false
+},
+"Villa Cisneros": {
+"start": "Western Sahara",
+"slot": 38,
+"coastal": true,
+"city": true
+},
+"Northampton": {
+"start": "United Kingdom",
+"slot": 3,
+"coastal": false,
+"city": false
+},
+"Liverpool": {
+"start": "United Kingdom",
+"slot": 3,
+"coastal": true,
+"city": false
+},
+"Sheffield": {
+"start": "United Kingdom",
+"slot": 3,
+"coastal": true,
+"city": false
+},
+"Leeds": {
+"start": "United Kingdom",
+"slot": 3,
+"coastal": true,
+"city": false
+},
+"Lancaster": {
+"start": "United Kingdom",
+"slot": 3,
+"coastal": true,
+"city": false
+},
+"Edinburgh": {
+"start": "United Kingdom",
+"slot": 3,
+"coastal": true,
+"city": false
+},
+"Inverness": {
+"start": "United Kingdom",
+"slot": 3,
+"coastal": true,
+"city": false
+},
+"Aberdeen": {
+"start": "United Kingdom",
+"slot": 3,
+"coastal": true,
+"city": false
+},
+"Belfast": {
+"start": "United Kingdom",
+"slot": 3,
+"coastal": true,
+"city": false
+},
+"Tirana": {
+"start": "Albania",
+"slot": 28,
+"coastal": true,
+"city": true
+},
+"Rome": {
+"start": "Italy",
+"slot": 4,
+"coastal": true,
+"city": true
+},
+"Milan": {
+"start": "Italy",
+"slot": 4,
+"coastal": false,
+"city": true
+},
+"Naples": {
+"start": "Italy",
+"slot": 4,
+"coastal": true,
+"city": true
+},
+"Turin": {
+"start": "Italy",
+"slot": 4,
+"coastal": false,
+"city": true
+},
+"Venice": {
+"start": "Italy",
+"slot": 4,
+"coastal": true,
+"city": false
+},
+"Genoa": {
+"start": "Italy",
+"slot": 4,
+"coastal": true,
+"city": true
+},
+"Aosta": {
+"start": "Italy",
+"slot": 4,
+"coastal": false,
+"city": false
+},
+"Cuneo": {
+"start": "Italy",
+"slot": 4,
+"coastal": true,
+"city": false
+},
+"Onega": {
+"start": "Karelia",
+"slot": 49,
+"coastal": true,
+"city": true
+},
+"Cagliari": {
+"start": "Italy",
+"slot": 4,
+"coastal": true,
+"city": false
+},
+"Bari": {
+"start": "Italy",
+"slot": 4,
+"coastal": true,
+"city": false
+},
+"Reggio": {
+"start": "Italy",
+"slot": 4,
+"coastal": true,
+"city": false
+},
+"Medina": {
+"start": "Saudi-Arabia",
+"slot": 29,
+"coastal": false,
+"city": true
+},
+"Brescia": {
+"start": "Italy",
+"slot": 4,
+"coastal": false,
+"city": false
+},
+"Parma": {
+"start": "Italy",
+"slot": 4,
+"coastal": false,
+"city": false
+},
+"Florence": {
+"start": "Italy",
+"slot": 4,
+"coastal": true,
+"city": false
+},
+"Ravenna": {
+"start": "Italy",
+"slot": 4,
+"coastal": true,
+"city": false
+},
+"Catania": {
+"start": "Italy",
+"slot": 4,
+"coastal": true,
+"city": false
+},
+"Civitavecchia": {
+"start": "Italy",
+"slot": 4,
+"coastal": true,
+"city": false
+},
+"Potenza": {
+"start": "Italy",
+"slot": 4,
+"coastal": true,
+"city": false
+},
+"Avezzano": {
+"start": "Italy",
+"slot": 4,
+"coastal": true,
+"city": false
+},
+"L'Aquila": {
+"start": "Italy",
+"slot": 4,
+"coastal": true,
+"city": false
+},
+"Campobasso": {
+"start": "Italy",
+"slot": 4,
+"coastal": true,
+"city": false
+},
+"Madrid": {
+"start": "Spain",
+"slot": 5,
+"coastal": false,
+"city": true
+},
+"Palma": {
+"start": "Spain",
+"slot": 5,
+"coastal": true,
+"city": false
+},
+"Barcelona": {
+"start": "Spain",
+"slot": 5,
+"coastal": true,
+"city": true
+},
+"Valencia": {
+"start": "Spain",
+"slot": 5,
+"coastal": true,
+"city": true
+},
+"Malaga": {
+"start": "Spain",
+"slot": 5,
+"coastal": true,
+"city": true
+},
+"Vigo": {
+"start": "Spain",
+"slot": 5,
+"coastal": true,
+"city": false
+},
+"Bilbao": {
+"start": "Spain",
+"slot": 5,
+"coastal": true,
+"city": false
+},
+"Gijón": {
+"start": "Spain",
+"slot": 5,
+"coastal": true,
+"city": false
+},
+"Pamplona": {
+"start": "Spain",
+"slot": 5,
+"coastal": false,
+"city": false
+},
+"Salamanca": {
+"start": "Spain",
+"slot": 5,
+"coastal": false,
+"city": false
+},
+"Valladolid": {
+"start": "Spain",
+"slot": 5,
+"coastal": false,
+"city": false
+},
+"Murcia": {
+"start": "Spain",
+"slot": 5,
+"coastal": true,
+"city": false
+},
+"Mosul": {
+"start": "Iraq",
+"slot": 30,
+"coastal": false,
+"city": true
+},
+"Badajoz": {
+"start": "Spain",
+"slot": 5,
+"coastal": true,
+"city": false
+},
+"Ajaccio": {
+"start": "France",
+"slot": 2,
+"coastal": true,
+"city": false
+},
+"Granada": {
+"start": "Spain",
+"slot": 5,
+"coastal": true,
+"city": false
+},
+"Cadiz": {
+"start": "Spain",
+"slot": 5,
+"coastal": true,
+"city": false
+},
+"Moscow": {
+"start": "Communist Russia",
+"slot": 6,
+"coastal": false,
+"city": true
+},
+"Stalingrad": {
+"start": "Cossack Republic",
+"slot": 47,
+"coastal": true,
+"city": true
+},
+"Leningrad": {
+"start": "Communist Russia",
+"slot": 6,
+"coastal": true,
+"city": true
+},
+"Penza": {
+"start": "Russian Empire",
+"slot": 48,
+"coastal": true,
+"city": false
+},
+"Kazan": {
+"start": "Russian Empire",
+"slot": 48,
+"coastal": true,
+"city": true
+},
+"Maladzyechna": {
+"start": "Belarus",
+"slot": 52,
+"coastal": false,
+"city": false
+},
+"Nyasvizh": {
+"start": "Belarus",
+"slot": 52,
+"coastal": false,
+"city": false
+},
+"Babruysk": {
+"start": "Belarus",
+"slot": 52,
+"coastal": false,
+"city": false
+},
+"Barysaw": {
+"start": "Belarus",
+"slot": 52,
+"coastal": false,
+"city": false
+},
+"Veliky Novgorod": {
+"start": "Communist Russia",
+"slot": 6,
+"coastal": false,
+"city": true
+},
+"Voroshilovgrad": {
+"start": "Ukraine",
+"slot": 45,
+"coastal": false,
+"city": false
+},
+"Luxembourg": {
+"start": "Luxembourg",
+"slot": 31,
+"coastal": false,
+"city": true
+},
+"Stockholm": {
+"start": "Sweden",
+"slot": 7,
+"coastal": true,
+"city": true
+},
+"Kalmar": {
+"start": "Sweden",
+"slot": 7,
+"coastal": true,
+"city": false
+},
+"Norrköping": {
+"start": "Sweden",
+"slot": 7,
+"coastal": true,
+"city": false
+},
+"Jönköping": {
+"start": "Sweden",
+"slot": 7,
+"coastal": false,
+"city": false
+},
+"Karlstad": {
+"start": "Sweden",
+"slot": 7,
+"coastal": false,
+"city": false
+},
+"Visby": {
+"start": "Sweden",
+"slot": 7,
+"coastal": true,
+"city": false
+},
+"Örebro": {
+"start": "Sweden",
+"slot": 7,
+"coastal": false,
+"city": false
+},
+"Sveg": {
+"start": "Sweden",
+"slot": 7,
+"coastal": false,
+"city": false
+},
+"Sundsvall": {
+"start": "Sweden",
+"slot": 7,
+"coastal": true,
+"city": false
+},
+"Östersund": {
+"start": "Sweden",
+"slot": 7,
+"coastal": false,
+"city": false
+},
+"Umeå": {
+"start": "Sweden",
+"slot": 7,
+"coastal": true,
+"city": false
+},
+"Vilhelmina": {
+"start": "Sweden",
+"slot": 7,
+"coastal": false,
+"city": false
+},
+"Luleå": {
+"start": "Sweden",
+"slot": 7,
+"coastal": true,
+"city": false
+},
+"Kempten": {
+"start": "Germany",
+"slot": 1,
+"coastal": false,
+"city": false
+},
+"Copenhagen": {
+"start": "Denmark",
+"slot": 17,
+"coastal": true,
+"city": true
+},
+"Trondheim": {
+"start": "Norway",
+"slot": 18,
+"coastal": true,
+"city": false
+},
+"Helsinki": {
+"start": "Greater Finland",
+"slot": 19,
+"coastal": true,
+"city": true
+},
+"Krasnohrad": {
+"start": "Ukraine",
+"slot": 45,
+"coastal": false,
+"city": false
+},
+"Sadovoe": {
+"start": "Cossack Republic",
+"slot": 47,
+"coastal": true,
+"city": false
+},
+"Volgodonsk": {
+"start": "Cossack Republic",
+"slot": 47,
+"coastal": true,
+"city": false
+},
+"Sarajevo": {
+"start": "Yugoslavia",
+"slot": 8,
+"coastal": false,
+"city": true
+},
+"Split": {
+"start": "Yugoslavia",
+"slot": 8,
+"coastal": true,
+"city": true
+},
+"Belgrad": {
+"start": "Yugoslavia",
+"slot": 8,
+"coastal": false,
+"city": true
+},
+"Zagreb": {
+"start": "Yugoslavia",
+"slot": 8,
+"coastal": false,
+"city": true
+},
+"Sibenik": {
+"start": "Yugoslavia",
+"slot": 8,
+"coastal": true,
+"city": false
+},
+"Rijeka": {
+"start": "Yugoslavia",
+"slot": 8,
+"coastal": true,
+"city": false
+},
+"Mostar": {
+"start": "Yugoslavia",
+"slot": 8,
+"coastal": true,
+"city": false
+},
+"Podgorica": {
+"start": "Yugoslavia",
+"slot": 8,
+"coastal": true,
+"city": false
+},
+"Ljubljana": {
+"start": "Yugoslavia",
+"slot": 8,
+"coastal": false,
+"city": false
+},
+"Osijek": {
+"start": "Yugoslavia",
+"slot": 8,
+"coastal": false,
+"city": false
+},
+"Novi Sad": {
+"start": "Yugoslavia",
+"slot": 8,
+"coastal": false,
+"city": false
+},
+"Banja Luka": {
+"start": "Yugoslavia",
+"slot": 8,
+"coastal": false,
+"city": false
+},
+"Daruvar": {
+"start": "Yugoslavia",
+"slot": 8,
+"coastal": false,
+"city": false
+},
+"Užice": {
+"start": "Yugoslavia",
+"slot": 8,
+"coastal": false,
+"city": false
+},
+"Zenica": {
+"start": "Yugoslavia",
+"slot": 8,
+"coastal": false,
+"city": false
+},
+"Tuzla": {
+"start": "Yugoslavia",
+"slot": 8,
+"coastal": false,
+"city": false
+},
+"Istanbul": {
+"start": "Turkey",
+"slot": 12,
+"coastal": true,
+"city": true
+},
+"Sparta": {
+"start": "Greece",
+"slot": 11,
+"coastal": true,
+"city": false
+},
+"Patra": {
+"start": "Greece",
+"slot": 11,
+"coastal": true,
+"city": false
+},
+"Bursa": {
+"start": "Turkey",
+"slot": 12,
+"coastal": true,
+"city": false
+},
+"Izmir": {
+"start": "Turkey",
+"slot": 12,
+"coastal": true,
+"city": true
+},
+"Izmit": {
+"start": "Turkey",
+"slot": 12,
+"coastal": true,
+"city": false
+},
+"Ankara": {
+"start": "Turkey",
+"slot": 12,
+"coastal": false,
+"city": true
+},
+"Corlu": {
+"start": "Turkey",
+"slot": 12,
+"coastal": true,
+"city": false
+},
+"Adana": {
+"start": "Turkey",
+"slot": 12,
+"coastal": true,
+"city": true
+},
+"Kastamonu": {
+"start": "Turkey",
+"slot": 12,
+"coastal": true,
+"city": false
+},
+"Çorum": {
+"start": "Turkey",
+"slot": 12,
+"coastal": true,
+"city": false
+},
+"Krasny Kholm": {
+"start": "Karelia",
+"slot": 49,
+"coastal": false,
+"city": false
+},
+"Rize": {
+"start": "Turkey",
+"slot": 12,
+"coastal": true,
+"city": false
+},
+"Kars": {
+"start": "Turkey",
+"slot": 12,
+"coastal": false,
+"city": false
+},
+"Antalya": {
+"start": "Turkey",
+"slot": 12,
+"coastal": true,
+"city": false
+},
+"Mersin": {
+"start": "Turkey",
+"slot": 12,
+"coastal": true,
+"city": false
+},
+"Tikhvin": {
+"start": "Karelia",
+"slot": 49,
+"coastal": false,
+"city": false
+},
+"Sivas": {
+"start": "Turkey",
+"slot": 12,
+"coastal": false,
+"city": false
+},
+"Yemetsk": {
+"start": "Karelia",
+"slot": 49,
+"coastal": false,
+"city": false
+},
+"Nazilli": {
+"start": "Turkey",
+"slot": 12,
+"coastal": true,
+"city": false
+},
+"Denizli": {
+"start": "Turkey",
+"slot": 12,
+"coastal": false,
+"city": false
+},
+"Eskişehir": {
+"start": "Turkey",
+"slot": 12,
+"coastal": false,
+"city": false
+},
+"Konya": {
+"start": "Turkey",
+"slot": 12,
+"coastal": false,
+"city": false
+},
+"Kirsehir": {
+"start": "Turkey",
+"slot": 12,
+"coastal": false,
+"city": false
+},
+"Kayseri": {
+"start": "Turkey",
+"slot": 12,
+"coastal": false,
+"city": false
+},
+"Diyarbakır": {
+"start": "Turkey",
+"slot": 12,
+"coastal": false,
+"city": false
+},
+"Oporto": {
+"start": "Portugal",
+"slot": 13,
+"coastal": true,
+"city": false
+},
+"Toledo": {
+"start": "Spain",
+"slot": 5,
+"coastal": false,
+"city": false
+},
+"Boston": {
+"start": "Northern States of America",
+"slot": 14,
+"coastal": true,
+"city": true
+},
+"New York": {
+"start": "Northern States of America",
+"slot": 14,
+"coastal": true,
+"city": true
+},
+"Philadelphia": {
+"start": "Northern States of America",
+"slot": 14,
+"coastal": true,
+"city": true
+},
+"Evora": {
+"start": "Portugal",
+"slot": 13,
+"coastal": true,
+"city": false
+},
+"Washington D.C.": {
+"start": "Northern States of America",
+"slot": 14,
+"coastal": false,
+"city": true
+},
+"Chattanooga": {
+"start": "Southern United States",
+"slot": 36,
+"coastal": false,
+"city": false
+},
+"Saint John": {
+"start": "United Kingdom",
+"slot": 3,
+"coastal": true,
+"city": false
+},
+"Nuuk": {
+"start": "Denmark",
+"slot": 17,
+"coastal": true,
+"city": false
+},
+"Tangier": {
+"start": "Melilla",
+"slot": 53,
+"coastal": true,
+"city": false
+},
+"Melilla": {
+"start": "Melilla",
+"slot": 53,
+"coastal": true,
+"city": false
+},
+"Sidi Ifni": {
+"start": "Morocco",
+"slot": 39,
+"coastal": true,
+"city": false
+},
+"El Aaiún": {
+"start": "Western Sahara",
+"slot": 38,
+"coastal": true,
+"city": false
+},
+"Iraklio": {
+"start": "Greece",
+"slot": 11,
+"coastal": true,
+"city": false
+},
+"Nicosia": {
+"start": "Greece",
+"slot": 11,
+"coastal": true,
+"city": false
+},
+"Yanbu": {
+"start": "Saudi-Arabia",
+"slot": 29,
+"coastal": true,
+"city": false
+},
+"Ha'il": {
+"start": "Saudi-Arabia",
+"slot": 29,
+"coastal": true,
+"city": false
+},
+"Jawf": {
+"start": "Saudi-Arabia",
+"slot": 29,
+"coastal": false,
+"city": false
+},
+"Karbala": {
+"start": "Iraq",
+"slot": 30,
+"coastal": false,
+"city": false
+},
+"Shingal": {
+"start": "Iraq",
+"slot": 30,
+"coastal": false,
+"city": false
+},
+"Valetta": {
+"start": "Malta",
+"slot": 50,
+"coastal": true,
+"city": false
+},
+"Küstrin": {
+"start": "Germany",
+"slot": 1,
+"coastal": false,
+"city": false
+},
+"Oppeln": {
+"start": "Germany",
+"slot": 1,
+"coastal": false,
+"city": false
+},
+"Esbjerg": {
+"start": "Denmark",
+"slot": 17,
+"coastal": true,
+"city": false
+},
+"Aalborg": {
+"start": "Denmark",
+"slot": 17,
+"coastal": true,
+"city": false
+},
+"Odense": {
+"start": "Denmark",
+"slot": 17,
+"coastal": true,
+"city": false
+},
+"Rhodes": {
+"start": "Greece",
+"slot": 11,
+"coastal": true,
+"city": false
+},
+"Athens": {
+"start": "Greece",
+"slot": 11,
+"coastal": true,
+"city": true
+},
+"Salonika": {
+"start": "Greece",
+"slot": 11,
+"coastal": true,
+"city": true
+},
+"Vlore": {
+"start": "Albania",
+"slot": 28,
+"coastal": true,
+"city": false
+},
+"Puka": {
+"start": "Albania",
+"slot": 28,
+"coastal": true,
+"city": false
+},
+"Ioannina": {
+"start": "Greece",
+"slot": 11,
+"coastal": true,
+"city": false
+},
+"Agrinio": {
+"start": "Greece",
+"slot": 11,
+"coastal": true,
+"city": false
+},
+"Edessa": {
+"start": "Greece",
+"slot": 11,
+"coastal": false,
+"city": false
+},
+"Kavala": {
+"start": "Greece",
+"slot": 11,
+"coastal": true,
+"city": false
+},
+"Larissa": {
+"start": "Greece",
+"slot": 11,
+"coastal": true,
+"city": false
+},
+"Skopje": {
+"start": "Yugoslavia",
+"slot": 8,
+"coastal": false,
+"city": false
+},
+"Varna": {
+"start": "Bulgaria",
+"slot": 10,
+"coastal": true,
+"city": false
+},
+"Gorna Dzhumaya": {
+"start": "Bulgaria",
+"slot": 10,
+"coastal": false,
+"city": false
+},
+"Sofia": {
+"start": "Bulgaria",
+"slot": 10,
+"coastal": false,
+"city": true
+},
+"Vraca": {
+"start": "Bulgaria",
+"slot": 10,
+"coastal": false,
+"city": false
+},
+"Pleven": {
+"start": "Bulgaria",
+"slot": 10,
+"coastal": false,
+"city": false
+},
+"Plovdiv": {
+"start": "Bulgaria",
+"slot": 10,
+"coastal": false,
+"city": false
+},
+"Dublin": {
+"start": "Ireland",
+"slot": 16,
+"coastal": true,
+"city": true
+},
+"Kilkenny": {
+"start": "Ireland",
+"slot": 16,
+"coastal": true,
+"city": false
+},
+"Cork": {
+"start": "Ireland",
+"slot": 16,
+"coastal": true,
+"city": false
+},
+"Galway": {
+"start": "Ireland",
+"slot": 16,
+"coastal": true,
+"city": false
+},
+"Bruxelles": {
+"start": "Belgium",
+"slot": 32,
+"coastal": false,
+"city": true
+},
+"Namur": {
+"start": "Belgium",
+"slot": 32,
+"coastal": false,
+"city": false
+},
+"Antwerp": {
+"start": "Belgium",
+"slot": 32,
+"coastal": true,
+"city": false
+},
+"Brugge": {
+"start": "Belgium",
+"slot": 32,
+"coastal": true,
+"city": false
+},
+"Groningen": {
+"start": "Netherlands",
+"slot": 33,
+"coastal": true,
+"city": false
+},
+"Amsterdam": {
+"start": "Netherlands",
+"slot": 33,
+"coastal": true,
+"city": true
+},
+"Rotterdam": {
+"start": "Netherlands",
+"slot": 33,
+"coastal": true,
+"city": false
+},
+"Den Helder": {
+"start": "Netherlands",
+"slot": 33,
+"coastal": true,
+"city": false
+},
+"Maribor": {
+"start": "Yugoslavia",
+"slot": 8,
+"coastal": false,
+"city": false
+},
+"Innsbruck": {
+"start": "Austria",
+"slot": 26,
+"coastal": false,
+"city": false
+},
+"Vienna": {
+"start": "Austria",
+"slot": 26,
+"coastal": false,
+"city": true
+},
+"Salzburg": {
+"start": "Austria",
+"slot": 26,
+"coastal": false,
+"city": false
+},
+"Graz": {
+"start": "Austria",
+"slot": 26,
+"coastal": false,
+"city": false
+},
+"Sankt Pölten": {
+"start": "Austria",
+"slot": 26,
+"coastal": false,
+"city": false
+},
+"Prague": {
+"start": "Czechoslovakia",
+"slot": 25,
+"coastal": false,
+"city": true
+},
+"Pilsen": {
+"start": "Czechoslovakia",
+"slot": 25,
+"coastal": false,
+"city": false
+},
+"Brno": {
+"start": "Czechoslovakia",
+"slot": 25,
+"coastal": false,
+"city": false
+},
+"Liberec": {
+"start": "Czechoslovakia",
+"slot": 25,
+"coastal": false,
+"city": false
+},
+"Zilina": {
+"start": "Czechoslovakia",
+"slot": 25,
+"coastal": false,
+"city": false
+},
+"Kosice": {
+"start": "Czechoslovakia",
+"slot": 25,
+"coastal": false,
+"city": false
+},
+"Bratislava": {
+"start": "Czechoslovakia",
+"slot": 25,
+"coastal": false,
+"city": false
+},
+"Budapest": {
+"start": "Greater Romania",
+"slot": 9,
+"coastal": false,
+"city": true
+},
+"Cracow": {
+"start": "Poland",
+"slot": 23,
+"coastal": false,
+"city": true
+},
+"Warsaw": {
+"start": "Poland",
+"slot": 23,
+"coastal": false,
+"city": true
+},
+"Kaunas": {
+"start": "Lithuania",
+"slot": 22,
+"coastal": false,
+"city": true
+},
+"Memel": {
+"start": "Lithuania",
+"slot": 22,
+"coastal": true,
+"city": false
+},
+"Šiauliai": {
+"start": "Lithuania",
+"slot": 22,
+"coastal": false,
+"city": false
+},
+"Riga": {
+"start": "Latvia",
+"slot": 21,
+"coastal": true,
+"city": true
+},
+"Daugavpils": {
+"start": "Latvia",
+"slot": 21,
+"coastal": false,
+"city": false
+},
+"Ventspils": {
+"start": "Latvia",
+"slot": 21,
+"coastal": true,
+"city": false
+},
+"Valmiera": {
+"start": "Latvia",
+"slot": 21,
+"coastal": true,
+"city": false
+},
+"Narva": {
+"start": "Estonia",
+"slot": 20,
+"coastal": true,
+"city": false
+},
+"Tallinn": {
+"start": "Estonia",
+"slot": 20,
+"coastal": true,
+"city": true
+},
+"Pärnu": {
+"start": "Estonia",
+"slot": 20,
+"coastal": true,
+"city": false
+},
+"Bucharest": {
+"start": "Greater Romania",
+"slot": 9,
+"coastal": false,
+"city": true
+},
+"Lisbon": {
+"start": "Portugal",
+"slot": 13,
+"coastal": true,
+"city": true
+},
+"Faro": {
+"start": "Portugal",
+"slot": 13,
+"coastal": true,
+"city": false
+},
+"Coimbra": {
+"start": "Portugal",
+"slot": 13,
+"coastal": true,
+"city": false
+},
+"Montreal": {
+"start": "Canada",
+"slot": 15,
+"coastal": true,
+"city": true
+},
+"Fort George": {
+"start": "Canada",
+"slot": 15,
+"coastal": true,
+"city": false
+},
+"Kuujjuaq": {
+"start": "Canada",
+"slot": 15,
+"coastal": true,
+"city": false
+},
+"Schefferville": {
+"start": "Canada",
+"slot": 15,
+"coastal": true,
+"city": false
+},
+"Goose Bay": {
+"start": "Canada",
+"slot": 15,
+"coastal": true,
+"city": false
+},
+"Toronto": {
+"start": "Canada",
+"slot": 15,
+"coastal": true,
+"city": true
+},
+"Oslo": {
+"start": "Norway",
+"slot": 18,
+"coastal": true,
+"city": true
+},
+"Lillehammer": {
+"start": "Norway",
+"slot": 18,
+"coastal": false,
+"city": false
+},
+"Bergen": {
+"start": "Norway",
+"slot": 18,
+"coastal": true,
+"city": false
+},
+"Kristiansand": {
+"start": "Norway",
+"slot": 18,
+"coastal": true,
+"city": false
+},
+"Narvik": {
+"start": "Norway",
+"slot": 18,
+"coastal": true,
+"city": false
+},
+"Tromsø": {
+"start": "Norway",
+"slot": 18,
+"coastal": true,
+"city": false
+},
+"Karlskrona": {
+"start": "Sweden",
+"slot": 7,
+"coastal": true,
+"city": true
+},
+"Gothenburg": {
+"start": "Sweden",
+"slot": 7,
+"coastal": true,
+"city": true
+},
+"Malmö": {
+"start": "Sweden",
+"slot": 7,
+"coastal": true,
+"city": true
+},
+"Vänersborg": {
+"start": "Sweden",
+"slot": 7,
+"coastal": true,
+"city": false
+},
+"Helsingborg": {
+"start": "Sweden",
+"slot": 7,
+"coastal": true,
+"city": false
+},
+"Halmstad": {
+"start": "Sweden",
+"slot": 7,
+"coastal": true,
+"city": false
+},
+"Vaxjo": {
+"start": "Sweden",
+"slot": 7,
+"coastal": false,
+"city": false
+},
+"Gällivare": {
+"start": "Sweden",
+"slot": 7,
+"coastal": false,
+"city": false
+},
+"Uppsala": {
+"start": "Sweden",
+"slot": 7,
+"coastal": true,
+"city": true
+},
+"Leipzig": {
+"start": "Germany",
+"slot": 1,
+"coastal": false,
+"city": false
+},
+"Sevilla": {
+"start": "Spain",
+"slot": 5,
+"coastal": false,
+"city": true
+},
+"Cuenca": {
+"start": "Spain",
+"slot": 5,
+"coastal": true,
+"city": false
+},
+"Guadalajara": {
+"start": "Spain",
+"slot": 5,
+"coastal": false,
+"city": false
+},
+"Albacete": {
+"start": "Spain",
+"slot": 5,
+"coastal": false,
+"city": false
+},
+"Dubrovnik": {
+"start": "Yugoslavia",
+"slot": 8,
+"coastal": true,
+"city": true
+},
+"Niš": {
+"start": "Yugoslavia",
+"slot": 8,
+"coastal": false,
+"city": false
+},
+"Požarevac": {
+"start": "Yugoslavia",
+"slot": 8,
+"coastal": false,
+"city": false
+},
+"Pittsburgh": {
+"start": "Northern States of America",
+"slot": 14,
+"coastal": false,
+"city": true
+},
+"Norfolk": {
+"start": "Northern States of America",
+"slot": 14,
+"coastal": true,
+"city": false
+},
+"Lyon": {
+"start": "France",
+"slot": 2,
+"coastal": false,
+"city": true
+},
+"Grenoble": {
+"start": "France",
+"slot": 2,
+"coastal": false,
+"city": false
+},
+"Algiers": {
+"start": "Algeria",
+"slot": 40,
+"coastal": true,
+"city": true
+},
+"Tunis": {
+"start": "Tunisia",
+"slot": 41,
+"coastal": true,
+"city": true
+},
+"Tobruk": {
+"start": "Libya",
+"slot": 42,
+"coastal": true,
+"city": true
+},
+"Tripoli": {
+"start": "Libya",
+"slot": 42,
+"coastal": true,
+"city": true
+},
+"Cairo": {
+"start": "Egypt",
+"slot": 43,
+"coastal": false,
+"city": true
+},
+"Alexandria": {
+"start": "Egypt",
+"slot": 43,
+"coastal": true,
+"city": true
+},
+"Cardiff": {
+"start": "United Kingdom",
+"slot": 3,
+"coastal": true,
+"city": false
+},
+"Thurso": {
+"start": "United Kingdom",
+"slot": 3,
+"coastal": true,
+"city": false
+},
+"Newcastle": {
+"start": "United Kingdom",
+"slot": 3,
+"coastal": true,
+"city": false
+},
+"Girona": {
+"start": "Spain",
+"slot": 5,
+"coastal": true,
+"city": false
+},
+"Tarragona": {
+"start": "Spain",
+"slot": 5,
+"coastal": true,
+"city": false
+},
+"Palermo": {
+"start": "Italy",
+"slot": 4,
+"coastal": true,
+"city": false
+},
+"Trabzon": {
+"start": "Turkey",
+"slot": 12,
+"coastal": true,
+"city": true
+},
+"Ponta Delgada": {
+"start": "Portugal",
+"slot": 13,
+"coastal": true,
+"city": false
+},
+"Hamilton Island": {
+"start": "Bermuda",
+"slot": 51,
+"coastal": true,
+"city": false
+},
+"Nassau": {
+"start": "Cuba",
+"slot": 34,
+"coastal": true,
+"city": false
+},
+"Pinar del Rio": {
+"start": "Cuba",
+"slot": 34,
+"coastal": true,
+"city": false
+},
+"Havanna": {
+"start": "Cuba",
+"slot": 34,
+"coastal": true,
+"city": true
+},
+"Camagüey": {
+"start": "Cuba",
+"slot": 34,
+"coastal": true,
+"city": false
+},
+"Guantánamo": {
+"start": "Cuba",
+"slot": 34,
+"coastal": true,
+"city": false
+},
+"Höfn": {
+"start": "Iceland",
+"slot": 35,
+"coastal": true,
+"city": false
+},
+"Reykjavík": {
+"start": "Iceland",
+"slot": 35,
+"coastal": true,
+"city": true
+},
+"Akureyri": {
+"start": "Iceland",
+"slot": 35,
+"coastal": true,
+"city": false
+},
+"Miami": {
+"start": "Southern United States",
+"slot": 36,
+"coastal": true,
+"city": true
+},
+"Tampa": {
+"start": "Southern United States",
+"slot": 36,
+"coastal": true,
+"city": false
+},
+"Orlando": {
+"start": "Southern United States",
+"slot": 36,
+"coastal": true,
+"city": false
+},
+"Jacksonville": {
+"start": "Southern United States",
+"slot": 36,
+"coastal": true,
+"city": true
+},
+"Tallahassee": {
+"start": "Southern United States",
+"slot": 36,
+"coastal": true,
+"city": false
+},
+"Savannah": {
+"start": "Southern United States",
+"slot": 36,
+"coastal": true,
+"city": true
+},
+"Atlanta": {
+"start": "Southern United States",
+"slot": 36,
+"coastal": false,
+"city": true
+},
+"Charlotte": {
+"start": "Southern United States",
+"slot": 36,
+"coastal": false,
+"city": true
+},
+"Athens (GA)": {
+"start": "Southern United States",
+"slot": 36,
+"coastal": false,
+"city": false
+},
+"Albany": {
+"start": "Southern United States",
+"slot": 36,
+"coastal": false,
+"city": false
+},
+"Valdosta": {
+"start": "Southern United States",
+"slot": 36,
+"coastal": true,
+"city": false
+},
+"Macon": {
+"start": "Southern United States",
+"slot": 36,
+"coastal": false,
+"city": false
+},
+"Augusta": {
+"start": "Southern United States",
+"slot": 36,
+"coastal": false,
+"city": false
+},
+"Greenville": {
+"start": "Southern United States",
+"slot": 36,
+"coastal": false,
+"city": false
+},
+"Knoxville": {
+"start": "Southern United States",
+"slot": 36,
+"coastal": false,
+"city": false
+},
+"Asheville": {
+"start": "Southern United States",
+"slot": 36,
+"coastal": false,
+"city": false
+},
+"Charleston S.C.": {
+"start": "Southern United States",
+"slot": 36,
+"coastal": true,
+"city": false
+},
+"Columbia": {
+"start": "Southern United States",
+"slot": 36,
+"coastal": false,
+"city": false
+},
+"Wilmington": {
+"start": "Southern United States",
+"slot": 36,
+"coastal": true,
+"city": false
+},
+"Fayetteville": {
+"start": "Southern United States",
+"slot": 36,
+"coastal": false,
+"city": false
+},
+"Raleigh": {
+"start": "Southern United States",
+"slot": 36,
+"coastal": true,
+"city": false
+},
+"Detroit": {
+"start": "Michigan",
+"slot": 37,
+"coastal": true,
+"city": true
+},
+"Bay City": {
+"start": "Michigan",
+"slot": 37,
+"coastal": true,
+"city": false
+},
+"Toledo (OH)": {
+"start": "Michigan",
+"slot": 37,
+"coastal": true,
+"city": false
+},
+"Cleveland": {
+"start": "Northern States of America",
+"slot": 14,
+"coastal": true,
+"city": false
+},
+"Cincinnati": {
+"start": "Northern States of America",
+"slot": 14,
+"coastal": true,
+"city": false
+},
+"Baltimore": {
+"start": "Northern States of America",
+"slot": 14,
+"coastal": true,
+"city": false
+},
+"Louisville": {
+"start": "Northern States of America",
+"slot": 14,
+"coastal": false,
+"city": false
+},
+"Dover": {
+"start": "Northern States of America",
+"slot": 14,
+"coastal": true,
+"city": false
+},
+"Charleston": {
+"start": "Northern States of America",
+"slot": 14,
+"coastal": false,
+"city": false
+},
+"Richmond": {
+"start": "Northern States of America",
+"slot": 14,
+"coastal": true,
+"city": false
+},
+"Roanoke": {
+"start": "Northern States of America",
+"slot": 14,
+"coastal": false,
+"city": false
+},
+"Harrisburg": {
+"start": "Northern States of America",
+"slot": 14,
+"coastal": false,
+"city": false
+},
+"Atlantic City": {
+"start": "Northern States of America",
+"slot": 14,
+"coastal": true,
+"city": false
+},
+"Portland": {
+"start": "Northern States of America",
+"slot": 14,
+"coastal": true,
+"city": false
+},
+"Buffalo": {
+"start": "Northern States of America",
+"slot": 14,
+"coastal": true,
+"city": false
+},
+"Concord": {
+"start": "Northern States of America",
+"slot": 14,
+"coastal": true,
+"city": false
+},
+"Hartford": {
+"start": "Northern States of America",
+"slot": 14,
+"coastal": true,
+"city": false
+},
+"Syracuse": {
+"start": "Northern States of America",
+"slot": 14,
+"coastal": true,
+"city": false
+},
+"Scranton": {
+"start": "Northern States of America",
+"slot": 14,
+"coastal": false,
+"city": false
+},
+"Windsor": {
+"start": "Michigan",
+"slot": 37,
+"coastal": true,
+"city": false
+},
+"London (ON)": {
+"start": "Canada",
+"slot": 15,
+"coastal": true,
+"city": false
+},
+"Hamilton": {
+"start": "Canada",
+"slot": 15,
+"coastal": true,
+"city": false
+},
+"Ottawa": {
+"start": "Canada",
+"slot": 15,
+"coastal": false,
+"city": true
+},
+"Quebec": {
+"start": "Canada",
+"slot": 15,
+"coastal": true,
+"city": true
+},
+"Halifax": {
+"start": "Canada",
+"slot": 15,
+"coastal": true,
+"city": true
+},
+"Kingston": {
+"start": "Canada",
+"slot": 15,
+"coastal": true,
+"city": false
+},
+"Orillia": {
+"start": "Canada",
+"slot": 15,
+"coastal": true,
+"city": false
+},
+"Parry Sound": {
+"start": "Canada",
+"slot": 15,
+"coastal": true,
+"city": false
+},
+"Sudbury": {
+"start": "Canada",
+"slot": 15,
+"coastal": true,
+"city": false
+},
+"Bathurst": {
+"start": "Canada",
+"slot": 15,
+"coastal": true,
+"city": false
+},
+"Moncton": {
+"start": "Canada",
+"slot": 15,
+"coastal": true,
+"city": false
+},
+"Yarmouth": {
+"start": "Canada",
+"slot": 15,
+"coastal": true,
+"city": false
+},
+"Timmins": {
+"start": "Canada",
+"slot": 15,
+"coastal": false,
+"city": false
+},
+"Saguenay": {
+"start": "Canada",
+"slot": 15,
+"coastal": true,
+"city": false
+},
+"Saint Jerome": {
+"start": "Canada",
+"slot": 15,
+"coastal": false,
+"city": false
+},
+"Sherbrooke": {
+"start": "Canada",
+"slot": 15,
+"coastal": true,
+"city": false
+},
+"Smara": {
+"start": "Western Sahara",
+"slot": 38,
+"coastal": false,
+"city": false
+},
+"Bir Moghrein": {
+"start": "Morocco",
+"slot": 39,
+"coastal": false,
+"city": false
+},
+"Tindouf": {
+"start": "Morocco",
+"slot": 39,
+"coastal": false,
+"city": false
+},
+"Oran": {
+"start": "Algeria",
+"slot": 40,
+"coastal": true,
+"city": true
+},
+"Bougie": {
+"start": "Algeria",
+"slot": 40,
+"coastal": true,
+"city": true
+},
+"Fes": {
+"start": "Morocco",
+"slot": 39,
+"coastal": false,
+"city": true
+},
+"Santa Cruz de Tenerife": {
+"start": "Spain",
+"slot": 5,
+"coastal": true,
+"city": false
+},
+"Boujdour": {
+"start": "Western Sahara",
+"slot": 38,
+"coastal": true,
+"city": false
+},
+"Agadir": {
+"start": "Morocco",
+"slot": 39,
+"coastal": true,
+"city": false
+},
+"Marrakesh": {
+"start": "Morocco",
+"slot": 39,
+"coastal": false,
+"city": true
+},
+"Rabat": {
+"start": "Morocco",
+"slot": 39,
+"coastal": true,
+"city": true
+},
+"Meknes": {
+"start": "Morocco",
+"slot": 39,
+"coastal": true,
+"city": false
+},
+"Casablanca": {
+"start": "Morocco",
+"slot": 39,
+"coastal": true,
+"city": true
+},
+"Oulmes": {
+"start": "Morocco",
+"slot": 39,
+"coastal": true,
+"city": false
+},
+"Essaouira": {
+"start": "Morocco",
+"slot": 39,
+"coastal": true,
+"city": false
+},
+"Safi": {
+"start": "Morocco",
+"slot": 39,
+"coastal": true,
+"city": false
+},
+"Mazagan": {
+"start": "Morocco",
+"slot": 39,
+"coastal": true,
+"city": false
+},
+"Oujda": {
+"start": "Morocco",
+"slot": 39,
+"coastal": false,
+"city": true
+},
+"Taroudant": {
+"start": "Morocco",
+"slot": 39,
+"coastal": false,
+"city": false
+},
+"Quarzazate": {
+"start": "Morocco",
+"slot": 39,
+"coastal": false,
+"city": false
+},
+"Khouribga": {
+"start": "Morocco",
+"slot": 39,
+"coastal": false,
+"city": false
+},
+"Taza": {
+"start": "Morocco",
+"slot": 39,
+"coastal": false,
+"city": false
+},
+"Zagora": {
+"start": "Morocco",
+"slot": 39,
+"coastal": false,
+"city": false
+},
+"Bechar": {
+"start": "Morocco",
+"slot": 39,
+"coastal": false,
+"city": false
+},
+"Adrar": {
+"start": "Morocco",
+"slot": 39,
+"coastal": false,
+"city": false
+},
+"Sahara Desert": {
+"start": "Morocco",
+"slot": 39,
+"coastal": false,
+"city": false
+},
+"Tlemcen": {
+"start": "Algeria",
+"slot": 40,
+"coastal": true,
+"city": false
+},
+"Mostaganem": {
+"start": "Algeria",
+"slot": 40,
+"coastal": true,
+"city": false
+},
+"Sidi Bel Abbes": {
+"start": "Algeria",
+"slot": 40,
+"coastal": false,
+"city": false
+},
+"Mecheria": {
+"start": "Algeria",
+"slot": 40,
+"coastal": false,
+"city": false
+},
+"Constantine": {
+"start": "Algeria",
+"slot": 40,
+"coastal": false,
+"city": true
+},
+"El Oued": {
+"start": "Algeria",
+"slot": 40,
+"coastal": false,
+"city": false
+},
+"Ain Salah": {
+"start": "Algeria",
+"slot": 40,
+"coastal": false,
+"city": false
+},
+"Ain Sefra": {
+"start": "Algeria",
+"slot": 40,
+"coastal": false,
+"city": false
+},
+"Djanet": {
+"start": "Algeria",
+"slot": 40,
+"coastal": false,
+"city": false
+},
+"Arak": {
+"start": "Algeria",
+"slot": 40,
+"coastal": false,
+"city": false
+},
+"Tenes": {
+"start": "Algeria",
+"slot": 40,
+"coastal": true,
+"city": false
+},
+"Tizi Ouzou": {
+"start": "Algeria",
+"slot": 40,
+"coastal": true,
+"city": false
+},
+"Bone": {
+"start": "Algeria",
+"slot": 40,
+"coastal": true,
+"city": false
+},
+"Hassi Messaoud": {
+"start": "Algeria",
+"slot": 40,
+"coastal": false,
+"city": false
+},
+"El Golea": {
+"start": "Algeria",
+"slot": 40,
+"coastal": false,
+"city": false
+},
+"Touggourt": {
+"start": "Algeria",
+"slot": 40,
+"coastal": false,
+"city": true
+},
+"Setif": {
+"start": "Algeria",
+"slot": 40,
+"coastal": true,
+"city": false
+},
+"Djelfa": {
+"start": "Algeria",
+"slot": 40,
+"coastal": false,
+"city": false
+},
+"Laghouat": {
+"start": "Algeria",
+"slot": 40,
+"coastal": false,
+"city": false
+},
+"Sousse": {
+"start": "Tunisia",
+"slot": 41,
+"coastal": true,
+"city": false
+},
+"Gabes": {
+"start": "Tunisia",
+"slot": 41,
+"coastal": true,
+"city": false
+},
+"Souk El Arba": {
+"start": "Tunisia",
+"slot": 41,
+"coastal": true,
+"city": false
+},
+"Gafsa": {
+"start": "Tunisia",
+"slot": 41,
+"coastal": false,
+"city": false
+},
+"Zuwara": {
+"start": "Libya",
+"slot": 42,
+"coastal": true,
+"city": false
+},
+"Misrata": {
+"start": "Libya",
+"slot": 42,
+"coastal": true,
+"city": false
+},
+"Benghazi": {
+"start": "Libya",
+"slot": 42,
+"coastal": true,
+"city": true
+},
+"Sirte": {
+"start": "Libya",
+"slot": 42,
+"coastal": true,
+"city": true
+},
+"Derna": {
+"start": "Libya",
+"slot": 42,
+"coastal": true,
+"city": true
+},
+"Bardia": {
+"start": "Libya",
+"slot": 42,
+"coastal": true,
+"city": false
+},
+"Jaghbub": {
+"start": "Libya",
+"slot": 42,
+"coastal": false,
+"city": false
+},
+"Al Jawf": {
+"start": "Libya",
+"slot": 42,
+"coastal": false,
+"city": false
+},
+"Mechili": {
+"start": "Libya",
+"slot": 42,
+"coastal": true,
+"city": false
+},
+"Bayda": {
+"start": "Libya",
+"slot": 42,
+"coastal": true,
+"city": false
+},
+"Agedabia": {
+"start": "Libya",
+"slot": 42,
+"coastal": true,
+"city": false
+},
+"Ras Lanuf": {
+"start": "Libya",
+"slot": 42,
+"coastal": true,
+"city": false
+},
+"Jalu": {
+"start": "Libya",
+"slot": 42,
+"coastal": false,
+"city": false
+},
+"Tazirbu": {
+"start": "Libya",
+"slot": 42,
+"coastal": false,
+"city": false
+},
+"Waddan": {
+"start": "Libya",
+"slot": 42,
+"coastal": false,
+"city": false
+},
+"Bani Waled": {
+"start": "Libya",
+"slot": 42,
+"coastal": true,
+"city": false
+},
+"Murzuk": {
+"start": "Libya",
+"slot": 42,
+"coastal": false,
+"city": false
+},
+"Ghadames": {
+"start": "Libya",
+"slot": 42,
+"coastal": false,
+"city": false
+},
+"Gharyan": {
+"start": "Libya",
+"slot": 42,
+"coastal": false,
+"city": false
+},
+"Sabha": {
+"start": "Libya",
+"slot": 42,
+"coastal": false,
+"city": false
+},
+"Amman": {
+"start": "Egypt",
+"slot": 43,
+"coastal": false,
+"city": true
+},
+"Jerusalem": {
+"start": "Egypt",
+"slot": 43,
+"coastal": true,
+"city": false
+},
+"Port Said": {
+"start": "Egypt",
+"slot": 43,
+"coastal": true,
+"city": false
+},
+"Akaba": {
+"start": "Egypt",
+"slot": 43,
+"coastal": false,
+"city": false
+},
+"Karak": {
+"start": "Egypt",
+"slot": 43,
+"coastal": false,
+"city": false
+},
+"Suez": {
+"start": "Egypt",
+"slot": 43,
+"coastal": true,
+"city": false
+},
+"Gaza": {
+"start": "Egypt",
+"slot": 43,
+"coastal": true,
+"city": true
+},
+"Sidi Barrani": {
+"start": "Egypt",
+"slot": 43,
+"coastal": true,
+"city": false
+},
+"Marsa Matruh": {
+"start": "Egypt",
+"slot": 43,
+"coastal": true,
+"city": false
+},
+"Desouk": {
+"start": "Egypt",
+"slot": 43,
+"coastal": true,
+"city": false
+},
+"Luxor": {
+"start": "Egypt",
+"slot": 43,
+"coastal": false,
+"city": true
+},
+"Siwa Oasis": {
+"start": "Egypt",
+"slot": 43,
+"coastal": false,
+"city": false
+},
+"El Alamein": {
+"start": "Egypt",
+"slot": 43,
+"coastal": true,
+"city": false
+},
+"Aswan": {
+"start": "Egypt",
+"slot": 43,
+"coastal": true,
+"city": false
+},
+"El Qasr": {
+"start": "Egypt",
+"slot": 43,
+"coastal": false,
+"city": false
+},
+"Faiyum": {
+"start": "Egypt",
+"slot": 43,
+"coastal": false,
+"city": false
+},
+"Kharga": {
+"start": "Egypt",
+"slot": 43,
+"coastal": false,
+"city": false
+},
+"Safaga": {
+"start": "Egypt",
+"slot": 43,
+"coastal": true,
+"city": false
+},
+"Beni Suef": {
+"start": "Egypt",
+"slot": 43,
+"coastal": true,
+"city": false
+},
+"Ras Gharib": {
+"start": "Egypt",
+"slot": 43,
+"coastal": true,
+"city": false
+},
+"Beirut": {
+"start": "Syria",
+"slot": 44,
+"coastal": true,
+"city": true
+},
+"Aleppo": {
+"start": "Syria",
+"slot": 44,
+"coastal": false,
+"city": false
+},
+"Damascus": {
+"start": "Syria",
+"slot": 44,
+"coastal": true,
+"city": false
+},
+"Homs": {
+"start": "Syria",
+"slot": 44,
+"coastal": true,
+"city": false
+},
+"Palmyra": {
+"start": "Syria",
+"slot": 44,
+"coastal": false,
+"city": false
+},
+"Fredrikstad": {
+"start": "Norway",
+"slot": 18,
+"coastal": true,
+"city": false
+},
+"Zurich": {
+"start": "Switzerland",
+"slot": 27,
+"coastal": false,
+"city": true
+},
+"Chur": {
+"start": "Switzerland",
+"slot": 27,
+"coastal": false,
+"city": false
+},
+"Lausanne": {
+"start": "Switzerland",
+"slot": 27,
+"coastal": false,
+"city": false
+},
+"Bern": {
+"start": "Switzerland",
+"slot": 27,
+"coastal": false,
+"city": false
+},
+"Murmansk": {
+"start": "Greater Finland",
+"slot": 19,
+"coastal": true,
+"city": true
+},
+"Turku": {
+"start": "Greater Finland",
+"slot": 19,
+"coastal": true,
+"city": true
+},
+"Salo": {
+"start": "Greater Finland",
+"slot": 19,
+"coastal": true,
+"city": false
+},
+"Oulu": {
+"start": "Greater Finland",
+"slot": 19,
+"coastal": true,
+"city": true
+},
+"Tampere": {
+"start": "Greater Finland",
+"slot": 19,
+"coastal": false,
+"city": true
+},
+"Pori": {
+"start": "Greater Finland",
+"slot": 19,
+"coastal": true,
+"city": false
+},
+"Lahti": {
+"start": "Greater Finland",
+"slot": 19,
+"coastal": true,
+"city": false
+},
+"Viipuri": {
+"start": "Greater Finland",
+"slot": 19,
+"coastal": true,
+"city": false
+},
+"Joensuu": {
+"start": "Greater Finland",
+"slot": 19,
+"coastal": false,
+"city": false
+},
+"Mikkeli": {
+"start": "Greater Finland",
+"slot": 19,
+"coastal": false,
+"city": false
+},
+"Segezha": {
+"start": "Greater Finland",
+"slot": 19,
+"coastal": true,
+"city": false
+},
+"Kola": {
+"start": "Greater Finland",
+"slot": 19,
+"coastal": true,
+"city": false
+},
+"Kandalaksha": {
+"start": "Greater Finland",
+"slot": 19,
+"coastal": true,
+"city": false
+},
+"Rovaniemi": {
+"start": "Greater Finland",
+"slot": 19,
+"coastal": true,
+"city": false
+},
+"Tornio": {
+"start": "Greater Finland",
+"slot": 19,
+"coastal": true,
+"city": false
+},
+"Kuusamo": {
+"start": "Greater Finland",
+"slot": 19,
+"coastal": false,
+"city": false
+},
+"Vaasa": {
+"start": "Greater Finland",
+"slot": 19,
+"coastal": true,
+"city": false
+},
+"Kokkola": {
+"start": "Greater Finland",
+"slot": 19,
+"coastal": true,
+"city": false
+},
+"Lieksa": {
+"start": "Greater Finland",
+"slot": 19,
+"coastal": false,
+"city": false
+},
+"Kuopio": {
+"start": "Greater Finland",
+"slot": 19,
+"coastal": false,
+"city": false
+},
+"Kiuruvesi": {
+"start": "Greater Finland",
+"slot": 19,
+"coastal": false,
+"city": false
+},
+"Danzig": {
+"start": "Poland",
+"slot": 23,
+"coastal": true,
+"city": true
+},
+"Vilnius": {
+"start": "Poland",
+"slot": 23,
+"coastal": false,
+"city": true
+},
+"Lvov": {
+"start": "Poland",
+"slot": 23,
+"coastal": false,
+"city": true
+},
+"Toruń": {
+"start": "Poland",
+"slot": 23,
+"coastal": false,
+"city": false
+},
+"Poznań": {
+"start": "Poland",
+"slot": 23,
+"coastal": false,
+"city": false
+},
+"Olsztyn": {
+"start": "Poland",
+"slot": 23,
+"coastal": false,
+"city": false
+},
+"Grodno": {
+"start": "Poland",
+"slot": 23,
+"coastal": false,
+"city": false
+},
+"Lida": {
+"start": "Poland",
+"slot": 23,
+"coastal": false,
+"city": false
+},
+"Lodz": {
+"start": "Poland",
+"slot": 23,
+"coastal": false,
+"city": false
+},
+"Plock": {
+"start": "Poland",
+"slot": 23,
+"coastal": false,
+"city": false
+},
+"Bialystok": {
+"start": "Poland",
+"slot": 23,
+"coastal": false,
+"city": false
+},
+"Pinsk": {
+"start": "Poland",
+"slot": 23,
+"coastal": false,
+"city": false
+},
+"Ternopil": {
+"start": "Poland",
+"slot": 23,
+"coastal": false,
+"city": false
+},
+"Lublin": {
+"start": "Poland",
+"slot": 23,
+"coastal": false,
+"city": false
+},
+"Sieradz": {
+"start": "Poland",
+"slot": 23,
+"coastal": false,
+"city": false
+},
+"Kielce": {
+"start": "Poland",
+"slot": 23,
+"coastal": false,
+"city": false
+},
+"Tarnow": {
+"start": "Poland",
+"slot": 23,
+"coastal": false,
+"city": false
+},
+"Lutsk": {
+"start": "Poland",
+"slot": 23,
+"coastal": false,
+"city": false
+},
+"Zamosc": {
+"start": "Poland",
+"slot": 23,
+"coastal": false,
+"city": false
+},
+"Przemyśl": {
+"start": "Poland",
+"slot": 23,
+"coastal": false,
+"city": false
+},
+"Constanta": {
+"start": "Greater Romania",
+"slot": 9,
+"coastal": true,
+"city": true
+},
+"Iasi": {
+"start": "Greater Romania",
+"slot": 9,
+"coastal": false,
+"city": true
+},
+"Debrecen": {
+"start": "Greater Romania",
+"slot": 9,
+"coastal": false,
+"city": true
+},
+"Györ": {
+"start": "Greater Romania",
+"slot": 9,
+"coastal": false,
+"city": false
+},
+"Pecs": {
+"start": "Greater Romania",
+"slot": 9,
+"coastal": false,
+"city": false
+},
+"Miskolc": {
+"start": "Greater Romania",
+"slot": 9,
+"coastal": false,
+"city": false
+},
+"Arad": {
+"start": "Greater Romania",
+"slot": 9,
+"coastal": false,
+"city": false
+},
+"Timisoara": {
+"start": "Greater Romania",
+"slot": 9,
+"coastal": false,
+"city": false
+},
+"Satu Mare": {
+"start": "Greater Romania",
+"slot": 9,
+"coastal": false,
+"city": false
+},
+"Tulcea": {
+"start": "Greater Romania",
+"slot": 9,
+"coastal": true,
+"city": false
+},
+"Chisinau": {
+"start": "Greater Romania",
+"slot": 9,
+"coastal": true,
+"city": false
+},
+"Braila": {
+"start": "Greater Romania",
+"slot": 9,
+"coastal": false,
+"city": false
+},
+"Bacau": {
+"start": "Greater Romania",
+"slot": 9,
+"coastal": false,
+"city": false
+},
+"Suceava": {
+"start": "Greater Romania",
+"slot": 9,
+"coastal": false,
+"city": false
+},
+"Ploesti": {
+"start": "Greater Romania",
+"slot": 9,
+"coastal": false,
+"city": false
+},
+"Craiova": {
+"start": "Greater Romania",
+"slot": 9,
+"coastal": false,
+"city": false
+},
+"Pitești": {
+"start": "Greater Romania",
+"slot": 9,
+"coastal": false,
+"city": false
+},
+"Cluj-Napoca": {
+"start": "Greater Romania",
+"slot": 9,
+"coastal": false,
+"city": false
+},
+"Sibiu": {
+"start": "Greater Romania",
+"slot": 9,
+"coastal": false,
+"city": false
+},
+"Târgu Mureș": {
+"start": "Greater Romania",
+"slot": 9,
+"coastal": false,
+"city": false
+},
+"Sevastopol": {
+"start": "Crimea",
+"slot": 24,
+"coastal": true,
+"city": true
+},
+"Kherson": {
+"start": "Crimea",
+"slot": 24,
+"coastal": true,
+"city": false
+},
+"Kerch": {
+"start": "Crimea",
+"slot": 24,
+"coastal": true,
+"city": false
+},
+"Melitopol": {
+"start": "Crimea",
+"slot": 24,
+"coastal": true,
+"city": false
+},
+"Odessa": {
+"start": "Ukraine",
+"slot": 45,
+"coastal": true,
+"city": true
+},
+"Kiev": {
+"start": "Ukraine",
+"slot": 45,
+"coastal": false,
+"city": true
+},
+"Kharkov": {
+"start": "Ukraine",
+"slot": 45,
+"coastal": false,
+"city": true
+},
+"Berdiansk": {
+"start": "Ukraine",
+"slot": 45,
+"coastal": true,
+"city": false
+},
+"Dnepropetrovsk": {
+"start": "Ukraine",
+"slot": 45,
+"coastal": false,
+"city": false
+},
+"Stalino": {
+"start": "Ukraine",
+"slot": 45,
+"coastal": false,
+"city": false
+},
+"Kremenchuk": {
+"start": "Ukraine",
+"slot": 45,
+"coastal": false,
+"city": true
+},
+"Mykalaiv": {
+"start": "Ukraine",
+"slot": 45,
+"coastal": true,
+"city": false
+},
+"Mariupol": {
+"start": "Ukraine",
+"slot": 45,
+"coastal": true,
+"city": true
+},
+"Belgograd": {
+"start": "Ukraine",
+"slot": 45,
+"coastal": false,
+"city": false
+},
+"Balti": {
+"start": "Ukraine",
+"slot": 45,
+"coastal": false,
+"city": false
+},
+"Kryvyi Rih": {
+"start": "Ukraine",
+"slot": 45,
+"coastal": false,
+"city": false
+},
+"Korosten": {
+"start": "Ukraine",
+"slot": 45,
+"coastal": false,
+"city": false
+},
+"Zhytomyr": {
+"start": "Ukraine",
+"slot": 45,
+"coastal": false,
+"city": false
+},
+"Uman": {
+"start": "Ukraine",
+"slot": 45,
+"coastal": false,
+"city": false
+},
+"Chernihiv": {
+"start": "Ukraine",
+"slot": 45,
+"coastal": false,
+"city": false
+},
+"Lubny": {
+"start": "Ukraine",
+"slot": 45,
+"coastal": false,
+"city": false
+},
+"Poltava": {
+"start": "Ukraine",
+"slot": 45,
+"coastal": false,
+"city": false
+},
+"Bryansk": {
+"start": "Ukraine",
+"slot": 45,
+"coastal": false,
+"city": false
+},
+"Kursk": {
+"start": "Ukraine",
+"slot": 45,
+"coastal": false,
+"city": false
+},
+"Gomel": {
+"start": "Belarus",
+"slot": 52,
+"coastal": false,
+"city": false
+},
+"Rostov-on-Don": {
+"start": "Caucasus",
+"slot": 46,
+"coastal": true,
+"city": true
+},
+"Anapa": {
+"start": "Caucasus",
+"slot": 46,
+"coastal": true,
+"city": false
+},
+"Krasnodar": {
+"start": "Caucasus",
+"slot": 46,
+"coastal": false,
+"city": true
+},
+"Tbilisi": {
+"start": "Caucasus",
+"slot": 46,
+"coastal": false,
+"city": true
+},
+"Grozny": {
+"start": "Caucasus",
+"slot": 46,
+"coastal": false,
+"city": true
+},
+"Voroshilovsk": {
+"start": "Caucasus",
+"slot": 46,
+"coastal": false,
+"city": true
+},
+"Batumi": {
+"start": "Caucasus",
+"slot": 46,
+"coastal": true,
+"city": false
+},
+"Leninakan": {
+"start": "Caucasus",
+"slot": 46,
+"coastal": false,
+"city": false
+},
+"Ordzhonikidze": {
+"start": "Caucasus",
+"slot": 46,
+"coastal": false,
+"city": false
+},
+"Yeysk": {
+"start": "Caucasus",
+"slot": 46,
+"coastal": true,
+"city": false
+},
+"Maykop": {
+"start": "Caucasus",
+"slot": 46,
+"coastal": true,
+"city": false
+},
+"Salsk": {
+"start": "Caucasus",
+"slot": 46,
+"coastal": false,
+"city": false
+},
+"Kropotkin": {
+"start": "Caucasus",
+"slot": 46,
+"coastal": false,
+"city": false
+},
+"Adlerskiy": {
+"start": "Caucasus",
+"slot": 46,
+"coastal": true,
+"city": false
+},
+"Zugdidi": {
+"start": "Caucasus",
+"slot": 46,
+"coastal": true,
+"city": false
+},
+"Nalchik": {
+"start": "Caucasus",
+"slot": 46,
+"coastal": false,
+"city": false
+},
+"Sardarapat": {
+"start": "Caucasus",
+"slot": 46,
+"coastal": false,
+"city": false
+},
+"Belaya Glina": {
+"start": "Caucasus",
+"slot": 46,
+"coastal": false,
+"city": false
+},
+"Divnoye": {
+"start": "Caucasus",
+"slot": 46,
+"coastal": false,
+"city": false
+},
+"Svetlograd": {
+"start": "Caucasus",
+"slot": 46,
+"coastal": false,
+"city": false
+},
+"Prikumsk": {
+"start": "Caucasus",
+"slot": 46,
+"coastal": false,
+"city": false
+},
+"Elista": {
+"start": "Caucasus",
+"slot": 46,
+"coastal": true,
+"city": false
+},
+"Voronezh": {
+"start": "Cossack Republic",
+"slot": 47,
+"coastal": false,
+"city": true
+},
+"Stary Oskol": {
+"start": "Cossack Republic",
+"slot": 47,
+"coastal": false,
+"city": false
+},
+"Shakhty": {
+"start": "Cossack Republic",
+"slot": 47,
+"coastal": true,
+"city": false
+},
+"Mikhaylovka": {
+"start": "Cossack Republic",
+"slot": 47,
+"coastal": true,
+"city": false
+},
+"Tambov": {
+"start": "Cossack Republic",
+"slot": 47,
+"coastal": false,
+"city": false
+},
+"Balashov": {
+"start": "Cossack Republic",
+"slot": 47,
+"coastal": false,
+"city": false
+},
+"Saratov": {
+"start": "Cossack Republic",
+"slot": 47,
+"coastal": true,
+"city": false
+},
+"Dubovka": {
+"start": "Cossack Republic",
+"slot": 47,
+"coastal": true,
+"city": false
+},
+"Minsk": {
+"start": "Belarus",
+"slot": 52,
+"coastal": false,
+"city": true
+},
+"Nizhny Novgorod": {
+"start": "Russian Empire",
+"slot": 48,
+"coastal": true,
+"city": true
+},
+"Kalinin": {
+"start": "Communist Russia",
+"slot": 6,
+"coastal": false,
+"city": true
+},
+"Yaroslavl": {
+"start": "Communist Russia",
+"slot": 6,
+"coastal": false,
+"city": true
+},
+"Chudovo": {
+"start": "Communist Russia",
+"slot": 6,
+"coastal": false,
+"city": false
+},
+"Pskov": {
+"start": "Communist Russia",
+"slot": 6,
+"coastal": true,
+"city": false
+},
+"Polatsk": {
+"start": "Communist Russia",
+"slot": 6,
+"coastal": false,
+"city": false
+},
+"Vyshny Volochyok": {
+"start": "Communist Russia",
+"slot": 6,
+"coastal": false,
+"city": false
+},
+"Vitebsk": {
+"start": "Communist Russia",
+"slot": 6,
+"coastal": false,
+"city": false
+},
+"Mogilev": {
+"start": "Communist Russia",
+"slot": 6,
+"coastal": false,
+"city": false
+},
+"Smolensk": {
+"start": "Communist Russia",
+"slot": 6,
+"coastal": false,
+"city": false
+},
+"Rzhev": {
+"start": "Communist Russia",
+"slot": 6,
+"coastal": false,
+"city": false
+},
+"Klin": {
+"start": "Communist Russia",
+"slot": 6,
+"coastal": false,
+"city": false
+},
+"Vladimir": {
+"start": "Communist Russia",
+"slot": 6,
+"coastal": false,
+"city": false
+},
+"Kaluga": {
+"start": "Communist Russia",
+"slot": 6,
+"coastal": false,
+"city": false
+},
+"Podolsk": {
+"start": "Communist Russia",
+"slot": 6,
+"coastal": false,
+"city": false
+},
+"Kolomna": {
+"start": "Communist Russia",
+"slot": 6,
+"coastal": false,
+"city": false
+},
+"Oryol": {
+"start": "Communist Russia",
+"slot": 6,
+"coastal": false,
+"city": false
+},
+"Tula": {
+"start": "Communist Russia",
+"slot": 6,
+"coastal": false,
+"city": false
+},
+"Ivanovo": {
+"start": "Communist Russia",
+"slot": 6,
+"coastal": false,
+"city": false
+},
+"Ryazan": {
+"start": "Communist Russia",
+"slot": 6,
+"coastal": false,
+"city": false
+},
+"Arkhangelsk": {
+"start": "Russian Empire",
+"slot": 48,
+"coastal": true,
+"city": true
+},
+"Petrozavodsk": {
+"start": "Karelia",
+"slot": 49,
+"coastal": false,
+"city": false
+},
+"Vologda": {
+"start": "Russian Empire",
+"slot": 48,
+"coastal": false,
+"city": true
+},
+"Samara": {
+"start": "Russian Empire",
+"slot": 48,
+"coastal": true,
+"city": true
+},
+"Kolezhma": {
+"start": "Karelia",
+"slot": 49,
+"coastal": true,
+"city": false
+},
+"Vytegra": {
+"start": "Karelia",
+"slot": 49,
+"coastal": false,
+"city": false
+},
+"Severodvinsk": {
+"start": "Karelia",
+"slot": 49,
+"coastal": true,
+"city": false
+},
+"Rybinsk": {
+"start": "Karelia",
+"slot": 49,
+"coastal": false,
+"city": false
+},
+"Cherepovets": {
+"start": "Karelia",
+"slot": 49,
+"coastal": false,
+"city": false
+},
+"Mezen": {
+"start": "Russian Empire",
+"slot": 48,
+"coastal": true,
+"city": false
+},
+"Ustya": {
+"start": "Russian Empire",
+"slot": 48,
+"coastal": true,
+"city": false
+},
+"Ukhta": {
+"start": "Russian Empire",
+"slot": 48,
+"coastal": false,
+"city": false
+},
+"Leshukonskoye": {
+"start": "Russian Empire",
+"slot": 48,
+"coastal": false,
+"city": false
+},
+"Velsk": {
+"start": "Russian Empire",
+"slot": 48,
+"coastal": false,
+"city": false
+},
+"Kostroma": {
+"start": "Russian Empire",
+"slot": 48,
+"coastal": false,
+"city": false
+},
+"Balakovo": {
+"start": "Russian Empire",
+"slot": 48,
+"coastal": true,
+"city": false
+},
+"Kuratova": {
+"start": "Russian Empire",
+"slot": 48,
+"coastal": false,
+"city": false
+},
+"Saransk": {
+"start": "Russian Empire",
+"slot": 48,
+"coastal": false,
+"city": false
+},
+"Arzamas": {
+"start": "Russian Empire",
+"slot": 48,
+"coastal": false,
+"city": false
+},
+"Ulyanovsk": {
+"start": "Russian Empire",
+"slot": 48,
+"coastal": true,
+"city": false
+},
+"Zelenodolsk": {
+"start": "Russian Empire",
+"slot": 48,
+"coastal": true,
+"city": false
+},
+"Kineshma": {
+"start": "Russian Empire",
+"slot": 48,
+"coastal": false,
+"city": false
+},
+"Kirov": {
+"start": "Russian Empire",
+"slot": 48,
+"coastal": false,
+"city": false
+},
+"Kotlas": {
+"start": "Russian Empire",
+"slot": 48,
+"coastal": false,
+"city": false
+},
+"Vetluga": {
+"start": "Russian Empire",
+"slot": 48,
+"coastal": true,
+"city": false
+},
+"Kovrov": {
+"start": "Russian Empire",
+"slot": 48,
+"coastal": false,
+"city": false
+},
+"Priština": {
+"start": "Yugoslavia",
+"slot": 8,
+"coastal": false,
+"city": false
+}
+}

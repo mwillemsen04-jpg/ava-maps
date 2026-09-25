@@ -1,0 +1,7 @@
+{
+ "_note": "Corrections to unit types reported by the newspaper. Key = unit code as shown on the map (E1 = Spain's unit 1). Only the 'from' type is replaced by 'to', because unit numbers are reused once a unit is gone.",
+ "E1": {
+  "from": "Cruiser",
+  "to": "Battleship"
+ }
+}

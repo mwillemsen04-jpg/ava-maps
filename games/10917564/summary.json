@@ -1,0 +1,65 @@
+{
+ "id": "10917564",
+ "name": "KH vs PHK",
+ "day": 4,
+ "score": {
+  "G": 690,
+  "R": 580
+ },
+ "provinces": {
+  "G": 268,
+  "R": 226
+ },
+ "fetched": 1790369700739,
+ "built": 1790374597930,
+ "game_over": false,
+ "winner": null,
+ "teams": {
+  "G": [
+   {
+    "c": "Communist Russia",
+    "f": 3
+   },
+   {
+    "c": "France",
+    "f": 2
+   },
+   {
+    "c": "Germany",
+    "f": 1
+   },
+   {
+    "c": "Poland",
+    "f": 3
+   },
+   {
+    "c": "Southern United States",
+    "f": 4
+   }
+  ],
+  "R": [
+   {
+    "c": "Algeria",
+    "f": 2
+   },
+   {
+    "c": "Greater Romania",
+    "f": 3
+   },
+   {
+    "c": "Libya",
+    "f": 4
+   },
+   {
+    "c": "Russian Empire",
+    "f": 4
+   },
+   {
+    "c": "Ukraine",
+    "f": 1
+   }
+  ]
+ },
+ "events": 510,
+ "losses": 384
+}

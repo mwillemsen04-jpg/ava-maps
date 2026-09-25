@@ -1,0 +1,625 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>__TITLE__</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;500;600;700&family=Share+Tech+Mono&display=swap">
+<style>
+:root{
+  color-scheme:dark;
+  --ink:#0a0c10; --panel:#0d1117; --panel2:#111827; --line:#1e293b; --text:#e2e8f0; --muted:#94a3b8;
+  --brass:#b48c3c; --green:#22c55e; --red:#ef4444; --yellow:#facc15; --orange:#f97316; --grey:#94a3b8;
+  --display:"Rajdhani","Arial Narrow",sans-serif; --body:"Rajdhani",system-ui,sans-serif; --mono:"Share Tech Mono",ui-monospace,monospace;
+}
+[hidden]{display:none!important}
+html,body{height:100%}
+body{background:var(--ink);color:var(--text);font-family:var(--body);font-size:15px;font-weight:500;margin:0}
+.brand{display:flex;align-items:center;gap:12px}
+.brand .logo{width:40px;height:40px;border-radius:50%;object-fit:cover;border:2px solid rgba(180,140,60,.5);flex:none}
+.brand .bt{font-size:18px;font-weight:700;letter-spacing:3px;line-height:1;text-transform:none}
+.brand .bs{white-space:nowrap;font-family:var(--body);font-size:10px;font-weight:600;letter-spacing:2px;color:var(--brass);text-transform:uppercase;margin-top:3px}
+.app{height:100%;display:grid;grid-template-rows:auto 1fr auto;grid-template-columns:1fr 320px;grid-template-areas:"top top" "map feed" "bar bar"}
+header{grid-area:top;display:flex;align-items:center;gap:20px;padding:10px 16px;border-bottom:1px solid var(--line);background:var(--panel);flex-wrap:wrap}
+.brand .back{color:var(--muted);text-decoration:none;margin-right:10px}.brand .back:hover{color:var(--text)}
+.brand .gname{display:block;font-family:var(--body);font-weight:500;font-size:12px;letter-spacing:.06em;text-transform:none;color:var(--muted);margin-top:3px}
+.brand{font-family:var(--display);font-weight:700;font-size:22px;letter-spacing:.06em;text-transform:uppercase}
+.brand small{display:block;font-family:var(--body);font-weight:500;font-size:11px;letter-spacing:.08em;color:var(--muted)}
+.cas{padding:0 14px 12px;border-bottom:1px solid var(--line);display:flex;flex-direction:column;gap:2px}
+.cas-tot{display:flex;gap:16px;font-family:var(--display);font-size:13px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin-bottom:4px}
+.cas-tot b{font-family:var(--mono);font-size:18px;letter-spacing:0;margin-left:4px}
+.cas-tot .g b{color:var(--green)} .cas-tot .r b{color:var(--red)}
+.cas-n summary{display:grid;grid-template-columns:8px 1fr auto;gap:8px;align-items:center;cursor:pointer;list-style:none;padding:3px 0;font-size:13px}
+.cas-n summary::-webkit-details-marker{display:none}
+.cas-n summary i{width:8px;height:8px;border-radius:2px;background:var(--grey)}
+.cas-n.k-G summary i{background:var(--green)} .cas-n.k-R summary i{background:var(--red)}
+.cas-n summary b,.cas-n li b{font-family:var(--mono);font-weight:500;font-variant-numeric:tabular-nums}
+.cas-n ul{list-style:none;margin:0 0 4px 16px;padding:0;font-size:12px;color:var(--muted)}
+.cas-n li{display:flex;justify-content:space-between;gap:8px;line-height:1.5}
+.cas-note{margin:4px 0 0;font-size:11px;color:var(--muted);line-height:1.4}
+.upd{margin-left:auto;text-align:right;font-family:var(--body);font-size:11px;letter-spacing:.06em;color:var(--muted);line-height:1.5}
+.upd b{display:block;font-family:var(--mono);font-size:13px;font-weight:600;color:var(--text);letter-spacing:0;font-variant-numeric:tabular-nums}
+.upd b.soon{color:var(--brass)}
+.upd+.clock,.every+.clock{margin-left:0}
+.every{display:flex;flex-direction:column;gap:2px;font-family:var(--body);font-size:11px;letter-spacing:.06em;color:var(--muted)}
+.every select{height:26px;border:1px solid var(--line);border-radius:5px;background:var(--panel2);color:var(--text);font-family:var(--mono);font-size:12px;padding:0 4px;cursor:pointer}
+.every select:focus-visible{outline:1px solid var(--brass)}
+.every em{font-style:normal;color:var(--brass);font-size:10px}
+@media (max-width:820px){.upd{margin-left:0;text-align:left}}
+.clock{font-family:var(--mono);font-size:26px;font-weight:600;color:var(--brass);font-variant-numeric:tabular-nums;margin-left:auto}
+.clock span{display:block;font-size:10px;letter-spacing:.14em;color:var(--muted);text-transform:uppercase;font-family:var(--body);text-align:right}
+.tally{display:flex;flex-wrap:wrap;gap:4px 14px;flex:1 1 auto;min-width:0;font-family:var(--display);font-size:15px;letter-spacing:.04em}
+@media (min-width:821px){header{flex-wrap:nowrap}}
+.tally b{font-family:var(--mono);font-size:16px}
+.chip{display:inline-block;width:10px;height:10px;border-radius:2px;margin-right:6px;vertical-align:0}
+.map{grid-area:map;position:relative;overflow:hidden;background:#2b4c5b;cursor:grab;touch-action:none}
+.map.drag{cursor:grabbing}
+.pan{position:absolute;inset:0}
+.map.drag .pan{will-change:transform}   /* own layer only while dragging; a permanent one keeps the label text rendered soft */
+.world{position:absolute;left:0;top:0;transform-origin:0 0}
+.world img{position:absolute;display:block;max-width:none;user-select:none;-webkit-user-drag:none;pointer-events:none}
+.world img.new{animation:flash 1.4s ease-out}
+.world canvas{position:absolute;left:0;top:0;pointer-events:none}
+@keyframes flash{0%{filter:brightness(2.2)}100%{filter:brightness(1)}}
+.marks{position:absolute;inset:0;pointer-events:none}
+.war{height:34px;padding:0 12px;border:1px solid var(--line);border-radius:6px;background:var(--panel2);color:var(--text);font-family:var(--display);font-size:14px;letter-spacing:.04em;cursor:pointer}
+.war:hover{border-color:var(--red)}
+.war[aria-pressed="true"]{background:var(--red);border-color:var(--red);color:#fff}
+.hrs{display:inline-flex;align-items:center;gap:6px;height:34px;padding:0 8px;border:1px solid var(--line);border-radius:6px;background:var(--panel2);font-family:var(--display);font-size:14px;color:var(--muted)}
+.hrs input{width:48px;height:24px;border:1px solid var(--line);border-radius:4px;background:var(--ink);color:var(--text);font-family:var(--mono);font-size:13px;padding:0 4px;text-align:right}
+.hrs input:focus-visible{outline:1px solid var(--brass)}
+.lines .path{fill:none;stroke-width:4.5;stroke-linecap:round;opacity:1}.lines .pcase{fill:none;stroke:#0b1218;stroke-width:9;stroke-linecap:round;opacity:.9}.lines .pglow{fill:none;stroke-width:14;stroke-linecap:round;opacity:.28}
+.lines{position:absolute;inset:0;width:100%;height:100%;overflow:visible;pointer-events:none;stroke:rgba(231,237,233,.75);stroke-width:1}
+.hint{position:absolute;left:12px;top:12px;background:rgba(13,17,23,.9);border:1px solid var(--line);border-radius:5px;padding:4px 8px;font-family:var(--display);font-size:13px;letter-spacing:.04em;color:var(--brass)}
+.mk{position:absolute;left:0;top:0;width:13px;height:13px;pointer-events:none;cursor:pointer}
+.mk .dot,.mk .tag{pointer-events:auto}
+.mk:hover,.mk.sel{z-index:5}
+.tag{width:max-content}
+.tag .ln>*{flex:none}
+.mk .tag{position:absolute;left:0;top:0;transform:translate(14px,-4px)}
+.dot{display:block;box-sizing:border-box;width:13px;height:13px;border-radius:50%;border:2px solid #fff;background:#111;flex:none}
+.mk.k-G .dot{background:var(--green)} .mk.k-R .dot{background:var(--red)} .mk.k-X .dot{background:var(--yellow)} .mk.k-O .dot{background:var(--orange)} .mk.k-N .dot{background:var(--grey)}
+.mk.atk .dot{background:#0d171e;border-color:#fff}
+.mk.hot::before{content:'';position:absolute;left:0;top:0;width:13px;height:13px;border-radius:50%;border:2px solid rgba(180,140,60,.9);box-sizing:border-box;animation:pulse 1.2s ease-out infinite;pointer-events:none}
+@keyframes pulse{from{transform:scale(1);opacity:1}to{transform:scale(2.6);opacity:0}}
+.tag{font-family:var(--display);font-size:calc(10.5px*var(--ls,1));font-weight:600;letter-spacing:.03em;background:rgba(13,17,23,.9);border:1px solid var(--line);padding:0 calc(4px*var(--ls,1));border-radius:3px;white-space:nowrap}
+.tag em{font-style:normal;font-family:var(--mono);font-size:calc(7.5px*var(--ls,1));color:var(--brass);margin-right:calc(4px*var(--ls,1))}
+.mk.sel .tag{border-color:var(--brass)}
+.zoom{position:absolute;right:12px;top:12px;display:flex;flex-direction:column;gap:6px}
+.zoom button{width:34px;height:34px;border-radius:6px;border:1px solid var(--line);background:var(--panel);color:var(--text);font-size:18px;cursor:pointer}
+aside{grid-area:feed;border-left:1px solid var(--line);background:var(--panel);display:flex;flex-direction:column;min-height:0}
+aside h2{font-family:var(--display);font-size:11px;font-weight:700;letter-spacing:3px;text-transform:uppercase;color:var(--brass);margin:0;padding:12px 14px 8px}
+.detail{padding:0 14px 12px;border-bottom:1px solid var(--line)}
+.detail h3{font-family:var(--display);font-size:22px;margin:0 0 6px;letter-spacing:.03em}
+.detail .none{color:var(--muted);font-size:13px}
+.feed{overflow-y:auto;flex:1;padding:4px 8px 12px;contain:strict}
+.feed .ev{content-visibility:auto;contain-intrinsic-size:auto 78px}
+aside{contain:layout paint}
+.ev{display:grid;grid-template-columns:44px 10px 1fr;gap:8px;align-items:start;padding:6px 6px;border-radius:5px;cursor:pointer}
+.ev:hover,.ev:focus-visible{background:var(--panel2);outline:none}
+.ev time small{display:block;font-size:10px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);font-family:var(--body)}
+.ev time{font-family:var(--mono);font-size:12px;color:var(--muted);font-variant-numeric:tabular-nums}
+.ev .bar{width:4px;height:100%;min-height:26px;border-radius:2px;background:var(--grey)}
+.ev.k-G .bar{background:var(--green)} .ev.k-R .bar{background:var(--red)} .ev.k-X .bar{background:var(--yellow)} .ev.k-O .bar{background:var(--orange)} .ev.k-N .bar{background:var(--grey)}
+.ev b{font-family:var(--display);font-size:15px;letter-spacing:.03em;font-weight:600}
+.ev p{margin:1px 0 0;font-size:12.5px;color:var(--muted);line-height:1.35}
+.ev.cap p{color:var(--text)}
+.ev .badge{font-family:var(--display);font-size:11px;letter-spacing:.08em;text-transform:uppercase;padding:0 5px;border-radius:3px;margin-left:6px;background:var(--line);color:var(--text)}
+.ev.cap .badge{background:var(--brass);color:#0a0c10}
+footer{grid-area:bar;border-top:1px solid var(--line);background:var(--panel);padding:10px 16px 12px;display:grid;grid-template-columns:1fr auto;grid-template-areas:'ctl legend' 'track track';gap:8px 14px;align-items:center}
+footer .ctl{grid-area:ctl}footer .track{grid-area:track}footer .legend{grid-area:legend}
+.ctl{display:flex;gap:8px;align-items:center}
+.ctl button,.ctl select{height:34px;border-radius:6px;border:1px solid var(--line);background:var(--panel2);color:var(--text);font-family:var(--display);font-size:15px;letter-spacing:.04em;padding:0 12px;cursor:pointer}
+.ctl button.play{background:#16a34a;color:#fff;border-color:#16a34a;min-width:86px;font-weight:700}
+.track{position:relative;height:44px}
+.ticks{position:absolute;left:0;right:0;top:4px;height:16px}
+.ticks i{position:absolute;top:0;width:2px;height:16px;border-radius:1px;opacity:.9}
+.ticks i.a{height:7px;top:9px;background:#5d7482}
+.hours{position:absolute;left:0;right:0;top:24px;height:14px;font-family:var(--mono);font-size:10px;color:var(--muted)}
+.hours span{position:absolute;transform:translateX(-50%)}
+input[type=range]{position:absolute;left:0;right:0;top:0;width:100%;height:24px;margin:0;background:transparent;-webkit-appearance:none;appearance:none}
+input[type=range]::-webkit-slider-runnable-track{height:24px;background:transparent}
+input[type=range]::-webkit-slider-thumb{-webkit-appearance:none;width:4px;height:24px;background:var(--brass);border-radius:2px;box-shadow:0 0 0 3px rgba(180,140,60,.25)}
+input[type=range]::-moz-range-thumb{width:4px;height:24px;background:var(--brass);border:0;border-radius:2px}
+input[type=range]:focus-visible{outline:1px solid var(--brass)}
+.ctl{flex-wrap:wrap}
+.tag .ln{display:flex;align-items:center;gap:calc(3px*var(--ls,1));font-family:var(--body);font-weight:500;font-size:calc(8px*var(--ls,1));letter-spacing:0;line-height:1.2}
+.tag .ln.sub{padding-left:calc(15px*var(--ls,1));font-size:calc(7px*var(--ls,1));color:var(--muted);opacity:.9}
+.tag .ln.sub b{color:inherit;font-weight:600}
+.tag .ln i{width:calc(5px*var(--ls,1));height:calc(5px*var(--ls,1));border-radius:1px;flex:none;background:var(--grey)}
+.tag .ln i.k-G{background:var(--green)}.tag .ln i.k-R{background:var(--red)}.tag .ln i.k-X{background:var(--yellow)}.tag .ln i.k-O{background:var(--orange)}.tag .ln i.k-N{background:var(--grey)}
+.tag .ln em{margin-right:0}
+.tag.full{padding:calc(1px*var(--ls,1)) calc(3px*var(--ls,1))}
+.tag.cmp .ln{display:none}
+.tag.full .nm{display:block;color:var(--brass);font-size:calc(8.5px*var(--ls,1));line-height:1.15}
+.tag .ln i.note{font-style:italic;color:var(--muted);width:auto;height:auto;background:none}
+.tag .nm .earlier{font-family:var(--body);font-weight:500;font-size:.8em;color:var(--muted);margin-left:4px}
+.tag .ln b.uid{font-family:var(--mono);font-weight:600;color:var(--brass)}
+.tag .ln b.lost{font-weight:600;color:#ff9b9b}
+.ev .badge.lost{background:#5a1f25;color:#ffc9c9}
+.lostt{color:var(--muted)}
+.mk.haslost::after{content:'✕';position:absolute;left:8px;top:-9px;font:700 10px/1 var(--body);color:#fff;background:#8f1d27;border-radius:50%;width:12px;height:12px;display:flex;align-items:center;justify-content:center;pointer-events:none}
+.legend{display:flex;gap:12px;font-size:12px;color:var(--muted);flex-wrap:wrap}
+@media (max-width:820px){
+  .app{grid-template-columns:1fr;grid-template-rows:auto 55vh auto auto;grid-template-areas:"top" "map" "bar" "feed"}
+  html,body{height:auto}
+  aside{border-left:0;border-top:1px solid var(--line);max-height:60vh}
+  footer{grid-template-columns:1fr;grid-template-areas:'ctl' 'track' 'legend'}
+  .clock{margin-left:0}
+}
+@media (prefers-reduced-motion:reduce){.mk.hot::before,.world img.new{animation:none}}
+
+.ctl{display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+.ctl #speed{width:74px}
+.ctl #who{width:200px;max-width:100%}
+.toggles{display:flex;gap:0;border:1px solid var(--line);border-radius:6px;overflow:hidden;height:34px}
+.opt{position:relative;display:flex;align-items:center;cursor:pointer;font-family:var(--display);font-size:15px;letter-spacing:.04em;white-space:nowrap}
+.opt input{position:absolute;opacity:0;width:1px;height:1px}
+.opt span{display:flex;align-items:center;gap:7px;height:34px;padding:0 12px;background:var(--panel2);color:var(--muted)}
+.opt span::before{content:'';width:8px;height:8px;border-radius:50%;border:1.5px solid var(--muted)}
+.opt+.opt span{border-left:1px solid var(--line)}
+.opt input:checked+span{background:rgba(180,140,60,.16);color:var(--text)}
+.opt input:checked+span::before{background:var(--brass);border-color:var(--brass)}
+.opt input:focus-visible+span{outline:1px solid var(--brass);outline-offset:-2px}
+@media (max-width:820px){
+  .ctl{display:grid;grid-template-columns:1fr 72px;gap:8px}
+  .ctl #speed{width:100%}
+  .ctl #who{grid-column:1/-1;width:100%}
+  .toggles{grid-column:1/-1}
+  .toggles .opt{flex:1}.toggles .opt span{width:100%;justify-content:center}
+}
+
+.score{display:grid;grid-template-columns:1fr 1fr;gap:8px;padding:0 14px 12px;border-bottom:1px solid var(--line)}
+.team{border:1px solid var(--line);border-radius:6px;padding:8px 10px;background:var(--panel2)}
+.team.lead{}
+.team h4{margin:0;font-family:var(--display);font-size:13px;letter-spacing:.1em;text-transform:uppercase;display:flex;align-items:center;gap:6px}
+.team .pts{font-family:var(--mono);font-size:24px;font-weight:600;font-variant-numeric:tabular-nums;margin:2px 0 4px}
+.team .pts small{font-size:11px;color:var(--muted);margin-left:4px;font-family:var(--body)}
+.team ul{list-style:none;margin:0;padding:0;font-size:11.5px;color:var(--muted)}
+.team li{display:flex;justify-content:space-between;gap:6px;line-height:1.5}
+.ui{display:inline-block;flex:none;object-fit:contain}
+.tag .ln .ui{width:calc(15px*var(--ls,1));height:calc(15px*var(--ls,1));margin:calc(-2px*var(--ls,1)) 0}
+.tag .ln .tx{white-space:nowrap}
+.more{display:block;width:100%;margin:8px 0;height:34px;border:1px solid var(--line);border-radius:6px;background:var(--panel2);color:var(--text);font-family:var(--display);font-size:14px;cursor:pointer}
+.wi{display:flex;align-items:flex-start;gap:8px;margin:0}
+.wi .ui{width:30px;height:30px;margin-top:1px}
+.wi>span:last-child{flex:1;min-width:0}
+.team li b{font-family:var(--mono);font-weight:500;color:var(--text)}
+.team li.prov{margin-top:4px;padding-top:4px;border-top:1px solid var(--line);color:var(--text)}.team li.prov b{font-size:14px;font-weight:600}.team li.sub{font-size:10.5px}
+.score .rule{grid-column:1/-1;font-size:11px;color:var(--muted);margin:0}
+/*__ICONCSS__*/
+
+/* control bar: two aligned rows (playback on top, filters below) */
+footer{grid-template-columns:auto minmax(0,1fr)!important}
+footer{grid-template-areas:'ctl ctl' 'legend legend' 'track track'!important}
+footer .legend{justify-self:start;flex-wrap:wrap;justify-content:flex-start;gap:6px 18px;padding:2px 0}
+footer .legend span{display:inline-flex;align-items:center;gap:6px;white-space:nowrap}
+footer .legend .chip{margin:0;width:10px;height:10px}
+.lostic{width:12px;height:12px;border-radius:50%;background:#8f1d27;color:#fff;font:700 9px/1 var(--body);font-style:normal;display:inline-flex;align-items:center;justify-content:center}
+.ctl .war{white-space:nowrap}
+.ctl .toggles .opt span{padding:0 8px}
+.ctl{display:grid!important;grid-template-columns:110px 74px 200px 200px 230px 480px;grid-auto-rows:34px;gap:8px;align-items:stretch}
+.ctl>*{width:100%;min-width:0;height:34px;box-sizing:border-box}
+.ctl #speed,.ctl #who{width:100%}
+.ctl .hrs{justify-content:space-between}
+.ctl .hrs input{flex:none}
+.ctl #who{grid-column:1/4}
+.ctl .toggles{grid-column:4/7}
+.ctl .toggles .opt{flex:1}.ctl .toggles .opt span{width:100%;justify-content:center;box-sizing:border-box}
+@media (max-width:820px){
+  footer{grid-template-columns:1fr!important;grid-template-areas:'ctl' 'legend' 'track'!important}
+  .ctl{grid-template-columns:repeat(4,minmax(0,1fr))}
+  .ctl .play{grid-column:1/3}.ctl #speed{grid-column:3/5}.ctl #from{grid-column:1/-1}
+  .ctl .hrs{grid-column:span 2}.ctl .war{grid-column:1/-1}.ctl .presets{grid-column:1/-1}.ctl #who{grid-column:1/-1}.ctl .toggles{grid-column:1/-1}
+  .ctl .toggles{display:grid;grid-template-columns:1fr 1fr;grid-row:span 3;height:auto}
+  .ctl .toggles .opt span{padding:0 6px;font-size:14px;border-left:0}
+  .ctl .toggles .opt:nth-child(even) span{border-left:1px solid var(--line)}
+  .ctl .toggles .opt:nth-child(n+3) span{border-top:1px solid var(--line)}
+}
+
+/* the map picture has a dark frame from the game screenshot: cut it off so the map blends into the sea */
+#base{clip-path:inset(3px 12px 10px 9px)}
+.ctl .presets{display:grid;grid-template-columns:.8fr .9fr 1.3fr;gap:8px}
+@media (max-width:820px){.ctl .presets{grid-template-columns:1fr 1fr;grid-row:span 2;height:auto}.ctl .presets #war{grid-column:1/-1}}.ctl .presets .war{width:100%;height:34px;padding:0 8px;grid-column:auto}
+#plset[aria-pressed="true"]{background:var(--brass);border-color:var(--brass);color:#0a0c10}
+#aiset[aria-pressed="true"]{background:var(--grey);border-color:var(--grey);color:#0a0c10}
+/* phone: the event list grows with the page instead of being a (collapsed) box of its own, so it simply scrolls with the page */
+@media (max-width:820px){aside{max-height:none;contain:none}.feed{contain:none;overflow:visible;flex:none}}
+</style>
+
+<div class="app">
+  <header>
+    <div class="brand"><a class="back" href="../../index.html#games" aria-label="All games">&#8592;</a><img class="logo" src="__LOGO__" alt="AF logo"><div><div class="bt">Live AVA viewer</div><div class="bs">Amicitia Ferox · __TITLE__</div></div></div>
+    <div class="tally" id="tally"></div>
+    <div class="upd" id="upd" aria-live="off"></div>
+    <label class="every" id="everyw" hidden title="How often this map is updated. Changing it opens a short GitHub form: press Submit new issue to confirm (repository members only)."><span>Update every</span><select id="every"><option value="15">15 min</option><option value="30">30 min</option><option value="60">1 hour</option><option value="120">2 hours</option><option value="240">4 hours</option></select><em id="everyn" hidden>confirm on GitHub</em></label>
+    <div class="clock" id="clock">18:00<span>23 Sep</span></div>
+  </header>
+  <div class="map" id="map">
+    <div class="pan" id="pan"><div class="world" id="world"><img id="base" alt="Map" src="__BASE__"></div>
+    <svg class="lines" id="lines"></svg><div class="marks" id="marks"></div></div><div class="hint" id="hint" hidden>Zoom in to see unit info</div>
+    <div class="zoom"><button id="zin" aria-label="Zoom in">+</button><button id="zout" aria-label="Zoom out">−</button><button id="zfit" aria-label="Whole map">⤢</button></div>
+  </div>
+  <aside>
+    <h2>Scoreboard</h2>
+    <div class="score" id="score"></div>
+    <h2>Selected</h2>
+    <div class="detail" id="detail"><p class="none">Click a dot or an entry to see the history of a province.</p></div>
+    <h2>Events so far</h2>
+    <div class="feed" id="feed"></div>
+  </aside>
+  <footer>
+    <div class="ctl">
+      <button class="play" id="play">▶ Play</button>
+      <select id="speed" aria-label="Speed"><option value="1" selected>1×</option><option value="3">3×</option><option value="10">10×</option></select>
+      <select id="from" aria-label="Show from day"></select>
+      <label class="hrs"><span>Last</span><input id="hrs" type="number" min="1" step="1" inputmode="numeric" placeholder="…" aria-label="Show the last number of hours"><span>h</span></label>
+      <label class="hrs" title="Only show what happened in the last hours before the timeline position; older events are hidden"><span>Window</span><input id="trail" type="number" min="1" step="1" inputmode="numeric" placeholder="…" aria-label="Only show the last number of hours before the timeline position"><span>h</span></label>
+      <div class="presets"><button type="button" class="war" id="war" aria-pressed="false" title="Everything since the start of today: captures, losses, unit info and unit paths">War settings</button><button type="button" class="war" id="aiset" aria-pressed="false" title="Show every AI unit that died, with unit info">AI loss settings</button><button type="button" class="war" id="plset" aria-pressed="false" title="Only the units the players lost, with all reports">Player unit loss settings</button></div>
+      <select id="who" aria-label="Show country"><option value="all">All countries</option><option value="G">Team green</option><option value="R">Team red</option></select>
+      <div class="toggles"><label class="opt" title="On: who, which units and unit numbers on the map (zoom in, or turn on All reports). Off: only place and time"><input type="checkbox" id="lab" checked><span>Unit info</span></label><label class="opt"><input type="checkbox" id="ecaps" checked><span>Captures</span></label><label class="opt"><input type="checkbox" id="loss"><span>Unit losses</span></label><label class="opt" title="Every unit of a non-team (AI) country that died, whoever killed it"><input type="checkbox" id="airep"><span>AI deaths</span></label><label class="opt" title="Show every report at once, also when zoomed out"><input type="checkbox" id="allrep"><span>All reports</span></label><label class="opt"><input type="checkbox" id="paths"><span>Unit paths</span></label></div>
+    </div>
+    <div class="track">
+      <div class="ticks" id="ticks"></div>
+      <input type="range" id="slider" aria-label="Time">
+      <div class="hours" id="hours"></div>
+    </div>
+    <div class="legend">
+      <span><i class="chip" style="background:var(--green)"></i>Team green</span>
+      <span><i class="chip" style="background:var(--red)"></i>Team red</span>
+      <span><i class="chip" style="background:var(--yellow)"></i>Recaptured by a non-team country</span>
+      <span><i class="chip" style="background:var(--orange)"></i>Revolt</span>
+      <span><i class="lostic" aria-hidden="true">✕</i>Unit lost</span>
+      <span><i class="chip" style="background:var(--grey)"></i>AI unit lost to another AI country or unknown</span>
+    </div>
+  </footer>
+</div>
+<script id="data" type="application/json">__DATA__</script>
+<script>
+const D=JSON.parse(document.getElementById('data').textContent);
+const $=id=>document.getElementById(id);
+const setHTML=(el,h)=>{if(el._h!==h){el._h=h;el.innerHTML=h}};
+// country filter: team nations come from the game data, so any nation a player picks shows up here
+(function(){const sel=$('who');[['G','Team green'],['R','Team red']].forEach(([k,l])=>{const names=(D.teams&&D.teams[k])||[];if(!names.length)return;
+  const g=document.createElement('optgroup');g.label=l;names.forEach(n=>{const o=document.createElement('option');o.value=n;o.textContent=n;g.appendChild(o)});sel.appendChild(g)});})();
+const map=$('map'),world=$('world'),marks=$('marks'),lines=$('lines'),slider=$('slider');
+const fmt=k=>{const h=Math.floor(k/60)%24,m=k%60;return String(h).padStart(2,'0')+':'+String(m).padStart(2,'0')};
+const day=k=>new Date(Date.UTC(D.base[0],D.base[1]-1,D.base[2])+Math.floor(k/1440)*864e5).toLocaleDateString('en-GB',{day:'numeric',month:'short',timeZone:'UTC'});   // real calendar date, also past the end of September
+// game days start at 18:00: 23 Sep 18:00 = day 2, 24 Sep 18:00 = day 3, ...
+const gday=k=>2+Math.floor((k-D.t0)/1440);
+const fmtD=k=>'D'+gday(k)+' '+fmt(k);
+const TEAM={G:'Team groen',R:'Team rood',X:'Land zonder team'};
+// events
+let EV=[...D.caps.map(e=>({...e,type:'cap'})),...D.atk.map(e=>({...e,type:'atk'})),...(D.loss||[]).map(e=>({...e,type:'loss'}))].sort((a,b)=>a.t-b.t||(a.type==='atk'?-1:1));
+// a stack of N units is shown as the one unit type we know plus the rest: "1× Light Tank + 3 units"
+const unitsTxt=(n,u)=>n==null?u:'1× '+u+(n>1?' + '+(n-1)+' unit'+(n>2?'s':''):'');   // count unknown -> type only, never a made-up 1×
+// attacks and a capture by the same nation, in the same province and the same minute, become one line
+// (repeated hits in one minute are the same stack, so the largest stack size is used, not the sum)
+{const key=e=>e.t+'|'+e.p+'|'+e.c,atkBy={};
+ EV.forEach(e=>{if(e.type==='atk')(atkBy[key(e)]=atkBy[key(e)]||[]).push(e)});
+ EV.forEach(e=>{if(e.type!=='cap')return;const a=atkBy[key(e)];if(!a)return;
+   e.sn=Math.max(...a.map(x=>x.n));e.foe=a[0].d;e.foeN=Math.max(...a.map(x=>x.dn));e.foeU=a[0].du;a.forEach(x=>x.merged=true)});
+ Object.values(atkBy).forEach(a=>{if(a[0].merged||a.length<2)return;a[0].n=Math.max(...a.map(x=>x.n));a[0].dn=Math.max(...a.map(x=>x.dn));a.slice(1).forEach(x=>x.merged=true)});
+ EV=EV.filter(e=>!e.merged);}
+EV.forEach((e,i)=>e.i=i);
+// a loss that is already listed under the capture/attack that caused it ("kills") is linked to it, so it is not shown twice
+EV.forEach(c=>{if(!c.kills)return;c.kills.forEach(x=>{const l=EV.find(e=>e.type==='loss'&&!e._cap&&e.p===c.p&&e.c===x.c&&(e.id||null)===(x.id||null)&&e.by===c.c&&Math.abs(e.t-c.t)<=60);if(l)l._cap=c})});
+const dedupe=a=>{const s=new Set(a);return a.filter(e=>!(e._cap&&s.has(e._cap)))};
+const byProvAll={};EV.forEach(e=>(byProvAll[e.p]=byProvAll[e.p]||[]).push(e));
+const SHOW=e=>e.type==='loss'?(e.ai?$('airep').checked:$('loss').checked):$('ecaps').checked;   // team losses / AI deaths / captures+attacks
+const WHO=e=>{const f=$('who').value;return f==='all'||(f.length===1?e.k===f:e.c===f)};
+let FROM=D.t0,TO=D.t1,TRAIL=0;
+const LO=()=>TRAIL>0?Math.max(FROM,T-TRAIL*60):FROM;   // older events are hidden when a window is set   // shown time window: events before FROM are hidden, the timeline ends at TO
+const byProv=new Proxy({}, {get:(o,p)=>(byProvAll[p]||[]).filter(e=>e.t>=LO()&&SHOW(e)&&WHO(e)), ownKeys:()=>Reflect.ownKeys(byProvAll), getOwnPropertyDescriptor:(o,p)=>({enumerable:true,configurable:true})});
+// overlays
+// all captured-province colours are drawn onto ONE canvas (redrawn only when an owner changes),
+// instead of hundreds of separate images the browser has to composite on every frame
+const ovEl={},ovc=document.createElement('canvas');ovc.width=D.w;ovc.height=D.h;world.appendChild(ovc);
+const ovx=ovc.getContext('2d');let ovPending=0,ovDrawn='';
+for(const [p,o] of Object.entries(D.ov)){
+  ovEl[p]={};
+  for(const [k,src] of Object.entries(o.img)){
+    const im=new Image();ovPending++;im.onload=im.onerror=()=>{if(--ovPending===0){ovDrawn='';render()}};im.src=src;im.alt='';ovEl[p][k]=im;
+  }
+}
+// province colours: only the provinces whose owner changed are redrawn (plus neighbours overlapping the same area),
+// instead of clearing and repainting the whole map canvas on every step of the timeline
+let ovOwn={};
+function drawOverlays(owner){
+  if(ovPending)return;
+  const changed=[];for(const p in owner)if(ovOwn[p]!==owner[p])changed.push(p);for(const p in ovOwn)if(!(p in owner))changed.push(p);
+  if(!changed.length&&ovDrawn)return;
+  const draw=p=>{const kk=owner[p];const im=kk&&ovEl[p]&&ovEl[p][kk];if(!im)return;const b=D.ov[p].box;ovx.drawImage(im,b[0],b[1],b[2],b[3])};
+  if(changed.length>80||!ovDrawn){ovx.clearRect(0,0,D.w,D.h);for(const p in owner)draw(p)}
+  else for(const c of changed){const bc=D.ov[c]&&D.ov[c].box;if(!bc)continue;
+    ovx.save();ovx.beginPath();ovx.rect(bc[0],bc[1],bc[2],bc[3]);ovx.clip();ovx.clearRect(bc[0],bc[1],bc[2],bc[3]);
+    for(const p in owner){const b=D.ov[p]&&D.ov[p].box;if(b&&b[0]<bc[0]+bc[2]&&bc[0]<b[0]+b[2]&&b[1]<bc[1]+bc[3]&&bc[1]<b[1]+b[3])draw(p)}
+    ovx.restore()}
+  ovDrawn='1';ovOwn={...owner};
+}
+function flash(p,kk){const im=ovEl[p]&&ovEl[p][kk];if(!im||matchMedia('(prefers-reduced-motion: reduce)').matches)return;
+  const f=im.cloneNode();const b=D.ov[p].box;Object.assign(f.style,{left:b[0]+'px',top:b[1]+'px',width:b[2]+'px',height:b[3]+'px'});f.className='new';
+  world.appendChild(f);setTimeout(()=>f.remove(),1450)}
+// markers
+const mkEl={};
+for(const p of Object.keys(byProv)){
+  if(!D.pos[p])continue; // losses at sea or with unknown place: listed in the feed only
+  const el=document.createElement('div');el.className='mk';el.hidden=true;el.tabIndex=0;el.setAttribute('role','button');
+  el.innerHTML='<span class="dot"></span><span class="tag"></span>';
+  el.dataset.p=p;
+  el.addEventListener('keydown',ev=>{if(ev.key==='Enter')select(p)});
+  marks.appendChild(el);mkEl[p]=el;
+}
+// view
+let k=1,tx=0,ty=0;
+let mapR=null;const mapRect=()=>mapR||(mapR=map.getBoundingClientRect());
+new ResizeObserver(()=>{mapR=null}).observe(map);addEventListener('scroll',()=>{mapR=null},{passive:true});
+function clampView(){const r=mapRect();const W=D.w*k,H=D.h*k;tx=W<=r.width?(r.width-W)/2:Math.min(0,Math.max(r.width-W,tx));const m=r.height*.12;ty=H<=r.height?(r.height-H)/2:Math.min(m,Math.max(r.height-H-m,ty))}
+let rafId=0,panX=0,panY=0,dragT=0;
+function applyNow(){rafId=0;clampView();world.style.transform=`translate(${tx}px,${ty}px) scale(${k})`;$('pan').style.transform='';panX=panY=0;placeMarks()}
+function apply(){if(!rafId)rafId=requestAnimationFrame(applyNow)}
+function panBy(dx,dy){const ox=tx,oy=ty;tx+=dx;ty+=dy;clampView();panX+=tx-ox;panY+=ty-oy;
+  $('pan').style.transform=`translate(${Math.round(panX)}px,${Math.round(panY)}px)`}
+function fit(){const r=map.getBoundingClientRect();k=r.width/D.w;tx=(r.width-D.w*k)/2;ty=(r.height-D.h*k)/2;apply()}
+function focusEurope(){const r=map.getBoundingClientRect();const bx=[1250,2650],by=[380,1850];k=Math.max(minK(),Math.min(r.width/(bx[1]-bx[0]),r.height/(by[1]-by[0])));tx=r.width/2-(bx[0]+bx[1])/2*k;ty=r.height/2-(by[0]+by[1])/2*k;apply()}
+function minK(){const r=mapRect();return Math.min(r.width/D.w,r.height/D.h)}
+function zoomAt(f,cx,cy){const nk=Math.max(minK(),Math.min(6,k*f));tx=cx-(cx-tx)*nk/k;ty=cy-(cy-ty)*nk/k;k=nk;apply()}
+map.addEventListener('wheel',e=>{e.preventDefault();const r=map.getBoundingClientRect();zoomAt(Math.exp(-Math.max(-60,Math.min(60,e.deltaY))*0.004),e.clientX-r.left,e.clientY-r.top)},{passive:false});
+map.addEventListener('dblclick',e=>e.preventDefault());
+const pts=new Map();let last=null,pinch=null;
+let moved=0,lastTap=0;
+map.addEventListener('pointerdown',e=>{if(e.target.closest('.zoom'))return;map.setPointerCapture(e.pointerId);pts.set(e.pointerId,{x:e.clientX,y:e.clientY});if(pts.size===1)moved=0;else moved=99;map.classList.add('drag')});
+map.addEventListener('pointermove',e=>{if(!pts.has(e.pointerId))return;const p=pts.get(e.pointerId);
+  moved+=Math.abs(e.clientX-p.x)+Math.abs(e.clientY-p.y);
+  if(pts.size===1){panBy(e.clientX-p.x,e.clientY-p.y);pts.set(e.pointerId,{x:e.clientX,y:e.clientY});}
+  else{pts.set(e.pointerId,{x:e.clientX,y:e.clientY});const a=[...pts.values()];const d=Math.hypot(a[0].x-a[1].x,a[0].y-a[1].y);const r=map.getBoundingClientRect();
+    if(pinch)zoomAt(d/pinch,(a[0].x+a[1].x)/2-r.left,(a[0].y+a[1].y)/2-r.top);pinch=d;}});
+const up=e=>{const had=pts.has(e.pointerId);pts.delete(e.pointerId);if(pts.size<2)pinch=null;if(!pts.size){map.classList.remove('drag');apply()}
+  if(had&&!pts.size&&moved<8&&e.type==='pointerup'){
+    const hit=[...document.elementsFromPoint(e.clientX,e.clientY)].find(x=>x.classList&&x.classList.contains('mk'))||(document.elementFromPoint(e.clientX,e.clientY)||{}).closest?.('.mk');
+    const now=Date.now();
+    if(hit){select(hit.dataset.p)}
+    else if(now-lastTap<320){const r=map.getBoundingClientRect();zoomAt(1.8,e.clientX-r.left,e.clientY-r.top)}
+    lastTap=hit?0:now;}};
+map.addEventListener('pointerup',up);map.addEventListener('pointercancel',up);
+$('zin').onclick=()=>{const r=map.getBoundingClientRect();zoomAt(1.4,r.width/2,r.height/2)};
+$('zout').onclick=()=>{const r=map.getBoundingClientRect();zoomAt(1/1.4,r.width/2,r.height/2)};
+$('zfit').onclick=fit;
+// state
+let T=D.t0,selected=null,prevOwner={},feedKey='';
+const lastOff={};
+function placeMarks(){
+  // dots are placed from the current view; if a drag is in progress (e.g. while the timeline plays), fold the drag offset
+  // into the map first so the map and the dots use the same position
+  if(panX||panY){world.style.transform=`translate(${tx}px,${ty}px) scale(${k})`;$('pan').style.transform='';panX=panY=0}
+  const items=[];
+  // spatial grid of occupied boxes: overlap checks only look at nearby boxes, not at every label on the map
+  const G=64,grid=new Map(),cells=(b,f)=>{for(let gx=Math.floor(b[0]/G);gx<=Math.floor(b[2]/G);gx++)for(let gy=Math.floor(b[1]/G);gy<=Math.floor(b[3]/G);gy++)if(f(gx+','+gy))return true;return false};
+  const ov=(a,b)=>!(a[2]<=b[0]||b[2]<=a[0]||a[3]<=b[1]||b[3]<=a[1]);
+  const add=(b,owner)=>{b.o=owner;cells(b,c=>{let a=grid.get(c);if(!a)grid.set(c,a=[]);a.push(b);return false});return b};
+  const hit=(b,owner)=>cells(b,c=>{const a=grid.get(c);return !!a&&a.some(q=>!q.dead&&q.o!==owner&&ov(b,q))});
+  // labels grow gradually with the zoom (never smaller than the base size, at most 2x) so they stay readable when zoomed in
+  const ls=Math.round(Math.min(1.3,Math.max(1,1+(k-1.2)*0.25))*20)/20;   // grows only a little: zooming in then really makes room for more reports
+  if(ls!==marks._ls){marks._ls=ls;marks.style.setProperty('--ls',ls)}
+  const full=$('lab').checked&&(k>=REP_K||$('allrep').checked);           // unit lines only when zoomed in enough to read them
+  // labels are laid out for the whole map, not just the visible part: the layout then does not depend on
+  // where you look, so dragging only moves labels and never re-shuffles or hides them
+  const measure=[];
+  for(const [p,el] of Object.entries(mkEl)){if(el.hidden)continue;const q=D.pos[p];const x=q[0]*k+tx,y=q[1]*k+ty;{const tr=`translate(${Math.round(x-6.5)}px,${Math.round(y-6.5)}px)`;   /* whole pixels: text on a half pixel is drawn blurry */if(el._tr!==tr){el._tr=tr;el.style.transform=tr}}
+    const tg=el._tg||(el._tg=el.querySelector('.tag'));
+    if(full!==tg.classList.contains('full')){fillTag(p,el,true)}
+    tg.hidden=false;const it={p,x,y,tg,el,pr:(p===selected?4:0)+(el.classList.contains('hot')?2:0)+(el.className.includes('k-')?1:0)};
+    if(el._w==null)measure.push(it);items.push(it);
+    add([x-7,y-7,x+7,y+7],'dot:'+p);}
+  // measure both sizes of every changed label in two batched passes (one layout each): name only, and name + unit lines
+  for(const it of measure)it.tg.classList.add('cmp');
+  for(const it of measure){it.el._cw0=it.tg.offsetWidth/ls;it.el._ch0=it.tg.offsetHeight/ls}
+  for(const it of measure)it.tg.classList.remove('cmp');
+  for(const it of measure){it.el._w0=it.tg.offsetWidth/ls;it.el._h0=it.tg.offsetHeight/ls;it.el._w=1}
+  for(const it of items){const e=it.el;e._cw=Math.ceil(e._cw0*ls)+1;e._ch=Math.ceil(e._ch0*ls);e._w=Math.ceil(e._w0*ls)+1;e._h=Math.ceil(e._h0*ls)}
+  items.sort((a,b)=>b.pr-a.pr||(a.p<b.p?-1:a.p>b.p?1:0));
+  // candidate spots in screen px around the dot; small distances only so a label stays next to its own dot
+  const offs=[[10,0],[-10,0],[10,-14],[10,14],[-10,-14],[-10,14],[0,-12],[0,12],[26,0],[-26,0],[18,-26],[18,26],[-18,-26],[-18,26]];
+  // extra spots further away (a thin line then points back to the dot): rings around the dot in 16 directions
+  const RING=[];for(const r of [40,60,85,115,150,190])for(let i=0;i<16;i++){const a=i*Math.PI/8+(r%2?0:Math.PI/16);RING.push([Math.cos(a),Math.sin(a),r])}
+  const box=(it,o,w,h)=>{if(o.length===3){const cx=it.x+o[0]*(o[2]+w/2),cy=it.y+o[1]*(o[2]+h/2);return [cx-w/2,cy-h/2,cx+w/2,cy+h/2]}const [dx,dy]=o;let lx=dx>0?it.x+dx:dx<0?it.x+dx-w:it.x-w/2;let ly=dy<0?it.y+dy-h+(dx?h/2:0):dy>0?it.y+dy-(dx?h/2:0):it.y-h/2;return [lx,ly,lx+w,ly+h]};
+  // keep every label inside the map picture (relative to the map, so dragging still never moves labels)
+  const mx0=tx,my0=ty,mx1=tx+D.w*k,my1=ty+D.h*k;
+  const ALL=full;   // one zoom level for every province: from REP_K on all reports show at once
+  const over=(b,owner)=>{let n=0;cells(b,c=>{const a=grid.get(c);if(a)for(const q of a)if(!q.dead&&q.o!==owner&&ov(b,q))n+=Math.min(b[2],q[2])-Math.max(b[0],q[0]);return false});return n};
+  const fit=(it,w,h,pref,force)=>{let best=null,bo=1e9;for(const o of pref?[pref,...offs,...(force?RING:[])]:(force?[...offs,...RING]:offs)){const b=box(it,o,w,h);
+      if(b[0]<mx0||b[1]<my0||b[2]>mx1||b[3]>my1)continue;if(!hit(b,it.p))return {b,o};if(force){const n=over(b,it.p);if(n<bo){bo=n;best={b,o}}}}return best};
+  // zoomed out: every dot gets a small name label where there is room
+  if(!full)for(const it of items){const f=fit(it,it.el._cw,it.el._ch,lastOff[it.p+'|c'],false);if(f){it.c=f;add(f.b,it.p);lastOff[it.p+'|c']=f.o}}
+  // zoomed in: every province gets its full report, placed straight away (biggest first, they are hardest to fit)
+  else{items.sort((a,b)=>b.pr-a.pr||(b.el._w*b.el._h-a.el._w*a.el._h)||(a.p<b.p?-1:a.p>b.p?1:0));
+    for(const it of items){const f=fit(it,it.el._w,it.el._h,lastOff[it.p+'|f'],true);if(f){it.f=f;add(f.b,it.p);lastOff[it.p+'|f']=f.o}}}
+  const svg=[];
+  for(const it of items){const use=it.f||it.c;
+    if(!use){it.tg.hidden=true;continue}
+    it.tg.classList.toggle('cmp',!it.f&&full);
+    const b=use.b,o=use.o;it.tg.style.transform=`translate(${Math.round(b[0])-Math.round(it.x-6.5)}px,${Math.round(b[1])-Math.round(it.y-6.5)}px)`;
+    if(o.length===3||Math.abs(o[0])>12||Math.abs(o[1])>12){const cx=Math.max(b[0],Math.min(it.x,b[2])),cy=Math.max(b[1],Math.min(it.y,b[3]));svg.push(`<line x1="${it.x}" y1="${it.y}" x2="${cx}" y2="${cy}"/>`)}}
+  setHTML(lines,pathsSvg()+svg.join(''));
+  $('hint').hidden=!($('lab').checked&&k<REP_K&&!$('allrep').checked);
+}
+
+const TEAMS={G:["Southern United States","France","Germany","Poland","Communist Russia"],R:["Libya","Algeria","Greater Romania","Russian Empire","Ukraine"]};
+function renderScore(lastCap){
+  // every victory point city is worth 10: a team's score = 10 x the cities its nations hold at this moment
+  const C0=D.city0||{},tm={};for(const k of ['G','R'])((D.teams&&D.teams[k])||TEAMS[k]).forEach(c=>tm[c]=k);
+  const home={G:0,R:0},cap={G:0,R:0};
+  for(const c of (D.cities||[])){const own=lastCap[c]?lastCap[c].c:C0[c];const k=tm[own];if(!k)continue;if(tm[C0[c]]===k)home[k]++;else cap[k]++}
+  const tot={G:(home.G+cap.G)*10,R:(home.R+cap.R)*10};
+  // provinces held right now by each team: its own starting provinces it still holds + everything it took
+  const P0=D.prov0||{},ph={G:0,R:0},pc={G:0,R:0};
+  for(const [p,st] of Object.entries(P0)){const own=lastCap[p]?lastCap[p].c:st;const k=tm[own];if(!k)continue;if(tm[st]===k)ph[k]++;else pc[k]++}
+  const lead=tot.G>tot.R?'G':tot.R>tot.G?'R':'';
+  const card=k=>`<div class="team ${lead===k?'lead':''}"><h4><i class="chip" style="background:var(--${k==='G'?'green':'red'})"></i>Team ${k==='G'?'green':'red'}</h4><div class="pts">${tot[k]}<small>pts</small></div><ul><li><span>Home cities (${home[k]})</span><b>${home[k]*10}</b></li><li><span>Captured cities (${cap[k]})</span><b>${cap[k]*10}</b></li><li class="prov"><span>Provinces</span><b>${ph[k]+pc[k]}</b></li><li class="sub"><span>own ${ph[k]} · captured ${pc[k]}</span></li></ul></div>`;
+  setHTML($('score'),card('G')+card('R'));
+}
+function tagLine(e){
+  const main=e.type==='cap'&&e.sync?e.c+': holds it <i class="note">(capture or revolt not in newspaper)</i>'
+    :e.type==='cap'&&e.rev?'Revolted '+(e.frm?'from '+e.frm+' ':'')+'to '+e.c
+    :e.type==='cap'?e.c+': '+unitsTxt(e.sn,e.u)+(e.id?' <b class="uid">('+e.id+')</b>':'')+' '+(e.k==='X'?'recaptured':'captured')
+    :e.type==='loss'?'<b class="lost">✕ '+e.c+': '+e.what+' lost'+(e.id?' ('+e.id+')':'')+'</b>'
+    :e.c+': '+unitsTxt(e.n,e.u);
+  let subs='';
+  if(e.type==='loss'&&e.by)subs+='<span class="ln sub">'+(ico(e.by,e.byu)||(D.hasIcons?'<span class="ui"></span>':''))+'<span class="tx">Killed by <b>'+e.by+'</b>'+(e.byu?': '+unitsTxt(e.byn,e.byu):'')+(e.byid?' <b class="uid">('+e.byid+')</b>':'')+'</span></span>';
+  if(e.type==='loss'&&e.tot>e.n)subs+='<span class="ln sub">'+(D.hasIcons?'<span class="ui"></span>':'')+'<span class="tx">Whole unit'+(e.id?' '+e.id:'')+' gone: <b>'+e.tot+' units</b> lost in total</span></span>';
+  if(e.kills&&e.kills.length)subs+=e.kills.map(x=>'<span class="ln sub">'+(ico(x.c,x.what)||(D.hasIcons?'<span class="ui"></span>':''))+'<span class="tx"><b>'+x.c+'</b>: '+x.what+' lost'+(x.id?' <b class="uid">('+x.id+')</b>':'')+'</span></span>').join('');
+  return '<span class="ln"><i class="k-'+e.k+'"></i><em>'+fmtD(e.t)+'</em>'+(icoE(e)||(D.hasIcons?'<span class="ui"></span>':''))+'<span class="tx">'+main+'</span></span>'+subs;
+}
+function fillTag(p,el,force){
+  const tg=el._tg||(el._tg=el.querySelector('.tag'));const evs=dedupe(byProv[p].filter(e=>e.t<=T));if(!evs.length)return;const lastE=evs[evs.length-1];
+  const full=$('lab').checked&&(k>=REP_K||$('allrep').checked),key=evs.length+'|'+full+'|'+$('loss').checked+'|'+$('ecaps').checked+'|'+$('airep').checked+'|'+$('who').value;
+  if(!force&&el._key===key)return;el._key=key;el._w=null;
+  if(full){tg.className='tag full';
+    const MAXL=3,shown=evs.length>MAXL?evs.slice(-MAXL):evs;   // newest 3 lines; older ones are in the province panel
+    tg.innerHTML='<span class="nm">'+p+(evs.length>MAXL?' <span class="earlier">+'+(evs.length-MAXL)+' earlier</span>':'')+'</span>'+shown.map(tagLine).join('');
+  }else{tg.className='tag';tg.innerHTML='<em>'+fmtD(lastE.t)+'</em>'+p;}
+}
+// unit icon for a nation's unit type in that nation's doctrine (Axis, Allies, Comintern, Pan-Asian)
+function ico(nat,unit){if(!D.hasIcons||!unit)return '';const nm=String(unit).replace(/^\d+×\s*/,'').split(',')[0].trim();const id=(D.ubase||{})[nm+'|'+((D.fac||{})[nat]||1)];return id&&D.icons[id]?`<img class="ui" alt="" decoding="async" src="${D.icons[id]}">`:''}
+function icoE(e){if(e.type==='cap')return e.sync||e.rev?'':ico(e.c,e.u);if(e.type==='loss')return ico(e.c,e.what||e.u);return ico(e.c,e.u)}
+let feedMax=150,feedAt=0;
+const REP_K=1.8;   // zoom level from which every report is shown
+function describe(e){
+  if(e.type==='cap'&&e.sync)return e.c+' holds it · seen in the game data; the capture or revolt that gave it is not in any newspaper we have';
+  if(e.type==='cap'&&e.rev)return 'Revolted '+(e.frm?'from '+e.frm+' ':'')+'to '+e.c;
+  if(e.type==='cap'){return (e.k==='X'?'Recaptured by ':'Captured by ')+e.c+' ('+unitsTxt(e.sn,e.u)+(e.id?' '+e.id:'')+')'+(e.foe?' from '+e.foe+' ('+unitsTxt(e.foeN,e.foeU)+')':'')+(e.cap?' · capital':'')+(e.kills&&e.kills.length?' · killed '+e.kills.map(x=>x.c+' '+x.what+(x.id?' ('+x.id+')':'')).join(', '):'')}
+  if(e.type==='loss'&&e.stat)return e.c+' lost '+e.what+' · counted in the game statistics, not reported in the newspaper (time and place unknown)';
+  if(e.type==='loss')return e.c+' lost '+e.what+(e.id?' ('+e.id+')':'')+(e.dest?' · whole unit destroyed':' · unit survived')+(e.by?' · by '+e.by+(e.byu?' '+unitsTxt(e.byn,e.byu):'')+(e.byid?' '+e.byid:''):'')+(e.tot>e.n?' · whole unit gone, '+e.tot+' units lost in total':'')+(e.pinf?' · place: where this unit was later wiped out':'')+(e.p?'':' · place not reported');
+  return e.c+' attacks with '+unitsTxt(e.n,e.u)+' against '+e.d+' ('+unitsTxt(e.dn,e.du)+')'
+}
+
+function renderCas(){
+  const on=$('loss').checked&&D.cas&&D.cas.nations&&D.cas.nations.length;$('cas').hidden=$('cash').hidden=!on;if(!on)return;
+  const f=$('who').value,show=n=>f==='all'||f===n.k||f===n.c;
+  const nf=v=>v.toLocaleString('en-GB');
+  const asof=D.cas.asof?new Date(D.cas.asof).toLocaleTimeString('en-GB',{timeZone:'Europe/Amsterdam',hour:'2-digit',minute:'2-digit'}):'';
+  setHTML($('cas'),'<div class="cas-tot"><span class="g">Green <b>'+nf(D.cas.teams.G)+'</b></span><span class="r">Red <b>'+nf(D.cas.teams.R)+'</b></span></div>'+
+    D.cas.nations.filter(show).map(n=>'<details class="cas-n k-'+n.k+'"><summary><i></i><span>'+n.c+'</span><b>'+nf(n.total)+'</b></summary><ul>'+
+      n.by.map(([e,v])=>'<li><span>vs '+e+'</span><b>'+nf(v)+'</b></li>').join('')+'</ul></details>').join('')+
+    '<p class="cas-note">From the game newspaper: soldiers each nation has lost in every war since it began, as of '+asof+'. Totals, not tied to the timeline slider.</p>');
+}
+// unit paths: consecutive captures by the same ground unit (same nation and unit code, e.g. BQ26)
+// joined in time order with an arrow; jumps longer than a few provinces are left out (unit numbers can be reused)
+const GROUND=/Infantry|Armored Car|Tank|Anti Air|Artillery|Commando|Militia|Paratroop|Motorized|Mechanized|Engineer/i;
+const NOTGROUND=/Bomber|Interceptor|Fighter|Flying Bomb|Rocket Fighter|Cruiser|Destroyer|Submarine|Battleship|Carrier|Ballistic|Cruise Missile/i;
+let PATHS=[];
+function buildPaths(){PATHS=[];if(!$('paths').checked)return;
+  const g={};for(const e of D.caps){if(e.t<LO()||e.t>T||!e.id||e.sync||e.rev||!D.pos[e.p]||!GROUND.test(e.u||'')||NOTGROUND.test(e.u||'')||!WHO(e))continue;
+    (g[e.c+'|'+e.id]=g[e.c+'|'+e.id]||[]).push(e)}
+  for(const L of Object.values(g))for(let i=1;i<L.length;i++){const a=D.pos[L[i-1].p],b=D.pos[L[i].p];
+    if(L[i-1].p===L[i].p)continue;const d=Math.hypot(b[0]-a[0],b[1]-a[1]);if(d>230)continue;PATHS.push({a,b,k:L[i].k,id:L[i].id})}}
+function pathsSvg(){if(!PATHS.length)return '';const col={G:'#46c35c',R:'#e04848',X:'#f3d43a',O:'#f08a24'};
+  let o='<defs>'+Object.entries(col).map(([k,c])=>`<marker id="ar${k}" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="3.6" markerHeight="3.6" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="${c}" stroke="#0b1218" stroke-width="1.2"/></marker>`).join('')+'</defs>';
+  for(const s of PATHS){let x1=s.a[0]*k+tx,y1=s.a[1]*k+ty,x2=s.b[0]*k+tx,y2=s.b[1]*k+ty;const L=Math.hypot(x2-x1,y2-y1);if(L<18)continue;
+    const ux=(x2-x1)/L,uy=(y2-y1)/L;x1+=ux*8;y1+=uy*8;x2-=ux*9;y2-=uy*9;
+    const d=`M${x1.toFixed(1)},${y1.toFixed(1)} L${x2.toFixed(1)},${y2.toFixed(1)}`;o+=`<path class="pglow" d="${d}" stroke="${col[s.k]||col.X}"/><path class="pcase" d="${d}"/><path class="path" d="M${x1.toFixed(1)},${y1.toFixed(1)} L${x2.toFixed(1)},${y2.toFixed(1)}" stroke="${col[s.k]||col.X}" marker-end="url(#ar${s.k in col?s.k:'X'})"/>`}
+  return o}
+function render(){
+  setHTML($('clock'),fmt(T)+'<span>Day '+gday(T)+' · '+day(T)+'</span>');
+  const owner={};
+  const lastCap={};for(const e of D.caps){if(e.t<=T)lastCap[e.p]=e}
+  for(const [p,e] of Object.entries(lastCap)){if(WHO(e))owner[p]=e.k}
+  renderScore(lastCap);
+  drawOverlays(owner);
+  if(timer)for(const [p,kk] of Object.entries(owner))if(prevOwner[p]!==kk)flash(p,kk);
+  prevOwner=owner;
+  const lostN={G:0,R:0};(D.loss||[]).forEach(e=>{if(!e.ai&&e.t<=T&&e.t>=LO()&&WHO(e))lostN[e.k]+=(e.n||1)});   // own team units only, not the AI units they killed
+  const cnt={G:0,R:0,X:0,O:0};Object.entries(owner).forEach(([p,v])=>{if(lastCap[p].t>=LO())cnt[v]++});
+  setHTML($('tally'),`<span><i class="chip" style="background:var(--green)"></i>Green captured <b>${cnt.G}</b></span><span><i class="chip" style="background:var(--red)"></i>Red captured <b>${cnt.R}</b></span><span><i class="chip" style="background:var(--yellow)"></i>Recaptured <b>${cnt.X}</b></span><span><i class="chip" style="background:var(--orange)"></i>Revolt <b>${cnt.O}</b></span><span class="lostt" ${$('loss').checked?'':'hidden'}>✕ Units lost <b style="color:var(--green)">${lostN.G}</b> / <b style="color:var(--red)">${lostN.R}</b></span>`);
+  for(const [p,el] of Object.entries(mkEl)){
+    const evs=byProv[p].filter(e=>e.t<=T);
+    if(!evs.length){el.hidden=true;continue}
+    el.hidden=false;const lastE=evs[evs.length-1];
+    const cn='mk '+(owner[p]?'k-'+owner[p]:'atk')+(T-lastE.t<=20?' hot':'')+(p===selected?' sel':'')+(evs.some(e=>e.type==='loss')?' haslost':'');if(el.className!==cn)el.className=cn;
+    fillTag(p,el);
+    if(el._al!==lastE){el._al=lastE;el.setAttribute('aria-label',p+', '+describe(lastE))}
+  }
+  buildPaths();placeMarks();
+  const past=dedupe(EV.filter(e=>e.t<=T&&e.t>=LO()&&SHOW(e)&&WHO(e))).reverse();
+  const fkey=LO()+'|'+past.length+'|'+$('loss').checked+'|'+$('ecaps').checked+'|'+$('airep').checked+'|'+$('who').value+'|'+feedMax;
+  if(feedKey!==fkey&&!(timer&&performance.now()-feedAt<500)){feedKey=fkey;feedAt=performance.now();$('feed').innerHTML=past.length?past.slice(0,feedMax).map(e=>`<div class="ev ${e.type} k-${e.k}" tabindex="0" data-p="${e.p}"><time><small>Day ${gday(e.t)}</small>${fmt(e.t)}</time><span class="bar"></span><div><b>${e.p||'Place not reported'}</b>${e.type==='cap'?'<span class="badge">'+(e.rev?'revolt':e.sync?'holds':e.k==='X'?'recaptured':'captured')+'</span>':e.type==='loss'?'<span class="badge lost">'+(e.ai?'AI unit lost':'unit lost')+'</span>':''}<p class="wi">${icoE(e)||'<span class="ui"></span>'}<span>${describe(e)}</span></p></div></div>`).join('')+(past.length>feedMax?`<button type="button" class="more" onclick="feedMax+=300;render()">Show ${Math.min(300,past.length-feedMax)} older events (${past.length-feedMax} more)</button>`:''):'<p class="none" style="padding:6px;color:var(--muted)">Nothing has happened yet at 18:00. Press Play or drag the timeline.</p>';}
+  if(selected)showDetail(selected);
+}
+function showDetail(p){
+  const evs=byProv[p].filter(e=>e.t<=T);
+  const fut=byProv[p].length-evs.length;
+  $('detail').innerHTML='<h3>'+(p==='null'?'Place not reported':p)+'</h3>'+(evs.length?evs.map(e=>`<div class="ev ${e.type} k-${e.k}"><time><small>Day ${gday(e.t)}</small>${fmt(e.t)}</time><span class="bar"></span><div><p class="wi">${icoE(e)||'<span class="ui"></span>'}<span>${describe(e)}</span></p></div></div>`).join(''):'<p class="none">Nothing has happened here yet at this time.</p>')+(fut?`<p class="none">${fut} more event${fut>1?'s':''} later on the timeline.</p>`:'');
+}
+function select(p){selected=p;render();const q=D.pos[p];if(!q)return;const r=map.getBoundingClientRect();if(k<0.9){k=1.1}tx=r.width/2-q[0]*k;ty=r.height/2-q[1]*k;apply()}
+$('feed').addEventListener('click',e=>{const r=e.target.closest('.ev');if(r)select(r.dataset.p)});
+$('feed').addEventListener('keydown',e=>{const r=e.target.closest('.ev');if(r&&e.key==='Enter')select(r.dataset.p)});
+// timeline
+// the timeline shows from the start of the chosen game day (days start at 18:00) up to the latest event
+let span=1,pct=t=>'0%';
+function setRange(){
+  slider.min=FROM;slider.max=TO;slider.step=1;span=Math.max(1,TO-FROM);pct=t=>((t-FROM)/span*100)+'%';
+  $('ticks').innerHTML=D.atk.filter(e=>e.t>=FROM&&e.t<=TO).map(e=>`<i class="a" style="left:${pct(e.t)}"></i>`).join('')+D.caps.filter(e=>e.t>=FROM&&e.t<=TO).map(e=>`<i style="left:${pct(e.t)};background:${e.k==='G'?'var(--green)':e.k==='R'?'var(--red)':e.k==='O'?'var(--orange)':'var(--yellow)'}"></i>`).join('');
+  const w=map.getBoundingClientRect().width,room=Math.max(4,Math.floor(w/55)),hstep=[60,120,180,240,360,720,1440].find(h=>span/h<=room)||1440;
+  let hs='';for(let h=D.t0+Math.ceil((FROM-D.t0)/hstep)*hstep;h<=TO;h+=hstep)   /* ticks counted from 18:00, the start of a game day */hs+=`<span style="left:${pct(h)}">${(h-D.t0)%1440===0?'D'+gday(h):fmt(h)}</span>`;$('hours').innerHTML=hs;
+  if(T<FROM)T=FROM;if(T>TO)T=TO;slider.value=T;
+}
+{const sel=$('from'),first=gday(D.t0),last=gday(D.t1);
+ // one menu: start from a game day, or show only the last N hours before the newest event
+ const oa=document.createElement('option');oa.value='all';oa.textContent='Entire game';sel.appendChild(oa);
+ const g1=sel;   // one option per game day
+ for(let d=first;d<=last;d++){const o=document.createElement('option');o.value='d'+d;o.textContent='Day '+d+(d===last?' (today)':'');g1.appendChild(o)}
+ // from the start of a game day up to now, opened at the newest event so everything since then is on the map
+ for(let d=last;d>first;d--){const o=document.createElement('option');o.value='s'+d;o.textContent='Since start of day '+d;sel.insertBefore(o,sel.querySelector('option[value="d'+first+'"]'))}
+ const startOf=v=>v==='all'?D.t0:v[0]==='s'?Math.max(D.t0,D.t0+(+v.slice(1)-2)*1440):v[0]==='h'?Math.max(D.t0,D.t1-(+v.slice(1))*60):Math.max(D.t0,D.t0+(+v.slice(1)-2)*1440);
+ const endOf=v=>v[0]==='d'?Math.min(D.t1,D.t0+(+v.slice(1)-1)*1440):D.t1;
+ let want='all';
+ const dflt=want;  // always opens from day 2; a choice made on the page only lasts until it is closed
+ sel.value=want;FROM=startOf(want);TO=endOf(want);
+ const cust=document.createElement('option');cust.value='c';cust.textContent='Custom hours';cust.hidden=true;sel.appendChild(cust);
+ const apply=()=>{setRange();feedKey='';for(const el of Object.values(mkEl))el._key=null;render()};
+ sel.addEventListener('change',()=>{if(sel.value==='c')return;$('hrs').value='';FROM=startOf(sel.value);TO=endOf(sel.value);T=sel.value[0]==='s'?TO:FROM;   // picking a day starts the timeline at the beginning of that day
+  try{localStorage.setItem('avaFrom',sel.value)}catch(e){}apply()});
+ // type your own number of hours: shows the last N hours before the newest event
+ $('hrs').addEventListener('input',()=>{const h=parseFloat($('hrs').value);
+   if(!(h>0)){if($('hrs').value===''&&sel.value==='c'){sel.value=dflt;FROM=startOf(dflt);TO=endOf(dflt);try{localStorage.setItem('avaFrom',dflt)}catch(e){}apply()}return}
+   sel.value='c';FROM=Math.max(D.t0,Math.round(D.t1-h*60));TO=D.t1;try{localStorage.setItem('avaFrom','h'+h)}catch(e){}apply()});
+ // War settings: one click shows only the last hour, a second click goes back to the normal view (from day 2)
+ // the three presets exclude each other: turning one on first turns the others off (they put their buttons back)
+ function presetOff(k){['war','aiset','plset'].forEach(i=>{if(i!==k&&$(i).getAttribute('aria-pressed')==='true')$(i).click()})}
+ const war=$('war'),syncWar=()=>{if(sel.value!=='s'+last)war._on=false;war.setAttribute('aria-pressed',String(!!war._on))};
+ war.addEventListener('click',()=>{const on=war.getAttribute('aria-pressed')==='true';if(!on)presetOff('war');const WB=['lab','ecaps','loss','allrep','paths'];if(!on){war._prev=WB.map(i=>$(i).checked);WB.forEach(i=>$(i).checked=true)}else if(war._prev){WB.forEach((i,j)=>$(i).checked=war._prev[j]);war._prev=null}   /* war view: the players' captures + losses with full unit info and unit paths, from the start of today (the newest game day) */war._on=!on;sel.value=on?dflt:'s'+last;sel.dispatchEvent(new Event('change'));T=D.t1;slider.value=T;render();syncWar()});
+ sel.addEventListener('change',syncWar);
+ // AI loss settings: one click shows every AI unit that died with full unit info, a second click puts the buttons back
+ const ais=$('aiset'),AB=['airep','lab','ecaps'],AON={airep:1,lab:1};   /* captures off */ais.addEventListener('click',()=>{const on=ais.getAttribute('aria-pressed')==='true';if(!on)presetOff('aiset');if(!on){ais._prev=AB.map(i=>$(i).checked);AB.forEach(i=>$(i).checked=!!AON[i])}else if(ais._prev){AB.forEach((i,j)=>$(i).checked=ais._prev[j]);ais._prev=null}ais.setAttribute('aria-pressed',String(!on));render()});
+ // Player unit loss settings: same, for the units the players (both teams) lost
+ const pls=$('plset'),PB=['loss','ecaps','allrep','lab','airep','paths'],PON={loss:1,allrep:1,lab:1};pls.addEventListener('click',()=>{const on=pls.getAttribute('aria-pressed')==='true';if(!on)presetOff('plset');if(!on){pls._prev=PB.map(i=>$(i).checked);PB.forEach(i=>$(i).checked=!!PON[i])}   /* only unit losses and all reports, captures off (unit info is needed for all reports to show anything) */else if(pls._prev){PB.forEach((i,j)=>$(i).checked=pls._prev[j]);pls._prev=null}pls.setAttribute('aria-pressed',String(!on));render()});
+ $('trail').addEventListener('input',()=>{const h=parseFloat($('trail').value);TRAIL=h>0?h:0;feedKey='';for(const el of Object.values(mkEl))el._key=null;render()});$('hrs').addEventListener('input',syncWar);
+ }
+setRange();
+let rq=0;slider.addEventListener('input',()=>{T=+slider.value;if(!rq)rq=requestAnimationFrame(()=>{rq=0;render()})});
+let timer=null;
+function stop(){clearInterval(timer);timer=null;$('play').textContent='▶ Play';render()}
+$('play').onclick=()=>{if(timer){stop();return}if(T>=TO)T=FROM;$('play').textContent='❚❚ Pause';
+  timer=setInterval(()=>{T=Math.min(TO,T+ +$('speed').value);slider.value=T;render();if(T>=TO)stop()},120)};
+window.addEventListener('resize',()=>{setRange();placeMarks()});
+$('lab').checked=true;$('speed').value='1';
+$('lab').addEventListener('change',()=>{if(!$('lab').checked)$('allrep').checked=false;render()});$('paths').addEventListener('change',render);$('airep').addEventListener('change',render);$('allrep').addEventListener('change',()=>{if($('allrep').checked)$('lab').checked=true;render()});$('loss').addEventListener('change',render);$('ecaps').addEventListener('change',render);$('who').addEventListener('change',render);$('who').value='all';$('loss').checked=false;$('ecaps').checked=true;
+// start at the end so the page opens with the full picture
+T=TO;slider.value=T;focusEurope();render();
+(function(){const el=$('upd');if(!D.built){el.hidden=true;return}
+const hm=ms=>new Date(ms).toLocaleTimeString('en-GB',{timeZone:'Europe/Amsterdam',hour:'2-digit',minute:'2-digit'});
+// GitHub checks every 15 minutes (at :10, :25, :40 and :55) and updates this map once its interval has passed
+const EV=D.every||60,RAN=D.ran||D.built;
+const nextSlot=t=>{const d=new Date(t);d.setSeconds(0,0);while(d.getTime()<t||d.getMinutes()%15!==10)d.setMinutes(d.getMinutes()+1);return d.getTime()};
+const nextRun=()=>nextSlot(RAN+(EV-5)*60000);
+if(D.gid&&!D.ended){const w=$('everyw'),sel=$('every');w.hidden=false;sel.value=String(EV);if(!sel.value){sel.value='60'}
+  sel.addEventListener('change',()=>{const v=sel.value;if(!D.repo){$('everyn').textContent='not on GitHub yet';$('everyn').hidden=false;sel.value=String(EV);return}
+    window.open('https://github.com/'+D.repo+'/issues/new?title='+encodeURIComponent('Set update '+D.gid+' every '+v)+'&body='+encodeURIComponent('Update this map every '+sel.options[sel.selectedIndex].text+'.'),'_blank','noopener');
+    $('everyn').textContent='confirm on GitHub';$('everyn').hidden=v===String(EV)})}
+function tick(){if(D.ended){el.innerHTML='Final map'+(D.fetched?' · game data '+new Date(D.fetched).toLocaleDateString('en-GB',{day:'numeric',month:'short',timeZone:'Europe/Amsterdam'})+' '+hm(D.fetched):'')+'<b>'+D.ended+'</b>';return}const now=Date.now(),next=nextRun(),late=now>next+20*60000,due=late?nextSlot(now):next;
+  const s=Math.max(0,Math.floor((due-now)/1000)),m=Math.floor(s/60),r=String(s%60).padStart(2,'0');
+  const stale=late;
+  el.innerHTML='Updated '+hm(D.built)+(D.fetched?' · game data '+hm(D.fetched):'')+
+    '<b class="'+(s<120?'soon':'')+'">'+(stale?'Update overdue · next try in ':'Next update in ')+m+':'+r+'</b>';}
+tick();setInterval(tick,1000);})();
+</script>
