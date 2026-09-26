@@ -1521,6 +1521,286 @@
    "no": 1,
    "sn": 6,
    "frm": "Morocco"
+  },
+  "2097": {
+   "t": 4392,
+   "p": "Petrozavodsk",
+   "c": "Communist Russia",
+   "u": "Anti Tank",
+   "cap": false,
+   "no": 21,
+   "sn": 1,
+   "frm": "Karelia"
+  },
+  "2098": {
+   "t": 4393,
+   "p": "Bari",
+   "c": "France",
+   "u": "Infantry",
+   "cap": false,
+   "no": 4,
+   "sn": 1,
+   "frm": "Libya"
+  },
+  "2099": {
+   "t": 4397,
+   "p": "Sevilla",
+   "c": "France",
+   "u": "Anti Tank",
+   "cap": false,
+   "no": 12,
+   "sn": 1,
+   "frm": "Portugal"
+  },
+  "2100": {
+   "t": 4412,
+   "p": "Yaroslavl",
+   "c": "Communist Russia",
+   "u": "Armored Car",
+   "cap": false,
+   "no": 6,
+   "sn": 1,
+   "frm": "Russian Empire"
+  },
+  "2101": {
+   "t": 4412,
+   "p": "Segezha",
+   "c": "Communist Russia",
+   "u": "Infantry",
+   "cap": false,
+   "no": 15,
+   "sn": 1,
+   "frm": "Russian Empire"
+  },
+  "2102": {
+   "t": 4416,
+   "p": "Vologda",
+   "c": "Communist Russia",
+   "u": "Armored Car",
+   "cap": false,
+   "no": 3,
+   "sn": 1,
+   "frm": "Russian Empire"
+  },
+  "2105": {
+   "t": 4443,
+   "p": "Kropotkin",
+   "c": "Caucasus",
+   "u": "Infantry",
+   "cap": false,
+   "no": 4,
+   "sn": 1,
+   "frm": "Russian Empire"
+  },
+  "2106": {
+   "t": 4460,
+   "p": "Kovrov",
+   "c": "Communist Russia",
+   "u": "Rocket Artillery",
+   "cap": false,
+   "no": 13,
+   "sn": 22,
+   "frm": "Russian Empire"
+  },
+  "2109": {
+   "t": 4501,
+   "p": "Bougie",
+   "c": "France",
+   "u": "Infantry",
+   "cap": false,
+   "no": 9,
+   "sn": 1,
+   "frm": "Algeria"
+  },
+  "2110": {
+   "t": 4505,
+   "p": "Adlerskiy",
+   "c": "Russian Empire",
+   "u": "Anti Air",
+   "cap": false,
+   "no": 7,
+   "sn": 1,
+   "frm": "Caucasus"
+  },
+  "2111": {
+   "t": 4510,
+   "p": "Kostroma",
+   "c": "Communist Russia",
+   "u": "Armored Car",
+   "cap": false,
+   "no": 6,
+   "sn": 1,
+   "frm": "Russian Empire"
+  },
+  "2112": {
+   "t": 4515,
+   "p": "Oryol",
+   "c": "Communist Russia",
+   "u": "Rocket Artillery",
+   "cap": false,
+   "no": 27,
+   "sn": 27,
+   "frm": "Ukraine"
+  },
+  "2113": {
+   "t": 4537,
+   "p": "Algiers",
+   "c": "France",
+   "u": "Infantry",
+   "cap": true,
+   "no": 10,
+   "sn": 1,
+   "frm": "Algeria"
+  },
+  "2114": {
+   "t": 4539,
+   "p": "Cherepovets",
+   "c": "Communist Russia",
+   "u": "Armored Car",
+   "cap": false,
+   "no": 3,
+   "sn": 1,
+   "frm": "Russian Empire"
+  },
+  "2115": {
+   "t": 4547,
+   "p": "Newcastle",
+   "c": "Poland",
+   "u": "Rocket Artillery",
+   "cap": false,
+   "no": 25,
+   "sn": 1,
+   "frm": "United Kingdom"
+  },
+  "2116": {
+   "t": 4581,
+   "p": "Tenes",
+   "c": "France",
+   "u": "Infantry",
+   "cap": false,
+   "no": 13,
+   "sn": 1,
+   "frm": "Algeria"
+  },
+  "2119": {
+   "t": 4596,
+   "p": "Vytegra",
+   "c": "Communist Russia",
+   "u": "Anti Tank",
+   "cap": false,
+   "no": 21,
+   "sn": 1,
+   "frm": "Russian Empire"
+  },
+  "2122": {
+   "t": 4599,
+   "p": "Kineshma",
+   "c": "Communist Russia",
+   "u": "Armored Car",
+   "cap": false,
+   "no": 6,
+   "sn": 1,
+   "frm": "Russian Empire"
+  },
+  "2123": {
+   "t": 4645,
+   "p": "Kursk",
+   "c": "Communist Russia",
+   "u": "Rocket Artillery",
+   "cap": false,
+   "no": 27,
+   "sn": 27,
+   "frm": "Ukraine"
+  },
+  "2124": {
+   "t": 4647,
+   "p": "Bone",
+   "c": "France",
+   "u": "Infantry",
+   "cap": false,
+   "no": 7,
+   "sn": 1,
+   "frm": "Algeria"
+  },
+  "2125": {
+   "t": 4660,
+   "p": "Nizhny Novgorod",
+   "c": "Communist Russia",
+   "u": "Rocket Artillery",
+   "cap": true,
+   "no": 13,
+   "sn": 22,
+   "frm": "Russian Empire"
+  },
+  "2126": {
+   "t": 4664,
+   "p": "Edinburgh",
+   "c": "Poland",
+   "u": "Rocket Artillery",
+   "cap": false,
+   "no": 25,
+   "sn": 1,
+   "frm": "Russian Empire"
+  },
+  "2127": {
+   "t": 4706,
+   "p": "Adlerskiy",
+   "c": "Caucasus",
+   "u": "Infantry",
+   "cap": false,
+   "no": 1,
+   "sn": 1,
+   "frm": "Russian Empire"
+  },
+  "2128": {
+   "t": 4725,
+   "p": "Oran",
+   "c": "France",
+   "u": "Infantry",
+   "cap": false,
+   "no": 11,
+   "sn": 1,
+   "frm": "Algeria"
+  },
+  "2129": {
+   "t": 4742,
+   "p": "Glasgow",
+   "c": "Poland",
+   "u": "Rocket Artillery",
+   "cap": false,
+   "no": 25,
+   "sn": 1,
+   "frm": "Russian Empire"
+  },
+  "2130": {
+   "t": 4775,
+   "p": "Kharkov",
+   "c": "Communist Russia",
+   "u": "Rocket Artillery",
+   "cap": false,
+   "no": 27,
+   "sn": 27,
+   "frm": "Ukraine"
+  },
+  "2131": {
+   "t": 4783,
+   "p": "Stary Oskol",
+   "c": "Communist Russia",
+   "u": "Armored Car",
+   "cap": false,
+   "no": 2,
+   "sn": 1,
+   "frm": "Ukraine"
+  },
+  "2132": {
+   "t": 4784,
+   "p": "Kolezhma",
+   "c": "Communist Russia",
+   "u": "Infantry",
+   "cap": false,
+   "no": 15,
+   "sn": 1,
+   "frm": "Russian Empire"
   }
  },
  "loss": {
@@ -2828,6 +3108,62 @@
    "byu": "Armored Car",
    "byn": 1,
    "by": "France"
+  },
+  "2103": {
+   "t": 4423,
+   "p": "Liverpool",
+   "c": "United Kingdom",
+   "u": "Armored Car",
+   "what": "1× Armored Car",
+   "n": 1,
+   "dest": true,
+   "no": 3,
+   "byno": 25,
+   "byu": "Rocket Artillery",
+   "byn": 1,
+   "by": "Poland"
+  },
+  "2107": {
+   "t": 4474,
+   "p": "Newcastle",
+   "c": "United Kingdom",
+   "u": "Infantry",
+   "what": "1× Infantry",
+   "n": 1,
+   "dest": true,
+   "no": 6,
+   "byno": 25,
+   "byu": "Rocket Artillery",
+   "byn": 1,
+   "by": "Poland"
+  },
+  "2117": {
+   "t": 4590,
+   "p": "Kursk",
+   "c": "Ukraine",
+   "u": "Armored Car",
+   "what": "1× Armored Car",
+   "n": 1,
+   "dest": true,
+   "no": 13,
+   "byno": 27,
+   "byu": "Rocket Artillery",
+   "byn": 27,
+   "by": "Communist Russia"
+  },
+  "2121": {
+   "t": 4598,
+   "p": "Saint Jerome",
+   "c": "Canada",
+   "u": "Anti Air",
+   "what": "1× Anti Air",
+   "n": 1,
+   "dest": true,
+   "no": 4,
+   "byno": 7,
+   "byu": "Infantry",
+   "byn": 4,
+   "by": "Germany"
   }
  },
  "cas": {
@@ -3080,7 +3416,7 @@
    "ts": 1790352019000
   },
   "France|Canada": {
-   "v": 1669,
+   "v": 1945,
    "ts": 1790352019000
   },
   "France|United Kingdom": {
@@ -3340,7 +3676,7 @@
    "ts": 1790352019000
   },
   "United Kingdom|Poland": {
-   "v": 7546,
+   "v": 7852,
    "ts": 1790352019000
   },
   "United Kingdom|France": {
@@ -3412,7 +3748,7 @@
    "ts": 1790352019000
   },
   "Canada|Germany": {
-   "v": 2649,
+   "v": 3499,
    "ts": 1790352019000
   },
   "Canada|France": {
@@ -3440,7 +3776,7 @@
    "ts": 1790352019000
   },
   "Germany|Canada": {
-   "v": 1442,
+   "v": 1459,
    "ts": 1790352019000
   },
   "Western Sahara|Germany": {
@@ -3544,7 +3880,7 @@
    "ts": 1790363672824
   },
   "Ukraine|Communist Russia": {
-   "v": 5829,
+   "v": 6333,
    "ts": 1790366483847
   },
   "Communist Russia|Ukraine": {
@@ -3662,9 +3998,10 @@
     "Interceptor": 5
    },
    "United Kingdom": {
-    "Interceptor": 1,
-    "Infantry": 9,
-    "Anti Tank": 2
+    "Infantry": 10,
+    "Anti Tank": 2,
+    "Armored Car": 1,
+    "Interceptor": 1
    },
    "Italy": {
     "Anti Tank": 3,
@@ -3730,6 +4067,7 @@
     "Interceptor": 1
    },
    "Canada": {
+    "Anti Air": 1,
     "Infantry": 4,
     "Armored Car": 1
    },
@@ -3847,6 +4185,9 @@
     "Anti Air": 1,
     "Interceptor": 1
    },
+   "Ukraine": {
+    "Armored Car": 1
+   },
    "Caucasus": {
     "Interceptor": 1,
     "Infantry": 12,
@@ -3882,6 +4223,6 @@
     "Infantry": 2
    }
   },
-  "ts": 1790376563280
+  "ts": 1790404586205
  }
 }
