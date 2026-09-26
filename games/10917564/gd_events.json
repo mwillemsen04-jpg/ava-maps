@@ -5634,6 +5634,16 @@
    "no": 2,
    "sn": 1,
    "frm": "Ukraine"
+  },
+  "2156": {
+   "t": 5126,
+   "p": "Stalingrad",
+   "c": "Communist Russia",
+   "u": "Tank Destroyer",
+   "cap": false,
+   "no": 1,
+   "sn": 1,
+   "frm": "Ukraine"
   }
  },
  "loss": {
@@ -7081,17 +7091,17 @@
   },
   "2146": {
    "t": 5019,
-   "p": null,
+   "p": "Toledo (OH)",
    "c": "Southern United States",
    "u": "Anti Tank",
    "what": "2× Infantry",
    "n": 2,
-   "dest": false,
+   "dest": true,
    "no": 3,
-   "byno": null,
-   "byu": null,
-   "byn": null,
-   "by": null
+   "byno": 3,
+   "byu": "Armored Car",
+   "byn": 5,
+   "by": "Michigan"
   },
   "74": {
    "t": 1099,
@@ -10805,17 +10815,17 @@
   },
   "2148": {
    "t": 5049,
-   "p": null,
+   "p": "Toledo (OH)",
    "c": "Southern United States",
    "u": "Anti Tank",
    "what": "2× Infantry",
    "n": 2,
-   "dest": false,
+   "dest": true,
    "no": 3,
-   "byno": null,
-   "byu": null,
-   "byn": null,
-   "by": null
+   "byno": 3,
+   "byu": "Armored Car",
+   "byn": 5,
+   "by": "Michigan"
   },
   "2151": {
    "t": 5079,
@@ -10833,31 +10843,45 @@
   },
   "2152": {
    "t": 5079,
-   "p": null,
+   "p": "Toledo (OH)",
    "c": "Southern United States",
    "u": "Anti Tank",
    "what": "1× Anti Tank, 2× Infantry",
    "n": 3,
-   "dest": false,
+   "dest": true,
    "no": 3,
-   "byno": null,
-   "byu": null,
-   "byn": null,
-   "by": null
+   "byno": 3,
+   "byu": "Armored Car",
+   "byn": 5,
+   "by": "Michigan"
   },
   "2154": {
    "t": 5109,
-   "p": null,
+   "p": "Toledo (OH)",
    "c": "Southern United States",
    "u": "Anti Tank",
    "what": "1× Infantry",
    "n": 1,
-   "dest": false,
+   "dest": true,
    "no": 3,
-   "byno": null,
-   "byu": null,
-   "byn": null,
-   "by": null
+   "byno": 3,
+   "byu": "Armored Car",
+   "byn": 5,
+   "by": "Michigan"
+  },
+  "2157": {
+   "t": 5139,
+   "p": "Toledo (OH)",
+   "c": "Southern United States",
+   "u": "Anti Tank",
+   "what": "1× Infantry",
+   "n": 1,
+   "dest": true,
+   "no": 3,
+   "byno": 3,
+   "byu": "Armored Car",
+   "byn": 5,
+   "by": "Michigan"
   }
  },
  "cas": {
@@ -11598,11 +11622,11 @@
    "ts": 1790370842668
   },
   "Michigan|Southern United States": {
-   "v": 3737,
+   "v": 3804,
    "ts": 1790415576410
   },
   "Southern United States|Michigan": {
-   "v": 4558,
+   "v": 4599,
    "ts": 1790415576410
   }
  },
@@ -11840,7 +11864,7 @@
    "Southern United States": {
     "Interceptor": 3,
     "Anti Tank": 1,
-    "Infantry": 10
+    "Infantry": 11
    },
    "Michigan": {
     "Infantry": 1
@@ -11916,7 +11940,7 @@
     "Infantry": 2
    }
   },
-  "ts": 1790421409030
+  "ts": 1790423457549
  },
  "news_days": [
   2,
