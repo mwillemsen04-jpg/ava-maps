@@ -144,21 +144,21 @@
     {
       "id": "10920696",
       "name": "AF VS Olympus",
-      "status": "live",
+      "status": "saved",
       "added": "2026-09-27 00:35",
       "ran": 1790462136656,
       "pv": "1b295d8594",
       "last": {
         "day": 4,
         "score": {
-          "G": 480,
-          "R": 670
+          "G": 470,
+          "R": 680
         },
         "provinces": {
-          "G": 225,
-          "R": 256
+          "G": 220,
+          "R": 261
         },
-        "fetched": 1790702783391,
+        "fetched": 1790705584976,
         "winner": null,
         "teams": {
           "G": [
@@ -206,7 +206,9 @@
             }
           ]
         }
-      }
+      },
+      "reason": "stopped",
+      "ended": "2026-09-27 00:40"
     }
   ],
   "folders": [
