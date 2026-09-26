@@ -148,6 +148,8 @@ The game's newspaper names a fleet after one ship type, which is not always righ
 | Videos | `scripts/make_video.js`, `.github/workflows/video.yml` | Records a map frame by frame for the 🎥 Video button and puts the mp4 on the videos download page |
 | Automation | `.github/workflows/update.yml` | Runs every quarter of an hour (:00, :15, :30, :45) and on requests from the website, then publishes the site |
 
+When the map page code changes (`map/page_template.html` or `scripts/build_game.py`, e.g. a new button), every map is built again once at the next round, live and saved games alike, so all maps always have the newest version.
+
 `map/` holds the map itself (background, 634 provinces with exact borders, 140 cities, unit icons) and is the same for every game. `games/<code>/` holds the collected history of one game. Saved games keep their final page in `archive/<code>.html`.
 
 Everything from **day 2, 18:00** is shown; day 1 is not.

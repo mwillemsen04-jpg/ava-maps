@@ -10,7 +10,7 @@ Each live game has its own update interval ("every", minutes, default 60) in gam
 
 Output: site/ (publish this folder). Saved games keep their final page in archive/<id>.html.
 """
-import json, os, shutil, subprocess, sys, datetime as dt
+import hashlib, json, os, shutil, subprocess, sys, datetime as dt
 from common import ROOT, SITE, GAMES, TZ, load_registry, save_registry, game_dir
 
 PY = sys.executable
@@ -36,6 +36,23 @@ def is_due(g, now):
     return (g.get('ran') or 0) < int(mark.timestamp() * 1000)
 
 
+def page_version():
+    """Fingerprint of the map page code. When it changes (a new feature such as the video button), every map is
+    built again once, live and saved games alike, so all maps always have the newest version."""
+    h = hashlib.sha1()
+    for f in ('map/page_template.html', 'scripts/build_game.py'):
+        h.update(open(os.path.join(ROOT, f), 'rb').read())
+    return h.hexdigest()[:10]
+
+
+PV = page_version()
+
+
+def stale(g):
+    """Built with older page code (and not already tried with this version without success)."""
+    return g.get('pv') != PV and g.get('pv_failed') != PV
+
+
 def main():
     fetch = '--no-fetch' not in sys.argv
     reg = load_registry()
@@ -45,8 +62,9 @@ def main():
     timed = os.environ.get('GITHUB_EVENT_NAME') in ('schedule', 'repository_dispatch', 'issues') and '--all' not in sys.argv
     todo = [g for g in reg['games'] if g.get('rebuild') or (g.get('status') == 'live' and (not timed or is_due(g, now)))]
     if '--check' in sys.argv:
-        due = bool(todo)
-        print('due' if due else 'nothing due', [str(g['id']) for g in todo])
+        old = [g for g in reg['games'] if stale(g) and g not in todo]   # maps to rebuild with new page code
+        due = bool(todo or old)
+        print('due' if due else 'nothing due', [str(g['id']) for g in todo], 'new page code for', [str(g['id']) for g in old])
         if os.environ.get('GITHUB_OUTPUT'):
             open(os.environ['GITHUB_OUTPUT'], 'a').write(f"due={'true' if due else 'false'}\n")
         return
@@ -73,6 +91,7 @@ def main():
             print(f'game {gid}: no game data yet, skipped'); continue
         if sh(PY, 'scripts/import_news.py', gid) or sh(PY, 'scripts/build_game.py', gid):
             print(f'game {gid}: build failed'); continue
+        g['pv'] = PV
         s = json.load(open(os.path.join(GAMES, gid, 'summary.json'), encoding='utf-8'))
         g['last'] = {k: s.get(k) for k in ('day', 'score', 'provinces', 'fetched', 'winner', 'teams')}
         if not g.get('name'):
@@ -94,9 +113,34 @@ def main():
     for g in reg['games']:
         gid = str(g['id'])
         refresh = g.pop('refresh', None)   # e.g. a new update interval: rebuild the page, without fetching new data
-        if g.get('status') == 'live' and gid not in done and (refresh or not os.path.exists(os.path.join(SITE, 'games', gid, 'index.html'))) \
+        if g.get('status') == 'live' and gid not in done and (refresh or stale(g) or not os.path.exists(os.path.join(SITE, 'games', gid, 'index.html'))) \
                 and os.path.exists(os.path.join(game_dir(gid), 'game_data.json')):
-            sh(PY, 'scripts/build_game.py', gid)
+            if sh(PY, 'scripts/build_game.py', gid) == 0:
+                g['pv'] = PV
+            else:
+                g['pv_failed'] = PV
+
+    # saved games built with older page code are built again once from their last game data (kept between runs);
+    # a game that ended and whose data is gone is fetched once more (Call of War keeps ended games for a while).
+    # A game that cannot be rebuilt keeps its old final page.
+    for g in reg['games']:
+        gid = str(g['id'])
+        if g.get('status') != 'saved' or gid in done or not stale(g):
+            continue
+        gd = os.path.join(game_dir(gid), 'game_data.json')
+        if not os.path.exists(gd) and fetch and g.get('reason') == 'ended':
+            sh('node', 'scripts/fetch.js', gid)
+            if os.path.exists(gd):
+                sh(PY, 'scripts/import_news.py', gid)
+        if os.path.exists(gd) and sh(PY, 'scripts/build_game.py', gid) == 0:
+            os.makedirs(ARCHIVE, exist_ok=True)
+            shutil.copyfile(os.path.join(SITE, 'games', gid, 'index.html'), os.path.join(ARCHIVE, f'{gid}.html'))
+            g['pv'] = PV; g.pop('pv_failed', None)
+            print(f'saved game {gid}: rebuilt with the new page code')
+        else:
+            g['pv_failed'] = PV
+            print(f'saved game {gid}: no game data, keeps its old final page')
+        save_registry(reg)
 
     # saved games are not rebuilt: their final page comes from the archive
     for g in reg['games']:
