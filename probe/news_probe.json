@@ -1,0 +1,679 @@
+{
+ "at": "2026-09-26T09:54:12.765Z",
+ "games": {
+  "10911706": {
+   "slot": 0,
+   "dayOfGame": 9,
+   "stateKeys": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "11",
+    "12",
+    "14",
+    "16",
+    "19",
+    "25",
+    "27",
+    "30",
+    "31",
+    "33"
+   ],
+   "results": {
+    "today": {
+     "resultClass": "ultshared.UltNewspaperState",
+     "resultKeys": [
+      "@c",
+      "stateType",
+      "stateID",
+      "timeStamp",
+      "day",
+      "ranking",
+      "articles",
+      "mapInfo",
+      "newsArticles"
+     ],
+     "error": null,
+     "newsClass": "ultshared.UltNewspaperState",
+     "newsDay": 9,
+     "newsKeys": [
+      "@c",
+      "stateType",
+      "stateID",
+      "timeStamp",
+      "day",
+      "ranking",
+      "articles",
+      "mapInfo",
+      "newsArticles"
+     ],
+     "articles": 26,
+     "first": "2026-09-23T16:31:12.000Z",
+     "last": "2026-09-23T16:31:12.000Z",
+     "samples": [
+      "{\"@c\":\"ultshared.UltArticle\",\"senderID\":-1,\"receiverID\":-1,\"messageBody\":\"An investigation of the World Herald revealed that the following individuals are the richest:\\n1st: Chancellor Zeppeline682 (22%)\\n2nd: President Ghostly34 (13%)\\n3rd: President Daemortis (13%)\\n4th: Sultân Mohammed V (13%)\\n5th: King Caesar Blindo (10%)\\n6th: King -BRIGHT- (6%)\\n7th: Minister-Chairmen Generale M16 (5%)\\n8th",
+      "{\"@c\":\"ultshared.UltArticle\",\"senderID\":-1,\"receiverID\":-1,\"messageBody\":\"Every player who is still active and survived until the end of a ranked game is rewarded with an amount of gold reflecting his share of victory points.\\n\\nThese players got the following pay outs:\\n   Zeppeline682 ({{{countryLink 'Germany' '1'}}}) : 3500,- gold\\n   Ghostly34 ({{{countryLink 'France' '2'}}}) : 3500,- gold\\n  "
+     ]
+    },
+    "option_day2": {
+     "resultClass": "ultshared.UltNewspaperState",
+     "resultKeys": [
+      "@c",
+      "stateType",
+      "stateID",
+      "timeStamp",
+      "day",
+      "ranking",
+      "articles",
+      "mapInfo",
+      "newsArticles"
+     ],
+     "error": null,
+     "newsClass": "ultshared.UltNewspaperState",
+     "newsDay": 2,
+     "newsKeys": [
+      "@c",
+      "stateType",
+      "stateID",
+      "timeStamp",
+      "day",
+      "ranking",
+      "articles",
+      "mapInfo",
+      "newsArticles"
+     ],
+     "articles": 1155,
+     "first": "2026-09-16T16:31:12.000Z",
+     "last": "2026-09-17T16:29:42.000Z",
+     "samples": [
+      "{\"@c\":\"ultshared.UltArticle\",\"senderID\":-1,\"receiverID\":-1,\"messageBody\":\"The largest economies and their daily resource production in tons:\\n1st: {{{countryLink 'Russian Empire' '48'}}}: 42,058 tons.\\n2nd: {{{countryLink 'Algeria' '40'}}}: 40,770 tons.\\n3rd: {{{countryLink 'Poland' '23'}}}: 39,646 tons.\\n4th: {{{countryLink 'Egypt' '43'}}}: 39,616 tons.\\n5th: {{{countryLink 'Germany' '1'}}}: 39,4",
+      "{\"@c\":\"ultshared.UltArticle\",\"senderID\":5,\"receiverID\":2,\"messageBody\":\"6:31 pm War has been declared! {{{playerLink '30961436' 'Ghostly34' '2'}}} made it clear today, that {{{playerLink '-1' 'Niceto Alcalá Zamora' '5'}}} and his troops have to expect the harshest of all possible treatments.\\n\\n7:55 pm The 12th  Armored Car Brigade ({{{countryLink 'France' '2'}}}) has captured {{{provLink 'Girona'"
+     ]
+    },
+    "option_day5": {
+     "resultClass": "ultshared.UltNewspaperState",
+     "resultKeys": [
+      "@c",
+      "stateType",
+      "stateID",
+      "timeStamp",
+      "day",
+      "ranking",
+      "articles",
+      "mapInfo",
+      "newsArticles"
+     ],
+     "error": null,
+     "newsClass": "ultshared.UltNewspaperState",
+     "newsDay": 5,
+     "newsKeys": [
+      "@c",
+      "stateType",
+      "stateID",
+      "timeStamp",
+      "day",
+      "ranking",
+      "articles",
+      "mapInfo",
+      "newsArticles"
+     ],
+     "articles": 557,
+     "first": "2026-09-19T16:31:12.000Z",
+     "last": "2026-09-20T16:27:07.000Z",
+     "samples": [
+      "{\"@c\":\"ultshared.UltArticle\",\"senderID\":-1,\"receiverID\":-1,\"messageBody\":\"An investigation of the World Herald revealed that the following individuals are the richest:\\n1st: Prime Minister Niceto Alcalá Zamora (21%)\\n2nd: Sultân Mohammed V (20%)\\n3rd: Governor Antonio de Oro Pulido (14%)\\n4th: President moondoge (10%)\\n5th: President Daemortis (4%)\\n6th: Prime Minister António de Oliveira Salazar ",
+      "{\"@c\":\"ultshared.UltArticle\",\"senderID\":43,\"receiverID\":43,\"messageBody\":\"{{{countryLink 'Egypt' '43'}}} has a new head of state. From now on {{{playerLink '27141308' 'Caesar Blindo' '43'}}} will control the fate of this country.\",\"author\":\"Call of War Game System\",\"address\":\"\",\"receiver\":\"\",\"messageUID\":2400,\"authorID\":-2,\"title\":\"King {{{playerLink '27141308' 'Caesar Blindo' '43'}}} is the new h"
+     ]
+    },
+    "optionFull_day2": {
+     "resultClass": "ultshared.UltNewspaperState",
+     "resultKeys": [
+      "@c",
+      "stateType",
+      "stateID",
+      "timeStamp",
+      "day",
+      "ranking",
+      "articles",
+      "mapInfo",
+      "newsArticles"
+     ],
+     "error": null,
+     "newsClass": "ultshared.UltNewspaperState",
+     "newsDay": 2,
+     "newsKeys": [
+      "@c",
+      "stateType",
+      "stateID",
+      "timeStamp",
+      "day",
+      "ranking",
+      "articles",
+      "mapInfo",
+      "newsArticles"
+     ],
+     "articles": 1155,
+     "first": "2026-09-16T16:31:12.000Z",
+     "last": "2026-09-17T16:29:42.000Z",
+     "samples": [
+      "{\"@c\":\"ultshared.UltArticle\",\"senderID\":-1,\"receiverID\":-1,\"messageBody\":\"The largest economies and their daily resource production in tons:\\n1st: {{{countryLink 'Russian Empire' '48'}}}: 42,058 tons.\\n2nd: {{{countryLink 'Algeria' '40'}}}: 40,770 tons.\\n3rd: {{{countryLink 'Poland' '23'}}}: 39,646 tons.\\n4th: {{{countryLink 'Egypt' '43'}}}: 39,616 tons.\\n5th: {{{countryLink 'Germany' '1'}}}: 39,4",
+      "{\"@c\":\"ultshared.UltArticle\",\"senderID\":5,\"receiverID\":2,\"messageBody\":\"6:31 pm War has been declared! {{{playerLink '30961436' 'Ghostly34' '2'}}} made it clear today, that {{{playerLink '-1' 'Niceto Alcalá Zamora' '5'}}} and his troops have to expect the harshest of all possible treatments.\\n\\n7:55 pm The 12th  Armored Car Brigade ({{{countryLink 'France' '2'}}}) has captured {{{provLink 'Girona'"
+     ]
+    },
+    "optionFull_day5": {
+     "resultClass": "ultshared.UltNewspaperState",
+     "resultKeys": [
+      "@c",
+      "stateType",
+      "stateID",
+      "timeStamp",
+      "day",
+      "ranking",
+      "articles",
+      "mapInfo",
+      "newsArticles"
+     ],
+     "error": null,
+     "newsClass": "ultshared.UltNewspaperState",
+     "newsDay": 5,
+     "newsKeys": [
+      "@c",
+      "stateType",
+      "stateID",
+      "timeStamp",
+      "day",
+      "ranking",
+      "articles",
+      "mapInfo",
+      "newsArticles"
+     ],
+     "articles": 557,
+     "first": "2026-09-19T16:31:12.000Z",
+     "last": "2026-09-20T16:27:07.000Z",
+     "samples": [
+      "{\"@c\":\"ultshared.UltArticle\",\"senderID\":-1,\"receiverID\":-1,\"messageBody\":\"An investigation of the World Herald revealed that the following individuals are the richest:\\n1st: Prime Minister Niceto Alcalá Zamora (21%)\\n2nd: Sultân Mohammed V (20%)\\n3rd: Governor Antonio de Oro Pulido (14%)\\n4th: President moondoge (10%)\\n5th: President Daemortis (4%)\\n6th: Prime Minister António de Oliveira Salazar ",
+      "{\"@c\":\"ultshared.UltArticle\",\"senderID\":43,\"receiverID\":43,\"messageBody\":\"{{{countryLink 'Egypt' '43'}}} has a new head of state. From now on {{{playerLink '27141308' 'Caesar Blindo' '43'}}} will control the fate of this country.\",\"author\":\"Call of War Game System\",\"address\":\"\",\"receiver\":\"\",\"messageUID\":2400,\"authorID\":-2,\"title\":\"King {{{playerLink '27141308' 'Caesar Blindo' '43'}}} is the new h"
+     ]
+    },
+    "stateID_day2": {
+     "resultClass": "ultshared.UltNewspaperState",
+     "resultKeys": [
+      "@c",
+      "stateType",
+      "stateID",
+      "timeStamp",
+      "day",
+      "ranking",
+      "articles",
+      "mapInfo",
+      "newsArticles"
+     ],
+     "error": null,
+     "newsClass": "ultshared.UltNewspaperState",
+     "newsDay": 9,
+     "newsKeys": [
+      "@c",
+      "stateType",
+      "stateID",
+      "timeStamp",
+      "day",
+      "ranking",
+      "articles",
+      "mapInfo",
+      "newsArticles"
+     ],
+     "articles": 26,
+     "first": "2026-09-23T16:31:12.000Z",
+     "last": "2026-09-23T16:31:12.000Z",
+     "samples": [
+      "{\"@c\":\"ultshared.UltArticle\",\"senderID\":-1,\"receiverID\":-1,\"messageBody\":\"An investigation of the World Herald revealed that the following individuals are the richest:\\n1st: Chancellor Zeppeline682 (22%)\\n2nd: President Ghostly34 (13%)\\n3rd: President Daemortis (13%)\\n4th: Sultân Mohammed V (13%)\\n5th: King Caesar Blindo (10%)\\n6th: King -BRIGHT- (6%)\\n7th: Minister-Chairmen Generale M16 (5%)\\n8th",
+      "{\"@c\":\"ultshared.UltArticle\",\"senderID\":-1,\"receiverID\":-1,\"messageBody\":\"Every player who is still active and survived until the end of a ranked game is rewarded with an amount of gold reflecting his share of victory points.\\n\\nThese players got the following pay outs:\\n   Zeppeline682 ({{{countryLink 'Germany' '1'}}}) : 3500,- gold\\n   Ghostly34 ({{{countryLink 'France' '2'}}}) : 3500,- gold\\n  "
+     ]
+    },
+    "stateID_day5": {
+     "resultClass": "ultshared.UltNewspaperState",
+     "resultKeys": [
+      "@c",
+      "stateType",
+      "stateID",
+      "timeStamp",
+      "day",
+      "ranking",
+      "articles",
+      "mapInfo",
+      "newsArticles"
+     ],
+     "error": null,
+     "newsClass": "ultshared.UltNewspaperState",
+     "newsDay": 9,
+     "newsKeys": [
+      "@c",
+      "stateType",
+      "stateID",
+      "timeStamp",
+      "day",
+      "ranking",
+      "articles",
+      "mapInfo",
+      "newsArticles"
+     ],
+     "articles": 26,
+     "first": "2026-09-23T16:31:12.000Z",
+     "last": "2026-09-23T16:31:12.000Z",
+     "samples": [
+      "{\"@c\":\"ultshared.UltArticle\",\"senderID\":-1,\"receiverID\":-1,\"messageBody\":\"An investigation of the World Herald revealed that the following individuals are the richest:\\n1st: Chancellor Zeppeline682 (22%)\\n2nd: President Ghostly34 (13%)\\n3rd: President Daemortis (13%)\\n4th: Sultân Mohammed V (13%)\\n5th: King Caesar Blindo (10%)\\n6th: King -BRIGHT- (6%)\\n7th: Minister-Chairmen Generale M16 (5%)\\n8th",
+      "{\"@c\":\"ultshared.UltArticle\",\"senderID\":-1,\"receiverID\":-1,\"messageBody\":\"Every player who is still active and survived until the end of a ranked game is rewarded with an amount of gold reflecting his share of victory points.\\n\\nThese players got the following pay outs:\\n   Zeppeline682 ({{{countryLink 'Germany' '1'}}}) : 3500,- gold\\n   Ghostly34 ({{{countryLink 'France' '2'}}}) : 3500,- gold\\n  "
+     ]
+    },
+    "day_day2": {
+     "resultClass": "ultshared.UltNewspaperState",
+     "resultKeys": [
+      "@c",
+      "stateType",
+      "stateID",
+      "timeStamp",
+      "day",
+      "ranking",
+      "articles",
+      "mapInfo",
+      "newsArticles"
+     ],
+     "error": null,
+     "newsClass": "ultshared.UltNewspaperState",
+     "newsDay": 9,
+     "newsKeys": [
+      "@c",
+      "stateType",
+      "stateID",
+      "timeStamp",
+      "day",
+      "ranking",
+      "articles",
+      "mapInfo",
+      "newsArticles"
+     ],
+     "articles": 26,
+     "first": "2026-09-23T16:31:12.000Z",
+     "last": "2026-09-23T16:31:12.000Z",
+     "samples": [
+      "{\"@c\":\"ultshared.UltArticle\",\"senderID\":-1,\"receiverID\":-1,\"messageBody\":\"An investigation of the World Herald revealed that the following individuals are the richest:\\n1st: Chancellor Zeppeline682 (22%)\\n2nd: President Ghostly34 (13%)\\n3rd: President Daemortis (13%)\\n4th: Sultân Mohammed V (13%)\\n5th: King Caesar Blindo (10%)\\n6th: King -BRIGHT- (6%)\\n7th: Minister-Chairmen Generale M16 (5%)\\n8th",
+      "{\"@c\":\"ultshared.UltArticle\",\"senderID\":-1,\"receiverID\":-1,\"messageBody\":\"Every player who is still active and survived until the end of a ranked game is rewarded with an amount of gold reflecting his share of victory points.\\n\\nThese players got the following pay outs:\\n   Zeppeline682 ({{{countryLink 'Germany' '1'}}}) : 3500,- gold\\n   Ghostly34 ({{{countryLink 'France' '2'}}}) : 3500,- gold\\n  "
+     ]
+    },
+    "day_day5": {
+     "resultClass": "ultshared.UltNewspaperState",
+     "resultKeys": [
+      "@c",
+      "stateType",
+      "stateID",
+      "timeStamp",
+      "day",
+      "ranking",
+      "articles",
+      "mapInfo",
+      "newsArticles"
+     ],
+     "error": null,
+     "newsClass": "ultshared.UltNewspaperState",
+     "newsDay": 9,
+     "newsKeys": [
+      "@c",
+      "stateType",
+      "stateID",
+      "timeStamp",
+      "day",
+      "ranking",
+      "articles",
+      "mapInfo",
+      "newsArticles"
+     ],
+     "articles": 26,
+     "first": "2026-09-23T16:31:12.000Z",
+     "last": "2026-09-23T16:31:12.000Z",
+     "samples": [
+      "{\"@c\":\"ultshared.UltArticle\",\"senderID\":-1,\"receiverID\":-1,\"messageBody\":\"An investigation of the World Herald revealed that the following individuals are the richest:\\n1st: Chancellor Zeppeline682 (22%)\\n2nd: President Ghostly34 (13%)\\n3rd: President Daemortis (13%)\\n4th: Sultân Mohammed V (13%)\\n5th: King Caesar Blindo (10%)\\n6th: King -BRIGHT- (6%)\\n7th: Minister-Chairmen Generale M16 (5%)\\n8th",
+      "{\"@c\":\"ultshared.UltArticle\",\"senderID\":-1,\"receiverID\":-1,\"messageBody\":\"Every player who is still active and survived until the end of a ranked game is rewarded with an amount of gold reflecting his share of victory points.\\n\\nThese players got the following pay outs:\\n   Zeppeline682 ({{{countryLink 'Germany' '1'}}}) : 3500,- gold\\n   Ghostly34 ({{{countryLink 'France' '2'}}}) : 3500,- gold\\n  "
+     ]
+    }
+   }
+  },
+  "10917564": {
+   "slot": 0,
+   "dayOfGame": 4,
+   "stateKeys": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "11",
+    "12",
+    "14",
+    "16",
+    "19",
+    "25",
+    "27",
+    "30",
+    "31",
+    "33"
+   ],
+   "results": {
+    "today": {
+     "resultClass": "ultshared.UltNewspaperState",
+     "resultKeys": [
+      "@c",
+      "stateType",
+      "stateID",
+      "timeStamp",
+      "day",
+      "ranking",
+      "articles",
+      "mapInfo",
+      "newsArticles"
+     ],
+     "error": null,
+     "newsClass": "ultshared.UltNewspaperState",
+     "newsDay": 4,
+     "newsKeys": [
+      "@c",
+      "stateType",
+      "stateID",
+      "timeStamp",
+      "day",
+      "ranking",
+      "articles",
+      "mapInfo",
+      "newsArticles"
+     ],
+     "articles": 385,
+     "first": "2026-09-25T16:00:19.000Z",
+     "last": "2026-09-26T09:39:36.410Z",
+     "samples": [
+      "{\"@c\":\"ultshared.UltArticle\",\"senderID\":-1,\"receiverID\":-1,\"messageBody\":\"Leading international military experts estimate the following nations to be the strongest military powers:\\n1st: {{{countryLink 'Southern United States' '36'}}} (16%)\\n2nd: {{{countryLink 'Russian Empire' '48'}}} (15%)\\n3rd: {{{countryLink 'Algeria' '40'}}} (12%)\\n4th: {{{countryLink 'France' '2'}}} (12%)\\n5th: {{{countryLin",
+      "{\"@c\":\"ultshared.UltArticle\",\"senderID\":48,\"receiverID\":6,\"messageBody\":\"7:20 pm War has been declared! {{{playerLink '28599660' 'ShadowRaven703' '48'}}} made it clear today, that {{{playerLink '6105070' 'xOrleans' '6'}}} and his troops have to expect the harshest of all possible treatments.\\n\\n7:20 pm The 6th  Infantry Division ({{{countryLink 'Russian Empire' '48'}}}) has captured {{{provLink 'I"
+     ]
+    },
+    "option_day2": {
+     "resultClass": "ultshared.UltNewspaperState",
+     "resultKeys": [
+      "@c",
+      "stateType",
+      "stateID",
+      "timeStamp",
+      "day",
+      "ranking",
+      "articles",
+      "mapInfo",
+      "newsArticles"
+     ],
+     "error": null,
+     "newsClass": "ultshared.UltNewspaperState",
+     "newsDay": 2,
+     "newsKeys": [
+      "@c",
+      "stateType",
+      "stateID",
+      "timeStamp",
+      "day",
+      "ranking",
+      "articles",
+      "mapInfo",
+      "newsArticles"
+     ],
+     "articles": 1271,
+     "first": "2026-09-23T16:00:19.000Z",
+     "last": "2026-09-24T15:59:44.000Z",
+     "samples": [
+      "{\"@c\":\"ultshared.UltArticle\",\"senderID\":-1,\"receiverID\":-1,\"messageBody\":\"The largest economies and their daily resource production in tons:\\n1st: {{{countryLink 'Algeria' '40'}}}: 44,251 tons.\\n2nd: {{{countryLink 'France' '2'}}}: 41,590 tons.\\n3rd: {{{countryLink 'Ukraine' '45'}}}: 41,318 tons.\\n4th: {{{countryLink 'Poland' '23'}}}: 40,897 tons.\\n5th: {{{countryLink 'Southern United States' '36'",
+      "{\"@c\":\"ultshared.UltArticle\",\"senderID\":9,\"receiverID\":8,\"messageBody\":\"6:00 pm War has been declared! {{{playerLink '51320166' 'JA Tribe germany' '9'}}} made it clear today, that {{{playerLink '-1' 'Alexander I. Karađorđević' '8'}}} and his troops have to expect the harshest of all possible treatments.\\n\\n7:01 pm {{{provLink 'Novi Sad'}}}: The 11th  Infantry Regiment ({{{countryLink 'Yugoslavia' "
+     ]
+    },
+    "option_day5": {
+     "resultClass": "ultshared.UltNewspaperState",
+     "resultKeys": [
+      "@c",
+      "stateType",
+      "stateID",
+      "timeStamp",
+      "day",
+      "ranking",
+      "articles",
+      "mapInfo",
+      "newsArticles"
+     ],
+     "error": null,
+     "newsClass": "ultshared.UltNewspaperState",
+     "newsDay": 5,
+     "newsKeys": [
+      "@c",
+      "stateType",
+      "stateID",
+      "timeStamp",
+      "day",
+      "ranking",
+      "articles",
+      "mapInfo",
+      "newsArticles"
+     ],
+     "articles": 0,
+     "first": null,
+     "last": null,
+     "samples": []
+    },
+    "optionFull_day2": {
+     "resultClass": "ultshared.UltNewspaperState",
+     "resultKeys": [
+      "@c",
+      "stateType",
+      "stateID",
+      "timeStamp",
+      "day",
+      "ranking",
+      "articles",
+      "mapInfo",
+      "newsArticles"
+     ],
+     "error": null,
+     "newsClass": "ultshared.UltNewspaperState",
+     "newsDay": 2,
+     "newsKeys": [
+      "@c",
+      "stateType",
+      "stateID",
+      "timeStamp",
+      "day",
+      "ranking",
+      "articles",
+      "mapInfo",
+      "newsArticles"
+     ],
+     "articles": 1271,
+     "first": "2026-09-23T16:00:19.000Z",
+     "last": "2026-09-24T15:59:44.000Z",
+     "samples": [
+      "{\"@c\":\"ultshared.UltArticle\",\"senderID\":-1,\"receiverID\":-1,\"messageBody\":\"The largest economies and their daily resource production in tons:\\n1st: {{{countryLink 'Algeria' '40'}}}: 44,251 tons.\\n2nd: {{{countryLink 'France' '2'}}}: 41,590 tons.\\n3rd: {{{countryLink 'Ukraine' '45'}}}: 41,318 tons.\\n4th: {{{countryLink 'Poland' '23'}}}: 40,897 tons.\\n5th: {{{countryLink 'Southern United States' '36'",
+      "{\"@c\":\"ultshared.UltArticle\",\"senderID\":9,\"receiverID\":8,\"messageBody\":\"6:00 pm War has been declared! {{{playerLink '51320166' 'JA Tribe germany' '9'}}} made it clear today, that {{{playerLink '-1' 'Alexander I. Karađorđević' '8'}}} and his troops have to expect the harshest of all possible treatments.\\n\\n7:01 pm {{{provLink 'Novi Sad'}}}: The 11th  Infantry Regiment ({{{countryLink 'Yugoslavia' "
+     ]
+    },
+    "optionFull_day5": {
+     "resultClass": "ultshared.UltNewspaperState",
+     "resultKeys": [
+      "@c",
+      "stateType",
+      "stateID",
+      "timeStamp",
+      "day",
+      "ranking",
+      "articles",
+      "mapInfo",
+      "newsArticles"
+     ],
+     "error": null,
+     "newsClass": "ultshared.UltNewspaperState",
+     "newsDay": 5,
+     "newsKeys": [
+      "@c",
+      "stateType",
+      "stateID",
+      "timeStamp",
+      "day",
+      "ranking",
+      "articles",
+      "mapInfo",
+      "newsArticles"
+     ],
+     "articles": 0,
+     "first": null,
+     "last": null,
+     "samples": []
+    },
+    "stateID_day2": {
+     "resultClass": "ultshared.UltNewspaperState",
+     "resultKeys": [
+      "@c",
+      "stateType",
+      "stateID",
+      "timeStamp",
+      "day",
+      "ranking",
+      "articles",
+      "mapInfo",
+      "newsArticles"
+     ],
+     "error": null,
+     "newsClass": "ultshared.UltNewspaperState",
+     "newsDay": 4,
+     "newsKeys": [
+      "@c",
+      "stateType",
+      "stateID",
+      "timeStamp",
+      "day",
+      "ranking",
+      "articles",
+      "mapInfo",
+      "newsArticles"
+     ],
+     "articles": 385,
+     "first": "2026-09-25T16:00:19.000Z",
+     "last": "2026-09-26T09:39:36.410Z",
+     "samples": [
+      "{\"@c\":\"ultshared.UltArticle\",\"senderID\":-1,\"receiverID\":-1,\"messageBody\":\"Leading international military experts estimate the following nations to be the strongest military powers:\\n1st: {{{countryLink 'Southern United States' '36'}}} (16%)\\n2nd: {{{countryLink 'Russian Empire' '48'}}} (15%)\\n3rd: {{{countryLink 'Algeria' '40'}}} (12%)\\n4th: {{{countryLink 'France' '2'}}} (12%)\\n5th: {{{countryLin",
+      "{\"@c\":\"ultshared.UltArticle\",\"senderID\":48,\"receiverID\":6,\"messageBody\":\"7:20 pm War has been declared! {{{playerLink '28599660' 'ShadowRaven703' '48'}}} made it clear today, that {{{playerLink '6105070' 'xOrleans' '6'}}} and his troops have to expect the harshest of all possible treatments.\\n\\n7:20 pm The 6th  Infantry Division ({{{countryLink 'Russian Empire' '48'}}}) has captured {{{provLink 'I"
+     ]
+    },
+    "stateID_day5": {
+     "resultClass": "ultshared.UltNewspaperState",
+     "resultKeys": [
+      "@c",
+      "stateType",
+      "stateID",
+      "timeStamp",
+      "day",
+      "ranking",
+      "articles",
+      "mapInfo",
+      "newsArticles"
+     ],
+     "error": null,
+     "newsClass": "ultshared.UltNewspaperState",
+     "newsDay": 4,
+     "newsKeys": [
+      "@c",
+      "stateType",
+      "stateID",
+      "timeStamp",
+      "day",
+      "ranking",
+      "articles",
+      "mapInfo",
+      "newsArticles"
+     ],
+     "articles": 385,
+     "first": "2026-09-25T16:00:19.000Z",
+     "last": "2026-09-26T09:39:36.410Z",
+     "samples": [
+      "{\"@c\":\"ultshared.UltArticle\",\"senderID\":-1,\"receiverID\":-1,\"messageBody\":\"Leading international military experts estimate the following nations to be the strongest military powers:\\n1st: {{{countryLink 'Southern United States' '36'}}} (16%)\\n2nd: {{{countryLink 'Russian Empire' '48'}}} (15%)\\n3rd: {{{countryLink 'Algeria' '40'}}} (12%)\\n4th: {{{countryLink 'France' '2'}}} (12%)\\n5th: {{{countryLin",
+      "{\"@c\":\"ultshared.UltArticle\",\"senderID\":48,\"receiverID\":6,\"messageBody\":\"7:20 pm War has been declared! {{{playerLink '28599660' 'ShadowRaven703' '48'}}} made it clear today, that {{{playerLink '6105070' 'xOrleans' '6'}}} and his troops have to expect the harshest of all possible treatments.\\n\\n7:20 pm The 6th  Infantry Division ({{{countryLink 'Russian Empire' '48'}}}) has captured {{{provLink 'I"
+     ]
+    },
+    "day_day2": {
+     "resultClass": "ultshared.UltNewspaperState",
+     "resultKeys": [
+      "@c",
+      "stateType",
+      "stateID",
+      "timeStamp",
+      "day",
+      "ranking",
+      "articles",
+      "mapInfo",
+      "newsArticles"
+     ],
+     "error": null,
+     "newsClass": "ultshared.UltNewspaperState",
+     "newsDay": 4,
+     "newsKeys": [
+      "@c",
+      "stateType",
+      "stateID",
+      "timeStamp",
+      "day",
+      "ranking",
+      "articles",
+      "mapInfo",
+      "newsArticles"
+     ],
+     "articles": 385,
+     "first": "2026-09-25T16:00:19.000Z",
+     "last": "2026-09-26T09:39:36.410Z",
+     "samples": [
+      "{\"@c\":\"ultshared.UltArticle\",\"senderID\":-1,\"receiverID\":-1,\"messageBody\":\"Leading international military experts estimate the following nations to be the strongest military powers:\\n1st: {{{countryLink 'Southern United States' '36'}}} (16%)\\n2nd: {{{countryLink 'Russian Empire' '48'}}} (15%)\\n3rd: {{{countryLink 'Algeria' '40'}}} (12%)\\n4th: {{{countryLink 'France' '2'}}} (12%)\\n5th: {{{countryLin",
+      "{\"@c\":\"ultshared.UltArticle\",\"senderID\":48,\"receiverID\":6,\"messageBody\":\"7:20 pm War has been declared! {{{playerLink '28599660' 'ShadowRaven703' '48'}}} made it clear today, that {{{playerLink '6105070' 'xOrleans' '6'}}} and his troops have to expect the harshest of all possible treatments.\\n\\n7:20 pm The 6th  Infantry Division ({{{countryLink 'Russian Empire' '48'}}}) has captured {{{provLink 'I"
+     ]
+    },
+    "day_day5": {
+     "resultClass": "ultshared.UltNewspaperState",
+     "resultKeys": [
+      "@c",
+      "stateType",
+      "stateID",
+      "timeStamp",
+      "day",
+      "ranking",
+      "articles",
+      "mapInfo",
+      "newsArticles"
+     ],
+     "error": null,
+     "newsClass": "ultshared.UltNewspaperState",
+     "newsDay": 4,
+     "newsKeys": [
+      "@c",
+      "stateType",
+      "stateID",
+      "timeStamp",
+      "day",
+      "ranking",
+      "articles",
+      "mapInfo",
+      "newsArticles"
+     ],
+     "articles": 385,
+     "first": "2026-09-25T16:00:19.000Z",
+     "last": "2026-09-26T09:39:36.410Z",
+     "samples": [
+      "{\"@c\":\"ultshared.UltArticle\",\"senderID\":-1,\"receiverID\":-1,\"messageBody\":\"Leading international military experts estimate the following nations to be the strongest military powers:\\n1st: {{{countryLink 'Southern United States' '36'}}} (16%)\\n2nd: {{{countryLink 'Russian Empire' '48'}}} (15%)\\n3rd: {{{countryLink 'Algeria' '40'}}} (12%)\\n4th: {{{countryLink 'France' '2'}}} (12%)\\n5th: {{{countryLin",
+      "{\"@c\":\"ultshared.UltArticle\",\"senderID\":48,\"receiverID\":6,\"messageBody\":\"7:20 pm War has been declared! {{{playerLink '28599660' 'ShadowRaven703' '48'}}} made it clear today, that {{{playerLink '6105070' 'xOrleans' '6'}}} and his troops have to expect the harshest of all possible treatments.\\n\\n7:20 pm The 6th  Infantry Division ({{{countryLink 'Russian Empire' '48'}}}) has captured {{{provLink 'I"
+     ]
+    }
+   }
+  }
+ }
+}
