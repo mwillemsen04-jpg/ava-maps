@@ -40,8 +40,9 @@ def main():
     fetch = '--no-fetch' not in sys.argv
     reg = load_registry()
     now = int(dt.datetime.now(TZ).timestamp() * 1000)
-    # only a timed run skips games that are not due; a button, a request or a local run updates everything
-    timed = os.environ.get('GITHUB_EVENT_NAME') == 'schedule' and '--all' not in sys.argv
+    # a timed run and a request from the website (Add / Stop / Folders / Update every / Delete) only fetch the
+    # games that are due or new; the "Run workflow" button and a local run update every live game
+    timed = os.environ.get('GITHUB_EVENT_NAME') in ('schedule', 'issues') and '--all' not in sys.argv
     todo = [g for g in reg['games'] if g.get('rebuild') or (g.get('status') == 'live' and (not timed or is_due(g, now)))]
     if '--check' in sys.argv:
         due = bool(todo)
@@ -82,7 +83,8 @@ def main():
     done = {str(g['id']) for g in todo}
     for g in reg['games']:
         gid = str(g['id'])
-        if g.get('status') == 'live' and gid not in done and not os.path.exists(os.path.join(SITE, 'games', gid, 'index.html')) \
+        refresh = g.pop('refresh', None)   # e.g. a new update interval: rebuild the page, without fetching new data
+        if g.get('status') == 'live' and gid not in done and (refresh or not os.path.exists(os.path.join(SITE, 'games', gid, 'index.html'))) \
                 and os.path.exists(os.path.join(game_dir(gid), 'game_data.json')):
             sh(PY, 'scripts/build_game.py', gid)
 

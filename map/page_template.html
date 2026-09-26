@@ -565,24 +565,27 @@ function setRange(){
 }
 {const sel=$('from'),first=gday(D.t0),last=gday(D.t1);
  // one menu: start from a game day, or show only the last N hours before the newest event
- const oa=document.createElement('option');oa.value='all';oa.textContent='Entire game';sel.appendChild(oa);
- const g1=sel;   // one option per game day
- for(let d=first;d<=last;d++){const o=document.createElement('option');o.value='d'+d;o.textContent='Day '+d+(d===last?' (today)':'');g1.appendChild(o)}
- // from the start of a game day up to now, opened at the newest event so everything since then is on the map
- for(let d=last;d>first;d--){const o=document.createElement('option');o.value='s'+d;o.textContent='Since start of day '+d;sel.insertBefore(o,sel.querySelector('option[value="d'+first+'"]'))}
+ // tidy menu: the whole game, "up to now" choices (today, since an earlier day) and single past days;
+ // the day that is still running is only listed once ("Today"), and "Last N h" only appears while hours are typed
+ const add=(p,v,t)=>{const o=document.createElement('option');o.value=v;o.textContent=t;p.appendChild(o);return o};
+ const grp=l=>{const g=document.createElement('optgroup');g.label=l;sel.appendChild(g);return g};
+ add(sel,'all','Entire game');
+ {const gn=grp('Up to now');add(gn,'s'+last,'Today (day '+last+')');for(let d=last-1;d>first;d--)add(gn,'s'+d,'Since day '+d);}
+ if(last>first){const gd=grp('One day only');for(let d=first;d<last;d++)add(gd,'d'+d,'Day '+d);}
  const startOf=v=>v==='all'?D.t0:v[0]==='s'?Math.max(D.t0,D.t0+(+v.slice(1)-2)*1440):v[0]==='h'?Math.max(D.t0,D.t1-(+v.slice(1))*60):Math.max(D.t0,D.t0+(+v.slice(1)-2)*1440);
  const endOf=v=>v[0]==='d'?Math.min(D.t1,D.t0+(+v.slice(1)-1)*1440):D.t1;
  let want='all';
  const dflt=want;  // always opens from day 2; a choice made on the page only lasts until it is closed
  sel.value=want;FROM=startOf(want);TO=endOf(want);
- const cust=document.createElement('option');cust.value='c';cust.textContent='Custom hours';cust.hidden=true;sel.appendChild(cust);
+ let cust=null;   // "Last N h": added while hours are typed, removed again afterwards
+ const dropCust=()=>{if(cust){cust.remove();cust=null}};
  const apply=()=>{setRange();feedKey='';for(const el of Object.values(mkEl))el._key=null;render()};
- sel.addEventListener('change',()=>{if(sel.value==='c')return;$('hrs').value='';FROM=startOf(sel.value);TO=endOf(sel.value);T=sel.value[0]==='s'?TO:FROM;   // picking a day starts the timeline at the beginning of that day
+ sel.addEventListener('change',()=>{if(sel.value==='c')return;dropCust();$('hrs').value='';FROM=startOf(sel.value);TO=endOf(sel.value);T=sel.value[0]==='s'?TO:FROM;   // picking a day starts the timeline at the beginning of that day
   try{localStorage.setItem('avaFrom',sel.value)}catch(e){}apply()});
  // type your own number of hours: shows the last N hours before the newest event
  $('hrs').addEventListener('input',()=>{const h=parseFloat($('hrs').value);
-   if(!(h>0)){if($('hrs').value===''&&sel.value==='c'){sel.value=dflt;FROM=startOf(dflt);TO=endOf(dflt);try{localStorage.setItem('avaFrom',dflt)}catch(e){}apply()}return}
-   sel.value='c';FROM=Math.max(D.t0,Math.round(D.t1-h*60));TO=D.t1;try{localStorage.setItem('avaFrom','h'+h)}catch(e){}apply()});
+   if(!(h>0)){if($('hrs').value===''&&sel.value==='c'){dropCust();sel.value=dflt;FROM=startOf(dflt);TO=endOf(dflt);try{localStorage.setItem('avaFrom',dflt)}catch(e){}apply()}return}
+   if(!cust)cust=add(sel,'c','');cust.textContent='Last '+h+' h';sel.value='c';FROM=Math.max(D.t0,Math.round(D.t1-h*60));TO=D.t1;try{localStorage.setItem('avaFrom','h'+h)}catch(e){}apply()});
  // War settings: one click shows only the last hour, a second click goes back to the normal view (from day 2)
  // the three presets exclude each other: turning one on first turns the others off (they put their buttons back)
  function presetOff(k){['war','aiset','plset'].forEach(i=>{if(i!==k&&$(i).getAttribute('aria-pressed')==='true')$(i).click()})}

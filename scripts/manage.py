@@ -2,7 +2,7 @@
 
   python3 scripts/manage.py add <game id> [name]
   python3 scripts/manage.py stop <game id> [folder]
-  python3 scripts/manage.py move <game id> <folder>      (saved games are grouped in folders)
+  python3 scripts/manage.py move <game id> <folder>[; <folder> ...]   (a saved game can be in several folders; "-" = none)
   python3 scripts/manage.py delete <game id>       (saved games only: removes the game and its map for good)
   python3 scripts/manage.py folder <name>           (make an empty folder)
   python3 scripts/manage.py delete-folder <name>    (its games go back to Unsorted)
@@ -12,7 +12,7 @@
 
 A GitHub issue titled "Add game 10917564" (optional "Name: KH vs PHK" in the body),
 "Stop game 10917564" (optional "Folder: Season 1" in the body) or
-"Move game 10917564 to Season 1", "Set update 10917564 every 30", "Delete game 10917564", "Create folder Season 1" or "Delete folder Season 1"
+"Move game 10917564 to Season 1; Clan wars" (several folders, "-" for none), "Set update 10917564 every 30", "Delete game 10917564", "Create folder Season 1" or "Delete folder Season 1"
 does the same from the website.
 """
 import os, re, sys, shutil, datetime as dt
@@ -38,7 +38,35 @@ def add(gid, name=None):
     save_registry(reg); print(f'added game {gid}')
 
 
-def stop(gid, reason='stopped', folder=None):
+def folders_of(g):
+    """The folders a game is in (older entries have one "folder" instead of a list)."""
+    fl = g.get('folders')
+    if fl is None:
+        fl = [g['folder']] if g.get('folder') else []
+    return [f for f in fl if f]
+
+
+def split_folders(text):
+    """"Season 1; Clan wars" -> ["Season 1", "Clan wars"]; "-" or empty -> no folder."""
+    out = []
+    for f in re.split(r'[;\n]', text or ''):
+        f = f.strip()[:60]
+        if f and f != '-' and f not in out:
+            out.append(f)
+    return out
+
+
+def set_folders(g, reg, folders):
+    g.pop('folder', None)
+    if folders:
+        g['folders'] = folders
+        for f in folders:
+            remember(reg, f)
+    else:
+        g.pop('folders', None)
+
+
+def stop(gid, reason='stopped', folders=None):
     reg = load_registry()
     g = next((g for g in reg['games'] if str(g['id']) == str(gid)), None)
     if not g:
@@ -46,24 +74,20 @@ def stop(gid, reason='stopped', folder=None):
     if g.get('status') == 'saved':
         print(f'game {gid} is already saved'); return
     g.update(status='saved', reason=reason, ended=today(), rebuild=True)   # the next run builds its final page
-    if folder and folder.strip():
-        g['folder'] = folder.strip()[:60]
-        remember(reg, g['folder'])
+    if folders:
+        set_folders(g, reg, folders)
     save_registry(reg); print(f'saved game {gid} ({reason})')
 
 
-def move(gid, folder):
+def move(gid, folders):
+    """Put a game in exactly these folders (a list, or text like "Season 1; Clan wars"; empty = no folder)."""
     reg = load_registry()
     g = next((g for g in reg['games'] if str(g['id']) == str(gid)), None)
     if not g:
         sys.exit(f'game {gid} is not in the database')
-    folder = (folder or '').strip()[:60]
-    if folder:
-        g['folder'] = folder
-        remember(reg, folder)
-    else:
-        g.pop('folder', None)
-    save_registry(reg); print(f'game {gid} -> folder "{folder}"')
+    fl = split_folders(folders) if isinstance(folders, str) else list(folders or [])
+    set_folders(g, reg, fl)
+    save_registry(reg); print(f'game {gid} -> folders {fl or "(none)"}')
 
 
 def delete(gid):
@@ -96,6 +120,7 @@ def set_every(gid, minutes):
     if m not in EVERY:
         sys.exit(f'{m} minutes is not a choice ({", ".join(map(str, EVERY))})')
     g['every'] = m
+    g['refresh'] = True   # the next run rebuilds its page with the new interval (no extra fetch)
     save_registry(reg); print(f'game {gid}: updated every {m} minutes')
 
 
@@ -118,8 +143,9 @@ def delete_folder(name):
     reg = load_registry()
     reg['folders'] = [f for f in reg.get('folders', []) if f != name]
     for g in reg['games']:
-        if g.get('folder') == name:
-            g.pop('folder', None)
+        fl = folders_of(g)
+        if name in fl:
+            set_folders(g, reg, [f for f in fl if f != name])
     save_registry(reg); print(f'folder "{name}" removed')
 
 
@@ -141,11 +167,11 @@ def from_issue():
     if not m:
         sys.exit('issue title must be "Add game <code>", "Stop game <code>" or "Move game <code> to <folder>"')
     name = re.search(r'^\s*name\s*:\s*(.+)$', body, re.I | re.M)
-    folder = re.search(r'^\s*folder\s*:\s*(.+)$', body, re.I | re.M)
+    folders = [f for x in re.findall(r'^\s*folders?\s*:\s*(.+)$', body, re.I | re.M) for f in split_folders(x)]
     if m.group(1).lower() == 'add':
         add(m.group(2), name.group(1) if name else None)
     else:
-        stop(m.group(2), folder=folder.group(1) if folder else None)
+        stop(m.group(2), folders=folders)
 
 
 if __name__ == '__main__':
@@ -153,7 +179,7 @@ if __name__ == '__main__':
     if cmd == 'add':
         add(sys.argv[2], ' '.join(sys.argv[3:]) or None)
     elif cmd == 'stop':
-        stop(sys.argv[2], folder=' '.join(sys.argv[3:]) or None)
+        stop(sys.argv[2], folders=split_folders(' '.join(sys.argv[3:])))
     elif cmd == 'move':
         move(sys.argv[2], ' '.join(sys.argv[3:]))
     elif cmd == 'every':

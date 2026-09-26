@@ -13,7 +13,8 @@ repo = os.environ.get('GITHUB_REPOSITORY') or cfg.get('repo') or ''
 reg = load_registry()
 games = reg['games']
 data = dict(title=cfg['title'], repo=repo, tz=cfg['timezone'], folders=reg.get('folders', []),
-            games=[dict({k: g.get(k) for k in ('id', 'name', 'status', 'reason', 'added', 'ended', 'last', 'folder', 'every')},
+            games=[dict({k: g.get(k) for k in ('id', 'name', 'status', 'reason', 'added', 'ended', 'last', 'every')},
+                        folders=g.get('folders') if g.get('folders') is not None else ([g['folder']] if g.get('folder') else []),
                         page=os.path.exists(os.path.join(SITE, 'games', str(g['id']), 'index.html'))) for g in games])
 
 HTML = r'''<!doctype html>
@@ -99,6 +100,11 @@ header img{height:40px;width:40px;border-radius:50%;object-fit:cover;border:2px 
 .field label{font-size:11px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:#b48c3c}
 .field input{width:100%}
 .note{font-size:12px;color:#f87171;margin:-8px 0 14px}
+.fpick{display:flex;flex-direction:column;gap:6px;margin-bottom:16px;max-height:220px;overflow:auto}
+.fpick label{display:flex;align-items:center;gap:10px;font-size:15px;font-weight:600;cursor:pointer;padding:6px 8px;border:1px solid #1e293b;border-radius:6px;background:#111827}
+.fpick input{width:18px;height:18px;min-height:0;accent-color:#b48c3c}
+.fpick .none{color:#475569;font-size:13px}
+.infold{font-size:11px;color:#94a3b8}
 .chip.g{background:#14532d;color:#bbf7d0}.chip.r{background:#7f1d1d;color:#fecaca}
 .foot{text-align:center;margin-top:24px;font-size:10px;color:#1e293b;letter-spacing:2px;text-transform:uppercase}
 dialog{background:#0d1117;color:#e2e8f0;border:1px solid #1e293b;border-radius:14px;padding:28px;max-width:440px;margin:auto}
@@ -145,7 +151,7 @@ dialog .acts{justify-content:flex-end}
 </div>
 <datalist id="flist"></datalist>
 <dialog id="stopdlg" aria-labelledby="stopt"><h3 id="stopt">Are you sure?</h3><p id="stopp"></p>
-  <div class="field"><label for="stopf">Save in folder <span style="color:#475569;letter-spacing:0;text-transform:none;font-weight:400">(optional)</span></label><input id="stopf" list="flist" placeholder="e.g. Season 1" autocomplete="off"></div>
+  <div class="field"><label for="stopf">Save in folder(s) <span style="color:#475569;letter-spacing:0;text-transform:none;font-weight:400">(optional, separate with ;)</span></label><input id="stopf" list="flist" placeholder="e.g. Season 1; Clan wars" autocomplete="off"></div>
   <p class="note" id="stopn" hidden>Not connected to GitHub yet (config.json → "repo").</p>
   <div class="acts"><button class="keep" id="keep" type="button">Cancel</button><a class="btn stop" id="stopgo" href="#" target="_blank" rel="noopener">Yes, stop &amp; save</a></div></dialog>
 <dialog id="newdlg" aria-labelledby="newt"><h3 id="newt">New folder</h3><p>Make an empty folder for saved games, e.g. a season or a clan war.</p>
@@ -158,10 +164,11 @@ dialog .acts{justify-content:flex-end}
 <dialog id="delgdlg" aria-labelledby="delgt"><h3 id="delgt">Delete this game?</h3><p id="delgp"></p>
   <p class="note" id="delgn" hidden>Not connected to GitHub yet (config.json → "repo").</p>
   <div class="acts"><button class="keep" id="gkeep" type="button">Cancel</button><a class="btn stop" id="delggo" href="#" target="_blank" rel="noopener">Yes, delete for good</a></div></dialog>
-<dialog id="movedlg" aria-labelledby="movet"><h3 id="movet">Move to folder</h3><p id="movep"></p>
-  <div class="field"><label for="movef">Folder</label><input id="movef" list="flist" placeholder="Existing or new folder name" autocomplete="off"></div>
+<dialog id="movedlg" aria-labelledby="movet"><h3 id="movet">Folders</h3><p id="movep"></p>
+  <div class="fpick" id="fpick"></div>
+  <div class="field"><label for="movef">New folder <span style="color:#475569;letter-spacing:0;text-transform:none;font-weight:400">(optional)</span></label><input id="movef" placeholder="e.g. Clan wars" maxlength="60" autocomplete="off"></div>
   <p class="note" id="moven" hidden>Not connected to GitHub yet (config.json → "repo").</p>
-  <div class="acts"><button class="keep" id="mkeep" type="button">Cancel</button><a class="btn open" id="movego" href="#" target="_blank" rel="noopener">Move</a></div></dialog>
+  <div class="acts"><button class="keep" id="mkeep" type="button">Cancel</button><a class="btn open" id="movego" href="#" target="_blank" rel="noopener">Save folders</a></div></dialog>
 <script id="data" type="application/json">__DATA__</script>
 <script>
 const D=JSON.parse(document.getElementById('data').textContent),$=id=>document.getElementById(id);
@@ -181,23 +188,25 @@ const teams=L=>L&&L.teams?['G','R'].map(k=>`<div class="teams"><span class="chip
 const score=L=>L&&L.score?`<div class="score"><span class="g">Green <b>${L.score.G}</b></span><span class="bar"><i style="width:${Math.round(L.score.G/Math.max(1,L.score.G+L.score.R)*100)}%"></i><em></em></span><span class="r"><b>${L.score.R}</b> Red</span></div>`:'';
 const item=(g,isLive)=>{const L=g.last,name=esc(g.name||('Game '+g.id));
   const metaL=isLive?(L&&g.page?[`&#128339; ${when(L.fetched)}`,`&#128197; Day ${L.day??'?'}`,`&#127757; ${L.provinces.G} / ${L.provinces.R} provinces`,`&#128260; every ${({15:'15 min',30:'30 min',60:'hour',120:'2 hours',240:'4 hours'})[g.every||60]||((g.every||60)+' min')}`]:[`&#128339; added ${esc(g.added||'')}`,'waiting for the first update'])
-    :[`&#128190; ${esc(g.ended||'')}`,g.reason==='ended'?'game ended':'stopped by you',L&&L.winner?(L.winner==='G'?'Team green won':'Team red won'):''];
+    :[`&#128190; ${esc(g.ended||'')}`,g.reason==='ended'?'game ended':'stopped by you',L&&L.winner?(L.winner==='G'?'Team green won':'Team red won'):'',(g.folders||[]).length?'&#128193; '+g.folders.map(esc).join(', '):''];
   return `<div class="item${isLive?' live':''}"><div class="info">
     <div class="name">${name}<span class="pill ${isLive?'live':'saved'}">${isLive?'&#9679; Live':'Saved'}</span></div>
     <div class="meta"><span class="mono">#${esc(g.id)}</span>${metaL.filter(Boolean).map(x=>`<span>${x}</span>`).join('')}</div>
     ${score(L)}<div class="tm">${teams(L)}</div></div>
-    <div class="acts">${g.page?`<a class="btn open" href="games/${esc(g.id)}/index.html">Open</a>`:''}${isLive?`<button class="stop" type="button" data-stop="${esc(g.id)}" data-name="${name}" aria-label="Stop and save ${name}">&#9632; Stop</button>`:`<button class="move" type="button" data-move="${esc(g.id)}" data-name="${name}" aria-label="Move ${name} to a folder">&#128193; Move</button><button class="del" type="button" data-delg="${esc(g.id)}" data-name="${name}" aria-label="Delete ${name}">&#128465; Delete</button>`}</div></div>`};
+    <div class="acts">${g.page?`<a class="btn open" href="games/${esc(g.id)}/index.html">Open</a>`:''}${isLive?`<button class="stop" type="button" data-stop="${esc(g.id)}" data-name="${name}" aria-label="Stop and save ${name}">&#9632; Stop</button>`:`<button class="move" type="button" data-move="${esc(g.id)}" data-name="${name}" aria-label="Choose the folders of ${name}">&#128193; Folders</button><button class="del" type="button" data-delg="${esc(g.id)}" data-name="${name}" aria-label="Delete ${name}">&#128465; Delete</button>`}</div></div>`};
 $('live').innerHTML=live.length?live.map(g=>item(g,true)).join(''):'<div class="empty">No live maps — enter a game code above</div>';
 // saved games in folders: a bar to pick one folder, or all folders grouped
-const FOLDERS=[...new Set([...(D.folders||[]),...saved.map(g=>g.folder)].filter(Boolean))].sort((a,b)=>a.localeCompare(b));
+// a saved game can be in several folders at once: it is shown in each of them (it is still one map)
+const GF=g=>g.folders||[];
+const FOLDERS=[...new Set([...(D.folders||[]),...saved.flatMap(GF)].filter(Boolean))].sort((a,b)=>a.localeCompare(b));
 $('flist').innerHTML=FOLDERS.map(f=>`<option value="${esc(f)}">`).join('');
 let fsel='*';try{fsel=localStorage.getItem('avaFolder')||'*'}catch(e){}
 if(fsel!=='*'&&fsel!==''&&!FOLDERS.includes(fsel))fsel='*';
 function drawSaved(){
-  const n=f=>saved.filter(g=>(g.folder||'')===f).length,uns=n('');
+  const inF=(g,f)=>f===''?!GF(g).length:GF(g).includes(f),n=f=>saved.filter(g=>inF(g,f)).length,uns=n('');
   const bar=`<div class="folders" role="tablist"><button class="fchip${fsel==='*'?' on':''}" data-f="*" type="button">All<b>${saved.length}</b></button>${FOLDERS.map(f=>`<button class="fchip${fsel===f?' on':''}" data-f="${esc(f)}" type="button">&#128193; ${esc(f)}<b>${n(f)}</b></button>`).join('')}${uns&&FOLDERS.length?`<button class="fchip${fsel===''?' on':''}" data-f="" type="button">Unsorted<b>${uns}</b></button>`:''}<button class="fchip new" id="newbtn" type="button">+ New folder</button></div>`;
-  const group=f=>saved.filter(g=>(g.folder||'')===f).map(g=>item(g,false)).join('');
-  const emptyF='<div class="empty">Empty folder — use Move on a saved game, or pick this folder when you stop a game</div>';
+  const group=f=>saved.filter(g=>inF(g,f)).map(g=>item(g,false)).join('');
+  const emptyF='<div class="empty">Empty folder — use Folders on a saved game, or pick this folder when you stop a game</div>';
   const del=f=>`<button class="fdel" type="button" data-del="${esc(f)}">delete</button>`;
   const body=!saved.length&&!FOLDERS.length&&fsel==='*'?'<div class="empty">Games that end, or that you stop, are saved here</div>'
     :fsel==='*'?(FOLDERS.length?[...FOLDERS.map(f=>`<div class="fhead">&#128193; ${esc(f)} <b>(${n(f)})</b>${del(f)}</div>`+(group(f)||emptyF)),uns?`<div class="fhead">Unsorted <b>(${uns})</b></div>`+group(''):''].join(''):group(''))
@@ -206,7 +215,7 @@ function drawSaved(){
 drawSaved();
 $('saved').addEventListener('click',e=>{
   if(e.target.closest('#newbtn')){$('newf').value='';$('newn').hidden=!!D.repo;$('newgo').href='#';$('newdlg').showModal();$('newf').focus();return}
-  const d=e.target.closest('[data-del]');if(d){const f=d.dataset.del,c=saved.filter(g=>g.folder===f).length;$('delp').innerHTML='Delete the folder <b>'+esc(f)+'</b>?'+(c?' Its '+c+' game'+(c>1?'s go':' goes')+' back to Unsorted; nothing is deleted.':' It is empty.');
+  const d=e.target.closest('[data-del]');if(d){const f=d.dataset.del,c=saved.filter(g=>GF(g).includes(f)).length;$('delp').innerHTML='Delete the folder <b>'+esc(f)+'</b>?'+(c?' Its '+c+' game'+(c>1?'s are':' is')+' only taken out of this folder (games in no other folder go back to Unsorted); nothing is deleted.':' It is empty.');
     $('deln').hidden=!!D.repo;$('delgo').href=D.repo?issue('Delete folder '+f,''):'#';$('deldlg').showModal();return}
   const b=e.target.closest('[data-f]');if(!b)return;fsel=b.dataset.f;try{localStorage.setItem('avaFolder',fsel)}catch(e){}drawSaved()});
 const code=$('code'),btn=$('create'),err=$('err');
@@ -219,15 +228,19 @@ $('add').addEventListener('submit',e=>{e.preventDefault();const c=code.value.tri
   if(u)window.open(u,'_blank','noopener');else{err.textContent='No GitHub repository set yet (config.json → "repo").';err.hidden=false}});
 // Stop: always asks "Are you sure?" first; the folder (optional) goes along with the request
 const dlg=$('stopdlg'),mdlg=$('movedlg');let target=null;
-const stopUrl=()=>issue('Stop game '+target.id,$('stopf').value.trim()?'Folder: '+$('stopf').value.trim():'');
-const moveUrl=()=>issue('Move game '+target.id+' to '+$('movef').value.trim(),'');
+const splitF=t=>[...new Set(String(t||'').split(';').map(x=>x.trim().slice(0,60)).filter(x=>x&&x!=='-'))];
+const stopUrl=()=>{const fl=splitF($('stopf').value);return issue('Stop game '+target.id,fl.map(f=>'Folder: '+f).join('\n'))};
+const pickF=()=>{const fl=[...$('fpick').querySelectorAll('input:checked')].map(x=>x.value);return splitF([...fl,$('movef').value].join(';'))};
+const moveUrl=()=>{const fl=pickF();return issue('Move game '+target.id+' to '+(fl.length?fl.join('; '):'-'),'')};
 document.addEventListener('click',e=>{const b=e.target.closest('[data-stop],[data-move]');if(!b)return;
   if(b.dataset.stop){target={id:b.dataset.stop};$('stopp').innerHTML='Stop updating <b>'+b.dataset.name+'</b>? It moves to Saved games with everything up to now and stops fetching new data. You can still open and replay it.';
     $('stopf').value='';$('stopn').hidden=!!D.repo;$('stopgo').href=D.repo?stopUrl():'#';$('stopgo').setAttribute('aria-disabled',String(!D.repo));dlg.showModal()}
-  else{target={id:b.dataset.move};$('movep').innerHTML='Put <b>'+b.dataset.name+'</b> in a folder. Type a new name to make a new folder.';
-    $('movef').value='';$('moven').hidden=!!D.repo;$('movego').href='#';mdlg.showModal();$('movef').focus()}});
+  else{target={id:b.dataset.move};const g=saved.find(x=>String(x.id)===b.dataset.move)||{};$('movep').innerHTML='Tick every folder <b>'+b.dataset.name+'</b> should be in. It can be in several at once; untick all for Unsorted.';
+    $('fpick').innerHTML=FOLDERS.length?FOLDERS.map(f=>`<label><input type="checkbox" value="${esc(f)}"${GF(g).includes(f)?' checked':''}>&#128193; ${esc(f)}</label>`).join(''):'<div class="none">No folders yet: type a name below to make one.</div>';
+    $('movef').value='';$('moven').hidden=!!D.repo;$('movego').href=D.repo?moveUrl():'#';mdlg.showModal()}});
+$('fpick').addEventListener('change',()=>{if(D.repo)$('movego').href=moveUrl()});
 $('stopf').addEventListener('input',()=>{if(D.repo)$('stopgo').href=stopUrl()});
-$('movef').addEventListener('input',()=>{if(D.repo&&$('movef').value.trim())$('movego').href=moveUrl()});
+$('movef').addEventListener('input',()=>{if(D.repo)$('movego').href=moveUrl()});
 // Delete (saved games only): always asks "are you sure?" first
 document.addEventListener('click',e=>{const b=e.target.closest('[data-delg]');if(!b)return;
   $('delgp').innerHTML='Delete <b>'+b.dataset.name+'</b> (#'+esc(b.dataset.delg)+')? The saved map and all its history are removed for good. This cannot be undone.';
@@ -240,7 +253,7 @@ $('delgo').addEventListener('click',e=>{if(!D.repo){e.preventDefault();return}$(
 $('nkeep').onclick=()=>$('newdlg').close();$('dkeep').onclick=()=>$('deldlg').close();
 $('keep').onclick=()=>dlg.close();$('mkeep').onclick=()=>mdlg.close();
 $('stopgo').addEventListener('click',e=>{if(!D.repo){e.preventDefault();return}dlg.close()});
-$('movego').addEventListener('click',e=>{if(!D.repo||!$('movef').value.trim()){e.preventDefault();$('movef').focus();return}mdlg.close()});
+$('movego').addEventListener('click',e=>{if(!D.repo){e.preventDefault();return}mdlg.close()});
 </script>
 </body>
 </html>

@@ -93,8 +93,9 @@ Every map has **Update every** at the top right: 15 min, 30 min, 1 hour (default
 - *Actions → Update maps → Run workflow* always updates all live games immediately.
 
 ### Stop, move or delete a game
-- **Stop** (live game): asks *Are you sure?* and lets you pick a folder. The game moves to *Saved games* with everything up to now and stops updating. A game that ends (winner known) is saved automatically.
-- **Folders:** under *Saved games*, **+ New folder** makes a folder; **Move** puts a saved game in a folder; **delete** next to a folder removes only the folder (its games go back to *Unsorted*).
+- **Stop** (live game): asks *Are you sure?* and lets you pick one or more folders. The game moves to *Saved games* with everything up to now and stops updating. A game that ends (winner known) is saved automatically.
+- **Folders:** under *Saved games*, **+ New folder** makes a folder. **📁 Folders** next to a saved game lets you tick every folder it should be in (a game can be in several folders at once) or type a new one. **delete** next to a folder removes only the folder (its games stay in their other folders, or go back to *Unsorted*).
+- These requests only change the list and the overview page; they do **not** fetch or update the live games.
 - **Delete** (saved game): asks twice, then removes the game, its map and its whole history for good. Stop a live game first.
 
 Only members of the repository can do these things; requests from anyone else are ignored.
@@ -149,7 +150,7 @@ python scripts/run.py --no-fetch   (only rebuild)
 
 - **Test with another game:** double-click `test_game.bat` and type the game code.
 - **Update on your PC:** double-click `update_local.bat`.
-- **Command line:** `python scripts/manage.py add 10917564 "KH vs PHK"`, `... stop 10917564 "Season 1"`, `... move 10917564 "Season 1"`, `... every 10917564 30`.
+- **Command line:** `python scripts/manage.py add 10917564 "KH vs PHK"`, `... stop 10917564 "Season 1"`, `... move 10917564 "Season 1; Finals"`, `... every 10917564 30`.
 
 ## Troubleshooting
 
