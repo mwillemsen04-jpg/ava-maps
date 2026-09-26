@@ -222,6 +222,36 @@ async function fetchGame(TARGET_GAME_ID, activeCookies) {
     fs.mkdirSync(dir, { recursive: true });
     fs.writeFileSync(path.join(dir, 'game_data.json'), JSON.stringify(stateResponse.data));
     writeToFileAndConsole(`🎉 [SUCCESS] game ${TARGET_GAME_ID} saved to games/${TARGET_GAME_ID}/game_data.json`);
+
+    // 7. Newspapers of earlier days. The game's current newspaper only covers today, but the server
+    // still gives the full newspaper of any earlier day (option = day number). Every finished day that
+    // import_news.py has not stored yet (gd_events.json -> news_days) is fetched once, so a game added
+    // late (or already finished) gets its whole history, and a missed round never leaves a gap.
+    try {
+      const today = stateResponse.data.result.states['2']?.day;
+      let done = [];
+      try { done = JSON.parse(fs.readFileSync(path.join(dir, 'gd_events.json'), 'utf8')).news_days || []; } catch (e) {}
+      const want = [];
+      for (let d = 1; today && d < today; d++) if (!done.includes(d)) want.push(d);
+      if (want.length) {
+        logAction("7. Fetching newspapers of earlier days", { days: want });
+        const nd = path.join(dir, 'news_days');
+        fs.mkdirSync(nd, { recursive: true });
+        const slot = detected ? detected.slotID : 0;
+        for (const d of want) {
+          const r = await client.post(gameServerUrl, { ...makePayload(slot), stateType: 2, option: d }, {
+            headers: { 'Content-Type': 'text/plain;charset=UTF-8', 'Origin': 'https://www.callofwar.com', 'Referer': 'https://www.callofwar.com/' }
+          });
+          const res = r.data?.result || {};
+          const news = String(res['@c'] || '').includes('Newspaper') ? res : res.states?.['2'];
+          if (!news || news.day !== d) { writeToFileAndConsole(`⚠️ newspaper of day ${d} not returned`); continue; }
+          fs.writeFileSync(path.join(nd, `${d}.json`), JSON.stringify({ day: d, newsArticles: news.newsArticles || [] }));
+          writeToFileAndConsole(`📰 day ${d}: ${(news.newsArticles || []).length} articles`);
+        }
+      }
+    } catch (err) {
+      writeToFileAndConsole(`⚠️ earlier newspapers skipped: ${err.message}`);
+    }
 }
 
 (async () => {

@@ -3,3 +3,4 @@ node_modules/
 games/*/game_data.json
 site/
 __pycache__/
+games/*/news_days/

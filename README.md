@@ -84,6 +84,8 @@ From now on GitHub checks every quarter of an hour which games are due and updat
 ### Add a game
 On the overview page, type the game code under **New map** and click **Create**. GitHub opens a filled-in form: click **Submit new issue**. Within a few minutes the map appears under *Live maps*.
 
+This also works for a game that is already running or has already ended: the whole history from day 1 is fetched from the game's newspapers of earlier days. A game that has ended goes straight to *Saved games*.
+
 ### How often a map is updated
 Every map has **Update every** at the top right: 15 min, 30 min, 1 hour (default), 2 hours or 4 hours. Choosing a value opens a filled-in GitHub form: click **Submit new issue** and the new pace applies from the next round.
 
@@ -117,7 +119,7 @@ The game's newspaper names a fleet after one ship type, which is not always righ
 |---|---|---|
 | Game list | `games.json` | Per game: code, name, status (`live` / `saved`), update interval, folder and the latest score |
 | Fetcher | `scripts/fetch.js` | Logs in to Call of War and downloads the game state → `games/<code>/game_data.json` |
-| Newspaper keeper | `scripts/import_news.py` | Stores captures, revolts and destroyed units in `games/<code>/gd_events.json` (the game's own newspaper only keeps ~24 hours) |
+| Newspaper keeper | `scripts/import_news.py` | Stores captures, revolts and destroyed units in `games/<code>/gd_events.json`. The fetcher also downloads the newspaper of every earlier day once, so nothing is missed |
 | Map builder | `scripts/build_game.py` | Builds the Live AVA viewer of one game → `site/games/<code>/index.html` |
 | Overview | `scripts/build_site.py` | Builds the start page → `site/index.html` |
 | One round | `scripts/run.py` | All of the above for every game that is due; a finished game moves to *Saved games* |
