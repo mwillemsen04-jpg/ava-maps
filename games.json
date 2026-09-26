@@ -8,14 +8,14 @@
       "last": {
         "day": 4,
         "score": {
-          "G": 780,
-          "R": 500
+          "G": 790,
+          "R": 480
         },
         "provinces": {
-          "G": 296,
-          "R": 203
+          "G": 306,
+          "R": 192
         },
-        "fetched": 1790404586205,
+        "fetched": 1790417119039,
         "winner": null,
         "teams": {
           "G": [
@@ -65,11 +65,92 @@
         }
       },
       "every": 240,
-      "ran": 1790404584058
+      "ran": 1790417117127
+    },
+    {
+      "id": "10911706",
+      "name": "IA vs MOB",
+      "status": "saved",
+      "added": "2026-09-26 12:05",
+      "ran": 1790417117127,
+      "last": {
+        "day": 9,
+        "score": {
+          "G": 210,
+          "R": 980
+        },
+        "provinces": {
+          "G": 126,
+          "R": 372
+        },
+        "fetched": 1790417122111,
+        "winner": "R",
+        "teams": {
+          "G": [
+            {
+              "c": "Egypt",
+              "f": 2
+            },
+            {
+              "c": "Greater Romania",
+              "f": 3
+            },
+            {
+              "c": "Libya",
+              "f": 4
+            },
+            {
+              "c": "Poland",
+              "f": 3
+            },
+            {
+              "c": "Russian Empire",
+              "f": 4
+            }
+          ],
+          "R": [
+            {
+              "c": "Algeria",
+              "f": 2
+            },
+            {
+              "c": "France",
+              "f": 2
+            },
+            {
+              "c": "Germany",
+              "f": 1
+            },
+            {
+              "c": "Turkey",
+              "f": 3
+            },
+            {
+              "c": "Yugoslavia",
+              "f": 3
+            }
+          ]
+        }
+      },
+      "reason": "ended",
+      "ended": "2026-09-26 12:06",
+      "folders": [
+        "IA",
+        "MOB"
+      ]
+    },
+    {
+      "id": "10832820",
+      "name": "Test",
+      "status": "live",
+      "added": "2026-09-26 12:30",
+      "ran": 1790418619763
     }
   ],
   "folders": [
     "KH",
-    "PHK"
+    "PHK",
+    "IA",
+    "MOB"
   ]
 }
