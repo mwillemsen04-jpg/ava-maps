@@ -225,14 +225,14 @@ async function fetchGame(TARGET_GAME_ID, activeCookies) {
 
     // 7. Newspapers of earlier days. The game's current newspaper only covers today, but the server
     // still gives the full newspaper of any earlier day (option = day number). Every finished day that
-    // import_news.py has not stored yet (gd_events.json -> news_days) is fetched once, so a game added
+    // import_news.py has not stored yet (from day 2 on; day 1 is not shown) (gd_events.json -> news_days) is fetched once, so a game added
     // late (or already finished) gets its whole history, and a missed round never leaves a gap.
     try {
       const today = stateResponse.data.result.states['2']?.day;
       let done = [];
       try { done = JSON.parse(fs.readFileSync(path.join(dir, 'gd_events.json'), 'utf8')).news_days || []; } catch (e) {}
       const want = [];
-      for (let d = 1; today && d < today; d++) if (!done.includes(d)) want.push(d);
+      for (let d = 2; today && d < today; d++) if (!done.includes(d)) want.push(d);
       if (want.length) {
         logAction("7. Fetching newspapers of earlier days", { days: want });
         const nd = path.join(dir, 'news_days');

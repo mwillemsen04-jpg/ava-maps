@@ -84,7 +84,7 @@ From now on GitHub checks every quarter of an hour which games are due and updat
 ### Add a game
 On the overview page, type the game code under **New map** and click **Create**. GitHub opens a filled-in form: click **Submit new issue**. Within a few minutes the map appears under *Live maps*.
 
-This also works for a game that is already running or has already ended: the whole history from day 1 is fetched from the game's newspapers of earlier days. A game that has ended goes straight to *Saved games*.
+This also works for a game that is already running or has already ended: the whole history from day 2 is fetched from the game's newspapers of earlier days. A game that has ended goes straight to *Saved games*.
 
 ### How often a map is updated
 Every map has **Update every** at the top right: 15 min, 30 min, 1 hour (default), 2 hours or 4 hours. Choosing a value opens a filled-in GitHub form: click **Submit new issue** and the new pace applies from the next round.
