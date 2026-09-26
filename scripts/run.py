@@ -42,7 +42,7 @@ def main():
     now = int(dt.datetime.now(TZ).timestamp() * 1000)
     # a timed run and a request from the website (Add / Stop / Folders / Update every / Delete) only fetch the
     # games that are due or new; the "Run workflow" button and a local run update every live game
-    timed = os.environ.get('GITHUB_EVENT_NAME') in ('schedule', 'issues') and '--all' not in sys.argv
+    timed = os.environ.get('GITHUB_EVENT_NAME') in ('schedule', 'repository_dispatch', 'issues') and '--all' not in sys.argv
     todo = [g for g in reg['games'] if g.get('rebuild') or (g.get('status') == 'live' and (not timed or is_due(g, now)))]
     if '--check' in sys.argv:
         due = bool(todo)

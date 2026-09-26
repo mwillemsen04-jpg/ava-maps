@@ -73,7 +73,25 @@ GitHub keeps these encrypted; nobody (not even people who view the repository) c
 
 > **Not tested yet:** whether Call of War allows logging in from GitHub's servers. If the log shows a login error, your PC can keep doing the fetching (see *Running on your PC*) while GitHub builds and hosts the site.
 
-### Step 7 – Done
+### Step 7 – An outside clock (recommended)
+
+GitHub's own timer (*schedule*) is "best effort": on a quiet repository it often skips rounds for hours. A free outside clock that knocks every quarter of an hour keeps the updates on time.
+
+1. **Make a key for the clock.** Go to <https://github.com/settings/personal-access-tokens/new> (fine-grained token).
+   - *Token name:* `ava-maps clock` · *Expiration:* the longest you like (you make a new one when it runs out).
+   - *Repository access:* **Only select repositories** → `ava-maps`.
+   - *Permissions → Repository permissions → Contents:* **Read and write**.
+   - **Generate token** and copy it (it is shown only once; treat it like a password).
+2. **Make the clock.** Create a free account on <https://cron-job.org> → **Create cronjob**:
+   - *Title:* `ava-maps` · *URL:* `https://api.github.com/repos/YOUR-NAME/ava-maps/dispatches`
+   - *Execution schedule:* every 15 minutes.
+   - *Advanced → Request method:* **POST** · *Request body:* `{"event_type":"tick"}`
+   - *Headers:* `Accept` = `application/vnd.github+json` and `Authorization` = `Bearer ` followed by your token.
+   - **Create**, then use **Test run**: it should answer *204*. In the *Actions* tab a run of *Update maps* appears (event *repository_dispatch*).
+
+Each knock works exactly like a scheduled round: when no game is due the run stops after a few seconds.
+
+### Step 8 – Done
 
 From now on GitHub checks every quarter of an hour which games are due and updates them on the whole hour (or half hour, etc.). You can close your PC.
 
@@ -90,7 +108,7 @@ This also works for a game that is already running or has already ended: the who
 Every map has **Update every** at the top right: 15 min, 30 min, 1 hour (default), 2 hours or 4 hours. Choosing a value opens a filled-in GitHub form: click **Submit new issue** and the new pace applies from the next round.
 
 - Updates happen at whole moments in Amsterdam time: *1 hour* = 01:00, 02:00, …; *30 min* = :00 and :30; *15 min* = :00, :15, :30, :45; *2 hours* = 00:00, 02:00, 04:00, …; *4 hours* = 00:00, 04:00, 08:00, ….
-- The robot runs every quarter of an hour but only fetches the games whose moment has come; when nothing is due it stops after a few seconds. If GitHub skips a round, the next one catches up.
+- The robot runs every quarter of an hour (knocked awake by the outside clock of step 7, with GitHub's own timer as a backup) but only fetches the games whose moment has come; when nothing is due it stops after a few seconds. If a round is skipped, the next one catches up.
 - GitHub often starts scheduled runs a few minutes late (especially on the whole hour), so an update planned for 02:00 may appear at 02:05–02:15.
 - *Actions → Update maps → Run workflow* always updates all live games immediately.
 
@@ -98,7 +116,7 @@ Every map has **Update every** at the top right: 15 min, 30 min, 1 hour (default
 - **Stop** (live game): asks *Are you sure?* and lets you pick one or more folders. The game moves to *Saved games* with everything up to now and stops updating. A game that ends (winner known) is saved automatically.
 - **Folders:** under *Saved games*, **+ New folder** makes a folder. **📁 Folders** next to a saved game lets you tick every folder it should be in (a game can be in several folders at once) or type a new one. **delete** next to a folder removes only the folder (its games stay in their other folders, or go back to *Unsorted*).
 - These requests only change the list and the overview page; they do **not** fetch or update the live games.
-- **Delete** (saved game): asks twice, then removes the game, its map and its whole history for good. Stop a live game first.
+- **Delete** (saved game): asks twice, then removes the game, its map and its whole history for good. Stop a live game first. A live game that never got any data (wrong code, or a game Call of War has removed) has a **Delete** button straight away.
 
 Only members of the repository can do these things; requests from anyone else are ignored.
 
