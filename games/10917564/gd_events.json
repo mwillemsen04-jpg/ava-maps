@@ -5644,6 +5644,26 @@
    "no": 1,
    "sn": 1,
    "frm": "Ukraine"
+  },
+  "2159": {
+   "t": 5157,
+   "p": "Kiev",
+   "c": "Communist Russia",
+   "u": "Armored Car",
+   "cap": true,
+   "no": 9,
+   "sn": 1,
+   "frm": "Ukraine"
+  },
+  "2160": {
+   "t": 5158,
+   "p": "Arzamas",
+   "c": "Communist Russia",
+   "u": "Armored Car",
+   "cap": false,
+   "no": 3,
+   "sn": 1,
+   "frm": "Russian Empire"
   }
  },
  "loss": {
@@ -11940,7 +11960,7 @@
     "Infantry": 2
    }
   },
-  "ts": 1790423457549
+  "ts": 1790425050894
  },
  "news_days": [
   2,
