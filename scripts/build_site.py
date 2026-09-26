@@ -13,7 +13,7 @@ repo = os.environ.get('GITHUB_REPOSITORY') or cfg.get('repo') or ''
 reg = load_registry()
 games = reg['games']
 data = dict(title=cfg['title'], repo=repo, tz=cfg['timezone'], folders=reg.get('folders', []),
-            games=[dict({k: g.get(k) for k in ('id', 'name', 'status', 'reason', 'added', 'ended', 'last', 'every')},
+            games=[dict({k: g.get(k) for k in ('id', 'name', 'status', 'reason', 'added', 'ended', 'last', 'every', 'error')},
                         folders=g.get('folders') if g.get('folders') is not None else ([g['folder']] if g.get('folder') else []),
                         page=os.path.exists(os.path.join(SITE, 'games', str(g['id']), 'index.html'))) for g in games])
 
@@ -187,13 +187,13 @@ $('how').textContent=D.repo?'Create opens a short GitHub form: press "Submit new
 const teams=L=>L&&L.teams?['G','R'].map(k=>`<div class="teams"><span class="chip side" style="color:${k==='G'?'#22c55e':'#ef4444'};border-color:${k==='G'?'#14532d':'#7f1d1d'}">${k==='G'?'Green':'Red'}</span>`+L.teams[k].map(n=>`<span class="chip ${k==='G'?'g':'r'}" title="${esc(n.c)}${DOC[n.f]?' · '+DOC[n.f][0]:''}">${esc(n.c)}</span>`).join('')+'</div>').join(''):'';
 const score=L=>L&&L.score?`<div class="score"><span class="g">Green <b>${L.score.G}</b></span><span class="bar"><i style="width:${Math.round(L.score.G/Math.max(1,L.score.G+L.score.R)*100)}%"></i><em></em></span><span class="r"><b>${L.score.R}</b> Red</span></div>`:'';
 const item=(g,isLive)=>{const L=g.last,name=esc(g.name||('Game '+g.id));
-  const metaL=isLive?(L&&g.page?[`&#128339; ${when(L.fetched)}`,`&#128197; Day ${L.day??'?'}`,`&#127757; ${L.provinces.G} / ${L.provinces.R} provinces`,`&#128260; every ${({15:'15 min',30:'30 min',60:'hour',120:'2 hours',240:'4 hours'})[g.every||60]||((g.every||60)+' min')}`]:[`&#128339; added ${esc(g.added||'')}`,'waiting for the first update'])
+  const metaL=isLive?(L&&g.page?[`&#128339; ${when(L.fetched)}`,`&#128197; Day ${L.day??'?'}`,`&#127757; ${L.provinces.G} / ${L.provinces.R} provinces`,`&#128260; every ${({15:'15 min',30:'30 min',60:'hour',120:'2 hours',240:'4 hours'})[g.every||60]||((g.every||60)+' min')}`]:[`&#128339; added ${esc(g.added||'')}`,g.error?'':'waiting for the first update'])
     :[`&#128190; ${esc(g.ended||'')}`,g.reason==='ended'?'game ended':'stopped by you',L&&L.winner?(L.winner==='G'?'Team green won':'Team red won'):'',(g.folders||[]).length?'&#128193; '+g.folders.map(esc).join(', '):''];
   return `<div class="item${isLive?' live':''}"><div class="info">
     <div class="name">${name}<span class="pill ${isLive?'live':'saved'}">${isLive?'&#9679; Live':'Saved'}</span></div>
-    <div class="meta"><span class="mono">#${esc(g.id)}</span>${metaL.filter(Boolean).map(x=>`<span>${x}</span>`).join('')}</div>
+    <div class="meta"><span class="mono">#${esc(g.id)}</span>${metaL.filter(Boolean).map(x=>`<span>${x}</span>`).join('')}</div>${isLive&&g.error?`<div class="meta" style="color:#b91c1c">&#9888;&#65039; Could not fetch: ${esc(g.error)}</div>`:''}
     ${score(L)}<div class="tm">${teams(L)}</div></div>
-    <div class="acts">${g.page?`<a class="btn open" href="games/${esc(g.id)}/index.html">Open</a>`:''}${isLive?`<button class="stop" type="button" data-stop="${esc(g.id)}" data-name="${name}" aria-label="Stop and save ${name}">&#9632; Stop</button>`:`<button class="move" type="button" data-move="${esc(g.id)}" data-name="${name}" aria-label="Choose the folders of ${name}">&#128193; Folders</button><button class="del" type="button" data-delg="${esc(g.id)}" data-name="${name}" aria-label="Delete ${name}">&#128465; Delete</button>`}</div></div>`};
+    <div class="acts">${g.page?`<a class="btn open" href="games/${esc(g.id)}/index.html">Open</a>`:''}${isLive&&!L?`<button class="del" type="button" data-delg="${esc(g.id)}" data-name="${name}" aria-label="Delete ${name}">&#128465; Delete</button>`:isLive?`<button class="stop" type="button" data-stop="${esc(g.id)}" data-name="${name}" aria-label="Stop and save ${name}">&#9632; Stop</button>`:`<button class="move" type="button" data-move="${esc(g.id)}" data-name="${name}" aria-label="Choose the folders of ${name}">&#128193; Folders</button><button class="del" type="button" data-delg="${esc(g.id)}" data-name="${name}" aria-label="Delete ${name}">&#128465; Delete</button>`}</div></div>`};
 $('live').innerHTML=live.length?live.map(g=>item(g,true)).join(''):'<div class="empty">No live maps — enter a game code above</div>';
 // saved games in folders: a bar to pick one folder, or all folders grouped
 // a saved game can be in several folders at once: it is shown in each of them (it is still one map)

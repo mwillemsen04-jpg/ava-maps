@@ -128,7 +128,16 @@ async function fetchGame(TARGET_GAME_ID, activeCookies) {
     });
 
     const clientUrlMatch = lobby.data.match(/(clients\/ww2-client-ultimate\/ww2-client-ultimate_live\/index\.html\?[^"'\s<>]+)/);
-    if (!clientUrlMatch) throw new Error("Client URL missing from lobby.");
+    if (!clientUrlMatch) {
+      // the game page did not open the game (ended long ago and closed, wrong code, or no access):
+      // report what the page says instead, so the reason shows on the overview page
+      const html = String(lobby.data || '');
+      const title = (html.match(/<title>([^<]*)/i) || [])[1] || '';
+      const text = html.replace(/<script[\s\S]*?<\/script>|<style[\s\S]*?<\/style>/gi, ' ').replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ');
+      const said = (text.match(/[^.!?]*\b(game|match|spiel|round)\b[^.!?]*[.!?]/gi) || []).slice(0, 3).join(' ').trim().slice(0, 300);
+      const where = lobby.request?.res?.responseUrl || '';
+      throw new Error(`The game page did not open the game${where && !where.includes('game.php') ? ' (sent on to ' + where + ')' : ''}${title ? ' · page: ' + title.trim() : ''}${said ? ' · ' + said : ''}`);
+    }
 
     const parsedUrl = new URL(`https://www.callofwar.com/${clientUrlMatch[1].replace(/&amp;/g, '&')}`);
     
@@ -257,10 +266,20 @@ async function fetchGame(TARGET_GAME_ID, activeCookies) {
 (async () => {
   let failed = 0, cookies;
   try { cookies = await login(); }
-  catch (err) { writeToFileAndConsole(`❌ [ERROR] login: ${err.message}`); process.exit(1); }
+  catch (err) {
+    writeToFileAndConsole(`❌ [ERROR] login: ${err.message}`);
+    for (const id of GAME_IDS) { try { const f = path.join(__dirname, '..', 'games', String(id), 'fetch_error.txt'); fs.mkdirSync(path.dirname(f), { recursive: true }); fs.writeFileSync(f, 'Login to Call of War failed: ' + err.message); } catch (e) {} }
+    process.exit(1);
+  }
+  // the last error per game is kept in games/<id>/fetch_error.txt (removed again after a good fetch);
+  // run.py shows it on the overview page
+  const errFile = (id) => path.join(__dirname, '..', 'games', String(id), 'fetch_error.txt');
   for (const id of GAME_IDS) {
-    try { await fetchGame(id, cookies); }
-    catch (err) { failed++; writeToFileAndConsole(`❌ [ERROR] game ${id}: ${err.message}`); }
+    try { await fetchGame(id, cookies); try { fs.unlinkSync(errFile(id)); } catch (e) {} }
+    catch (err) {
+      failed++; writeToFileAndConsole(`❌ [ERROR] game ${id}: ${err.message}`);
+      try { fs.mkdirSync(path.dirname(errFile(id)), { recursive: true }); fs.writeFileSync(errFile(id), String(err.message).slice(0, 500)); } catch (e) {}
+    }
   }
   process.exit(failed === GAME_IDS.length ? 1 : 0);
 })();

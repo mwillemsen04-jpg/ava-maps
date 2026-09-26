@@ -56,6 +56,16 @@ def main():
     save_registry(reg)
     if fetch and todo:
         sh('node', 'scripts/fetch.js', *[str(g['id']) for g in todo])   # a failed game keeps its last data
+        # remember why a game could not be fetched (shown on the overview page), or clear an old error
+        for g in todo:
+            if g.get('status') != 'live': continue
+            ef = os.path.join(game_dir(str(g['id'])), 'fetch_error.txt')
+            if os.path.exists(ef):
+                g['error'] = open(ef, encoding='utf-8').read().strip()
+                print(f"game {g['id']}: could not fetch: {g['error']}")
+            else:
+                g.pop('error', None)
+        save_registry(reg)
 
     for g in todo:
         gid = str(g['id'])

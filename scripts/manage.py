@@ -96,7 +96,8 @@ def delete(gid):
     g = next((g for g in reg['games'] if str(g['id']) == gid), None)
     if not g:
         sys.exit(f'game {gid} is not in the database')
-    if g.get('status') != 'saved':
+    # a live game can only be deleted when it never got any data (wrong code, or a game Call of War removed)
+    if g.get('status') != 'saved' and g.get('last'):
         sys.exit(f'game {gid} is live: stop it first, then delete it')
     reg['games'] = [x for x in reg['games'] if x is not g]
     save_registry(reg)
