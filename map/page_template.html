@@ -255,7 +255,7 @@ footer .legend .chip{margin:0;width:10px;height:10px}
       <select id="from" aria-label="Show from day"></select>
       <label class="hrs"><span>Last</span><input id="hrs" type="number" min="1" step="1" inputmode="numeric" placeholder="…" aria-label="Show the last number of hours"><span>h</span></label>
       <label class="hrs" title="Only show what happened in the last hours before the timeline position; older events are hidden"><span>Window</span><input id="trail" type="number" min="1" step="1" inputmode="numeric" placeholder="…" aria-label="Only show the last number of hours before the timeline position"><span>h</span></label>
-      <div class="presets"><button type="button" class="war" id="war" aria-pressed="false" title="Everything since the start of today: captures, losses, unit info and unit paths">War settings</button><button type="button" class="war" id="aiset" aria-pressed="false" title="Show every AI unit that died, with unit info">AI loss settings</button><button type="button" class="war" id="plset" aria-pressed="false" title="Only the units the players lost, with all reports">Player unit loss settings</button></div>
+      <div class="presets"><button type="button" class="war" id="war" aria-pressed="false" title="The war from the start of day 4 with a 3-hour window: captures, losses, unit info and unit paths. Press Play or the space bar">War settings</button><button type="button" class="war" id="aiset" aria-pressed="false" title="Show every AI unit that died, with unit info">AI loss settings</button><button type="button" class="war" id="plset" aria-pressed="false" title="Only the units the players lost, with all reports">Player unit loss settings</button></div>
       <select id="who" aria-label="Show country"><option value="all">All countries</option><option value="G">Team green</option><option value="R">Team red</option></select>
       <div class="toggles"><label class="opt" title="On: who, which units and unit numbers on the map (zoom in, or turn on All reports). Off: only place and time"><input type="checkbox" id="lab" checked><span>Unit info</span></label><label class="opt"><input type="checkbox" id="ecaps" checked><span>Captures</span></label><label class="opt"><input type="checkbox" id="loss"><span>Unit losses</span></label><label class="opt" title="Every unit of a non-team (AI) country that died, whoever killed it"><input type="checkbox" id="airep"><span>AI deaths</span></label><label class="opt" title="Show every report at once, also when zoomed out"><input type="checkbox" id="allrep"><span>All reports</span></label><label class="opt"><input type="checkbox" id="paths"><span>Unit paths</span></label></div>
     </div>
@@ -586,11 +586,19 @@ function setRange(){
  $('hrs').addEventListener('input',()=>{const h=parseFloat($('hrs').value);
    if(!(h>0)){if($('hrs').value===''&&sel.value==='c'){dropCust();sel.value=dflt;FROM=startOf(dflt);TO=endOf(dflt);try{localStorage.setItem('avaFrom',dflt)}catch(e){}apply()}return}
    if(!cust)cust=add(sel,'c','');cust.textContent='Last '+h+' h';sel.value='c';FROM=Math.max(D.t0,Math.round(D.t1-h*60));TO=D.t1;try{localStorage.setItem('avaFrom','h'+h)}catch(e){}apply()});
- // War settings: one click shows only the last hour, a second click goes back to the normal view (from day 2)
+ // War settings: one click shows the war from day 4 with a 3-hour window, a second click goes back to the normal view (from day 2)
  // the three presets exclude each other: turning one on first turns the others off (they put their buttons back)
  function presetOff(k){['war','aiset','plset'].forEach(i=>{if(i!==k&&$(i).getAttribute('aria-pressed')==='true')$(i).click()})}
- const war=$('war'),syncWar=()=>{if(sel.value!=='s'+last)war._on=false;war.setAttribute('aria-pressed',String(!!war._on))};
- war.addEventListener('click',()=>{const on=war.getAttribute('aria-pressed')==='true';if(!on)presetOff('war');const WB=['lab','ecaps','loss','allrep','paths'];if(!on){war._prev=WB.map(i=>$(i).checked);WB.forEach(i=>$(i).checked=true)}else if(war._prev){WB.forEach((i,j)=>$(i).checked=war._prev[j]);war._prev=null}   /* war view: the players' captures + losses with full unit info and unit paths, from the start of today (the newest game day) */war._on=!on;sel.value=on?dflt:'s'+last;sel.dispatchEvent(new Event('change'));T=D.t1;slider.value=T;render();syncWar()});
+ // war view: the players' captures + losses with full unit info and unit paths, always from the start of day 4
+ // (or the newest day when the game is not that far yet), with a 3-hour window, the timeline at the start of
+ // day 4 so Play (or the space bar) runs through the war
+ const WDAY=Math.max(first+1,Math.min(4,last)),WV='s'+WDAY,WTRAIL=3;
+ const war=$('war'),syncWar=()=>{if(sel.value!==WV)war._on=false;war.setAttribute('aria-pressed',String(!!war._on))};
+ const setTrail=h=>{$('trail').value=h>0?String(h):'';TRAIL=h>0?h:0;feedKey='';for(const el of Object.values(mkEl))el._key=null};
+ war.addEventListener('click',()=>{const on=war.getAttribute('aria-pressed')==='true';if(!on)presetOff('war');const WB=['lab','ecaps','loss','allrep','paths'];if(!on){war._prev=WB.map(i=>$(i).checked);war._trail=$('trail').value;WB.forEach(i=>$(i).checked=true)}else if(war._prev){WB.forEach((i,j)=>$(i).checked=war._prev[j]);war._prev=null}
+   war._on=!on;sel.value=on?dflt:WV;sel.dispatchEvent(new Event('change'));
+   if(!on){setTrail(WTRAIL);T=FROM}else{setTrail(parseFloat(war._trail)||0);T=TO}
+   slider.value=T;render();syncWar()});
  sel.addEventListener('change',syncWar);
  // AI loss settings: one click shows every AI unit that died with full unit info, a second click puts the buttons back
  const ais=$('aiset'),AB=['airep','lab','ecaps'],AON={airep:1,lab:1};   /* captures off */ais.addEventListener('click',()=>{const on=ais.getAttribute('aria-pressed')==='true';if(!on)presetOff('aiset');if(!on){ais._prev=AB.map(i=>$(i).checked);AB.forEach(i=>$(i).checked=!!AON[i])}else if(ais._prev){AB.forEach((i,j)=>$(i).checked=ais._prev[j]);ais._prev=null}ais.setAttribute('aria-pressed',String(!on));render()});
@@ -605,6 +613,10 @@ function stop(){clearInterval(timer);timer=null;$('play').textContent='▶ Play'
 $('play').onclick=()=>{if(timer){stop();return}if(T>=TO)T=FROM;$('play').textContent='❚❚ Pause';
   timer=setInterval(()=>{T=Math.min(TO,T+ +$('speed').value);slider.value=T;render();if(T>=TO)stop()},120)};
 window.addEventListener('resize',()=>{setRange();placeMarks()});
+// space bar: pause / play the timelapse (not while typing in a number field)
+const typing=el=>el&&(el.tagName==='TEXTAREA'||(el.tagName==='INPUT'&&!['checkbox','radio','range','button'].includes(el.type)));
+document.addEventListener('keydown',ev=>{if(ev.code!=='Space'&&ev.key!==' ')return;if(typing(ev.target)||document.querySelector('dialog[open]'))return;ev.preventDefault();if(!ev.repeat)$('play').click()});
+document.addEventListener('keyup',ev=>{if((ev.code==='Space'||ev.key===' ')&&!typing(ev.target)&&!document.querySelector('dialog[open]'))ev.preventDefault()});
 $('lab').checked=true;$('speed').value='1';
 $('lab').addEventListener('change',()=>{if(!$('lab').checked)$('allrep').checked=false;render()});$('paths').addEventListener('change',render);$('airep').addEventListener('change',render);$('allrep').addEventListener('change',()=>{if($('allrep').checked)$('lab').checked=true;render()});$('loss').addEventListener('change',render);$('ecaps').addEventListener('change',render);$('who').addEventListener('change',render);$('who').value='all';$('loss').checked=false;$('ecaps').checked=true;
 // start at the end so the page opens with the full picture
