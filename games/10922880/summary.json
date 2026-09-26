@@ -1,0 +1,65 @@
+{
+ "id": "10922880",
+ "name": "IA vs bekarty wojny + koksy w koronie",
+ "day": 4,
+ "score": {
+  "G": 650,
+  "R": 510
+ },
+ "provinces": {
+  "G": 264,
+  "R": 227
+ },
+ "fetched": 1790727725042,
+ "built": 1790464570513,
+ "game_over": false,
+ "winner": null,
+ "teams": {
+  "G": [
+   {
+    "c": "Algeria",
+    "f": 2
+   },
+   {
+    "c": "France",
+    "f": 2
+   },
+   {
+    "c": "Germany",
+    "f": 1
+   },
+   {
+    "c": "Greater Romania",
+    "f": 3
+   },
+   {
+    "c": "Turkey",
+    "f": 3
+   }
+  ],
+  "R": [
+   {
+    "c": "Communist Russia",
+    "f": 3
+   },
+   {
+    "c": "Libya",
+    "f": 4
+   },
+   {
+    "c": "Poland",
+    "f": 3
+   },
+   {
+    "c": "Russian Empire",
+    "f": 4
+   },
+   {
+    "c": "Ukraine",
+    "f": 1
+   }
+  ]
+ },
+ "events": 466,
+ "losses": 338
+}
