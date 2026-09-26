@@ -1,0 +1,65 @@
+{
+ "id": "10920696",
+ "name": "AF VS Olympus",
+ "day": 4,
+ "score": {
+  "G": 480,
+  "R": 670
+ },
+ "provinces": {
+  "G": 225,
+  "R": 256
+ },
+ "fetched": 1790702783391,
+ "built": 1790462152233,
+ "game_over": false,
+ "winner": null,
+ "teams": {
+  "G": [
+   {
+    "c": "France",
+    "f": 2
+   },
+   {
+    "c": "Germany",
+    "f": 1
+   },
+   {
+    "c": "Greater Finland",
+    "f": 1
+   },
+   {
+    "c": "Poland",
+    "f": 3
+   },
+   {
+    "c": "Russian Empire",
+    "f": 4
+   }
+  ],
+  "R": [
+   {
+    "c": "Communist Russia",
+    "f": 3
+   },
+   {
+    "c": "Greater Romania",
+    "f": 3
+   },
+   {
+    "c": "Italy",
+    "f": 1
+   },
+   {
+    "c": "Libya",
+    "f": 4
+   },
+   {
+    "c": "Ukraine",
+    "f": 1
+   }
+  ]
+ },
+ "events": 272,
+ "losses": 317
+}
