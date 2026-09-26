@@ -3,15 +3,15 @@
  "name": "KH vs PHK",
  "day": 5,
  "score": {
-  "G": 950,
-  "R": 310
+  "G": 1000,
+  "R": 250
  },
  "provinces": {
-  "G": 347,
-  "R": 143
+  "G": 369,
+  "R": 119
  },
- "fetched": 1790445660445,
- "built": 1790445683484,
+ "fetched": 1790460074462,
+ "built": 1790460093060,
  "game_over": false,
  "winner": null,
  "teams": {
@@ -60,6 +60,6 @@
    }
   ]
  },
- "events": 629,
+ "events": 655,
  "losses": 422
 }
