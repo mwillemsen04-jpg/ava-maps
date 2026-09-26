@@ -1,0 +1,71 @@
+name: Make video
+
+# The 🎥 Video button on a map opens a request "Make video <game>" with the chosen days, speed, size, view
+# and map settings. GitHub opens that map, records it frame by frame (scripts/make_video.js), puts the mp4
+# on the "videos" download page (Releases) and answers the request with the download link.
+on:
+  issues:
+    types: [opened]
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: video
+  cancel-in-progress: false
+
+jobs:
+  video:
+    # only members of the repository, and only video requests
+    if: >-
+      contains(fromJSON('["OWNER","MEMBER","COLLABORATOR"]'), github.event.issue.author_association) &&
+      startsWith(github.event.issue.title, 'Make video')
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Tools (browser driver and ffmpeg)
+        run: |
+          npm install --no-save --no-package-lock playwright-core@1.47.2
+          which ffmpeg || (sudo apt-get update && sudo apt-get install -y ffmpeg)
+          google-chrome --version
+
+      - name: Record the video
+        id: rec
+        env:
+          TITLE: ${{ github.event.issue.title }}
+          BODY: ${{ github.event.issue.body }}
+        run: node scripts/make_video.js
+
+      - name: Put it on the download page
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release view videos >/dev/null 2>&1 || \
+            gh release create videos --title "Map videos" --notes "Videos made with the 🎥 Video button of the Live AVA viewer. Click a file to download it."
+          gh release upload videos "${{ steps.rec.outputs.file }}" --clobber
+
+      - name: Answer the request
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          url="${{ github.server_url }}/${{ github.repository }}/releases/download/videos/${{ steps.rec.outputs.name }}"
+          gh issue close ${{ github.event.issue.number }} --comment "🎥 Your video is ready (${{ steps.rec.outputs.length }} s, ${{ steps.rec.outputs.mb }} MB): $url
+
+          All videos: ${{ github.server_url }}/${{ github.repository }}/releases/tag/videos"
+
+      - name: Report a failed video
+        if: failure()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          reason="$(cat video_error.txt 2>/dev/null || echo 'Something went wrong.')"
+          gh issue comment ${{ github.event.issue.number }} --body "The video could not be made: $reason
+
+          Run log: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"

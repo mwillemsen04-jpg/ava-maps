@@ -120,6 +120,9 @@ Every map has **Update every** at the top right: 15 min, 30 min, 1 hour (default
 
 Only members of the repository can do these things; requests from anyone else are ignored.
 
+### Make a video
+On a map, set the buttons the way you want them (for example **War settings**, **AI deaths**, a **Window**), then click **🎥 Video**. Choose the days, the speed (how much game time per second of video), the size and the view (*Standard* or *What I see now*) and click **Make video** → **Submit new issue**. GitHub records the map (only the map, with the name, score and clock on top) and after a few minutes answers the request with the download link (.mp4); you also get a mail. All videos are on the **videos** download page: `https://github.com/YOUR-NAME/ava-maps/releases/tag/videos`. The longest video is 15 minutes.
+
 ### Fixing a wrong unit type
 The game's newspaper names a fleet after one ship type, which is not always right (e.g. reported as *Cruiser* while it is battleships). Add a correction to `games/<code>/unit_fix.json`, for example:
 
@@ -142,6 +145,7 @@ The game's newspaper names a fleet after one ship type, which is not always righ
 | Overview | `scripts/build_site.py` | Builds the start page → `site/index.html` |
 | One round | `scripts/run.py` | All of the above for every game that is due; a finished game moves to *Saved games* |
 | List changes | `scripts/manage.py` | Add / stop / move / delete games, folders and update intervals |
+| Videos | `scripts/make_video.js`, `.github/workflows/video.yml` | Records a map frame by frame for the 🎥 Video button and puts the mp4 on the videos download page |
 | Automation | `.github/workflows/update.yml` | Runs every quarter of an hour (:00, :15, :30, :45) and on requests from the website, then publishes the site |
 
 `map/` holds the map itself (background, 634 provinces with exact borders, 140 cities, unit icons) and is the same for every game. `games/<code>/` holds the collected history of one game. Saved games keep their final page in `archive/<code>.html`.
