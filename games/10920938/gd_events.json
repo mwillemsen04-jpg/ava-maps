@@ -819,6 +819,886 @@
    "no": 12,
    "sn": 1,
    "frm": "Nationalist China"
+  },
+  "267": {
+   "t": 1267,
+   "p": "Surin",
+   "c": "Burma",
+   "u": "Armored Car",
+   "cap": false,
+   "no": 5,
+   "sn": 11,
+   "frm": "Siam"
+  },
+  "268": {
+   "t": 1279,
+   "p": "Nanchang",
+   "c": "Central China",
+   "u": "Light Tank",
+   "cap": false,
+   "no": 11,
+   "sn": 1,
+   "frm": "Nationalist China"
+  },
+  "271": {
+   "t": 1280,
+   "p": "Bengbu",
+   "c": "Central China",
+   "u": "Militia",
+   "cap": false,
+   "no": 7,
+   "sn": 1,
+   "frm": "Communist China"
+  },
+  "272": {
+   "t": 1287,
+   "p": "Lhari",
+   "c": "British Odisha",
+   "u": "Armored Car",
+   "cap": false,
+   "no": 6,
+   "sn": 1,
+   "frm": "Tibet"
+  },
+  "275": {
+   "t": 1289,
+   "p": "Gomo",
+   "c": "British Odisha",
+   "u": "Armored Car",
+   "cap": false,
+   "no": 3,
+   "sn": 8,
+   "frm": "Tibet"
+  },
+  "276": {
+   "t": 1292,
+   "p": "Anqing",
+   "c": "Central China",
+   "u": "Light Tank",
+   "cap": false,
+   "no": 6,
+   "sn": 1,
+   "frm": "Nationalist China"
+  },
+  "279": {
+   "t": 1293,
+   "p": "Yungcheng",
+   "c": "Sichuan",
+   "u": "Infantry",
+   "cap": false,
+   "no": 20,
+   "sn": 2,
+   "frm": "Communist China"
+  },
+  "282": {
+   "t": 1300,
+   "p": "Huangnan",
+   "c": "Sichuan",
+   "u": "Infantry",
+   "cap": false,
+   "no": 25,
+   "sn": 1,
+   "frm": "Ma-Clique"
+  },
+  "283": {
+   "t": 1304,
+   "p": "Muang Xay",
+   "c": "Burma",
+   "u": "Light Tank",
+   "cap": false,
+   "no": 4,
+   "sn": 1,
+   "frm": "Indochina"
+  },
+  "287": {
+   "t": 1312,
+   "p": "Kanburi",
+   "c": "Siam",
+   "u": "Infantry",
+   "cap": false,
+   "no": 1,
+   "sn": 2,
+   "frm": "Burma"
+  },
+  "288": {
+   "t": 1313,
+   "p": "Qingyang",
+   "c": "Sichuan",
+   "u": "Armored Car",
+   "cap": false,
+   "no": 10,
+   "sn": 1,
+   "frm": "Communist China"
+  },
+  "291": {
+   "t": 1318,
+   "p": "Raichur",
+   "c": "British Odisha",
+   "u": "Anti Tank",
+   "cap": false,
+   "no": 12,
+   "sn": 1,
+   "frm": "South India"
+  },
+  "295": {
+   "t": 1336,
+   "p": "Sholapur",
+   "c": "British Odisha",
+   "u": "Infantry",
+   "cap": false,
+   "no": 11,
+   "sn": 2,
+   "frm": "South India"
+  },
+  "302": {
+   "t": 1342,
+   "p": "Ratlam",
+   "c": "British Odisha",
+   "u": "Infantry",
+   "cap": false,
+   "no": 2,
+   "sn": 8,
+   "frm": "North India"
+  },
+  "305": {
+   "t": 1368,
+   "p": "Qumahexiang",
+   "c": "Sichuan",
+   "u": "Infantry",
+   "cap": false,
+   "no": 1,
+   "sn": 4,
+   "frm": "Ma-Clique"
+  },
+  "308": {
+   "t": 1371,
+   "p": "Sa Kaeo",
+   "c": "Burma",
+   "u": "Armored Car",
+   "cap": false,
+   "no": 5,
+   "sn": 11,
+   "frm": "Siam"
+  },
+  "309": {
+   "t": 1377,
+   "p": "Mengui",
+   "c": "Siam",
+   "u": "Infantry",
+   "cap": false,
+   "no": 1,
+   "sn": 2,
+   "frm": "Burma"
+  },
+  "316": {
+   "t": 1402,
+   "p": "Bangkok",
+   "c": "Burma",
+   "u": "Armored Car",
+   "cap": true,
+   "no": 5,
+   "sn": 11,
+   "frm": "Siam"
+  },
+  "317": {
+   "t": 1404,
+   "p": "Linchwan",
+   "c": "Central China",
+   "u": "Light Tank",
+   "cap": false,
+   "no": 11,
+   "sn": 1,
+   "frm": "Nationalist China"
+  },
+  "318": {
+   "t": 1412,
+   "p": "Linyi",
+   "c": "Central China",
+   "u": "Anti Tank",
+   "cap": false,
+   "no": 1,
+   "sn": 6,
+   "frm": "Communist China"
+  },
+  "325": {
+   "t": 1424,
+   "p": "Taiyuan",
+   "c": "Sichuan",
+   "u": "Infantry",
+   "cap": false,
+   "no": 20,
+   "sn": 2,
+   "frm": "Communist China"
+  },
+  "328": {
+   "t": 1427,
+   "p": "Wutumeirenxiang",
+   "c": "British Odisha",
+   "u": "Armored Car",
+   "cap": false,
+   "no": 3,
+   "sn": 8,
+   "frm": "Ma-Clique"
+  },
+  "329": {
+   "t": 1434,
+   "p": "Golmud",
+   "c": "Sichuan",
+   "u": "Infantry",
+   "cap": false,
+   "no": 1,
+   "sn": 4,
+   "frm": "Ma-Clique"
+  },
+  "332": {
+   "t": 1459,
+   "p": "Nanking",
+   "c": "Central China",
+   "u": "Infantry",
+   "cap": false,
+   "no": 6,
+   "sn": 5,
+   "frm": "Nationalist China"
+  },
+  "335": {
+   "t": 1464,
+   "p": "Chaoking",
+   "c": "Central China",
+   "u": "Light Tank",
+   "cap": false,
+   "no": 3,
+   "sn": 10,
+   "frm": "South China"
+  },
+  "338": {
+   "t": 1481,
+   "p": "Hanoi",
+   "c": "Burma",
+   "u": "Armored Car",
+   "cap": true,
+   "no": 9,
+   "sn": 5,
+   "frm": "Indochina"
+  },
+  "339": {
+   "t": 1492,
+   "p": "Kienning",
+   "c": "Central China",
+   "u": "Light Tank",
+   "cap": false,
+   "no": 11,
+   "sn": 1,
+   "frm": "Nationalist China"
+  },
+  "342": {
+   "t": 1493,
+   "p": "Canton",
+   "c": "Central China",
+   "u": "Light Tank",
+   "cap": true,
+   "no": 3,
+   "sn": 10,
+   "frm": "South China"
+  },
+  "346": {
+   "t": 1496,
+   "p": "Taiyuan",
+   "c": "Communist China",
+   "u": "Infantry",
+   "cap": false,
+   "no": 9,
+   "sn": 1,
+   "frm": "Sichuan"
+  },
+  "349": {
+   "t": 1497,
+   "p": "Kotah",
+   "c": "British Odisha",
+   "u": "Infantry",
+   "cap": false,
+   "no": 2,
+   "sn": 8,
+   "frm": "North India"
+  },
+  "350": {
+   "t": 1506,
+   "p": "Masulipatam",
+   "c": "British Odisha",
+   "u": "Anti Tank",
+   "cap": false,
+   "no": 12,
+   "sn": 1,
+   "frm": "South India"
+  },
+  "351": {
+   "t": 1509,
+   "p": "Delhi (CN)",
+   "c": "Sichuan",
+   "u": "Infantry",
+   "cap": false,
+   "no": 1,
+   "sn": 4,
+   "frm": "Ma-Clique"
+  },
+  "354": {
+   "t": 1521,
+   "p": "Hangchow",
+   "c": "Central China",
+   "u": "Anti Air",
+   "cap": false,
+   "no": 9,
+   "sn": 1,
+   "frm": "Nationalist China"
+  },
+  "357": {
+   "t": 1525,
+   "p": "Warangal",
+   "c": "British Odisha",
+   "u": "Infantry",
+   "cap": false,
+   "no": 11,
+   "sn": 7,
+   "frm": "South India"
+  },
+  "358": {
+   "t": 1528,
+   "p": "Nanping",
+   "c": "Central China",
+   "u": "Light Tank",
+   "cap": false,
+   "no": 11,
+   "sn": 1,
+   "frm": "Nationalist China"
+  },
+  "363": {
+   "t": 1556,
+   "p": "Lenghuzhen",
+   "c": "British Odisha",
+   "u": "Armored Car",
+   "cap": false,
+   "no": 1,
+   "sn": 1,
+   "frm": "Ma-Clique"
+  },
+  "366": {
+   "t": 1558,
+   "p": "Gwalior",
+   "c": "British Odisha",
+   "u": "Infantry",
+   "cap": false,
+   "no": 2,
+   "sn": 8,
+   "frm": "North India"
+  },
+  "367": {
+   "t": 1558,
+   "p": "Wuhan",
+   "c": "Nationalist China",
+   "u": "Infantry",
+   "cap": false,
+   "no": 5,
+   "sn": 1,
+   "frm": "Central China"
+  },
+  "370": {
+   "t": 1565,
+   "p": "Qīngyuǎn",
+   "c": "Central China",
+   "u": "Light Tank",
+   "cap": false,
+   "no": 3,
+   "sn": 10,
+   "frm": "South China"
+  },
+  "371": {
+   "t": 1574,
+   "p": "Jhansi",
+   "c": "North India",
+   "u": "Anti Air",
+   "cap": false,
+   "no": 8,
+   "sn": 1,
+   "frm": "British Odisha"
+  },
+  "372": {
+   "t": 1591,
+   "p": "Wuhan",
+   "c": "Central China",
+   "u": "Light Tank",
+   "cap": false,
+   "no": 4,
+   "sn": 1,
+   "frm": "Nationalist China"
+  },
+  "375": {
+   "t": 1593,
+   "p": "Weifang",
+   "c": "Central China",
+   "u": "Anti Tank",
+   "cap": false,
+   "no": 1,
+   "sn": 6,
+   "frm": "Communist China"
+  },
+  "376": {
+   "t": 1595,
+   "p": "Foochow",
+   "c": "Central China",
+   "u": "Light Tank",
+   "cap": false,
+   "no": 11,
+   "sn": 1,
+   "frm": "Nationalist China"
+  },
+  "377": {
+   "t": 1613,
+   "p": "Anqing",
+   "c": "Nationalist China",
+   "u": "Infantry",
+   "cap": false,
+   "no": 5,
+   "sn": 1,
+   "frm": "Central China"
+  },
+  "384": {
+   "t": 1652,
+   "p": "Anqing",
+   "c": "Central China",
+   "u": "Light Tank",
+   "cap": false,
+   "no": 4,
+   "sn": 1,
+   "frm": "Nationalist China"
+  },
+  "385": {
+   "t": 1661,
+   "p": "Wuhan",
+   "c": "Nationalist China",
+   "u": "Infantry",
+   "cap": false,
+   "no": 5,
+   "sn": 1,
+   "frm": "Central China"
+  },
+  "387": {
+   "t": 1672,
+   "p": "Xihuxiang",
+   "c": "British Odisha",
+   "u": "Armored Car",
+   "cap": false,
+   "no": 3,
+   "sn": 7,
+   "frm": "Ma-Clique"
+  },
+  "390": {
+   "t": 1672,
+   "p": "Taiyuan",
+   "c": "Sichuan",
+   "u": "Infantry",
+   "cap": false,
+   "no": 20,
+   "sn": 2,
+   "frm": "Communist China"
+  },
+  "391": {
+   "t": 1673,
+   "p": "Wuhan",
+   "c": "Central China",
+   "u": "Light Tank",
+   "cap": false,
+   "no": 4,
+   "sn": 1,
+   "frm": "Nationalist China"
+  },
+  "392": {
+   "t": 1674,
+   "p": "Kanburi",
+   "c": "Burma",
+   "u": "Armored Car",
+   "cap": false,
+   "no": 7,
+   "sn": 1,
+   "frm": "Siam"
+  },
+  "395": {
+   "t": 1685,
+   "p": "Wuhan",
+   "c": "Nationalist China",
+   "u": "Infantry",
+   "cap": false,
+   "no": 5,
+   "sn": 1,
+   "frm": "Central China"
+  },
+  "397": {
+   "t": 1688,
+   "p": "Yanglongxiang",
+   "c": "Sichuan",
+   "u": "Infantry",
+   "cap": false,
+   "no": 1,
+   "sn": 3,
+   "frm": "Ma-Clique"
+  },
+  "400": {
+   "t": 1696,
+   "p": "Jhansi",
+   "c": "British Odisha",
+   "u": "Anti Air",
+   "cap": false,
+   "no": 8,
+   "sn": 2,
+   "frm": "North India"
+  },
+  "403": {
+   "t": 1702,
+   "p": "Lhasa",
+   "c": "British Odisha",
+   "u": "Armored Car",
+   "cap": true,
+   "no": 4,
+   "sn": 2,
+   "frm": "Tibet"
+  },
+  "406": {
+   "t": 1717,
+   "p": "Mhow",
+   "c": "South India",
+   "u": "Anti Air",
+   "cap": false,
+   "no": 7,
+   "sn": 1,
+   "frm": "British Odisha"
+  },
+  "407": {
+   "t": 1720,
+   "p": "Jiuquan",
+   "c": "Sichuan",
+   "u": "Infantry",
+   "cap": false,
+   "no": 1,
+   "sn": 3,
+   "frm": "Ma-Clique"
+  },
+  "410": {
+   "t": 1721,
+   "p": "Tsingtao",
+   "c": "Central China",
+   "u": "Anti Tank",
+   "cap": false,
+   "no": 1,
+   "sn": 6,
+   "frm": "Communist China"
+  },
+  "411": {
+   "t": 1727,
+   "p": "Mengui",
+   "c": "Burma",
+   "u": "Armored Car",
+   "cap": false,
+   "no": 7,
+   "sn": 1,
+   "frm": "Siam"
+  },
+  "414": {
+   "t": 1734,
+   "p": "Qumahexiang",
+   "c": "Ma-Clique",
+   "u": "Armored Car",
+   "cap": false,
+   "no": 1,
+   "sn": 2,
+   "frm": "Sichuan"
+  },
+  "415": {
+   "t": 1735,
+   "p": "Wuhan",
+   "c": "Central China",
+   "u": "Light Tank",
+   "cap": false,
+   "no": 4,
+   "sn": 1,
+   "frm": "Nationalist China"
+  },
+  "416": {
+   "t": 1736,
+   "p": "Nanping",
+   "c": "Nationalist China",
+   "u": "Infantry",
+   "cap": false,
+   "no": 13,
+   "sn": 1,
+   "frm": "Central China"
+  },
+  "419": {
+   "t": 1736,
+   "p": "Hainan",
+   "c": "Sichuan",
+   "u": "Anti Air",
+   "cap": true,
+   "no": 13,
+   "sn": 2,
+   "frm": "Ma-Clique"
+  },
+  "422": {
+   "t": 1736,
+   "p": "Alwar",
+   "c": "British Odisha",
+   "u": "Infantry",
+   "cap": false,
+   "no": 2,
+   "sn": 8,
+   "frm": "North India"
+  },
+  "425": {
+   "t": 1748,
+   "p": "Kolan",
+   "c": "Sichuan",
+   "u": "Armored Car",
+   "cap": false,
+   "no": 10,
+   "sn": 1,
+   "frm": "Communist China"
+  },
+  "426": {
+   "t": 1751,
+   "p": "Indore",
+   "c": "South India",
+   "u": "Anti Air",
+   "cap": false,
+   "no": 7,
+   "sn": 1,
+   "frm": "British Odisha"
+  },
+  "431": {
+   "t": 1752,
+   "p": "Kushui",
+   "c": "British Odisha",
+   "u": "Armored Car",
+   "cap": false,
+   "no": 3,
+   "sn": 7,
+   "frm": "Xingjiang"
+  },
+  "432": {
+   "t": 1760,
+   "p": "Kamphaeng Phet",
+   "c": "Siam",
+   "u": "Infantry",
+   "cap": false,
+   "no": 2,
+   "sn": 1,
+   "frm": "Burma"
+  },
+  "435": {
+   "t": 1767,
+   "p": "Chongyi",
+   "c": "Central China",
+   "u": "Light Tank",
+   "cap": false,
+   "no": 12,
+   "sn": 3,
+   "frm": "Nationalist China"
+  },
+  "436": {
+   "t": 1777,
+   "p": "Linchwan",
+   "c": "Nationalist China",
+   "u": "Infantry",
+   "cap": false,
+   "no": 7,
+   "sn": 1,
+   "frm": "Central China"
+  },
+  "439": {
+   "t": 1784,
+   "p": "Anqing",
+   "c": "Nationalist China",
+   "u": "Infantry",
+   "cap": false,
+   "no": 8,
+   "sn": 1,
+   "frm": "Central China"
+  },
+  "442": {
+   "t": 1788,
+   "p": "Ganzhou",
+   "c": "Central China",
+   "u": "Light Tank",
+   "cap": false,
+   "no": 12,
+   "sn": 3,
+   "frm": "Nationalist China"
+  },
+  "445": {
+   "t": 1798,
+   "p": "Delhi",
+   "c": "British Odisha",
+   "u": "Infantry",
+   "cap": true,
+   "no": 2,
+   "sn": 8,
+   "frm": "North India"
+  },
+  "448": {
+   "t": 1818,
+   "p": "Teian",
+   "c": "Central China",
+   "u": "Light Tank",
+   "cap": false,
+   "no": 4,
+   "sn": 1,
+   "frm": "Nationalist China"
+  },
+  "451": {
+   "t": 1820,
+   "p": "Shanghai",
+   "c": "Central China",
+   "u": "Infantry",
+   "cap": true,
+   "no": 8,
+   "sn": 5,
+   "frm": "Nationalist China"
+  },
+  "452": {
+   "t": 1825,
+   "p": "Nanking",
+   "c": "Nationalist China",
+   "u": "Infantry",
+   "cap": false,
+   "no": 5,
+   "sn": 1,
+   "frm": "Central China"
+  },
+  "460": {
+   "t": 1852,
+   "p": "Vizagapatam",
+   "c": "British Odisha",
+   "u": "Anti Tank",
+   "cap": false,
+   "no": 12,
+   "sn": 1,
+   "frm": "South India"
+  },
+  "466": {
+   "t": 1860,
+   "p": "Madoi",
+   "c": "Sichuan",
+   "u": "Armored Car",
+   "cap": false,
+   "no": 22,
+   "sn": 1,
+   "frm": "Ma-Clique"
+  },
+  "467": {
+   "t": 1861,
+   "p": "Kamphaeng Phet",
+   "c": "Burma",
+   "u": "Armored Car",
+   "cap": false,
+   "no": 7,
+   "sn": 1,
+   "frm": "Siam"
+  },
+  "470": {
+   "t": 1868,
+   "p": "Zhangye",
+   "c": "Sichuan",
+   "u": "Infantry",
+   "cap": false,
+   "no": 1,
+   "sn": 3,
+   "frm": "Ma-Clique"
+  },
+  "471": {
+   "t": 1871,
+   "p": "Meerut",
+   "c": "British Odisha",
+   "u": "Infantry",
+   "cap": false,
+   "no": 2,
+   "sn": 8,
+   "frm": "North India"
+  },
+  "472": {
+   "t": 1881,
+   "p": "Niandixiang",
+   "c": "Sichuan",
+   "u": "Infantry",
+   "cap": false,
+   "no": 11,
+   "sn": 1,
+   "frm": "Ma-Clique"
+  },
+  "475": {
+   "t": 1893,
+   "p": "Nellore",
+   "c": "British Odisha",
+   "u": "Infantry",
+   "cap": false,
+   "no": 11,
+   "sn": 7,
+   "frm": "South India"
+  },
+  "476": {
+   "t": 1897,
+   "p": "Mae Hong Son",
+   "c": "Siam",
+   "u": "Infantry",
+   "cap": false,
+   "no": 2,
+   "sn": 1,
+   "frm": "Burma"
+  },
+  "477": {
+   "t": 1900,
+   "p": "Ed Dzong",
+   "c": "British Odisha",
+   "u": "Armored Car",
+   "cap": false,
+   "no": 4,
+   "sn": 2,
+   "frm": "Tibet"
+  },
+  "482": {
+   "t": 1909,
+   "p": "Nong Hoi",
+   "c": "Burma",
+   "u": "Armored Car",
+   "cap": false,
+   "no": 9,
+   "sn": 7,
+   "frm": "Indochina"
+  },
+  "485": {
+   "t": 1913,
+   "p": "Sukhothai",
+   "c": "Burma",
+   "u": "Anti Tank",
+   "cap": false,
+   "no": 14,
+   "sn": 7,
+   "frm": "Siam"
+  },
+  "489": {
+   "t": 1948,
+   "p": "Jinan",
+   "c": "Central China",
+   "u": "Anti Tank",
+   "cap": false,
+   "no": 1,
+   "sn": 6,
+   "frm": "Communist China"
+  },
+  "490": {
+   "t": 1949,
+   "p": "Banlao",
+   "c": "Burma",
+   "u": "Armored Car",
+   "cap": false,
+   "no": 9,
+   "sn": 7,
+   "frm": "Indochina"
   }
  },
  "loss": {
@@ -1496,17 +2376,17 @@
   },
   "219": {
    "t": 1189,
-   "p": null,
+   "p": "Qingyang",
    "c": "Communist China",
    "u": "Militia",
    "what": "1× Infantry",
    "n": 1,
-   "dest": false,
+   "dest": true,
    "no": 10,
-   "byno": null,
-   "byu": null,
-   "byn": null,
-   "by": null
+   "byno": 10,
+   "byu": "Armored Car",
+   "byn": 1,
+   "by": "Sichuan"
   },
   "221": {
    "t": 1190,
@@ -1703,6 +2583,916 @@
    "byu": "Artillery",
    "byn": 1,
    "by": "Central China"
+  },
+  "265": {
+   "t": 1267,
+   "p": "Surin",
+   "c": "Siam",
+   "u": "Infantry",
+   "what": "1× Infantry, 1× Militia",
+   "n": 2,
+   "dest": true,
+   "no": 15,
+   "byno": 5,
+   "byu": "Armored Car",
+   "byn": 11,
+   "by": "Burma"
+  },
+  "269": {
+   "t": 1280,
+   "p": "Bengbu",
+   "c": "Communist China",
+   "u": "Militia",
+   "what": "1× Militia",
+   "n": 1,
+   "dest": true,
+   "no": 5,
+   "byno": 1,
+   "byu": "Anti Tank",
+   "byn": 6,
+   "by": "Central China"
+  },
+  "273": {
+   "t": 1289,
+   "p": "Gomo",
+   "c": "Tibet",
+   "u": "Infantry",
+   "what": "1× Infantry",
+   "n": 1,
+   "dest": true,
+   "no": 3,
+   "byno": 5,
+   "byu": "Tactical Bomber",
+   "byn": 8,
+   "by": "British Odisha"
+  },
+  "277": {
+   "t": 1293,
+   "p": "Yungcheng",
+   "c": "Communist China",
+   "u": "Infantry",
+   "what": "1× Infantry",
+   "n": 1,
+   "dest": true,
+   "no": 11,
+   "byno": 19,
+   "byu": "Tactical Bomber",
+   "byn": 1,
+   "by": "Sichuan"
+  },
+  "280": {
+   "t": 1300,
+   "p": "Huangnan",
+   "c": "Ma-Clique",
+   "u": "Infantry",
+   "what": "1× Infantry",
+   "n": 1,
+   "dest": true,
+   "no": 17,
+   "byno": 14,
+   "byu": "Rocket Artillery",
+   "byn": 1,
+   "by": "Sichuan"
+  },
+  "285": {
+   "t": 1309,
+   "p": "Qingyang",
+   "c": "Communist China",
+   "u": "Militia",
+   "what": "1× Militia",
+   "n": 1,
+   "dest": true,
+   "no": 10,
+   "byno": 10,
+   "byu": "Armored Car",
+   "byn": 1,
+   "by": "Sichuan"
+  },
+  "289": {
+   "t": 1314,
+   "p": "Puanting",
+   "c": "South China",
+   "u": "Infantry",
+   "what": "1× Infantry",
+   "n": 1,
+   "dest": true,
+   "no": 3,
+   "byno": 6,
+   "byu": "Light Tank",
+   "byn": 1,
+   "by": "Burma"
+  },
+  "293": {
+   "t": 1336,
+   "p": "Sholapur",
+   "c": "South India",
+   "u": "Anti Air",
+   "what": "1× Anti Air, 1× Infantry",
+   "n": 2,
+   "dest": true,
+   "no": 20,
+   "byno": 1,
+   "byu": "Infantry",
+   "byn": 5,
+   "by": "British Odisha"
+  },
+  "296": {
+   "t": 1337,
+   "p": "Bayard",
+   "c": "South China",
+   "u": "Infantry",
+   "what": "1× Infantry",
+   "n": 1,
+   "dest": true,
+   "no": 12,
+   "byno": 8,
+   "byu": "Cruiser",
+   "byn": 1,
+   "by": "Burma"
+  },
+  "299": {
+   "t": 1337,
+   "p": "Wuchow",
+   "c": "South China",
+   "u": "Anti Tank",
+   "what": "1× Anti Tank",
+   "n": 1,
+   "dest": true,
+   "no": 4,
+   "byno": 23,
+   "byu": "Infantry",
+   "byn": 2,
+   "by": "Sichuan"
+  },
+  "300": {
+   "t": 1342,
+   "p": "Ratlam",
+   "c": "North India",
+   "u": "Infantry",
+   "what": "1× Infantry",
+   "n": 1,
+   "dest": true,
+   "no": 12,
+   "byno": 2,
+   "byu": "Infantry",
+   "byn": 8,
+   "by": "British Odisha"
+  },
+  "303": {
+   "t": 1368,
+   "p": "Hainan",
+   "c": "Ma-Clique",
+   "u": "Tactical Bomber",
+   "what": "1× Tactical Bomber",
+   "n": 1,
+   "dest": true,
+   "no": 20,
+   "byno": 18,
+   "byu": "Interceptor",
+   "byn": 1,
+   "by": "Sichuan"
+  },
+  "306": {
+   "t": 1371,
+   "p": "Sa Kaeo",
+   "c": "Siam",
+   "u": "Infantry",
+   "what": "1× Infantry",
+   "n": 1,
+   "dest": true,
+   "no": 13,
+   "byno": 5,
+   "byu": "Armored Car",
+   "byn": 11,
+   "by": "Burma"
+  },
+  "310": {
+   "t": 1388,
+   "p": "Nanchang",
+   "c": "Nationalist China",
+   "u": "Interceptor",
+   "what": "1× Interceptor",
+   "n": 1,
+   "dest": true,
+   "no": 17,
+   "byno": 8,
+   "byu": "Artillery",
+   "byn": 1,
+   "by": "Central China"
+  },
+  "314": {
+   "t": 1402,
+   "p": "Bangkok",
+   "c": "Siam",
+   "u": "Militia",
+   "what": "1× Militia",
+   "n": 1,
+   "dest": true,
+   "no": 11,
+   "byno": 5,
+   "byu": "Armored Car",
+   "byn": 11,
+   "by": "Burma"
+  },
+  "319": {
+   "t": 1420,
+   "p": "Youyunxiang",
+   "c": "Ma-Clique",
+   "u": "Infantry",
+   "what": "1× Infantry, 1× Militia",
+   "n": 2,
+   "dest": true,
+   "no": 7,
+   "byno": 6,
+   "byu": "Rocket Artillery",
+   "byn": 1,
+   "by": "Sichuan"
+  },
+  "321": {
+   "t": 1423,
+   "p": "Vizagapatam",
+   "c": "South India",
+   "u": "Infantry",
+   "what": "1× Infantry",
+   "n": 1,
+   "dest": true,
+   "no": 7,
+   "byno": 19,
+   "byu": "Cruiser",
+   "byn": 2,
+   "by": "British Odisha"
+  },
+  "323": {
+   "t": 1424,
+   "p": "Taiyuan",
+   "c": "Communist China",
+   "u": "Interceptor",
+   "what": "1× Interceptor",
+   "n": 1,
+   "dest": true,
+   "no": 18,
+   "byno": 15,
+   "byu": "Rocket Artillery",
+   "byn": 1,
+   "by": "Sichuan"
+  },
+  "326": {
+   "t": 1427,
+   "p": "Wutumeirenxiang",
+   "c": "Ma-Clique",
+   "u": "Infantry",
+   "what": "1× Infantry",
+   "n": 1,
+   "dest": true,
+   "no": 9,
+   "byno": 3,
+   "byu": "Armored Car",
+   "byn": 8,
+   "by": "British Odisha"
+  },
+  "330": {
+   "t": 1459,
+   "p": "Nanking",
+   "c": "Nationalist China",
+   "u": "Infantry",
+   "what": "1× Infantry",
+   "n": 1,
+   "dest": true,
+   "no": 4,
+   "byno": 6,
+   "byu": "Infantry",
+   "byn": 5,
+   "by": "Central China"
+  },
+  "333": {
+   "t": 1464,
+   "p": "Chaoking",
+   "c": "South China",
+   "u": "Militia",
+   "what": "1× Militia",
+   "n": 1,
+   "dest": true,
+   "no": 21,
+   "byno": 3,
+   "byu": "Light Tank",
+   "byn": 10,
+   "by": "Central China"
+  },
+  "336": {
+   "t": 1481,
+   "p": "Hanoi",
+   "c": "Indochina",
+   "u": "Militia",
+   "what": "1× Militia",
+   "n": 1,
+   "dest": true,
+   "no": 4,
+   "byno": 9,
+   "byu": "Armored Car",
+   "byn": 5,
+   "by": "Burma"
+  },
+  "340": {
+   "t": 1493,
+   "p": "Canton",
+   "c": "South China",
+   "u": "Infantry",
+   "what": "1× Infantry",
+   "n": 1,
+   "dest": true,
+   "no": 5,
+   "byno": 3,
+   "byu": "Light Tank",
+   "byn": 10,
+   "by": "Central China"
+  },
+  "343": {
+   "t": 1494,
+   "p": "Lenghuzhen",
+   "c": "Ma-Clique",
+   "u": "Infantry",
+   "what": "1× Infantry",
+   "n": 1,
+   "dest": true,
+   "no": 10,
+   "byno": 5,
+   "byu": "Tactical Bomber",
+   "byn": 8,
+   "by": "British Odisha"
+  },
+  "347": {
+   "t": 1497,
+   "p": "Kotah",
+   "c": "North India",
+   "u": "Anti Tank",
+   "what": "1× Anti Tank",
+   "n": 1,
+   "dest": true,
+   "no": 19,
+   "byno": 2,
+   "byu": "Infantry",
+   "byn": 8,
+   "by": "British Odisha"
+  },
+  "353": {
+   "t": 1516,
+   "p": "Phondu",
+   "c": "Tibet",
+   "u": "Infantry",
+   "what": "1× Infantry",
+   "n": 1,
+   "dest": true,
+   "no": 13,
+   "byno": 6,
+   "byu": "Armored Car",
+   "byn": 1,
+   "by": "British Odisha"
+  },
+  "355": {
+   "t": 1525,
+   "p": "Warangal",
+   "c": "South India",
+   "u": "Infantry",
+   "what": "2× Infantry",
+   "n": 2,
+   "dest": true,
+   "no": 12,
+   "byno": 11,
+   "byu": "Infantry",
+   "byn": 7,
+   "by": "British Odisha"
+  },
+  "360": {
+   "t": 1528,
+   "p": "Hanoi",
+   "c": "Indochina",
+   "u": "Interceptor",
+   "what": "2× Interceptor",
+   "n": 2,
+   "dest": true,
+   "no": 18,
+   "byno": 9,
+   "byu": "Armored Car",
+   "byn": 5,
+   "by": "Burma"
+  },
+  "364": {
+   "t": 1558,
+   "p": "Gwalior",
+   "c": "North India",
+   "u": "Militia",
+   "what": "1× Militia",
+   "n": 1,
+   "dest": true,
+   "no": 16,
+   "byno": 2,
+   "byu": "Infantry",
+   "byn": 8,
+   "by": "British Odisha"
+  },
+  "368": {
+   "t": 1565,
+   "p": "Qīngyuǎn",
+   "c": "South China",
+   "u": "Militia",
+   "what": "1× Militia",
+   "n": 1,
+   "dest": true,
+   "no": 11,
+   "byno": 3,
+   "byu": "Light Tank",
+   "byn": 10,
+   "by": "Central China"
+  },
+  "373": {
+   "t": 1593,
+   "p": "Weifang",
+   "c": "Communist China",
+   "u": "Infantry",
+   "what": "1× Infantry",
+   "n": 1,
+   "dest": true,
+   "no": 7,
+   "byno": 1,
+   "byu": "Anti Tank",
+   "byn": 6,
+   "by": "Central China"
+  },
+  "379": {
+   "t": 1614,
+   "p": "Lenghuzhen",
+   "c": "Ma-Clique",
+   "u": "Infantry",
+   "what": "1× Infantry",
+   "n": 1,
+   "dest": true,
+   "no": 7,
+   "byno": 3,
+   "byu": "Armored Car",
+   "byn": 7,
+   "by": "British Odisha"
+  },
+  "381": {
+   "t": 1621,
+   "p": "Hainan",
+   "c": "Ma-Clique",
+   "u": "Infantry",
+   "what": "1× Infantry",
+   "n": 1,
+   "dest": true,
+   "no": 18,
+   "byno": 13,
+   "byu": "Anti Air",
+   "byn": 2,
+   "by": "Sichuan"
+  },
+  "382": {
+   "t": 1643,
+   "p": "Ed Dzong",
+   "c": "Tibet",
+   "u": "Infantry",
+   "what": "1× Infantry",
+   "n": 1,
+   "dest": true,
+   "no": 14,
+   "byno": 5,
+   "byu": "Tactical Bomber",
+   "byn": 8,
+   "by": "British Odisha"
+  },
+  "388": {
+   "t": 1672,
+   "p": "Taiyuan",
+   "c": "Communist China",
+   "u": "Infantry",
+   "what": "1× Infantry",
+   "n": 1,
+   "dest": true,
+   "no": 9,
+   "byno": 20,
+   "byu": "Infantry",
+   "byn": 2,
+   "by": "Sichuan"
+  },
+  "393": {
+   "t": 1681,
+   "p": "Delhi (CN)",
+   "c": "Ma-Clique",
+   "u": "Infantry",
+   "what": "1× Infantry",
+   "n": 1,
+   "dest": true,
+   "no": 3,
+   "byno": 7,
+   "byu": "Rocket Artillery",
+   "byn": 1,
+   "by": "Sichuan"
+  },
+  "398": {
+   "t": 1688,
+   "p": "Yanglongxiang",
+   "c": "Ma-Clique",
+   "u": "Infantry",
+   "what": "1× Infantry",
+   "n": 1,
+   "dest": true,
+   "no": 2,
+   "byno": 1,
+   "byu": "Infantry",
+   "byn": 3,
+   "by": "Sichuan"
+  },
+  "401": {
+   "t": 1702,
+   "p": "Lhasa",
+   "c": "Tibet",
+   "u": "Militia",
+   "what": "1× Militia",
+   "n": 1,
+   "dest": true,
+   "no": 10,
+   "byno": 5,
+   "byu": "Tactical Bomber",
+   "byn": 8,
+   "by": "British Odisha"
+  },
+  "405": {
+   "t": 1716,
+   "p": "Nanking",
+   "c": "Nationalist China",
+   "u": "Anti Air",
+   "what": "1× Anti Air",
+   "n": 1,
+   "dest": true,
+   "no": 14,
+   "byno": 8,
+   "byu": "Infantry",
+   "byn": 5,
+   "by": "Central China"
+  },
+  "408": {
+   "t": 1721,
+   "p": "Tsingtao",
+   "c": "Communist China",
+   "u": "Infantry",
+   "what": "1× Infantry",
+   "n": 1,
+   "dest": true,
+   "no": 6,
+   "byno": 1,
+   "byu": "Anti Tank",
+   "byn": 6,
+   "by": "Central China"
+  },
+  "412": {
+   "t": 1732,
+   "p": "Lhasa",
+   "c": "Tibet",
+   "u": "Interceptor",
+   "what": "2× Interceptor",
+   "n": 2,
+   "dest": true,
+   "no": 2,
+   "byno": 5,
+   "byu": "Tactical Bomber",
+   "byn": 8,
+   "by": "British Odisha"
+  },
+  "417": {
+   "t": 1736,
+   "p": "Hainan",
+   "c": "Ma-Clique",
+   "u": "Armored Car",
+   "what": "1× Armored Car",
+   "n": 1,
+   "dest": true,
+   "no": 6,
+   "byno": 13,
+   "byu": "Anti Air",
+   "byn": 2,
+   "by": "Sichuan"
+  },
+  "420": {
+   "t": 1736,
+   "p": "Alwar",
+   "c": "North India",
+   "u": "Infantry",
+   "what": "1× Infantry",
+   "n": 1,
+   "dest": true,
+   "no": 3,
+   "byno": 2,
+   "byu": "Infantry",
+   "byn": 8,
+   "by": "British Odisha"
+  },
+  "423": {
+   "t": 1748,
+   "p": "Kolan",
+   "c": "Communist China",
+   "u": "Infantry",
+   "what": "1× Infantry",
+   "n": 1,
+   "dest": true,
+   "no": 8,
+   "byno": 12,
+   "byu": "Rocket Artillery",
+   "byn": 1,
+   "by": "Sichuan"
+  },
+  "429": {
+   "t": 1752,
+   "p": "Kushui",
+   "c": "Xingjiang",
+   "u": "Infantry",
+   "what": "1× Infantry",
+   "n": 1,
+   "dest": true,
+   "no": 8,
+   "byno": 3,
+   "byu": "Armored Car",
+   "byn": 7,
+   "by": "British Odisha"
+  },
+  "433": {
+   "t": 1767,
+   "p": "Chongyi",
+   "c": "Nationalist China",
+   "u": "Infantry",
+   "what": "1× Infantry",
+   "n": 1,
+   "dest": true,
+   "no": 9,
+   "byno": 12,
+   "byu": "Light Tank",
+   "byn": 3,
+   "by": "Central China"
+  },
+  "437": {
+   "t": 1783,
+   "p": "Hainan",
+   "c": "Ma-Clique",
+   "u": "Interceptor",
+   "what": "1× Interceptor",
+   "n": 1,
+   "dest": true,
+   "no": 2,
+   "byno": 25,
+   "byu": "Rocket Artillery",
+   "byn": 3,
+   "by": "Sichuan"
+  },
+  "443": {
+   "t": 1798,
+   "p": "Delhi",
+   "c": "North India",
+   "u": "Infantry",
+   "what": "1× Infantry",
+   "n": 1,
+   "dest": true,
+   "no": 1,
+   "byno": 2,
+   "byu": "Infantry",
+   "byn": 8,
+   "by": "British Odisha"
+  },
+  "446": {
+   "t": 1818,
+   "p": "Teian",
+   "c": "Nationalist China",
+   "u": "Infantry",
+   "what": "1× Infantry",
+   "n": 1,
+   "dest": true,
+   "no": 4,
+   "byno": 17,
+   "byu": "Tactical Bomber",
+   "byn": 10,
+   "by": "Central China"
+  },
+  "449": {
+   "t": 1820,
+   "p": "Shanghai",
+   "c": "Nationalist China",
+   "u": "Infantry",
+   "what": "1× Infantry",
+   "n": 1,
+   "dest": true,
+   "no": 3,
+   "byno": 8,
+   "byu": "Infantry",
+   "byn": 5,
+   "by": "Central China"
+  },
+  "453": {
+   "t": 1833,
+   "p": "Nellore",
+   "c": "South India",
+   "u": "Infantry",
+   "what": "1× Infantry",
+   "n": 1,
+   "dest": true,
+   "no": 2,
+   "byno": 11,
+   "byu": "Infantry",
+   "byn": 7,
+   "by": "British Odisha"
+  },
+  "455": {
+   "t": 1844,
+   "p": "Ladse Dzong",
+   "c": "Tibet",
+   "u": "Infantry",
+   "what": "1× Infantry",
+   "n": 1,
+   "dest": true,
+   "no": 6,
+   "byno": 5,
+   "byu": "Tactical Bomber",
+   "byn": 8,
+   "by": "British Odisha"
+  },
+  "457": {
+   "t": 1844,
+   "p": "Vizagapatam",
+   "c": "South India",
+   "u": "Infantry",
+   "what": "1× Infantry",
+   "n": 1,
+   "dest": true,
+   "no": 11,
+   "byno": 19,
+   "byu": "Cruiser",
+   "byn": 2,
+   "by": "British Odisha"
+  },
+  "461": {
+   "t": 1859,
+   "p": "Hami",
+   "c": "Xingjiang",
+   "u": "Tactical Bomber",
+   "what": "1× Interceptor",
+   "n": 1,
+   "dest": true,
+   "no": 18,
+   "byno": 3,
+   "byu": "Armored Car",
+   "byn": 7,
+   "by": "British Odisha"
+  },
+  "462": {
+   "t": 1860,
+   "p": "Madoi",
+   "c": "Ma-Clique",
+   "u": "Interceptor",
+   "what": "1× Interceptor",
+   "n": 1,
+   "dest": true,
+   "no": 19,
+   "byno": 7,
+   "byu": "Rocket Artillery",
+   "byn": 2,
+   "by": "Sichuan"
+  },
+  "464": {
+   "t": 1860,
+   "p": "Madoi",
+   "c": "Ma-Clique",
+   "u": "Militia",
+   "what": "1× Militia",
+   "n": 1,
+   "dest": true,
+   "no": 16,
+   "byno": 7,
+   "byu": "Rocket Artillery",
+   "byn": 2,
+   "by": "Sichuan"
+  },
+  "473": {
+   "t": 1893,
+   "p": "Nellore",
+   "c": "South India",
+   "u": "Infantry",
+   "what": "1× Infantry",
+   "n": 1,
+   "dest": true,
+   "no": 8,
+   "byno": 11,
+   "byu": "Infantry",
+   "byn": 7,
+   "by": "British Odisha"
+  },
+  "479": {
+   "t": 1904,
+   "p": "Madoi",
+   "c": "Ma-Clique",
+   "u": "Naval Bomber",
+   "what": "1× Naval Bomber",
+   "n": 1,
+   "dest": true,
+   "no": 3,
+   "byno": 22,
+   "byu": "Armored Car",
+   "byn": 1,
+   "by": "Sichuan"
+  },
+  "480": {
+   "t": 1909,
+   "p": "Nong Hoi",
+   "c": "Indochina",
+   "u": "Infantry",
+   "what": "1× Infantry",
+   "n": 1,
+   "dest": true,
+   "no": 22,
+   "byno": 9,
+   "byu": "Armored Car",
+   "byn": 7,
+   "by": "Burma"
+  },
+  "483": {
+   "t": 1909,
+   "p": "Sukhothai",
+   "c": "Siam",
+   "u": "Infantry",
+   "what": "1× Infantry",
+   "n": 1,
+   "dest": true,
+   "no": 5,
+   "byno": 4,
+   "byu": "Rocket Artillery",
+   "byn": 1,
+   "by": "Burma"
+  },
+  "487": {
+   "t": 1948,
+   "p": "Jinan",
+   "c": "Communist China",
+   "u": "Infantry",
+   "what": "1× Infantry",
+   "n": 1,
+   "dest": true,
+   "no": 4,
+   "byno": 1,
+   "byu": "Anti Tank",
+   "byn": 6,
+   "by": "Central China"
+  },
+  "491": {
+   "t": 1960,
+   "p": null,
+   "c": "Ma-Clique",
+   "u": "Armored Car",
+   "what": "1× Militia",
+   "n": 1,
+   "dest": false,
+   "no": 1,
+   "byno": null,
+   "byu": null,
+   "byn": null,
+   "by": null
+  },
+  "492": {
+   "t": 1965,
+   "p": "Lüliang",
+   "c": "Communist China",
+   "u": "Anti Air",
+   "what": "1× Anti Air",
+   "n": 1,
+   "dest": true,
+   "no": 21,
+   "byno": 15,
+   "byu": "Rocket Artillery",
+   "byn": 1,
+   "by": "Sichuan"
+  },
+  "494": {
+   "t": 1972,
+   "p": "Jhansi",
+   "c": "North India",
+   "u": "Anti Air",
+   "what": "1× Anti Air",
+   "n": 1,
+   "dest": true,
+   "no": 11,
+   "byno": 8,
+   "byu": "Anti Air",
+   "byn": 2,
+   "by": "British Odisha"
+  },
+  "496": {
+   "t": 1976,
+   "p": null,
+   "c": "British Odisha",
+   "u": "Infantry",
+   "what": "1× Infantry",
+   "n": 1,
+   "dest": false,
+   "no": 11,
+   "byno": null,
+   "byu": null,
+   "byn": null,
+   "by": null
   }
  },
  "cas": {
@@ -1711,63 +3501,63 @@
    "ts": 1790598536805
   },
   "South China|Central China": {
-   "v": 7374,
+   "v": 10412,
    "ts": 1790598709533
   },
   "South China|Sichuan": {
-   "v": 4808,
+   "v": 6318,
    "ts": 1790599069761
   },
   "Ma-Clique|Sichuan": {
-   "v": 5504,
+   "v": 14101,
    "ts": 1790599385229
   },
   "South India|British Odisha": {
-   "v": 3929,
+   "v": 11258,
    "ts": 1790599437285
   },
   "Communist China|Sichuan": {
-   "v": 4802,
+   "v": 7751,
    "ts": 1790599846257
   },
   "Central China|South China": {
-   "v": 2091,
+   "v": 2732,
    "ts": 1790600062097
   },
   "Burma|Siam": {
-   "v": 3995,
+   "v": 5494,
    "ts": 1790600173902
   },
   "Siam|Burma": {
-   "v": 10700,
+   "v": 15737,
    "ts": 1790600173902
   },
   "Sichuan|South China": {
-   "v": 865,
+   "v": 1056,
    "ts": 1790600319381
   },
   "Sichuan|Communist China": {
-   "v": 1437,
+   "v": 1917,
    "ts": 1790601130869
   },
   "Nationalist China|Central China": {
-   "v": 5031,
+   "v": 11011,
    "ts": 1790601728446
   },
   "Burma|Indochina": {
-   "v": 796,
+   "v": 1234,
    "ts": 1790601985321
   },
   "Indochina|Burma": {
-   "v": 4060,
+   "v": 7815,
    "ts": 1790601985321
   },
   "British Odisha|North India": {
-   "v": 1432,
+   "v": 3992,
    "ts": 1790602000546
   },
   "North India|British Odisha": {
-   "v": 4600,
+   "v": 11750,
    "ts": 1790602000546
   },
   "Sichuan|Yunnan": {
@@ -1775,19 +3565,19 @@
    "ts": 1790602136805
   },
   "Sichuan|Ma-Clique": {
-   "v": 2583,
+   "v": 5240,
    "ts": 1790603772570
   },
   "Communist China|Central China": {
-   "v": 1731,
+   "v": 4730,
    "ts": 1790603940734
   },
   "Central China|Communist China": {
-   "v": 568,
+   "v": 2041,
    "ts": 1790603940734
   },
   "British Odisha|South India": {
-   "v": 2012,
+   "v": 5296,
    "ts": 1790604399847
   },
   "Central China|Indochina": {
@@ -1799,19 +3589,19 @@
    "ts": 1790604948485
   },
   "British Odisha|Tibet": {
-   "v": 423,
+   "v": 2044,
    "ts": 1790605710290
   },
   "Tibet|British Odisha": {
-   "v": 2430,
+   "v": 8030,
    "ts": 1790605710290
   },
   "Central China|Nationalist China": {
-   "v": 1272,
+   "v": 3535,
    "ts": 1790608874348
   },
   "South China|Burma": {
-   "v": 1538,
+   "v": 2106,
    "ts": 1790609044593
   },
   "Burma|Yunnan": {
@@ -1823,8 +3613,24 @@
    "ts": 1790612000876
   },
   "Burma|South China": {
-   "v": 488,
+   "v": 658,
    "ts": 1790615119017
+  },
+  "British Odisha|Ma-Clique": {
+   "v": 393,
+   "ts": 1790630427708
+  },
+  "Ma-Clique|British Odisha": {
+   "v": 3935,
+   "ts": 1790630427708
+  },
+  "British Odisha|Xingjiang": {
+   "v": 1331,
+   "ts": 1790651533900
+  },
+  "Xingjiang|British Odisha": {
+   "v": 3862,
+   "ts": 1790651533900
   }
  },
  "slots": {
@@ -1941,30 +3747,40 @@
  "stats": {
   "lost": {
    "North India": {
-    "Infantry": 4,
-    "Interceptor": 1,
-    "Militia": 1
+    "Militia": 2,
+    "Infantry": 7,
+    "Interceptor": 2,
+    "Anti Air": 1,
+    "Attack Bomber": 1,
+    "Tactical Bomber": 1,
+    "Anti Tank": 1
    },
    "British Odisha": {
+    "Infantry": 1,
     "Militia": 1
    },
    "South India": {
-    "Infantry": 2,
-    "Armored Car": 1
+    "Anti Air": 1,
+    "Armored Car": 1,
+    "Infantry": 9
    },
    "Tibet": {
-    "Infantry": 3
+    "Infantry": 7,
+    "Interceptor": 2,
+    "Militia": 1
    },
    "Siam": {
-    "Infantry": 7,
-    "Militia": 2,
     "Anti Air": 1,
-    "Interceptor": 2
+    "Interceptor": 2,
+    "Infantry": 10,
+    "Militia": 4
    },
    "Indochina": {
-    "Infantry": 3,
+    "Interceptor": 2,
+    "Militia": 1,
     "Anti Air": 1,
-    "Armored Car": 1
+    "Armored Car": 1,
+    "Infantry": 4
    },
    "Yunnan": {
     "Infantry": 3,
@@ -1973,23 +3789,38 @@
     "Interceptor": 1
    },
    "Nationalist China": {
-    "Infantry": 2,
-    "Anti Air": 1,
+    "Anti Air": 2,
+    "Interceptor": 1,
+    "Infantry": 6,
     "Armored Car": 2
    },
    "Communist China": {
-    "Infantry": 6
+    "Infantry": 12,
+    "Interceptor": 1,
+    "Militia": 2,
+    "Anti Air": 1
    },
    "South China": {
-    "Infantry": 10,
-    "Militia": 2,
-    "Interceptor": 2
+    "Anti Tank": 1,
+    "Infantry": 13,
+    "Interceptor": 2,
+    "Militia": 4
    },
    "Ma-Clique": {
-    "Infantry": 5
+    "Infantry": 13,
+    "Militia": 3,
+    "Naval Bomber": 1,
+    "Armored Car": 1,
+    "Interceptor": 3,
+    "Tactical Bomber": 1
+   },
+   "Xingjiang": {
+    "Infantry": 1,
+    "Interceptor": 2,
+    "Tactical Bomber": 1
    }
   },
-  "ts": 1790621992817
+  "ts": 1790665156700
  },
  "sync": {}
 }
