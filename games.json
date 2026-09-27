@@ -290,42 +290,6 @@
       "folders": [
         "Speedstars"
       ]
-    },
-    {
-      "id": "10920938",
-      "name": "2v2 against polish",
-      "status": "saved",
-      "added": "2026-09-27 16:36",
-      "ran": 1790532061637,
-      "pv": "82cb9ee70c",
-      "last": {
-        "day": 3,
-        "score": {
-          "G": 0,
-          "R": 0
-        },
-        "provinces": {
-          "G": 125,
-          "R": 0
-        },
-        "fetched": 1790768325742,
-        "winner": null,
-        "teams": {
-          "G": [
-            {
-              "c": "Central China",
-              "f": 4
-            },
-            {
-              "c": "Sichuan",
-              "f": 3
-            }
-          ],
-          "R": []
-        }
-      },
-      "reason": "stopped",
-      "ended": "2026-09-27 20:24"
     }
   ],
   "folders": [
