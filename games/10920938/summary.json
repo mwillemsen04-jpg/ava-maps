@@ -7,11 +7,11 @@
   "R": 0
  },
  "provinces": {
-  "G": 125,
+  "G": 122,
   "R": 0
  },
- "fetched": 1790768325742,
- "built": 1790533463955,
+ "fetched": 1790751558466,
+ "built": 1790547363853,
  "game_over": false,
  "winner": null,
  "teams": {
