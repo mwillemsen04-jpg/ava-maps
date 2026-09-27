@@ -275,7 +275,10 @@
         }
       },
       "reason": "ended",
-      "ended": "2026-09-27 08:02"
+      "ended": "2026-09-27 08:02",
+      "folders": [
+        "Speedstars"
+      ]
     }
   ],
   "folders": [
