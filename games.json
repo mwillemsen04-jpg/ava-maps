@@ -284,6 +284,73 @@
       "folders": [
         "Speedstars"
       ]
+    },
+    {
+      "id": "10920938",
+      "name": "2v2 against polish",
+      "status": "live",
+      "added": "2026-09-27 16:36",
+      "ran": 1790519763474,
+      "pv": "1b295d8594",
+      "last": {
+        "day": 2,
+        "score": {
+          "G": 0,
+          "R": 0
+        },
+        "provinces": {
+          "G": 0,
+          "R": 0
+        },
+        "fetched": 1790603958863,
+        "winner": null,
+        "teams": {
+          "G": [
+            {
+              "c": "Communist Russia",
+              "f": null
+            },
+            {
+              "c": "France",
+              "f": null
+            },
+            {
+              "c": "Germany",
+              "f": null
+            },
+            {
+              "c": "Poland",
+              "f": null
+            },
+            {
+              "c": "Southern United States",
+              "f": null
+            }
+          ],
+          "R": [
+            {
+              "c": "Algeria",
+              "f": null
+            },
+            {
+              "c": "Greater Romania",
+              "f": null
+            },
+            {
+              "c": "Libya",
+              "f": null
+            },
+            {
+              "c": "Russian Empire",
+              "f": null
+            },
+            {
+              "c": "Ukraine",
+              "f": null
+            }
+          ]
+        }
+      }
     }
   ],
   "folders": [
