@@ -3046,6 +3046,496 @@
    "no": 4,
    "sn": 1,
    "frm": "Poland"
+  },
+  "1432": {
+   "t": 4310,
+   "p": "Nice",
+   "c": "Libya",
+   "u": "Infantry",
+   "cap": false,
+   "no": 11,
+   "sn": 4,
+   "frm": "France"
+  },
+  "1435": {
+   "t": 4312,
+   "p": "Lida",
+   "c": "Germany",
+   "u": "Motorized Infantry",
+   "cap": false,
+   "no": 5,
+   "sn": 22,
+   "frm": "Ukraine"
+  },
+  "1439": {
+   "t": 4339,
+   "p": "Arzamas",
+   "c": "Libya",
+   "u": "Light Tank",
+   "cap": false,
+   "no": 2,
+   "sn": 1,
+   "frm": "Russian Empire"
+  },
+  "1440": {
+   "t": 4347,
+   "p": "Tarnow",
+   "c": "Libya",
+   "u": "Light Tank",
+   "cap": false,
+   "no": 4,
+   "sn": 1,
+   "frm": "Poland"
+  },
+  "1441": {
+   "t": 4368,
+   "p": "Riga",
+   "c": "Germany",
+   "u": "Motorized Infantry",
+   "cap": false,
+   "no": 2,
+   "sn": 1,
+   "frm": "Communist Russia"
+  },
+  "1442": {
+   "t": 4391,
+   "p": "Györ",
+   "c": "Greater Romania",
+   "u": "Armored Car",
+   "cap": false,
+   "no": 4,
+   "sn": 6,
+   "frm": "Greater Finland"
+  },
+  "1443": {
+   "t": 4400,
+   "p": "Marseille",
+   "c": "France",
+   "u": "Armored Car",
+   "cap": false,
+   "no": 15,
+   "sn": 1,
+   "frm": "Libya"
+  },
+  "1448": {
+   "t": 4412,
+   "p": "Cracow",
+   "c": "Libya",
+   "u": "Light Tank",
+   "cap": false,
+   "no": 4,
+   "sn": 9,
+   "frm": "Poland"
+  },
+  "1449": {
+   "t": 4414,
+   "p": "Kaunas",
+   "c": "Poland",
+   "u": "Medium Tank",
+   "cap": false,
+   "no": 7,
+   "sn": 1,
+   "frm": "Ukraine"
+  },
+  "1457": {
+   "t": 4437,
+   "p": "Vienna",
+   "c": "Greater Romania",
+   "u": "Armored Car",
+   "cap": false,
+   "no": 4,
+   "sn": 6,
+   "frm": "Greater Finland"
+  },
+  "1458": {
+   "t": 4446,
+   "p": "Rybinsk",
+   "c": "Communist Russia",
+   "u": "Medium Tank",
+   "cap": false,
+   "no": 10,
+   "sn": 1,
+   "frm": "Russian Empire"
+  },
+  "1459": {
+   "t": 4451,
+   "p": "Zelenodolsk",
+   "c": "Russian Empire",
+   "u": "Armored Car",
+   "cap": false,
+   "no": 7,
+   "sn": 1,
+   "frm": "Libya"
+  },
+  "1460": {
+   "t": 4463,
+   "p": "Tikhvin",
+   "c": "Communist Russia",
+   "u": "Armored Car",
+   "cap": false,
+   "no": 11,
+   "sn": 1,
+   "frm": "Greater Finland"
+  },
+  "1461": {
+   "t": 4471,
+   "p": "Tikhvin",
+   "c": "Greater Finland",
+   "u": "Motorized Infantry",
+   "cap": false,
+   "no": 6,
+   "sn": 5,
+   "frm": "Communist Russia"
+  },
+  "1462": {
+   "t": 4472,
+   "p": "Nyasvizh",
+   "c": "Germany",
+   "u": "Motorized Infantry",
+   "cap": false,
+   "no": 5,
+   "sn": 22,
+   "frm": "Ukraine"
+  },
+  "1463": {
+   "t": 4475,
+   "p": "Zilina",
+   "c": "Libya",
+   "u": "Light Tank",
+   "cap": false,
+   "no": 4,
+   "sn": 19,
+   "frm": "Poland"
+  },
+  "1466": {
+   "t": 4481,
+   "p": "Vilnius",
+   "c": "Poland",
+   "u": "Medium Tank",
+   "cap": false,
+   "no": 7,
+   "sn": 1,
+   "frm": "Ukraine"
+  },
+  "1467": {
+   "t": 4486,
+   "p": "Sankt Pölten",
+   "c": "Greater Romania",
+   "u": "Armored Car",
+   "cap": false,
+   "no": 4,
+   "sn": 6,
+   "frm": "Greater Finland"
+  },
+  "1471": {
+   "t": 4545,
+   "p": "Brno",
+   "c": "Greater Romania",
+   "u": "Armored Car",
+   "cap": false,
+   "no": 3,
+   "sn": 1,
+   "frm": "Poland"
+  },
+  "1472": {
+   "t": 4548,
+   "p": "Arzamas",
+   "c": "Russian Empire",
+   "u": "Light Tank",
+   "cap": false,
+   "no": 9,
+   "sn": 10,
+   "frm": "Libya"
+  },
+  "1473": {
+   "t": 4570,
+   "p": "Yaroslavl",
+   "c": "Russian Empire",
+   "u": "Light Tank",
+   "cap": false,
+   "no": 5,
+   "sn": 20,
+   "frm": "Communist Russia"
+  },
+  "1474": {
+   "t": 4585,
+   "p": "Maladzyechna",
+   "c": "Poland",
+   "u": "Medium Tank",
+   "cap": false,
+   "no": 7,
+   "sn": 1,
+   "frm": "Ukraine"
+  },
+  "1482": {
+   "t": 4624,
+   "p": "Nice",
+   "c": "France",
+   "u": "Armored Car",
+   "cap": false,
+   "no": 12,
+   "sn": 1,
+   "frm": "Libya"
+  },
+  "1484": {
+   "t": 4652,
+   "p": "Vladimir",
+   "c": "Russian Empire",
+   "u": "Light Tank",
+   "cap": false,
+   "no": 5,
+   "sn": 20,
+   "frm": "Communist Russia"
+  },
+  "1489": {
+   "t": 4663,
+   "p": "Kovrov",
+   "c": "Russian Empire",
+   "u": "Armored Car",
+   "cap": false,
+   "no": 7,
+   "sn": 1,
+   "frm": "Communist Russia"
+  },
+  "1490": {
+   "t": 4670,
+   "p": "Rybinsk",
+   "c": "Russian Empire",
+   "u": "Armored Car",
+   "cap": false,
+   "no": 10,
+   "sn": 1,
+   "frm": "Communist Russia"
+  },
+  "1493": {
+   "t": 4673,
+   "p": "Prague",
+   "c": "Greater Romania",
+   "u": "Armored Car",
+   "cap": false,
+   "no": 5,
+   "sn": 1,
+   "frm": "Poland"
+  },
+  "1494": {
+   "t": 4696,
+   "p": "Cracow",
+   "c": "Poland",
+   "u": "Medium Tank",
+   "cap": false,
+   "no": 4,
+   "sn": 1,
+   "frm": "Libya"
+  },
+  "1495": {
+   "t": 4700,
+   "p": "Pilsen",
+   "c": "Greater Romania",
+   "u": "Armored Car",
+   "cap": false,
+   "no": 5,
+   "sn": 1,
+   "frm": "Poland"
+  },
+  "1496": {
+   "t": 4719,
+   "p": "Ivanovo",
+   "c": "Russian Empire",
+   "u": "Armored Car",
+   "cap": false,
+   "no": 7,
+   "sn": 1,
+   "frm": "Communist Russia"
+  },
+  "1501": {
+   "t": 4768,
+   "p": "Cuneo",
+   "c": "France",
+   "u": "Armored Car",
+   "cap": false,
+   "no": 5,
+   "sn": 9,
+   "frm": "Italy"
+  },
+  "1502": {
+   "t": 4791,
+   "p": "Tripoli",
+   "c": "Russian Empire",
+   "u": "Infantry",
+   "cap": true,
+   "no": 2,
+   "sn": 1,
+   "frm": "Libya"
+  },
+  "1503": {
+   "t": 4791,
+   "p": "Benghazi",
+   "c": "Russian Empire",
+   "u": "Infantry",
+   "cap": false,
+   "no": 4,
+   "sn": 1,
+   "frm": "Libya"
+  },
+  "1504": {
+   "t": 4793,
+   "p": "Rabat",
+   "c": "Greater Finland",
+   "u": "Infantry",
+   "cap": false,
+   "no": 4,
+   "sn": 1,
+   "frm": "Italy"
+  },
+  "1505": {
+   "t": 4794,
+   "p": "Nuremburg",
+   "c": "Greater Romania",
+   "u": "Armored Car",
+   "cap": false,
+   "no": 5,
+   "sn": 1,
+   "frm": "Germany"
+  },
+  "1506": {
+   "t": 4797,
+   "p": "Bialystok",
+   "c": "Ukraine",
+   "u": "Infantry",
+   "cap": false,
+   "no": 7,
+   "sn": 8,
+   "frm": "Poland"
+  },
+  "1509": {
+   "t": 4809,
+   "p": "Aosta",
+   "c": "France",
+   "u": "Armored Car",
+   "cap": false,
+   "no": 11,
+   "sn": 1,
+   "frm": "Italy"
+  },
+  "1510": {
+   "t": 4813,
+   "p": "Lvov",
+   "c": "Poland",
+   "u": "Medium Tank",
+   "cap": false,
+   "no": 1,
+   "sn": 1,
+   "frm": "Libya"
+  },
+  "1515": {
+   "t": 4822,
+   "p": "Gharyan",
+   "c": "Russian Empire",
+   "u": "Infantry",
+   "cap": false,
+   "no": 2,
+   "sn": 1,
+   "frm": "Libya"
+  },
+  "1516": {
+   "t": 4823,
+   "p": "Nyasvizh",
+   "c": "Ukraine",
+   "u": "Armored Car",
+   "cap": false,
+   "no": 1,
+   "sn": 1,
+   "frm": "Germany"
+  },
+  "1517": {
+   "t": 4823,
+   "p": "Zilina",
+   "c": "Poland",
+   "u": "Medium Tank",
+   "cap": false,
+   "no": 4,
+   "sn": 1,
+   "frm": "Libya"
+  },
+  "1518": {
+   "t": 4833,
+   "p": "Turin",
+   "c": "France",
+   "u": "Infantry",
+   "cap": false,
+   "no": 3,
+   "sn": 1,
+   "frm": "Italy"
+  },
+  "1519": {
+   "t": 4848,
+   "p": "Kolomna",
+   "c": "Russian Empire",
+   "u": "Light Tank",
+   "cap": false,
+   "no": 11,
+   "sn": 2,
+   "frm": "Communist Russia"
+  },
+  "1528": {
+   "t": 4874,
+   "p": "Genoa",
+   "c": "France",
+   "u": "Infantry",
+   "cap": false,
+   "no": 15,
+   "sn": 1,
+   "frm": "Italy"
+  },
+  "1531": {
+   "t": 4875,
+   "p": "Oulmes",
+   "c": "Greater Finland",
+   "u": "Infantry",
+   "cap": false,
+   "no": 4,
+   "sn": 1,
+   "frm": "Italy"
+  },
+  "1532": {
+   "t": 4875,
+   "p": "Stuttgart",
+   "c": "Greater Romania",
+   "u": "Armored Car",
+   "cap": false,
+   "no": 5,
+   "sn": 1,
+   "frm": "Germany"
+  },
+  "1537": {
+   "t": 4886,
+   "p": "Bani Waled",
+   "c": "Russian Empire",
+   "u": "Infantry",
+   "cap": false,
+   "no": 2,
+   "sn": 1,
+   "frm": "Libya"
+  },
+  "1538": {
+   "t": 4896,
+   "p": "Plock",
+   "c": "Ukraine",
+   "u": "Armored Car",
+   "cap": false,
+   "no": 2,
+   "sn": 1,
+   "frm": "Poland"
+  },
+  "1541": {
+   "t": 4899,
+   "p": "Leipzig",
+   "c": "Greater Romania",
+   "u": "Armored Car",
+   "cap": false,
+   "no": 9,
+   "sn": 1,
+   "frm": "Germany"
   }
  },
  "loss": {
@@ -7251,17 +7741,17 @@
   },
   "1422": {
    "t": 4252,
-   "p": null,
+   "p": "Cracow",
    "c": "Poland",
    "u": "Armored Car",
    "what": "1× Infantry",
    "n": 1,
-   "dest": false,
+   "dest": true,
    "no": 4,
-   "byno": null,
-   "byu": null,
-   "byn": null,
-   "by": null
+   "byno": 4,
+   "byu": "Light Tank",
+   "byn": 9,
+   "by": "Libya"
   },
   "1430": {
    "t": 4299,
@@ -7276,6 +7766,328 @@
    "byu": "Light Tank",
    "byn": 9,
    "by": "Libya"
+  },
+  "1446": {
+   "t": 4403,
+   "p": "Györ",
+   "c": "Greater Finland",
+   "u": "Armored Car",
+   "what": "1× Infantry",
+   "n": 1,
+   "dest": true,
+   "no": 7,
+   "byno": 2,
+   "byu": "Rocket Artillery",
+   "byn": 20,
+   "by": "Greater Romania"
+  },
+  "1447": {
+   "t": 4403,
+   "p": "Györ",
+   "c": "Greater Finland",
+   "u": "Armored Car",
+   "what": "4× Infantry",
+   "n": 4,
+   "dest": true,
+   "no": 7,
+   "byno": 2,
+   "byu": "Rocket Artillery",
+   "byn": 20,
+   "by": "Greater Romania"
+  },
+  "1450": {
+   "t": 4417,
+   "p": "Györ",
+   "c": "Greater Finland",
+   "u": "Armored Car",
+   "what": "1× Armored Car, 2× Infantry",
+   "n": 3,
+   "dest": true,
+   "no": 7,
+   "byno": 2,
+   "byu": "Rocket Artillery",
+   "byn": 20,
+   "by": "Greater Romania"
+  },
+  "1454": {
+   "t": 4418,
+   "p": "Cracow",
+   "c": "Poland",
+   "u": "Armored Car",
+   "what": "2× Armored Car, 4× Infantry",
+   "n": 6,
+   "dest": true,
+   "no": 4,
+   "byno": 4,
+   "byu": "Light Tank",
+   "byn": 9,
+   "by": "Libya"
+  },
+  "1456": {
+   "t": 4418,
+   "p": "Cracow",
+   "c": "Poland",
+   "u": "Armored Car",
+   "what": "5× Infantry",
+   "n": 5,
+   "dest": true,
+   "no": 4,
+   "byno": 4,
+   "byu": "Light Tank",
+   "byn": 9,
+   "by": "Libya"
+  },
+  "1469": {
+   "t": 4509,
+   "p": "Tikhvin",
+   "c": "Communist Russia",
+   "u": "Armored Car",
+   "what": "1× Armored Car",
+   "n": 1,
+   "dest": true,
+   "no": 11,
+   "byno": 6,
+   "byu": "Motorized Infantry",
+   "byn": 5,
+   "by": "Greater Finland"
+  },
+  "1475": {
+   "t": 4592,
+   "p": "Chur",
+   "c": "Poland",
+   "u": "Infantry",
+   "what": "1× Infantry",
+   "n": 1,
+   "dest": true,
+   "no": 6,
+   "byno": 19,
+   "byu": "Interceptor",
+   "byn": 10,
+   "by": "Italy"
+  },
+  "1476": {
+   "t": 4592,
+   "p": "Chur",
+   "c": "Poland",
+   "u": "Infantry",
+   "what": "1× Infantry",
+   "n": 1,
+   "dest": true,
+   "no": 6,
+   "byno": 19,
+   "byu": "Interceptor",
+   "byn": 10,
+   "by": "Italy"
+  },
+  "1479": {
+   "t": 4607,
+   "p": "Chur",
+   "c": "Poland",
+   "u": "Infantry",
+   "what": "2× Infantry",
+   "n": 2,
+   "dest": true,
+   "no": 6,
+   "byno": 19,
+   "byu": "Interceptor",
+   "byn": 10,
+   "by": "Italy"
+  },
+  "1480": {
+   "t": 4607,
+   "p": "Chur",
+   "c": "Poland",
+   "u": "Infantry",
+   "what": "1× Infantry",
+   "n": 1,
+   "dest": true,
+   "no": 6,
+   "byno": 19,
+   "byu": "Interceptor",
+   "byn": 10,
+   "by": "Italy"
+  },
+  "1487": {
+   "t": 4658,
+   "p": "Vladimir",
+   "c": "Communist Russia",
+   "u": "Interceptor",
+   "what": "1× Interceptor",
+   "n": 1,
+   "dest": true,
+   "no": 19,
+   "byno": 5,
+   "byu": "Light Tank",
+   "byn": 20,
+   "by": "Russian Empire"
+  },
+  "1498": {
+   "t": 4734,
+   "p": "Moscow",
+   "c": "Russian Empire",
+   "u": "Armored Car",
+   "what": "1× Armored Car",
+   "n": 1,
+   "dest": true,
+   "no": 22,
+   "byno": 3,
+   "byu": "Interceptor",
+   "byn": 10,
+   "by": "Italy"
+  },
+  "1507": {
+   "t": 4801,
+   "p": "Vyshny Volochyok",
+   "c": "Greater Finland",
+   "u": "Armored Car",
+   "what": "1× Armored Car",
+   "n": 1,
+   "dest": true,
+   "no": 24,
+   "byno": 3,
+   "byu": "Interceptor",
+   "byn": 10,
+   "by": "Italy"
+  },
+  "1514": {
+   "t": 4818,
+   "p": "Bialystok",
+   "c": "Poland",
+   "u": "Medium Tank",
+   "what": "1× Medium Tank",
+   "n": 1,
+   "dest": true,
+   "no": 8,
+   "byno": 7,
+   "byu": "Infantry",
+   "byn": 8,
+   "by": "Ukraine"
+  },
+  "1520": {
+   "t": 4849,
+   "p": "Warsaw",
+   "c": "France",
+   "u": "Flying Bomb",
+   "what": "4× Flying Bomb",
+   "n": 4,
+   "dest": true,
+   "no": 6,
+   "byno": 7,
+   "byu": "Infantry",
+   "byn": 8,
+   "by": "Ukraine"
+  },
+  "1522": {
+   "t": 4849,
+   "p": "Warsaw",
+   "c": "France",
+   "u": "Flying Bomb",
+   "what": "6× Flying Bomb",
+   "n": 6,
+   "dest": true,
+   "no": 6,
+   "byno": 7,
+   "byu": "Infantry",
+   "byn": 8,
+   "by": "Ukraine"
+  },
+  "1525": {
+   "t": 4852,
+   "p": "Warsaw",
+   "c": "France",
+   "u": "Flying Bomb",
+   "what": "1× Flying Bomb",
+   "n": 1,
+   "dest": true,
+   "no": 7,
+   "byno": 1,
+   "byu": "Rocket Artillery",
+   "byn": 20,
+   "by": "Greater Romania"
+  },
+  "1526": {
+   "t": 4868,
+   "p": "Warsaw",
+   "c": "France",
+   "u": "Flying Bomb",
+   "what": "2× Flying Bomb",
+   "n": 2,
+   "dest": true,
+   "no": 7,
+   "byno": 1,
+   "byu": "Rocket Artillery",
+   "byn": 20,
+   "by": "Greater Romania"
+  },
+  "1529": {
+   "t": 4875,
+   "p": "Warsaw",
+   "c": "Poland",
+   "u": "Interceptor",
+   "what": "1× Interceptor",
+   "n": 1,
+   "dest": true,
+   "no": 19,
+   "byno": 1,
+   "byu": "Rocket Artillery",
+   "byn": 20,
+   "by": "Greater Romania"
+  },
+  "1533": {
+   "t": 4880,
+   "p": "Warsaw",
+   "c": "Poland",
+   "u": "Anti Air",
+   "what": "3× Anti Air",
+   "n": 3,
+   "dest": true,
+   "no": 3,
+   "byno": 7,
+   "byu": "Infantry",
+   "byn": 8,
+   "by": "Ukraine"
+  },
+  "1536": {
+   "t": 4880,
+   "p": null,
+   "c": "Germany",
+   "u": "Flying Bomb",
+   "what": "3× Flying Bomb",
+   "n": 3,
+   "dest": false,
+   "no": 8,
+   "byno": null,
+   "byu": null,
+   "byn": null,
+   "by": null
+  },
+  "1540": {
+   "t": 4898,
+   "p": "Sirte",
+   "c": "Russian Empire",
+   "u": "Infantry",
+   "what": "1× Infantry",
+   "n": 1,
+   "dest": true,
+   "no": 1,
+   "byno": 8,
+   "byu": "Armored Car",
+   "byn": 1,
+   "by": "Libya"
+  },
+  "1542": {
+   "t": 4899,
+   "p": "Zamosc",
+   "c": "Poland",
+   "u": "Medium Tank",
+   "what": "1× Medium Tank",
+   "n": 1,
+   "dest": true,
+   "no": 1,
+   "byno": 19,
+   "byu": "Interceptor",
+   "byn": 10,
+   "by": "Ukraine"
   }
  },
  "cas": {
@@ -7680,11 +8492,11 @@
    "ts": 1790694600000
   },
   "France|Greater Romania": {
-   "v": 1289,
+   "v": 1482,
    "ts": 1790694602000
   },
   "Greater Romania|France": {
-   "v": 272,
+   "v": 348,
    "ts": 1790694602000
   },
   "Libya|France": {
@@ -7696,19 +8508,19 @@
    "ts": 1790709461656
   },
   "Russian Empire|Libya": {
-   "v": 804,
+   "v": 1209,
    "ts": 1790711559526
   },
   "Libya|Russian Empire": {
-   "v": 111,
+   "v": 169,
    "ts": 1790711559526
   },
   "Italy|Poland": {
-   "v": 1578,
+   "v": 2375,
    "ts": 1790712113568
   },
   "Poland|Italy": {
-   "v": 4925,
+   "v": 9346,
    "ts": 1790712113568
   },
   "Russian Empire|Greater Romania": {
@@ -7716,12 +8528,88 @@
    "ts": 1790713009780
   },
   "Ukraine|France": {
-   "v": 19,
+   "v": 224,
    "ts": 1790715051135
   },
   "France|Ukraine": {
-   "v": 194,
+   "v": 2526,
    "ts": 1790715051135
+  },
+  "Italy|Greater Finland": {
+   "v": 431,
+   "ts": 1790719819642
+  },
+  "Greater Finland|Italy": {
+   "v": 2443,
+   "ts": 1790719819642
+  },
+  "Greater Romania|Greater Finland": {
+   "v": 779,
+   "ts": 1790724180506
+  },
+  "Greater Finland|Greater Romania": {
+   "v": 5848,
+   "ts": 1790724180506
+  },
+  "Libya|Poland": {
+   "v": 622,
+   "ts": 1790725107083
+  },
+  "Poland|Libya": {
+   "v": 4811,
+   "ts": 1790725107083
+  },
+  "Communist Russia|Greater Finland": {
+   "v": 860,
+   "ts": 1790728743694
+  },
+  "Greater Finland|Communist Russia": {
+   "v": 329,
+   "ts": 1790728743694
+  },
+  "Italy|France": {
+   "v": 91,
+   "ts": 1790736014097
+  },
+  "France|Italy": {
+   "v": 887,
+   "ts": 1790736014097
+  },
+  "Russian Empire|Communist Russia": {
+   "v": 11,
+   "ts": 1790739534535
+  },
+  "Communist Russia|Russian Empire": {
+   "v": 510,
+   "ts": 1790739534535
+  },
+  "Poland|Greater Romania": {
+   "v": 1525,
+   "ts": 1790740349815
+  },
+  "Germany|Greater Romania": {
+   "v": 3174,
+   "ts": 1790740349815
+  },
+  "Russian Empire|Italy": {
+   "v": 749,
+   "ts": 1790744093672
+  },
+  "Ukraine|Poland": {
+   "v": 723,
+   "ts": 1790749089205
+  },
+  "Poland|Ukraine": {
+   "v": 3600,
+   "ts": 1790749089205
+  },
+  "France|Poland": {
+   "v": 136,
+   "ts": 1790751129975
+  },
+  "Germany|Ukraine": {
+   "v": 443,
+   "ts": 1790752858495
   }
  },
  "teams": {
@@ -7797,9 +8685,13 @@
  ],
  "stats": {
   "lost": {
+   "Germany": {
+    "Flying Bomb": 3
+   },
    "France": {
-    "Cruiser": 2,
-    "Infantry": 1
+    "Infantry": 1,
+    "Flying Bomb": 13,
+    "Cruiser": 2
    },
    "United Kingdom": {
     "Infantry": 18,
@@ -7813,8 +8705,10 @@
     "Armored Car": 2
    },
    "Communist Russia": {
+    "Infantry": 2,
+    "Armored Car": 1,
     "Anti Air": 1,
-    "Infantry": 2
+    "Interceptor": 1
    },
    "Sweden": {
     "Interceptor": 1,
@@ -7861,7 +8755,8 @@
     "Infantry": 6
    },
    "Greater Finland": {
-    "Infantry": 2
+    "Infantry": 9,
+    "Armored Car": 2
    },
    "Estonia": {
     "Armored Car": 1,
@@ -7876,7 +8771,12 @@
     "Infantry": 3
    },
    "Poland": {
-    "Infantry": 1
+    "Flying Bomb": 1,
+    "Infantry": 15,
+    "Interceptor": 1,
+    "Anti Air": 3,
+    "Armored Car": 2,
+    "Medium Tank": 2
    },
    "Crimea": {
     "Armored Car": 1,
@@ -7956,7 +8856,8 @@
     "Armored Car": 1
    },
    "Russian Empire": {
-    "Infantry": 1
+    "Infantry": 2,
+    "Armored Car": 1
    },
    "Karelia": {
     "Anti Air": 1,
@@ -7971,7 +8872,7 @@
     "Infantry": 1
    }
   },
-  "ts": 1790718041347
+  "ts": 1790754093784
  },
  "sync": {}
 }
