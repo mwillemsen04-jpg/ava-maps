@@ -1,7 +1,7 @@
 {
  "id": "10920696",
  "name": "AF vs MIE",
- "day": 7,
+ "day": 8,
  "score": {
   "G": 200,
   "R": 880
@@ -10,8 +10,8 @@
   "G": 119,
   "R": 333
  },
- "fetched": 1791006096745,
- "built": 1790492487670,
+ "fetched": 1791042131606,
+ "built": 1790496092035,
  "game_over": false,
  "winner": null,
  "teams": {
