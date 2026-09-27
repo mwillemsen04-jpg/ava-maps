@@ -290,7 +290,7 @@
       "name": "2v2 against polish",
       "status": "live",
       "added": "2026-09-27 16:36",
-      "ran": 1790519763474,
+      "ran": 1790521266110,
       "pv": "1b295d8594",
       "last": {
         "day": 2,
@@ -302,7 +302,7 @@
           "G": 0,
           "R": 0
         },
-        "fetched": 1790603958863,
+        "fetched": 1790621992817,
         "winner": null,
         "teams": {
           "G": [
