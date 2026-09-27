@@ -100,8 +100,25 @@ async function tryGame(gameId, cookies) {
     for (const h of hits) { const mm = h.match(/https?:\/\/[^"'`\s]+/); if (mm) templates.add(mm[0]); }
   }
 
+  // the client builds the map address from mapJsonServer (a client parameter) + /fileadmin/mapjson/live/ + a version file
+  const app = texts.find(([n]) => /app\./.test(n));
+  if (app) for (const key of ['mapJsonFolder', 'mapjson-bust', 'loadMapBusts', 'getMapJson', 'mapJsonServer']) {
+    let i = -1, n = 0;
+    while ((i = app[1].indexOf(key, i + 1)) >= 0 && n++ < 4) log(`-- code around ${key}: ` + app[1].slice(Math.max(0, i - 300), i + 500).replace(/\s+/g, ' '));
+  }
+  const mjs = u.searchParams.get('mapJsonServer') || (typeof tc === 'object' && tc.mapJsonServer) || 'static.supremacy1914.com';
+  const folder = `https://${mjs}/fileadmin/mapjson/live/`;
+  const bustR = await get(`${folder}mapjson-bust.json`);
+  log(`bust file ${folder}mapjson-bust.json -> ${bustR.status} ${String(bustR.body).slice(0, 600)}`);
+  let bust = null;
+  try { const bj = JSON.parse(bustR.body); bust = bj[mapID] ?? bj[String(mapID).split('_')[0]] ?? null; log('bust for map: ' + JSON.stringify(bust)); } catch (e) {}
   // candidate addresses of the full map
   const cands = new Set([
+    `${folder}${mapID}.json`,
+    bust != null ? `${folder}${mapID}.json?${bust}` : null,
+    bust != null ? `${folder}${mapID}.json?bust=${bust}` : null,
+    bust != null ? `${folder}${mapID}_${bust}.json` : null,
+    `https://${mjs}/fileadmin/mapjson/${mapID}.json`,
     `https://static1.bytro.com/fileadmin/mapjson/live/${mapID}.json`,
     `https://static2.bytro.com/fileadmin/mapjson/live/${mapID}.json`,
     `https://static1.bytro.com/fileadmin/mapjson/${mapID}.json`,
@@ -113,6 +130,7 @@ async function tryGame(gameId, cookies) {
     if (/\{|\$|%s/.test(t) || /mapjson|maps?\//i.test(t)) cands.add(t.replace(/\$\{[^}]+\}|\{[^}]+\}|%s/g, mapID).replace(/\/$/, '/' + mapID + '.json'));
   }
   for (const c of cands) {
+    if (!c) continue;
     const r = await get(c);
     const full = r.status === 200 && isFullMap(String(r.body));
     log(`try ${c} -> ${r.status} ${String(r.body).length} bytes${full ? '  FULL MAP' : ''}`);
