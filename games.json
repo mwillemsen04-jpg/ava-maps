@@ -290,65 +290,32 @@
       "name": "2v2 against polish",
       "status": "live",
       "added": "2026-09-27 16:36",
-      "ran": 1790524863139,
+      "ran": 1790528464203,
       "pv": "1b295d8594",
       "last": {
-        "day": 2,
+        "day": 3,
         "score": {
           "G": 0,
           "R": 0
         },
         "provinces": {
-          "G": 0,
+          "G": 120,
           "R": 0
         },
-        "fetched": 1790665156700,
+        "fetched": 1790708374441,
         "winner": null,
         "teams": {
           "G": [
             {
-              "c": "Communist Russia",
-              "f": null
+              "c": "Central China",
+              "f": 4
             },
             {
-              "c": "France",
-              "f": null
-            },
-            {
-              "c": "Germany",
-              "f": null
-            },
-            {
-              "c": "Poland",
-              "f": null
-            },
-            {
-              "c": "Southern United States",
-              "f": null
+              "c": "Sichuan",
+              "f": 3
             }
           ],
-          "R": [
-            {
-              "c": "Algeria",
-              "f": null
-            },
-            {
-              "c": "Greater Romania",
-              "f": null
-            },
-            {
-              "c": "Libya",
-              "f": null
-            },
-            {
-              "c": "Russian Empire",
-              "f": null
-            },
-            {
-              "c": "Ukraine",
-              "f": null
-            }
-          ]
+          "R": []
         }
       }
     }

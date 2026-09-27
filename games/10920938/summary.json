@@ -1,65 +1,32 @@
 {
  "id": "10920938",
  "name": "2v2 against polish",
- "day": 2,
+ "day": 3,
  "score": {
   "G": 0,
   "R": 0
  },
  "provinces": {
-  "G": 0,
+  "G": 120,
   "R": 0
  },
- "fetched": 1790665156700,
- "built": 1790524866258,
+ "fetched": 1790708374441,
+ "built": 1790528468284,
  "game_over": false,
  "winner": null,
  "teams": {
   "G": [
    {
-    "c": "Communist Russia",
-    "f": null
+    "c": "Central China",
+    "f": 4
    },
    {
-    "c": "France",
-    "f": null
-   },
-   {
-    "c": "Germany",
-    "f": null
-   },
-   {
-    "c": "Poland",
-    "f": null
-   },
-   {
-    "c": "Southern United States",
-    "f": null
+    "c": "Sichuan",
+    "f": 3
    }
   ],
-  "R": [
-   {
-    "c": "Algeria",
-    "f": null
-   },
-   {
-    "c": "Greater Romania",
-    "f": null
-   },
-   {
-    "c": "Libya",
-    "f": null
-   },
-   {
-    "c": "Russian Empire",
-    "f": null
-   },
-   {
-    "c": "Ukraine",
-    "f": null
-   }
-  ]
+  "R": []
  },
  "events": 0,
- "losses": 136
+ "losses": 184
 }
