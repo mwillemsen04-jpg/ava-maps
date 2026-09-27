@@ -378,6 +378,24 @@ if os.path.exists('vp_cities.json'):
     d['prov0'] = {l['n']: _nat.get((l.get('ci') or [None])[0]) for l in _gs['3']['map']['locations']
                   if isinstance(l, dict) and l.get('@c') == 'p'}
 
+# the game's real routes between neighbouring provinces (the connections units travel along), from the
+# map definition (routes_dtg.json: "<location id>-<location id>" -> points in game coordinates). Stored as
+# "A|B" -> the points in between (map pixels); the ends are the provinces' own dots.
+if os.path.exists('routes_dtg.json'):
+    try:
+        _st = json.load(open(GAME_JSON, encoding='utf-8'))['result']['states']
+        _nm = {l['id']: l.get('n') for l in _st['3']['map']['locations'] if isinstance(l, dict) and l.get('@c') == 'p'}
+        _g = json.load(open('map_geometry.json', encoding='utf-8')); _A = _g['scale_to_full_image']; _SC = SC
+        _tb = lambda x, y: [round((_A[0][0] * x + _A[1][0] * y + _A[2][0]) * _SC, 1), round((_A[0][1] * x + _A[1][1] * y + _A[2][1]) * _SC, 1)]
+        routes = {}
+        for k, pts in json.load(open('routes_dtg.json', encoding='utf-8')).items():
+            a, b = (int(x) for x in k.split('-'))
+            if _nm.get(a) and _nm.get(b):
+                routes[_nm[a] + '|' + _nm[b]] = [_tb(*q) for q in pts[1:-1]]
+        d['routes'] = routes
+    except Exception as _e:
+        print('  routes skipped:', _e)
+
 # ---- this game's entry in the database: name, status, and a summary for the overview page ----
 REG = next((g for g in load_registry()['games'] if str(g['id']) == str(GID)), {'id': GID})
 d['gid'] = GID

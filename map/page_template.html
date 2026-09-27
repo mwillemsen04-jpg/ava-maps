@@ -68,7 +68,7 @@ header{grid-area:top;display:flex;align-items:center;gap:20px;padding:10px 16px;
 .hrs{display:inline-flex;align-items:center;gap:6px;height:34px;padding:0 8px;border:1px solid var(--line);border-radius:6px;background:var(--panel2);font-family:var(--display);font-size:14px;color:var(--muted)}
 .hrs input{width:48px;height:24px;border:1px solid var(--line);border-radius:4px;background:var(--ink);color:var(--text);font-family:var(--mono);font-size:13px;padding:0 4px;text-align:right}
 .hrs input:focus-visible{outline:1px solid var(--brass)}
-.lines .path{fill:none;stroke-width:4.5;stroke-linecap:round;opacity:1}.lines .pcase{fill:none;stroke:#0b1218;stroke-width:9;stroke-linecap:round;opacity:.9}.lines .pglow{fill:none;stroke-width:14;stroke-linecap:round;opacity:.28}
+.lines .path{fill:none;stroke-width:4.5;stroke-linecap:round;stroke-linejoin:round;opacity:1}.lines .pcase{fill:none;stroke:#0b1218;stroke-width:9;stroke-linecap:round;opacity:.9}.lines .pglow{fill:none;stroke-width:14;stroke-linecap:round;opacity:.28}
 .lines{position:absolute;inset:0;width:100%;height:100%;overflow:visible;pointer-events:none;stroke:rgba(231,237,233,.75);stroke-width:1}
 .hint{position:absolute;left:12px;top:12px;background:rgba(13,17,23,.9);border:1px solid var(--line);border-radius:5px;padding:4px 8px;font-family:var(--display);font-size:13px;letter-spacing:.04em;color:var(--brass)}
 .mk{position:absolute;left:0;top:0;width:13px;height:13px;pointer-events:none;cursor:pointer}
@@ -539,16 +539,27 @@ function renderCas(){
 const GROUND=/Infantry|Armored Car|Tank|Anti Air|Artillery|Commando|Militia|Paratroop|Motorized|Mechanized|Engineer/i;
 const NOTGROUND=/Bomber|Interceptor|Fighter|Flying Bomb|Rocket Fighter|Cruiser|Destroyer|Submarine|Battleship|Carrier|Ballistic|Cruise Missile/i;
 let PATHS=[];
+// the game's own routes between neighbouring provinces (D.routes "A|B" -> points in between): a unit path follows
+// them through the fewest provinces (up to 4 steps); without a route it falls back to a straight line
+const RNB={};for(const k of Object.keys(D.routes||{})){const [a,b]=k.split('|');(RNB[a]=RNB[a]||[]).push(b);(RNB[b]=RNB[b]||[]).push(a)}
+const rpts=(a,b)=>{const r=(D.routes||{})[a+'|'+b];if(r)return r;const q=(D.routes||{})[b+'|'+a];return q?q.slice().reverse():null};
+function routeLine(pa,pb){if(!RNB[pa]||!RNB[pb])return null;const prev={[pa]:null},q=[[pa,0]];
+  while(q.length){const [u,dd]=q.shift();if(u===pb)break;if(dd>=4)continue;for(const v of RNB[u])if(!(v in prev)){prev[v]=u;q.push([v,dd+1])}}
+  if(!(pb in prev))return null;const chain=[];for(let u=pb;u!=null;u=prev[u])chain.push(u);chain.reverse();
+  const pts=[D.pos[pa]];for(let i=1;i<chain.length;i++){pts.push(...(rpts(chain[i-1],chain[i])||[]));if(i<chain.length-1)pts.push(D.pos[chain[i]]||null)}pts.push(D.pos[pb]);
+  return pts.every(Boolean)?pts:null}
 function buildPaths(){PATHS=[];if(!$('paths').checked)return;
   const g={};for(const e of D.caps){if(e.t<LO()||e.t>T||!e.id||e.sync||e.rev||!D.pos[e.p]||!GROUND.test(e.u||'')||NOTGROUND.test(e.u||'')||!WHO(e))continue;
     (g[e.c+'|'+e.id]=g[e.c+'|'+e.id]||[]).push(e)}
-  for(const L of Object.values(g))for(let i=1;i<L.length;i++){const a=D.pos[L[i-1].p],b=D.pos[L[i].p];
-    if(L[i-1].p===L[i].p)continue;const d=Math.hypot(b[0]-a[0],b[1]-a[1]);if(d>230)continue;PATHS.push({a,b,k:L[i].k,id:L[i].id})}}
+  for(const L of Object.values(g))for(let i=1;i<L.length;i++){const pa=L[i-1].p,pb=L[i].p,a=D.pos[pa],b=D.pos[pb];
+    if(pa===pb)continue;let pts=routeLine(pa,pb);if(!pts){const d=Math.hypot(b[0]-a[0],b[1]-a[1]);if(d>230)continue;pts=[a,b]}PATHS.push({pts,k:L[i].k,id:L[i].id})}}
 function pathsSvg(){if(!PATHS.length)return '';const col={G:'#46c35c',R:'#e04848',X:'#f3d43a',O:'#f08a24'};
   let o='<defs>'+Object.entries(col).map(([k,c])=>`<marker id="ar${k}" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="3.6" markerHeight="3.6" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="${c}" stroke="#0b1218" stroke-width="1.2"/></marker>`).join('')+'</defs>';
-  for(const s of PATHS){let x1=s.a[0]*k+tx,y1=s.a[1]*k+ty,x2=s.b[0]*k+tx,y2=s.b[1]*k+ty;const L=Math.hypot(x2-x1,y2-y1);if(L<18)continue;
-    const ux=(x2-x1)/L,uy=(y2-y1)/L;x1+=ux*8;y1+=uy*8;x2-=ux*9;y2-=uy*9;
-    const d=`M${x1.toFixed(1)},${y1.toFixed(1)} L${x2.toFixed(1)},${y2.toFixed(1)}`;o+=`<path class="pglow" d="${d}" stroke="${col[s.k]||col.X}"/><path class="pcase" d="${d}"/><path class="path" d="M${x1.toFixed(1)},${y1.toFixed(1)} L${x2.toFixed(1)},${y2.toFixed(1)}" stroke="${col[s.k]||col.X}" marker-end="url(#ar${s.k in col?s.k:'X'})"/>`}
+  for(const s of PATHS){const P=s.pts.map(p=>[p[0]*k+tx,p[1]*k+ty]);let len=0;for(let i=1;i<P.length;i++)len+=Math.hypot(P[i][0]-P[i-1][0],P[i][1]-P[i-1][1]);if(len<18)continue;
+    // pull the ends back a little from the dots so the arrow head stays visible
+    const trim=(A,B,r)=>{const L=Math.hypot(B[0]-A[0],B[1]-A[1])||1;return [A[0]+(B[0]-A[0])/L*r,A[1]+(B[1]-A[1])/L*r]};
+    P[0]=trim(P[0],P[1],8);P[P.length-1]=trim(P[P.length-1],P[P.length-2],9);
+    const d='M'+P.map(p=>p[0].toFixed(1)+','+p[1].toFixed(1)).join(' L');o+=`<path class="pglow" d="${d}" stroke="${col[s.k]||col.X}"/><path class="pcase" d="${d}"/><path class="path" d="${d}" stroke="${col[s.k]||col.X}" marker-end="url(#ar${s.k in col?s.k:'X'})"/>`}
   return o}
 function render(){
   setHTML($('clock'),fmt(T)+'<span>Day '+gday(T)+' · '+day(T)+'</span>');

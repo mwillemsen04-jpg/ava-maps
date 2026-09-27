@@ -51,6 +51,8 @@ jobs:
       due: ${{ steps.due.outputs.due }}
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: main   # always the newest version (a round that had to wait must not start from an older one)
 
       # a timed run stops here when no game is due yet (a button or a request always goes on)
       - name: Is a game due?
