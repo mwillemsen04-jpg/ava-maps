@@ -1,17 +1,17 @@
 {
  "id": "10922880",
  "name": "IA vs bekarty wojny + koksy w koronie",
- "day": 5,
+ "day": 6,
  "score": {
-  "G": 720,
-  "R": 430
+  "G": 880,
+  "R": 290
  },
  "provinces": {
-  "G": 285,
-  "R": 203
+  "G": 327,
+  "R": 164
  },
- "fetched": 1790862772311,
- "built": 1790478106100,
+ "fetched": 1790898826606,
+ "built": 1790481713878,
  "game_over": false,
  "winner": null,
  "teams": {
@@ -60,6 +60,6 @@
    }
   ]
  },
- "events": 701,
- "losses": 675
+ "events": 783,
+ "losses": 723
 }

@@ -146,19 +146,19 @@
       "name": "AF vs MIE",
       "status": "live",
       "added": "2026-09-27 00:51",
-      "ran": 1790478060434,
+      "ran": 1790481664417,
       "pv": "1b295d8594",
       "last": {
-        "day": 5,
+        "day": 6,
         "score": {
-          "G": 290,
-          "R": 860
+          "G": 210,
+          "R": 880
         },
         "provinces": {
-          "G": 143,
-          "R": 330
+          "G": 128,
+          "R": 333
         },
-        "fetched": 1790862018601,
+        "fetched": 1790898064764,
         "winner": null,
         "teams": {
           "G": [
@@ -213,19 +213,19 @@
       "name": "IA vs bekarty wojny + koksy w koronie",
       "status": "live",
       "added": "2026-09-27 01:15",
-      "ran": 1790478060434,
+      "ran": 1790481664417,
       "pv": "1b295d8594",
       "last": {
-        "day": 5,
+        "day": 6,
         "score": {
-          "G": 720,
-          "R": 430
+          "G": 880,
+          "R": 290
         },
         "provinces": {
-          "G": 285,
-          "R": 203
+          "G": 327,
+          "R": 164
         },
-        "fetched": 1790862772311,
+        "fetched": 1790898826606,
         "winner": null,
         "teams": {
           "G": [

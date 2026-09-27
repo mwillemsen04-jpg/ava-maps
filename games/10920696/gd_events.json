@@ -5591,6 +5591,240 @@
    "no": 3,
    "sn": 5,
    "frm": "Spain"
+  },
+  "2324": {
+   "t": 6790,
+   "p": "Freiburg",
+   "c": "Germany",
+   "u": "Revolt",
+   "cap": false,
+   "rev": true,
+   "frm": "Greater Romania"
+  },
+  "2325": {
+   "t": 6790,
+   "p": "Madrid",
+   "c": "Spain",
+   "u": "Revolt",
+   "cap": false,
+   "rev": true,
+   "frm": "France"
+  },
+  "2326": {
+   "t": 6790,
+   "p": "Krasny Kholm",
+   "c": "Libya",
+   "u": "Revolt",
+   "cap": false,
+   "rev": true,
+   "frm": "Communist Russia"
+  },
+  "2327": {
+   "t": 6790,
+   "p": "Tikhvin",
+   "c": "Libya",
+   "u": "Revolt",
+   "cap": false,
+   "rev": true,
+   "frm": "Communist Russia"
+  },
+  "2328": {
+   "t": 6790,
+   "p": "Fes",
+   "c": "Morocco",
+   "u": "Revolt",
+   "cap": false,
+   "rev": true,
+   "frm": "Greater Finland"
+  },
+  "2329": {
+   "t": 6790,
+   "p": "Marrakesh",
+   "c": "Morocco",
+   "u": "Revolt",
+   "cap": false,
+   "rev": true,
+   "frm": "Greater Finland"
+  },
+  "2330": {
+   "t": 6790,
+   "p": "Rabat",
+   "c": "Morocco",
+   "u": "Revolt",
+   "cap": false,
+   "rev": true,
+   "frm": "Greater Finland"
+  },
+  "2331": {
+   "t": 6790,
+   "p": "Casablanca",
+   "c": "Morocco",
+   "u": "Revolt",
+   "cap": false,
+   "rev": true,
+   "frm": "Greater Finland"
+  },
+  "2332": {
+   "t": 6790,
+   "p": "Oulmes",
+   "c": "Morocco",
+   "u": "Revolt",
+   "cap": false,
+   "rev": true,
+   "frm": "Greater Finland"
+  },
+  "2333": {
+   "t": 6790,
+   "p": "Safi",
+   "c": "Morocco",
+   "u": "Revolt",
+   "cap": false,
+   "rev": true,
+   "frm": "Greater Finland"
+  },
+  "2334": {
+   "t": 6790,
+   "p": "Oujda",
+   "c": "Morocco",
+   "u": "Revolt",
+   "cap": false,
+   "rev": true,
+   "frm": "Libya"
+  },
+  "2335": {
+   "t": 6790,
+   "p": "Taza",
+   "c": "Morocco",
+   "u": "Revolt",
+   "cap": false,
+   "rev": true,
+   "frm": "Greater Finland"
+  },
+  "2336": {
+   "t": 6790,
+   "p": "Melilla",
+   "c": "Melilla",
+   "u": "Revolt",
+   "cap": false,
+   "rev": true,
+   "frm": "Greater Finland"
+  },
+  "2337": {
+   "t": 6790,
+   "p": "Innsbruck",
+   "c": "Italy",
+   "u": "Revolt",
+   "cap": false,
+   "rev": true,
+   "frm": "France"
+  },
+  "2339": {
+   "t": 6790,
+   "p": "Rybinsk",
+   "c": "Libya",
+   "u": "Revolt",
+   "cap": false,
+   "rev": true,
+   "frm": "Communist Russia"
+  },
+  "2340": {
+   "t": 6790,
+   "p": "Velsk",
+   "c": "Russian Empire",
+   "u": "Revolt",
+   "cap": false,
+   "rev": true,
+   "frm": "Communist Russia"
+  },
+  "2341": {
+   "t": 6810,
+   "p": "Kolezhma",
+   "c": "Communist Russia",
+   "u": "Medium Tank",
+   "cap": false,
+   "no": 6,
+   "sn": 1,
+   "frm": "Russian Empire"
+  },
+  "2342": {
+   "t": 6810,
+   "p": "Bilbao",
+   "c": "Spain",
+   "u": "Armored Car",
+   "cap": false,
+   "no": 4,
+   "sn": 1,
+   "frm": "France"
+  },
+  "2343": {
+   "t": 6853,
+   "p": "Örebro",
+   "c": "Sweden",
+   "u": "Armored Car",
+   "cap": false,
+   "no": 7,
+   "sn": 1,
+   "frm": "Greater Finland"
+  },
+  "2346": {
+   "t": 7009,
+   "p": "Karlstad",
+   "c": "Sweden",
+   "u": "Armored Car",
+   "cap": false,
+   "no": 7,
+   "sn": 1,
+   "frm": "Greater Finland"
+  },
+  "2129": {
+   "t": 6709,
+   "p": "Onega",
+   "c": "Communist Russia",
+   "u": "Anti Air",
+   "cap": false,
+   "no": 3,
+   "sn": 2,
+   "frm": "Russian Empire"
+  },
+  "2130": {
+   "t": 6716,
+   "p": "Paris",
+   "c": "Ukraine",
+   "u": "Armored Car",
+   "cap": true,
+   "no": 4,
+   "sn": 1,
+   "frm": "France"
+  },
+  "2131": {
+   "t": 6744,
+   "p": "Segezha",
+   "c": "Communist Russia",
+   "u": "Medium Tank",
+   "cap": false,
+   "no": 6,
+   "sn": 1,
+   "frm": "Greater Finland"
+  },
+  "2132": {
+   "t": 6748,
+   "p": "Munich",
+   "c": "Greater Romania",
+   "u": "Armored Car",
+   "cap": false,
+   "no": 4,
+   "sn": 5,
+   "frm": "Germany"
+  },
+  "2133": {
+   "t": 6752,
+   "p": "Toledo",
+   "c": "France",
+   "u": "Light Tank",
+   "cap": false,
+   "no": 3,
+   "sn": 5,
+   "frm": "Spain"
   }
  },
  "loss": {
@@ -11921,6 +12155,90 @@
    "byu": "Light Tank",
    "byn": 5,
    "by": "France"
+  },
+  "2344": {
+   "t": 6886,
+   "p": "Bilbao",
+   "c": "Spain",
+   "u": "Armored Car",
+   "what": "1× Armored Car",
+   "n": 1,
+   "dest": true,
+   "no": 4,
+   "byno": 5,
+   "byu": "Anti Air",
+   "byn": 4,
+   "by": "France"
+  },
+  "2347": {
+   "t": 7036,
+   "p": "Bilbao",
+   "c": "France",
+   "u": "Anti Air",
+   "what": "1× Anti Air",
+   "n": 1,
+   "dest": true,
+   "no": 5,
+   "byno": 3,
+   "byu": "Infantry",
+   "byn": 2,
+   "by": "Spain"
+  },
+  "2348": {
+   "t": 7066,
+   "p": "Bilbao",
+   "c": "France",
+   "u": "Anti Air",
+   "what": "1× Anti Air",
+   "n": 1,
+   "dest": true,
+   "no": 5,
+   "byno": 3,
+   "byu": "Infantry",
+   "byn": 2,
+   "by": "Spain"
+  },
+  "2349": {
+   "t": 7096,
+   "p": "Bilbao",
+   "c": "France",
+   "u": "Anti Air",
+   "what": "1× Anti Air",
+   "n": 1,
+   "dest": true,
+   "no": 5,
+   "byno": 3,
+   "byu": "Infantry",
+   "byn": 2,
+   "by": "Spain"
+  },
+  "2351": {
+   "t": 7156,
+   "p": "Bilbao",
+   "c": "France",
+   "u": "Anti Air",
+   "what": "1× Light Tank",
+   "n": 1,
+   "dest": true,
+   "no": 5,
+   "byno": 3,
+   "byu": "Infantry",
+   "byn": 2,
+   "by": "Spain"
+  },
+  "2352": {
+   "t": 7232,
+   "p": "Ponta Delgada",
+   "c": "Portugal",
+   "u": "Infantry",
+   "what": "1× Infantry",
+   "n": 1,
+   "dest": true,
+   "no": 1,
+   "byno": 4,
+   "byu": "Cruiser",
+   "byn": 3,
+   "by": "France"
   }
  },
  "cas": {
@@ -12041,8 +12359,8 @@
    "ts": 1790781000000
   },
   "Spain|France": {
-   "v": 20359,
-   "ts": 1790781000000
+   "v": 21932,
+   "ts": 1790867400000
   },
   "Spain|Libya": {
    "v": 2453,
@@ -12121,8 +12439,8 @@
    "ts": 1790781000000
   },
   "Portugal|France": {
-   "v": 6191,
-   "ts": 1790781000000
+   "v": 7241,
+   "ts": 1790867400000
   },
   "Ireland|France": {
    "v": 1407,
@@ -12229,8 +12547,8 @@
    "ts": 1790781000000
   },
   "France|Spain": {
-   "v": 8721,
-   "ts": 1790781000000
+   "v": 11331,
+   "ts": 1790867400000
   },
   "France|Portugal": {
    "v": 1476,
@@ -12567,7 +12885,8 @@
  "news_days": [
   2,
   3,
-  4
+  4,
+  5
  ],
  "stats": {
   "lost": {
@@ -12579,11 +12898,13 @@
     "Armored Car": 2
    },
    "France": {
-    "Flying Bomb": 13,
     "Cruiser": 3,
-    "Strategic Bomber": 4,
     "Infantry": 18,
-    "Armored Car": 3
+    "Flying Bomb": 13,
+    "Armored Car": 3,
+    "Light Tank": 1,
+    "Anti Air": 3,
+    "Strategic Bomber": 4
    },
    "United Kingdom": {
     "Infantry": 18,
@@ -12595,10 +12916,10 @@
     "Infantry": 10
    },
    "Spain": {
-    "Infantry": 15,
+    "Anti Air": 3,
+    "Armored Car": 3,
     "Militia": 1,
-    "Armored Car": 2,
-    "Anti Air": 3
+    "Infantry": 15
    },
    "Communist Russia": {
     "Interceptor": 1,
@@ -12641,7 +12962,7 @@
     "Armored Car": 2
    },
    "Portugal": {
-    "Infantry": 5,
+    "Infantry": 6,
     "Anti Air": 1
    },
    "Ireland": {
@@ -12784,7 +13105,7 @@
     "Infantry": 1
    }
   },
-  "ts": 1790862018601
+  "ts": 1790898064764
  },
  "sync": {}
 }
