@@ -5875,6 +5875,45 @@
    "no": 3,
    "sn": 5,
    "frm": "Portugal"
+  },
+  "2520": {
+   "t": 8230,
+   "p": "Mazagan",
+   "c": "Morocco",
+   "u": "Revolt",
+   "cap": false,
+   "rev": true,
+   "frm": "Greater Finland"
+  },
+  "2359": {
+   "t": 8118,
+   "p": "Halmstad",
+   "c": "Sweden",
+   "u": "Armored Car",
+   "cap": false,
+   "no": 10,
+   "sn": 1,
+   "frm": "Greater Finland"
+  },
+  "2360": {
+   "t": 8141,
+   "p": "Karlskrona",
+   "c": "Sweden",
+   "u": "Armored Car",
+   "cap": false,
+   "no": 11,
+   "sn": 1,
+   "frm": "Greater Finland"
+  },
+  "2361": {
+   "t": 8165,
+   "p": "Helsingborg",
+   "c": "Sweden",
+   "u": "Armored Car",
+   "cap": false,
+   "no": 10,
+   "sn": 1,
+   "frm": "Greater Finland"
   }
  },
  "loss": {
@@ -12936,7 +12975,8 @@
   2,
   3,
   4,
-  5
+  5,
+  6
  ],
  "stats": {
   "lost": {
@@ -13155,7 +13195,7 @@
     "Infantry": 1
    }
   },
-  "ts": 1790934061846
+  "ts": 1790970160672
  },
  "sync": {}
 }

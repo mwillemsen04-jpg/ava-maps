@@ -8,14 +8,14 @@
       "last": {
         "day": 5,
         "score": {
-          "G": 1050,
-          "R": 200
+          "G": 1100,
+          "R": 170
         },
         "provinces": {
-          "G": 388,
-          "R": 101
+          "G": 409,
+          "R": 86
         },
-        "fetched": 1790474461795,
+        "fetched": 1790488873888,
         "winner": null,
         "teams": {
           "G": [
@@ -65,7 +65,7 @@
         }
       },
       "every": 240,
-      "ran": 1790474460212,
+      "ran": 1790488871803,
       "pv": "1b295d8594"
     },
     {
@@ -146,19 +146,19 @@
       "name": "AF vs MIE",
       "status": "live",
       "added": "2026-09-27 00:51",
-      "ran": 1790485264331,
+      "ran": 1790488871803,
       "pv": "1b295d8594",
       "last": {
-        "day": 6,
+        "day": 7,
         "score": {
-          "G": 210,
+          "G": 200,
           "R": 880
         },
         "provinces": {
-          "G": 125,
+          "G": 121,
           "R": 333
         },
-        "fetched": 1790934061846,
+        "fetched": 1790970160672,
         "winner": null,
         "teams": {
           "G": [
@@ -211,22 +211,22 @@
     {
       "id": "10922880",
       "name": "IA vs bekarty wojny + koksy w koronie",
-      "status": "live",
+      "status": "saved",
       "added": "2026-09-27 01:15",
-      "ran": 1790485264331,
+      "ran": 1790488871803,
       "pv": "1b295d8594",
       "last": {
-        "day": 6,
+        "day": 7,
         "score": {
-          "G": 950,
-          "R": 220
+          "G": 990,
+          "R": 170
         },
         "provinces": {
-          "G": 356,
-          "R": 136
+          "G": 362,
+          "R": 123
         },
-        "fetched": 1790934818744,
-        "winner": null,
+        "fetched": 1790970923505,
+        "winner": "G",
         "teams": {
           "G": [
             {
@@ -273,7 +273,9 @@
             }
           ]
         }
-      }
+      },
+      "reason": "ended",
+      "ended": "2026-09-27 08:02"
     }
   ],
   "folders": [

@@ -1,17 +1,17 @@
 {
  "id": "10920696",
  "name": "AF vs MIE",
- "day": 6,
+ "day": 7,
  "score": {
-  "G": 210,
+  "G": 200,
   "R": 880
  },
  "provinces": {
-  "G": 125,
+  "G": 121,
   "R": 333
  },
- "fetched": 1790934061846,
- "built": 1790485284771,
+ "fetched": 1790970160672,
+ "built": 1790488916236,
  "game_over": false,
  "winner": null,
  "teams": {
@@ -60,6 +60,6 @@
    }
   ]
  },
- "events": 591,
+ "events": 595,
  "losses": 586
 }

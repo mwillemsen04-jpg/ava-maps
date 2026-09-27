@@ -6737,6 +6737,216 @@
    "no": 6,
    "sn": 1,
    "frm": "Greater Romania"
+  },
+  "2533": {
+   "t": 6003,
+   "p": "Ottawa",
+   "c": "France",
+   "u": "Infantry",
+   "cap": false,
+   "no": 5,
+   "sn": 5,
+   "frm": "Canada"
+  },
+  "2536": {
+   "t": 6005,
+   "p": "Toronto",
+   "c": "Germany",
+   "u": "Infantry",
+   "cap": false,
+   "no": 7,
+   "sn": 4,
+   "frm": "Canada"
+  },
+  "2537": {
+   "t": 6017,
+   "p": "Samara",
+   "c": "Communist Russia",
+   "u": "Armored Car",
+   "cap": false,
+   "no": 8,
+   "sn": 1,
+   "frm": "Russian Empire"
+  },
+  "2538": {
+   "t": 6028,
+   "p": "Benghazi",
+   "c": "France",
+   "u": "Infantry",
+   "cap": false,
+   "no": 4,
+   "sn": 1,
+   "frm": "Libya"
+  },
+  "2539": {
+   "t": 6033,
+   "p": "Skopje",
+   "c": "France",
+   "u": "Armored Car",
+   "cap": false,
+   "no": 3,
+   "sn": 1,
+   "frm": "Greater Romania"
+  },
+  "2544": {
+   "t": 6050,
+   "p": "Hamilton",
+   "c": "Germany",
+   "u": "Infantry",
+   "cap": false,
+   "no": 7,
+   "sn": 4,
+   "frm": "Canada"
+  },
+  "2545": {
+   "t": 6066,
+   "p": "Plovdiv",
+   "c": "France",
+   "u": "Armored Car",
+   "cap": false,
+   "no": 2,
+   "sn": 1,
+   "frm": "Greater Romania"
+  },
+  "2546": {
+   "t": 6075,
+   "p": "Balakovo",
+   "c": "Communist Russia",
+   "u": "Armored Car",
+   "cap": false,
+   "no": 8,
+   "sn": 1,
+   "frm": "Russian Empire"
+  },
+  "2547": {
+   "t": 6075,
+   "p": "Rovaniemi",
+   "c": "Communist Russia",
+   "u": "Anti Tank",
+   "cap": false,
+   "no": 21,
+   "sn": 1,
+   "frm": "Greater Finland"
+  },
+  "2548": {
+   "t": 6084,
+   "p": "Varna",
+   "c": "Communist Russia",
+   "u": "Armored Car",
+   "cap": false,
+   "no": 9,
+   "sn": 1,
+   "frm": "Greater Romania"
+  },
+  "2549": {
+   "t": 6094,
+   "p": "Gabes",
+   "c": "France",
+   "u": "Infantry",
+   "cap": false,
+   "no": 7,
+   "sn": 1,
+   "frm": "Libya"
+  },
+  "2550": {
+   "t": 6115,
+   "p": "Kavala",
+   "c": "France",
+   "u": "Armored Car",
+   "cap": false,
+   "no": 2,
+   "sn": 1,
+   "frm": "Greater Romania"
+  },
+  "2551": {
+   "t": 6116,
+   "p": "London (ON)",
+   "c": "Germany",
+   "u": "Infantry",
+   "cap": false,
+   "no": 7,
+   "sn": 4,
+   "frm": "Canada"
+  },
+  "2552": {
+   "t": 6117,
+   "p": "Sadovoe",
+   "c": "Communist Russia",
+   "u": "Armored Car",
+   "cap": false,
+   "no": 3,
+   "sn": 1,
+   "frm": "Ukraine"
+  },
+  "2555": {
+   "t": 6150,
+   "p": "Corlu",
+   "c": "Communist Russia",
+   "u": "Armored Car",
+   "cap": false,
+   "no": 9,
+   "sn": 1,
+   "frm": "Greater Romania"
+  },
+  "2558": {
+   "t": 6160,
+   "p": "Saratov",
+   "c": "Communist Russia",
+   "u": "Armored Car",
+   "cap": false,
+   "no": 8,
+   "sn": 1,
+   "frm": "Russian Empire"
+  },
+  "2559": {
+   "t": 6182,
+   "p": "Istanbul",
+   "c": "Communist Russia",
+   "u": "Armored Car",
+   "cap": false,
+   "no": 9,
+   "sn": 1,
+   "frm": "Algeria"
+  },
+  "2560": {
+   "t": 6188,
+   "p": "Edessa",
+   "c": "France",
+   "u": "Armored Car",
+   "cap": false,
+   "no": 3,
+   "sn": 1,
+   "frm": "Greater Romania"
+  },
+  "2561": {
+   "t": 6188,
+   "p": "Volgodonsk",
+   "c": "Communist Russia",
+   "u": "Armored Car",
+   "cap": false,
+   "no": 3,
+   "sn": 1,
+   "frm": "Ukraine"
+  },
+  "2566": {
+   "t": 6198,
+   "p": "Windsor",
+   "c": "Germany",
+   "u": "Infantry",
+   "cap": false,
+   "no": 7,
+   "sn": 4,
+   "frm": "Michigan"
+  },
+  "2567": {
+   "t": 6200,
+   "p": "Zuwara",
+   "c": "France",
+   "u": "Infantry",
+   "cap": false,
+   "no": 7,
+   "sn": 1,
+   "frm": "Libya"
   }
  },
  "loss": {
@@ -12115,6 +12325,104 @@
    "byu": "Infantry",
    "byn": 4,
    "by": "Germany"
+  },
+  "2534": {
+   "t": 6005,
+   "p": "Toronto",
+   "c": "Canada",
+   "u": "Militia",
+   "what": "1× Militia",
+   "n": 1,
+   "dest": true,
+   "no": 6,
+   "byno": 7,
+   "byu": "Infantry",
+   "byn": 4,
+   "by": "Germany"
+  },
+  "2541": {
+   "t": 6038,
+   "p": "Hamilton",
+   "c": "Canada",
+   "u": "Interceptor",
+   "what": "1× Interceptor",
+   "n": 1,
+   "dest": true,
+   "no": 20,
+   "byno": 7,
+   "byu": "Infantry",
+   "byn": 4,
+   "by": "Germany"
+  },
+  "2542": {
+   "t": 6050,
+   "p": "Hamilton",
+   "c": "Canada",
+   "u": "Infantry",
+   "what": "1× Infantry",
+   "n": 1,
+   "dest": true,
+   "no": 2,
+   "byno": 7,
+   "byu": "Infantry",
+   "byn": 4,
+   "by": "Germany"
+  },
+  "2553": {
+   "t": 6120,
+   "p": "Miami",
+   "c": "Cuba",
+   "u": "Infantry",
+   "what": "1× Infantry",
+   "n": 1,
+   "dest": true,
+   "no": 3,
+   "byno": 14,
+   "byu": "Cruiser",
+   "byn": 1,
+   "by": "Germany"
+  },
+  "2556": {
+   "t": 6160,
+   "p": "Malaga",
+   "c": "France",
+   "u": "Anti Tank",
+   "what": "1× Anti Tank",
+   "n": 1,
+   "dest": true,
+   "no": 1,
+   "byno": 1,
+   "byu": "Battleship",
+   "byn": 2,
+   "by": "Spain"
+  },
+  "2564": {
+   "t": 6198,
+   "p": "Windsor",
+   "c": "Michigan",
+   "u": "Armored Car",
+   "what": "1× Armored Car",
+   "n": 1,
+   "dest": true,
+   "no": 8,
+   "byno": 7,
+   "byu": "Infantry",
+   "byn": 4,
+   "by": "Germany"
+  },
+  "2568": {
+   "t": 6213,
+   "p": "Lake Erie",
+   "c": "Michigan",
+   "u": "Armored Car",
+   "what": "1× Armored Car",
+   "n": 1,
+   "dest": true,
+   "no": 3,
+   "byno": 7,
+   "byu": "Infantry",
+   "byn": 4,
+   "by": "Germany"
   }
  },
  "cas": {
@@ -12343,7 +12651,7 @@
    "ts": 1790438419000
   },
   "France|Spain": {
-   "v": 2230,
+   "v": 2364,
    "ts": 1790438419000
   },
   "France|Czechoslovakia": {
@@ -12679,7 +12987,7 @@
    "ts": 1790438419000
   },
   "Cuba|Germany": {
-   "v": 2704,
+   "v": 2817,
    "ts": 1790438419000
   },
   "Cuba|Southern United States": {
@@ -12699,7 +13007,7 @@
    "ts": 1790438419000
   },
   "Canada|Germany": {
-   "v": 10436,
+   "v": 12986,
    "ts": 1790438419000
   },
   "Canada|France": {
@@ -12727,7 +13035,7 @@
    "ts": 1790438419000
   },
   "Germany|Canada": {
-   "v": 3459,
+   "v": 3726,
    "ts": 1790438419000
   },
   "Western Sahara|Germany": {
@@ -12861,6 +13169,14 @@
   "Southern United States|Michigan": {
    "v": 5238,
    "ts": 1790438419000
+  },
+  "Germany|Michigan": {
+   "v": 203,
+   "ts": 1790486308405
+  },
+  "Michigan|Germany": {
+   "v": 1382,
+   "ts": 1790486308405
   }
  },
  "teams": {
@@ -12934,14 +13250,15 @@
  "stats": {
   "lost": {
    "Germany": {
-    "Cruiser": 3,
-    "Infantry": 1,
+    "Anti Air": 1,
     "Armored Car": 2,
-    "Anti Air": 1
+    "Cruiser": 3,
+    "Infantry": 1
    },
    "France": {
-    "Infantry": 2,
-    "Interceptor": 5
+    "Interceptor": 5,
+    "Anti Tank": 1,
+    "Infantry": 2
    },
    "United Kingdom": {
     "Infantry": 10,
@@ -12957,9 +13274,9 @@
    },
    "Spain": {
     "Infantry": 10,
-    "Anti Tank": 3,
+    "Interceptor": 1,
     "Anti Air": 1,
-    "Interceptor": 1
+    "Anti Tank": 3
    },
    "Communist Russia": {
     "Interceptor": 1,
@@ -13013,13 +13330,14 @@
     "Interceptor": 1
    },
    "Canada": {
-    "Infantry": 5,
-    "Militia": 1,
-    "Anti Tank": 1,
+    "Militia": 2,
     "Anti Air": 1,
     "Motorized Infantry": 1,
-    "Armored Car": 1,
-    "Rocket Artillery": 3
+    "Interceptor": 1,
+    "Rocket Artillery": 3,
+    "Anti Tank": 1,
+    "Infantry": 6,
+    "Armored Car": 1
    },
    "Ireland": {
     "Armored Car": 1,
@@ -13097,7 +13415,7 @@
    },
    "Cuba": {
     "Anti Air": 1,
-    "Infantry": 3
+    "Infantry": 4
    },
    "Southern United States": {
     "Armored Car": 1,
@@ -13106,7 +13424,8 @@
     "Interceptor": 3
    },
    "Michigan": {
-    "Infantry": 1
+    "Infantry": 1,
+    "Armored Car": 2
    },
    "Western Sahara": {
     "Anti Tank": 1,
@@ -13180,7 +13499,7 @@
     "Infantry": 2
    }
   },
-  "ts": 1790474461795
+  "ts": 1790488873888
  },
  "news_days": [
   2,
