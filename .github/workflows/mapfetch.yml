@@ -1,0 +1,43 @@
+name: Fetch full map
+
+# Runs scripts/fetch_map.js once: logs in with the same account as the map updates and stores the full map
+# (provinces, sea zones and connections) in mapdata/. Starts by itself when the script or this file is pushed,
+# or with the "Run workflow" button.
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ['scripts/fetch_map.js', '.github/workflows/mapfetch.yml']
+
+permissions:
+  contents: write
+
+concurrency:
+  group: maps              # never at the same moment as an update round (both commit to main)
+  cancel-in-progress: false
+
+jobs:
+  fetch:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+      - run: npm ci
+      - name: Fetch the full map
+        env:
+          COW_USERNAME: ${{ secrets.COW_USERNAME }}
+          COW_PASSWORD: ${{ secrets.COW_PASSWORD }}
+        run: node scripts/fetch_map.js
+      - name: Save the result
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898699+github-actions[bot]@users.noreply.github.com"
+          git add mapdata
+          git commit -m "Full map data" || exit 0
+          for i in 1 2 3; do git pull --rebase origin main && git push origin HEAD:main && break; sleep 5; done
