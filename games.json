@@ -3,20 +3,20 @@
     {
       "id": "10917564",
       "name": "KH vs PHK",
-      "status": "live",
+      "status": "saved",
       "added": "2026-09-24",
       "last": {
-        "day": 5,
+        "day": 6,
         "score": {
-          "G": 1120,
-          "R": 140
+          "G": 1090,
+          "R": 120
         },
         "provinces": {
-          "G": 410,
-          "R": 83
+          "G": 407,
+          "R": 78
         },
-        "fetched": 1790517665722,
-        "winner": null,
+        "fetched": 1790532063155,
+        "winner": "G",
         "teams": {
           "G": [
             {
@@ -65,8 +65,10 @@
         }
       },
       "every": 240,
-      "ran": 1790517664261,
-      "pv": "1b295d8594"
+      "ran": 1790532061637,
+      "pv": "1b295d8594",
+      "reason": "ended",
+      "ended": "2026-09-27 20:01"
     },
     {
       "id": "10911706",
@@ -290,7 +292,7 @@
       "name": "2v2 against polish",
       "status": "live",
       "added": "2026-09-27 16:36",
-      "ran": 1790528464203,
+      "ran": 1790532061637,
       "pv": "1b295d8594",
       "last": {
         "day": 3,
@@ -299,10 +301,10 @@
           "R": 0
         },
         "provinces": {
-          "G": 120,
+          "G": 122,
           "R": 0
         },
-        "fetched": 1790708374441,
+        "fetched": 1790751558466,
         "winner": null,
         "teams": {
           "G": [

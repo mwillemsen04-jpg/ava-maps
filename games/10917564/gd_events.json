@@ -6997,6 +6997,119 @@
    "no": 10,
    "sn": 1,
    "frm": "Libya"
+  },
+  "2813": {
+   "t": 6840,
+   "p": "Medina",
+   "c": "Saudi-Arabia",
+   "u": "Revolt",
+   "cap": false,
+   "rev": true,
+   "frm": "Libya"
+  },
+  "2814": {
+   "t": 6840,
+   "p": "Kazan",
+   "c": "Russian Empire",
+   "u": "Revolt",
+   "cap": false,
+   "rev": true,
+   "frm": "Communist Russia"
+  },
+  "2815": {
+   "t": 6840,
+   "p": "Orillia",
+   "c": "Canada",
+   "u": "Revolt",
+   "cap": false,
+   "rev": true,
+   "frm": "Germany"
+  },
+  "2816": {
+   "t": 6840,
+   "p": "Oulmes",
+   "c": "Morocco",
+   "u": "Revolt",
+   "cap": false,
+   "rev": true,
+   "frm": "Libya"
+  },
+  "2817": {
+   "t": 6840,
+   "p": "Ras Gharib",
+   "c": "Egypt",
+   "u": "Revolt",
+   "cap": false,
+   "rev": true,
+   "frm": "Libya"
+  },
+  "2818": {
+   "t": 6840,
+   "p": "Toronto",
+   "c": "Canada",
+   "u": "Revolt",
+   "cap": false,
+   "rev": true,
+   "frm": "Germany"
+  },
+  "2819": {
+   "t": 6840,
+   "p": "Mezen",
+   "c": "Russian Empire",
+   "u": "Revolt",
+   "cap": false,
+   "rev": true,
+   "frm": "Communist Russia"
+  },
+  "2579": {
+   "t": 6727,
+   "p": "Bacau",
+   "c": "Communist Russia",
+   "u": "Tank Destroyer",
+   "cap": false,
+   "no": 2,
+   "sn": 1,
+   "frm": "Greater Romania"
+  },
+  "2585": {
+   "t": 6787,
+   "p": "Sevilla",
+   "c": "Spain",
+   "u": "Infantry",
+   "cap": false,
+   "no": 3,
+   "sn": 2,
+   "frm": "France"
+  },
+  "2586": {
+   "t": 6819,
+   "p": "Tbilisi",
+   "c": "Caucasus",
+   "u": "Infantry",
+   "cap": false,
+   "no": 1,
+   "sn": 1,
+   "frm": "Russian Empire"
+  },
+  "2587": {
+   "t": 6819,
+   "p": "Grozny",
+   "c": "Caucasus",
+   "u": "Infantry",
+   "cap": false,
+   "no": 2,
+   "sn": 1,
+   "frm": "Russian Empire"
+  },
+  "2588": {
+   "t": 6829,
+   "p": "Braila",
+   "c": "Communist Russia",
+   "u": "Tank Destroyer",
+   "cap": false,
+   "no": 2,
+   "sn": 1,
+   "frm": "Greater Romania"
   }
  },
  "loss": {
@@ -12501,6 +12614,48 @@
    "byu": "Cruiser",
    "byn": 1,
    "by": "Germany"
+  },
+  "2580": {
+   "t": 6752,
+   "p": "Detroit",
+   "c": "Michigan",
+   "u": "Infantry",
+   "what": "1× Infantry",
+   "n": 1,
+   "dest": true,
+   "no": 3,
+   "byno": 7,
+   "byu": "Infantry",
+   "byn": 4,
+   "by": "Germany"
+  },
+  "2582": {
+   "t": 6782,
+   "p": "Detroit",
+   "c": "Michigan",
+   "u": "Infantry",
+   "what": "1× Infantry, 1× Light Tank",
+   "n": 2,
+   "dest": true,
+   "no": 3,
+   "byno": 7,
+   "byu": "Infantry",
+   "byn": 4,
+   "by": "Germany"
+  },
+  "2583": {
+   "t": 6787,
+   "p": "Sevilla",
+   "c": "France",
+   "u": "Anti Tank",
+   "what": "1× Anti Tank",
+   "n": 1,
+   "dest": true,
+   "no": 12,
+   "byno": 3,
+   "byu": "Infantry",
+   "byn": 2,
+   "by": "Spain"
   }
  },
  "cas": {
@@ -12729,7 +12884,7 @@
    "ts": 1790438419000
   },
   "France|Spain": {
-   "v": 2364,
+   "v": 2817,
    "ts": 1790438419000
   },
   "France|Czechoslovakia": {
@@ -12881,7 +13036,7 @@
    "ts": 1790438419000
   },
   "Spain|France": {
-   "v": 8704,
+   "v": 8764,
    "ts": 1790438419000
   },
   "Spain|Poland": {
@@ -13249,11 +13404,11 @@
    "ts": 1790438419000
   },
   "Germany|Michigan": {
-   "v": 203,
+   "v": 713,
    "ts": 1790486308405
   },
   "Michigan|Germany": {
-   "v": 1382,
+   "v": 3762,
    "ts": 1790486308405
   }
  },
@@ -13329,13 +13484,13 @@
   "lost": {
    "Germany": {
     "Anti Air": 1,
-    "Armored Car": 2,
     "Cruiser": 3,
-    "Infantry": 1
+    "Infantry": 1,
+    "Armored Car": 2
    },
    "France": {
     "Armored Car": 1,
-    "Anti Tank": 1,
+    "Anti Tank": 2,
     "Infantry": 2,
     "Interceptor": 5
    },
@@ -13503,8 +13658,9 @@
     "Interceptor": 3
    },
    "Michigan": {
-    "Infantry": 1,
-    "Armored Car": 2
+    "Infantry": 3,
+    "Armored Car": 2,
+    "Light Tank": 1
    },
    "Western Sahara": {
     "Anti Tank": 1,
@@ -13578,11 +13734,12 @@
     "Infantry": 2
    }
   },
-  "ts": 1790517665722
+  "ts": 1790532063155
  },
  "news_days": [
   2,
   3,
-  4
+  4,
+  5
  ]
 }
