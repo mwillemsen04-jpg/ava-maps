@@ -72,7 +72,8 @@ if (!pageUrl) fail('Unknown site address.');
 
   fs.mkdirSync('videos', { recursive: true });
   const stamp = new Date().toISOString().replace(/[-:]/g, '').replace('T', '-').slice(0, 13);
-  const file = path.join('videos', `game-${gid}_day${from}-${to}_${stamp}.mp4`);
+  const tag = (process.env.VIDEO_ID || '').replace(/[^\w-]/g, '').slice(-6);
+  const file = path.join('videos', `game-${gid}_day${from}-${to}_${stamp}${tag ? '_' + tag : ''}.mp4`);
   const ff = spawn('ffmpeg', ['-hide_banner', '-loglevel', 'error', '-y', '-f', 'image2pipe', '-framerate', String(FPS), '-c:v', 'mjpeg', '-i', '-',
     '-c:v', 'libx264', '-preset', 'veryfast', '-crf', '20', '-pix_fmt', 'yuv420p', '-movflags', '+faststart', file], { stdio: ['pipe', 'inherit', 'inherit'] });
   const done = new Promise((ok, bad) => { ff.on('close', c => c === 0 ? ok() : bad(new Error('ffmpeg exit ' + c))); ff.on('error', bad); });

@@ -403,6 +403,7 @@ json.dump(summary, open(G('summary.json'), 'w', encoding='utf-8'), ensure_ascii=
 
 html = open('page_template.html', encoding='utf-8').read()
 html = html.replace('__TITLE__', NAME.replace('<', '&lt;'))
+html = html.replace('__ADMIN__', open('admin.js', encoding='utf-8').read().replace('</', '<\\/'))
 html = html.replace('__LOGO__', 'data:image/png;base64,' + base64.b64encode(open('logo.png', 'rb').read()).decode() if os.path.exists('logo.png') else '')
 html = html.replace('__BASE__', 'data:image/jpeg;base64,' + base64.b64encode(open(G('base.jpg'), 'rb').read()).decode())
 # unit icons are shown as <img> with the picture inline (CSS background pictures are blocked where the page is hosted)

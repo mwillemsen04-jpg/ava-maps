@@ -59,11 +59,13 @@ def main():
     now = int(dt.datetime.now(TZ).timestamp() * 1000)
     # a timed run and a request from the website (Add / Stop / Folders / Update every / Delete) only fetch the
     # games that are due or new; the "Run workflow" button and a local run update every live game
-    timed = os.environ.get('GITHUB_EVENT_NAME') in ('schedule', 'repository_dispatch', 'issues') and '--all' not in sys.argv
+    timed = os.environ.get('GITHUB_EVENT_NAME') in ('schedule', 'repository_dispatch', 'issues', 'push') and '--all' not in sys.argv
     todo = [g for g in reg['games'] if g.get('rebuild') or (g.get('status') == 'live' and (not timed or is_due(g, now)))]
     if '--check' in sys.argv:
         old = [g for g in reg['games'] if stale(g) and g not in todo]   # maps to rebuild with new page code
-        due = bool(todo or old)
+        rq = os.path.join(ROOT, 'requests')
+        waiting = [f for f in (os.listdir(rq) if os.path.isdir(rq) else []) if f.endswith('.json') and not f.startswith('video-')]
+        due = bool(todo or old or waiting)
         print('due' if due else 'nothing due', [str(g['id']) for g in todo], 'new page code for', [str(g['id']) for g in old])
         if os.environ.get('GITHUB_OUTPUT'):
             open(os.environ['GITHUB_OUTPUT'], 'a').write(f"due={'true' if due else 'false'}\n")

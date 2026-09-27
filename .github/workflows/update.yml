@@ -20,6 +20,9 @@ on:
         required: false
   issues:
     types: [opened]               # requests from the website buttons (Add / Stop / Move / Delete game, Create / Delete folder)
+  push:
+    branches: [main]
+    paths: ['requests/**', '!requests/video-*']   # a request from the site's manage mode (⚙️): handled straight away
   repository_dispatch:
     types: [tick]                 # a knock from an outside clock (cron-job.org) every quarter of an hour: GitHub's own
                                   # schedule above is best effort and often skips rounds for hours, so this keeps the
@@ -39,9 +42,10 @@ jobs:
   update:
     # issues only count when a member of the repository opens them with the right title
     if: >-
-      github.event_name != 'issues' ||
+      (github.event_name != 'issues' && github.event_name != 'push') ||
+      (github.event_name == 'push' && github.actor != 'github-actions[bot]') ||
       (contains(fromJSON('["OWNER","MEMBER","COLLABORATOR"]'), github.event.issue.author_association) &&
-       (startsWith(github.event.issue.title, 'Add game') || startsWith(github.event.issue.title, 'Stop game') || startsWith(github.event.issue.title, 'Move game') || startsWith(github.event.issue.title, 'Set update') || startsWith(github.event.issue.title, 'Delete game') || startsWith(github.event.issue.title, 'Create folder') || startsWith(github.event.issue.title, 'Delete folder')))
+       (startsWith(github.event.issue.title, 'Add game') || startsWith(github.event.issue.title, 'Stop game') || startsWith(github.event.issue.title, 'Move game') || startsWith(github.event.issue.title, 'Set update') || startsWith(github.event.issue.title, 'Delete game') || startsWith(github.event.issue.title, 'Create folder') || startsWith(github.event.issue.title, 'Delete folder') || startsWith(github.event.issue.title, 'Rename game') || startsWith(github.event.issue.title, 'Rename folder')))
     runs-on: ubuntu-latest
     outputs:
       due: ${{ steps.due.outputs.due }}
@@ -87,6 +91,10 @@ jobs:
           TITLE: ${{ github.event.issue.title }}
           BODY: ${{ github.event.issue.body }}
         run: python scripts/manage.py from-issue
+
+      - name: Change the list (requests from the site's manage mode)
+        if: steps.due.outputs.due == 'true'
+        run: python scripts/manage.py requests
 
       - name: Change the list (Run workflow button)
         if: steps.due.outputs.due == 'true' && (github.event_name == 'workflow_dispatch' && inputs.action != 'update')

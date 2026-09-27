@@ -90,6 +90,7 @@ header img{height:40px;width:40px;border-radius:50%;object-fit:cover;border:2px 
 .fchip{background:#111827;color:#94a3b8;border:1px solid #1e293b;padding:6px 12px;min-height:34px;font-size:13px;font-weight:600;border-radius:6px}
 .fchip b{color:#475569;font-weight:400;margin-left:4px}
 .fchip.new{border-style:dashed;color:#b48c3c}.fchip.new:hover{border-color:#b48c3c}
+.ren{background:none;border:0;color:#475569;font-size:15px;min-height:0;padding:0 2px;cursor:pointer}.ren:hover{color:#b48c3c}
 .fdel{background:none;border:0;color:#64748b;font-size:12px;margin-left:8px;cursor:pointer;text-decoration:underline}.fdel:hover{color:#fca5a5}
 .fchip.on{background:#1e293b;color:#e2e8f0;border-color:#b48c3c}
 .fhead{display:flex;align-items:center;gap:8px;margin:18px 0 8px;font-size:12px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:#94a3b8}
@@ -129,7 +130,7 @@ dialog .acts{justify-content:flex-end}
   <div class="counts"><span><b id="nlive">0</b>live</span><span>·</span><span><b id="nsaved">0</b>saved</span></div>
 </header>
 <div class="inner">
-  <section class="card">
+  <section class="card adm">
     <div class="label">&#10133; New map</div>
     <form class="addrow" id="add" novalidate>
       <input id="code" inputmode="numeric" autocomplete="off" placeholder="Game code, e.g. 10917564" aria-label="Game code">
@@ -183,17 +184,17 @@ if(location.hash==='#games'||entered){sp.remove();if(location.hash)history.repla
 else{sp.onclick=()=>{sp.classList.add('out');try{sessionStorage.setItem('avaIn','1')}catch(e){}setTimeout(()=>sp.remove(),600)};$('enterbtn').focus()}
 const live=D.games.filter(g=>g.status==='live'),saved=D.games.filter(g=>g.status==='saved').reverse();
 $('nlive').textContent=live.length;$('nsaved').textContent=saved.length;$('cl').textContent='('+live.length+')';$('cs').textContent='('+saved.length+')';
-$('how').textContent=D.repo?'Create opens a short GitHub form: press "Submit new issue" and the map is ready within a few minutes (members of the repository only).':'Set "repo" in config.json so Create and Stop can open GitHub.';
+$('how').textContent=D.repo?'Create adds the game straight away; the map is ready within a few minutes.':'Set "repo" in config.json so the buttons can reach GitHub.';
 const teams=L=>L&&L.teams?['G','R'].map(k=>`<div class="teams"><span class="chip side" style="color:${k==='G'?'#22c55e':'#ef4444'};border-color:${k==='G'?'#14532d':'#7f1d1d'}">${k==='G'?'Green':'Red'}</span>`+L.teams[k].map(n=>`<span class="chip ${k==='G'?'g':'r'}" title="${esc(n.c)}${DOC[n.f]?' · '+DOC[n.f][0]:''}">${esc(n.c)}</span>`).join('')+'</div>').join(''):'';
 const score=L=>L&&L.score?`<div class="score"><span class="g">Green <b>${L.score.G}</b></span><span class="bar"><i style="width:${Math.round(L.score.G/Math.max(1,L.score.G+L.score.R)*100)}%"></i><em></em></span><span class="r"><b>${L.score.R}</b> Red</span></div>`:'';
 const item=(g,isLive)=>{const L=g.last,name=esc(g.name||('Game '+g.id));
   const metaL=isLive?(L&&g.page?[`&#128339; ${when(L.fetched)}`,`&#128197; Day ${L.day??'?'}`,`&#127757; ${L.provinces.G} / ${L.provinces.R} provinces`,`&#128260; every ${({15:'15 min',30:'30 min',60:'hour',120:'2 hours',240:'4 hours'})[g.every||60]||((g.every||60)+' min')}`]:[`&#128339; added ${esc(g.added||'')}`,g.error?'':'waiting for the first update'])
     :[`&#128190; ${esc(g.ended||'')}`,g.reason==='ended'?'game ended':'stopped by you',L&&L.winner?(L.winner==='G'?'Team green won':'Team red won'):'',(g.folders||[]).length?'&#128193; '+g.folders.map(esc).join(', '):''];
   return `<div class="item${isLive?' live':''}"><div class="info">
-    <div class="name">${name}<span class="pill ${isLive?'live':'saved'}">${isLive?'&#9679; Live':'Saved'}</span></div>
+    <div class="name">${name}<button class="ren adm" type="button" data-ren="${esc(g.id)}" data-name="${name}" title="Rename" aria-label="Rename ${name}">&#9998;</button><span class="pill ${isLive?'live':'saved'}">${isLive?'&#9679; Live':'Saved'}</span></div>
     <div class="meta"><span class="mono">#${esc(g.id)}</span>${metaL.filter(Boolean).map(x=>`<span>${x}</span>`).join('')}</div>${isLive&&g.error?`<div class="meta" style="color:#b91c1c">&#9888;&#65039; Could not fetch: ${esc(g.error)}</div>`:''}
     ${score(L)}<div class="tm">${teams(L)}</div></div>
-    <div class="acts">${g.page?`<a class="btn open" href="games/${esc(g.id)}/index.html">Open</a>`:''}${isLive&&!L?`<button class="del" type="button" data-delg="${esc(g.id)}" data-name="${name}" aria-label="Delete ${name}">&#128465; Delete</button>`:isLive?`<button class="stop" type="button" data-stop="${esc(g.id)}" data-name="${name}" aria-label="Stop and save ${name}">&#9632; Stop</button>`:`<button class="move" type="button" data-move="${esc(g.id)}" data-name="${name}" aria-label="Choose the folders of ${name}">&#128193; Folders</button><button class="del" type="button" data-delg="${esc(g.id)}" data-name="${name}" aria-label="Delete ${name}">&#128465; Delete</button>`}</div></div>`};
+    <div class="acts">${g.page?`<a class="btn open" href="games/${esc(g.id)}/index.html">Open</a>`:''}${isLive&&!L?`<button class="del adm" type="button" data-delg="${esc(g.id)}" data-name="${name}" aria-label="Delete ${name}">&#128465; Delete</button>`:isLive?`<button class="stop adm" type="button" data-stop="${esc(g.id)}" data-name="${name}" aria-label="Stop and save ${name}">&#9632; Stop</button>`:`<button class="move adm" type="button" data-move="${esc(g.id)}" data-name="${name}" aria-label="Choose the folders of ${name}">&#128193; Folders</button><button class="del adm" type="button" data-delg="${esc(g.id)}" data-name="${name}" aria-label="Delete ${name}">&#128465; Delete</button>`}</div></div>`};
 $('live').innerHTML=live.length?live.map(g=>item(g,true)).join(''):'<div class="empty">No live maps — enter a game code above</div>';
 // saved games in folders: a bar to pick one folder, or all folders grouped
 // a saved game can be in several folders at once: it is shown in each of them (it is still one map)
@@ -204,10 +205,10 @@ let fsel='*';try{fsel=localStorage.getItem('avaFolder')||'*'}catch(e){}
 if(fsel!=='*'&&fsel!==''&&!FOLDERS.includes(fsel))fsel='*';
 function drawSaved(){
   const inF=(g,f)=>f===''?!GF(g).length:GF(g).includes(f),n=f=>saved.filter(g=>inF(g,f)).length,uns=n('');
-  const bar=`<div class="folders" role="tablist"><button class="fchip${fsel==='*'?' on':''}" data-f="*" type="button">All<b>${saved.length}</b></button>${FOLDERS.map(f=>`<button class="fchip${fsel===f?' on':''}" data-f="${esc(f)}" type="button">&#128193; ${esc(f)}<b>${n(f)}</b></button>`).join('')}${uns&&FOLDERS.length?`<button class="fchip${fsel===''?' on':''}" data-f="" type="button">Unsorted<b>${uns}</b></button>`:''}<button class="fchip new" id="newbtn" type="button">+ New folder</button></div>`;
+  const bar=`<div class="folders" role="tablist"><button class="fchip${fsel==='*'?' on':''}" data-f="*" type="button">All<b>${saved.length}</b></button>${FOLDERS.map(f=>`<button class="fchip${fsel===f?' on':''}" data-f="${esc(f)}" type="button">&#128193; ${esc(f)}<b>${n(f)}</b></button>`).join('')}${uns&&FOLDERS.length?`<button class="fchip${fsel===''?' on':''}" data-f="" type="button">Unsorted<b>${uns}</b></button>`:''}<button class="fchip new adm" id="newbtn" type="button">+ New folder</button></div>`;
   const group=f=>saved.filter(g=>inF(g,f)).map(g=>item(g,false)).join('');
   const emptyF='<div class="empty">Empty folder — use Folders on a saved game, or pick this folder when you stop a game</div>';
-  const del=f=>`<button class="fdel" type="button" data-del="${esc(f)}">delete</button>`;
+  const del=f=>`<button class="fdel adm" type="button" data-renf="${esc(f)}">rename</button><button class="fdel adm" type="button" data-del="${esc(f)}">delete</button>`;
   const body=!saved.length&&!FOLDERS.length&&fsel==='*'?'<div class="empty">Games that end, or that you stop, are saved here</div>'
     :fsel==='*'?(FOLDERS.length?[...FOLDERS.map(f=>`<div class="fhead">&#128193; ${esc(f)} <b>(${n(f)})</b>${del(f)}</div>`+(group(f)||emptyF)),uns?`<div class="fhead">Unsorted <b>(${uns})</b></div>`+group(''):''].join(''):group(''))
     :fsel===''?group(''):(group(fsel)||emptyF)+`<div style="text-align:right">${del(fsel)}</div>`;
@@ -254,7 +255,14 @@ $('nkeep').onclick=()=>$('newdlg').close();$('dkeep').onclick=()=>$('deldlg').cl
 $('keep').onclick=()=>dlg.close();$('mkeep').onclick=()=>mdlg.close();
 $('stopgo').addEventListener('click',e=>{if(!D.repo){e.preventDefault();return}dlg.close()});
 $('movego').addEventListener('click',e=>{if(!D.repo){e.preventDefault();return}mdlg.close()});
+// rename a game or a folder (manage mode only)
+document.addEventListener('click',async e=>{const b=e.target.closest('[data-ren],[data-renf]');if(!b||!window.AVA_ADMIN)return;
+  if(b.dataset.ren){const g=D.games.find(x=>String(x.id)===b.dataset.ren)||{};const v=await AVA_ADMIN.ask('Rename game','New name for #'+b.dataset.ren,g.name||'');
+    if(v&&v!==g.name)AVA_ADMIN.send('Rename game '+b.dataset.ren+' to '+v,'')}
+  else{const f=b.dataset.renf,v=await AVA_ADMIN.ask('Rename folder','New name for the folder "'+f+'"',f);if(v&&v!==f)AVA_ADMIN.send('Rename folder '+f+' to '+v,'')}});
 </script>
+<script>window.AVA={repo:D.repo,root:''};</script>
+<script>__ADMIN__</script>
 </body>
 </html>
 '''
@@ -263,7 +271,12 @@ os.makedirs(SITE, exist_ok=True)
 import base64
 logo = os.path.join(os.path.dirname(SITE), 'map', 'logo.png')
 LOGO = 'data:image/png;base64,' + base64.b64encode(open(logo, 'rb').read()).decode() if os.path.exists(logo) else ''
-html = HTML.replace('__LOGO__', LOGO).replace('__TITLE__', cfg['title']).replace('__DATA__', json.dumps(data, ensure_ascii=False).replace('</', '<\\/'))
+ADMIN = open(os.path.join(os.path.dirname(SITE), 'map', 'admin.js'), encoding='utf-8').read().replace('</', '<\\/')
+html = HTML.replace('__ADMIN__', ADMIN).replace('__LOGO__', LOGO).replace('__TITLE__', cfg['title']).replace('__DATA__', json.dumps(data, ensure_ascii=False).replace('</', '<\\/'))
 open(os.path.join(SITE, 'index.html'), 'w', encoding='utf-8').write(html)
 open(os.path.join(SITE, '.nojekyll'), 'w').write('')
+# which requests from the beheer mode are done (the site checks this to say "done" or why not)
+_lf = os.path.join(os.path.dirname(SITE), 'requests_log.json')
+_log = json.load(open(_lf, encoding='utf-8')) if os.path.exists(_lf) else {}
+json.dump({'done': {k: {'ok': v.get('ok'), 'msg': v.get('msg', '')} for k, v in _log.items()}}, open(os.path.join(SITE, 'status.json'), 'w', encoding='utf-8'), ensure_ascii=False)
 print(f"overview: {sum(g['status'] == 'live' for g in data['games'])} live, {sum(g['status'] == 'saved' for g in data['games'])} saved")

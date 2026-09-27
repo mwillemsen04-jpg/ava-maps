@@ -1,11 +1,15 @@
 name: Make video
 
-# The 🎥 Video button on a map opens a request "Make video <game>" with the chosen days, speed, size, view
-# and map settings. GitHub opens that map, records it frame by frame (scripts/make_video.js), puts the mp4
-# on the "videos" download page (Releases) and answers the request with the download link.
+# The 🎥 Video button on a map asks for a video with the chosen days, speed, size, view and map settings:
+# in manage mode (⚙️) as a file requests/video-<id>.json, otherwise as a GitHub request "Make video <game>".
+# GitHub opens that map, records it frame by frame (scripts/make_video.js), puts the mp4 on the "videos"
+# download page (Releases) and reports back (videos_log.json for manage mode, a comment on the request otherwise).
 on:
   issues:
     types: [opened]
+  push:
+    branches: [main]
+    paths: ['requests/video-*']
 
 permissions:
   contents: write
@@ -17,12 +21,13 @@ concurrency:
 
 jobs:
   video:
-    # only members of the repository, and only video requests
     if: >-
-      contains(fromJSON('["OWNER","MEMBER","COLLABORATOR"]'), github.event.issue.author_association) &&
-      startsWith(github.event.issue.title, 'Make video')
+      (github.event_name == 'push' && github.actor != 'github-actions[bot]') ||
+      (github.event_name == 'issues' &&
+       contains(fromJSON('["OWNER","MEMBER","COLLABORATOR"]'), github.event.issue.author_association) &&
+       startsWith(github.event.issue.title, 'Make video'))
     runs-on: ubuntu-latest
-    timeout-minutes: 120
+    timeout-minutes: 150
     steps:
       - uses: actions/checkout@v4
 
@@ -36,14 +41,17 @@ jobs:
           which ffmpeg || (sudo apt-get update && sudo apt-get install -y ffmpeg)
           google-chrome --version
 
-      - name: Record the video
+      # a request from the website form
+      - name: Record the video (request form)
+        if: github.event_name == 'issues'
         id: rec
         env:
           TITLE: ${{ github.event.issue.title }}
           BODY: ${{ github.event.issue.body }}
         run: node scripts/make_video.js
 
-      - name: Put it on the download page
+      - name: Put it on the download page (request form)
+        if: github.event_name == 'issues'
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
@@ -52,6 +60,7 @@ jobs:
           gh release upload videos "${{ steps.rec.outputs.file }}" --clobber
 
       - name: Answer the request
+        if: github.event_name == 'issues'
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
@@ -60,8 +69,8 @@ jobs:
 
           All videos: ${{ github.server_url }}/${{ github.repository }}/releases/tag/videos"
 
-      - name: Report a failed video
-        if: failure()
+      - name: Report a failed video (request form)
+        if: failure() && github.event_name == 'issues'
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
@@ -69,3 +78,22 @@ jobs:
           gh issue comment ${{ github.event.issue.number }} --body "The video could not be made: $reason
 
           Run log: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
+
+      # requests from manage mode: every waiting requests/video-*.json, oldest first
+      - name: Record the videos (manage mode)
+        if: github.event_name == 'push'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          git config user.name "ava-map-bot"
+          git config user.email "ava-map-bot@users.noreply.github.com"
+          gh release view videos >/dev/null 2>&1 || \
+            gh release create videos --title "Map videos" --notes "Videos made with the 🎥 Video button of the Live AVA viewer. Click a file to download it."
+          node scripts/video_requests.js
+      - name: Save the result (manage mode)
+        if: always() && github.event_name == 'push'
+        run: |
+          git add -A requests videos_log.json 2>/dev/null || true
+          git diff --cached --quiet || git commit -m "Videos made"
+          for i in 1 2 3 4 5; do git push && exit 0; sleep $((i*3)); git pull --rebase --no-edit || { git rebase --abort; exit 1; }; done
+          exit 1

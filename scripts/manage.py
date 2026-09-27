@@ -7,6 +7,9 @@
   python3 scripts/manage.py folder <name>           (make an empty folder)
   python3 scripts/manage.py delete-folder <name>    (its games go back to Unsorted)
   python3 scripts/manage.py every <game id> <minutes>   (how often a live game is updated: 15, 30, 60, 120 or 240)
+  python3 scripts/manage.py rename <game id> <new name>
+  python3 scripts/manage.py rename-folder <old> <new>
+  python3 scripts/manage.py requests        (handle the requests the site's beheer mode wrote into requests/)
   python3 scripts/manage.py list
   python3 scripts/manage.py from-issue      (GitHub: reads TITLE and BODY from the environment)
 
@@ -15,7 +18,7 @@ A GitHub issue titled "Add game 10917564" (optional "Name: KH vs PHK" in the bod
 "Move game 10917564 to Season 1; Clan wars" (several folders, "-" for none), "Set update 10917564 every 30", "Delete game 10917564", "Create folder Season 1" or "Delete folder Season 1"
 does the same from the website.
 """
-import os, re, sys, shutil, datetime as dt
+import json, os, re, sys, shutil, datetime as dt
 from common import load_registry, save_registry, TZ, ROOT, SITE, game_dir
 
 
@@ -150,8 +153,49 @@ def delete_folder(name):
     save_registry(reg); print(f'folder "{name}" removed')
 
 
-def from_issue():
-    title, body = os.environ.get('TITLE', ''), os.environ.get('BODY', '') or ''
+def rename_game(gid, name):
+    reg = load_registry()
+    g = next((g for g in reg['games'] if str(g['id']) == str(gid)), None)
+    if not g:
+        sys.exit(f'game {gid} is not in the database')
+    name = (name or '').strip()[:60]
+    if not name:
+        sys.exit('the new name is empty')
+    g['name'] = name
+    g['refresh'] = True   # rebuild its page (live) with the new name
+    if g.get('status') == 'saved':
+        g['pv'] = None; g.pop('pv_failed', None)   # a saved game is rebuilt once from its last game data (see run.py)
+    save_registry(reg); print(f'game {gid}: now called "{name}"')
+
+
+def rename_folder(old, new):
+    old, new = (old or '').strip(), (new or '').strip()[:60]
+    if not old or not new:
+        sys.exit('write it as "Rename folder <old> to <new>"')
+    reg = load_registry()
+    if old not in reg.get('folders', []) and not any(old in folders_of(g) for g in reg['games']):
+        sys.exit(f'there is no folder "{old}"')
+    reg['folders'] = [new if f == old else f for f in reg.get('folders', [])]
+    if new not in reg['folders']:
+        reg['folders'].append(new)
+    reg['folders'] = list(dict.fromkeys(reg['folders']))
+    for g in reg['games']:
+        fl = folders_of(g)
+        if old in fl:
+            set_folders(g, reg, list(dict.fromkeys(new if f == old else f for f in fl)))
+    save_registry(reg); print(f'folder "{old}" is now "{new}"')
+
+
+def from_issue(title=None, body=None):
+    if title is None:
+        title, body = os.environ.get('TITLE', ''), os.environ.get('BODY', '') or ''
+    body = body or ''
+    rg = re.match(r'\s*rename\s+game\s+(\d{6,10})\s+to\s+(.+)$', title, re.I)
+    if rg:
+        rename_game(rg.group(1), rg.group(2)); return
+    rf = re.match(r'\s*rename\s+folder\s+(.+?)\s+to\s+(.+)$', title, re.I)
+    if rf:
+        rename_folder(rf.group(1), rf.group(2)); return
     fm = re.match(r'\s*(create|delete)\s+folder\s+(.+)$', title, re.I)
     if fm:
         (make_folder if fm.group(1).lower() == 'create' else delete_folder)(fm.group(2)); return
@@ -166,13 +210,43 @@ def from_issue():
         move(mv.group(1), mv.group(2)); return
     m = re.match(r'\s*(add|stop)\s+game\s+(\d{6,10})', title, re.I)
     if not m:
-        sys.exit('issue title must be "Add game <code>", "Stop game <code>" or "Move game <code> to <folder>"')
+        sys.exit('unknown request: ' + title[:80])
     name = re.search(r'^\s*name\s*:\s*(.+)$', body, re.I | re.M)
     folders = [f for x in re.findall(r'^\s*folders?\s*:\s*(.+)$', body, re.I | re.M) for f in split_folders(x)]
     if m.group(1).lower() == 'add':
         add(m.group(2), name.group(1) if name else None)
     else:
         stop(m.group(2), folders=folders)
+
+
+def handle_requests():
+    """Requests from the site's beheer mode: requests/<id>.json files, handled oldest first and then removed.
+    The result of each one is kept in requests_log.json (the site shows it as done / not done)."""
+    import glob, datetime as dt
+    rq = os.path.join(ROOT, 'requests')
+    files = sorted(f for f in glob.glob(os.path.join(rq, '*.json')) if not os.path.basename(f).startswith('video-'))
+    if not files:
+        print('no requests'); return
+    logf = os.path.join(ROOT, 'requests_log.json')
+    log = json.load(open(logf, encoding='utf-8')) if os.path.exists(logf) else {}
+    for f in files:
+        rid = os.path.basename(f)[:-5]
+        try:
+            r = json.load(open(f, encoding='utf-8'))
+        except Exception as e:
+            log[rid] = dict(ok=False, msg=f'unreadable request ({e})', at=dt.datetime.now().isoformat(timespec='seconds'))
+            os.remove(f); continue
+        title, body, by = str(r.get('title', '')), str(r.get('body', '')), str(r.get('by', ''))[:30]
+        print(f'request {rid} from {by or "?"}: {title}')
+        try:
+            from_issue(title, body); ok, msg = True, ''
+        except SystemExit as e:
+            ok, msg = (e.code in (None, 0)), ('' if e.code in (None, 0) else str(e.code))
+            print('  not done:', msg)
+        log[r.get('id') or rid] = dict(ok=ok, msg=msg, title=title, by=by, at=dt.datetime.now().isoformat(timespec='seconds'))
+        os.remove(f)
+    log = dict(sorted(log.items(), key=lambda kv: kv[1].get('at', ''))[-60:])   # keep the latest 60
+    json.dump(log, open(logf, 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
 
 
 if __name__ == '__main__':
@@ -192,6 +266,12 @@ if __name__ == '__main__':
         (make_folder if cmd == 'folder' else delete_folder)(name)
     elif cmd == 'from-issue':
         from_issue()
+    elif cmd == 'requests':
+        handle_requests()
+    elif cmd == 'rename':
+        rename_game(sys.argv[2], ' '.join(sys.argv[3:]))
+    elif cmd == 'rename-folder':
+        rename_folder(sys.argv[2], sys.argv[3])
     else:
         for g in load_registry()['games']:
             print(g['id'], g.get('status'), g.get('name') or '')

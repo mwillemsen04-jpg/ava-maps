@@ -4,3 +4,6 @@ games/*/game_data.json
 site/
 __pycache__/
 games/*/news_days/
+videos/
+video_error.txt
+.video_out_*

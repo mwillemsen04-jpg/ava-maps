@@ -99,8 +99,23 @@ From now on GitHub checks every quarter of an hour which games are due and updat
 
 ## Using the website
 
+### Manage mode (⚙️)
+Visitors only see the maps. To add, stop, rename or delete games, sort them into folders, change the update interval or make videos, click **⚙️** (bottom left) and paste a **manage key** once. The key is stored only in that browser; do it once per device. From then on every button works straight away (no GitHub form): the change is on the site within 1–3 minutes, and the page reloads by itself when it is done.
+
+**Make a manage key** (for yourself, or one per friend you trust, so you can switch one off without affecting the others):
+1. <https://github.com/settings/personal-access-tokens/new> (fine-grained token).
+2. *Token name:* e.g. `ava-maps manage – Mike` · *Expiration:* as long as you like.
+3. *Repository access:* **Only select repositories** → `ava-maps`.
+4. *Permissions → Repository permissions → Contents:* **Read and write**.
+5. **Generate token**, copy it and paste it under ⚙️ (or send it privately to the friend).
+
+To take away someone's access: delete their token on <https://github.com/settings/personal-access-tokens>. A key can change files in this repository, so give it only to people you trust.
+
+Behind the scenes a button writes a small file into `requests/`; GitHub handles it (`scripts/manage.py requests`), removes the file and notes the result in `requests_log.json`. Video requests (`requests/video-*.json`) are made by the *Make video* workflow, which notes the download link in `videos_log.json`.
+
+
 ### Add a game
-On the overview page, type the game code under **New map** and click **Create**. GitHub opens a filled-in form: click **Submit new issue**. Within a few minutes the map appears under *Live maps*.
+In manage mode, type the game code under **New map** and click **Create**. Within a few minutes the map appears under *Live maps*.
 
 This also works for a game that is already running or has already ended: the whole history from day 2 is fetched from the game's newspapers of earlier days. A game that has ended goes straight to *Saved games*.
 
