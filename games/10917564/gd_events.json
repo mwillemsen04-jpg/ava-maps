@@ -6947,6 +6947,26 @@
    "no": 7,
    "sn": 1,
    "frm": "Libya"
+  },
+  "2570": {
+   "t": 6328,
+   "p": "Tripoli",
+   "c": "France",
+   "u": "Infantry",
+   "cap": true,
+   "no": 7,
+   "sn": 1,
+   "frm": "Libya"
+  },
+  "2571": {
+   "t": 6371,
+   "p": "Trabzon",
+   "c": "Communist Russia",
+   "u": "Armored Car",
+   "cap": false,
+   "no": 11,
+   "sn": 1,
+   "frm": "Ukraine"
   }
  },
  "loss": {
@@ -12659,7 +12679,7 @@
    "ts": 1790438419000
   },
   "France|Greece": {
-   "v": 1266,
+   "v": 1798,
    "ts": 1790438419000
   },
   "France|Ireland": {
@@ -12955,7 +12975,7 @@
    "ts": 1790438419000
   },
   "Greece|France": {
-   "v": 1698,
+   "v": 2252,
    "ts": 1790438419000
   },
   "Turkey|Algeria": {
@@ -13499,7 +13519,7 @@
     "Infantry": 2
    }
   },
-  "ts": 1790488873888
+  "ts": 1790503276231
  },
  "news_days": [
   2,
