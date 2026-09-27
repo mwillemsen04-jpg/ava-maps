@@ -5083,6 +5083,513 @@
    "no": 17,
    "sn": 1,
    "frm": "Germany"
+  },
+  "2220": {
+   "t": 5348,
+   "p": "Toulouse",
+   "c": "France",
+   "u": "Revolt",
+   "cap": false,
+   "rev": true,
+   "frm": "Libya"
+  },
+  "2221": {
+   "t": 5348,
+   "p": "Campobasso",
+   "c": "Libya",
+   "u": "Militia",
+   "cap": false,
+   "no": 9,
+   "sn": 1,
+   "frm": "Italy"
+  },
+  "2222": {
+   "t": 5348,
+   "p": "Campobasso",
+   "c": "Libya",
+   "u": "Revolt",
+   "cap": false,
+   "rev": true,
+   "frm": "France"
+  },
+  "2223": {
+   "t": 5348,
+   "p": "Užice",
+   "c": "Yugoslavia",
+   "u": "Revolt",
+   "cap": false,
+   "rev": true,
+   "frm": "Greater Romania"
+  },
+  "2224": {
+   "t": 5348,
+   "p": "Oujda",
+   "c": "Morocco",
+   "u": "Revolt",
+   "cap": false,
+   "rev": true,
+   "frm": "Algeria"
+  },
+  "2225": {
+   "t": 5348,
+   "p": "Akaba",
+   "c": "Egypt",
+   "u": "Revolt",
+   "cap": false,
+   "rev": true,
+   "frm": "Turkey"
+  },
+  "2226": {
+   "t": 5348,
+   "p": "Lodz",
+   "c": "Ukraine",
+   "u": "Revolt",
+   "cap": false,
+   "rev": true,
+   "frm": "Poland"
+  },
+  "2227": {
+   "t": 5348,
+   "p": "Kielce",
+   "c": "Ukraine",
+   "u": "Revolt",
+   "cap": false,
+   "rev": true,
+   "frm": "Poland"
+  },
+  "2228": {
+   "t": 5348,
+   "p": "Mykalaiv",
+   "c": "Russian Empire",
+   "u": "Revolt",
+   "cap": false,
+   "rev": true,
+   "frm": "Ukraine"
+  },
+  "2229": {
+   "t": 5348,
+   "p": "Uppsala",
+   "c": "Sweden",
+   "u": "Revolt",
+   "cap": false,
+   "rev": true,
+   "frm": "Germany"
+  },
+  "2230": {
+   "t": 5348,
+   "p": "Rostov-on-Don",
+   "c": "Caucasus",
+   "u": "Revolt",
+   "cap": false,
+   "rev": true,
+   "frm": "Russian Empire"
+  },
+  "2231": {
+   "t": 5348,
+   "p": "Albacete",
+   "c": "Spain",
+   "u": "Revolt",
+   "cap": false,
+   "rev": true,
+   "frm": "Libya"
+  },
+  "2232": {
+   "t": 5348,
+   "p": "Krasnodar",
+   "c": "Caucasus",
+   "u": "Revolt",
+   "cap": false,
+   "rev": true,
+   "frm": "Turkey"
+  },
+  "2233": {
+   "t": 5348,
+   "p": "Divnoye",
+   "c": "Caucasus",
+   "u": "Revolt",
+   "cap": false,
+   "rev": true,
+   "frm": "Turkey"
+  },
+  "2236": {
+   "t": 5368,
+   "p": "Safi",
+   "c": "Algeria",
+   "u": "Artillery",
+   "cap": false,
+   "no": 9,
+   "sn": 1,
+   "frm": "Libya"
+  },
+  "2237": {
+   "t": 5381,
+   "p": "Yeysk",
+   "c": "Russian Empire",
+   "u": "Armored Car",
+   "cap": false,
+   "no": 3,
+   "sn": 1,
+   "frm": "Turkey"
+  },
+  "2238": {
+   "t": 5405,
+   "p": "Puka",
+   "c": "Ukraine",
+   "u": "Infantry",
+   "cap": false,
+   "no": 3,
+   "sn": 1,
+   "frm": "Turkey"
+  },
+  "2239": {
+   "t": 5416,
+   "p": "Turku",
+   "c": "Germany",
+   "u": "Armored Car",
+   "cap": false,
+   "no": 1,
+   "sn": 1,
+   "frm": "Communist Russia"
+  },
+  "2240": {
+   "t": 5436,
+   "p": "Avezzano",
+   "c": "Libya",
+   "u": "Militia",
+   "cap": false,
+   "no": 9,
+   "sn": 1,
+   "frm": "France"
+  },
+  "2241": {
+   "t": 5440,
+   "p": "Rostov-on-Don",
+   "c": "Russian Empire",
+   "u": "Armored Car",
+   "cap": false,
+   "no": 3,
+   "sn": 1,
+   "frm": "Caucasus"
+  },
+  "2242": {
+   "t": 5444,
+   "p": "Salo",
+   "c": "Germany",
+   "u": "Armored Car",
+   "cap": false,
+   "no": 1,
+   "sn": 1,
+   "frm": "Communist Russia"
+  },
+  "2243": {
+   "t": 5483,
+   "p": "Helsinki",
+   "c": "Germany",
+   "u": "Armored Car",
+   "cap": false,
+   "no": 1,
+   "sn": 1,
+   "frm": "Communist Russia"
+  },
+  "2244": {
+   "t": 5483,
+   "p": "Svetlograd",
+   "c": "Ukraine",
+   "u": "Infantry",
+   "cap": false,
+   "no": 5,
+   "sn": 1,
+   "frm": "Turkey"
+  },
+  "2245": {
+   "t": 5498,
+   "p": "Oujda",
+   "c": "Algeria",
+   "u": "Armored Car",
+   "cap": false,
+   "no": 4,
+   "sn": 1,
+   "frm": "Morocco"
+  },
+  "2246": {
+   "t": 5501,
+   "p": "Krasnodar",
+   "c": "Russian Empire",
+   "u": "Armored Car",
+   "cap": false,
+   "no": 3,
+   "sn": 1,
+   "frm": "Caucasus"
+  },
+  "2247": {
+   "t": 5501,
+   "p": "Svetlograd",
+   "c": "Turkey",
+   "u": "Armored Car",
+   "cap": false,
+   "no": 19,
+   "sn": 1,
+   "frm": "Ukraine"
+  },
+  "2248": {
+   "t": 5505,
+   "p": "Rome",
+   "c": "Libya",
+   "u": "Militia",
+   "cap": false,
+   "no": 9,
+   "sn": 1,
+   "frm": "France"
+  },
+  "2251": {
+   "t": 5510,
+   "p": "Priština",
+   "c": "Ukraine",
+   "u": "Infantry",
+   "cap": false,
+   "no": 3,
+   "sn": 1,
+   "frm": "Greater Romania"
+  },
+  "1927": {
+   "t": 4928,
+   "p": "Odessa",
+   "c": "Libya",
+   "u": "Light Tank",
+   "cap": false,
+   "no": 10,
+   "sn": 1,
+   "frm": "Greater Romania"
+  },
+  "1950": {
+   "t": 4961,
+   "p": "Toruń",
+   "c": "Turkey",
+   "u": "Medium Tank",
+   "cap": false,
+   "no": 8,
+   "sn": 1,
+   "frm": "Poland"
+  },
+  "1951": {
+   "t": 4983,
+   "p": "Rome",
+   "c": "France",
+   "u": "Infantry",
+   "cap": false,
+   "no": 11,
+   "sn": 1,
+   "frm": "Ukraine"
+  },
+  "1952": {
+   "t": 4985,
+   "p": "St. Etienne",
+   "c": "Libya",
+   "u": "Armored Car",
+   "cap": false,
+   "no": 3,
+   "sn": 1,
+   "frm": "France"
+  },
+  "1955": {
+   "t": 5032,
+   "p": "Cracow",
+   "c": "Libya",
+   "u": "Light Tank",
+   "cap": false,
+   "no": 9,
+   "sn": 1,
+   "frm": "France"
+  },
+  "1957": {
+   "t": 5033,
+   "p": "St. Etienne",
+   "c": "France",
+   "u": "Infantry",
+   "cap": false,
+   "no": 10,
+   "sn": 4,
+   "frm": "Libya"
+  },
+  "1958": {
+   "t": 5033,
+   "p": "Toruń",
+   "c": "Libya",
+   "u": "Light Tank",
+   "cap": false,
+   "no": 2,
+   "sn": 1,
+   "frm": "Turkey"
+  },
+  "1960": {
+   "t": 5040,
+   "p": "Safi",
+   "c": "Libya",
+   "u": "Anti Air",
+   "cap": false,
+   "no": 24,
+   "sn": 1,
+   "frm": "Algeria"
+  },
+  "1966": {
+   "t": 5062,
+   "p": "Lyon",
+   "c": "Libya",
+   "u": "Armored Car",
+   "cap": false,
+   "no": 3,
+   "sn": 1,
+   "frm": "France"
+  },
+  "1968": {
+   "t": 5064,
+   "p": "Toruń",
+   "c": "Turkey",
+   "u": "Medium Tank",
+   "cap": false,
+   "no": 8,
+   "sn": 1,
+   "frm": "Poland"
+  },
+  "1969": {
+   "t": 5066,
+   "p": "Ternopil",
+   "c": "Turkey",
+   "u": "Medium Tank",
+   "cap": false,
+   "no": 9,
+   "sn": 1,
+   "frm": "Poland"
+  },
+  "1970": {
+   "t": 5069,
+   "p": "Avezzano",
+   "c": "France",
+   "u": "Infantry",
+   "cap": false,
+   "no": 11,
+   "sn": 1,
+   "frm": "Libya"
+  },
+  "1971": {
+   "t": 5073,
+   "p": "Cracow",
+   "c": "Turkey",
+   "u": "Medium Tank",
+   "cap": false,
+   "no": 13,
+   "sn": 1,
+   "frm": "Poland"
+  },
+  "1974": {
+   "t": 5134,
+   "p": "Newcastle",
+   "c": "France",
+   "u": "Infantry",
+   "cap": false,
+   "no": 5,
+   "sn": 1,
+   "frm": "Poland"
+  },
+  "1975": {
+   "t": 5141,
+   "p": "Marrakesh",
+   "c": "Libya",
+   "u": "Anti Air",
+   "cap": false,
+   "no": 24,
+   "sn": 1,
+   "frm": "Algeria"
+  },
+  "1976": {
+   "t": 5173,
+   "p": "Kherson",
+   "c": "Russian Empire",
+   "u": "Armored Car",
+   "cap": false,
+   "no": 4,
+   "sn": 1,
+   "frm": "Turkey"
+  },
+  "1979": {
+   "t": 5178,
+   "p": "Lvov",
+   "c": "Turkey",
+   "u": "Medium Tank",
+   "cap": false,
+   "no": 10,
+   "sn": 1,
+   "frm": "Poland"
+  },
+  "1980": {
+   "t": 5182,
+   "p": "Lyon",
+   "c": "France",
+   "u": "Infantry",
+   "cap": false,
+   "no": 10,
+   "sn": 4,
+   "frm": "Libya"
+  },
+  "1981": {
+   "t": 5187,
+   "p": "Campobasso",
+   "c": "France",
+   "u": "Infantry",
+   "cap": false,
+   "no": 11,
+   "sn": 1,
+   "frm": "Libya"
+  },
+  "1984": {
+   "t": 5242,
+   "p": "Leeds",
+   "c": "France",
+   "u": "Infantry",
+   "cap": false,
+   "no": 5,
+   "sn": 1,
+   "frm": "Poland"
+  },
+  "1985": {
+   "t": 5245,
+   "p": "Vlore",
+   "c": "Ukraine",
+   "u": "Infantry",
+   "cap": false,
+   "no": 3,
+   "sn": 1,
+   "frm": "Turkey"
+  },
+  "1990": {
+   "t": 5331,
+   "p": "Lvov",
+   "c": "Ukraine",
+   "u": "Infantry",
+   "cap": false,
+   "no": 2,
+   "sn": 10,
+   "frm": "Turkey"
+  },
+  "1992": {
+   "t": 5342,
+   "p": "Tirana",
+   "c": "Ukraine",
+   "u": "Infantry",
+   "cap": false,
+   "no": 3,
+   "sn": 1,
+   "frm": "Turkey"
+  },
+  "1994": {
+   "t": 5342,
+   "p": "Rostov-on-Don",
+   "c": "Russian Empire",
+   "u": "Armored Car",
+   "cap": false,
+   "no": 3,
+   "sn": 1,
+   "frm": "Turkey"
   }
  },
  "loss": {
@@ -9946,31 +10453,31 @@
   },
   "1908": {
    "t": 4863,
-   "p": null,
+   "p": "Lutsk",
    "c": "Ukraine",
    "u": "Interceptor",
    "what": "2× Interceptor",
    "n": 2,
-   "dest": false,
+   "dest": true,
    "no": 19,
-   "byno": null,
-   "byu": null,
-   "byn": null,
-   "by": null
+   "byno": 4,
+   "byu": "Interceptor",
+   "byn": 8,
+   "by": "France"
   },
   "1909": {
    "t": 4863,
-   "p": null,
+   "p": "Lutsk",
    "c": "Ukraine",
    "u": "Interceptor",
    "what": "3× Interceptor",
    "n": 3,
-   "dest": false,
+   "dest": true,
    "no": 19,
-   "byno": null,
-   "byu": null,
-   "byn": null,
-   "by": null
+   "byno": 4,
+   "byu": "Interceptor",
+   "byn": 8,
+   "by": "France"
   },
   "1910": {
    "t": 4863,
@@ -10013,6 +10520,300 @@
    "byu": "Flying Bomb",
    "byn": 3,
    "by": "Germany"
+  },
+  "2250": {
+   "t": 5508,
+   "p": "Svetlograd",
+   "c": "Ukraine",
+   "u": "Infantry",
+   "what": "1× Infantry",
+   "n": 1,
+   "dest": true,
+   "no": 5,
+   "byno": 19,
+   "byu": "Armored Car",
+   "byn": 1,
+   "by": "Turkey"
+  },
+  "2253": {
+   "t": 5512,
+   "p": "Marrakesh",
+   "c": "Algeria",
+   "u": "Artillery",
+   "what": "1× Artillery",
+   "n": 1,
+   "dest": true,
+   "no": 9,
+   "byno": 12,
+   "byu": "Militia",
+   "byn": 1,
+   "by": "Libya"
+  },
+  "1934": {
+   "t": 4934,
+   "p": null,
+   "c": "Algeria",
+   "u": "Interceptor",
+   "what": "4× Interceptor",
+   "n": 4,
+   "dest": false,
+   "no": 20,
+   "byno": null,
+   "byu": null,
+   "byn": null,
+   "by": null
+  },
+  "1936": {
+   "t": 4934,
+   "p": null,
+   "c": "Algeria",
+   "u": "Interceptor",
+   "what": "4× Interceptor",
+   "n": 4,
+   "dest": false,
+   "no": 3,
+   "byno": null,
+   "byu": null,
+   "byn": null,
+   "by": null
+  },
+  "1937": {
+   "t": 4934,
+   "p": "Kiev",
+   "c": "Russian Empire",
+   "u": "Interceptor",
+   "what": "4× Interceptor",
+   "n": 4,
+   "dest": true,
+   "no": 10,
+   "byno": 6,
+   "byu": "Interceptor",
+   "byn": 9,
+   "by": "Algeria"
+  },
+  "1938": {
+   "t": 4934,
+   "p": null,
+   "c": "Algeria",
+   "u": "Interceptor",
+   "what": "3× Interceptor",
+   "n": 3,
+   "dest": false,
+   "no": 5,
+   "byno": null,
+   "byu": null,
+   "byn": null,
+   "by": null
+  },
+  "1939": {
+   "t": 4934,
+   "p": "Kiev",
+   "c": "Russian Empire",
+   "u": "Interceptor",
+   "what": "5× Interceptor",
+   "n": 5,
+   "dest": true,
+   "no": 10,
+   "byno": 6,
+   "byu": "Interceptor",
+   "byn": 9,
+   "by": "Algeria"
+  },
+  "1940": {
+   "t": 4934,
+   "p": "Kiev",
+   "c": "Russian Empire",
+   "u": "Interceptor",
+   "what": "2× Interceptor",
+   "n": 2,
+   "dest": true,
+   "no": 10,
+   "byno": 6,
+   "byu": "Interceptor",
+   "byn": 9,
+   "by": "Algeria"
+  },
+  "1942": {
+   "t": 4935,
+   "p": null,
+   "c": "Algeria",
+   "u": "Interceptor",
+   "what": "2× Interceptor",
+   "n": 2,
+   "dest": false,
+   "no": 5,
+   "byno": null,
+   "byu": null,
+   "byn": null,
+   "by": null
+  },
+  "1944": {
+   "t": 4935,
+   "p": null,
+   "c": "Algeria",
+   "u": "Interceptor",
+   "what": "2× Interceptor",
+   "n": 2,
+   "dest": false,
+   "no": 7,
+   "byno": null,
+   "byu": null,
+   "byn": null,
+   "by": null
+  },
+  "1945": {
+   "t": 4935,
+   "p": null,
+   "c": "Algeria",
+   "u": "Interceptor",
+   "what": "2× Interceptor",
+   "n": 2,
+   "dest": false,
+   "no": 6,
+   "byno": null,
+   "byu": null,
+   "byn": null,
+   "by": null
+  },
+  "1946": {
+   "t": 4939,
+   "p": "Lutsk",
+   "c": "Ukraine",
+   "u": "Interceptor",
+   "what": "4× Interceptor",
+   "n": 4,
+   "dest": true,
+   "no": 19,
+   "byno": 4,
+   "byu": "Interceptor",
+   "byn": 8,
+   "by": "France"
+  },
+  "1947": {
+   "t": 4939,
+   "p": "Lutsk",
+   "c": "Ukraine",
+   "u": "Interceptor",
+   "what": "5× Interceptor",
+   "n": 5,
+   "dest": true,
+   "no": 19,
+   "byno": 4,
+   "byu": "Interceptor",
+   "byn": 8,
+   "by": "France"
+  },
+  "1949": {
+   "t": 4940,
+   "p": "Lutsk",
+   "c": "Ukraine",
+   "u": "Interceptor",
+   "what": "3× Interceptor",
+   "n": 3,
+   "dest": true,
+   "no": 19,
+   "byno": 4,
+   "byu": "Interceptor",
+   "byn": 8,
+   "by": "France"
+  },
+  "1961": {
+   "t": 5042,
+   "p": "Kielce",
+   "c": "Libya",
+   "u": "Light Tank",
+   "what": "1× Light Tank",
+   "n": 1,
+   "dest": true,
+   "no": 9,
+   "byno": 5,
+   "byu": "Interceptor",
+   "byn": 8,
+   "by": "Algeria"
+  },
+  "1967": {
+   "t": 5062,
+   "p": "Lyon",
+   "c": "France",
+   "u": "Militia",
+   "what": "1× Militia",
+   "n": 1,
+   "dest": true,
+   "no": 8,
+   "byno": 3,
+   "byu": "Armored Car",
+   "byn": 1,
+   "by": "Libya"
+  },
+  "1972": {
+   "t": 5082,
+   "p": "Clermont",
+   "c": "Libya",
+   "u": "Armored Car",
+   "what": "1× Armored Car",
+   "n": 1,
+   "dest": true,
+   "no": 3,
+   "byno": 25,
+   "byu": "Tactical Bomber",
+   "byn": 10,
+   "by": "France"
+  },
+  "1977": {
+   "t": 5175,
+   "p": "Chisinau",
+   "c": "Libya",
+   "u": "Light Tank",
+   "what": "1× Light Tank",
+   "n": 1,
+   "dest": true,
+   "no": 10,
+   "byno": 2,
+   "byu": "Medium Tank",
+   "byn": 1,
+   "by": "Turkey"
+  },
+  "1982": {
+   "t": 5230,
+   "p": "Ternopil",
+   "c": "Turkey",
+   "u": "Medium Tank",
+   "what": "1× Medium Tank",
+   "n": 1,
+   "dest": true,
+   "no": 10,
+   "byno": 3,
+   "byu": "Rocket Artillery",
+   "byn": 19,
+   "by": "Communist Russia"
+  },
+  "1986": {
+   "t": 5270,
+   "p": "Safi",
+   "c": "Libya",
+   "u": "Anti Air",
+   "what": "1× Anti Air",
+   "n": 1,
+   "dest": true,
+   "no": 24,
+   "byno": 9,
+   "byu": "Artillery",
+   "byn": 1,
+   "by": "Algeria"
+  },
+  "1989": {
+   "t": 5292,
+   "p": "Naples",
+   "c": "France",
+   "u": "Infantry",
+   "what": "1× Infantry",
+   "n": 1,
+   "dest": true,
+   "no": 11,
+   "byno": 6,
+   "byu": "Militia",
+   "byn": 2,
+   "by": "Libya"
   }
  },
  "cas": {
@@ -10557,20 +11358,20 @@
    "ts": 1790694523886
   },
   "Libya|Algeria": {
-   "v": 1463,
-   "ts": 1790703144692
+   "v": 2090,
+   "ts": 1790780918000
   },
   "Algeria|Libya": {
-   "v": 3625,
-   "ts": 1790703144692
+   "v": 4686,
+   "ts": 1790780918000
   },
   "Turkey|Russian Empire": {
-   "v": 3088,
-   "ts": 1790703825952
+   "v": 3478,
+   "ts": 1790780918000
   },
   "Russian Empire|Turkey": {
-   "v": 584,
-   "ts": 1790703825952
+   "v": 768,
+   "ts": 1790780918000
   },
   "France|Russian Empire": {
    "v": 8924,
@@ -10597,24 +11398,24 @@
    "ts": 1790705957450
   },
   "Libya|Turkey": {
-   "v": 20,
+   "v": 668,
    "ts": 1790710571496
   },
   "Turkey|Libya": {
-   "v": 461,
+   "v": 684,
    "ts": 1790710571496
   },
   "France|Communist Russia": {
-   "v": 1886,
+   "v": 3192,
    "ts": 1790711264536
   },
   "Ukraine|Turkey": {
-   "v": 87,
-   "ts": 1790720058162
+   "v": 250,
+   "ts": 1790780918000
   },
   "Turkey|Ukraine": {
-   "v": 1204,
-   "ts": 1790720058162
+   "v": 1227,
+   "ts": 1790780918000
   },
   "Russian Empire|Greater Romania": {
    "v": 824,
@@ -10625,11 +11426,11 @@
    "ts": 1790721091923
   },
   "Turkey|Communist Russia": {
-   "v": 2588,
+   "v": 3556,
    "ts": 1790725657066
   },
   "Communist Russia|Greater Romania": {
-   "v": 2864,
+   "v": 5287,
    "ts": 1790726681036
   },
   "Algeria|Ukraine": {
@@ -10641,23 +11442,23 @@
    "ts": 1790727482334
   },
   "Algeria|Russian Empire": {
-   "v": 9334,
+   "v": 19339,
    "ts": 1790729011254
   },
   "Russian Empire|Algeria": {
-   "v": 13124,
+   "v": 21094,
    "ts": 1790729011254
   },
   "Communist Russia|France": {
-   "v": 2437,
+   "v": 4177,
    "ts": 1790730606944
   },
   "Ukraine|France": {
-   "v": 1309,
+   "v": 7101,
    "ts": 1790732179131
   },
   "France|Ukraine": {
-   "v": 3629,
+   "v": 6538,
    "ts": 1790732179131
   },
   "Algeria|Poland": {
@@ -10681,12 +11482,28 @@
    "ts": 1790751602000
   },
   "Libya|Germany": {
-   "v": 370,
+   "v": 909,
    "ts": 1790753177356
   },
   "Germany|Libya": {
    "v": 480,
    "ts": 1790753177356
+  },
+  "France|Libya": {
+   "v": 1763,
+   "ts": 1790763775465
+  },
+  "Libya|Greater Romania": {
+   "v": 39,
+   "ts": 1790759941228
+  },
+  "Libya|France": {
+   "v": 1525,
+   "ts": 1790763775465
+  },
+  "Greater Romania|Libya": {
+   "v": 298,
+   "ts": 1790759941228
   }
  },
  "teams": {
@@ -10758,7 +11575,8 @@
  },
  "news_days": [
   2,
-  3
+  3,
+  4
  ],
  "stats": {
   "lost": {
@@ -10769,9 +11587,11 @@
     "Armored Car": 1
    },
    "France": {
-    "Interceptor": 10,
     "Anti Air": 1,
-    "Armored Car": 1
+    "Armored Car": 1,
+    "Interceptor": 10,
+    "Infantry": 1,
+    "Militia": 1
    },
    "United Kingdom": {
     "Interceptor": 1,
@@ -10820,8 +11640,9 @@
    },
    "Turkey": {
     "Infantry": 4,
+    "Anti Air": 1,
     "Armored Car": 2,
-    "Anti Air": 1
+    "Medium Tank": 1
    },
    "Portugal": {
     "Infantry": 3,
@@ -10909,9 +11730,10 @@
     "Interceptor": 1
    },
    "Algeria": {
-    "Interceptor": 4,
+    "Anti Air": 3,
+    "Interceptor": 27,
     "Infantry": 3,
-    "Anti Air": 3
+    "Artillery": 1
    },
    "Tunisia": {
     "Anti Air": 1,
@@ -10920,7 +11742,9 @@
    "Libya": {
     "Interceptor": 1,
     "Infantry": 1,
-    "Anti Air": 1
+    "Armored Car": 1,
+    "Light Tank": 2,
+    "Anti Air": 2
    },
    "Egypt": {
     "Anti Air": 3,
@@ -10933,8 +11757,9 @@
     "Armored Car": 1
    },
    "Ukraine": {
-    "Interceptor": 11,
-    "Anti Air": 1
+    "Infantry": 1,
+    "Anti Air": 1,
+    "Interceptor": 23
    },
    "Caucasus": {
     "Anti Air": 3,
@@ -10948,7 +11773,7 @@
     "Infantry": 6
    },
    "Russian Empire": {
-    "Interceptor": 24,
+    "Interceptor": 36,
     "Armored Car": 1
    },
    "Karelia": {
@@ -10970,7 +11795,7 @@
     "Infantry": 1
    }
   },
-  "ts": 1790754848353
+  "ts": 1790790847875
  },
  "sync": {}
 }
