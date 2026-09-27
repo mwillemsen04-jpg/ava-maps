@@ -290,7 +290,7 @@
     {
       "id": "10920938",
       "name": "2v2 against polish",
-      "status": "live",
+      "status": "saved",
       "added": "2026-09-27 16:36",
       "ran": 1790532061637,
       "pv": "1b295d8594",
@@ -301,10 +301,10 @@
           "R": 0
         },
         "provinces": {
-          "G": 122,
+          "G": 125,
           "R": 0
         },
-        "fetched": 1790751558466,
+        "fetched": 1790768325742,
         "winner": null,
         "teams": {
           "G": [
@@ -319,7 +319,9 @@
           ],
           "R": []
         }
-      }
+      },
+      "reason": "stopped",
+      "ended": "2026-09-27 20:24"
     }
   ],
   "folders": [

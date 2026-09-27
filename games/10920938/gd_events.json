@@ -2662,6 +2662,76 @@
    "no": 11,
    "sn": 1,
    "frm": "British Malaya"
+  },
+  "851": {
+   "t": 3424,
+   "p": "Yulghunbulak",
+   "c": "British Odisha",
+   "u": "Armored Car",
+   "cap": false,
+   "no": 3,
+   "sn": 7,
+   "frm": "Xingjiang"
+  },
+  "852": {
+   "t": 3441,
+   "p": "Ubon Ratchathani",
+   "c": "Burma",
+   "u": "Infantry",
+   "cap": false,
+   "no": 4,
+   "sn": 8,
+   "frm": "Siam"
+  },
+  "853": {
+   "t": 3452,
+   "p": "Kathgodam",
+   "c": "British Odisha",
+   "u": "Infantry",
+   "cap": false,
+   "no": 2,
+   "sn": 1,
+   "frm": "North India"
+  },
+  "854": {
+   "t": 3462,
+   "p": "Bayard",
+   "c": "Sichuan",
+   "u": "Infantry",
+   "cap": false,
+   "no": 3,
+   "sn": 1,
+   "frm": "South China"
+  },
+  "855": {
+   "t": 3556,
+   "p": "Bareilly",
+   "c": "British Odisha",
+   "u": "Infantry",
+   "cap": false,
+   "no": 2,
+   "sn": 1,
+   "frm": "North India"
+  },
+  "859": {
+   "t": 3608,
+   "p": "Luling",
+   "c": "Central China",
+   "u": "Infantry",
+   "cap": false,
+   "no": 4,
+   "sn": 5,
+   "frm": "Nationalist China"
+  },
+  "864": {
+   "t": 3677,
+   "p": "Hezhou",
+   "c": "Central China",
+   "u": "Infantry",
+   "cap": false,
+   "no": 13,
+   "sn": 5,
+   "frm": "South China"
   }
  },
  "loss": {
@@ -5590,6 +5660,76 @@
    "byu": "Interceptor",
    "byn": 14,
    "by": "British Odisha"
+  },
+  "849": {
+   "t": 3424,
+   "p": "Yulghunbulak",
+   "c": "Xingjiang",
+   "u": "Infantry",
+   "what": "1× Infantry",
+   "n": 1,
+   "dest": true,
+   "no": 20,
+   "byno": 3,
+   "byu": "Armored Car",
+   "byn": 7,
+   "by": "British Odisha"
+  },
+  "856": {
+   "t": 3591,
+   "p": "Namling",
+   "c": "Tibet",
+   "u": "Rocket Artillery",
+   "what": "1× Infantry",
+   "n": 1,
+   "dest": true,
+   "no": 16,
+   "byno": 5,
+   "byu": "Tactical Bomber",
+   "byn": 8,
+   "by": "British Odisha"
+  },
+  "857": {
+   "t": 3600,
+   "p": "Luling",
+   "c": "Nationalist China",
+   "u": "Infantry",
+   "what": "1× Infantry",
+   "n": 1,
+   "dest": true,
+   "no": 1,
+   "byno": 8,
+   "byu": "Artillery",
+   "byn": 1,
+   "by": "Central China"
+  },
+  "860": {
+   "t": 3621,
+   "p": "Namling",
+   "c": "Tibet",
+   "u": "Rocket Artillery",
+   "what": "1× Rocket Artillery",
+   "n": 1,
+   "dest": true,
+   "no": 16,
+   "byno": 5,
+   "byu": "Tactical Bomber",
+   "byn": 8,
+   "by": "British Odisha"
+  },
+  "862": {
+   "t": 3651,
+   "p": "Shigatse",
+   "c": "Tibet",
+   "u": "Light Tank",
+   "what": "1× Light Tank",
+   "n": 1,
+   "dest": true,
+   "no": 3,
+   "byno": 5,
+   "byu": "Tactical Bomber",
+   "byn": 8,
+   "by": "British Odisha"
   }
  },
  "cas": {
@@ -5638,7 +5778,7 @@
    "ts": 1790684911000
   },
   "Nationalist China|Central China": {
-   "v": 17461,
+   "v": 17777,
    "ts": 1790684911000
   },
   "Burma|Indochina": {
@@ -5646,7 +5786,7 @@
    "ts": 1790684911000
   },
   "Indochina|Burma": {
-   "v": 16391,
+   "v": 16799,
    "ts": 1790684911000
   },
   "British Odisha|North India": {
@@ -5686,11 +5826,11 @@
    "ts": 1790684911000
   },
   "British Odisha|Tibet": {
-   "v": 5568,
+   "v": 5954,
    "ts": 1790684911000
   },
   "Tibet|British Odisha": {
-   "v": 16141,
+   "v": 18571,
    "ts": 1790684911000
   },
   "Central China|Nationalist China": {
@@ -5722,11 +5862,11 @@
    "ts": 1790684911000
   },
   "British Odisha|Xingjiang": {
-   "v": 5690,
+   "v": 5728,
    "ts": 1790684911000
   },
   "Xingjiang|British Odisha": {
-   "v": 17576,
+   "v": 17612,
    "ts": 1790684911000
   },
   "Central China|Hong Kong": {
@@ -5879,8 +6019,8 @@
     "Anti Tank": 1
    },
    "British Odisha": {
-    "Militia": 1,
-    "Infantry": 2
+    "Infantry": 2,
+    "Militia": 1
    },
    "South India": {
     "Anti Air": 1,
@@ -5894,12 +6034,14 @@
     "Interceptor": 1
    },
    "Tibet": {
-    "Infantry": 11,
+    "Infantry": 12,
     "Militia": 2,
     "Anti Tank": 2,
     "Anti Air": 1,
     "Interceptor": 4,
-    "Tactical Bomber": 1
+    "Tactical Bomber": 1,
+    "Light Tank": 1,
+    "Rocket Artillery": 1
    },
    "Siam": {
     "Anti Air": 1,
@@ -5929,7 +6071,7 @@
     "Militia": 1,
     "Anti Air": 2,
     "Armored Car": 3,
-    "Infantry": 11
+    "Infantry": 12
    },
    "Communist China": {
     "Anti Air": 1,
@@ -5952,7 +6094,7 @@
     "Tactical Bomber": 1
    },
    "Xingjiang": {
-    "Infantry": 8,
+    "Infantry": 9,
     "Militia": 3,
     "Anti Tank": 2,
     "Motorized Infantry": 1,
@@ -5973,7 +6115,7 @@
     "Naval Bomber": 2
    }
   },
-  "ts": 1790751558466
+  "ts": 1790768325742
  },
  "sync": {},
  "teams": {
