@@ -19199,248 +19199,248 @@
  "stats": {
   "lost": {
    "Germany": {
-    "Anti Tank": 2,
-    "Railroad Gun": 1,
-    "Anti Air": 1,
-    "Armored Car": 10,
-    "Cruiser": 2,
+    "Interceptor": 1,
     "Infantry": 6,
-    "Interceptor": 1
-   },
-   "France": {
-    "Anti Tank": 2,
-    "Interceptor": 30,
-    "Tactical Bomber": 10,
-    "Infantry": 13,
-    "Armored Car": 2
-   },
-   "United Kingdom": {
-    "Infantry": 19,
-    "Militia": 3,
-    "Anti Tank": 1,
+    "Cruiser": 2,
+    "Armored Car": 10,
     "Anti Air": 1,
-    "Interceptor": 1,
-    "Armored Car": 2
-   },
-   "Italy": {
-    "Interceptor": 1,
-    "Anti Air": 1,
-    "Armored Car": 2,
-    "Infantry": 18,
+    "Railroad Gun": 1,
     "Anti Tank": 2
    },
-   "Spain": {
-    "Infantry": 16,
+   "France": {
+    "Armored Car": 2,
+    "Infantry": 13,
+    "Tactical Bomber": 10,
+    "Interceptor": 30,
+    "Anti Tank": 2
+   },
+   "United Kingdom": {
+    "Armored Car": 2,
+    "Interceptor": 1,
+    "Anti Air": 1,
+    "Anti Tank": 1,
+    "Militia": 3,
+    "Infantry": 19
+   },
+   "Italy": {
     "Anti Tank": 2,
+    "Infantry": 18,
     "Armored Car": 2,
     "Anti Air": 1,
     "Interceptor": 1
    },
-   "Communist Russia": {
+   "Spain": {
     "Interceptor": 1,
     "Anti Air": 1,
     "Armored Car": 2,
+    "Anti Tank": 2,
+    "Infantry": 16
+   },
+   "Communist Russia": {
+    "Anti Tank": 3,
     "Infantry": 18,
-    "Anti Tank": 3
+    "Armored Car": 2,
+    "Anti Air": 1,
+    "Interceptor": 1
    },
    "Sweden": {
-    "Infantry": 18,
-    "Anti Tank": 3,
-    "Anti Air": 1,
+    "Armored Car": 1,
     "Interceptor": 1,
-    "Armored Car": 1
+    "Anti Air": 1,
+    "Anti Tank": 3,
+    "Infantry": 18
    },
    "Yugoslavia": {
-    "Interceptor": 1,
-    "Anti Air": 1,
-    "Armored Car": 8,
-    "Anti Tank": 2,
+    "Infantry": 10,
     "Rocket Artillery": 12,
-    "Infantry": 10
+    "Anti Tank": 2,
+    "Armored Car": 8,
+    "Anti Air": 1,
+    "Interceptor": 1
    },
    "Greater Romania": {
-    "Anti Tank": 3,
-    "Rocket Artillery": 38,
-    "Anti Air": 6,
-    "Interceptor": 1,
+    "Armored Car": 16,
     "Infantry": 18,
-    "Armored Car": 16
+    "Interceptor": 1,
+    "Anti Air": 6,
+    "Rocket Artillery": 38,
+    "Anti Tank": 3
    },
    "Bulgaria": {
-    "Anti Air": 1,
-    "Infantry": 6
+    "Infantry": 6,
+    "Anti Air": 1
    },
    "Greece": {
-    "Armored Car": 1,
+    "Infantry": 6,
     "Anti Air": 1,
-    "Infantry": 6
+    "Armored Car": 1
    },
    "Turkey": {
-    "Anti Tank": 2,
-    "Anti Air": 1,
-    "Interceptor": 1,
-    "Tank Destroyer": 26,
-    "Infantry": 18,
+    "Light Tank": 2,
     "Armored Car": 19,
-    "Light Tank": 2
+    "Infantry": 18,
+    "Tank Destroyer": 26,
+    "Interceptor": 1,
+    "Anti Air": 1,
+    "Anti Tank": 2
    },
    "Portugal": {
-    "Infantry": 5,
+    "Anti Tank": 5,
     "Armored Car": 1,
-    "Anti Tank": 5
+    "Infantry": 5
    },
    "Ireland": {
-    "Infantry": 3,
-    "Armored Car": 1
-   },
-   "Denmark": {
-    "Infantry": 4,
-    "Armored Car": 2
-   },
-   "Norway": {
-    "Anti Air": 2,
-    "Infantry": 5
-   },
-   "Greater Finland": {
-    "Infantry": 10,
-    "Anti Tank": 2,
-    "Artillery": 1,
-    "Anti Air": 1,
-    "Interceptor": 1,
-    "Armored Car": 1
-   },
-   "Estonia": {
-    "Anti Air": 1,
+    "Armored Car": 1,
     "Infantry": 3
    },
-   "Latvia": {
-    "Infantry": 4,
-    "Armored Car": 1
-   },
-   "Lithuania": {
-    "Infantry": 3,
-    "Armored Car": 1
-   },
-   "Poland": {
-    "Anti Air": 1,
-    "Tank Destroyer": 27,
-    "Armored Car": 16,
-    "Anti Tank": 2,
-    "Interceptor": 1,
-    "Infantry": 18,
-    "Militia": 3
-   },
-   "Crimea": {
-    "Anti Air": 1,
+   "Denmark": {
+    "Armored Car": 2,
     "Infantry": 4
    },
-   "Czechoslovakia": {
-    "Infantry": 6,
-    "Armored Car": 1
-   },
-   "Austria": {
-    "Anti Air": 1,
-    "Infantry": 5
-   },
-   "Switzerland": {
+   "Norway": {
     "Infantry": 5,
-    "Armored Car": 1
+    "Anti Air": 2
    },
-   "Albania": {
-    "Infantry": 3,
-    "Armored Car": 1
-   },
-   "Saudi-Arabia": {
+   "Greater Finland": {
+    "Armored Car": 1,
+    "Interceptor": 1,
     "Anti Air": 1,
-    "Infantry": 4
+    "Artillery": 1,
+    "Anti Tank": 2,
+    "Infantry": 10
    },
-   "Iraq": {
+   "Estonia": {
     "Infantry": 3,
     "Anti Air": 1
    },
-   "Luxembourg": {
-    "Infantry": 1,
-    "Anti Tank": 1
-   },
-   "Netherlands": {
-    "Infantry": 4,
-    "Armored Car": 1
-   },
-   "Southern United States": {
-    "Infantry": 1,
-    "Motorized Infantry": 1
-   },
-   "Western Sahara": {
-    "Infantry": 3,
-    "Armored Car": 1
-   },
-   "Morocco": {
-    "Interceptor": 1,
-    "Anti Air": 1,
-    "Armored Car": 2,
-    "Infantry": 15,
-    "Anti Tank": 2
-   },
-   "Algeria": {
-    "Attack Bomber": 5,
-    "Anti Tank": 3,
-    "Anti Air": 1,
+   "Latvia": {
     "Armored Car": 1,
-    "Infantry": 11,
-    "Interceptor": 54
+    "Infantry": 4
    },
-   "Tunisia": {
-    "Infantry": 4,
-    "Armored Car": 1
+   "Lithuania": {
+    "Armored Car": 1,
+    "Infantry": 3
    },
-   "Libya": {
-    "Infantry": 12,
-    "Anti Air": 1,
-    "Light Tank": 30,
-    "Militia": 1,
-    "Anti Tank": 2,
+   "Poland": {
+    "Militia": 3,
+    "Infantry": 18,
     "Interceptor": 1,
-    "Armored Car": 20
+    "Anti Tank": 2,
+    "Armored Car": 16,
+    "Tank Destroyer": 27,
+    "Anti Air": 1
    },
-   "Egypt": {
-    "Anti Tank": 3,
-    "Anti Air": 1,
-    "Interceptor": 38,
-    "Tactical Bomber": 14,
-    "Infantry": 8
+   "Crimea": {
+    "Infantry": 4,
+    "Anti Air": 1
    },
-   "Syria": {
-    "Anti Air": 1,
+   "Czechoslovakia": {
+    "Armored Car": 1,
+    "Infantry": 6
+   },
+   "Austria": {
+    "Infantry": 5,
+    "Anti Air": 1
+   },
+   "Switzerland": {
+    "Armored Car": 1,
     "Infantry": 5
    },
-   "Ukraine": {
-    "Infantry": 17,
+   "Albania": {
+    "Armored Car": 1,
+    "Infantry": 3
+   },
+   "Saudi-Arabia": {
+    "Infantry": 4,
+    "Anti Air": 1
+   },
+   "Iraq": {
+    "Anti Air": 1,
+    "Infantry": 3
+   },
+   "Luxembourg": {
+    "Anti Tank": 1,
+    "Infantry": 1
+   },
+   "Netherlands": {
+    "Armored Car": 1,
+    "Infantry": 4
+   },
+   "Southern United States": {
+    "Motorized Infantry": 1,
+    "Infantry": 1
+   },
+   "Western Sahara": {
+    "Armored Car": 1,
+    "Infantry": 3
+   },
+   "Morocco": {
+    "Anti Tank": 2,
+    "Infantry": 15,
+    "Armored Car": 2,
+    "Anti Air": 1,
+    "Interceptor": 1
+   },
+   "Algeria": {
+    "Interceptor": 54,
+    "Infantry": 11,
+    "Armored Car": 1,
+    "Anti Air": 1,
     "Anti Tank": 3,
+    "Attack Bomber": 5
+   },
+   "Tunisia": {
+    "Armored Car": 1,
+    "Infantry": 4
+   },
+   "Libya": {
+    "Armored Car": 20,
     "Interceptor": 1,
-    "Armored Car": 1
+    "Anti Tank": 2,
+    "Militia": 1,
+    "Light Tank": 30,
+    "Anti Air": 1,
+    "Infantry": 12
+   },
+   "Egypt": {
+    "Infantry": 8,
+    "Tactical Bomber": 14,
+    "Interceptor": 38,
+    "Anti Air": 1,
+    "Anti Tank": 3
+   },
+   "Syria": {
+    "Infantry": 5,
+    "Anti Air": 1
+   },
+   "Ukraine": {
+    "Armored Car": 1,
+    "Interceptor": 1,
+    "Anti Tank": 3,
+    "Infantry": 17
    },
    "Caucasus": {
-    "Interceptor": 1,
-    "Anti Air": 1,
-    "Armored Car": 2,
+    "Anti Tank": 2,
     "Infantry": 17,
-    "Anti Tank": 2
+    "Armored Car": 2,
+    "Anti Air": 1,
+    "Interceptor": 1
    },
    "Cossack Republic": {
-    "Anti Air": 1,
+    "Armored Car": 1,
     "Infantry": 5,
-    "Armored Car": 1
+    "Anti Air": 1
    },
    "Russian Empire": {
-    "Anti Tank": 1,
-    "Anti Air": 1,
-    "Interceptor": 72,
+    "Armored Car": 1,
     "Infantry": 9,
-    "Armored Car": 1
+    "Interceptor": 72,
+    "Anti Air": 1,
+    "Anti Tank": 1
    },
    "Karelia": {
-    "Armored Car": 1,
-    "Infantry": 7
+    "Infantry": 7,
+    "Armored Car": 1
    },
    "Malta": {
     "Infantry": 1
@@ -19449,15 +19449,15 @@
     "Infantry": 1
    },
    "Belarus": {
-    "Anti Air": 1,
+    "Militia": 1,
     "Infantry": 6,
-    "Militia": 1
+    "Anti Air": 1
    },
    "Melilla": {
     "Infantry": 2
    }
   },
-  "ts": 1790417122111
+  "ts": 1790424963421
  },
  "sync": {
   "Tirana": {

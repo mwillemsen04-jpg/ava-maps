@@ -1,24 +1,24 @@
 {
- "id": "10917564",
- "name": "KH vs PHK",
- "day": 6,
+ "id": "10922880",
+ "name": "IA vs bekarty wojny + koksy w koronie",
+ "day": 7,
  "score": {
-  "G": 1090,
-  "R": 120
+  "G": 990,
+  "R": 170
  },
  "provinces": {
-  "G": 407,
-  "R": 78
+  "G": 362,
+  "R": 123
  },
- "fetched": 1790532063155,
- "built": 1790532116844,
+ "fetched": 1790970923505,
+ "built": 1790488952726,
  "game_over": true,
  "winner": "G",
  "teams": {
   "G": [
    {
-    "c": "Communist Russia",
-    "f": 3
+    "c": "Algeria",
+    "f": 2
    },
    {
     "c": "France",
@@ -29,26 +29,26 @@
     "f": 1
    },
    {
-    "c": "Poland",
+    "c": "Greater Romania",
     "f": 3
    },
    {
-    "c": "Southern United States",
-    "f": 4
+    "c": "Turkey",
+    "f": 3
    }
   ],
   "R": [
    {
-    "c": "Algeria",
-    "f": 2
-   },
-   {
-    "c": "Greater Romania",
+    "c": "Communist Russia",
     "f": 3
    },
    {
     "c": "Libya",
     "f": 4
+   },
+   {
+    "c": "Poland",
+    "f": 3
    },
    {
     "c": "Russian Empire",
@@ -60,6 +60,6 @@
    }
   ]
  },
- "events": 715,
- "losses": 437
+ "events": 845,
+ "losses": 755
 }

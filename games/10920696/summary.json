@@ -1,0 +1,65 @@
+{
+ "id": "10920696",
+ "name": "AF vs MIE",
+ "day": 8,
+ "score": {
+  "G": 200,
+  "R": 880
+ },
+ "provinces": {
+  "G": 118,
+  "R": 333
+ },
+ "fetched": 1791091451450,
+ "built": 1790501028567,
+ "game_over": false,
+ "winner": null,
+ "teams": {
+  "G": [
+   {
+    "c": "France",
+    "f": 2
+   },
+   {
+    "c": "Germany",
+    "f": 1
+   },
+   {
+    "c": "Greater Finland",
+    "f": 1
+   },
+   {
+    "c": "Poland",
+    "f": 3
+   },
+   {
+    "c": "Russian Empire",
+    "f": 4
+   }
+  ],
+  "R": [
+   {
+    "c": "Communist Russia",
+    "f": 3
+   },
+   {
+    "c": "Greater Romania",
+    "f": 3
+   },
+   {
+    "c": "Italy",
+    "f": 1
+   },
+   {
+    "c": "Libya",
+    "f": 4
+   },
+   {
+    "c": "Ukraine",
+    "f": 1
+   }
+  ]
+ },
+ "events": 598,
+ "losses": 586
+}
