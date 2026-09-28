@@ -91,7 +91,14 @@ async function tryGame(gameId, cookies) {
   const scripts = [...String(idx.body).matchAll(/<script[^>]+src=["']([^"']+)["']/g)].map((x) => new URL(x[1], base).href);
   const inline = String(idx.body);
   const texts = [['index.html', inline]];
-  for (const s of scripts.slice(0, 25)) { const r = await get(s); log(`script ${s} -> ${r.status} ${String(r.body).length} bytes`); if (r.status === 200) texts.push([s, String(r.body)]); }
+  for (const s of scripts) { const r = await get(s); log(`script ${s} -> ${r.status} ${String(r.body).length} bytes`); if (r.status === 200) texts.push([s, String(r.body)]); }
+  // keep the game's own client code (not the libraries) so the heal price rules can be read from it
+  const CL = path.join(OUT, 'client');
+  fs.mkdirSync(CL, { recursive: true });
+  for (const [name, t] of texts) {
+    const b = name.split('/').pop().split('?')[0];
+    if (name !== 'index.html' && !/^pkg\.|^image-properties/.test(b)) fs.writeFileSync(path.join(CL, b), t);
+  }
   for (const [name, t] of texts) {
     const hits = new Set();
     for (const x of t.matchAll(/["'`]([^"'`\s]{0,120}(?:mapjson|map_json|mapdata|\/maps?\/|mapID|mapUrl|mapURL|staticUrl|staticURL|static[0-9]?\.bytro)[^"'`\s]{0,120})["'`]/gi)) hits.add(x[1]);
