@@ -111,9 +111,17 @@ async function tryGame(gameId, cookies) {
   const bustR = await get(`${folder}mapjson-bust.json`);
   log(`bust file ${folder}mapjson-bust.json -> ${bustR.status} ${String(bustR.body).slice(0, 600)}`);
   let bust = null;
-  try { const bj = JSON.parse(bustR.body); bust = bj[mapID] ?? bj[String(mapID).split('_')[0]] ?? null; log('bust for map: ' + JSON.stringify(bust)); } catch (e) {}
+  let bj = {};
+  try { bj = JSON.parse(bustR.body); } catch (e) {}
+  const mine = Object.keys(bj).filter((k) => k.startsWith(mapID + '@') || k.startsWith(mapID + '.'));
+  log('bust entries for this map: ' + JSON.stringify(mine.map((k) => [k, bj[k]])));
+  if (app) { const i = app[1].indexOf('async load(e)'); if (i >= 0) log('-- code of load(): ' + app[1].slice(i, i + 1500).replace(/\s+/g, ' ')); }
+  const quality = [...mine].sort((x, y) => (/@high/.test(y) ? 1 : 0) - (/@high/.test(x) ? 1 : 0));
+  const pre = [];
+  for (const k of quality) { const h = bj[k]; pre.push(`${folder}${k}?${h}`, `${folder}${k}?bust=${h}`, `${folder}${k}`, `${folder}${k.replace('.json', '')}.${h}.json`, `${folder}${k.replace('.json', '')}_${h}.json`); }
   // candidate addresses of the full map
   const cands = new Set([
+    ...pre,
     `${folder}${mapID}.json`,
     bust != null ? `${folder}${mapID}.json?${bust}` : null,
     bust != null ? `${folder}${mapID}.json?bust=${bust}` : null,
