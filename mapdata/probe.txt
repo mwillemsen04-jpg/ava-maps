@@ -18,9 +18,10 @@ token keys: https://www_callofwar_com/clients/ww2-client-ultimate/ww2-client-ult
   token.mapJsonServer = static.supremacy1914.com
   token.staticI18n = static.supremacy1914.com
   token.tiles = static.supremacy1914.com
+premium state 14 -> 200 100053 bytes
 state 3: isReduced=true mapID=23114_3 keys=@c,isReduced,mapID,dayOfGame,width,height,usePopulation,locations,regions,overlapX,populationFactor
   state3.@c = ultshared.UltMapState
-client index: 200 372930 bytes
+client index: 200 372931 bytes
 script https://www.callofwar.com/clients/ww2-client-ultimate/ww2-client-ultimate_live/runtime.41a439.js -> 200 3777 bytes
 script https://www.callofwar.com/clients/ww2-client-ultimate/ww2-client-ultimate_live/render.8fa7dc.js -> 200 594528 bytes
 script https://www.callofwar.com/clients/ww2-client-ultimate/ww2-client-ultimate_live/templates.8ce537.js -> 200 1393538 bytes
