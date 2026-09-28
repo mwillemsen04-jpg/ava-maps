@@ -46,6 +46,7 @@ script https://www.callofwar.com/clients/ww2-client-ultimate/ww2-client-ultimate
 script https://www.callofwar.com/clients/ww2-client-ultimate/ww2-client-ultimate_live/pkg.abortcontroller-polyfill.277711.js -> 200 8305 bytes
 script https://www.callofwar.com/clients/ww2-client-ultimate/ww2-client-ultimate_live/709.875722.js -> 200 15591 bytes
 script https://www.callofwar.com/clients/ww2-client-ultimate/ww2-client-ultimate_live/app.a31df0.js -> 200 1155186 bytes
+script https://www.callofwar.com/fileadmin/js/helpshift/helpshiftInitializer.js -> 200 761 bytes
 -- hints in https://www.callofwar.com/clients/ww2-client-ultimate/ww2-client-ultimate_live/templates.8ce537.js:
    ,{domProps:{textContent:t._s(t.$data.gameVersionHelper.getMapIDAndVersion()||
    ,{domProps:{textContent:t._s(t.$data.gameVersionHelper.getMapIDAndVersion())}})]),t._v(
