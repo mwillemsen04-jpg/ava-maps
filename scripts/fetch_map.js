@@ -76,6 +76,13 @@ async function tryGame(gameId, cookies) {
   const payload = (extra) => ({ requestID: 1, '@c': 'ultshared.action.UltUpdateGameStateAction', actions: [], lastCallDuration: 150, stateIDs: {}, tstamps: {}, version: '213', client: 'ww2-client-ultimate', siteUserID: +userID, adminLevel: 0, gameID: +gameId, playerID: 0, rights: 'chat', userAuth: typeof tc === 'object' ? tc.auth : tc, tstamp: tc.authTstamp || authTstamp, ...extra });
   const post = (extra) => client.post(gs, payload(extra), { headers: { 'Content-Type': 'text/plain;charset=UTF-8', Origin: 'https://www.callofwar.com', Referer: 'https://www.callofwar.com/' }, validateStatus: () => true });
 
+  // premium state (14) holds the War Bonds price of healing ("Army Reinforcement" offer)
+  try {
+    const ps = await post({ stateType: 14 });
+    const pt = JSON.stringify(ps.data || {});
+    fs.writeFileSync(path.join(OUT, 'premium_state.json'), pt);
+    log(`premium state 14 -> ${ps.status} ${pt.length} bytes`);
+  } catch (e) { log('premium state failed: ' + e.message); }
   const st = await post({ stateType: 3 });
   const s3 = st.data?.result?.['@c'] === 'ultshared.UltMapState' ? st.data.result : (st.data?.result?.states?.['3'] || st.data?.result);
   const map = s3?.map || {};
