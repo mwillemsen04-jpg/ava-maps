@@ -83,6 +83,18 @@ async function tryGame(gameId, cookies) {
     fs.writeFileSync(path.join(OUT, 'premium_state.json'), pt);
     log(`premium state 14 -> ${ps.status} ${pt.length} bytes`);
   } catch (e) { log('premium state failed: ' + e.message); }
+  // army state (6): which armies this login can see, with their commands (route + arrival times)
+  try {
+    const as = await post({ stateType: 6 });
+    const at = JSON.stringify(as.data || {});
+    fs.writeFileSync(path.join(OUT, `army_state_${gameId}.json`), at);
+    const armies = as.data?.result?.armies || {};
+    const list = Object.values(armies).filter((a) => a && typeof a === 'object');
+    const owners = {}; let withCmd = 0;
+    for (const a of list) { owners[a.o ?? a.owner ?? a.ownerID ?? '?'] = (owners[a.o ?? a.owner ?? a.ownerID ?? '?'] || 0) + 1; if (a.commands || a.c || a.cmds) withCmd++; }
+    log(`army state 6 game ${gameId} -> ${as.status} ${at.length} bytes, ${list.length} armies, ${withCmd} with commands, owners ${JSON.stringify(owners)}`);
+    if (list[0]) log('   first army: ' + JSON.stringify(list[0]).slice(0, 1500));
+  } catch (e) { log('army state failed: ' + e.message); }
   const st = await post({ stateType: 3 });
   const s3 = st.data?.result?.['@c'] === 'ultshared.UltMapState' ? st.data.result : (st.data?.result?.states?.['3'] || st.data?.result);
   const map = s3?.map || {};
