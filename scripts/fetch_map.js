@@ -100,6 +100,23 @@ async function tryGame(gameId, cookies) {
     for (const h of hits) { const mm = h.match(/https?:\/\/[^"'`\s]+/); if (mm) templates.add(mm[0]); }
   }
 
+  // healing with War Bonds: collect every piece of client code about healing and its price
+  try {
+    const out = [];
+    for (const [name, t] of texts) {
+      const seen = new Set();
+      for (const re of [/heal/gi, /repair/gi, /hitpointsRestore|restoreHitpoints|HealArmy|healArmy|healCost|getHealPrice|premiumHeal/g]) {
+        let m; let n = 0;
+        while ((m = re.exec(t)) && n < 400) {
+          n++; const i = m.index; const key = Math.floor(i / 400);
+          if (seen.has(key)) continue; seen.add(key);
+          out.push(`--- ${name.split('/').pop()} @${i}\n` + t.slice(Math.max(0, i - 500), i + 700).replace(/\s+/g, ' '));
+        }
+      }
+    }
+    fs.writeFileSync(path.join(OUT, 'client_heal.txt'), out.join('\n\n'));
+    log(`heal code snippets: ${out.length} saved in mapdata/client_heal.txt`);
+  } catch (e) { log('heal snippets failed: ' + e.message); }
   // the client builds the map address from mapJsonServer (a client parameter) + /fileadmin/mapjson/live/ + a version file
   const app = texts.find(([n]) => /app\./.test(n));
   if (app) for (const key of ['mapJsonFolder', 'mapjson-bust', 'loadMapBusts', 'getMapJson', 'mapJsonServer']) {
