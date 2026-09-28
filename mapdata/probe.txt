@@ -19,6 +19,7 @@ token keys: https://www_callofwar_com/clients/ww2-client-ultimate/ww2-client-ult
   token.staticI18n = static.supremacy1914.com
   token.tiles = static.supremacy1914.com
 premium state 14 -> 200 100053 bytes
+army state 6 game 10920696 -> 200 192 bytes, 0 armies, 0 with commands, owners {}
 state 3: isReduced=true mapID=23114_3 keys=@c,isReduced,mapID,dayOfGame,width,height,usePopulation,locations,regions,overlapX,populationFactor
   state3.@c = ultshared.UltMapState
 client index: 200 372931 bytes
