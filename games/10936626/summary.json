@@ -3,15 +3,15 @@
  "name": "KH farm test run (AWT final)",
  "day": 2,
  "score": {
-  "G": 270,
+  "G": 300,
   "R": 250
  },
  "provinces": {
-  "G": 118,
+  "G": 124,
   "R": 111
  },
- "fetched": 1791910878264,
- "built": 1791910879926,
+ "fetched": 1791914470617,
+ "built": 1791914472718,
  "game_over": false,
  "winner": null,
  "teams": {
@@ -60,6 +60,6 @@
    }
   ]
  },
- "events": 8,
- "losses": 19
+ "events": 14,
+ "losses": 26
 }

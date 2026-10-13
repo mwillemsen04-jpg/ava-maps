@@ -300,19 +300,19 @@
       "name": "KH farm test run (AWT final)",
       "status": "live",
       "added": "2026-10-13 16:12",
-      "ran": 1791910876049,
+      "ran": 1791914468187,
       "pv": "bb342bb5d7",
       "last": {
         "day": 2,
         "score": {
-          "G": 270,
+          "G": 300,
           "R": 250
         },
         "provinces": {
-          "G": 118,
+          "G": 124,
           "R": 111
         },
-        "fetched": 1791910878264,
+        "fetched": 1791914470617,
         "winner": null,
         "teams": {
           "G": [
