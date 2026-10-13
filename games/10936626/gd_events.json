@@ -1,0 +1,87 @@
+{
+ "caps": {},
+ "loss": {},
+ "cas": {
+  "Luxembourg|Poland": {
+   "v": 275,
+   "ts": 1791900184668
+  },
+  "Belarus|Poland": {
+   "v": 607,
+   "ts": 1791900189994
+  },
+  "Czechoslovakia|Poland": {
+   "v": 238,
+   "ts": 1791900207904
+  },
+  "Italy|Poland": {
+   "v": 254,
+   "ts": 1791900215909
+  },
+  "Crimea|Poland": {
+   "v": 120,
+   "ts": 1791900460078
+  },
+  "Lithuania|Poland": {
+   "v": 271,
+   "ts": 1791900563823
+  }
+ },
+ "slots": {
+  "Germany": 1,
+  "France": 2,
+  "United Kingdom": 3,
+  "Italy": 4,
+  "Spain": 5,
+  "Communist Russia": 6,
+  "Sweden": 7,
+  "Yugoslavia": 8,
+  "Greater Romania": 9,
+  "Bulgaria": 10,
+  "Greece": 11,
+  "Turkey": 12,
+  "Portugal": 13,
+  "Northern States of America": 14,
+  "Canada": 15,
+  "Ireland": 16,
+  "Denmark": 17,
+  "Norway": 18,
+  "Greater Finland": 19,
+  "Estonia": 20,
+  "Latvia": 21,
+  "Lithuania": 22,
+  "Poland": 23,
+  "Crimea": 24,
+  "Czechoslovakia": 25,
+  "Austria": 26,
+  "Switzerland": 27,
+  "Albania": 28,
+  "Saudi-Arabia": 29,
+  "Iraq": 30,
+  "Luxembourg": 31,
+  "Belgium": 32,
+  "Netherlands": 33,
+  "Cuba": 34,
+  "Iceland": 35,
+  "Southern United States": 36,
+  "Michigan": 37,
+  "Western Sahara": 38,
+  "Morocco": 39,
+  "Algeria": 40,
+  "Tunisia": 41,
+  "Libya": 42,
+  "Egypt": 43,
+  "Syria": 44,
+  "Ukraine": 45,
+  "Caucasus": 46,
+  "Cossack Republic": 47,
+  "Russian Empire": 48,
+  "Karelia": 49,
+  "Malta": 50,
+  "Bermuda": 51,
+  "Belarus": 52,
+  "Melilla": 53
+ },
+ "news_days": [],
+ "sync": {}
+}

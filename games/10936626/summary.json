@@ -1,0 +1,65 @@
+{
+ "id": "10936626",
+ "name": "KH farm test run (AWT final)",
+ "day": 2,
+ "score": {
+  "G": 250,
+  "R": 250
+ },
+ "provinces": {
+  "G": 110,
+  "R": 111
+ },
+ "fetched": 1791900776186,
+ "built": 1791900777769,
+ "game_over": false,
+ "winner": null,
+ "teams": {
+  "G": [
+   {
+    "c": "Communist Russia",
+    "f": 3
+   },
+   {
+    "c": "France",
+    "f": 2
+   },
+   {
+    "c": "Germany",
+    "f": 1
+   },
+   {
+    "c": "Poland",
+    "f": 3
+   },
+   {
+    "c": "Southern United States",
+    "f": 4
+   }
+  ],
+  "R": [
+   {
+    "c": "Algeria",
+    "f": 2
+   },
+   {
+    "c": "Greater Romania",
+    "f": 3
+   },
+   {
+    "c": "Libya",
+    "f": 4
+   },
+   {
+    "c": "Russian Empire",
+    "f": 4
+   },
+   {
+    "c": "Ukraine",
+    "f": 1
+   }
+  ]
+ },
+ "events": 0,
+ "losses": 0
+}
