@@ -1,30 +1,100 @@
 {
- "caps": {},
- "loss": {},
+ "caps": {
+  "38": {
+   "t": 990,
+   "p": "Oujda",
+   "c": "Algeria",
+   "u": "Armored Car",
+   "cap": false,
+   "no": 3,
+   "sn": 11,
+   "frm": "Morocco"
+  }
+ },
+ "loss": {
+  "35": {
+   "t": 990,
+   "p": "Oujda",
+   "c": "Morocco",
+   "u": "Armored Car",
+   "what": "1× Armored Car, 1× Infantry",
+   "n": 2,
+   "dest": true,
+   "no": 13,
+   "byno": 3,
+   "byu": "Armored Car",
+   "byn": 11,
+   "by": "Algeria"
+  },
+  "39": {
+   "t": 993,
+   "p": "Nyasvizh",
+   "c": "Belarus",
+   "u": "Infantry",
+   "what": "1× Infantry",
+   "n": 1,
+   "dest": true,
+   "no": 2,
+   "byno": 29,
+   "byu": "Rocket Artillery",
+   "byn": 3,
+   "by": "Poland"
+  },
+  "42": {
+   "t": 1006,
+   "p": "Vilnius",
+   "c": "Lithuania",
+   "u": "Infantry",
+   "what": "1× Infantry",
+   "n": 1,
+   "dest": true,
+   "no": 1,
+   "byno": 15,
+   "byu": "Anti Air",
+   "byn": 2,
+   "by": "Poland"
+  }
+ },
  "cas": {
   "Luxembourg|Poland": {
-   "v": 275,
+   "v": 650,
    "ts": 1791900184668
   },
   "Belarus|Poland": {
-   "v": 607,
+   "v": 950,
    "ts": 1791900189994
   },
   "Czechoslovakia|Poland": {
-   "v": 238,
+   "v": 380,
    "ts": 1791900207904
   },
   "Italy|Poland": {
-   "v": 254,
+   "v": 425,
    "ts": 1791900215909
   },
   "Crimea|Poland": {
-   "v": 120,
+   "v": 282,
    "ts": 1791900460078
   },
   "Lithuania|Poland": {
-   "v": 271,
+   "v": 909,
    "ts": 1791900563823
+  },
+  "Switzerland|Poland": {
+   "v": 559,
+   "ts": 1791900896685
+  },
+  "Algeria|Morocco": {
+   "v": 776,
+   "ts": 1791901842928
+  },
+  "Morocco|Algeria": {
+   "v": 2000,
+   "ts": 1791901842928
+  },
+  "Poland|Lithuania": {
+   "v": 69,
+   "ts": 1791902785961
   }
  },
  "slots": {
@@ -83,5 +153,20 @@
   "Melilla": 53
  },
  "news_days": [],
- "sync": {}
+ "sync": {},
+ "stats": {
+  "lost": {
+   "Lithuania": {
+    "Infantry": 1
+   },
+   "Morocco": {
+    "Armored Car": 1,
+    "Infantry": 1
+   },
+   "Belarus": {
+    "Infantry": 1
+   }
+  },
+  "ts": 1791903669497
+ }
 }

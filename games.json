@@ -72,7 +72,8 @@
       "folders": [
         "KH",
         "PHK"
-      ]
+      ],
+      "pv_failed": "bb342bb5d7"
     },
     {
       "id": "10911706",
@@ -145,7 +146,8 @@
         "IA",
         "MOB"
       ],
-      "pv": "24b00391d8"
+      "pv": "24b00391d8",
+      "pv_failed": "bb342bb5d7"
     },
     {
       "id": "10920696",
@@ -217,7 +219,8 @@
       "ended": "2026-09-27 11:23",
       "folders": [
         "Speedstars"
-      ]
+      ],
+      "pv_failed": "bb342bb5d7"
     },
     {
       "id": "10922880",
@@ -289,26 +292,27 @@
       "ended": "2026-09-27 08:02",
       "folders": [
         "Speedstars"
-      ]
+      ],
+      "pv_failed": "bb342bb5d7"
     },
     {
       "id": "10936626",
       "name": "KH farm test run (AWT final)",
       "status": "live",
       "added": "2026-10-13 16:12",
-      "ran": 1791900774669,
-      "pv": "24b00391d8",
+      "ran": 1791903667243,
+      "pv": "bb342bb5d7",
       "last": {
         "day": 2,
         "score": {
           "G": 250,
-          "R": 250
+          "R": 260
         },
         "provinces": {
           "G": 110,
-          "R": 111
+          "R": 112
         },
-        "fetched": 1791900776186,
+        "fetched": 1791903669497,
         "winner": null,
         "teams": {
           "G": [
