@@ -360,6 +360,22 @@
             }
           ]
         }
+      },
+      "teams": {
+        "G": [
+          "Algeria",
+          "France",
+          "Germany",
+          "Poland",
+          "Ukraine"
+        ],
+        "R": [
+          "Communist Russia",
+          "Greater Romania",
+          "Libya",
+          "Russian Empire",
+          "Southern United States"
+        ]
       }
     }
   ],
