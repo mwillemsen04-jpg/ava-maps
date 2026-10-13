@@ -300,25 +300,25 @@
       "name": "KH farm test run (AWT final)",
       "status": "live",
       "added": "2026-10-13 16:12",
-      "ran": 1791903667243,
+      "ran": 1791907266472,
       "pv": "bb342bb5d7",
       "last": {
         "day": 2,
         "score": {
-          "G": 250,
-          "R": 260
+          "G": 260,
+          "R": 250
         },
         "provinces": {
-          "G": 110,
-          "R": 112
+          "G": 115,
+          "R": 111
         },
-        "fetched": 1791903669497,
+        "fetched": 1791907268249,
         "winner": null,
         "teams": {
           "G": [
             {
-              "c": "Communist Russia",
-              "f": 3
+              "c": "Algeria",
+              "f": 2
             },
             {
               "c": "France",
@@ -333,14 +333,14 @@
               "f": 3
             },
             {
-              "c": "Southern United States",
-              "f": 4
+              "c": "Ukraine",
+              "f": 1
             }
           ],
           "R": [
             {
-              "c": "Algeria",
-              "f": 2
+              "c": "Communist Russia",
+              "f": 3
             },
             {
               "c": "Greater Romania",
@@ -355,8 +355,8 @@
               "f": 4
             },
             {
-              "c": "Ukraine",
-              "f": 1
+              "c": "Southern United States",
+              "f": 4
             }
           ]
         }

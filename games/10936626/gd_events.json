@@ -9,6 +9,46 @@
    "no": 3,
    "sn": 11,
    "frm": "Morocco"
+  },
+  "34": {
+   "t": 1030,
+   "p": "Souk El Arba",
+   "c": "Algeria",
+   "u": "Infantry",
+   "cap": false,
+   "no": 8,
+   "sn": 5,
+   "frm": "Tunisia"
+  },
+  "39": {
+   "t": 1036,
+   "p": "Cuneo",
+   "c": "France",
+   "u": "Armored Car",
+   "cap": false,
+   "no": 1,
+   "sn": 1,
+   "frm": "Italy"
+  },
+  "45": {
+   "t": 1046,
+   "p": "Kherson",
+   "c": "Poland",
+   "u": "Infantry",
+   "cap": false,
+   "no": 11,
+   "sn": 2,
+   "frm": "Crimea"
+  },
+  "53": {
+   "t": 1060,
+   "p": "Liberec",
+   "c": "Poland",
+   "u": "Infantry",
+   "cap": false,
+   "no": 17,
+   "sn": 2,
+   "frm": "Czechoslovakia"
   }
  },
  "loss": {
@@ -53,6 +93,104 @@
    "byu": "Anti Air",
    "byn": 2,
    "by": "Poland"
+  },
+  "31": {
+   "t": 1030,
+   "p": "Souk El Arba",
+   "c": "Tunisia",
+   "u": "Infantry",
+   "what": "1× Infantry",
+   "n": 1,
+   "dest": true,
+   "no": 3,
+   "byno": 8,
+   "byu": "Infantry",
+   "byn": 5,
+   "by": "Algeria"
+  },
+  "37": {
+   "t": 1036,
+   "p": "Cuneo",
+   "c": "Italy",
+   "u": "Infantry",
+   "what": "1× Infantry",
+   "n": 1,
+   "dest": true,
+   "no": 8,
+   "byno": 6,
+   "byu": "Infantry",
+   "byn": 2,
+   "by": "Poland"
+  },
+  "43": {
+   "t": 1046,
+   "p": "Kherson",
+   "c": "Crimea",
+   "u": "Infantry",
+   "what": "1× Infantry",
+   "n": 1,
+   "dest": true,
+   "no": 2,
+   "byno": 12,
+   "byu": "Infantry",
+   "byn": 1,
+   "by": "Ukraine"
+  },
+  "51": {
+   "t": 1060,
+   "p": "Liberec",
+   "c": "Czechoslovakia",
+   "u": "Infantry",
+   "what": "1× Infantry",
+   "n": 1,
+   "dest": true,
+   "no": 4,
+   "byno": 17,
+   "byu": "Infantry",
+   "byn": 2,
+   "by": "Poland"
+  },
+  "56": {
+   "t": 1070,
+   "p": "Freiburg",
+   "c": "Switzerland",
+   "u": "Infantry",
+   "what": "1× Infantry",
+   "n": 1,
+   "dest": true,
+   "no": 1,
+   "byno": 15,
+   "byu": "Infantry",
+   "byn": 1,
+   "by": "Ukraine"
+  },
+  "60": {
+   "t": 1073,
+   "p": "Barcelona",
+   "c": "Spain",
+   "u": "Anti Tank",
+   "what": "1× Anti Tank, 1× Infantry",
+   "n": 2,
+   "dest": true,
+   "no": 3,
+   "byno": 25,
+   "byu": "Tactical Bomber",
+   "byn": 5,
+   "by": "France"
+  },
+  "62": {
+   "t": 1074,
+   "p": null,
+   "c": "Italy",
+   "u": "Armored Car",
+   "what": "1× Infantry",
+   "n": 1,
+   "dest": false,
+   "no": 6,
+   "byno": null,
+   "byu": null,
+   "byn": null,
+   "by": null
   }
  },
  "cas": {
@@ -65,16 +203,16 @@
    "ts": 1791900189994
   },
   "Czechoslovakia|Poland": {
-   "v": 380,
-   "ts": 1791900207904
+   "v": 430,
+   "ts": 1791904184957
   },
   "Italy|Poland": {
-   "v": 425,
-   "ts": 1791900215909
+   "v": 529,
+   "ts": 1791903853636
   },
   "Crimea|Poland": {
-   "v": 282,
-   "ts": 1791900460078
+   "v": 397,
+   "ts": 1791904122619
   },
   "Lithuania|Poland": {
    "v": 909,
@@ -95,6 +233,66 @@
   "Poland|Lithuania": {
    "v": 69,
    "ts": 1791902785961
+  },
+  "France|Italy": {
+   "v": 429,
+   "ts": 1791904074407
+  },
+  "Italy|France": {
+   "v": 2243,
+   "ts": 1791904074407
+  },
+  "France|Spain": {
+   "v": 301,
+   "ts": 1791904122287
+  },
+  "Spain|France": {
+   "v": 1880,
+   "ts": 1791904122287
+  },
+  "Algeria|Tunisia": {
+   "v": 451,
+   "ts": 1791904227949
+  },
+  "Tunisia|Algeria": {
+   "v": 1050,
+   "ts": 1791904227949
+  },
+  "Poland|Italy": {
+   "v": 109,
+   "ts": 1791904574842
+  },
+  "Poland|Crimea": {
+   "v": 137,
+   "ts": 1791905089988
+  },
+  "Ukraine|Crimea": {
+   "v": 100,
+   "ts": 1791905162974
+  },
+  "Crimea|Ukraine": {
+   "v": 131,
+   "ts": 1791905162974
+  },
+  "Luxembourg|Belgium": {
+   "v": 343,
+   "ts": 1791905555911
+  },
+  "Belgium|Luxembourg": {
+   "v": 107,
+   "ts": 1791905555911
+  },
+  "Poland|Czechoslovakia": {
+   "v": 80,
+   "ts": 1791906038019
+  },
+  "Switzerland|Ukraine": {
+   "v": 262,
+   "ts": 1791906606743
+  },
+  "Ukraine|Switzerland": {
+   "v": 106,
+   "ts": 1791906606743
   }
  },
  "slots": {
@@ -156,17 +354,36 @@
  "sync": {},
  "stats": {
   "lost": {
+   "Italy": {
+    "Infantry": 2
+   },
+   "Spain": {
+    "Infantry": 1,
+    "Anti Tank": 1
+   },
    "Lithuania": {
+    "Infantry": 1
+   },
+   "Crimea": {
+    "Infantry": 1
+   },
+   "Czechoslovakia": {
+    "Infantry": 1
+   },
+   "Switzerland": {
     "Infantry": 1
    },
    "Morocco": {
     "Armored Car": 1,
     "Infantry": 1
    },
+   "Tunisia": {
+    "Infantry": 1
+   },
    "Belarus": {
     "Infantry": 1
    }
   },
-  "ts": 1791903669497
+  "ts": 1791907268249
  }
 }
