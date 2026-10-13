@@ -269,6 +269,26 @@
    "no": 13,
    "sn": 1,
    "frm": "Spain"
+  },
+  "174": {
+   "t": 1479,
+   "p": "Bruxelles",
+   "c": "Poland",
+   "u": "Infantry",
+   "cap": true,
+   "no": 16,
+   "sn": 2,
+   "frm": "Belgium"
+  },
+  "178": {
+   "t": 1496,
+   "p": "Rabat",
+   "c": "Morocco",
+   "u": "Infantry",
+   "cap": false,
+   "no": 11,
+   "sn": 1,
+   "frm": "Algeria"
   }
  },
  "loss": {
@@ -957,6 +977,34 @@
    "byu": "Rocket Artillery",
    "byn": 1,
    "by": "Poland"
+  },
+  "172": {
+   "t": 1479,
+   "p": "Bruxelles",
+   "c": "Belgium",
+   "u": "Anti Tank",
+   "what": "1× Anti Tank",
+   "n": 1,
+   "dest": true,
+   "no": 2,
+   "byno": 3,
+   "byu": "Infantry",
+   "byn": 1,
+   "by": "Germany"
+  },
+  "176": {
+   "t": 1483,
+   "p": "Tyrrhenian Sea",
+   "c": "Germany",
+   "u": "Anti Air",
+   "what": "1× Anti Air",
+   "n": 1,
+   "dest": true,
+   "no": 9,
+   "byno": 20,
+   "byu": "Anti Tank",
+   "byn": 1,
+   "by": "Italy"
   }
  },
  "cas": {
@@ -969,11 +1017,11 @@
    "ts": 1791900189994
   },
   "Czechoslovakia|Poland": {
-   "v": 4252,
+   "v": 4417,
    "ts": 1791904184957
   },
   "Italy|Poland": {
-   "v": 2481,
+   "v": 2663,
    "ts": 1791903853636
   },
   "Crimea|Poland": {
@@ -981,7 +1029,7 @@
    "ts": 1791904122619
   },
   "Lithuania|Poland": {
-   "v": 1879,
+   "v": 2199,
    "ts": 1791904163823
   },
   "Switzerland|Poland": {
@@ -1061,24 +1109,32 @@
    "ts": 1791906606743
   },
   "Belgium|Poland": {
-   "v": 2659,
+   "v": 3296,
    "ts": 1791910052041
   },
   "Italy|Germany": {
-   "v": 1426,
+   "v": 1544,
    "ts": 1791910154017
   },
   "Germany|Italy": {
-   "v": 2065,
+   "v": 2312,
    "ts": 1791910154017
   },
   "Poland|Belgium": {
-   "v": 123,
+   "v": 171,
    "ts": 1791914131595
   },
   "Germany|Czechoslovakia": {
    "v": 182,
    "ts": 1791923187962
+  },
+  "Germany|Belgium": {
+   "v": 120,
+   "ts": 1791929364235
+  },
+  "Belgium|Germany": {
+   "v": 379,
+   "ts": 1791929364235
   }
  },
  "slots": {
@@ -1141,12 +1197,13 @@
  "stats": {
   "lost": {
    "Germany": {
-    "Infantry": 1
+    "Infantry": 1,
+    "Anti Air": 1
    },
    "Italy": {
     "Armored Car": 1,
-    "Anti Tank": 2,
-    "Infantry": 7
+    "Infantry": 7,
+    "Anti Tank": 2
    },
    "Spain": {
     "Infantry": 4,
@@ -1173,15 +1230,16 @@
     "Anti Tank": 1
    },
    "Belgium": {
-    "Infantry": 1,
-    "Anti Air": 1
+    "Anti Air": 1,
+    "Anti Tank": 1,
+    "Infantry": 1
    },
    "Morocco": {
-    "Armored Car": 1,
+    "Anti Tank": 2,
     "Infantry": 7,
-    "Interceptor": 1,
+    "Armored Car": 1,
     "Anti Air": 1,
-    "Anti Tank": 2
+    "Interceptor": 1
    },
    "Tunisia": {
     "Anti Tank": 1,
@@ -1191,6 +1249,6 @@
     "Infantry": 1
    }
   },
-  "ts": 1791928873451
+  "ts": 1791932466198
  }
 }
