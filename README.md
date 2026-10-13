@@ -119,6 +119,11 @@ In manage mode, type the game code under **New map** and click **Create**. Withi
 
 This also works for a game that is already running or has already ended: the whole history from day 2 is fetched from the game's newspapers of earlier days. A game that has ended goes straight to *Saved games*.
 
+### Teams (green and red)
+Normally the teams come from the game itself: every human player with team 1 is green, team 2 is red. When that is not right (no teams in the lobby, or the real sides are different), open the map in manage mode and click **⚑ Teams** (next to 🎥 Video). Set every country to **Green**, **Red** or **None** (AI countries can be put in a team too) and click **Save teams**. After 1–3 minutes the map is rebuilt and everything follows the new teams: colours, captures, unit losses, AI deaths, unit paths, scoreboard, country filter, the overview page and videos. The legend then says *Teams set by hand*. **Use the game's teams** goes back to the automatic teams.
+
+The choice is kept in `games.json` (`"teams": {"G": [...], "R": [...]}`). Without manage mode: a GitHub issue titled `Set teams <game code>` with the lines `Green: France; Germany` and `Red: Libya; Ukraine` (or `Teams: automatic`), or `python3 scripts/manage.py teams <game code> "Green: …" "Red: …"`.
+
 ### How often a map is updated
 Every map has **Update every** at the top right: 15 min, 30 min, 1 hour (default), 2 hours or 4 hours. Choosing a value opens a filled-in GitHub form: click **Submit new issue** and the new pace applies from the next round.
 

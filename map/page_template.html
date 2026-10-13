@@ -226,7 +226,7 @@ footer .legend .chip{margin:0;width:10px;height:10px}
 /* phone: the event list grows with the page instead of being a (collapsed) box of its own, so it simply scrolls with the page */
 @media (max-width:820px){aside{max-height:none;contain:none}.feed{contain:none;overflow:visible;flex:none}}
 /* video: the dialog to order a video, and the recording mode GitHub uses (#video=... in the address) */
-.vbtn{height:34px;padding:0 12px;border:1px solid var(--line);border-radius:6px;background:var(--panel2);color:var(--text);font-family:var(--display);font-size:14px;letter-spacing:.04em;cursor:pointer}
+.vbtn{white-space:nowrap;flex:none;height:34px;padding:0 12px;border:1px solid var(--line);border-radius:6px;background:var(--panel2);color:var(--text);font-family:var(--display);font-size:14px;letter-spacing:.04em;cursor:pointer}
 .vbtn:hover{border-color:var(--brass)}
 #vdlg{background:var(--panel,#12161d);color:var(--text);border:1px solid var(--line);border-radius:10px;padding:18px 20px;max-width:440px;width:calc(100% - 32px)}
 #vdlg::backdrop{background:rgba(0,0,0,.6)}
@@ -240,6 +240,28 @@ footer .legend .chip{margin:0;width:10px;height:10px}
 #vdlg .acts{display:flex;justify-content:flex-end;gap:8px;margin-top:14px}
 #vdlg .acts a,#vdlg .acts button{height:34px;padding:0 14px;border-radius:6px;border:1px solid var(--line);background:var(--panel2);color:var(--text);font:inherit;cursor:pointer;display:inline-flex;align-items:center;text-decoration:none}
 #vdlg .acts .go{background:var(--brass,#c9a45c);border-color:var(--brass,#c9a45c);color:#0a0c10;font-weight:700}
+#tdlg{background:var(--panel,#12161d);color:var(--text);border:1px solid var(--line);border-radius:10px;padding:18px 20px;max-width:520px;width:calc(100% - 32px);max-height:calc(100% - 40px)}
+#tdlg::backdrop{background:rgba(0,0,0,.6)}
+#tdlg h3{margin:0 0 6px;font-family:var(--display);letter-spacing:.06em}
+#tdlg .note{font-size:12px;color:var(--muted);margin:6px 0 10px;line-height:1.45}
+#tdlg .tsum{display:flex;gap:14px;font-size:13px;margin:0 0 8px}#tdlg .tsum b.g{color:var(--green)}#tdlg .tsum b.r{color:var(--red)}
+#tdlg .tlist{max-height:min(52vh,460px);overflow:auto;border:1px solid var(--line);border-radius:8px}
+#tdlg .tgrp{position:sticky;top:0;background:var(--panel2);font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--brass);padding:5px 10px;z-index:1}
+#tdlg .trow{display:flex;align-items:center;gap:8px;padding:5px 10px;border-top:1px solid var(--line)}
+#tdlg .trow span{flex:1;font-size:14px;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+#tdlg .trow small{color:var(--muted);font-size:11px;margin-left:6px}
+#tdlg .seg{display:flex;border:1px solid var(--line);border-radius:6px;overflow:hidden;flex:none}
+#tdlg .seg button{min-width:52px;height:28px;border:0;border-left:1px solid var(--line);background:var(--panel2);color:var(--muted);font:600 12px var(--body);cursor:pointer;padding:0 8px}
+#tdlg .seg button:first-child{border-left:0}
+#tdlg .seg button[aria-pressed=true].g{background:var(--green);color:#06210f}
+#tdlg .seg button[aria-pressed=true].r{background:var(--red);color:#2a0606}
+#tdlg .seg button[aria-pressed=true].n{background:var(--line);color:var(--text)}
+#tdlg .acts{display:flex;justify-content:flex-end;gap:8px;margin-top:14px;flex-wrap:wrap}
+#tdlg .acts button,#tdlg .acts a{height:34px;padding:0 14px;border-radius:6px;border:1px solid var(--line);background:var(--panel2);color:var(--text);font:inherit;cursor:pointer;display:inline-flex;align-items:center;text-decoration:none}
+#tdlg .acts .go{background:var(--brass,#c9a45c);border-color:var(--brass,#c9a45c);color:#0a0c10;font-weight:700}
+#tdlg .acts .auto{margin-right:auto}
+#tdlg .err{color:#f87171;font-size:13px;margin:8px 0 0}
+.legend .byhand{color:var(--brass)}
 body.vid .app{grid-template-rows:auto 1fr;grid-template-columns:1fr;grid-template-areas:"top" "map"}
 body.vid aside,body.vid footer,body.vid .zoom,body.vid .hint,body.vid #upd,body.vid #everyw,body.vid .back{display:none!important}
 body.vid *,body.vid *::before,body.vid *::after{animation:none!important;transition:none!important}
@@ -276,7 +298,7 @@ body.vid .map{cursor:default}
       <label class="hrs" title="Only show what happened in the last hours before the timeline position; older events are hidden"><span>Window</span><input id="trail" type="number" min="1" step="1" inputmode="numeric" placeholder="…" aria-label="Only show the last number of hours before the timeline position"><span>h</span></label>
       <div class="presets"><button type="button" class="war" id="war" aria-pressed="false" title="The war from the start of day 4 with a 3-hour window: captures, losses, unit info and unit paths. Press Play or the space bar">War settings</button><button type="button" class="war" id="aiset" aria-pressed="false" title="Show every AI unit that died, with unit info">AI loss settings</button><button type="button" class="war" id="plset" aria-pressed="false" title="Only the units the players lost, with all reports">Player unit loss settings</button></div>
       <select id="who" aria-label="Show country"><option value="all">All countries</option><option value="G">Team green</option><option value="R">Team red</option></select>
-      <div class="toggles"><label class="opt" title="On: who, which units and unit numbers on the map (zoom in, or turn on All reports). Off: only place and time"><input type="checkbox" id="lab" checked><span>Unit info</span></label><label class="opt"><input type="checkbox" id="ecaps" checked><span>Captures</span></label><label class="opt"><input type="checkbox" id="loss"><span>Unit losses</span></label><label class="opt" title="Every unit of a non-team (AI) country that died, whoever killed it"><input type="checkbox" id="airep"><span>AI deaths</span></label><label class="opt" title="Show every report at once, also when zoomed out"><input type="checkbox" id="allrep"><span>All reports</span></label><label class="opt"><input type="checkbox" id="paths"><span>Unit paths</span></label></div><button type="button" class="vbtn adm" id="vopen" title="Make a video of the map with the settings you have now">&#127909; Video</button>
+      <div class="toggles"><label class="opt" title="On: who, which units and unit numbers on the map (zoom in, or turn on All reports). Off: only place and time"><input type="checkbox" id="lab" checked><span>Unit info</span></label><label class="opt"><input type="checkbox" id="ecaps" checked><span>Captures</span></label><label class="opt"><input type="checkbox" id="loss"><span>Unit losses</span></label><label class="opt" title="Every unit of a non-team (AI) country that died, whoever killed it"><input type="checkbox" id="airep"><span>AI deaths</span></label><label class="opt" title="Show every report at once, also when zoomed out"><input type="checkbox" id="allrep"><span>All reports</span></label><label class="opt"><input type="checkbox" id="paths"><span>Unit paths</span></label></div><button type="button" class="vbtn adm" id="vopen" title="Make a video of the map with the settings you have now">&#127909; Video</button><button type="button" class="vbtn adm" id="topen" title="Choose by hand which countries are in team green and team red (when the game itself does not have the right teams)">&#9873; Teams</button>
     </div>
     <div class="track">
       <div class="ticks" id="ticks"></div>
@@ -285,7 +307,7 @@ body.vid .map{cursor:default}
     </div>
     <div class="legend">
       <span><i class="chip" style="background:var(--green)"></i>Team green</span>
-      <span><i class="chip" style="background:var(--red)"></i>Team red</span>
+      <span><i class="chip" style="background:var(--red)"></i>Team red</span><span class="byhand" id="byhand" hidden>Teams set by hand</span>
       <span><i class="chip" style="background:var(--yellow)"></i>Recaptured by a non-team country</span>
       <span><i class="chip" style="background:var(--orange)"></i>Revolt</span>
       <span><i class="lostic" aria-hidden="true">✕</i>Unit lost</span>
@@ -305,6 +327,14 @@ body.vid .map{cursor:default}
   Clicking <b>Make video</b> opens a short GitHub form: press <b>Submit new issue</b>. After a few minutes the download link appears there (you also get a mail), and under <a id="vall" target="_blank" rel="noopener" href="#">all videos</a>.</p>
   <p class="note" id="vno" hidden>Not on GitHub yet: videos can only be made on the GitHub site.</p>
   <div class="acts"><button type="button" id="vcancel">Cancel</button><a class="go" id="vgo" href="#" target="_blank" rel="noopener">Make video</a></div>
+</dialog>
+<dialog id="tdlg" aria-labelledby="tdt"><h3 id="tdt">&#9873; Teams</h3>
+  <p class="note" id="tsrc"></p>
+  <div class="tsum" id="tsum"></div>
+  <div class="tlist" id="tlist"></div>
+  <p class="err" id="terr" hidden></p>
+  <p class="note">Every part of the map follows these teams: colours, captures, losses, AI deaths, scoreboard, country filter and the overview page. Saving takes 1–3 minutes, then the map reloads.</p>
+  <div class="acts"><button type="button" class="auto" id="tauto" hidden>Use the game's teams</button><button type="button" id="tcancel">Cancel</button><button type="button" class="go" id="tsave">Save teams</button></div>
 </dialog>
 <script>
 const D=JSON.parse(document.getElementById('data').textContent);
@@ -683,6 +713,34 @@ T=TO;slider.value=T;focusEurope();render();
  [vf,vt,$('vspeed'),$('vsize')].forEach(x=>x.addEventListener('change',upd));document.querySelectorAll('input[name=vview]').forEach(x=>x.addEventListener('change',upd));
  $('vcancel').addEventListener('click',()=>$('vdlg').close());$('vgo').addEventListener('click',()=>setTimeout(()=>$('vdlg').close(),300));
  if(!D.gid)$('vopen').hidden=true;}
+// Teams: choose by hand which countries are green and red (manage mode). Saved as a "Set teams <game>" request;
+// the map is then rebuilt with those teams, so every function (colours, losses, scoreboard, filter) follows them.
+{if(D.teamsBy==='hand')$('byhand').hidden=false;
+ const dlg=$('tdlg'),list=$('tlist'),DOC={1:'Axis',2:'Allies',3:'Comintern',4:'Pan-Asian'};
+ let pick={};
+ const cur=()=>{const m={};for(const k of ['G','R'])((D.teams&&D.teams[k])||[]).forEach(c=>m[c]=k);return m};
+ const esc=s=>String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+ function sum(){const g=Object.values(pick).filter(v=>v==='G').length,r=Object.values(pick).filter(v=>v==='R').length;
+   $('tsum').innerHTML='<span>Team green: <b class="g">'+g+'</b></span><span>Team red: <b class="r">'+r+'</b></span>';$('terr').hidden=true}
+ function draw(){const N=(D.nations&&D.nations.length?D.nations:[...new Set([...(D.teams?.G||[]),...(D.teams?.R||[])])].map(c=>({c,h:true})));
+   const extra=Object.keys(pick).filter(c=>!N.some(n=>n.c===c)).map(c=>({c,h:true}));
+   const row=n=>{const v=pick[n.c]||'';return `<div class="trow" data-c="${esc(n.c)}"><span title="${esc(n.c)}">${esc(n.c)}${n.f&&DOC[n.f]?'<small>'+DOC[n.f]+'</small>':''}</span><div class="seg" role="group" aria-label="${esc(n.c)}"><button type="button" class="g" data-v="G" aria-pressed="${v==='G'}">Green</button><button type="button" class="r" data-v="R" aria-pressed="${v==='R'}">Red</button><button type="button" class="n" data-v="" aria-pressed="${!v}">None</button></div></div>`};
+   const H=[...N,...extra].filter(n=>n.h),A=[...N,...extra].filter(n=>!n.h);
+   list.innerHTML=(H.length?'<div class="tgrp">Players</div>'+H.map(row).join(''):'')+(A.length?'<div class="tgrp">AI countries</div>'+A.map(row).join(''):'');sum()}
+ list.addEventListener('click',e=>{const b=e.target.closest('button[data-v]');if(!b)return;const c=b.closest('.trow').dataset.c;
+   if(b.dataset.v)pick[c]=b.dataset.v;else delete pick[c];b.parentNode.querySelectorAll('button').forEach(x=>x.setAttribute('aria-pressed',x===b));sum()});
+ const go=body=>{if(!D.repo){$('terr').textContent='Not on GitHub yet: teams can only be changed on the GitHub site.';$('terr').hidden=false;return}
+   window.open('https://github.com/'+D.repo+'/issues/new?title='+encodeURIComponent('Set teams '+D.gid)+'&body='+encodeURIComponent(body),'_blank','noopener');dlg.close()};
+ $('topen').addEventListener('click',()=>{if(timer)stop();pick=cur();
+   const gm=D.teamsGame||{},gt=(gm.G||[]).length&&(gm.R||[]).length;
+   $('tsrc').textContent=D.teamsBy==='hand'?'The teams on this map are set by hand.'+(gt?' The game itself has: green '+gm.G.join(', ')+' · red '+gm.R.join(', ')+'.':' The game itself has no teams.'):'The teams now come from the game itself (the players’ team in the lobby). Change them here when that is not right.';
+   $('tauto').hidden=D.teamsBy!=='hand';draw();dlg.showModal()});
+ $('tcancel').addEventListener('click',()=>dlg.close());
+ $('tauto').addEventListener('click',()=>go('Teams: automatic'));
+ $('tsave').addEventListener('click',()=>{const G=Object.keys(pick).filter(c=>pick[c]==='G').sort(),R=Object.keys(pick).filter(c=>pick[c]==='R').sort();
+   if(!G.length||!R.length){$('terr').textContent='Choose at least one country for each team.';$('terr').hidden=false;return}
+   go('Green: '+G.join('; ')+'\nRed: '+R.join('; '))});
+ if(!D.gid)$('topen').hidden=true;}
 // recording mode: only the map (with the top bar: name, score and clock), fixed settings, no animations;
 // the recorder calls __frame(t) for every picture
 const VID=(()=>{try{const m=location.hash.match(/^#video=(.+)$/);return m?JSON.parse(decodeURIComponent(m[1])):null}catch(e){return null}})();

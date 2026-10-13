@@ -29,7 +29,22 @@ d = json.load(open(G('frozen.json'), encoding='utf-8')) if os.path.exists(G('fro
 d['t0'] = T0
 d['base'] = [BASE.year, BASE.month, BASE.day]
 gd = json.load(open(G('gd_events.json'), encoding='utf-8')) if os.path.exists(G('gd_events.json')) else {'caps': {}, 'loss': {}}
-T = gd.get('teams') or T_FALLBACK
+REG = next((g for g in load_registry()['games'] if str(g['id']) == str(GID)), {'id': GID})
+T_GAME = gd.get('teams') or T_FALLBACK   # the teams the game itself has (human players with team 1 / team 2)
+# teams chosen by hand on the map page (Teams button, games.json -> "teams": {"G": [...], "R": [...]}): used instead
+# of the game's own teams when the game does not have the real sides (e.g. no teams set in the lobby)
+_man = REG.get('teams') if isinstance(REG.get('teams'), dict) else None
+if _man and _man.get('G') and _man.get('R'):
+    T = {**{c: 'G' for c in _man['G']}, **{c: 'R' for c in _man['R']}}
+    d['teamsBy'] = 'hand'
+else:
+    T = T_GAME
+    d['teamsBy'] = 'game'
+d['teamsGame'] = {k: sorted(n for n, v in T_GAME.items() if v == k) for k in 'GR'}
+# every nation in this game (for the Teams dialog): human players first, then the AI nations
+_pl = [p for k, p in _st['1']['players'].items() if isinstance(p, dict) and str(k).lstrip('-').isdigit() and int(k) > 0 and p.get('nationName')]
+d['nations'] = sorted(({'c': p['nationName'], 'h': bool(p.get('siteUserID', -1) not in (-1, 0, None) and not p.get('computerPlayer')),
+                        'f': p.get('faction')} for p in _pl), key=lambda x: (not x['h'], x['c']))
 cs = json.load(open(G('cap_seed.json'), encoding='utf-8')) if os.path.exists(G('cap_seed.json')) else {}
 n2s = json.load(open('name2seed.json', encoding='utf-8')) if os.path.exists('name2seed.json') else {}
 clean = lambda s: re.sub(r"^[^A-Za-zÀ-ÿ]+|[^A-Za-zÀ-ÿ]+$", '', s)
@@ -397,7 +412,6 @@ if os.path.exists('routes_dtg.json'):
         print('  routes skipped:', _e)
 
 # ---- this game's entry in the database: name, status, and a summary for the overview page ----
-REG = next((g for g in load_registry()['games'] if str(g['id']) == str(GID)), {'id': GID})
 d['gid'] = GID
 d['every'] = int(REG.get('every') or 60)          # update interval chosen on the page (minutes)
 d['ran'] = REG.get('ran') or d['built']           # last real update (a rebuild without new data keeps it)
@@ -410,7 +424,7 @@ _owner = {l['n']: _nat.get(l.get('o')) for l in _st['3']['map']['locations'] if 
 _score = {k: 10 * sum(1 for c in d.get('cities', []) if T.get(_owner.get(c)) == k) for k in 'GR'}
 _prov = {k: sum(1 for o in _owner.values() if T.get(o) == k) for k in 'GR'}
 game_over = bool(_gi.get('endOfGame')) or _rank.get('winnerTeam', -1) not in (-1, None, 0)
-winner = {1: 'G', 2: 'R'}.get(_rank.get('winnerTeam'))
+winner = {1: 'G', 2: 'R'}.get(_rank.get('winnerTeam')) if d['teamsBy'] == 'game' else None   # the game's team 1/2 is not our green/red when teams are set by hand
 if REG.get('status') == 'saved':
     d['ended'] = 'Game ended' if REG.get('reason') == 'ended' else 'Stopped and saved'
 summary = dict(id=GID, name=NAME, day=_gi.get('dayOfGame'), score=_score, provinces=_prov, fetched=d.get('fetched'),

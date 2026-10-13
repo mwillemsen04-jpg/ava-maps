@@ -19,7 +19,7 @@ on:
         description: 'Name (for add) or folder (for stop / move / folder / delete-folder)'
         required: false
   issues:
-    types: [opened]               # requests from the website buttons (Add / Stop / Move / Delete game, Create / Delete folder)
+    types: [opened]               # requests from the website buttons (Add / Stop / Move / Delete game, Create / Delete folder, Teams)
   push:
     branches: [main]
     paths: ['requests/**', '!requests/video-*']   # a request from the site's manage mode (⚙️): handled straight away
@@ -45,7 +45,7 @@ jobs:
       (github.event_name != 'issues' && github.event_name != 'push') ||
       (github.event_name == 'push' && github.actor != 'github-actions[bot]') ||
       (contains(fromJSON('["OWNER","MEMBER","COLLABORATOR"]'), github.event.issue.author_association) &&
-       (startsWith(github.event.issue.title, 'Add game') || startsWith(github.event.issue.title, 'Stop game') || startsWith(github.event.issue.title, 'Move game') || startsWith(github.event.issue.title, 'Set update') || startsWith(github.event.issue.title, 'Delete game') || startsWith(github.event.issue.title, 'Create folder') || startsWith(github.event.issue.title, 'Delete folder') || startsWith(github.event.issue.title, 'Rename game') || startsWith(github.event.issue.title, 'Rename folder')))
+       (startsWith(github.event.issue.title, 'Add game') || startsWith(github.event.issue.title, 'Stop game') || startsWith(github.event.issue.title, 'Move game') || startsWith(github.event.issue.title, 'Set update') || startsWith(github.event.issue.title, 'Delete game') || startsWith(github.event.issue.title, 'Create folder') || startsWith(github.event.issue.title, 'Delete folder') || startsWith(github.event.issue.title, 'Rename game') || startsWith(github.event.issue.title, 'Rename folder') || startsWith(github.event.issue.title, 'Set teams')))
     runs-on: ubuntu-latest
     outputs:
       due: ${{ steps.due.outputs.due }}

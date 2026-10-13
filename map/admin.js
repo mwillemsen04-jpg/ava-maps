@@ -111,7 +111,7 @@
 
   // ---- send a request ----
   const b64 = s => btoa(unescape(encodeURIComponent(s)));
-  const label = t => t.replace(/^Make video (\d+)/i, 'Video of game $1').replace(/^Set update (\d+) every (\d+)/i, (m, g, n) => `Game ${g}: update every ${n >= 60 ? n / 60 + ' h' : n + ' min'}`);
+  const label = t => t.replace(/^Make video (\d+)/i, 'Video of game $1').replace(/^Set teams (\d+)/i, 'Teams of game $1').replace(/^Set update (\d+) every (\d+)/i, (m, g, n) => `Game ${g}: update every ${n >= 60 ? n / 60 + ' h' : n + ' min'}`);
   async function send(title, body) {
     const a = get(); if (!a || !REPO) return false;
     const video = /^\s*make video/i.test(title);

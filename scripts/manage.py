@@ -9,6 +9,7 @@
   python3 scripts/manage.py every <game id> <minutes>   (how often a live game is updated: 15, 30, 60, 120 or 240)
   python3 scripts/manage.py rename <game id> <new name>
   python3 scripts/manage.py rename-folder <old> <new>
+  python3 scripts/manage.py teams <game id> "Green: France; Germany" "Red: Libya; Ukraine"   (or: teams <game id> auto)
   python3 scripts/manage.py requests        (handle the requests the site's beheer mode wrote into requests/)
   python3 scripts/manage.py list
   python3 scripts/manage.py from-issue      (GitHub: reads TITLE and BODY from the environment)
@@ -168,6 +169,32 @@ def rename_game(gid, name):
     save_registry(reg); print(f'game {gid}: now called "{name}"')
 
 
+def set_teams(gid, body):
+    """Choose the countries of team green and team red by hand (Teams button on a map page), or go back to the
+    game's own teams. Body: "Green: France; Germany" and "Red: Libya; Ukraine" lines, or "Teams: automatic"."""
+    reg = load_registry()
+    g = next((g for g in reg['games'] if str(g['id']) == str(gid)), None)
+    if not g:
+        sys.exit(f'game {gid} is not in the database')
+    body = body or ''
+    if re.search(r'^\s*teams?\s*:\s*(auto|automatic|game)\b', body, re.I | re.M):
+        g.pop('teams', None); msg = 'teams from the game itself again'
+    else:
+        side = {}
+        for k, word in (('G', r'green|groen'), ('R', r'red|rood')):
+            side[k] = [c for x in re.findall(rf'^\s*(?:team\s+)?(?:{word})\s*:\s*(.+)$', body, re.I | re.M) for c in split_folders(x)]
+        if not side['G'] or not side['R']:
+            sys.exit('choose at least one country for team green and one for team red')
+        both = set(side['G']) & set(side['R'])
+        if both:
+            sys.exit('a country cannot be in both teams: ' + ', '.join(sorted(both)))
+        g['teams'] = side; msg = f"teams set by hand: green {', '.join(side['G'])} / red {', '.join(side['R'])}"
+    g['refresh'] = True   # rebuild its page (live) with the new teams, without fetching
+    if g.get('status') == 'saved':
+        g['pv'] = None; g.pop('pv_failed', None)   # a saved game is rebuilt once from its last game data (see run.py)
+    save_registry(reg); print(f'game {gid}: {msg}')
+
+
 def rename_folder(old, new):
     old, new = (old or '').strip(), (new or '').strip()[:60]
     if not old or not new:
@@ -193,6 +220,9 @@ def from_issue(title=None, body=None):
     rg = re.match(r'\s*rename\s+game\s+(\d{6,10})\s+to\s+(.+)$', title, re.I)
     if rg:
         rename_game(rg.group(1), rg.group(2)); return
+    st = re.match(r'\s*set\s+teams\s+(\d{6,10})\s*$', title, re.I)
+    if st:
+        set_teams(st.group(1), body); return
     rf = re.match(r'\s*rename\s+folder\s+(.+?)\s+to\s+(.+)$', title, re.I)
     if rf:
         rename_folder(rf.group(1), rf.group(2)); return
@@ -270,6 +300,9 @@ if __name__ == '__main__':
         handle_requests()
     elif cmd == 'rename':
         rename_game(sys.argv[2], ' '.join(sys.argv[3:]))
+    elif cmd == 'teams':
+        rest = sys.argv[3:]
+        set_teams(sys.argv[2], 'Teams: automatic' if rest[:1] in (['auto'], ['automatic']) else '\n'.join(rest))
     elif cmd == 'rename-folder':
         rename_folder(sys.argv[2], sys.argv[3])
     else:
