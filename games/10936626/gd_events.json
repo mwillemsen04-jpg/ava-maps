@@ -547,6 +547,16 @@
    "no": 20,
    "sn": 1,
    "frm": "Algeria"
+  },
+  "357": {
+   "t": 2725,
+   "p": "Tarragona",
+   "c": "Spain",
+   "u": "Infantry",
+   "cap": false,
+   "no": 1,
+   "sn": 1,
+   "frm": "France"
   }
  },
  "loss": {
@@ -1773,11 +1783,11 @@
    "ts": 1791986408000
   },
   "United Kingdom|Germany": {
-   "v": 1590,
+   "v": 1769,
    "ts": 1791986408000
   },
   "Germany|United Kingdom": {
-   "v": 681,
+   "v": 768,
    "ts": 1791986408000
   },
   "Poland|Belarus": {
@@ -1951,6 +1961,6 @@
     "Infantry": 2
    }
   },
-  "ts": 1792004464701
+  "ts": 1792008066448
  }
 }
