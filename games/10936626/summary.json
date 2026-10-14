@@ -10,8 +10,8 @@
   "G": 140,
   "R": 111
  },
- "fetched": 1791964867325,
- "built": 1791964870216,
+ "fetched": 1791968469430,
+ "built": 1791968472517,
  "game_over": false,
  "winner": null,
  "teams": {
@@ -61,5 +61,5 @@
   ]
  },
  "events": 43,
- "losses": 74
+ "losses": 78
 }

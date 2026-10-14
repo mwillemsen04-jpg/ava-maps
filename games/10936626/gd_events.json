@@ -1383,6 +1383,48 @@
    "byu": "Infantry",
    "byn": 1,
    "by": "Algeria"
+  },
+  "243": {
+   "t": 2055,
+   "p": "Amsterdam",
+   "c": "Netherlands",
+   "u": "Anti Air",
+   "what": "1× Infantry",
+   "n": 1,
+   "dest": true,
+   "no": 2,
+   "byno": 26,
+   "byu": "Tactical Bomber",
+   "byn": 5,
+   "by": "France"
+  },
+  "244": {
+   "t": 2070,
+   "p": "Amsterdam",
+   "c": "Netherlands",
+   "u": "Anti Air",
+   "what": "1× Anti Air, 1× Infantry",
+   "n": 2,
+   "dest": true,
+   "no": 2,
+   "byno": 26,
+   "byu": "Tactical Bomber",
+   "byn": 5,
+   "by": "France"
+  },
+  "245": {
+   "t": 2085,
+   "p": "Amsterdam",
+   "c": "Netherlands",
+   "u": "Anti Air",
+   "what": "1× Infantry",
+   "n": 1,
+   "dest": true,
+   "no": 2,
+   "byno": 26,
+   "byu": "Tactical Bomber",
+   "byn": 5,
+   "by": "France"
   }
  },
  "cas": {
@@ -1391,7 +1433,7 @@
    "ts": 1791900184668
   },
   "Belarus|Poland": {
-   "v": 3448,
+   "v": 3974,
    "ts": 1791931202000
   },
   "Czechoslovakia|Poland": {
@@ -1555,11 +1597,11 @@
    "ts": 1791956474518
   },
   "France|Netherlands": {
-   "v": 1689,
+   "v": 2063,
    "ts": 1791961802000
   },
   "Netherlands|France": {
-   "v": 2405,
+   "v": 3700,
    "ts": 1791962149110
   }
  },
@@ -1664,6 +1706,10 @@
     "Anti Air": 1,
     "Anti Tank": 1
    },
+   "Netherlands": {
+    "Anti Air": 1,
+    "Infantry": 3
+   },
    "Morocco": {
     "Anti Tank": 2,
     "Infantry": 8,
@@ -1683,6 +1729,6 @@
     "Infantry": 2
    }
   },
-  "ts": 1791964867325
+  "ts": 1791968469430
  }
 }
