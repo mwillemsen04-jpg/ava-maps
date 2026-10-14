@@ -537,6 +537,16 @@
    "no": 2,
    "sn": 5,
    "frm": "Germany"
+  },
+  "356": {
+   "t": 2678,
+   "p": "Oujda",
+   "c": "Morocco",
+   "u": "Armored Car",
+   "cap": false,
+   "no": 20,
+   "sn": 1,
+   "frm": "Algeria"
   }
  },
  "loss": {
@@ -1763,11 +1773,11 @@
    "ts": 1791986408000
   },
   "United Kingdom|Germany": {
-   "v": 1422,
+   "v": 1590,
    "ts": 1791986408000
   },
   "Germany|United Kingdom": {
-   "v": 579,
+   "v": 681,
    "ts": 1791986408000
   },
   "Poland|Belarus": {
@@ -1941,6 +1951,6 @@
     "Infantry": 2
    }
   },
-  "ts": 1792000866808
+  "ts": 1792004464701
  }
 }
