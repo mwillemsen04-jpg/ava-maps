@@ -557,6 +557,16 @@
    "no": 1,
    "sn": 1,
    "frm": "France"
+  },
+  "360": {
+   "t": 2926,
+   "p": "Souk El Arba",
+   "c": "Tunisia",
+   "u": "Infantry",
+   "cap": false,
+   "no": 2,
+   "sn": 2,
+   "frm": "Algeria"
   }
  },
  "loss": {
@@ -1709,11 +1719,11 @@
    "ts": 1791986408000
   },
   "France|Italy": {
-   "v": 1370,
+   "v": 1427,
    "ts": 1791986408000
   },
   "Italy|France": {
-   "v": 7467,
+   "v": 8106,
    "ts": 1791986408000
   },
   "France|Spain": {
@@ -1797,11 +1807,11 @@
    "ts": 1791986408000
   },
   "United Kingdom|Germany": {
-   "v": 1973,
+   "v": 2017,
    "ts": 1791986408000
   },
   "Germany|United Kingdom": {
-   "v": 871,
+   "v": 907,
    "ts": 1791986408000
   },
   "Poland|Belarus": {
@@ -1965,8 +1975,8 @@
     "Infantry": 6
    },
    "Tunisia": {
-    "Anti Tank": 1,
-    "Infantry": 4
+    "Infantry": 4,
+    "Anti Tank": 1
    },
    "Belarus": {
     "Infantry": 3,
@@ -1976,6 +1986,6 @@
     "Infantry": 2
    }
   },
-  "ts": 1792015272456
+  "ts": 1792018867148
  }
 }
