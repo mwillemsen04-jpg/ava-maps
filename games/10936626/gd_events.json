@@ -507,6 +507,16 @@
    "cap": false,
    "rev": true,
    "frm": "Poland"
+  },
+  "353": {
+   "t": 2477,
+   "p": "Mecheria",
+   "c": "Morocco",
+   "u": "Infantry",
+   "cap": false,
+   "no": 10,
+   "sn": 1,
+   "frm": "Algeria"
   }
  },
  "loss": {
@@ -1733,11 +1743,11 @@
    "ts": 1791986408000
   },
   "United Kingdom|Germany": {
-   "v": 850,
+   "v": 1013,
    "ts": 1791986408000
   },
   "Germany|United Kingdom": {
-   "v": 203,
+   "v": 317,
    "ts": 1791986408000
   },
   "Poland|Belarus": {
@@ -1911,6 +1921,6 @@
     "Infantry": 2
    }
   },
-  "ts": 1791990070340
+  "ts": 1791993674104
  }
 }
