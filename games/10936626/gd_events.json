@@ -1651,6 +1651,20 @@
    "byu": "Infantry",
    "byn": 2,
    "by": "Tunisia"
+  },
+  "359": {
+   "t": 2810,
+   "p": "Plymouth",
+   "c": "United Kingdom",
+   "u": "Interceptor",
+   "what": "1× Interceptor",
+   "n": 1,
+   "dest": true,
+   "no": 8,
+   "byno": 18,
+   "byu": "Infantry",
+   "byn": 1,
+   "by": "Germany"
   }
  },
  "cas": {
@@ -1783,11 +1797,11 @@
    "ts": 1791986408000
   },
   "United Kingdom|Germany": {
-   "v": 1769,
+   "v": 1932,
    "ts": 1791986408000
   },
   "Germany|United Kingdom": {
-   "v": 768,
+   "v": 838,
    "ts": 1791986408000
   },
   "Poland|Belarus": {
@@ -1898,6 +1912,7 @@
     "Infantry": 1
    },
    "United Kingdom": {
+    "Interceptor": 1,
     "Anti Air": 1
    },
    "Italy": {
@@ -1961,6 +1976,6 @@
     "Infantry": 2
    }
   },
-  "ts": 1792008066448
+  "ts": 1792011669366
  }
 }
