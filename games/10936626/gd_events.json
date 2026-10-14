@@ -489,6 +489,24 @@
    "no": 10,
    "sn": 1,
    "frm": "Algeria"
+  },
+  "351": {
+   "t": 2400,
+   "p": "Pamplona",
+   "c": "Portugal",
+   "u": "Revolt",
+   "cap": false,
+   "rev": true,
+   "frm": "Spain"
+  },
+  "352": {
+   "t": 2400,
+   "p": "Memel",
+   "c": "Germany",
+   "u": "Revolt",
+   "cap": false,
+   "rev": true,
+   "frm": "Poland"
   }
  },
  "loss": {
@@ -1569,6 +1587,20 @@
    "byu": "Infantry",
    "byn": 1,
    "by": "Morocco"
+  },
+  "263": {
+   "t": 2369,
+   "p": "Souk El Arba",
+   "c": "Germany",
+   "u": "Light Tank",
+   "what": "1× Light Tank",
+   "n": 1,
+   "dest": true,
+   "no": 26,
+   "byno": 1,
+   "byu": "Infantry",
+   "byn": 2,
+   "by": "Tunisia"
   }
  },
  "cas": {
@@ -1717,11 +1749,11 @@
    "ts": 1791934437207
   },
   "Germany|Tunisia": {
-   "v": 1287,
+   "v": 1320,
    "ts": 1791944326838
   },
   "Tunisia|Germany": {
-   "v": 1834,
+   "v": 1861,
    "ts": 1791946126838
   },
   "Algeria|Melilla": {
@@ -1804,13 +1836,16 @@
   "Belarus": 52,
   "Melilla": 53
  },
- "news_days": [],
+ "news_days": [
+  2
+ ],
  "sync": {},
  "stats": {
   "lost": {
    "Germany": {
-    "Infantry": 1,
-    "Anti Air": 1
+    "Anti Air": 1,
+    "Light Tank": 1,
+    "Infantry": 1
    },
    "United Kingdom": {
     "Anti Air": 1
@@ -1865,8 +1900,8 @@
     "Infantry": 6
    },
    "Tunisia": {
-    "Infantry": 4,
-    "Anti Tank": 1
+    "Anti Tank": 1,
+    "Infantry": 4
    },
    "Belarus": {
     "Infantry": 3,
@@ -1876,6 +1911,6 @@
     "Infantry": 2
    }
   },
-  "ts": 1791982867877
+  "ts": 1791986467314
  }
 }
