@@ -517,6 +517,26 @@
    "no": 10,
    "sn": 1,
    "frm": "Algeria"
+  },
+  "354": {
+   "t": 2604,
+   "p": "Taza",
+   "c": "Morocco",
+   "u": "Armored Car",
+   "cap": false,
+   "no": 20,
+   "sn": 1,
+   "frm": "Algeria"
+  },
+  "355": {
+   "t": 2624,
+   "p": "Brugge",
+   "c": "United Kingdom",
+   "u": "Infantry",
+   "cap": false,
+   "no": 2,
+   "sn": 5,
+   "frm": "Germany"
   }
  },
  "loss": {
@@ -1743,11 +1763,11 @@
    "ts": 1791986408000
   },
   "United Kingdom|Germany": {
-   "v": 1228,
+   "v": 1422,
    "ts": 1791986408000
   },
   "Germany|United Kingdom": {
-   "v": 463,
+   "v": 579,
    "ts": 1791986408000
   },
   "Poland|Belarus": {
@@ -1853,8 +1873,8 @@
  "stats": {
   "lost": {
    "Germany": {
-    "Anti Air": 1,
     "Light Tank": 1,
+    "Anti Air": 1,
     "Infantry": 1
    },
    "United Kingdom": {
@@ -1921,6 +1941,6 @@
     "Infantry": 2
    }
   },
-  "ts": 1791997273643
+  "ts": 1792000866808
  }
 }
