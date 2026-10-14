@@ -429,6 +429,26 @@
    "no": 3,
    "sn": 1,
    "frm": "France"
+  },
+  "251": {
+   "t": 2141,
+   "p": "Rotterdam",
+   "c": "Germany",
+   "u": "Infantry",
+   "cap": false,
+   "no": 3,
+   "sn": 1,
+   "frm": "Netherlands"
+  },
+  "252": {
+   "t": 2153,
+   "p": "Vilnius",
+   "c": "Poland",
+   "u": "Anti Air",
+   "cap": false,
+   "no": 15,
+   "sn": 1,
+   "frm": "Belarus"
   }
  },
  "loss": {
@@ -1425,6 +1445,48 @@
    "byu": "Tactical Bomber",
    "byn": 5,
    "by": "France"
+  },
+  "247": {
+   "t": 2102,
+   "p": "Vilnius",
+   "c": "Belarus",
+   "u": "Armored Car",
+   "what": "1× Armored Car",
+   "n": 1,
+   "dest": true,
+   "no": 2,
+   "byno": 2,
+   "byu": "Rocket Artillery",
+   "byn": 2,
+   "by": "Poland"
+  },
+  "249": {
+   "t": 2129,
+   "p": null,
+   "c": "Algeria",
+   "u": "Infantry",
+   "what": "2× Infantry",
+   "n": 2,
+   "dest": false,
+   "no": 8,
+   "byno": null,
+   "byu": null,
+   "byn": null,
+   "by": null
+  },
+  "253": {
+   "t": 2159,
+   "p": null,
+   "c": "Algeria",
+   "u": "Infantry",
+   "what": "1× Infantry",
+   "n": 1,
+   "dest": false,
+   "no": 8,
+   "byno": null,
+   "byu": null,
+   "byn": null,
+   "by": null
   }
  },
  "cas": {
@@ -1433,7 +1495,7 @@
    "ts": 1791900184668
   },
   "Belarus|Poland": {
-   "v": 3974,
+   "v": 4000,
    "ts": 1791931202000
   },
   "Czechoslovakia|Poland": {
@@ -1485,11 +1547,11 @@
    "ts": 1791904122287
   },
   "Algeria|Tunisia": {
-   "v": 2382,
+   "v": 3722,
    "ts": 1791904227949
   },
   "Tunisia|Algeria": {
-   "v": 4140,
+   "v": 5024,
    "ts": 1791904227949
   },
   "Poland|Italy": {
@@ -1573,11 +1635,11 @@
    "ts": 1791934437207
   },
   "Germany|Tunisia": {
-   "v": 389,
+   "v": 779,
    "ts": 1791944326838
   },
   "Tunisia|Germany": {
-   "v": 890,
+   "v": 1331,
    "ts": 1791946126838
   },
   "Algeria|Melilla": {
@@ -1707,8 +1769,8 @@
     "Anti Tank": 1
    },
    "Netherlands": {
-    "Anti Air": 1,
-    "Infantry": 3
+    "Infantry": 3,
+    "Anti Air": 1
    },
    "Morocco": {
     "Anti Tank": 2,
@@ -1717,18 +1779,21 @@
     "Anti Air": 1,
     "Interceptor": 1
    },
+   "Algeria": {
+    "Infantry": 3
+   },
    "Tunisia": {
-    "Anti Tank": 1,
-    "Infantry": 4
+    "Infantry": 4,
+    "Anti Tank": 1
    },
    "Belarus": {
-    "Armored Car": 1,
+    "Armored Car": 2,
     "Infantry": 3
    },
    "Melilla": {
     "Infantry": 2
    }
   },
-  "ts": 1791968469430
+  "ts": 1791972069994
  }
 }
