@@ -339,6 +339,26 @@
    "no": 14,
    "sn": 1,
    "frm": "Lithuania"
+  },
+  "198": {
+   "t": 1607,
+   "p": "Memel",
+   "c": "Poland",
+   "u": "Armored Car",
+   "cap": false,
+   "no": 14,
+   "sn": 1,
+   "frm": "Lithuania"
+  },
+  "199": {
+   "t": 1612,
+   "p": "Luxembourg",
+   "c": "Belgium",
+   "u": "Infantry",
+   "cap": true,
+   "no": 1,
+   "sn": 3,
+   "frm": "Luxembourg"
   }
  },
  "loss": {
@@ -1111,6 +1131,20 @@
    "byu": "Armored Car",
    "byn": 1,
    "by": "Poland"
+  },
+  "200": {
+   "t": 1612,
+   "p": "Lida",
+   "c": "Belarus",
+   "u": "Armored Car",
+   "what": "1× Armored Car",
+   "n": 1,
+   "dest": true,
+   "no": 2,
+   "byno": 2,
+   "byu": "Rocket Artillery",
+   "byn": 2,
+   "by": "Poland"
   }
  },
  "cas": {
@@ -1119,7 +1153,7 @@
    "ts": 1791900184668
   },
   "Belarus|Poland": {
-   "v": 1605,
+   "v": 2000,
    "ts": 1791931202000
   },
   "Czechoslovakia|Poland": {
@@ -1139,7 +1173,7 @@
    "ts": 1791904163823
   },
   "Switzerland|Poland": {
-   "v": 2153,
+   "v": 2676,
    "ts": 1791904496685
   },
   "Algeria|Morocco": {
@@ -1243,15 +1277,15 @@
    "ts": 1791929364235
   },
   "United Kingdom|Germany": {
-   "v": 240,
+   "v": 493,
    "ts": 1791932582125
   },
   "Germany|United Kingdom": {
-   "v": 74,
+   "v": 133,
    "ts": 1791932582125
   },
   "Poland|Belarus": {
-   "v": 331,
+   "v": 465,
    "ts": 1791933210031
   },
   "Czechoslovakia|Germany": {
@@ -1349,8 +1383,8 @@
     "Infantry": 2
    },
    "Luxembourg": {
-    "Infantry": 1,
-    "Anti Tank": 1
+    "Anti Tank": 1,
+    "Infantry": 1
    },
    "Belgium": {
     "Infantry": 1,
@@ -1369,9 +1403,10 @@
     "Infantry": 2
    },
    "Belarus": {
+    "Armored Car": 1,
     "Infantry": 2
    }
   },
-  "ts": 1791936048069
+  "ts": 1791939668110
  }
 }
