@@ -359,6 +359,16 @@
    "no": 1,
    "sn": 3,
    "frm": "Luxembourg"
+  },
+  "202": {
+   "t": 1621,
+   "p": "Fes",
+   "c": "Morocco",
+   "u": "Infantry",
+   "cap": false,
+   "no": 5,
+   "sn": 1,
+   "frm": "Algeria"
   }
  },
  "loss": {
@@ -1157,7 +1167,7 @@
    "ts": 1791931202000
   },
   "Czechoslovakia|Poland": {
-   "v": 4497,
+   "v": 4690,
    "ts": 1791904184957
   },
   "Italy|Poland": {
@@ -1173,7 +1183,7 @@
    "ts": 1791904163823
   },
   "Switzerland|Poland": {
-   "v": 2676,
+   "v": 3183,
    "ts": 1791904496685
   },
   "Algeria|Morocco": {
@@ -1277,11 +1287,11 @@
    "ts": 1791929364235
   },
   "United Kingdom|Germany": {
-   "v": 493,
+   "v": 687,
    "ts": 1791932582125
   },
   "Germany|United Kingdom": {
-   "v": 133,
+   "v": 176,
    "ts": 1791932582125
   },
   "Poland|Belarus": {
@@ -1407,6 +1417,6 @@
     "Infantry": 2
    }
   },
-  "ts": 1791939668110
+  "ts": 1791943272355
  }
 }
