@@ -479,6 +479,16 @@
    "no": 14,
    "sn": 1,
    "frm": "Algeria"
+  },
+  "262": {
+   "t": 2315,
+   "p": "Ain Sefra",
+   "c": "Morocco",
+   "u": "Infantry",
+   "cap": false,
+   "no": 10,
+   "sn": 1,
+   "frm": "Algeria"
   }
  },
  "loss": {
@@ -1545,6 +1555,20 @@
    "byu": "Infantry",
    "byn": 2,
    "by": "Tunisia"
+  },
+  "260": {
+   "t": 2315,
+   "p": "Ain Sefra",
+   "c": "Algeria",
+   "u": "Infantry",
+   "what": "1× Infantry",
+   "n": 1,
+   "dest": true,
+   "no": 11,
+   "byno": 10,
+   "byu": "Infantry",
+   "byn": 1,
+   "by": "Morocco"
   }
  },
  "cas": {
@@ -1577,11 +1601,11 @@
    "ts": 1791904496685
   },
   "Algeria|Morocco": {
-   "v": 3709,
+   "v": 3826,
    "ts": 1791907536290
   },
   "Morocco|Algeria": {
-   "v": 10286,
+   "v": 10440,
    "ts": 1791907536290
   },
   "Poland|Lithuania": {
@@ -1693,11 +1717,11 @@
    "ts": 1791934437207
   },
   "Germany|Tunisia": {
-   "v": 1148,
+   "v": 1287,
    "ts": 1791944326838
   },
   "Tunisia|Germany": {
-   "v": 1764,
+   "v": 1834,
    "ts": 1791946126838
   },
   "Algeria|Melilla": {
@@ -1831,14 +1855,14 @@
     "Anti Air": 1
    },
    "Morocco": {
-    "Anti Tank": 2,
-    "Infantry": 8,
-    "Armored Car": 1,
+    "Interceptor": 1,
     "Anti Air": 1,
-    "Interceptor": 1
+    "Armored Car": 1,
+    "Anti Tank": 2,
+    "Infantry": 8
    },
    "Algeria": {
-    "Infantry": 5
+    "Infantry": 6
    },
    "Tunisia": {
     "Infantry": 4,
@@ -1852,6 +1876,6 @@
     "Infantry": 2
    }
   },
-  "ts": 1791979265592
+  "ts": 1791982867877
  }
 }
