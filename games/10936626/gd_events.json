@@ -409,6 +409,26 @@
    "no": 13,
    "sn": 1,
    "frm": "Spain"
+  },
+  "240": {
+   "t": 1991,
+   "p": "Brugge",
+   "c": "Germany",
+   "u": "Infantry",
+   "cap": false,
+   "no": 3,
+   "sn": 1,
+   "frm": "Belgium"
+  },
+  "242": {
+   "t": 2010,
+   "p": "Toledo",
+   "c": "Spain",
+   "u": "Anti Air",
+   "cap": false,
+   "no": 3,
+   "sn": 1,
+   "frm": "France"
   }
  },
  "loss": {
@@ -1533,6 +1553,14 @@
   "Belgium|France": {
    "v": 1205,
    "ts": 1791956474518
+  },
+  "France|Netherlands": {
+   "v": 1689,
+   "ts": 1791961802000
+  },
+  "Netherlands|France": {
+   "v": 2405,
+   "ts": 1791962149110
   }
  },
  "slots": {
@@ -1607,9 +1635,9 @@
     "Anti Tank": 2
    },
    "Spain": {
-    "Infantry": 6,
     "Armored Car": 2,
-    "Anti Tank": 1
+    "Anti Tank": 1,
+    "Infantry": 6
    },
    "Lithuania": {
     "Infantry": 3,
@@ -1655,6 +1683,6 @@
     "Infantry": 2
    }
   },
-  "ts": 1791961266888
+  "ts": 1791964867325
  }
 }
