@@ -1307,6 +1307,62 @@
    "byu": "Tactical Bomber",
    "byn": 5,
    "by": "France"
+  },
+  "229": {
+   "t": 1889,
+   "p": "Pamplona",
+   "c": "Spain",
+   "u": "Infantry",
+   "what": "1× Infantry",
+   "n": 1,
+   "dest": true,
+   "no": 9,
+   "byno": 25,
+   "byu": "Tactical Bomber",
+   "byn": 5,
+   "by": "France"
+  },
+  "233": {
+   "t": 1901,
+   "p": "Luxembourg",
+   "c": "Belgium",
+   "u": "Infantry",
+   "what": "1× Infantry",
+   "n": 1,
+   "dest": true,
+   "no": 1,
+   "byno": 26,
+   "byu": "Tactical Bomber",
+   "byn": 5,
+   "by": "France"
+  },
+  "234": {
+   "t": 1916,
+   "p": "Luxembourg",
+   "c": "Belgium",
+   "u": "Infantry",
+   "what": "2× Infantry",
+   "n": 2,
+   "dest": true,
+   "no": 1,
+   "byno": 26,
+   "byu": "Tactical Bomber",
+   "byn": 5,
+   "by": "France"
+  },
+  "237": {
+   "t": 1920,
+   "p": "Ain Sefra",
+   "c": "Morocco",
+   "u": "Infantry",
+   "what": "1× Infantry",
+   "n": 1,
+   "dest": true,
+   "no": 2,
+   "byno": 11,
+   "byu": "Infantry",
+   "byn": 1,
+   "by": "Algeria"
   }
  },
  "cas": {
@@ -1339,11 +1395,11 @@
    "ts": 1791904496685
   },
   "Algeria|Morocco": {
-   "v": 3191,
+   "v": 3316,
    "ts": 1791907536290
   },
   "Morocco|Algeria": {
-   "v": 9454,
+   "v": 9800,
    "ts": 1791907536290
   },
   "Poland|Lithuania": {
@@ -1359,11 +1415,11 @@
    "ts": 1791904074407
   },
   "France|Spain": {
-   "v": 1890,
+   "v": 1998,
    "ts": 1791904122287
   },
   "Spain|France": {
-   "v": 8400,
+   "v": 9450,
    "ts": 1791904122287
   },
   "Algeria|Tunisia": {
@@ -1469,6 +1525,14 @@
   "Melilla|Algeria": {
    "v": 1900,
    "ts": 1791946729452
+  },
+  "France|Belgium": {
+   "v": 134,
+   "ts": 1791956474518
+  },
+  "Belgium|France": {
+   "v": 1205,
+   "ts": 1791956474518
   }
  },
  "slots": {
@@ -1543,7 +1607,7 @@
     "Anti Tank": 2
    },
    "Spain": {
-    "Infantry": 5,
+    "Infantry": 6,
     "Armored Car": 2,
     "Anti Tank": 1
    },
@@ -1568,13 +1632,13 @@
     "Infantry": 1
    },
    "Belgium": {
-    "Infantry": 1,
+    "Infantry": 4,
     "Anti Air": 1,
     "Anti Tank": 1
    },
    "Morocco": {
     "Anti Tank": 2,
-    "Infantry": 7,
+    "Infantry": 8,
     "Armored Car": 1,
     "Anti Air": 1,
     "Interceptor": 1
@@ -1591,6 +1655,6 @@
     "Infantry": 2
    }
   },
-  "ts": 1791954067720
+  "ts": 1791957667367
  }
 }
