@@ -469,6 +469,16 @@
    "no": 16,
    "sn": 2,
    "frm": "Belgium"
+  },
+  "259": {
+   "t": 2226,
+   "p": "Marrakesh",
+   "c": "Morocco",
+   "u": "Infantry",
+   "cap": false,
+   "no": 14,
+   "sn": 1,
+   "frm": "Algeria"
   }
  },
  "loss": {
@@ -1567,11 +1577,11 @@
    "ts": 1791904496685
   },
   "Algeria|Morocco": {
-   "v": 3474,
+   "v": 3709,
    "ts": 1791907536290
   },
   "Morocco|Algeria": {
-   "v": 10022,
+   "v": 10286,
    "ts": 1791907536290
   },
   "Poland|Lithuania": {
@@ -1683,11 +1693,11 @@
    "ts": 1791934437207
   },
   "Germany|Tunisia": {
-   "v": 993,
+   "v": 1148,
    "ts": 1791944326838
   },
   "Tunisia|Germany": {
-   "v": 1668,
+   "v": 1764,
    "ts": 1791946126838
   },
   "Algeria|Melilla": {
@@ -1842,6 +1852,6 @@
     "Infantry": 2
    }
   },
-  "ts": 1791975668358
+  "ts": 1791979265592
  }
 }
