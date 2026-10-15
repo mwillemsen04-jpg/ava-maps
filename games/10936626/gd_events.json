@@ -587,6 +587,16 @@
    "no": 10,
    "sn": 1,
    "frm": "Algeria"
+  },
+  "365": {
+   "t": 3009,
+   "p": "Bone",
+   "c": "Tunisia",
+   "u": "Infantry",
+   "cap": false,
+   "no": 2,
+   "sn": 2,
+   "frm": "Algeria"
   }
  },
  "loss": {
@@ -1709,6 +1719,20 @@
    "byu": "Tactical Bomber",
    "byn": 5,
    "by": "France"
+  },
+  "367": {
+   "t": 3045,
+   "p": "Nice",
+   "c": "France",
+   "u": "Interceptor",
+   "what": "1× Interceptor",
+   "n": 1,
+   "dest": true,
+   "no": 20,
+   "byno": 19,
+   "byu": "Interceptor",
+   "byn": 1,
+   "by": "Italy"
   }
  },
  "cas": {
@@ -1753,11 +1777,11 @@
    "ts": 1791986408000
   },
   "France|Italy": {
-   "v": 1833,
+   "v": 2256,
    "ts": 1791986408000
   },
   "Italy|France": {
-   "v": 8668,
+   "v": 8791,
    "ts": 1791986408000
   },
   "France|Spain": {
@@ -1841,11 +1865,11 @@
    "ts": 1791986408000
   },
   "United Kingdom|Germany": {
-   "v": 2060,
+   "v": 2101,
    "ts": 1791986408000
   },
   "Germany|United Kingdom": {
-   "v": 937,
+   "v": 964,
    "ts": 1791986408000
   },
   "Poland|Belarus": {
@@ -1955,14 +1979,17 @@
     "Anti Air": 1,
     "Infantry": 1
    },
+   "France": {
+    "Interceptor": 1
+   },
    "United Kingdom": {
     "Interceptor": 1,
     "Anti Air": 1
    },
    "Italy": {
+    "Armored Car": 2,
     "Anti Tank": 2,
-    "Infantry": 8,
-    "Armored Car": 2
+    "Infantry": 8
    },
    "Spain": {
     "Armored Car": 2,
@@ -2020,6 +2047,6 @@
     "Infantry": 2
    }
   },
-  "ts": 1792022465250
+  "ts": 1792026069535
  }
 }
