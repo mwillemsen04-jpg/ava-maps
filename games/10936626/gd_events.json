@@ -1761,7 +1761,7 @@
    "ts": 1791900184668
   },
   "Belarus|Poland": {
-   "v": 4000,
+   "v": 4962,
    "ts": 1791986408000
   },
   "Czechoslovakia|Poland": {
@@ -1785,11 +1785,11 @@
    "ts": 1791986408000
   },
   "Algeria|Morocco": {
-   "v": 3923,
+   "v": 4143,
    "ts": 1791986408000
   },
   "Morocco|Algeria": {
-   "v": 10470,
+   "v": 10528,
    "ts": 1791986408000
   },
   "Poland|Lithuania": {
@@ -1885,15 +1885,15 @@
    "ts": 1791986408000
   },
   "United Kingdom|Germany": {
-   "v": 2179,
+   "v": 2216,
    "ts": 1791986408000
   },
   "Germany|United Kingdom": {
-   "v": 1011,
+   "v": 1032,
    "ts": 1791986408000
   },
   "Poland|Belarus": {
-   "v": 465,
+   "v": 817,
    "ts": 1791986408000
   },
   "Czechoslovakia|Germany": {
@@ -1931,6 +1931,14 @@
   "Netherlands|France": {
    "v": 3700,
    "ts": 1791986408000
+  },
+  "Canada|France": {
+   "v": 272,
+   "ts": 1792035997265
+  },
+  "France|Canada": {
+   "v": 67,
+   "ts": 1792035997265
   }
  },
  "slots": {
@@ -2067,6 +2075,6 @@
     "Infantry": 2
    }
   },
-  "ts": 1792033270376
+  "ts": 1792036863811
  }
 }
