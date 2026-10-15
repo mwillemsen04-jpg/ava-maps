@@ -776,6 +776,26 @@
    "no": 2,
    "sn": 5,
    "frm": "Germany"
+  },
+  "482": {
+   "t": 4334,
+   "p": "Bougie",
+   "c": "Morocco",
+   "u": "Infantry",
+   "cap": false,
+   "no": 10,
+   "sn": 1,
+   "frm": "Algeria"
+  },
+  "483": {
+   "t": 4343,
+   "p": "Madrid",
+   "c": "Spain",
+   "u": "Anti Air",
+   "cap": false,
+   "no": 13,
+   "sn": 1,
+   "frm": "France"
   }
  },
  "loss": {
@@ -2386,6 +2406,6 @@
     "Infantry": 2
    }
   },
-  "ts": 1792101665387
+  "ts": 1792105269744
  }
 }
