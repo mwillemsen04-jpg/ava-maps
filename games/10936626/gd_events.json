@@ -766,6 +766,16 @@
    "no": 8,
    "sn": 1,
    "frm": "France"
+  },
+  "481": {
+   "t": 4304,
+   "p": "Stuttgart",
+   "c": "United Kingdom",
+   "u": "Infantry",
+   "cap": false,
+   "no": 2,
+   "sn": 5,
+   "frm": "Germany"
   }
  },
  "loss": {
@@ -2028,6 +2038,20 @@
    "byu": "Armored Car",
    "byn": 1,
    "by": "Germany"
+  },
+  "479": {
+   "t": 4279,
+   "p": "Barcelona",
+   "c": "Spain",
+   "u": "Infantry",
+   "what": "1× Infantry",
+   "n": 1,
+   "dest": true,
+   "no": 8,
+   "byno": 25,
+   "byu": "Tactical Bomber",
+   "byn": 5,
+   "by": "France"
   }
  },
  "cas": {
@@ -2304,7 +2328,7 @@
    "Spain": {
     "Armored Car": 2,
     "Anti Tank": 1,
-    "Infantry": 7
+    "Infantry": 8
    },
    "Canada": {
     "Anti Air": 1
@@ -2362,6 +2386,6 @@
     "Infantry": 2
    }
   },
-  "ts": 1792098073408
+  "ts": 1792101665387
  }
 }
