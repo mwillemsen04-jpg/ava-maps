@@ -617,6 +617,26 @@
    "no": 6,
    "sn": 1,
    "frm": "France"
+  },
+  "375": {
+   "t": 3245,
+   "p": "Cuenca",
+   "c": "Spain",
+   "u": "Infantry",
+   "cap": false,
+   "no": 9,
+   "sn": 1,
+   "frm": "France"
+  },
+  "376": {
+   "t": 3261,
+   "p": "Constantine",
+   "c": "Tunisia",
+   "u": "Infantry",
+   "cap": false,
+   "no": 2,
+   "sn": 2,
+   "frm": "Algeria"
   }
  },
  "loss": {
@@ -1753,6 +1773,20 @@
    "byu": "Interceptor",
    "byn": 1,
    "by": "Italy"
+  },
+  "374": {
+   "t": 3244,
+   "p": "Nyasvizh",
+   "c": "Belarus",
+   "u": "Armored Car",
+   "what": "1× Armored Car",
+   "n": 1,
+   "dest": true,
+   "no": 2,
+   "byno": 29,
+   "byu": "Rocket Artillery",
+   "byn": 3,
+   "by": "Poland"
   }
  },
  "cas": {
@@ -1761,7 +1795,7 @@
    "ts": 1791900184668
   },
   "Belarus|Poland": {
-   "v": 4962,
+   "v": 5050,
    "ts": 1791986408000
   },
   "Czechoslovakia|Poland": {
@@ -1785,11 +1819,11 @@
    "ts": 1791986408000
   },
   "Algeria|Morocco": {
-   "v": 4143,
+   "v": 4328,
    "ts": 1791986408000
   },
   "Morocco|Algeria": {
-   "v": 10528,
+   "v": 10568,
    "ts": 1791986408000
   },
   "Poland|Lithuania": {
@@ -1885,15 +1919,15 @@
    "ts": 1791986408000
   },
   "United Kingdom|Germany": {
-   "v": 2216,
+   "v": 2252,
    "ts": 1791986408000
   },
   "Germany|United Kingdom": {
-   "v": 1032,
+   "v": 1052,
    "ts": 1791986408000
   },
   "Poland|Belarus": {
-   "v": 817,
+   "v": 889,
    "ts": 1791986408000
   },
   "Czechoslovakia|Germany": {
@@ -1933,11 +1967,11 @@
    "ts": 1791986408000
   },
   "Canada|France": {
-   "v": 272,
+   "v": 828,
    "ts": 1792035997265
   },
   "France|Canada": {
-   "v": 67,
+   "v": 144,
    "ts": 1792035997265
   }
  },
@@ -2069,12 +2103,12 @@
    },
    "Belarus": {
     "Infantry": 3,
-    "Armored Car": 2
+    "Armored Car": 3
    },
    "Melilla": {
     "Infantry": 2
    }
   },
-  "ts": 1792036863811
+  "ts": 1792040473255
  }
 }
