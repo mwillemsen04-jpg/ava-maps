@@ -657,6 +657,36 @@
    "no": 2,
    "sn": 5,
    "frm": "Germany"
+  },
+  "387": {
+   "t": 3611,
+   "p": "El Oued",
+   "c": "Tunisia",
+   "u": "Infantry",
+   "cap": false,
+   "no": 1,
+   "sn": 1,
+   "frm": "Algeria"
+  },
+  "388": {
+   "t": 3623,
+   "p": "Florence",
+   "c": "Italy",
+   "u": "Infantry",
+   "cap": false,
+   "no": 1,
+   "sn": 1,
+   "frm": "France"
+  },
+  "389": {
+   "t": 3642,
+   "p": "Tenes",
+   "c": "Morocco",
+   "u": "Infantry",
+   "cap": false,
+   "no": 10,
+   "sn": 1,
+   "frm": "Algeria"
   }
  },
  "loss": {
@@ -1863,6 +1893,34 @@
    "byu": "Armored Car",
    "byn": 1,
    "by": "France"
+  },
+  "391": {
+   "t": 3650,
+   "p": "Manchester",
+   "c": "United Kingdom",
+   "u": "Interceptor",
+   "what": "1× Interceptor",
+   "n": 1,
+   "dest": true,
+   "no": 12,
+   "byno": 27,
+   "byu": "Light Tank",
+   "byn": 1,
+   "by": "Germany"
+  },
+  "392": {
+   "t": 3657,
+   "p": "Aosta",
+   "c": "Italy",
+   "u": "Infantry",
+   "what": "1× Infantry",
+   "n": 1,
+   "dest": true,
+   "no": 12,
+   "byno": 26,
+   "byu": "Tactical Bomber",
+   "byn": 5,
+   "by": "France"
   }
  },
  "cas": {
@@ -1895,7 +1953,7 @@
    "ts": 1791986408000
   },
   "Algeria|Morocco": {
-   "v": 5274,
+   "v": 5549,
    "ts": 1791986408000
   },
   "Morocco|Algeria": {
@@ -1907,11 +1965,11 @@
    "ts": 1791986408000
   },
   "France|Italy": {
-   "v": 2466,
+   "v": 2583,
    "ts": 1791986408000
   },
   "Italy|France": {
-   "v": 10214,
+   "v": 11350,
    "ts": 1791986408000
   },
   "France|Spain": {
@@ -1995,11 +2053,11 @@
    "ts": 1791986408000
   },
   "United Kingdom|Germany": {
-   "v": 2421,
+   "v": 2450,
    "ts": 1791986408000
   },
   "Germany|United Kingdom": {
-   "v": 1132,
+   "v": 1143,
    "ts": 1791986408000
   },
   "Poland|Belarus": {
@@ -2121,13 +2179,13 @@
     "Interceptor": 1
    },
    "United Kingdom": {
-    "Interceptor": 1,
+    "Interceptor": 2,
     "Anti Air": 1
    },
    "Italy": {
     "Armored Car": 2,
     "Anti Tank": 2,
-    "Infantry": 9
+    "Infantry": 10
    },
    "Spain": {
     "Armored Car": 2,
@@ -2189,6 +2247,6 @@
     "Infantry": 2
    }
   },
-  "ts": 1792058468338
+  "ts": 1792062063518
  }
 }
