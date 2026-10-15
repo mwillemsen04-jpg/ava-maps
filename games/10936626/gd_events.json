@@ -746,6 +746,16 @@
    "no": 10,
    "sn": 1,
    "frm": "Algeria"
+  },
+  "469": {
+   "t": 3978,
+   "p": "Kaiserslautern",
+   "c": "United Kingdom",
+   "u": "Infantry",
+   "cap": false,
+   "no": 2,
+   "sn": 5,
+   "frm": "Germany"
   }
  },
  "loss": {
@@ -2336,6 +2346,6 @@
     "Infantry": 2
    }
   },
-  "ts": 1792080067418
+  "ts": 1792083669767
  }
 }
