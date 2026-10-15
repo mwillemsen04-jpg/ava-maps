@@ -2269,9 +2269,9 @@
  "stats": {
   "lost": {
    "Germany": {
-    "Light Tank": 1,
     "Anti Air": 1,
-    "Infantry": 1
+    "Infantry": 1,
+    "Light Tank": 1
    },
    "France": {
     "Interceptor": 1
@@ -2281,8 +2281,9 @@
     "Anti Air": 1
    },
    "Italy": {
-    "Armored Car": 2,
     "Anti Tank": 2,
+    "Armored Car": 2,
+    "Naval Bomber": 1,
     "Infantry": 11
    },
    "Spain": {
@@ -2346,6 +2347,6 @@
     "Infantry": 2
    }
   },
-  "ts": 1792090883933
+  "ts": 1792094473089
  }
 }
