@@ -687,6 +687,16 @@
    "no": 10,
    "sn": 1,
    "frm": "Algeria"
+  },
+  "394": {
+   "t": 3700,
+   "p": "Düsseldorf",
+   "c": "United Kingdom",
+   "u": "Infantry",
+   "cap": false,
+   "no": 2,
+   "sn": 5,
+   "frm": "Germany"
   }
  },
  "loss": {
@@ -1921,6 +1931,20 @@
    "byu": "Tactical Bomber",
    "byn": 5,
    "by": "France"
+  },
+  "395": {
+   "t": 3720,
+   "p": "Taroudant",
+   "c": "Algeria",
+   "u": "Armored Car",
+   "what": "1× Armored Car",
+   "n": 1,
+   "dest": true,
+   "no": 7,
+   "byno": 14,
+   "byu": "Rocket Artillery",
+   "byn": 2,
+   "by": "Morocco"
   }
  },
  "cas": {
@@ -1953,7 +1977,7 @@
    "ts": 1791986408000
   },
   "Algeria|Morocco": {
-   "v": 5549,
+   "v": 5676,
    "ts": 1791986408000
   },
   "Morocco|Algeria": {
@@ -1965,11 +1989,11 @@
    "ts": 1791986408000
   },
   "France|Italy": {
-   "v": 2583,
+   "v": 2604,
    "ts": 1791986408000
   },
   "Italy|France": {
-   "v": 11350,
+   "v": 11466,
    "ts": 1791986408000
   },
   "France|Spain": {
@@ -2053,11 +2077,11 @@
    "ts": 1791986408000
   },
   "United Kingdom|Germany": {
-   "v": 2450,
+   "v": 2477,
    "ts": 1791986408000
   },
   "Germany|United Kingdom": {
-   "v": 1143,
+   "v": 1314,
    "ts": 1791986408000
   },
   "Poland|Belarus": {
@@ -2225,15 +2249,16 @@
     "Anti Air": 1
    },
    "Morocco": {
-    "Anti Tank": 2,
     "Armored Car": 1,
+    "Interceptor": 1,
     "Anti Air": 1,
-    "Infantry": 8,
-    "Interceptor": 1
+    "Anti Tank": 2,
+    "Infantry": 8
    },
    "Algeria": {
-    "Infantry": 6,
-    "Interceptor": 1
+    "Armored Car": 1,
+    "Interceptor": 1,
+    "Infantry": 6
    },
    "Tunisia": {
     "Infantry": 4,
@@ -2247,6 +2272,6 @@
     "Infantry": 2
    }
   },
-  "ts": 1792062063518
+  "ts": 1792065666410
  }
 }
