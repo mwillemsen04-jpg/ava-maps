@@ -1787,6 +1787,20 @@
    "byu": "Rocket Artillery",
    "byn": 3,
    "by": "Poland"
+  },
+  "378": {
+   "t": 3316,
+   "p": "Quebec",
+   "c": "Canada",
+   "u": "Anti Air",
+   "what": "1× Anti Air",
+   "n": 1,
+   "dest": true,
+   "no": 8,
+   "byno": 16,
+   "byu": "Infantry",
+   "byn": 1,
+   "by": "France"
   }
  },
  "cas": {
@@ -1819,11 +1833,11 @@
    "ts": 1791986408000
   },
   "Algeria|Morocco": {
-   "v": 4328,
+   "v": 4488,
    "ts": 1791986408000
   },
   "Morocco|Algeria": {
-   "v": 10568,
+   "v": 10603,
    "ts": 1791986408000
   },
   "Poland|Lithuania": {
@@ -1831,11 +1845,11 @@
    "ts": 1791986408000
   },
   "France|Italy": {
-   "v": 2256,
+   "v": 2318,
    "ts": 1791986408000
   },
   "Italy|France": {
-   "v": 8791,
+   "v": 9376,
    "ts": 1791986408000
   },
   "France|Spain": {
@@ -1919,11 +1933,11 @@
    "ts": 1791986408000
   },
   "United Kingdom|Germany": {
-   "v": 2252,
+   "v": 2289,
    "ts": 1791986408000
   },
   "Germany|United Kingdom": {
-   "v": 1052,
+   "v": 1072,
    "ts": 1791986408000
   },
   "Poland|Belarus": {
@@ -1967,11 +1981,11 @@
    "ts": 1791986408000
   },
   "Canada|France": {
-   "v": 828,
+   "v": 850,
    "ts": 1792035997265
   },
   "France|Canada": {
-   "v": 144,
+   "v": 158,
    "ts": 1792035997265
   }
  },
@@ -2058,6 +2072,9 @@
     "Anti Tank": 1,
     "Infantry": 6
    },
+   "Canada": {
+    "Anti Air": 1
+   },
    "Lithuania": {
     "Infantry": 3,
     "Armored Car": 1
@@ -2109,6 +2126,6 @@
     "Infantry": 2
    }
   },
-  "ts": 1792040473255
+  "ts": 1792044072110
  }
 }
