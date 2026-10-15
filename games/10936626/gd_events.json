@@ -756,6 +756,16 @@
    "no": 2,
    "sn": 5,
    "frm": "Germany"
+  },
+  "473": {
+   "t": 4224,
+   "p": "Barcelona",
+   "c": "Spain",
+   "u": "Infantry",
+   "cap": false,
+   "no": 8,
+   "sn": 1,
+   "frm": "France"
   }
  },
  "loss": {
@@ -2204,6 +2214,10 @@
   "France|Canada": {
    "v": 158,
    "ts": 1792072808000
+  },
+  "Italy|Austria": {
+   "v": 276,
+   "ts": 1792096612252
   }
  },
  "slots": {
@@ -2281,9 +2295,10 @@
     "Anti Air": 1
    },
    "Italy": {
-    "Anti Tank": 2,
+    "Tactical Bomber": 1,
     "Armored Car": 2,
     "Naval Bomber": 1,
+    "Anti Tank": 2,
     "Infantry": 11
    },
    "Spain": {
@@ -2347,6 +2362,6 @@
     "Infantry": 2
    }
   },
-  "ts": 1792094473089
+  "ts": 1792098073408
  }
 }
