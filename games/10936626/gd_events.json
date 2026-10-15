@@ -1849,6 +1849,20 @@
    "byu": "Infantry",
    "byn": 1,
    "by": "Morocco"
+  },
+  "386": {
+   "t": 3542,
+   "p": "Guadalajara",
+   "c": "Spain",
+   "u": "Infantry",
+   "what": "1× Infantry",
+   "n": 1,
+   "dest": true,
+   "no": 13,
+   "byno": 13,
+   "byu": "Armored Car",
+   "byn": 1,
+   "by": "France"
   }
  },
  "cas": {
@@ -1881,7 +1895,7 @@
    "ts": 1791986408000
   },
   "Algeria|Morocco": {
-   "v": 5031,
+   "v": 5274,
    "ts": 1791986408000
   },
   "Morocco|Algeria": {
@@ -1893,19 +1907,19 @@
    "ts": 1791986408000
   },
   "France|Italy": {
-   "v": 2412,
+   "v": 2466,
    "ts": 1791986408000
   },
   "Italy|France": {
-   "v": 10034,
+   "v": 10214,
    "ts": 1791986408000
   },
   "France|Spain": {
-   "v": 2264,
+   "v": 2294,
    "ts": 1791986408000
   },
   "Spain|France": {
-   "v": 10395,
+   "v": 10500,
    "ts": 1791986408000
   },
   "Algeria|Tunisia": {
@@ -1981,11 +1995,11 @@
    "ts": 1791986408000
   },
   "United Kingdom|Germany": {
-   "v": 2391,
+   "v": 2421,
    "ts": 1791986408000
   },
   "Germany|United Kingdom": {
-   "v": 1120,
+   "v": 1132,
    "ts": 1791986408000
   },
   "Poland|Belarus": {
@@ -2118,7 +2132,7 @@
    "Spain": {
     "Armored Car": 2,
     "Anti Tank": 1,
-    "Infantry": 6
+    "Infantry": 7
    },
    "Canada": {
     "Anti Air": 1
@@ -2175,6 +2189,6 @@
     "Infantry": 2
    }
   },
-  "ts": 1792054872866
+  "ts": 1792058468338
  }
 }
