@@ -567,6 +567,26 @@
    "no": 2,
    "sn": 2,
    "frm": "Algeria"
+  },
+  "363": {
+   "t": 2967,
+   "p": "Ajaccio",
+   "c": "Italy",
+   "u": "Infantry",
+   "cap": false,
+   "no": 1,
+   "sn": 1,
+   "frm": "France"
+  },
+  "364": {
+   "t": 2973,
+   "p": "Sidi Bel Abbes",
+   "c": "Morocco",
+   "u": "Infantry",
+   "cap": false,
+   "no": 10,
+   "sn": 1,
+   "frm": "Algeria"
   }
  },
  "loss": {
@@ -1675,6 +1695,20 @@
    "byu": "Infantry",
    "byn": 1,
    "by": "Germany"
+  },
+  "361": {
+   "t": 2952,
+   "p": "Aosta",
+   "c": "Italy",
+   "u": "Infantry",
+   "what": "1× Infantry",
+   "n": 1,
+   "dest": true,
+   "no": 7,
+   "byno": 26,
+   "byu": "Tactical Bomber",
+   "byn": 5,
+   "by": "France"
   }
  },
  "cas": {
@@ -1719,11 +1753,11 @@
    "ts": 1791986408000
   },
   "France|Italy": {
-   "v": 1427,
+   "v": 1833,
    "ts": 1791986408000
   },
   "Italy|France": {
-   "v": 8106,
+   "v": 8668,
    "ts": 1791986408000
   },
   "France|Spain": {
@@ -1807,11 +1841,11 @@
    "ts": 1791986408000
   },
   "United Kingdom|Germany": {
-   "v": 2017,
+   "v": 2060,
    "ts": 1791986408000
   },
   "Germany|United Kingdom": {
-   "v": 907,
+   "v": 937,
    "ts": 1791986408000
   },
   "Poland|Belarus": {
@@ -1926,9 +1960,9 @@
     "Anti Air": 1
    },
    "Italy": {
-    "Armored Car": 2,
-    "Infantry": 7,
-    "Anti Tank": 2
+    "Anti Tank": 2,
+    "Infantry": 8,
+    "Armored Car": 2
    },
    "Spain": {
     "Armored Car": 2,
@@ -1986,6 +2020,6 @@
     "Infantry": 2
    }
   },
-  "ts": 1792018867148
+  "ts": 1792022465250
  }
 }
