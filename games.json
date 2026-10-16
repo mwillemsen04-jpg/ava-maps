@@ -298,7 +298,7 @@
     {
       "id": "10936626",
       "name": "KH farm test run (AWT final)",
-      "status": "live",
+      "status": "saved",
       "added": "2026-10-13 16:12",
       "ran": 1792188060773,
       "pv": "bb342bb5d7",
@@ -377,7 +377,12 @@
           "Southern United States"
         ]
       },
-      "error": "Game server returned no game state."
+      "error": "Game server returned no game state.",
+      "reason": "stopped",
+      "ended": "2026-10-17 00:16",
+      "folders": [
+        "Opponent practice games"
+      ]
     }
   ],
   "folders": [
@@ -385,6 +390,7 @@
     "PHK",
     "IA",
     "MOB",
-    "Speedstars"
+    "Speedstars",
+    "Opponent practice games"
   ]
 }
