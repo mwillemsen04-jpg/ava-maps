@@ -2072,6 +2072,34 @@
    "byu": "Tactical Bomber",
    "byn": 5,
    "by": "France"
+  },
+  "484": {
+   "t": 4386,
+   "p": null,
+   "c": "Algeria",
+   "u": "Armored Car",
+   "what": "1× Infantry",
+   "n": 1,
+   "dest": false,
+   "no": 3,
+   "byno": null,
+   "byu": null,
+   "byn": null,
+   "by": null
+  },
+  "485": {
+   "t": 4416,
+   "p": null,
+   "c": "Algeria",
+   "u": "Armored Car",
+   "what": "1× Infantry",
+   "n": 1,
+   "dest": false,
+   "no": 3,
+   "byno": null,
+   "byu": null,
+   "byn": null,
+   "by": null
   }
  },
  "cas": {
@@ -2392,7 +2420,7 @@
    "Algeria": {
     "Armored Car": 1,
     "Interceptor": 1,
-    "Infantry": 6
+    "Infantry": 8
    },
    "Tunisia": {
     "Infantry": 4,
@@ -2406,6 +2434,6 @@
     "Infantry": 2
    }
   },
-  "ts": 1792105269744
+  "ts": 1792108872765
  }
 }
