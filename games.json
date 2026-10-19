@@ -384,14 +384,6 @@
         "Opponent practice games"
       ],
       "every": 240
-    },
-    {
-      "id": "10940524",
-      "name": "KH AWT final farm fest",
-      "status": "live",
-      "added": "2026-10-19 20:29",
-      "ran": 1792434549385,
-      "error": "Game server returned no game state."
     }
   ],
   "folders": [
