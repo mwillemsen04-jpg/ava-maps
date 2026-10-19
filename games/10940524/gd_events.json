@@ -749,6 +749,16 @@
    "no": 8,
    "sn": 1,
    "frm": "Ukraine"
+  },
+  "451": {
+   "t": 2812,
+   "p": "Luxembourg",
+   "c": "Italy",
+   "u": "Infantry",
+   "cap": false,
+   "no": 1,
+   "sn": 1,
+   "frm": "France"
   }
  },
  "loss": {
@@ -1927,6 +1937,20 @@
    "byu": "Anti Tank",
    "byn": 3,
    "by": "Poland"
+  },
+  "453": {
+   "t": 2814,
+   "p": "Naples",
+   "c": "Germany",
+   "u": "Infantry",
+   "what": "1× Infantry",
+   "n": 1,
+   "dest": true,
+   "no": 13,
+   "byno": 5,
+   "byu": "Cruiser",
+   "byn": 1,
+   "by": "Italy"
   }
  },
  "cas": {
@@ -1951,7 +1975,7 @@
    "ts": 1792425801000
   },
   "Poland|Spain": {
-   "v": 1753,
+   "v": 2055,
    "ts": 1792425801000
   },
   "Poland|Netherlands": {
@@ -2011,7 +2035,7 @@
    "ts": 1792425801000
   },
   "Italy|Germany": {
-   "v": 983,
+   "v": 996,
    "ts": 1792425801000
   },
   "Latvia|Poland": {
@@ -2043,7 +2067,7 @@
    "ts": 1792425801000
   },
   "Ukraine|Caucasus": {
-   "v": 3519,
+   "v": 3591,
    "ts": 1792425801000
   },
   "Ukraine|Cossack Republic": {
@@ -2067,7 +2091,7 @@
    "ts": 1792425801000
   },
   "Germany|Italy": {
-   "v": 1818,
+   "v": 1933,
    "ts": 1792425801000
   },
   "Germany|United Kingdom": {
@@ -2107,7 +2131,7 @@
    "ts": 1792425801000
   },
   "Spain|Poland": {
-   "v": 3303,
+   "v": 3842,
    "ts": 1792425801000
   },
   "Spain|France": {
@@ -2127,7 +2151,7 @@
    "ts": 1792425801000
   },
   "Caucasus|Ukraine": {
-   "v": 5913,
+   "v": 6347,
    "ts": 1792425801000
   },
   "Caucasus|Poland": {
@@ -2212,7 +2236,7 @@
  "stats": {
   "lost": {
    "Germany": {
-    "Infantry": 1,
+    "Infantry": 2,
     "Armored Car": 1
    },
    "France": {
@@ -2300,7 +2324,7 @@
     "Infantry": 2
    }
   },
-  "ts": 1792440068863
+  "ts": 1792443671444
  },
  "sync": {}
 }
