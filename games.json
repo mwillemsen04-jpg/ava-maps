@@ -390,25 +390,25 @@
       "name": "KH test game",
       "status": "live",
       "added": "2026-10-19 21:02",
-      "ran": 1792436580019,
+      "ran": 1792440066640,
       "pv": "bb342bb5d7",
       "last": {
         "day": 3,
         "score": {
-          "G": 280,
-          "R": 300
+          "G": 330,
+          "R": 250
         },
         "provinces": {
-          "G": 113,
-          "R": 117
+          "G": 117,
+          "R": 111
         },
-        "fetched": 1792436581570,
+        "fetched": 1792440068863,
         "winner": null,
         "teams": {
           "G": [
             {
-              "c": "Communist Russia",
-              "f": 3
+              "c": "Algeria",
+              "f": 2
             },
             {
               "c": "France",
@@ -423,14 +423,14 @@
               "f": 3
             },
             {
-              "c": "Southern United States",
-              "f": 4
+              "c": "Ukraine",
+              "f": 1
             }
           ],
           "R": [
             {
-              "c": "Algeria",
-              "f": 2
+              "c": "Communist Russia",
+              "f": 3
             },
             {
               "c": "Greater Romania",
@@ -445,8 +445,8 @@
               "f": 4
             },
             {
-              "c": "Ukraine",
-              "f": 1
+              "c": "Southern United States",
+              "f": 4
             }
           ]
         }
