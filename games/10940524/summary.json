@@ -3,22 +3,22 @@
  "name": "KH test game",
  "day": 3,
  "score": {
-  "G": 320,
-  "R": 260
+  "G": 330,
+  "R": 250
  },
  "provinces": {
-  "G": 120,
-  "R": 110
+  "G": 119,
+  "R": 111
  },
  "fetched": 1792436581570,
- "built": 1792437061436,
+ "built": 1792438998575,
  "game_over": false,
  "winner": null,
  "teams": {
   "G": [
    {
-    "c": "Communist Russia",
-    "f": 3
+    "c": "Algeria",
+    "f": 2
    },
    {
     "c": "France",
@@ -39,8 +39,8 @@
   ],
   "R": [
    {
-    "c": "Algeria",
-    "f": 2
+    "c": "Communist Russia",
+    "f": 3
    },
    {
     "c": "Greater Romania",
