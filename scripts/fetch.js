@@ -186,7 +186,7 @@ async function fetchGame(TARGET_GAME_ID, activeCookies) {
       "lastCallDuration": 150,
       "stateIDs": {},
       "tstamps": {},
-      "version": "213",
+      "version": "215",
       "client": "ww2-client-ultimate",
       "siteUserID": parseInt(autoUserID, 10),
       "adminLevel": 0,
