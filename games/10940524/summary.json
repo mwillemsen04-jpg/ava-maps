@@ -1,0 +1,65 @@
+{
+ "id": "10940524",
+ "name": "KH test game",
+ "day": 3,
+ "score": {
+  "G": 280,
+  "R": 300
+ },
+ "provinces": {
+  "G": 113,
+  "R": 117
+ },
+ "fetched": 1792436581570,
+ "built": 1792436585542,
+ "game_over": false,
+ "winner": null,
+ "teams": {
+  "G": [
+   {
+    "c": "Communist Russia",
+    "f": 3
+   },
+   {
+    "c": "France",
+    "f": 2
+   },
+   {
+    "c": "Germany",
+    "f": 1
+   },
+   {
+    "c": "Poland",
+    "f": 3
+   },
+   {
+    "c": "Southern United States",
+    "f": 4
+   }
+  ],
+  "R": [
+   {
+    "c": "Algeria",
+    "f": 2
+   },
+   {
+    "c": "Greater Romania",
+    "f": 3
+   },
+   {
+    "c": "Libya",
+    "f": 4
+   },
+   {
+    "c": "Russian Empire",
+    "f": 4
+   },
+   {
+    "c": "Ukraine",
+    "f": 1
+   }
+  ]
+ },
+ "events": 73,
+ "losses": 88
+}
