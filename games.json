@@ -384,6 +384,14 @@
         "Opponent practice games"
       ],
       "every": 240
+    },
+    {
+      "id": "10940524",
+      "name": "KH test game",
+      "status": "live",
+      "added": "2026-10-19 20:33",
+      "ran": 1792434827709,
+      "error": "Game server returned no game state."
     }
   ],
   "folders": [
