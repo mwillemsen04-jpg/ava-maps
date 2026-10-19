@@ -1951,6 +1951,20 @@
    "byu": "Cruiser",
    "byn": 1,
    "by": "Italy"
+  },
+  "454": {
+   "t": 2840,
+   "p": "Girona",
+   "c": "Spain",
+   "u": "Infantry",
+   "what": "1× Infantry",
+   "n": 1,
+   "dest": true,
+   "no": 3,
+   "byno": 18,
+   "byu": "Rocket Artillery",
+   "byn": 1,
+   "by": "Poland"
   }
  },
  "cas": {
@@ -1975,7 +1989,7 @@
    "ts": 1792425801000
   },
   "Poland|Spain": {
-   "v": 2055,
+   "v": 2254,
    "ts": 1792425801000
   },
   "Poland|Netherlands": {
@@ -2131,7 +2145,7 @@
    "ts": 1792425801000
   },
   "Spain|Poland": {
-   "v": 3842,
+   "v": 3999,
    "ts": 1792425801000
   },
   "Spain|France": {
@@ -2253,7 +2267,7 @@
    },
    "Spain": {
     "Anti Air": 1,
-    "Infantry": 3,
+    "Infantry": 4,
     "Anti Tank": 1
    },
    "Turkey": {
@@ -2324,7 +2338,7 @@
     "Infantry": 2
    }
   },
-  "ts": 1792443671444
+  "ts": 1792447268539
  },
  "sync": {}
 }
