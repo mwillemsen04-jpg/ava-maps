@@ -789,6 +789,26 @@
    "no": 6,
    "sn": 1,
    "frm": "Ukraine"
+  },
+  "462": {
+   "t": 3040,
+   "p": "Girona",
+   "c": "Spain",
+   "u": "Armored Car",
+   "cap": false,
+   "no": 3,
+   "sn": 1,
+   "frm": "France"
+  },
+  "466": {
+   "t": 3050,
+   "p": "Kayseri",
+   "c": "Turkey",
+   "u": "Armored Car",
+   "cap": false,
+   "no": 4,
+   "sn": 1,
+   "frm": "Ukraine"
   }
  },
  "loss": {
@@ -1995,6 +2015,48 @@
    "byu": "Rocket Artillery",
    "byn": 1,
    "by": "Poland"
+  },
+  "460": {
+   "t": 3039,
+   "p": "Istanbul",
+   "c": "Turkey",
+   "u": "Infantry",
+   "what": "1× Infantry",
+   "n": 1,
+   "dest": true,
+   "no": 9,
+   "byno": 14,
+   "byu": "Infantry",
+   "byn": 3,
+   "by": "Poland"
+  },
+  "463": {
+   "t": 3040,
+   "p": "Girona",
+   "c": "Poland",
+   "u": "Rocket Artillery",
+   "what": "1× Rocket Artillery",
+   "n": 1,
+   "dest": true,
+   "no": 18,
+   "byno": 3,
+   "byu": "Armored Car",
+   "byn": 1,
+   "by": "Spain"
+  },
+  "464": {
+   "t": 3047,
+   "p": "Taza",
+   "c": "Morocco",
+   "u": "Infantry",
+   "what": "1× Infantry",
+   "n": 1,
+   "dest": true,
+   "no": 1,
+   "byno": 25,
+   "byu": "Tactical Bomber",
+   "byn": 4,
+   "by": "France"
   }
  },
  "cas": {
@@ -2019,7 +2081,7 @@
    "ts": 1792425801000
   },
   "Poland|Spain": {
-   "v": 2254,
+   "v": 2603,
    "ts": 1792425801000
   },
   "Poland|Netherlands": {
@@ -2031,7 +2093,7 @@
    "ts": 1792425801000
   },
   "Poland|Turkey": {
-   "v": 371,
+   "v": 562,
    "ts": 1792425801000
   },
   "Poland|Caucasus": {
@@ -2059,7 +2121,7 @@
    "ts": 1792425801000
   },
   "France|Morocco": {
-   "v": 1113,
+   "v": 1198,
    "ts": 1792425801000
   },
   "France|Melilla": {
@@ -2111,7 +2173,7 @@
    "ts": 1792425801000
   },
   "Ukraine|Caucasus": {
-   "v": 3670,
+   "v": 4188,
    "ts": 1792425801000
   },
   "Ukraine|Cossack Republic": {
@@ -2151,7 +2213,7 @@
    "ts": 1792425801000
   },
   "Morocco|France": {
-   "v": 7795,
+   "v": 8745,
    "ts": 1792425801000
   },
   "Belgium|Poland": {
@@ -2175,7 +2237,7 @@
    "ts": 1792425801000
   },
   "Spain|Poland": {
-   "v": 4178,
+   "v": 4313,
    "ts": 1792425801000
   },
   "Spain|France": {
@@ -2191,11 +2253,11 @@
    "ts": 1792425801000
   },
   "Turkey|Poland": {
-   "v": 4039,
+   "v": 4669,
    "ts": 1792425801000
   },
   "Caucasus|Ukraine": {
-   "v": 7004,
+   "v": 7260,
    "ts": 1792425801000
   },
   "Caucasus|Poland": {
@@ -2296,12 +2358,12 @@
     "Anti Tank": 2
    },
    "Spain": {
-    "Anti Air": 1,
     "Infantry": 4,
-    "Anti Tank": 1
+    "Anti Tank": 1,
+    "Anti Air": 1
    },
    "Turkey": {
-    "Infantry": 6,
+    "Infantry": 7,
     "Anti Tank": 3
    },
    "Latvia": {
@@ -2316,7 +2378,7 @@
     "Infantry": 5,
     "Anti Tank": 1,
     "Armored Car": 1,
-    "Rocket Artillery": 2
+    "Rocket Artillery": 3
    },
    "Crimea": {
     "Anti Air": 1,
@@ -2341,7 +2403,7 @@
     "Anti Air": 1
    },
    "Morocco": {
-    "Infantry": 6,
+    "Infantry": 7,
     "Anti Tank": 2,
     "Armored Car": 2,
     "Interceptor": 1,
@@ -2368,7 +2430,7 @@
     "Infantry": 2
    }
   },
-  "ts": 1792454467423
+  "ts": 1792458068252
  },
  "sync": {}
 }
