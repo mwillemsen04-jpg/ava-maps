@@ -809,6 +809,46 @@
    "no": 4,
    "sn": 1,
    "frm": "Ukraine"
+  },
+  "471": {
+   "t": 3130,
+   "p": "Paris",
+   "c": "Italy",
+   "u": "Infantry",
+   "cap": true,
+   "no": 1,
+   "sn": 1,
+   "frm": "France"
+  },
+  "474": {
+   "t": 3130,
+   "p": "Nuremburg",
+   "c": "Italy",
+   "u": "Infantry",
+   "cap": false,
+   "no": 8,
+   "sn": 1,
+   "frm": "Germany"
+  },
+  "475": {
+   "t": 3131,
+   "p": "Cologne",
+   "c": "Belgium",
+   "u": "Anti Air",
+   "cap": false,
+   "no": 3,
+   "sn": 1,
+   "frm": "Germany"
+  },
+  "478": {
+   "t": 3160,
+   "p": "Bryansk",
+   "c": "Cossack Republic",
+   "u": "Infantry",
+   "cap": false,
+   "no": 8,
+   "sn": 1,
+   "frm": "Ukraine"
   }
  },
  "loss": {
@@ -2057,6 +2097,34 @@
    "byu": "Tactical Bomber",
    "byn": 4,
    "by": "France"
+  },
+  "472": {
+   "t": 3130,
+   "p": "Nuremburg",
+   "c": "France",
+   "u": "Infantry",
+   "what": "1× Infantry",
+   "n": 1,
+   "dest": true,
+   "no": 11,
+   "byno": 8,
+   "byu": "Infantry",
+   "byn": 1,
+   "by": "Italy"
+  },
+  "476": {
+   "t": 3152,
+   "p": "Taza",
+   "c": "Morocco",
+   "u": "Artillery",
+   "what": "1× Artillery",
+   "n": 1,
+   "dest": true,
+   "no": 5,
+   "byno": 25,
+   "byu": "Tactical Bomber",
+   "byn": 4,
+   "by": "France"
   }
  },
  "cas": {
@@ -2109,7 +2177,7 @@
    "ts": 1792425801000
   },
   "France|Italy": {
-   "v": 1585,
+   "v": 1744,
    "ts": 1792425801000
   },
   "France|Luxembourg": {
@@ -2121,7 +2189,7 @@
    "ts": 1792425801000
   },
   "France|Morocco": {
-   "v": 1198,
+   "v": 1210,
    "ts": 1792425801000
   },
   "France|Melilla": {
@@ -2133,7 +2201,7 @@
    "ts": 1792425801000
   },
   "Italy|France": {
-   "v": 8753,
+   "v": 8847,
    "ts": 1792425801000
   },
   "Italy|Poland": {
@@ -2173,7 +2241,7 @@
    "ts": 1792425801000
   },
   "Ukraine|Caucasus": {
-   "v": 4687,
+   "v": 5113,
    "ts": 1792425801000
   },
   "Ukraine|Cossack Republic": {
@@ -2205,7 +2273,7 @@
    "ts": 1792425801000
   },
   "Algeria|Morocco": {
-   "v": 2483,
+   "v": 2537,
    "ts": 1792425801000
   },
   "Morocco|Algeria": {
@@ -2213,7 +2281,7 @@
    "ts": 1792425801000
   },
   "Morocco|France": {
-   "v": 8745,
+   "v": 9845,
    "ts": 1792425801000
   },
   "Belgium|Poland": {
@@ -2257,7 +2325,7 @@
    "ts": 1792425801000
   },
   "Caucasus|Ukraine": {
-   "v": 7331,
+   "v": 7420,
    "ts": 1792425801000
   },
   "Caucasus|Poland": {
@@ -2346,7 +2414,8 @@
     "Armored Car": 1
    },
    "France": {
-    "Armored Car": 1
+    "Armored Car": 1,
+    "Infantry": 1
    },
    "United Kingdom": {
     "Anti Tank": 1
@@ -2404,10 +2473,11 @@
    },
    "Morocco": {
     "Infantry": 7,
-    "Anti Tank": 2,
-    "Armored Car": 2,
     "Interceptor": 1,
-    "Tactical Bomber": 1
+    "Artillery": 1,
+    "Armored Car": 2,
+    "Tactical Bomber": 1,
+    "Anti Tank": 2
    },
    "Algeria": {
     "Infantry": 1,
@@ -2424,14 +2494,14 @@
    "Caucasus": {
     "Anti Air": 1,
     "Infantry": 4,
-    "Strategic Bomber": 1,
+    "Strategic Bomber": 2,
     "Anti Tank": 1
    },
    "Melilla": {
     "Infantry": 2
    }
   },
-  "ts": 1792461666194
+  "ts": 1792465267140
  },
  "sync": {}
 }
