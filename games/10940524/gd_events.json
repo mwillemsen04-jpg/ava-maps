@@ -2109,7 +2109,7 @@
    "ts": 1792425801000
   },
   "France|Italy": {
-   "v": 1392,
+   "v": 1585,
    "ts": 1792425801000
   },
   "France|Luxembourg": {
@@ -2133,7 +2133,7 @@
    "ts": 1792425801000
   },
   "Italy|France": {
-   "v": 8620,
+   "v": 8753,
    "ts": 1792425801000
   },
   "Italy|Poland": {
@@ -2173,7 +2173,7 @@
    "ts": 1792425801000
   },
   "Ukraine|Caucasus": {
-   "v": 4188,
+   "v": 4687,
    "ts": 1792425801000
   },
   "Ukraine|Cossack Republic": {
@@ -2257,7 +2257,7 @@
    "ts": 1792425801000
   },
   "Caucasus|Ukraine": {
-   "v": 7260,
+   "v": 7331,
    "ts": 1792425801000
   },
   "Caucasus|Poland": {
@@ -2418,19 +2418,20 @@
     "Infantry": 3
    },
    "Ukraine": {
-    "Anti Air": 1,
-    "Infantry": 3
+    "Infantry": 3,
+    "Anti Air": 1
    },
    "Caucasus": {
-    "Anti Tank": 1,
     "Anti Air": 1,
-    "Infantry": 4
+    "Infantry": 4,
+    "Strategic Bomber": 1,
+    "Anti Tank": 1
    },
    "Melilla": {
     "Infantry": 2
    }
   },
-  "ts": 1792458068252
+  "ts": 1792461666194
  },
  "sync": {}
 }
