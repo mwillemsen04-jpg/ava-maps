@@ -899,6 +899,16 @@
    "no": 22,
    "sn": 1,
    "frm": "Ukraine"
+  },
+  "488": {
+   "t": 3335,
+   "p": "Poltava",
+   "c": "Caucasus",
+   "u": "Infantry",
+   "cap": false,
+   "no": 20,
+   "sn": 1,
+   "frm": "Ukraine"
   }
  },
  "loss": {
@@ -2178,31 +2188,45 @@
   },
   "482": {
    "t": 3266,
-   "p": null,
+   "p": "Maykop",
    "c": "Ukraine",
    "u": "Infantry",
    "what": "1× Infantry",
    "n": 1,
-   "dest": false,
+   "dest": true,
    "no": 1,
-   "byno": null,
-   "byu": null,
-   "byn": null,
-   "by": null
+   "byno": 1,
+   "byu": "Rocket Artillery",
+   "byn": 1,
+   "by": "Caucasus"
   },
   "485": {
    "t": 3296,
-   "p": null,
+   "p": "Maykop",
    "c": "Ukraine",
    "u": "Infantry",
    "what": "1× Infantry",
    "n": 1,
-   "dest": false,
+   "dest": true,
    "no": 1,
-   "byno": null,
-   "byu": null,
-   "byn": null,
-   "by": null
+   "byno": 1,
+   "byu": "Rocket Artillery",
+   "byn": 1,
+   "by": "Caucasus"
+  },
+  "486": {
+   "t": 3326,
+   "p": "Maykop",
+   "c": "Ukraine",
+   "u": "Infantry",
+   "what": "1× Infantry",
+   "n": 1,
+   "dest": true,
+   "no": 1,
+   "byno": 1,
+   "byu": "Rocket Artillery",
+   "byn": 1,
+   "by": "Caucasus"
   }
  },
  "cas": {
@@ -2267,7 +2291,7 @@
    "ts": 1792425801000
   },
   "France|Morocco": {
-   "v": 1210,
+   "v": 2330,
    "ts": 1792425801000
   },
   "France|Melilla": {
@@ -2319,7 +2343,7 @@
    "ts": 1792425801000
   },
   "Ukraine|Caucasus": {
-   "v": 6035,
+   "v": 6768,
    "ts": 1792425801000
   },
   "Ukraine|Cossack Republic": {
@@ -2359,7 +2383,7 @@
    "ts": 1792425801000
   },
   "Morocco|France": {
-   "v": 9845,
+   "v": 11205,
    "ts": 1792425801000
   },
   "Belgium|Poland": {
@@ -2403,7 +2427,7 @@
    "ts": 1792425801000
   },
   "Caucasus|Ukraine": {
-   "v": 7420,
+   "v": 7460,
    "ts": 1792425801000
   },
   "Caucasus|Poland": {
@@ -2566,7 +2590,7 @@
     "Infantry": 3
    },
    "Ukraine": {
-    "Infantry": 5,
+    "Infantry": 6,
     "Anti Air": 1
    },
    "Caucasus": {
@@ -2579,7 +2603,7 @@
     "Infantry": 2
    }
   },
-  "ts": 1792472463114
+  "ts": 1792476061461
  },
  "sync": {}
 }
