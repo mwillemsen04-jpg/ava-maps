@@ -909,6 +909,16 @@
    "no": 20,
    "sn": 1,
    "frm": "Ukraine"
+  },
+  "496": {
+   "t": 3445,
+   "p": "Leipzig",
+   "c": "Italy",
+   "u": "Infantry",
+   "cap": false,
+   "no": 8,
+   "sn": 1,
+   "frm": "Germany"
   }
  },
  "loss": {
@@ -2272,17 +2282,45 @@
   },
   "494": {
    "t": 3407,
-   "p": null,
+   "p": "Taza",
    "c": "Morocco",
    "u": "Infantry",
    "what": "1× Anti Air",
    "n": 1,
-   "dest": false,
+   "dest": true,
    "no": 1,
-   "byno": null,
-   "byu": null,
-   "byn": null,
-   "by": null
+   "byno": 25,
+   "byu": "Tactical Bomber",
+   "byn": 4,
+   "by": "France"
+  },
+  "495": {
+   "t": 3422,
+   "p": "Taza",
+   "c": "Morocco",
+   "u": "Infantry",
+   "what": "1× Infantry",
+   "n": 1,
+   "dest": true,
+   "no": 1,
+   "byno": 25,
+   "byu": "Tactical Bomber",
+   "byn": 4,
+   "by": "France"
+  },
+  "497": {
+   "t": 3452,
+   "p": "Taza",
+   "c": "Morocco",
+   "u": "Infantry",
+   "what": "1× Infantry",
+   "n": 1,
+   "dest": true,
+   "no": 1,
+   "byno": 25,
+   "byu": "Tactical Bomber",
+   "byn": 4,
+   "by": "France"
   }
  },
  "cas": {
@@ -2347,7 +2385,7 @@
    "ts": 1792425801000
   },
   "France|Morocco": {
-   "v": 2929,
+   "v": 3021,
    "ts": 1792425801000
   },
   "France|Melilla": {
@@ -2439,7 +2477,7 @@
    "ts": 1792425801000
   },
   "Morocco|France": {
-   "v": 12181,
+   "v": 12595,
    "ts": 1792425801000
   },
   "Belgium|Poland": {
@@ -2487,7 +2525,7 @@
    "ts": 1792425801000
   },
   "Caucasus|Poland": {
-   "v": 1045,
+   "v": 1444,
    "ts": 1792425801000
   },
   "United Kingdom|Germany": {
@@ -2630,7 +2668,7 @@
     "Anti Air": 1
    },
    "Morocco": {
-    "Infantry": 7,
+    "Infantry": 9,
     "Anti Tank": 2,
     "Artillery": 1,
     "Anti Air": 1,
@@ -2661,7 +2699,7 @@
     "Infantry": 2
    }
   },
-  "ts": 1792479670454
+  "ts": 1792483268515
  },
  "sync": {}
 }
