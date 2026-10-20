@@ -989,6 +989,16 @@
    "no": 8,
    "sn": 1,
    "frm": "Ukraine"
+  },
+  "515": {
+   "t": 3755,
+   "p": "Chernihiv",
+   "c": "Caucasus",
+   "u": "Infantry",
+   "cap": false,
+   "no": 22,
+   "sn": 1,
+   "frm": "Ukraine"
   }
  },
  "loss": {
@@ -2475,6 +2485,34 @@
    "byu": "Armored Car",
    "byn": 6,
    "by": "Algeria"
+  },
+  "516": {
+   "t": 3763,
+   "p": "Pamplona",
+   "c": "Spain",
+   "u": "Anti Tank",
+   "what": "1× Anti Tank",
+   "n": 1,
+   "dest": true,
+   "no": 8,
+   "byno": 8,
+   "byu": "Tactical Bomber",
+   "byn": 5,
+   "by": "France"
+  },
+  "517": {
+   "t": 3778,
+   "p": "Pamplona",
+   "c": "Spain",
+   "u": "Anti Tank",
+   "what": "1× Armored Car",
+   "n": 1,
+   "dest": true,
+   "no": 8,
+   "byno": 8,
+   "byu": "Tactical Bomber",
+   "byn": 5,
+   "by": "France"
   }
  },
  "cas": {
@@ -2547,7 +2585,7 @@
    "ts": 1792425801000
   },
   "France|Spain": {
-   "v": 1207,
+   "v": 1491,
    "ts": 1792425801000
   },
   "Italy|France": {
@@ -2587,7 +2625,7 @@
    "ts": 1792425801000
   },
   "Ukraine|Turkey": {
-   "v": 4584,
+   "v": 5076,
    "ts": 1792425801000
   },
   "Ukraine|Caucasus": {
@@ -2659,7 +2697,7 @@
    "ts": 1792425801000
   },
   "Spain|France": {
-   "v": 5108,
+   "v": 7583,
    "ts": 1792425801000
   },
   "Melilla|France": {
@@ -2667,11 +2705,11 @@
    "ts": 1792425801000
   },
   "Turkey|Ukraine": {
-   "v": 3978,
+   "v": 4194,
    "ts": 1792425801000
   },
   "Turkey|Poland": {
-   "v": 5051,
+   "v": 5214,
    "ts": 1792425801000
   },
   "Caucasus|Ukraine": {
@@ -2778,8 +2816,9 @@
    },
    "Spain": {
     "Infantry": 6,
-    "Anti Tank": 1,
-    "Anti Air": 1
+    "Anti Air": 1,
+    "Armored Car": 1,
+    "Anti Tank": 2
    },
    "Turkey": {
     "Infantry": 7,
@@ -2854,7 +2893,7 @@
     "Infantry": 2
    }
   },
-  "ts": 1792497669880
+  "ts": 1792501267258
  },
  "sync": {}
 }
