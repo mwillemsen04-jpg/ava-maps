@@ -969,6 +969,26 @@
    "no": 8,
    "sn": 1,
    "frm": "Germany"
+  },
+  "509": {
+   "t": 3661,
+   "p": "Lyon",
+   "c": "Spain",
+   "u": "Armored Car",
+   "cap": false,
+   "no": 3,
+   "sn": 1,
+   "frm": "France"
+  },
+  "512": {
+   "t": 3699,
+   "p": "Lubny",
+   "c": "Cossack Republic",
+   "u": "Infantry",
+   "cap": false,
+   "no": 8,
+   "sn": 1,
+   "frm": "Ukraine"
   }
  },
  "loss": {
@@ -2413,6 +2433,48 @@
    "byu": "Infantry",
    "byn": 5,
    "by": "France"
+  },
+  "510": {
+   "t": 3678,
+   "p": "Taza",
+   "c": "Morocco",
+   "u": "Armored Car",
+   "what": "1× Infantry",
+   "n": 1,
+   "dest": true,
+   "no": 1,
+   "byno": 9,
+   "byu": "Armored Car",
+   "byn": 6,
+   "by": "Algeria"
+  },
+  "511": {
+   "t": 3692,
+   "p": "Taza",
+   "c": "Morocco",
+   "u": "Armored Car",
+   "what": "1× Infantry",
+   "n": 1,
+   "dest": true,
+   "no": 1,
+   "byno": 9,
+   "byu": "Armored Car",
+   "byn": 6,
+   "by": "Algeria"
+  },
+  "514": {
+   "t": 3708,
+   "p": "Taza",
+   "c": "Morocco",
+   "u": "Armored Car",
+   "what": "1× Armored Car",
+   "n": 1,
+   "dest": true,
+   "no": 1,
+   "byno": 9,
+   "byu": "Armored Car",
+   "byn": 6,
+   "by": "Algeria"
   }
  },
  "cas": {
@@ -2477,7 +2539,7 @@
    "ts": 1792425801000
   },
   "France|Morocco": {
-   "v": 3746,
+   "v": 4035,
    "ts": 1792425801000
   },
   "France|Melilla": {
@@ -2561,15 +2623,15 @@
    "ts": 1792425801000
   },
   "Algeria|Morocco": {
-   "v": 2537,
+   "v": 3138,
    "ts": 1792425801000
   },
   "Morocco|Algeria": {
-   "v": 3605,
+   "v": 4967,
    "ts": 1792425801000
   },
   "Morocco|France": {
-   "v": 13540,
+   "v": 14183,
    "ts": 1792425801000
   },
   "Belgium|Poland": {
@@ -2609,7 +2671,7 @@
    "ts": 1792425801000
   },
   "Turkey|Poland": {
-   "v": 4804,
+   "v": 5051,
    "ts": 1792425801000
   },
   "Caucasus|Ukraine": {
@@ -2760,13 +2822,13 @@
     "Anti Air": 1
    },
    "Morocco": {
-    "Infantry": 9,
+    "Infantry": 11,
     "Anti Tank": 2,
     "Artillery": 1,
     "Anti Air": 1,
     "Interceptor": 1,
     "Tactical Bomber": 1,
-    "Armored Car": 2
+    "Armored Car": 3
    },
    "Algeria": {
     "Infantry": 1,
@@ -2792,7 +2854,7 @@
     "Infantry": 2
    }
   },
-  "ts": 1792494065377
+  "ts": 1792497669880
  },
  "sync": {}
 }
