@@ -879,6 +879,26 @@
    "no": 3,
    "sn": 1,
    "frm": "France"
+  },
+  "483": {
+   "t": 3274,
+   "p": "Berdiansk",
+   "c": "Caucasus",
+   "u": "Infantry",
+   "cap": false,
+   "no": 3,
+   "sn": 1,
+   "frm": "Ukraine"
+  },
+  "484": {
+   "t": 3294,
+   "p": "Krasnohrad",
+   "c": "Caucasus",
+   "u": "Infantry",
+   "cap": false,
+   "no": 22,
+   "sn": 1,
+   "frm": "Ukraine"
   }
  },
  "loss": {
@@ -2155,6 +2175,34 @@
    "byu": "Tactical Bomber",
    "byn": 4,
    "by": "France"
+  },
+  "482": {
+   "t": 3266,
+   "p": null,
+   "c": "Ukraine",
+   "u": "Infantry",
+   "what": "1× Infantry",
+   "n": 1,
+   "dest": false,
+   "no": 1,
+   "byno": null,
+   "byu": null,
+   "byn": null,
+   "by": null
+  },
+  "485": {
+   "t": 3296,
+   "p": null,
+   "c": "Ukraine",
+   "u": "Infantry",
+   "what": "1× Infantry",
+   "n": 1,
+   "dest": false,
+   "no": 1,
+   "byno": null,
+   "byu": null,
+   "byn": null,
+   "by": null
   }
  },
  "cas": {
@@ -2271,7 +2319,7 @@
    "ts": 1792425801000
   },
   "Ukraine|Caucasus": {
-   "v": 5549,
+   "v": 6035,
    "ts": 1792425801000
   },
   "Ukraine|Cossack Republic": {
@@ -2518,7 +2566,7 @@
     "Infantry": 3
    },
    "Ukraine": {
-    "Infantry": 3,
+    "Infantry": 5,
     "Anti Air": 1
    },
    "Caucasus": {
@@ -2531,7 +2579,7 @@
     "Infantry": 2
    }
   },
-  "ts": 1792468870682
+  "ts": 1792472463114
  },
  "sync": {}
 }
