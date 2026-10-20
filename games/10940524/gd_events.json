@@ -759,6 +759,36 @@
    "no": 1,
    "sn": 1,
    "frm": "France"
+  },
+  "456": {
+   "t": 2951,
+   "p": "Rostock",
+   "c": "Belgium",
+   "u": "Infantry",
+   "cap": false,
+   "no": 2,
+   "sn": 2,
+   "frm": "Germany"
+  },
+  "457": {
+   "t": 2971,
+   "p": "Dijon",
+   "c": "Italy",
+   "u": "Infantry",
+   "cap": false,
+   "no": 1,
+   "sn": 1,
+   "frm": "France"
+  },
+  "458": {
+   "t": 2995,
+   "p": "Kharkov",
+   "c": "Caucasus",
+   "u": "Infantry",
+   "cap": false,
+   "no": 6,
+   "sn": 1,
+   "frm": "Ukraine"
   }
  },
  "loss": {
@@ -2081,7 +2111,7 @@
    "ts": 1792425801000
   },
   "Ukraine|Caucasus": {
-   "v": 3650,
+   "v": 3670,
    "ts": 1792425801000
   },
   "Ukraine|Cossack Republic": {
@@ -2145,7 +2175,7 @@
    "ts": 1792425801000
   },
   "Spain|Poland": {
-   "v": 3999,
+   "v": 4178,
    "ts": 1792425801000
   },
   "Spain|France": {
@@ -2165,7 +2195,7 @@
    "ts": 1792425801000
   },
   "Caucasus|Ukraine": {
-   "v": 6756,
+   "v": 7004,
    "ts": 1792425801000
   },
   "Caucasus|Poland": {
@@ -2338,7 +2368,7 @@
     "Infantry": 2
    }
   },
-  "ts": 1792450870054
+  "ts": 1792454467423
  },
  "sync": {}
 }
