@@ -849,6 +849,36 @@
    "no": 8,
    "sn": 1,
    "frm": "Ukraine"
+  },
+  "479": {
+   "t": 3213,
+   "p": "Ain Salah",
+   "c": "Morocco",
+   "u": "Infantry",
+   "cap": false,
+   "no": 7,
+   "sn": 1,
+   "frm": "Algeria"
+  },
+  "480": {
+   "t": 3235,
+   "p": "Stettin",
+   "c": "Belgium",
+   "u": "Infantry",
+   "cap": false,
+   "no": 2,
+   "sn": 2,
+   "frm": "Germany"
+  },
+  "481": {
+   "t": 3236,
+   "p": "Toulouse",
+   "c": "Spain",
+   "u": "Armored Car",
+   "cap": false,
+   "no": 3,
+   "sn": 1,
+   "frm": "France"
   }
  },
  "loss": {
@@ -2241,7 +2271,7 @@
    "ts": 1792425801000
   },
   "Ukraine|Caucasus": {
-   "v": 5113,
+   "v": 5549,
    "ts": 1792425801000
   },
   "Ukraine|Cossack Republic": {
@@ -2501,7 +2531,7 @@
     "Infantry": 2
    }
   },
-  "ts": 1792465267140
+  "ts": 1792468870682
  },
  "sync": {}
 }
