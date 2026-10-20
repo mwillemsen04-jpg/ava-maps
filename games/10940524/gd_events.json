@@ -1115,6 +1115,26 @@
    "no": 8,
    "sn": 1,
    "frm": "Ukraine"
+  },
+  "637": {
+   "t": 4333,
+   "p": "Tenes",
+   "c": "Morocco",
+   "u": "Infantry",
+   "cap": false,
+   "no": 2,
+   "sn": 1,
+   "frm": "Algeria"
+  },
+  "638": {
+   "t": 4347,
+   "p": "Uman",
+   "c": "Cossack Republic",
+   "u": "Infantry",
+   "cap": false,
+   "no": 8,
+   "sn": 1,
+   "frm": "Ukraine"
   }
  },
  "loss": {
@@ -3168,7 +3188,7 @@
     "Infantry": 2
    }
   },
-  "ts": 1792533669407
+  "ts": 1792537271451
  },
  "sync": {}
 }
