@@ -2574,17 +2574,45 @@
   },
   "525": {
    "t": 3823,
-   "p": null,
+   "p": "Izmir",
    "c": "Turkey",
    "u": "Tank Destroyer",
    "what": "1× Infantry",
    "n": 1,
-   "dest": false,
+   "dest": true,
    "no": 2,
-   "byno": null,
-   "byu": null,
-   "byn": null,
-   "by": null
+   "byno": 3,
+   "byu": "Anti Tank",
+   "byn": 3,
+   "by": "Poland"
+  },
+  "526": {
+   "t": 3853,
+   "p": "Izmir",
+   "c": "Ukraine",
+   "u": "Armored Car",
+   "what": "1× Armored Car",
+   "n": 1,
+   "dest": true,
+   "no": 23,
+   "byno": 2,
+   "byu": "Tank Destroyer",
+   "byn": 2,
+   "by": "Turkey"
+  },
+  "529": {
+   "t": 3890,
+   "p": "Izmir",
+   "c": "Turkey",
+   "u": "Tank Destroyer",
+   "what": "1× Tank Destroyer",
+   "n": 1,
+   "dest": true,
+   "no": 2,
+   "byno": 3,
+   "byu": "Anti Tank",
+   "byn": 3,
+   "by": "Poland"
   }
  },
  "cas": {
@@ -2621,7 +2649,7 @@
    "ts": 1792425801000
   },
   "Poland|Turkey": {
-   "v": 562,
+   "v": 658,
    "ts": 1792425801000
   },
   "Poland|Caucasus": {
@@ -2697,7 +2725,7 @@
    "ts": 1792425801000
   },
   "Ukraine|Turkey": {
-   "v": 5505,
+   "v": 5554,
    "ts": 1792425801000
   },
   "Ukraine|Caucasus": {
@@ -2777,11 +2805,11 @@
    "ts": 1792425801000
   },
   "Turkey|Ukraine": {
-   "v": 4292,
+   "v": 4298,
    "ts": 1792425801000
   },
   "Turkey|Poland": {
-   "v": 5330,
+   "v": 5994,
    "ts": 1792425801000
   },
   "Caucasus|Ukraine": {
@@ -2894,6 +2922,7 @@
    },
    "Turkey": {
     "Infantry": 8,
+    "Tank Destroyer": 1,
     "Anti Tank": 3
    },
    "Latvia": {
@@ -2905,10 +2934,10 @@
     "Armored Car": 1
    },
    "Poland": {
-    "Infantry": 5,
-    "Anti Tank": 1,
     "Armored Car": 1,
-    "Rocket Artillery": 3
+    "Rocket Artillery": 3,
+    "Anti Tank": 1,
+    "Infantry": 5
    },
    "Crimea": {
     "Anti Air": 1,
@@ -2951,9 +2980,10 @@
     "Infantry": 4
    },
    "Ukraine": {
-    "Interceptor": 1,
     "Infantry": 6,
-    "Anti Air": 1
+    "Anti Air": 1,
+    "Interceptor": 1,
+    "Armored Car": 1
    },
    "Caucasus": {
     "Infantry": 5,
@@ -2965,7 +2995,7 @@
     "Infantry": 2
    }
   },
-  "ts": 1792504874206
+  "ts": 1792508469873
  },
  "sync": {}
 }
