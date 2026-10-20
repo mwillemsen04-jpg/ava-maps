@@ -1095,6 +1095,16 @@
    "no": 22,
    "sn": 1,
    "frm": "Ukraine"
+  },
+  "627": {
+   "t": 4089,
+   "p": "Kryvyi Rih",
+   "c": "Cossack Republic",
+   "u": "Infantry",
+   "cap": false,
+   "no": 6,
+   "sn": 1,
+   "frm": "Ukraine"
   }
  },
  "loss": {
@@ -2735,6 +2745,20 @@
    "byu": "Infantry",
    "byn": 1,
    "by": "Morocco"
+  },
+  "630": {
+   "t": 4123,
+   "p": "Pamplona",
+   "c": "Spain",
+   "u": "Infantry",
+   "what": "1× Infantry",
+   "n": 1,
+   "dest": true,
+   "no": 10,
+   "byno": 8,
+   "byu": "Tactical Bomber",
+   "byn": 5,
+   "by": "France"
   }
  },
  "cas": {
@@ -3041,7 +3065,7 @@
    "Spain": {
     "Armored Car": 1,
     "Anti Air": 1,
-    "Infantry": 8,
+    "Infantry": 9,
     "Anti Tank": 2
    },
    "Turkey": {
@@ -3119,7 +3143,7 @@
     "Infantry": 2
    }
   },
-  "ts": 1792519269073
+  "ts": 1792522870878
  },
  "sync": {}
 }

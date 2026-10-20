@@ -390,7 +390,7 @@
       "name": "KH test game",
       "status": "live",
       "added": "2026-10-19 21:02",
-      "ran": 1792519267329,
+      "ran": 1792522869345,
       "pv": "bb342bb5d7",
       "last": {
         "day": 4,
@@ -399,10 +399,10 @@
           "R": 250
         },
         "provinces": {
-          "G": 88,
+          "G": 87,
           "R": 111
         },
-        "fetched": 1792519269073,
+        "fetched": 1792522870878,
         "winner": null,
         "teams": {
           "G": [
