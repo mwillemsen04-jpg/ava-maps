@@ -1085,6 +1085,16 @@
    "no": 2,
    "sn": 1,
    "frm": "Algeria"
+  },
+  "623": {
+   "t": 4066,
+   "p": "Korosten",
+   "c": "Caucasus",
+   "u": "Infantry",
+   "cap": false,
+   "no": 22,
+   "sn": 1,
+   "frm": "Ukraine"
   }
  },
  "loss": {
@@ -2672,239 +2682,281 @@
   },
   "619": {
    "t": 4007,
-   "p": null,
+   "p": "Mostaganem",
    "c": "France",
    "u": "Tactical Bomber",
    "what": "1× Tactical Bomber",
    "n": 1,
-   "dest": false,
+   "dest": true,
    "no": 25,
-   "byno": null,
-   "byu": null,
-   "byn": null,
-   "by": null
+   "byno": 2,
+   "byu": "Infantry",
+   "byn": 1,
+   "by": "Morocco"
+  },
+  "620": {
+   "t": 4037,
+   "p": "Mostaganem",
+   "c": "France",
+   "u": "Tactical Bomber",
+   "what": "1× Tactical Bomber",
+   "n": 1,
+   "dest": true,
+   "no": 25,
+   "byno": 2,
+   "byu": "Infantry",
+   "byn": 1,
+   "by": "Morocco"
+  },
+  "621": {
+   "t": 4040,
+   "p": "Izmir",
+   "c": "Turkey",
+   "u": "Infantry",
+   "what": "1× Infantry",
+   "n": 1,
+   "dest": true,
+   "no": 3,
+   "byno": 3,
+   "byu": "Anti Tank",
+   "byn": 3,
+   "by": "Poland"
+  },
+  "625": {
+   "t": 4067,
+   "p": "Mostaganem",
+   "c": "France",
+   "u": "Tactical Bomber",
+   "what": "2× Tactical Bomber",
+   "n": 2,
+   "dest": true,
+   "no": 25,
+   "byno": 2,
+   "byu": "Infantry",
+   "byn": 1,
+   "by": "Morocco"
   }
  },
  "cas": {
   "Czechoslovakia|Poland": {
    "v": 4131,
-   "ts": 1792425801000
+   "ts": 1792512201000
   },
   "Luxembourg|Poland": {
    "v": 1022,
-   "ts": 1792425801000
+   "ts": 1792512201000
   },
   "Luxembourg|France": {
    "v": 778,
-   "ts": 1792425801000
+   "ts": 1792512201000
   },
   "Poland|Czechoslovakia": {
    "v": 1690,
-   "ts": 1792425801000
+   "ts": 1792512201000
   },
   "Poland|Italy": {
    "v": 1907,
-   "ts": 1792425801000
+   "ts": 1792512201000
   },
   "Poland|Spain": {
    "v": 2603,
-   "ts": 1792425801000
+   "ts": 1792512201000
   },
   "Poland|Netherlands": {
    "v": 929,
-   "ts": 1792425801000
+   "ts": 1792512201000
   },
   "Poland|Latvia": {
    "v": 867,
-   "ts": 1792425801000
+   "ts": 1792512201000
   },
   "Poland|Turkey": {
    "v": 658,
-   "ts": 1792425801000
+   "ts": 1792512201000
   },
   "Poland|Caucasus": {
    "v": 1620,
-   "ts": 1792425801000
+   "ts": 1792512201000
   },
   "Crimea|Poland": {
    "v": 817,
-   "ts": 1792425801000
+   "ts": 1792512201000
   },
   "Crimea|Ukraine": {
    "v": 1543,
-   "ts": 1792425801000
+   "ts": 1792512201000
   },
   "France|Italy": {
    "v": 1744,
-   "ts": 1792425801000
+   "ts": 1792512201000
   },
   "France|Luxembourg": {
    "v": 598,
-   "ts": 1792425801000
+   "ts": 1792512201000
   },
   "France|Tunisia": {
    "v": 2779,
-   "ts": 1792425801000
+   "ts": 1792512201000
   },
   "France|Morocco": {
    "v": 4035,
-   "ts": 1792425801000
+   "ts": 1792512201000
   },
   "France|Melilla": {
    "v": 245,
-   "ts": 1792425801000
+   "ts": 1792512201000
   },
   "France|Spain": {
    "v": 1578,
-   "ts": 1792425801000
+   "ts": 1792512201000
   },
   "Italy|France": {
    "v": 8847,
-   "ts": 1792425801000
+   "ts": 1792512201000
   },
   "Italy|Poland": {
    "v": 3771,
-   "ts": 1792425801000
+   "ts": 1792512201000
   },
   "Italy|Germany": {
    "v": 996,
-   "ts": 1792425801000
+   "ts": 1792512201000
   },
   "Latvia|Poland": {
    "v": 3150,
-   "ts": 1792425801000
+   "ts": 1792512201000
   },
   "Switzerland|Poland": {
    "v": 2998,
-   "ts": 1792425801000
+   "ts": 1792512201000
   },
   "Switzerland|Ukraine": {
    "v": 968,
-   "ts": 1792425801000
+   "ts": 1792512201000
   },
   "Ukraine|Crimea": {
    "v": 786,
-   "ts": 1792425801000
+   "ts": 1792512201000
   },
   "Ukraine|Switzerland": {
    "v": 559,
-   "ts": 1792425801000
+   "ts": 1792512201000
   },
   "Ukraine|Lithuania": {
    "v": 104,
-   "ts": 1792425801000
+   "ts": 1792512201000
   },
   "Ukraine|Turkey": {
    "v": 5554,
-   "ts": 1792425801000
+   "ts": 1792512201000
   },
   "Ukraine|Caucasus": {
    "v": 6802,
-   "ts": 1792425801000
+   "ts": 1792512201000
   },
   "Ukraine|Cossack Republic": {
    "v": 940,
-   "ts": 1792425801000
+   "ts": 1792512201000
   },
   "Tunisia|France": {
    "v": 4516,
-   "ts": 1792425801000
+   "ts": 1792512201000
   },
   "Tunisia|Germany": {
    "v": 1784,
-   "ts": 1792425801000
+   "ts": 1792512201000
   },
   "Germany|Tunisia": {
    "v": 807,
-   "ts": 1792425801000
+   "ts": 1792512201000
   },
   "Germany|Belgium": {
    "v": 1050,
-   "ts": 1792425801000
+   "ts": 1792512201000
   },
   "Germany|Italy": {
    "v": 1933,
-   "ts": 1792425801000
+   "ts": 1792512201000
   },
   "Germany|United Kingdom": {
    "v": 183,
-   "ts": 1792425801000
+   "ts": 1792512201000
   },
   "Algeria|Morocco": {
    "v": 3138,
-   "ts": 1792425801000
+   "ts": 1792512201000
   },
   "Morocco|Algeria": {
    "v": 4967,
-   "ts": 1792425801000
+   "ts": 1792512201000
   },
   "Morocco|France": {
    "v": 14183,
-   "ts": 1792425801000
+   "ts": 1792512201000
   },
   "Belgium|Poland": {
    "v": 2534,
-   "ts": 1792425801000
+   "ts": 1792512201000
   },
   "Belgium|Germany": {
    "v": 1090,
-   "ts": 1792425801000
+   "ts": 1792512201000
   },
   "Netherlands|Poland": {
    "v": 1796,
-   "ts": 1792425801000
+   "ts": 1792512201000
   },
   "Lithuania|Poland": {
    "v": 2376,
-   "ts": 1792425801000
+   "ts": 1792512201000
   },
   "Lithuania|Ukraine": {
    "v": 134,
-   "ts": 1792425801000
+   "ts": 1792512201000
   },
   "Spain|Poland": {
    "v": 4313,
-   "ts": 1792425801000
+   "ts": 1792512201000
   },
   "Spain|France": {
    "v": 8496,
-   "ts": 1792425801000
+   "ts": 1792512201000
   },
   "Melilla|France": {
    "v": 1900,
-   "ts": 1792425801000
+   "ts": 1792512201000
   },
   "Turkey|Ukraine": {
    "v": 4298,
-   "ts": 1792425801000
+   "ts": 1792512201000
   },
   "Turkey|Poland": {
    "v": 6263,
-   "ts": 1792425801000
+   "ts": 1792512201000
   },
   "Caucasus|Ukraine": {
    "v": 7467,
-   "ts": 1792425801000
+   "ts": 1792512201000
   },
   "Caucasus|Poland": {
    "v": 1450,
-   "ts": 1792425801000
+   "ts": 1792512201000
   },
   "United Kingdom|Germany": {
    "v": 750,
-   "ts": 1792425801000
+   "ts": 1792512201000
   },
   "Cossack Republic|Ukraine": {
    "v": 144,
-   "ts": 1792425801000
+   "ts": 1792512201000
   },
   "Cuba|Algeria": {
    "v": 144,
-   "ts": 1792425977752
+   "ts": 1792512201000
   },
   "Algeria|Cuba": {
    "v": 247,
-   "ts": 1792425977752
+   "ts": 1792512201000
   }
  },
  "slots": {
@@ -2975,7 +3027,7 @@
    "France": {
     "Infantry": 1,
     "Armored Car": 1,
-    "Tactical Bomber": 1
+    "Tactical Bomber": 4
    },
    "United Kingdom": {
     "Anti Tank": 1
@@ -2994,7 +3046,7 @@
    },
    "Turkey": {
     "Tank Destroyer": 1,
-    "Infantry": 8,
+    "Infantry": 9,
     "Anti Tank": 3
    },
    "Latvia": {
@@ -3067,7 +3119,7 @@
     "Infantry": 2
    }
   },
-  "ts": 1792515667943
+  "ts": 1792519269073
  },
  "sync": {}
 }
