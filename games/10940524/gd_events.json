@@ -919,6 +919,16 @@
    "no": 8,
    "sn": 1,
    "frm": "Germany"
+  },
+  "502": {
+   "t": 3519,
+   "p": "Kremenchuk",
+   "c": "Caucasus",
+   "u": "Infantry",
+   "cap": false,
+   "no": 20,
+   "sn": 1,
+   "frm": "Ukraine"
   }
  },
  "loss": {
@@ -2321,6 +2331,34 @@
    "byu": "Tactical Bomber",
    "byn": 4,
    "by": "France"
+  },
+  "499": {
+   "t": 3490,
+   "p": "Zugdidi",
+   "c": "Caucasus",
+   "u": "Infantry",
+   "what": "1× Infantry",
+   "n": 1,
+   "dest": true,
+   "no": 8,
+   "byno": 31,
+   "byu": "Rocket Artillery",
+   "byn": 1,
+   "by": "Poland"
+  },
+  "501": {
+   "t": 3515,
+   "p": null,
+   "c": "Tunisia",
+   "u": "Armored Car",
+   "what": "1× Infantry",
+   "n": 1,
+   "dest": false,
+   "no": 2,
+   "byno": null,
+   "byu": null,
+   "byn": null,
+   "by": null
   }
  },
  "cas": {
@@ -2381,7 +2419,7 @@
    "ts": 1792425801000
   },
   "France|Tunisia": {
-   "v": 1636,
+   "v": 2582,
    "ts": 1792425801000
   },
   "France|Morocco": {
@@ -2445,7 +2483,7 @@
    "ts": 1792425801000
   },
   "Tunisia|France": {
-   "v": 2669,
+   "v": 4369,
    "ts": 1792425801000
   },
   "Tunisia|Germany": {
@@ -2453,7 +2491,7 @@
    "ts": 1792425801000
   },
   "Germany|Tunisia": {
-   "v": 504,
+   "v": 757,
    "ts": 1792425801000
   },
   "Germany|Belgium": {
@@ -2517,7 +2555,7 @@
    "ts": 1792425801000
   },
   "Turkey|Poland": {
-   "v": 4669,
+   "v": 4698,
    "ts": 1792425801000
   },
   "Caucasus|Ukraine": {
@@ -2525,7 +2563,7 @@
    "ts": 1792425801000
   },
   "Caucasus|Poland": {
-   "v": 1444,
+   "v": 1450,
    "ts": 1792425801000
   },
   "United Kingdom|Germany": {
@@ -2682,7 +2720,7 @@
    },
    "Tunisia": {
     "Anti Air": 1,
-    "Infantry": 3
+    "Infantry": 4
    },
    "Ukraine": {
     "Interceptor": 1,
@@ -2690,7 +2728,7 @@
     "Anti Air": 1
    },
    "Caucasus": {
-    "Infantry": 4,
+    "Infantry": 5,
     "Anti Tank": 1,
     "Anti Air": 1,
     "Strategic Bomber": 2
@@ -2699,7 +2737,7 @@
     "Infantry": 2
    }
   },
-  "ts": 1792483268515
+  "ts": 1792486865079
  },
  "sync": {}
 }
