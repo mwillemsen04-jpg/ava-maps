@@ -1105,6 +1105,16 @@
    "no": 6,
    "sn": 1,
    "frm": "Ukraine"
+  },
+  "632": {
+   "t": 4143,
+   "p": "Kiev",
+   "c": "Cossack Republic",
+   "u": "Infantry",
+   "cap": true,
+   "no": 8,
+   "sn": 1,
+   "frm": "Ukraine"
   }
  },
  "loss": {
@@ -2759,6 +2769,20 @@
    "byu": "Tactical Bomber",
    "byn": 5,
    "by": "France"
+  },
+  "633": {
+   "t": 4157,
+   "p": "Mostaganem",
+   "c": "Algeria",
+   "u": "Interceptor",
+   "what": "1× Interceptor",
+   "n": 1,
+   "dest": true,
+   "no": 20,
+   "byno": 2,
+   "byu": "Infantry",
+   "byn": 1,
+   "by": "Morocco"
   }
  },
  "cas": {
@@ -3110,16 +3134,17 @@
     "Anti Air": 1
    },
    "Morocco": {
-    "Infantry": 11,
-    "Anti Tank": 2,
-    "Tactical Bomber": 1,
     "Interceptor": 1,
     "Anti Air": 1,
+    "Artillery": 1,
+    "Anti Tank": 2,
     "Armored Car": 3,
-    "Artillery": 1
+    "Infantry": 11,
+    "Tactical Bomber": 1
    },
    "Algeria": {
     "Armored Car": 1,
+    "Interceptor": 1,
     "Infantry": 1
    },
    "Tunisia": {
@@ -3143,7 +3168,7 @@
     "Infantry": 2
    }
   },
-  "ts": 1792522870878
+  "ts": 1792526468994
  },
  "sync": {}
 }
