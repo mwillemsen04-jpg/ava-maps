@@ -1245,6 +1245,16 @@
    "no": 12,
    "sn": 1,
    "frm": "Ukraine"
+  },
+  "687": {
+   "t": 4888,
+   "p": "Taza",
+   "c": "Morocco",
+   "u": "Light Tank",
+   "cap": false,
+   "no": 5,
+   "sn": 2,
+   "frm": "Algeria"
   }
  },
  "loss": {
@@ -3081,6 +3091,20 @@
    "byu": "Rocket Artillery",
    "byn": 1,
    "by": "Poland"
+  },
+  "688": {
+   "t": 4890,
+   "p": "Belgograd",
+   "c": "Caucasus",
+   "u": "Infantry",
+   "what": "1× Infantry",
+   "n": 1,
+   "dest": true,
+   "no": 12,
+   "byno": 2,
+   "byu": "Rocket Artillery",
+   "byn": 3,
+   "by": "Poland"
   }
  },
  "cas": {
@@ -3285,7 +3309,7 @@
    "ts": 1792512201000
   },
   "Caucasus|Poland": {
-   "v": 1501,
+   "v": 1620,
    "ts": 1792556402000
   },
   "United Kingdom|Germany": {
@@ -3461,14 +3485,14 @@
    "Caucasus": {
     "Anti Air": 1,
     "Anti Tank": 1,
-    "Infantry": 6,
+    "Infantry": 7,
     "Strategic Bomber": 2
    },
    "Melilla": {
     "Infantry": 2
    }
   },
-  "ts": 1792566063877
+  "ts": 1792569664747
  },
  "sync": {}
 }
