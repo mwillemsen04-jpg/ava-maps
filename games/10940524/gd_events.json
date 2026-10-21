@@ -1442,6 +1442,16 @@
    "no": 18,
    "sn": 2,
    "frm": "Crimea"
+  },
+  "739": {
+   "t": 5801,
+   "p": "Bougie",
+   "c": "Morocco",
+   "u": "Light Tank",
+   "cap": false,
+   "no": 11,
+   "sn": 1,
+   "frm": "Algeria"
   }
  },
  "loss": {
@@ -3838,7 +3848,7 @@
     "Infantry": 2
    }
   },
-  "ts": 1792620068175
+  "ts": 1792623663056
  },
  "sync": {
   "Kiel": {
