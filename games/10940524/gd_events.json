@@ -1335,6 +1335,16 @@
    "no": 8,
    "sn": 1,
    "frm": "France"
+  },
+  "694": {
+   "t": 5350,
+   "p": "Sidi Bel Abbes",
+   "c": "Morocco",
+   "u": "Light Tank",
+   "cap": false,
+   "no": 11,
+   "sn": 1,
+   "frm": "Algeria"
   }
  },
  "loss": {
@@ -3213,6 +3223,20 @@
    "byu": "Armored Car",
    "byn": 1,
    "by": "Tunisia"
+  },
+  "696": {
+   "t": 5360,
+   "p": "Istanbul",
+   "c": "Turkey",
+   "u": "Armored Car",
+   "what": "1× Armored Car",
+   "n": 1,
+   "dest": true,
+   "no": 2,
+   "byno": 14,
+   "byu": "Infantry",
+   "byn": 3,
+   "by": "Poland"
   }
  },
  "cas": {
@@ -3527,8 +3551,9 @@
    },
    "Turkey": {
     "Tank Destroyer": 1,
+    "Infantry": 9,
     "Anti Tank": 3,
-    "Infantry": 9
+    "Armored Car": 1
    },
    "Latvia": {
     "Infantry": 3,
@@ -3601,7 +3626,7 @@
     "Infantry": 2
    }
   },
-  "ts": 1792594871166
+  "ts": 1792598466312
  },
  "sync": {
   "Kiel": {
