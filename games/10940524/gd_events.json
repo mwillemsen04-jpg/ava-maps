@@ -1345,6 +1345,33 @@
    "no": 11,
    "sn": 1,
    "frm": "Algeria"
+  },
+  "728": {
+   "t": 5403,
+   "p": "Belgograd",
+   "c": "Ukraine",
+   "u": "Revolt",
+   "cap": false,
+   "rev": true,
+   "frm": "Caucasus"
+  },
+  "729": {
+   "t": 5403,
+   "p": "Balti",
+   "c": "Ukraine",
+   "u": "Revolt",
+   "cap": false,
+   "rev": true,
+   "frm": "Cossack Republic"
+  },
+  "730": {
+   "t": 5403,
+   "p": "Voroshilovsk",
+   "c": "Caucasus",
+   "u": "Revolt",
+   "cap": false,
+   "rev": true,
+   "frm": "Ukraine"
   }
  },
  "loss": {
@@ -3237,6 +3264,20 @@
    "byu": "Infantry",
    "byn": 3,
    "by": "Poland"
+  },
+  "735": {
+   "t": 5405,
+   "p": "Milan",
+   "c": "Italy",
+   "u": "Infantry",
+   "what": "1× Infantry",
+   "n": 1,
+   "dest": true,
+   "no": 3,
+   "byno": 8,
+   "byu": "Tactical Bomber",
+   "byn": 6,
+   "by": "France"
   }
  },
  "cas": {
@@ -3345,8 +3386,8 @@
    "ts": 1792512201000
   },
   "Ukraine|Lithuania": {
-   "v": 104,
-   "ts": 1792512201000
+   "v": 236,
+   "ts": 1792601649741
   },
   "Ukraine|Turkey": {
    "v": 5554,
@@ -3518,7 +3559,8 @@
  },
  "news_days": [
   2,
-  3
+  3,
+  4
  ],
  "stats": {
   "lost": {
@@ -3537,7 +3579,7 @@
     "Anti Tank": 1
    },
    "Italy": {
-    "Infantry": 7,
+    "Infantry": 8,
     "Anti Tank": 2,
     "Anti Air": 1,
     "Interceptor": 1,
@@ -3626,7 +3668,7 @@
     "Infantry": 2
    }
   },
-  "ts": 1792598466312
+  "ts": 1792602068888
  },
  "sync": {
   "Kiel": {
@@ -3640,10 +3682,6 @@
   "Taza": {
    "t": 5221,
    "c": "Morocco"
-  },
-  "Belgograd": {
-   "t": 5161,
-   "c": "Caucasus"
   }
  }
 }
