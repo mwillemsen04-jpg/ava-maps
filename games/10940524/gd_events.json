@@ -3135,6 +3135,20 @@
    "byu": "Rocket Artillery",
    "byn": 3,
    "by": "Poland"
+  },
+  "683": {
+   "t": 5080,
+   "p": "Cuneo",
+   "c": "Italy",
+   "u": "Anti Air",
+   "what": "1× Anti Air",
+   "n": 1,
+   "dest": true,
+   "no": 2,
+   "byno": 6,
+   "byu": "Rocket Artillery",
+   "byn": 1,
+   "by": "Poland"
   }
  },
  "cas": {
@@ -3435,10 +3449,11 @@
     "Anti Tank": 1
    },
    "Italy": {
-    "Armored Car": 2,
-    "Anti Tank": 2,
     "Infantry": 6,
-    "Interceptor": 1
+    "Anti Tank": 2,
+    "Anti Air": 1,
+    "Interceptor": 1,
+    "Armored Car": 2
    },
    "Spain": {
     "Armored Car": 2,
@@ -3522,7 +3537,7 @@
     "Infantry": 2
    }
   },
-  "ts": 1792576871253
+  "ts": 1792580466341
  },
  "sync": {
   "Kiel": {
