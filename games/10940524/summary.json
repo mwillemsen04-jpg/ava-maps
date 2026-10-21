@@ -7,11 +7,11 @@
   "R": 250
  },
  "provinces": {
-  "G": 57,
+  "G": 58,
   "R": 111
  },
- "fetched": 1792616468941,
- "built": 1792616475001,
+ "fetched": 1792620068175,
+ "built": 1792620074390,
  "game_over": false,
  "winner": null,
  "teams": {
@@ -60,6 +60,6 @@
    }
   ]
  },
- "events": 147,
- "losses": 152
+ "events": 148,
+ "losses": 153
 }
