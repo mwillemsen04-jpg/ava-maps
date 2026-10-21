@@ -1135,6 +1135,36 @@
    "no": 8,
    "sn": 1,
    "frm": "Ukraine"
+  },
+  "650": {
+   "t": 4462,
+   "p": "Duisburg",
+   "c": "Belgium",
+   "u": "Infantry",
+   "cap": false,
+   "no": 2,
+   "sn": 2,
+   "frm": "Germany"
+  },
+  "651": {
+   "t": 4464,
+   "p": "Balti",
+   "c": "Cossack Republic",
+   "u": "Infantry",
+   "cap": false,
+   "no": 8,
+   "sn": 1,
+   "frm": "Ukraine"
+  },
+  "652": {
+   "t": 4482,
+   "p": "Zhytomyr",
+   "c": "Cossack Republic",
+   "u": "Infantry",
+   "cap": false,
+   "no": 9,
+   "sn": 1,
+   "frm": "Ukraine"
   }
  },
  "loss": {
@@ -2803,6 +2833,62 @@
    "byu": "Infantry",
    "byn": 1,
    "by": "Morocco"
+  },
+  "644": {
+   "t": 4453,
+   "p": "Souk El Arba",
+   "c": "Tunisia",
+   "u": "Armored Car",
+   "what": "1× Armored Car",
+   "n": 1,
+   "dest": true,
+   "no": 2,
+   "byno": 25,
+   "byu": "Light Tank",
+   "byn": 1,
+   "by": "Germany"
+  },
+  "645": {
+   "t": 4453,
+   "p": "Souk El Arba",
+   "c": "Germany",
+   "u": "Light Tank",
+   "what": "1× Light Tank",
+   "n": 1,
+   "dest": true,
+   "no": 25,
+   "byno": 2,
+   "byu": "Armored Car",
+   "byn": 1,
+   "by": "Tunisia"
+  },
+  "653": {
+   "t": 4490,
+   "p": "Vilnius",
+   "c": "Latvia",
+   "u": "Anti Air",
+   "what": "1× Anti Air",
+   "n": 1,
+   "dest": true,
+   "no": 2,
+   "byno": 23,
+   "byu": "Rocket Artillery",
+   "byn": 3,
+   "by": "Poland"
+  },
+  "656": {
+   "t": 4496,
+   "p": "Taza",
+   "c": "Morocco",
+   "u": "Armored Car",
+   "what": "1× Armored Car",
+   "n": 1,
+   "dest": true,
+   "no": 13,
+   "byno": 9,
+   "byu": "Armored Car",
+   "byn": 6,
+   "by": "Algeria"
   }
  },
  "cas": {
@@ -3089,8 +3175,9 @@
  "stats": {
   "lost": {
    "Germany": {
-    "Infantry": 2,
-    "Armored Car": 1
+    "Light Tank": 1,
+    "Armored Car": 1,
+    "Infantry": 2
    },
    "France": {
     "Infantry": 1,
@@ -3118,7 +3205,7 @@
     "Anti Tank": 3
    },
    "Latvia": {
-    "Anti Air": 1,
+    "Anti Air": 2,
     "Infantry": 3
    },
    "Lithuania": {
@@ -3158,7 +3245,7 @@
     "Anti Air": 1,
     "Artillery": 1,
     "Anti Tank": 2,
-    "Armored Car": 3,
+    "Armored Car": 4,
     "Infantry": 11,
     "Tactical Bomber": 1
    },
@@ -3168,9 +3255,9 @@
     "Infantry": 1
    },
    "Tunisia": {
-    "Infantry": 4,
+    "Armored Car": 2,
     "Anti Air": 1,
-    "Armored Car": 1
+    "Infantry": 4
    },
    "Ukraine": {
     "Armored Car": 1,
@@ -3188,7 +3275,7 @@
     "Infantry": 2
    }
   },
-  "ts": 1792540874335
+  "ts": 1792544466105
  },
  "sync": {}
 }
