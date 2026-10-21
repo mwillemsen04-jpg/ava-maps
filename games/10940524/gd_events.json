@@ -1372,6 +1372,36 @@
    "cap": false,
    "rev": true,
    "frm": "Ukraine"
+  },
+  "741": {
+   "t": 5483,
+   "p": "Krasnodar",
+   "c": "Caucasus",
+   "u": "Anti Tank",
+   "cap": false,
+   "no": 21,
+   "sn": 1,
+   "frm": "Ukraine"
+  },
+  "742": {
+   "t": 5497,
+   "p": "Touggourt",
+   "c": "Morocco",
+   "u": "Infantry",
+   "cap": false,
+   "no": 18,
+   "sn": 1,
+   "frm": "Algeria"
+  },
+  "743": {
+   "t": 5509,
+   "p": "Lodz",
+   "c": "Caucasus",
+   "u": "Infantry",
+   "cap": false,
+   "no": 20,
+   "sn": 1,
+   "frm": "Poland"
   }
  },
  "loss": {
@@ -3278,6 +3308,20 @@
    "byu": "Tactical Bomber",
    "byn": 6,
    "by": "France"
+  },
+  "739": {
+   "t": 5470,
+   "p": "Turin",
+   "c": "Italy",
+   "u": "Infantry",
+   "what": "1× Infantry",
+   "n": 1,
+   "dest": true,
+   "no": 2,
+   "byno": 6,
+   "byu": "Rocket Artillery",
+   "byn": 1,
+   "by": "Poland"
   }
  },
  "cas": {
@@ -3386,7 +3430,7 @@
    "ts": 1792512201000
   },
   "Ukraine|Lithuania": {
-   "v": 236,
+   "v": 723,
    "ts": 1792601649741
   },
   "Ukraine|Turkey": {
@@ -3579,7 +3623,7 @@
     "Anti Tank": 1
    },
    "Italy": {
-    "Infantry": 8,
+    "Infantry": 9,
     "Anti Tank": 2,
     "Anti Air": 1,
     "Interceptor": 1,
@@ -3668,7 +3712,7 @@
     "Infantry": 2
    }
   },
-  "ts": 1792602068888
+  "ts": 1792605666612
  },
  "sync": {
   "Kiel": {
