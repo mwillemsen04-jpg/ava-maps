@@ -1297,12 +1297,12 @@
    "frm": "France"
   },
   "692": {
-   "t": 5232,
-   "p": "Oujda",
+   "t": 5306,
+   "p": "Hassi Messaoud",
    "c": "Morocco",
-   "u": "Light Tank",
+   "u": "Infantry",
    "cap": false,
-   "no": 8,
+   "no": 18,
    "sn": 1,
    "frm": "Algeria"
   },
@@ -1315,6 +1315,26 @@
    "no": 2,
    "sn": 1,
    "frm": "Algeria"
+  },
+  "691": {
+   "t": 5300,
+   "p": "Lublin",
+   "c": "Caucasus",
+   "u": "Infantry",
+   "cap": false,
+   "no": 20,
+   "sn": 1,
+   "frm": "Poland"
+  },
+  "693": {
+   "t": 5331,
+   "p": "Bordeaux",
+   "c": "Spain",
+   "u": "Anti Tank",
+   "cap": false,
+   "no": 8,
+   "sn": 1,
+   "frm": "France"
   }
  },
  "loss": {
@@ -3126,31 +3146,31 @@
   },
   "682": {
    "t": 5236,
-   "p": null,
+   "p": "Gabes",
    "c": "France",
    "u": "Infantry",
    "what": "1× Infantry",
    "n": 1,
-   "dest": false,
+   "dest": true,
    "no": 2,
-   "byno": null,
-   "byu": null,
-   "byn": null,
-   "by": null
+   "byno": 1,
+   "byu": "Armored Car",
+   "byn": 1,
+   "by": "Tunisia"
   },
   "685": {
    "t": 5266,
-   "p": null,
+   "p": "Gabes",
    "c": "France",
    "u": "Infantry",
    "what": "2× Infantry",
    "n": 2,
-   "dest": false,
+   "dest": true,
    "no": 2,
-   "byno": null,
-   "byu": null,
-   "byn": null,
-   "by": null
+   "byno": 1,
+   "byu": "Armored Car",
+   "byn": 1,
+   "by": "Tunisia"
   },
   "688": {
    "t": 4890,
@@ -3181,18 +3201,18 @@
    "by": "Poland"
   },
   "690": {
-   "t": 5232,
-   "p": "Milan",
-   "c": "Italy",
+   "t": 5296,
+   "p": "Gabes",
+   "c": "France",
    "u": "Infantry",
-   "what": "1× Infantry",
-   "n": 1,
+   "what": "2× Infantry",
+   "n": 2,
    "dest": true,
-   "no": 4,
-   "byno": 8,
-   "byu": "Tactical Bomber",
-   "byn": 6,
-   "by": "France"
+   "no": 2,
+   "byno": 1,
+   "byu": "Armored Car",
+   "byn": 1,
+   "by": "Tunisia"
   }
  },
  "cas": {
@@ -3485,7 +3505,7 @@
     "Light Tank": 1
    },
    "France": {
-    "Infantry": 4,
+    "Infantry": 6,
     "Tactical Bomber": 4,
     "Armored Car": 1
    },
@@ -3581,12 +3601,16 @@
     "Infantry": 2
    }
   },
-  "ts": 1792591273110
+  "ts": 1792594871166
  },
  "sync": {
   "Kiel": {
    "t": 5041,
    "c": "Belgium"
+  },
+  "Oujda": {
+   "t": 5341,
+   "c": "Morocco"
   },
   "Taza": {
    "t": 5221,
