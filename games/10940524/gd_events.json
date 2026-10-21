@@ -1247,14 +1247,14 @@
    "frm": "France"
   },
   "687": {
-   "t": 4888,
-   "p": "Taza",
-   "c": "Morocco",
-   "u": "Light Tank",
+   "t": 5217,
+   "p": "Souk El Arba",
+   "c": "Tunisia",
+   "u": "Armored Car",
    "cap": false,
-   "no": 5,
-   "sn": 2,
-   "frm": "Algeria"
+   "no": 2,
+   "sn": 1,
+   "frm": "France"
   },
   "690": {
    "t": 4944,
@@ -3528,8 +3528,8 @@
    },
    "Tunisia": {
     "Anti Air": 1,
-    "Armored Car": 2,
-    "Infantry": 4
+    "Infantry": 4,
+    "Armored Car": 2
    },
    "Ukraine": {
     "Infantry": 6,
@@ -3547,12 +3547,16 @@
     "Infantry": 2
    }
   },
-  "ts": 1792584072481
+  "ts": 1792587667978
  },
  "sync": {
   "Kiel": {
    "t": 5041,
    "c": "Belgium"
+  },
+  "Taza": {
+   "t": 5221,
+   "c": "Morocco"
   },
   "Belgograd": {
    "t": 5161,
