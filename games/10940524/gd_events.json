@@ -1412,6 +1412,26 @@
    "no": 22,
    "sn": 1,
    "frm": "Poland"
+  },
+  "755": {
+   "t": 5644,
+   "p": "Tizi Ouzou",
+   "c": "Morocco",
+   "u": "Light Tank",
+   "cap": false,
+   "no": 11,
+   "sn": 1,
+   "frm": "Algeria"
+  },
+  "758": {
+   "t": 5666,
+   "p": "Toruń",
+   "c": "Caucasus",
+   "u": "Infantry",
+   "cap": false,
+   "no": 20,
+   "sn": 1,
+   "frm": "Poland"
   }
  },
  "loss": {
@@ -3349,17 +3369,17 @@
   },
   "750": {
    "t": 5596,
-   "p": null,
+   "p": "Nalchik",
    "c": "Ukraine",
    "u": "Infantry",
    "what": "1× Infantry",
    "n": 1,
-   "dest": false,
+   "dest": true,
    "no": 2,
-   "byno": null,
-   "byu": null,
-   "byn": null,
-   "by": null
+   "byno": 16,
+   "byu": "Infantry",
+   "byn": 1,
+   "by": "Caucasus"
   },
   "751": {
    "t": 5596,
@@ -3388,6 +3408,20 @@
    "byu": "Rocket Artillery",
    "byn": 3,
    "by": "Poland"
+  },
+  "736": {
+   "t": 5692,
+   "p": "Nalchik",
+   "c": "Ukraine",
+   "u": "Infantry",
+   "what": "1× Infantry",
+   "n": 1,
+   "dest": true,
+   "no": 2,
+   "byno": 16,
+   "byu": "Infantry",
+   "byn": 1,
+   "by": "Caucasus"
   }
  },
  "cas": {
@@ -3702,24 +3736,24 @@
     "Anti Air": 1
    },
    "Turkey": {
-    "Tank Destroyer": 1,
-    "Infantry": 9,
     "Anti Tank": 3,
-    "Armored Car": 1
+    "Armored Car": 1,
+    "Tank Destroyer": 1,
+    "Infantry": 9
    },
    "Latvia": {
-    "Infantry": 3,
-    "Anti Air": 2
+    "Anti Air": 2,
+    "Infantry": 3
    },
    "Lithuania": {
     "Armored Car": 1,
     "Infantry": 2
    },
    "Poland": {
-    "Infantry": 5,
-    "Armored Car": 1,
     "Rocket Artillery": 3,
-    "Anti Tank": 1
+    "Anti Tank": 1,
+    "Infantry": 5,
+    "Armored Car": 1
    },
    "Crimea": {
     "Anti Air": 1,
@@ -3744,13 +3778,13 @@
     "Anti Air": 1
    },
    "Morocco": {
+    "Armored Car": 4,
     "Anti Tank": 2,
     "Artillery": 1,
     "Anti Air": 1,
     "Interceptor": 1,
     "Tactical Bomber": 1,
-    "Infantry": 13,
-    "Armored Car": 4
+    "Infantry": 13
    },
    "Algeria": {
     "Armored Car": 2,
@@ -3766,21 +3800,21 @@
     "Anti Tank": 1,
     "Anti Air": 1,
     "Interceptor": 1,
-    "Infantry": 7,
+    "Infantry": 8,
     "Armored Car": 1
    },
    "Caucasus": {
+    "Strategic Bomber": 2,
     "Militia": 1,
     "Anti Tank": 1,
     "Infantry": 8,
-    "Anti Air": 1,
-    "Strategic Bomber": 2
+    "Anti Air": 1
    },
    "Melilla": {
     "Infantry": 2
    }
   },
-  "ts": 1792612864434
+  "ts": 1792616468941
  },
  "sync": {
   "Kiel": {
