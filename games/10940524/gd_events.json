@@ -1215,6 +1215,16 @@
    "no": 5,
    "sn": 1,
    "frm": "Germany"
+  },
+  "670": {
+   "t": 4688,
+   "p": "Algiers",
+   "c": "Morocco",
+   "u": "Infantry",
+   "cap": true,
+   "no": 2,
+   "sn": 1,
+   "frm": "Algeria"
   }
  },
  "loss": {
@@ -2967,6 +2977,48 @@
    "byu": null,
    "byn": null,
    "by": null
+  },
+  "671": {
+   "t": 4691,
+   "p": null,
+   "c": "Algeria",
+   "u": "Armored Car",
+   "what": "2× Infantry",
+   "n": 2,
+   "dest": false,
+   "no": 9,
+   "byno": null,
+   "byu": null,
+   "byn": null,
+   "by": null
+  },
+  "673": {
+   "t": 4721,
+   "p": null,
+   "c": "Algeria",
+   "u": "Armored Car",
+   "what": "1× Infantry",
+   "n": 1,
+   "dest": false,
+   "no": 9,
+   "byno": null,
+   "byu": null,
+   "byn": null,
+   "by": null
+  },
+  "674": {
+   "t": 4721,
+   "p": "Fes",
+   "c": "Morocco",
+   "u": "Infantry",
+   "what": "1× Infantry",
+   "n": 1,
+   "dest": true,
+   "no": 5,
+   "byno": 9,
+   "byu": "Armored Car",
+   "byn": 6,
+   "by": "Algeria"
   }
  },
  "cas": {
@@ -3115,7 +3167,7 @@
    "ts": 1792512201000
   },
   "Algeria|Morocco": {
-   "v": 3262,
+   "v": 4676,
    "ts": 1792513041174
   },
   "Morocco|Algeria": {
@@ -3321,7 +3373,7 @@
    },
    "Morocco": {
     "Armored Car": 4,
-    "Infantry": 12,
+    "Infantry": 13,
     "Tactical Bomber": 1,
     "Interceptor": 1,
     "Anti Air": 1,
@@ -3331,7 +3383,7 @@
    "Algeria": {
     "Armored Car": 1,
     "Interceptor": 1,
-    "Infantry": 2
+    "Infantry": 5
    },
    "Tunisia": {
     "Armored Car": 2,
@@ -3354,7 +3406,7 @@
     "Infantry": 2
    }
   },
-  "ts": 1792555263552
+  "ts": 1792558864985
  },
  "sync": {}
 }
