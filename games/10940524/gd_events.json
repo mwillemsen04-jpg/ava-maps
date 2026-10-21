@@ -1237,14 +1237,14 @@
    "frm": "Ukraine"
   },
   "686": {
-   "t": 4840,
-   "p": "Belgograd",
-   "c": "Caucasus",
+   "t": 5151,
+   "p": "Clermont",
+   "c": "Italy",
    "u": "Infantry",
    "cap": false,
-   "no": 12,
+   "no": 6,
    "sn": 1,
-   "frm": "Ukraine"
+   "frm": "France"
   },
   "687": {
    "t": 4888,
@@ -1285,6 +1285,16 @@
    "no": 3,
    "sn": 1,
    "frm": "Spain"
+  },
+  "685": {
+   "t": 5140,
+   "p": "Limoges",
+   "c": "Spain",
+   "u": "Anti Tank",
+   "cap": false,
+   "no": 8,
+   "sn": 1,
+   "frm": "France"
   }
  },
  "loss": {
@@ -3537,12 +3547,16 @@
     "Infantry": 2
    }
   },
-  "ts": 1792580466341
+  "ts": 1792584072481
  },
  "sync": {
   "Kiel": {
    "t": 5041,
    "c": "Belgium"
+  },
+  "Belgograd": {
+   "t": 5161,
+   "c": "Caucasus"
   }
  }
 }
