@@ -1165,6 +1165,16 @@
    "no": 9,
    "sn": 1,
    "frm": "Ukraine"
+  },
+  "658": {
+   "t": 4505,
+   "p": "Tlemcen",
+   "c": "Poland",
+   "u": "Rocket Artillery",
+   "cap": false,
+   "no": 25,
+   "sn": 1,
+   "frm": "Algeria"
   }
  },
  "loss": {
@@ -3275,7 +3285,7 @@
     "Infantry": 2
    }
   },
-  "ts": 1792544466105
+  "ts": 1792548064408
  },
  "sync": {}
 }
