@@ -1225,6 +1225,16 @@
    "no": 2,
    "sn": 1,
    "frm": "Algeria"
+  },
+  "678": {
+   "t": 4785,
+   "p": "Zugdidi",
+   "c": "Caucasus",
+   "u": "Infantry",
+   "cap": false,
+   "no": 8,
+   "sn": 1,
+   "frm": "Ukraine"
   }
  },
  "loss": {
@@ -2966,45 +2976,45 @@
   },
   "669": {
    "t": 4667,
-   "p": null,
+   "p": "Fes",
    "c": "Algeria",
    "u": "Armored Car",
    "what": "1× Infantry",
    "n": 1,
-   "dest": false,
+   "dest": true,
    "no": 9,
-   "byno": null,
-   "byu": null,
-   "byn": null,
-   "by": null
+   "byno": 3,
+   "byu": "Light Tank",
+   "byn": 3,
+   "by": "Morocco"
   },
   "671": {
    "t": 4691,
-   "p": null,
+   "p": "Fes",
    "c": "Algeria",
    "u": "Armored Car",
    "what": "2× Infantry",
    "n": 2,
-   "dest": false,
+   "dest": true,
    "no": 9,
-   "byno": null,
-   "byu": null,
-   "byn": null,
-   "by": null
+   "byno": 3,
+   "byu": "Light Tank",
+   "byn": 3,
+   "by": "Morocco"
   },
   "673": {
    "t": 4721,
-   "p": null,
+   "p": "Fes",
    "c": "Algeria",
    "u": "Armored Car",
    "what": "1× Infantry",
    "n": 1,
-   "dest": false,
+   "dest": true,
    "no": 9,
-   "byno": null,
-   "byu": null,
-   "byn": null,
-   "by": null
+   "byno": 3,
+   "byu": "Light Tank",
+   "byn": 3,
+   "by": "Morocco"
   },
   "674": {
    "t": 4721,
@@ -3019,6 +3029,20 @@
    "byu": "Armored Car",
    "byn": 6,
    "by": "Algeria"
+  },
+  "677": {
+   "t": 4751,
+   "p": "Fes",
+   "c": "Algeria",
+   "u": "Armored Car",
+   "what": "1× Armored Car, 1× Infantry",
+   "n": 2,
+   "dest": true,
+   "no": 9,
+   "byno": 3,
+   "byu": "Light Tank",
+   "byn": 3,
+   "by": "Morocco"
   }
  },
  "cas": {
@@ -3167,7 +3191,7 @@
    "ts": 1792512201000
   },
   "Algeria|Morocco": {
-   "v": 4676,
+   "v": 4977,
    "ts": 1792513041174
   },
   "Morocco|Algeria": {
@@ -3381,9 +3405,9 @@
     "Anti Tank": 2
    },
    "Algeria": {
-    "Armored Car": 1,
+    "Armored Car": 2,
     "Interceptor": 1,
-    "Infantry": 5
+    "Infantry": 6
    },
    "Tunisia": {
     "Armored Car": 2,
@@ -3406,7 +3430,7 @@
     "Infantry": 2
    }
   },
-  "ts": 1792558864985
+  "ts": 1792562471293
  },
  "sync": {}
 }
