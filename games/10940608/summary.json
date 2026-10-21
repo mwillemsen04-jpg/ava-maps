@@ -1,0 +1,65 @@
+{
+ "id": "10940608",
+ "name": "KH vs IA (AWT final)",
+ "day": 2,
+ "score": {
+  "G": 250,
+  "R": 250
+ },
+ "provinces": {
+  "G": 113,
+  "R": 112
+ },
+ "fetched": 1792600379012,
+ "built": 1792600380973,
+ "game_over": false,
+ "winner": null,
+ "teams": {
+  "G": [
+   {
+    "c": "Communist Russia",
+    "f": 3
+   },
+   {
+    "c": "Greater Romania",
+    "f": 3
+   },
+   {
+    "c": "Libya",
+    "f": 4
+   },
+   {
+    "c": "Russian Empire",
+    "f": 4
+   },
+   {
+    "c": "Southern United States",
+    "f": 4
+   }
+  ],
+  "R": [
+   {
+    "c": "Algeria",
+    "f": 2
+   },
+   {
+    "c": "France",
+    "f": 2
+   },
+   {
+    "c": "Germany",
+    "f": 1
+   },
+   {
+    "c": "Poland",
+    "f": 3
+   },
+   {
+    "c": "Ukraine",
+    "f": 1
+   }
+  ]
+ },
+ "events": 4,
+ "losses": 2
+}

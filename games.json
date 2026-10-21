@@ -467,6 +467,73 @@
           "Southern United States"
         ]
       }
+    },
+    {
+      "id": "10940608",
+      "name": "KH vs IA (AWT final)",
+      "status": "live",
+      "added": "2026-10-21 18:32",
+      "ran": 1792600377261,
+      "pv": "bb342bb5d7",
+      "last": {
+        "day": 2,
+        "score": {
+          "G": 250,
+          "R": 250
+        },
+        "provinces": {
+          "G": 113,
+          "R": 112
+        },
+        "fetched": 1792600379012,
+        "winner": null,
+        "teams": {
+          "G": [
+            {
+              "c": "Communist Russia",
+              "f": 3
+            },
+            {
+              "c": "Greater Romania",
+              "f": 3
+            },
+            {
+              "c": "Libya",
+              "f": 4
+            },
+            {
+              "c": "Russian Empire",
+              "f": 4
+            },
+            {
+              "c": "Southern United States",
+              "f": 4
+            }
+          ],
+          "R": [
+            {
+              "c": "Algeria",
+              "f": 2
+            },
+            {
+              "c": "France",
+              "f": 2
+            },
+            {
+              "c": "Germany",
+              "f": 1
+            },
+            {
+              "c": "Poland",
+              "f": 3
+            },
+            {
+              "c": "Ukraine",
+              "f": 1
+            }
+          ]
+        }
+      }
     }
   ],
   "folders": [
