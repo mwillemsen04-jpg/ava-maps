@@ -3346,6 +3346,48 @@
    "byu": "Infantry",
    "byn": 1,
    "by": "Lithuania"
+  },
+  "750": {
+   "t": 5596,
+   "p": null,
+   "c": "Ukraine",
+   "u": "Infantry",
+   "what": "1× Infantry",
+   "n": 1,
+   "dest": false,
+   "no": 2,
+   "byno": null,
+   "byu": null,
+   "byn": null,
+   "by": null
+  },
+  "751": {
+   "t": 5596,
+   "p": "Nalchik",
+   "c": "Caucasus",
+   "u": "Militia",
+   "what": "1× Militia",
+   "n": 1,
+   "dest": true,
+   "no": 12,
+   "byno": 2,
+   "byu": "Infantry",
+   "byn": 2,
+   "by": "Ukraine"
+  },
+  "753": {
+   "t": 5610,
+   "p": "Vilnius",
+   "c": "Caucasus",
+   "u": "Infantry",
+   "what": "1× Infantry",
+   "n": 1,
+   "dest": true,
+   "no": 22,
+   "byno": 23,
+   "byu": "Rocket Artillery",
+   "byn": 3,
+   "by": "Poland"
   }
  },
  "cas": {
@@ -3721,23 +3763,24 @@
     "Infantry": 4
    },
    "Ukraine": {
-    "Infantry": 6,
+    "Anti Tank": 1,
     "Anti Air": 1,
-    "Armored Car": 1,
     "Interceptor": 1,
-    "Anti Tank": 1
+    "Infantry": 7,
+    "Armored Car": 1
    },
    "Caucasus": {
+    "Militia": 1,
+    "Anti Tank": 1,
+    "Infantry": 8,
     "Anti Air": 1,
-    "Strategic Bomber": 2,
-    "Infantry": 7,
-    "Anti Tank": 1
+    "Strategic Bomber": 2
    },
    "Melilla": {
     "Infantry": 2
    }
   },
-  "ts": 1792609274363
+  "ts": 1792612864434
  },
  "sync": {
   "Kiel": {
