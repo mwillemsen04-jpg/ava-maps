@@ -1402,6 +1402,16 @@
    "no": 20,
    "sn": 1,
    "frm": "Poland"
+  },
+  "746": {
+   "t": 5551,
+   "p": "Lida",
+   "c": "Caucasus",
+   "u": "Infantry",
+   "cap": false,
+   "no": 22,
+   "sn": 1,
+   "frm": "Poland"
   }
  },
  "loss": {
@@ -3322,6 +3332,20 @@
    "byu": "Rocket Artillery",
    "byn": 1,
    "by": "Poland"
+  },
+  "745": {
+   "t": 5544,
+   "p": "Memel",
+   "c": "Ukraine",
+   "u": "Anti Tank",
+   "what": "1× Anti Tank",
+   "n": 1,
+   "dest": true,
+   "no": 4,
+   "byno": 2,
+   "byu": "Infantry",
+   "byn": 1,
+   "by": "Lithuania"
   }
  },
  "cas": {
@@ -3430,7 +3454,7 @@
    "ts": 1792512201000
   },
   "Ukraine|Lithuania": {
-   "v": 723,
+   "v": 752,
    "ts": 1792601649741
   },
   "Ukraine|Turkey": {
@@ -3699,8 +3723,9 @@
    "Ukraine": {
     "Infantry": 6,
     "Anti Air": 1,
+    "Armored Car": 1,
     "Interceptor": 1,
-    "Armored Car": 1
+    "Anti Tank": 1
    },
    "Caucasus": {
     "Anti Air": 1,
@@ -3712,7 +3737,7 @@
     "Infantry": 2
    }
   },
-  "ts": 1792605666612
+  "ts": 1792609274363
  },
  "sync": {
   "Kiel": {
