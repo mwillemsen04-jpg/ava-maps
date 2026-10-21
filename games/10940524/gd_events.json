@@ -1235,6 +1235,16 @@
    "no": 8,
    "sn": 1,
    "frm": "Ukraine"
+  },
+  "686": {
+   "t": 4840,
+   "p": "Belgograd",
+   "c": "Caucasus",
+   "u": "Infantry",
+   "cap": false,
+   "no": 12,
+   "sn": 1,
+   "frm": "Ukraine"
   }
  },
  "loss": {
@@ -3043,6 +3053,34 @@
    "byu": "Light Tank",
    "byn": 3,
    "by": "Morocco"
+  },
+  "682": {
+   "t": 4838,
+   "p": "Lyon",
+   "c": "Spain",
+   "u": "Armored Car",
+   "what": "1× Armored Car",
+   "n": 1,
+   "dest": true,
+   "no": 3,
+   "byno": 8,
+   "byu": "Tactical Bomber",
+   "byn": 5,
+   "by": "France"
+  },
+  "685": {
+   "t": 4839,
+   "p": "Zugdidi",
+   "c": "Caucasus",
+   "u": "Infantry",
+   "what": "1× Infantry",
+   "n": 1,
+   "dest": true,
+   "no": 8,
+   "byno": 31,
+   "byu": "Rocket Artillery",
+   "byn": 1,
+   "by": "Poland"
   }
  },
  "cas": {
@@ -3247,8 +3285,8 @@
    "ts": 1792512201000
   },
   "Caucasus|Poland": {
-   "v": 1450,
-   "ts": 1792512201000
+   "v": 1501,
+   "ts": 1792556402000
   },
   "United Kingdom|Germany": {
    "v": 750,
@@ -3349,7 +3387,7 @@
     "Anti Tank": 2
    },
    "Spain": {
-    "Armored Car": 1,
+    "Armored Car": 2,
     "Anti Air": 1,
     "Infantry": 9,
     "Anti Tank": 2
@@ -3423,14 +3461,14 @@
    "Caucasus": {
     "Anti Air": 1,
     "Anti Tank": 1,
-    "Infantry": 5,
+    "Infantry": 6,
     "Strategic Bomber": 2
    },
    "Melilla": {
     "Infantry": 2
    }
   },
-  "ts": 1792562471293
+  "ts": 1792566063877
  },
  "sync": {}
 }
