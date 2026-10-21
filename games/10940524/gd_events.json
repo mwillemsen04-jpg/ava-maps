@@ -1175,6 +1175,36 @@
    "no": 25,
    "sn": 1,
    "frm": "Algeria"
+  },
+  "659": {
+   "t": 4576,
+   "p": "Pinsk",
+   "c": "Caucasus",
+   "u": "Infantry",
+   "cap": false,
+   "no": 22,
+   "sn": 1,
+   "frm": "Poland"
+  },
+  "660": {
+   "t": 4579,
+   "p": "Strasbourg",
+   "c": "Italy",
+   "u": "Militia",
+   "cap": false,
+   "no": 13,
+   "sn": 1,
+   "frm": "France"
+  },
+  "665": {
+   "t": 4615,
+   "p": "Odessa",
+   "c": "Cossack Republic",
+   "u": "Infantry",
+   "cap": false,
+   "no": 6,
+   "sn": 1,
+   "frm": "Ukraine"
   }
  },
  "loss": {
@@ -2899,6 +2929,20 @@
    "byu": "Armored Car",
    "byn": 6,
    "by": "Algeria"
+  },
+  "664": {
+   "t": 4590,
+   "p": "Fes",
+   "c": "Morocco",
+   "u": "Infantry",
+   "what": "1× Infantry",
+   "n": 1,
+   "dest": true,
+   "no": 15,
+   "byno": 9,
+   "byu": "Armored Car",
+   "byn": 6,
+   "by": "Algeria"
   }
  },
  "cas": {
@@ -3256,7 +3300,7 @@
     "Artillery": 1,
     "Anti Tank": 2,
     "Armored Car": 4,
-    "Infantry": 11,
+    "Infantry": 12,
     "Tactical Bomber": 1
    },
    "Algeria": {
@@ -3285,7 +3329,7 @@
     "Infantry": 2
    }
   },
-  "ts": 1792548064408
+  "ts": 1792551667746
  },
  "sync": {}
 }
