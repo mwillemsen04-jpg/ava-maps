@@ -1394,14 +1394,14 @@
    "frm": "Algeria"
   },
   "743": {
-   "t": 5509,
-   "p": "Lodz",
-   "c": "Caucasus",
+   "t": 5878,
+   "p": "Oran",
+   "c": "Morocco",
    "u": "Infantry",
    "cap": false,
-   "no": 20,
+   "no": 16,
    "sn": 1,
-   "frm": "Poland"
+   "frm": "Algeria"
   },
   "746": {
    "t": 5551,
@@ -1452,6 +1452,16 @@
    "no": 11,
    "sn": 1,
    "frm": "Algeria"
+  },
+  "740": {
+   "t": 5826,
+   "p": "Belgograd",
+   "c": "Caucasus",
+   "u": "Infantry",
+   "cap": false,
+   "no": 12,
+   "sn": 1,
+   "frm": "Ukraine"
   }
  },
  "loss": {
@@ -3456,6 +3466,20 @@
    "byu": "Infantry",
    "byn": 2,
    "by": "Ukraine"
+  },
+  "741": {
+   "t": 5870,
+   "p": "Belgograd",
+   "c": "Caucasus",
+   "u": "Infantry",
+   "what": "1× Infantry",
+   "n": 1,
+   "dest": true,
+   "no": 12,
+   "byno": 2,
+   "byu": "Rocket Artillery",
+   "byn": 3,
+   "by": "Poland"
   }
  },
  "cas": {
@@ -3841,14 +3865,14 @@
     "Militia": 1,
     "Strategic Bomber": 2,
     "Anti Air": 1,
-    "Infantry": 8,
+    "Infantry": 9,
     "Anti Tank": 1
    },
    "Melilla": {
     "Infantry": 2
    }
   },
-  "ts": 1792623663056
+  "ts": 1792627270687
  },
  "sync": {
   "Kiel": {
@@ -3862,6 +3886,10 @@
   "Taza": {
    "t": 5221,
    "c": "Morocco"
+  },
+  "Lodz": {
+   "t": 5881,
+   "c": "Caucasus"
   }
  }
 }

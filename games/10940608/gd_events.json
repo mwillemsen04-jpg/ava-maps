@@ -1499,6 +1499,356 @@
    "no": 4,
    "sn": 4,
    "frm": "Greater Finland"
+  },
+  "670": {
+   "t": 1502,
+   "p": "Kavala",
+   "c": "Greater Romania",
+   "u": "Rocket Artillery",
+   "cap": false,
+   "no": 10,
+   "sn": 1,
+   "frm": "Greece"
+  },
+  "671": {
+   "t": 1503,
+   "p": "Kirsehir",
+   "c": "Libya",
+   "u": "Light Tank",
+   "cap": false,
+   "no": 27,
+   "sn": 1,
+   "frm": "Turkey"
+  },
+  "673": {
+   "t": 1505,
+   "p": "Campobasso",
+   "c": "Italy",
+   "u": "Anti Tank",
+   "cap": false,
+   "no": 1,
+   "sn": 1,
+   "frm": "Libya"
+  },
+  "676": {
+   "t": 1505,
+   "p": "Washington D.C.",
+   "c": "Southern United States",
+   "u": "Armored Car",
+   "cap": true,
+   "no": 7,
+   "sn": 5,
+   "frm": "Northern States of America"
+  },
+  "677": {
+   "t": 1505,
+   "p": "Oulmes",
+   "c": "Morocco",
+   "u": "Infantry",
+   "cap": false,
+   "no": 11,
+   "sn": 1,
+   "frm": "Algeria"
+  },
+  "678": {
+   "t": 1506,
+   "p": "Milan",
+   "c": "Poland",
+   "u": "Infantry",
+   "cap": false,
+   "no": 23,
+   "sn": 1,
+   "frm": "Italy"
+  },
+  "679": {
+   "t": 1507,
+   "p": "Adlerskiy",
+   "c": "Russian Empire",
+   "u": "Anti Tank",
+   "cap": false,
+   "no": 2,
+   "sn": 1,
+   "frm": "Caucasus"
+  },
+  "686": {
+   "t": 1511,
+   "p": "Kharga",
+   "c": "Libya",
+   "u": "Armored Car",
+   "cap": false,
+   "no": 11,
+   "sn": 5,
+   "frm": "Egypt"
+  },
+  "687": {
+   "t": 1511,
+   "p": "Rijeka",
+   "c": "Greater Romania",
+   "u": "Infantry",
+   "cap": false,
+   "no": 26,
+   "sn": 1,
+   "frm": "Yugoslavia"
+  },
+  "688": {
+   "t": 1511,
+   "p": "Graz",
+   "c": "Greater Romania",
+   "u": "Infantry",
+   "cap": false,
+   "no": 30,
+   "sn": 1,
+   "frm": "Austria"
+  },
+  "694": {
+   "t": 1514,
+   "p": "Sevastopol",
+   "c": "Ukraine",
+   "u": "Infantry",
+   "cap": false,
+   "no": 5,
+   "sn": 1,
+   "frm": "Crimea"
+  },
+  "695": {
+   "t": 1517,
+   "p": "Rotterdam",
+   "c": "Poland",
+   "u": "Infantry",
+   "cap": false,
+   "no": 11,
+   "sn": 2,
+   "frm": "Netherlands"
+  },
+  "696": {
+   "t": 1517,
+   "p": "Split",
+   "c": "Yugoslavia",
+   "u": "Infantry",
+   "cap": false,
+   "no": 4,
+   "sn": 1,
+   "frm": "Libya"
+  },
+  "699": {
+   "t": 1520,
+   "p": "Port Said",
+   "c": "Libya",
+   "u": "Infantry",
+   "cap": false,
+   "no": 3,
+   "sn": 1,
+   "frm": "Egypt"
+  },
+  "707": {
+   "t": 1522,
+   "p": "Mostar",
+   "c": "Yugoslavia",
+   "u": "Infantry",
+   "cap": false,
+   "no": 6,
+   "sn": 1,
+   "frm": "Libya"
+  },
+  "710": {
+   "t": 1526,
+   "p": "Liverpool",
+   "c": "United Kingdom",
+   "u": "Infantry",
+   "cap": false,
+   "no": 16,
+   "sn": 1,
+   "frm": "Russian Empire"
+  },
+  "711": {
+   "t": 1529,
+   "p": "Edessa",
+   "c": "Algeria",
+   "u": "Infantry",
+   "cap": false,
+   "no": 5,
+   "sn": 1,
+   "frm": "Greece"
+  },
+  "714": {
+   "t": 1534,
+   "p": "Murcia",
+   "c": "Spain",
+   "u": "Infantry",
+   "cap": false,
+   "no": 14,
+   "sn": 1,
+   "frm": "Algeria"
+  },
+  "719": {
+   "t": 1537,
+   "p": "Užice",
+   "c": "Libya",
+   "u": "Armored Car",
+   "cap": false,
+   "no": 19,
+   "sn": 1,
+   "frm": "Yugoslavia"
+  },
+  "720": {
+   "t": 1537,
+   "p": "Glasgow",
+   "c": "United Kingdom",
+   "u": "Infantry",
+   "cap": false,
+   "no": 17,
+   "sn": 1,
+   "frm": "Communist Russia"
+  },
+  "721": {
+   "t": 1538,
+   "p": "Barcelona",
+   "c": "Poland",
+   "u": "Infantry",
+   "cap": false,
+   "no": 4,
+   "sn": 2,
+   "frm": "Spain"
+  },
+  "726": {
+   "t": 1540,
+   "p": "Niš",
+   "c": "Greater Romania",
+   "u": "Infantry",
+   "cap": false,
+   "no": 28,
+   "sn": 1,
+   "frm": "Yugoslavia"
+  },
+  "727": {
+   "t": 1540,
+   "p": "Belaya Glina",
+   "c": "Greater Romania",
+   "u": "Infantry",
+   "cap": false,
+   "no": 3,
+   "sn": 1,
+   "frm": "Caucasus"
+  },
+  "729": {
+   "t": 1542,
+   "p": "Quebec",
+   "c": "Southern United States",
+   "u": "Infantry",
+   "cap": false,
+   "no": 17,
+   "sn": 1,
+   "frm": "Canada"
+  },
+  "730": {
+   "t": 1542,
+   "p": "Guadalajara",
+   "c": "France",
+   "u": "Armored Car",
+   "cap": false,
+   "no": 1,
+   "sn": 1,
+   "frm": "Spain"
+  },
+  "736": {
+   "t": 1549,
+   "p": "Genoa",
+   "c": "Italy",
+   "u": "Infantry",
+   "cap": false,
+   "no": 6,
+   "sn": 1,
+   "frm": "Poland"
+  },
+  "737": {
+   "t": 1551,
+   "p": "Vraca",
+   "c": "Bulgaria",
+   "u": "Infantry",
+   "cap": false,
+   "no": 4,
+   "sn": 1,
+   "frm": "Greater Romania"
+  },
+  "738": {
+   "t": 1551,
+   "p": "Mazagan",
+   "c": "France",
+   "u": "Armored Car",
+   "cap": false,
+   "no": 22,
+   "sn": 1,
+   "frm": "Morocco"
+  },
+  "739": {
+   "t": 1551,
+   "p": "Luxor",
+   "c": "Libya",
+   "u": "Infantry",
+   "cap": false,
+   "no": 7,
+   "sn": 1,
+   "frm": "Egypt"
+  },
+  "742": {
+   "t": 1552,
+   "p": "Tarragona",
+   "c": "Spain",
+   "u": "Armored Car",
+   "cap": false,
+   "no": 21,
+   "sn": 1,
+   "frm": "France"
+  },
+  "743": {
+   "t": 1553,
+   "p": "Oulmes",
+   "c": "Algeria",
+   "u": "Armored Car",
+   "cap": false,
+   "no": 9,
+   "sn": 1,
+   "frm": "Morocco"
+  },
+  "744": {
+   "t": 1556,
+   "p": "Skopje",
+   "c": "Libya",
+   "u": "Light Tank",
+   "cap": false,
+   "no": 30,
+   "sn": 1,
+   "frm": "Yugoslavia"
+  },
+  "745": {
+   "t": 1556,
+   "p": "Homs",
+   "c": "Libya",
+   "u": "Infantry",
+   "cap": false,
+   "no": 22,
+   "sn": 1,
+   "frm": "Syria"
+  },
+  "748": {
+   "t": 1557,
+   "p": "Cincinnati",
+   "c": "Southern United States",
+   "u": "Infantry",
+   "cap": false,
+   "no": 10,
+   "sn": 3,
+   "frm": "Northern States of America"
+  },
+  "750": {
+   "t": 1561,
+   "p": "Newcastle",
+   "c": "Southern United States",
+   "u": "Infantry",
+   "cap": false,
+   "no": 18,
+   "sn": 1,
+   "frm": "United Kingdom"
   }
  },
  "loss": {
@@ -3030,17 +3380,17 @@
   },
   "623": {
    "t": 1454,
-   "p": null,
+   "p": "Dublin",
    "c": "Ireland",
    "u": "Infantry",
    "what": "1× Infantry",
    "n": 1,
-   "dest": false,
+   "dest": true,
    "no": 1,
-   "byno": null,
-   "byu": null,
-   "byn": null,
-   "by": null
+   "byno": 20,
+   "byu": "Armored Car",
+   "byn": 1,
+   "by": "Southern United States"
   },
   "624": {
    "t": 1454,
@@ -3156,17 +3506,17 @@
   },
   "661": {
    "t": 1491,
-   "p": null,
+   "p": "Dublin",
    "c": "Ireland",
    "u": "Infantry",
    "what": "1× Infantry",
    "n": 1,
-   "dest": false,
+   "dest": true,
    "no": 1,
-   "byno": null,
-   "byu": null,
-   "byn": null,
-   "by": null
+   "byno": 20,
+   "byu": "Armored Car",
+   "byn": 1,
+   "by": "Southern United States"
   },
   "663": {
    "t": 1493,
@@ -3198,17 +3548,283 @@
   },
   "668": {
    "t": 1494,
-   "p": null,
+   "p": "Onega",
    "c": "Karelia",
    "u": "Infantry",
    "what": "1× Infantry",
    "n": 1,
-   "dest": false,
+   "dest": true,
    "no": 7,
+   "byno": 7,
+   "byu": "Infantry",
+   "byn": 2,
+   "by": "Russian Empire"
+  },
+  "674": {
+   "t": 1505,
+   "p": "Washington D.C.",
+   "c": "Northern States of America",
+   "u": "Armored Car",
+   "what": "1× Armored Car",
+   "n": 1,
+   "dest": true,
+   "no": 20,
+   "byno": 7,
+   "byu": "Armored Car",
+   "byn": 5,
+   "by": "Southern United States"
+  },
+  "681": {
+   "t": 1507,
+   "p": "Batumi",
+   "c": "Caucasus",
+   "u": "Infantry",
+   "what": "1× Infantry",
+   "n": 1,
+   "dest": true,
+   "no": 9,
+   "byno": 24,
+   "byu": "Light Tank",
+   "byn": 1,
+   "by": "Libya"
+  },
+  "682": {
+   "t": 1510,
+   "p": "Sevastopol",
+   "c": "Crimea",
+   "u": "Infantry",
+   "what": "1× Infantry",
+   "n": 1,
+   "dest": true,
+   "no": 3,
+   "byno": 37,
+   "byu": "Rocket Artillery",
+   "byn": 1,
+   "by": "Poland"
+  },
+  "684": {
+   "t": 1510,
+   "p": "Graz",
+   "c": "Austria",
+   "u": "Infantry",
+   "what": "1× Infantry",
+   "n": 1,
+   "dest": true,
+   "no": 4,
+   "byno": 7,
+   "byu": "Rocket Artillery",
+   "byn": 1,
+   "by": "Greater Romania"
+  },
+  "689": {
+   "t": 1511,
+   "p": "Don River",
+   "c": "Cossack Republic",
+   "u": "Infantry",
+   "what": "1× Infantry",
+   "n": 1,
+   "dest": true,
+   "no": 2,
+   "byno": 9,
+   "byu": "Rocket Artillery",
+   "byn": 1,
+   "by": "Communist Russia"
+  },
+  "692": {
+   "t": 1512,
+   "p": "Sankt Pölten",
+   "c": "Austria",
+   "u": "Infantry",
+   "what": "1× Infantry",
+   "n": 1,
+   "dest": true,
+   "no": 3,
+   "byno": 1,
+   "byu": "Infantry",
+   "byn": 2,
+   "by": "Greater Romania"
+  },
+  "693": {
+   "t": 1513,
+   "p": "Namur",
+   "c": "Belgium",
+   "u": "Infantry",
+   "what": "1× Infantry",
+   "n": 1,
+   "dest": true,
+   "no": 1,
+   "byno": 10,
+   "byu": "Infantry",
+   "byn": 2,
+   "by": "Germany"
+  },
+  "704": {
+   "t": 1521,
+   "p": "Dublin",
+   "c": "Ireland",
+   "u": "Infantry",
+   "what": "1× Infantry",
+   "n": 1,
+   "dest": true,
+   "no": 1,
+   "byno": 20,
+   "byu": "Armored Car",
+   "byn": 1,
+   "by": "Southern United States"
+  },
+  "706": {
+   "t": 1522,
+   "p": "Palmyra",
+   "c": "Syria",
+   "u": "Infantry",
+   "what": "1× Infantry",
+   "n": 1,
+   "dest": true,
+   "no": 5,
+   "byno": 31,
+   "byu": "Armored Car",
+   "byn": 1,
+   "by": "Libya"
+  },
+  "709": {
+   "t": 1524,
+   "p": "Onega",
+   "c": "Karelia",
+   "u": "Infantry",
+   "what": "1× Infantry",
+   "n": 1,
+   "dest": true,
+   "no": 7,
+   "byno": 7,
+   "byu": "Infantry",
+   "byn": 2,
+   "by": "Russian Empire"
+  },
+  "713": {
+   "t": 1531,
+   "p": "Copenhagen",
+   "c": "Russian Empire",
+   "u": "Light Tank",
+   "what": "1× Light Tank",
+   "n": 1,
+   "dest": true,
+   "no": 28,
+   "byno": 1,
+   "byu": "Infantry",
+   "byn": 1,
+   "by": "Denmark"
+  },
+  "715": {
+   "t": 1537,
+   "p": "Barcelona",
+   "c": "Spain",
+   "u": "Infantry",
+   "what": "1× Infantry",
+   "n": 1,
+   "dest": true,
+   "no": 3,
+   "byno": 18,
+   "byu": "Rocket Artillery",
+   "byn": 1,
+   "by": "Poland"
+  },
+  "717": {
+   "t": 1537,
+   "p": "Užice",
+   "c": "Yugoslavia",
+   "u": "Infantry",
+   "what": "1× Infantry",
+   "n": 1,
+   "dest": true,
+   "no": 14,
+   "byno": 31,
+   "byu": "Rocket Artillery",
+   "byn": 1,
+   "by": "Greater Romania"
+  },
+  "723": {
+   "t": 1538,
+   "p": "Oulu",
+   "c": "Communist Russia",
+   "u": "Infantry",
+   "what": "1× Infantry",
+   "n": 1,
+   "dest": true,
+   "no": 8,
+   "byno": 5,
+   "byu": "Infantry",
+   "byn": 1,
+   "by": "Greater Finland"
+  },
+  "724": {
+   "t": 1540,
+   "p": "Niš",
+   "c": "Yugoslavia",
+   "u": "Infantry",
+   "what": "1× Infantry",
+   "n": 1,
+   "dest": true,
+   "no": 17,
+   "byno": 18,
+   "byu": "Rocket Artillery",
+   "byn": 1,
+   "by": "Greater Romania"
+  },
+  "732": {
+   "t": 1543,
+   "p": "Namur",
+   "c": "Belgium",
+   "u": "Infantry",
+   "what": "1× Infantry",
+   "n": 1,
+   "dest": true,
+   "no": 1,
+   "byno": 10,
+   "byu": "Infantry",
+   "byn": 2,
+   "by": "Germany"
+  },
+  "733": {
+   "t": 1543,
+   "p": null,
+   "c": "Norway",
+   "u": "Infantry",
+   "what": "1× Infantry",
+   "n": 1,
+   "dest": false,
+   "no": 3,
    "byno": null,
    "byu": null,
    "byn": null,
    "by": null
+  },
+  "735": {
+   "t": 1548,
+   "p": "Port Said",
+   "c": "Egypt",
+   "u": "Infantry",
+   "what": "1× Infantry",
+   "n": 1,
+   "dest": true,
+   "no": 3,
+   "byno": 8,
+   "byu": "Infantry",
+   "byn": 1,
+   "by": "Libya"
+  },
+  "746": {
+   "t": 1557,
+   "p": "Cincinnati",
+   "c": "Northern States of America",
+   "u": "Infantry",
+   "what": "1× Infantry",
+   "n": 1,
+   "dest": true,
+   "no": 2,
+   "byno": 10,
+   "byu": "Infantry",
+   "byn": 3,
+   "by": "Southern United States"
   }
  },
  "cas": {
@@ -3225,7 +3841,7 @@
    "ts": 1792598578884
   },
   "Turkey|Greater Romania": {
-   "v": 551,
+   "v": 960,
    "ts": 1792598578884
   },
   "Spain|Greater Romania": {
@@ -3233,7 +3849,7 @@
    "ts": 1792598578884
   },
   "Yugoslavia|Greater Romania": {
-   "v": 8312,
+   "v": 9747,
    "ts": 1792598578884
   },
   "Belarus|Communist Russia": {
@@ -3249,7 +3865,7 @@
    "ts": 1792598598434
   },
   "Czechoslovakia|Poland": {
-   "v": 2804,
+   "v": 3102,
    "ts": 1792598598434
   },
   "Luxembourg|Poland": {
@@ -3257,7 +3873,7 @@
    "ts": 1792598598434
   },
   "Crimea|Poland": {
-   "v": 1264,
+   "v": 1356,
    "ts": 1792598598434
   },
   "Latvia|Poland": {
@@ -3265,7 +3881,7 @@
    "ts": 1792598598434
   },
   "Sweden|Communist Russia": {
-   "v": 2455,
+   "v": 2529,
    "ts": 1792598629614
   },
   "United Kingdom|Southern United States": {
@@ -3285,7 +3901,7 @@
    "ts": 1792598759925
   },
   "Greater Finland|Communist Russia": {
-   "v": 4355,
+   "v": 5606,
    "ts": 1792598768122
   },
   "Libya|Tunisia": {
@@ -3297,11 +3913,11 @@
    "ts": 1792599193193
   },
   "France|Italy": {
-   "v": 934,
+   "v": 995,
    "ts": 1792599376678
   },
   "Italy|France": {
-   "v": 9031,
+   "v": 9501,
    "ts": 1792599376678
   },
   "Bulgaria|Greater Romania": {
@@ -3309,7 +3925,7 @@
    "ts": 1792599400197
   },
   "Sweden|Poland": {
-   "v": 997,
+   "v": 1117,
    "ts": 1792599458766
   },
   "Russian Empire|Belarus": {
@@ -3349,11 +3965,11 @@
    "ts": 1792599965870
   },
   "Libya|Yugoslavia": {
-   "v": 437,
+   "v": 516,
    "ts": 1792600006773
   },
   "Yugoslavia|Libya": {
-   "v": 1012,
+   "v": 1179,
    "ts": 1792600006773
   },
   "Poland|Czechoslovakia": {
@@ -3381,11 +3997,11 @@
    "ts": 1792600408206
   },
   "Libya|Egypt": {
-   "v": 3137,
+   "v": 3953,
    "ts": 1792600410622
   },
   "Egypt|Libya": {
-   "v": 12215,
+   "v": 13021,
    "ts": 1792600410622
   },
   "Luxembourg|France": {
@@ -3397,11 +4013,11 @@
    "ts": 1792600445325
   },
   "Communist Russia|Estonia": {
-   "v": 571,
+   "v": 822,
    "ts": 1792600767317
   },
   "Estonia|Communist Russia": {
-   "v": 1901,
+   "v": 2221,
    "ts": 1792600767317
   },
   "Sweden|Russian Empire": {
@@ -3413,11 +4029,11 @@
    "ts": 1792600794642
   },
   "Communist Russia|Greater Finland": {
-   "v": 523,
+   "v": 1333,
    "ts": 1792601103776
   },
   "Greater Romania|Yugoslavia": {
-   "v": 776,
+   "v": 931,
    "ts": 1792601362069
   },
   "Libya|Turkey": {
@@ -3425,15 +4041,15 @@
    "ts": 1792601534580
   },
   "Czechoslovakia|Greater Romania": {
-   "v": 778,
+   "v": 1234,
    "ts": 1792601863936
   },
   "Southern United States|Northern States of America": {
-   "v": 2901,
+   "v": 3685,
    "ts": 1792601957846
   },
   "Northern States of America|Southern United States": {
-   "v": 6117,
+   "v": 7117,
    "ts": 1792601957846
   },
   "Netherlands|Poland": {
@@ -3445,7 +4061,7 @@
    "ts": 1792602961805
   },
   "United Kingdom|Poland": {
-   "v": 1512,
+   "v": 2625,
    "ts": 1792603040424
   },
   "Italy|Algeria": {
@@ -3481,11 +4097,11 @@
    "ts": 1792603995910
   },
   "Syria|Libya": {
-   "v": 1362,
+   "v": 1591,
    "ts": 1792604634215
   },
   "Libya|Syria": {
-   "v": 853,
+   "v": 894,
    "ts": 1792604634215
   },
   "United Kingdom|Communist Russia": {
@@ -3525,11 +4141,11 @@
    "ts": 1792606628628
   },
   "Cossack Republic|Communist Russia": {
-   "v": 1160,
+   "v": 1288,
    "ts": 1792607114969
   },
   "Austria|Greater Romania": {
-   "v": 5686,
+   "v": 6240,
    "ts": 1792607282483
   },
   "France|Morocco": {
@@ -3549,15 +4165,15 @@
    "ts": 1792607700348
   },
   "Morocco|Poland": {
-   "v": 1328,
+   "v": 1497,
    "ts": 1792607870138
   },
   "Greater Romania|Austria": {
-   "v": 927,
+   "v": 1021,
    "ts": 1792609180790
   },
   "Belgium|Poland": {
-   "v": 1364,
+   "v": 1783,
    "ts": 1792609202000
   },
   "Morocco|Libya": {
@@ -3585,39 +4201,39 @@
    "ts": 1792611049754
   },
   "Karelia|Communist Russia": {
-   "v": 758,
+   "v": 1367,
    "ts": 1792611271539
   },
   "Greater Romania|Egypt": {
-   "v": 384,
+   "v": 513,
    "ts": 1792611778548
   },
   "Ireland|Southern United States": {
-   "v": 3200,
+   "v": 3511,
    "ts": 1792611842701
   },
   "Karelia|Russian Empire": {
-   "v": 1752,
+   "v": 1985,
    "ts": 1792612414779
   },
   "Russian Empire|Karelia": {
-   "v": 1281,
+   "v": 1401,
    "ts": 1792612414779
   },
   "Spain|Poland": {
-   "v": 1497,
+   "v": 1880,
    "ts": 1792612461065
   },
   "Germany|Belgium": {
-   "v": 1158,
+   "v": 1331,
    "ts": 1792612885465
   },
   "Belgium|Germany": {
-   "v": 1082,
+   "v": 1379,
    "ts": 1792612885465
   },
   "Egypt|Greater Romania": {
-   "v": 473,
+   "v": 617,
    "ts": 1792613578548
   },
   "Ukraine|Egypt": {
@@ -3629,7 +4245,7 @@
    "ts": 1792614412393
   },
   "Caucasus|Poland": {
-   "v": 727,
+   "v": 905,
    "ts": 1792614790845
   },
   "Libya|Malta": {
@@ -3641,19 +4257,19 @@
    "ts": 1792614900513
   },
   "Libya|Caucasus": {
-   "v": 495,
+   "v": 560,
    "ts": 1792615127079
   },
   "Caucasus|Libya": {
-   "v": 1304,
+   "v": 1540,
    "ts": 1792615127079
   },
   "Russian Empire|Denmark": {
-   "v": 748,
+   "v": 965,
    "ts": 1792615247096
   },
   "Denmark|Russian Empire": {
-   "v": 630,
+   "v": 745,
    "ts": 1792615247096
   },
   "Poland|Latvia": {
@@ -3661,7 +4277,7 @@
    "ts": 1792615300748
   },
   "Norway|Communist Russia": {
-   "v": 1648,
+   "v": 2348,
    "ts": 1792615422563
   },
   "Germany|Denmark": {
@@ -3685,7 +4301,7 @@
    "ts": 1792615794049
   },
   "Poland|Morocco": {
-   "v": 164,
+   "v": 237,
    "ts": 1792616206864
   },
   "United Kingdom|Russian Empire": {
@@ -3721,11 +4337,11 @@
    "ts": 1792617011986
   },
   "France|Spain": {
-   "v": 775,
+   "v": 1058,
    "ts": 1792618320309
   },
   "Spain|France": {
-   "v": 1651,
+   "v": 2484,
    "ts": 1792618320309
   },
   "Greater Romania|Turkey": {
@@ -3733,7 +4349,7 @@
    "ts": 1792618481995
   },
   "Cuba|Southern United States": {
-   "v": 581,
+   "v": 1425,
    "ts": 1792618862715
   },
   "Greece|Algeria": {
@@ -3765,7 +4381,7 @@
    "ts": 1792620088729
   },
   "Southern United States|Ireland": {
-   "v": 359,
+   "v": 459,
    "ts": 1792620468396
   },
   "Italy|Germany": {
@@ -3793,12 +4409,36 @@
    "ts": 1792621496177
   },
   "Germany|Portugal": {
-   "v": 326,
+   "v": 792,
    "ts": 1792621906780
   },
   "Portugal|Germany": {
-   "v": 412,
+   "v": 992,
    "ts": 1792621906780
+  },
+  "Greece|France": {
+   "v": 526,
+   "ts": 1792624653769
+  },
+  "France|Greece": {
+   "v": 374,
+   "ts": 1792624653769
+  },
+  "Germany|Greater Finland": {
+   "v": 674,
+   "ts": 1792624860011
+  },
+  "Greater Finland|Germany": {
+   "v": 69,
+   "ts": 1792624860011
+  },
+  "Albania|Greater Romania": {
+   "v": 48,
+   "ts": 1792626712786
+  },
+  "Poland|United Kingdom": {
+   "v": 19,
+   "ts": 1792627218136
   }
  },
  "teams": {
@@ -3881,7 +4521,10 @@
    },
    "Spain": {
     "Anti Tank": 1,
-    "Infantry": 2
+    "Infantry": 3
+   },
+   "Communist Russia": {
+    "Infantry": 1
    },
    "Sweden": {
     "Anti Tank": 1,
@@ -3889,7 +4532,7 @@
    },
    "Yugoslavia": {
     "Anti Air": 1,
-    "Infantry": 8
+    "Infantry": 10
    },
    "Bulgaria": {
     "Infantry": 3
@@ -3903,17 +4546,19 @@
     "Infantry": 4
    },
    "Northern States of America": {
+    "Armored Car": 1,
     "Anti Air": 1,
-    "Infantry": 4
+    "Infantry": 5
    },
    "Ireland": {
-    "Infantry": 2
+    "Infantry": 3
    },
    "Denmark": {
     "Armored Car": 1
    },
    "Norway": {
-    "Anti Air": 1
+    "Anti Air": 1,
+    "Infantry": 1
    },
    "Greater Finland": {
     "Anti Tank": 1,
@@ -3933,7 +4578,7 @@
    },
    "Crimea": {
     "Anti Tank": 1,
-    "Infantry": 2
+    "Infantry": 3
    },
    "Czechoslovakia": {
     "Anti Tank": 1,
@@ -3941,7 +4586,7 @@
    },
    "Austria": {
     "Armored Car": 1,
-    "Infantry": 2,
+    "Infantry": 4,
     "Militia": 1
    },
    "Luxembourg": {
@@ -3949,7 +4594,7 @@
     "Infantry": 1
    },
    "Belgium": {
-    "Infantry": 1
+    "Infantry": 3
    },
    "Netherlands": {
     "Anti Tank": 1,
@@ -3970,27 +4615,28 @@
    "Egypt": {
     "Interceptor": 1,
     "Armored Car": 1,
-    "Infantry": 11,
+    "Infantry": 12,
     "Anti Tank": 1
    },
    "Syria": {
     "Anti Air": 1,
-    "Infantry": 3
+    "Infantry": 4
    },
    "Caucasus": {
     "Anti Tank": 1,
-    "Infantry": 4
+    "Infantry": 5
    },
    "Cossack Republic": {
     "Armored Car": 1,
-    "Infantry": 2,
+    "Infantry": 3,
     "Anti Tank": 1
    },
    "Russian Empire": {
-    "Infantry": 1
+    "Infantry": 1,
+    "Light Tank": 1
    },
    "Karelia": {
-    "Infantry": 2
+    "Infantry": 3
    },
    "Malta": {
     "Infantry": 1
@@ -3999,7 +4645,7 @@
     "Infantry": 2
    }
   },
-  "ts": 1792623664946
+  "ts": 1792627272776
  },
  "sync": {}
 }
