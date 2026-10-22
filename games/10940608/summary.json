@@ -4,14 +4,14 @@
  "day": 3,
  "score": {
   "G": 670,
-  "R": 480
+  "R": 490
  },
  "provinces": {
-  "G": 293,
-  "R": 193
+  "G": 292,
+  "R": 195
  },
- "fetched": 1792692074184,
- "built": 1792692093323,
+ "fetched": 1792695675249,
+ "built": 1792695699939,
  "game_over": false,
  "winner": null,
  "teams": {
@@ -60,6 +60,6 @@
    }
   ]
  },
- "events": 446,
- "losses": 331
+ "events": 449,
+ "losses": 336
 }
