@@ -1562,6 +1562,61 @@
    "no": 10,
    "sn": 1,
    "frm": "Ukraine"
+  },
+  "785": {
+   "t": 6843,
+   "p": "Constantine",
+   "c": "Tunisia",
+   "u": "Revolt",
+   "cap": false,
+   "rev": true,
+   "frm": "Morocco"
+  },
+  "786": {
+   "t": 6843,
+   "p": "Toruń",
+   "c": "Poland",
+   "u": "Revolt",
+   "cap": false,
+   "rev": true,
+   "frm": "Caucasus"
+  },
+  "787": {
+   "t": 6843,
+   "p": "Berdiansk",
+   "c": "Ukraine",
+   "u": "Revolt",
+   "cap": false,
+   "rev": true,
+   "frm": "Caucasus"
+  },
+  "788": {
+   "t": 6843,
+   "p": "Belgograd",
+   "c": "Ukraine",
+   "u": "Revolt",
+   "cap": false,
+   "rev": true,
+   "frm": "Caucasus"
+  },
+  "789": {
+   "t": 6843,
+   "p": "Balti",
+   "c": "Ukraine",
+   "u": "Revolt",
+   "cap": false,
+   "rev": true,
+   "frm": "Cossack Republic"
+  },
+  "756": {
+   "t": 6841,
+   "p": "Frankfurt",
+   "c": "Belgium",
+   "u": "Infantry",
+   "cap": false,
+   "no": 5,
+   "sn": 1,
+   "frm": "Germany"
   }
  },
  "loss": {
@@ -3650,6 +3705,34 @@
    "byu": "Rocket Artillery",
    "byn": 1,
    "by": "Caucasus"
+  },
+  "794": {
+   "t": 6847,
+   "p": "Genoa",
+   "c": "Italy",
+   "u": "Militia",
+   "what": "1× Militia",
+   "n": 1,
+   "dest": true,
+   "no": 2,
+   "byno": 17,
+   "byu": "Infantry",
+   "byn": 1,
+   "by": "Poland"
+  },
+  "795": {
+   "t": 6860,
+   "p": "Freiburg",
+   "c": "Belgium",
+   "u": "Anti Air",
+   "what": "1× Anti Air",
+   "n": 1,
+   "dest": true,
+   "no": 7,
+   "byno": 7,
+   "byu": "Rocket Artillery",
+   "byn": 2,
+   "by": "Poland"
   }
  },
  "cas": {
@@ -3932,7 +4015,8 @@
  "news_days": [
   2,
   3,
-  4
+  4,
+  5
  ],
  "stats": {
   "lost": {
@@ -3951,11 +4035,12 @@
     "Anti Tank": 1
    },
    "Italy": {
-    "Infantry": 11,
-    "Anti Tank": 2,
     "Anti Air": 1,
     "Interceptor": 1,
-    "Armored Car": 2
+    "Anti Tank": 2,
+    "Infantry": 11,
+    "Armored Car": 2,
+    "Militia": 1
    },
    "Spain": {
     "Infantry": 10,
@@ -3978,10 +4063,10 @@
     "Infantry": 2
    },
    "Poland": {
-    "Armored Car": 1,
     "Rocket Artillery": 3,
     "Anti Tank": 1,
-    "Infantry": 5
+    "Infantry": 5,
+    "Armored Car": 1
    },
    "Crimea": {
     "Anti Air": 1,
@@ -4000,7 +4085,8 @@
     "Infantry": 1
    },
    "Belgium": {
-    "Infantry": 2
+    "Infantry": 2,
+    "Anti Air": 1
    },
    "Netherlands": {
     "Anti Air": 1
@@ -4042,7 +4128,7 @@
     "Infantry": 2
    }
   },
-  "ts": 1792684871827
+  "ts": 1792688470910
  },
  "sync": {
   "Kiel": {
@@ -4061,10 +4147,6 @@
    "t": 5221,
    "c": "Morocco"
   },
-  "Constantine": {
-   "t": 6361,
-   "c": "Morocco"
-  },
   "Djanet": {
    "t": 6361,
    "c": "Morocco"
@@ -4079,10 +4161,6 @@
   },
   "Lodz": {
    "t": 5881,
-   "c": "Caucasus"
-  },
-  "Belgograd": {
-   "t": 6181,
    "c": "Caucasus"
   },
   "Krasnodar": {
