@@ -1414,14 +1414,14 @@
    "frm": "France"
   },
   "755": {
-   "t": 5644,
-   "p": "Tizi Ouzou",
-   "c": "Morocco",
-   "u": "Light Tank",
+   "t": 6518,
+   "p": "Kaiserslautern",
+   "c": "Belgium",
+   "u": "Anti Air",
    "cap": false,
-   "no": 11,
+   "no": 7,
    "sn": 1,
-   "frm": "Algeria"
+   "frm": "Italy"
   },
   "758": {
    "t": 5666,
@@ -3598,6 +3598,20 @@
    "byu": "Anti Tank",
    "byn": 1,
    "by": "France"
+  },
+  "756": {
+   "t": 6520,
+   "p": "Marseille",
+   "c": "Spain",
+   "u": "Infantry",
+   "what": "1× Infantry",
+   "n": 1,
+   "dest": true,
+   "no": 7,
+   "byno": 8,
+   "byu": "Tactical Bomber",
+   "byn": 6,
+   "by": "France"
   }
  },
  "cas": {
@@ -3670,7 +3684,7 @@
    "ts": 1792512201000
   },
   "France|Spain": {
-   "v": 3640,
+   "v": 4120,
    "ts": 1792653013199
   },
   "Italy|France": {
@@ -3908,7 +3922,7 @@
    "Spain": {
     "Armored Car": 2,
     "Anti Tank": 2,
-    "Infantry": 9,
+    "Infantry": 10,
     "Anti Air": 1
    },
    "Turkey": {
@@ -3990,7 +4004,7 @@
     "Infantry": 2
    }
   },
-  "ts": 1792663269530
+  "ts": 1792666865632
  },
  "sync": {
   "Kiel": {
@@ -4015,6 +4029,10 @@
   },
   "Djanet": {
    "t": 6361,
+   "c": "Morocco"
+  },
+  "Tizi Ouzou": {
+   "t": 6541,
    "c": "Morocco"
   },
   "Lida": {
