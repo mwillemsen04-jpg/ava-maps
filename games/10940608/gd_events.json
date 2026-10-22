@@ -4657,6 +4657,66 @@
    "no": 4,
    "sn": 1,
    "frm": "Italy"
+  },
+  "1911": {
+   "t": 2894,
+   "p": "Pamplona",
+   "c": "France",
+   "u": "Infantry",
+   "cap": false,
+   "no": 3,
+   "sn": 1,
+   "frm": "Spain"
+  },
+  "1912": {
+   "t": 2900,
+   "p": "Denizli",
+   "c": "Libya",
+   "u": "Armored Car",
+   "cap": false,
+   "no": 26,
+   "sn": 1,
+   "frm": "Turkey"
+  },
+  "1913": {
+   "t": 2904,
+   "p": "Lisbon",
+   "c": "France",
+   "u": "Armored Car",
+   "cap": false,
+   "no": 1,
+   "sn": 1,
+   "frm": "Portugal"
+  },
+  "1914": {
+   "t": 2924,
+   "p": "Sahara Desert",
+   "c": "Algeria",
+   "u": "Infantry",
+   "cap": false,
+   "no": 11,
+   "sn": 1,
+   "frm": "Morocco"
+  },
+  "1921": {
+   "t": 2927,
+   "p": "Boston",
+   "c": "Southern United States",
+   "u": "Infantry",
+   "cap": false,
+   "no": 3,
+   "sn": 4,
+   "frm": "Northern States of America"
+  },
+  "1922": {
+   "t": 2928,
+   "p": "Kuusamo",
+   "c": "Communist Russia",
+   "u": "Infantry",
+   "cap": false,
+   "no": 33,
+   "sn": 1,
+   "frm": "Greater Finland"
   }
  },
  "loss": {
@@ -9573,6 +9633,62 @@
    "byu": "Infantry",
    "byn": 1,
    "by": "France"
+  },
+  "1907": {
+   "t": 2890,
+   "p": "Ipswich",
+   "c": "United Kingdom",
+   "u": "Anti Tank",
+   "what": "1× Anti Tank",
+   "n": 1,
+   "dest": true,
+   "no": 2,
+   "byno": 17,
+   "byu": "Cruiser",
+   "byn": 1,
+   "by": "Poland"
+  },
+  "1909": {
+   "t": 2892,
+   "p": "Lisbon",
+   "c": "Portugal",
+   "u": "Infantry",
+   "what": "1× Infantry",
+   "n": 1,
+   "dest": true,
+   "no": 2,
+   "byno": 17,
+   "byu": "Tactical Bomber",
+   "byn": 3,
+   "by": "France"
+  },
+  "1917": {
+   "t": 2927,
+   "p": "Boston",
+   "c": "Northern States of America",
+   "u": "Militia",
+   "what": "1× Militia",
+   "n": 1,
+   "dest": true,
+   "no": 3,
+   "byno": 6,
+   "byu": "Infantry",
+   "byn": 1,
+   "by": "Southern United States"
+  },
+  "1919": {
+   "t": 2927,
+   "p": "Boston",
+   "c": "Northern States of America",
+   "u": "Infantry",
+   "what": "1× Infantry",
+   "n": 1,
+   "dest": true,
+   "no": 4,
+   "byno": 3,
+   "byu": "Infantry",
+   "byn": 4,
+   "by": "Southern United States"
   }
  },
  "cas": {
@@ -9629,15 +9745,15 @@
    "ts": 1792684957000
   },
   "Sweden|Communist Russia": {
-   "v": 8790,
+   "v": 8915,
    "ts": 1792684957000
   },
   "United Kingdom|Southern United States": {
-   "v": 1144,
+   "v": 1597,
    "ts": 1792684957000
   },
   "Italy|Poland": {
-   "v": 4467,
+   "v": 4539,
    "ts": 1792684957000
   },
   "France|Tunisia": {
@@ -9793,11 +9909,11 @@
    "ts": 1792684957000
   },
   "Southern United States|Northern States of America": {
-   "v": 6213,
+   "v": 7204,
    "ts": 1792684957000
   },
   "Northern States of America|Southern United States": {
-   "v": 13725,
+   "v": 14886,
    "ts": 1792684957000
   },
   "Netherlands|Poland": {
@@ -9809,7 +9925,7 @@
    "ts": 1792684957000
   },
   "United Kingdom|Poland": {
-   "v": 9231,
+   "v": 9247,
    "ts": 1792684957000
   },
   "Italy|Algeria": {
@@ -10285,11 +10401,11 @@
    "ts": 1792684957000
   },
   "France|Portugal": {
-   "v": 666,
+   "v": 696,
    "ts": 1792684957000
   },
   "Portugal|France": {
-   "v": 3964,
+   "v": 4225,
    "ts": 1792684957000
   },
   "Canada|Southern United States": {
@@ -10349,7 +10465,7 @@
    "ts": 1792684957000
   },
   "Tunisia|Greater Romania": {
-   "v": 760,
+   "v": 881,
    "ts": 1792684957000
   },
   "Algeria|Tunisia": {
@@ -10369,8 +10485,24 @@
    "ts": 1792684957000
   },
   "Southern United States|United Kingdom": {
-   "v": 103,
+   "v": 230,
    "ts": 1792705276792
+  },
+  "Northern States of America|France": {
+   "v": 636,
+   "ts": 1792709235992
+  },
+  "France|Northern States of America": {
+   "v": 62,
+   "ts": 1792709235992
+  },
+  "Ukraine|Switzerland": {
+   "v": 249,
+   "ts": 1792709565814
+  },
+  "Switzerland|Ukraine": {
+   "v": 241,
+   "ts": 1792709565814
   }
  },
  "teams": {
@@ -10458,7 +10590,7 @@
     "Infantry": 10,
     "Interceptor": 1,
     "Armored Car": 2,
-    "Anti Tank": 1
+    "Anti Tank": 2
    },
    "Italy": {
     "Artillery": 1,
@@ -10512,14 +10644,15 @@
    "Portugal": {
     "Interceptor": 1,
     "Armored Car": 1,
-    "Infantry": 4
+    "Infantry": 5
    },
    "Northern States of America": {
     "Anti Air": 1,
-    "Interceptor": 1,
-    "Infantry": 9,
     "Armored Car": 2,
-    "Anti Tank": 1
+    "Infantry": 10,
+    "Anti Tank": 1,
+    "Interceptor": 1,
+    "Militia": 1
    },
    "Ireland": {
     "Anti Air": 1,
@@ -10654,7 +10787,7 @@
     "Infantry": 2
    }
   },
-  "ts": 1792706469239
+  "ts": 1792710068508
  },
  "sync": {}
 }

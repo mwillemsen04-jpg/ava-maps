@@ -1639,14 +1639,14 @@
    "frm": "Italy"
   },
   "794": {
-   "t": 6982,
-   "p": "Brest",
-   "c": "Spain",
-   "u": "Anti Tank",
+   "t": 7250,
+   "p": "Olsztyn",
+   "c": "Caucasus",
+   "u": "Infantry",
    "cap": false,
-   "no": 6,
+   "no": 20,
    "sn": 1,
-   "frm": "France"
+   "frm": "Poland"
   },
   "791": {
    "t": 7060,
@@ -4011,11 +4011,11 @@
    "ts": 1792512201000
   },
   "Italy|Belgium": {
-   "v": 372,
+   "v": 583,
    "ts": 1792701616252
   },
   "Belgium|Italy": {
-   "v": 281,
+   "v": 397,
    "ts": 1792701616252
   }
  },
@@ -4190,12 +4190,16 @@
     "Infantry": 2
    }
   },
-  "ts": 1792706467323
+  "ts": 1792710066488
  },
  "sync": {
   "Kiel": {
    "t": 5041,
    "c": "Belgium"
+  },
+  "Brest": {
+   "t": 7261,
+   "c": "Spain"
   },
   "Cuneo": {
    "t": 6361,
