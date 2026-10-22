@@ -390,7 +390,7 @@
       "name": "KH test game",
       "status": "live",
       "added": "2026-10-19 21:02",
-      "ran": 1792627268354,
+      "ran": 1792630859448,
       "pv": "bb342bb5d7",
       "last": {
         "day": 5,
@@ -466,14 +466,15 @@
           "Russian Empire",
           "Southern United States"
         ]
-      }
+      },
+      "error": "Game server returned no game state."
     },
     {
       "id": "10940608",
       "name": "KH vs IA (AWT final)",
       "status": "live",
       "added": "2026-10-21 18:32",
-      "ran": 1792627268354,
+      "ran": 1792630859448,
       "pv": "bb342bb5d7",
       "last": {
         "day": 2,
@@ -533,7 +534,8 @@
             }
           ]
         }
-      }
+      },
+      "error": "Game server returned no game state."
     }
   ],
   "folders": [
