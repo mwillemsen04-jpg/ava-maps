@@ -1404,14 +1404,14 @@
    "frm": "Algeria"
   },
   "746": {
-   "t": 5938,
-   "p": "Djanet",
-   "c": "Morocco",
+   "t": 6310,
+   "p": "Marseille",
+   "c": "Spain",
    "u": "Infantry",
    "cap": false,
    "no": 7,
    "sn": 1,
-   "frm": "Algeria"
+   "frm": "France"
   },
   "755": {
    "t": 5644,
@@ -1474,12 +1474,12 @@
    "frm": "Algeria"
   },
   "745": {
-   "t": 5908,
-   "p": "Cuneo",
-   "c": "Italy",
+   "t": 6308,
+   "p": "Poznań",
+   "c": "Caucasus",
    "u": "Infantry",
    "cap": false,
-   "no": 18,
+   "no": 20,
    "sn": 1,
    "frm": "Poland"
   },
@@ -1504,12 +1504,12 @@
    "frm": "Algeria"
   },
   "749": {
-   "t": 5988,
-   "p": "Constantine",
+   "t": 6360,
+   "p": "Bone",
    "c": "Morocco",
-   "u": "Light Tank",
+   "u": "Infantry",
    "cap": false,
-   "no": 11,
+   "no": 2,
    "sn": 1,
    "frm": "Algeria"
   },
@@ -3970,12 +3970,16 @@
     "Infantry": 2
    }
   },
-  "ts": 1792652467935
+  "ts": 1792656061756
  },
  "sync": {
   "Kiel": {
    "t": 5041,
    "c": "Belgium"
+  },
+  "Cuneo": {
+   "t": 6361,
+   "c": "Italy"
   },
   "Oujda": {
    "t": 5341,
@@ -3983,6 +3987,14 @@
   },
   "Taza": {
    "t": 5221,
+   "c": "Morocco"
+  },
+  "Constantine": {
+   "t": 6361,
+   "c": "Morocco"
+  },
+  "Djanet": {
+   "t": 6361,
    "c": "Morocco"
   },
   "Lida": {
