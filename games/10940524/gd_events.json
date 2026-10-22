@@ -3564,6 +3564,20 @@
    "byu": "Infantry",
    "byn": 1,
    "by": "Ukraine"
+  },
+  "744": {
+   "t": 6290,
+   "p": "Grenoble",
+   "c": "Italy",
+   "u": "Infantry",
+   "what": "1× Infantry",
+   "n": 1,
+   "dest": true,
+   "no": 18,
+   "byno": 1,
+   "byu": "Anti Tank",
+   "byn": 1,
+   "by": "France"
   }
  },
  "cas": {
@@ -3865,7 +3879,7 @@
     "Anti Tank": 1
    },
    "Italy": {
-    "Infantry": 10,
+    "Infantry": 11,
     "Anti Tank": 2,
     "Anti Air": 1,
     "Interceptor": 1,
@@ -3956,7 +3970,7 @@
     "Infantry": 2
    }
   },
-  "ts": 1792648866995
+  "ts": 1792652467935
  },
  "sync": {
   "Kiel": {
