@@ -1374,14 +1374,14 @@
    "frm": "Ukraine"
   },
   "741": {
-   "t": 5483,
-   "p": "Krasnodar",
-   "c": "Caucasus",
+   "t": 6180,
+   "p": "Auxerre",
+   "c": "Spain",
    "u": "Anti Tank",
    "cap": false,
-   "no": 21,
-   "sn": 1,
-   "frm": "Ukraine"
+   "no": 3,
+   "sn": 2,
+   "frm": "France"
   },
   "742": {
    "t": 5497,
@@ -1454,14 +1454,14 @@
    "frm": "Algeria"
   },
   "740": {
-   "t": 5826,
-   "p": "Belgograd",
-   "c": "Caucasus",
+   "t": 6176,
+   "p": "Chur",
+   "c": "Ukraine",
    "u": "Infantry",
    "cap": false,
-   "no": 12,
+   "no": 15,
    "sn": 1,
-   "frm": "Ukraine"
+   "frm": "Switzerland"
   },
   "744": {
    "t": 5907,
@@ -3510,18 +3510,18 @@
    "by": "Poland"
   },
   "736": {
-   "t": 5692,
-   "p": "Nalchik",
-   "c": "Ukraine",
+   "t": 6126,
+   "p": "Aosta",
+   "c": "Italy",
    "u": "Infantry",
    "what": "1× Infantry",
    "n": 1,
    "dest": true,
-   "no": 2,
-   "byno": 16,
-   "byu": "Infantry",
-   "byn": 1,
-   "by": "Caucasus"
+   "no": 7,
+   "byno": 8,
+   "byu": "Tactical Bomber",
+   "byn": 6,
+   "by": "France"
   },
   "734": {
    "t": 5738,
@@ -3550,6 +3550,20 @@
    "byu": "Rocket Artillery",
    "byn": 3,
    "by": "Poland"
+  },
+  "738": {
+   "t": 6176,
+   "p": "Chur",
+   "c": "Switzerland",
+   "u": "Infantry",
+   "what": "1× Infantry",
+   "n": 1,
+   "dest": true,
+   "no": 2,
+   "byno": 15,
+   "byu": "Infantry",
+   "byn": 1,
+   "by": "Ukraine"
   }
  },
  "cas": {
@@ -3654,8 +3668,8 @@
    "ts": 1792512201000
   },
   "Ukraine|Switzerland": {
-   "v": 559,
-   "ts": 1792512201000
+   "v": 711,
+   "ts": 1792639567751
   },
   "Ukraine|Lithuania": {
    "v": 752,
@@ -3851,7 +3865,7 @@
     "Anti Tank": 1
    },
    "Italy": {
-    "Infantry": 9,
+    "Infantry": 10,
     "Anti Tank": 2,
     "Anti Air": 1,
     "Interceptor": 1,
@@ -3893,7 +3907,7 @@
    },
    "Switzerland": {
     "Anti Tank": 1,
-    "Infantry": 2
+    "Infantry": 3
    },
    "Luxembourg": {
     "Anti Air": 1,
@@ -3942,7 +3956,7 @@
     "Infantry": 2
    }
   },
-  "ts": 1792641664150
+  "ts": 1792645260014
  },
  "sync": {
   "Kiel": {
@@ -3963,6 +3977,14 @@
   },
   "Lodz": {
    "t": 5881,
+   "c": "Caucasus"
+  },
+  "Belgograd": {
+   "t": 6181,
+   "c": "Caucasus"
+  },
+  "Krasnodar": {
+   "t": 6181,
    "c": "Caucasus"
   }
  }
