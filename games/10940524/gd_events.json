@@ -1647,6 +1647,16 @@
    "no": 6,
    "sn": 1,
    "frm": "France"
+  },
+  "791": {
+   "t": 7060,
+   "p": "Toruń",
+   "c": "Caucasus",
+   "u": "Infantry",
+   "cap": false,
+   "no": 20,
+   "sn": 1,
+   "frm": "Poland"
   }
  },
  "loss": {
@@ -4172,7 +4182,7 @@
     "Infantry": 2
    }
   },
-  "ts": 1792695673265
+  "ts": 1792699270619
  },
  "sync": {
   "Kiel": {
