@@ -1552,6 +1552,16 @@
    "no": 6,
    "sn": 1,
    "frm": "France"
+  },
+  "757": {
+   "t": 6751,
+   "p": "Berdiansk",
+   "c": "Caucasus",
+   "u": "Infantry",
+   "cap": false,
+   "no": 10,
+   "sn": 1,
+   "frm": "Ukraine"
   }
  },
  "loss": {
@@ -3626,6 +3636,20 @@
    "byu": "Anti Tank",
    "byn": 3,
    "by": "Poland"
+  },
+  "755": {
+   "t": 6751,
+   "p": "Berdiansk",
+   "c": "Ukraine",
+   "u": "Infantry",
+   "what": "1× Infantry",
+   "n": 1,
+   "dest": true,
+   "no": 18,
+   "byno": 1,
+   "byu": "Rocket Artillery",
+   "byn": 1,
+   "by": "Caucasus"
   }
  },
  "cas": {
@@ -4002,7 +4026,7 @@
    },
    "Ukraine": {
     "Armored Car": 1,
-    "Infantry": 8,
+    "Infantry": 9,
     "Interceptor": 1,
     "Anti Air": 1,
     "Anti Tank": 1
@@ -4018,7 +4042,7 @@
     "Infantry": 2
    }
   },
-  "ts": 1792677670527
+  "ts": 1792681274945
  },
  "sync": {
   "Kiel": {
