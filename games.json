@@ -390,19 +390,19 @@
       "name": "KH test game",
       "status": "live",
       "added": "2026-10-19 21:02",
-      "ran": 1792681272558,
+      "ran": 1792684868970,
       "pv": "bb342bb5d7",
       "last": {
         "day": 5,
         "score": {
-          "G": 130,
+          "G": 120,
           "R": 250
         },
         "provinces": {
-          "G": 43,
+          "G": 42,
           "R": 111
         },
-        "fetched": 1792681274945,
+        "fetched": 1792684871827,
         "winner": null,
         "teams": {
           "G": [
@@ -473,19 +473,19 @@
       "name": "KH vs IA (AWT final)",
       "status": "live",
       "added": "2026-10-21 18:32",
-      "ran": 1792681272558,
+      "ran": 1792684868970,
       "pv": "bb342bb5d7",
       "last": {
         "day": 2,
         "score": {
-          "G": 620,
-          "R": 470
+          "G": 660,
+          "R": 480
         },
         "provinces": {
-          "G": 287,
-          "R": 189
+          "G": 295,
+          "R": 193
         },
-        "fetched": 1792681277157,
+        "fetched": 1792684873884,
         "winner": null,
         "teams": {
           "G": [

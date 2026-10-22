@@ -1414,14 +1414,14 @@
    "frm": "France"
   },
   "755": {
-   "t": 6518,
-   "p": "Kaiserslautern",
-   "c": "Belgium",
-   "u": "Anti Air",
+   "t": 6839,
+   "p": "Danzig",
+   "c": "Caucasus",
+   "u": "Infantry",
    "cap": false,
-   "no": 7,
+   "no": 20,
    "sn": 1,
-   "frm": "Italy"
+   "frm": "Poland"
   },
   "758": {
    "t": 5666,
@@ -3937,41 +3937,41 @@
  "stats": {
   "lost": {
    "Germany": {
-    "Interceptor": 1,
     "Infantry": 2,
-    "Armored Car": 1,
-    "Light Tank": 1
+    "Interceptor": 1,
+    "Light Tank": 1,
+    "Armored Car": 1
    },
    "France": {
-    "Armored Car": 1,
+    "Infantry": 6,
     "Tactical Bomber": 4,
-    "Infantry": 6
+    "Armored Car": 1
    },
    "United Kingdom": {
     "Anti Tank": 1
    },
    "Italy": {
-    "Anti Tank": 2,
     "Infantry": 11,
-    "Armored Car": 2,
+    "Anti Tank": 2,
+    "Anti Air": 1,
     "Interceptor": 1,
-    "Anti Air": 1
+    "Armored Car": 2
    },
    "Spain": {
     "Infantry": 10,
-    "Anti Tank": 2,
+    "Anti Air": 1,
     "Armored Car": 2,
-    "Anti Air": 1
+    "Anti Tank": 2
    },
    "Turkey": {
     "Infantry": 9,
-    "Tank Destroyer": 1,
+    "Anti Tank": 3,
     "Armored Car": 2,
-    "Anti Tank": 3
+    "Tank Destroyer": 1
    },
    "Latvia": {
-    "Anti Air": 2,
-    "Infantry": 3
+    "Infantry": 3,
+    "Anti Air": 2
    },
    "Lithuania": {
     "Armored Car": 1,
@@ -3979,17 +3979,17 @@
    },
    "Poland": {
     "Armored Car": 1,
-    "Infantry": 5,
+    "Rocket Artillery": 3,
     "Anti Tank": 1,
-    "Rocket Artillery": 3
+    "Infantry": 5
    },
    "Crimea": {
     "Anti Air": 1,
     "Infantry": 3
    },
    "Czechoslovakia": {
-    "Armored Car": 1,
-    "Infantry": 4
+    "Infantry": 4,
+    "Armored Car": 1
    },
    "Switzerland": {
     "Infantry": 3,
@@ -4006,43 +4006,43 @@
     "Anti Air": 1
    },
    "Morocco": {
-    "Tactical Bomber": 1,
     "Interceptor": 1,
-    "Anti Air": 1,
-    "Artillery": 1,
-    "Anti Tank": 2,
+    "Tactical Bomber": 1,
+    "Infantry": 13,
     "Armored Car": 4,
-    "Infantry": 13
+    "Anti Tank": 2,
+    "Artillery": 1,
+    "Anti Air": 1
    },
    "Algeria": {
-    "Interceptor": 1,
     "Infantry": 6,
+    "Interceptor": 1,
     "Armored Car": 2
    },
    "Tunisia": {
-    "Infantry": 4,
+    "Anti Air": 1,
     "Armored Car": 2,
-    "Anti Air": 1
+    "Infantry": 4
    },
    "Ukraine": {
-    "Armored Car": 1,
-    "Infantry": 9,
-    "Interceptor": 1,
+    "Anti Tank": 1,
     "Anti Air": 1,
-    "Anti Tank": 1
+    "Interceptor": 1,
+    "Infantry": 9,
+    "Armored Car": 1
    },
    "Caucasus": {
     "Infantry": 9,
-    "Anti Tank": 1,
-    "Militia": 1,
+    "Anti Air": 1,
     "Strategic Bomber": 2,
-    "Anti Air": 1
+    "Militia": 1,
+    "Anti Tank": 1
    },
    "Melilla": {
     "Infantry": 2
    }
   },
-  "ts": 1792681274945
+  "ts": 1792684871827
  },
  "sync": {
   "Kiel": {
