@@ -3,15 +3,15 @@
  "name": "KH test game",
  "day": 5,
  "score": {
-  "G": 150,
+  "G": 140,
   "R": 250
  },
  "provinces": {
-  "G": 55,
+  "G": 48,
   "R": 111
  },
- "fetched": 1792627270687,
- "built": 1792630866778,
+ "fetched": 1792634462390,
+ "built": 1792634471635,
  "game_over": false,
  "winner": null,
  "teams": {
@@ -60,6 +60,6 @@
    }
   ]
  },
- "events": 151,
+ "events": 158,
  "losses": 154
 }

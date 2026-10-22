@@ -390,19 +390,19 @@
       "name": "KH test game",
       "status": "live",
       "added": "2026-10-19 21:02",
-      "ran": 1792630859448,
+      "ran": 1792634460485,
       "pv": "bb342bb5d7",
       "last": {
         "day": 5,
         "score": {
-          "G": 150,
+          "G": 140,
           "R": 250
         },
         "provinces": {
-          "G": 55,
+          "G": 48,
           "R": 111
         },
-        "fetched": 1792627270687,
+        "fetched": 1792634462390,
         "winner": null,
         "teams": {
           "G": [
@@ -466,27 +466,26 @@
           "Russian Empire",
           "Southern United States"
         ]
-      },
-      "error": "Game server returned no game state."
+      }
     },
     {
       "id": "10940608",
       "name": "KH vs IA (AWT final)",
       "status": "live",
       "added": "2026-10-21 18:32",
-      "ran": 1792630859448,
+      "ran": 1792634460485,
       "pv": "bb342bb5d7",
       "last": {
         "day": 2,
         "score": {
-          "G": 440,
-          "R": 390
+          "G": 490,
+          "R": 420
         },
         "provinces": {
-          "G": 207,
-          "R": 157
+          "G": 225,
+          "R": 167
         },
-        "fetched": 1792627272776,
+        "fetched": 1792634464045,
         "winner": null,
         "teams": {
           "G": [
@@ -534,8 +533,7 @@
             }
           ]
         }
-      },
-      "error": "Game server returned no game state."
+      }
     }
   ],
   "folders": [
