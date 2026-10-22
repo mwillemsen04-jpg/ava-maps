@@ -1617,6 +1617,26 @@
    "no": 5,
    "sn": 1,
    "frm": "Germany"
+  },
+  "797": {
+   "t": 6938,
+   "p": "Lausanne",
+   "c": "Ukraine",
+   "u": "Infantry",
+   "cap": false,
+   "no": 15,
+   "sn": 1,
+   "frm": "Switzerland"
+  },
+  "798": {
+   "t": 6946,
+   "p": "Luxembourg",
+   "c": "Belgium",
+   "u": "Anti Tank",
+   "cap": false,
+   "no": 4,
+   "sn": 3,
+   "frm": "Italy"
   }
  },
  "loss": {
@@ -4085,8 +4105,8 @@
     "Infantry": 1
    },
    "Belgium": {
-    "Infantry": 2,
-    "Anti Air": 1
+    "Anti Air": 1,
+    "Infantry": 2
    },
    "Netherlands": {
     "Anti Air": 1
@@ -4128,7 +4148,7 @@
     "Infantry": 2
    }
   },
-  "ts": 1792688470910
+  "ts": 1792692072116
  },
  "sync": {
   "Kiel": {
