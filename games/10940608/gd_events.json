@@ -5107,6 +5107,16 @@
    "no": 3,
    "sn": 1,
    "frm": "France"
+  },
+  "2041": {
+   "t": 3890,
+   "p": "Beirut",
+   "c": "Libya",
+   "u": "Infantry",
+   "cap": true,
+   "no": 5,
+   "sn": 2,
+   "frm": "Syria"
   }
  },
  "loss": {
@@ -10544,17 +10554,45 @@
   },
   "2035": {
    "t": 3837,
-   "p": null,
+   "p": "Halifax",
    "c": "Canada",
    "u": "Infantry",
    "what": "1× Infantry",
    "n": 1,
-   "dest": false,
+   "dest": true,
    "no": 5,
-   "byno": null,
-   "byu": null,
-   "byn": null,
-   "by": null
+   "byno": 7,
+   "byu": "Cruiser",
+   "byn": 1,
+   "by": "Poland"
+  },
+  "2037": {
+   "t": 3867,
+   "p": "Halifax",
+   "c": "Canada",
+   "u": "Infantry",
+   "what": "1× Light Tank",
+   "n": 1,
+   "dest": true,
+   "no": 5,
+   "byno": 7,
+   "byu": "Cruiser",
+   "byn": 1,
+   "by": "Poland"
+  },
+  "2039": {
+   "t": 3885,
+   "p": "Kingston",
+   "c": "Canada",
+   "u": "Infantry",
+   "what": "1× Infantry",
+   "n": 1,
+   "dest": true,
+   "no": 9,
+   "byno": 10,
+   "byu": "Infantry",
+   "byn": 3,
+   "by": "Southern United States"
   }
  },
  "cas": {
@@ -10619,7 +10657,7 @@
    "ts": 1792684957000
   },
   "Italy|Poland": {
-   "v": 5732,
+   "v": 5804,
    "ts": 1792684957000
   },
   "France|Tunisia": {
@@ -10775,11 +10813,11 @@
    "ts": 1792684957000
   },
   "Southern United States|Northern States of America": {
-   "v": 7958,
+   "v": 8095,
    "ts": 1792684957000
   },
   "Northern States of America|Southern United States": {
-   "v": 17634,
+   "v": 18214,
    "ts": 1792684957000
   },
   "Netherlands|Poland": {
@@ -11275,11 +11313,11 @@
    "ts": 1792684957000
   },
   "Canada|Southern United States": {
-   "v": 4448,
+   "v": 5493,
    "ts": 1792684957000
   },
   "Southern United States|Canada": {
-   "v": 2970,
+   "v": 3342,
    "ts": 1792684957000
   },
   "Greater Romania|Greece": {
@@ -11375,15 +11413,15 @@
    "ts": 1792740635983
   },
   "France|Canada": {
-   "v": 1646,
+   "v": 1703,
    "ts": 1792740635983
   },
   "Canada|Poland": {
-   "v": 762,
+   "v": 968,
    "ts": 1792758478714
   },
   "Poland|Canada": {
-   "v": 69,
+   "v": 76,
    "ts": 1792760261223
   }
  },
@@ -11542,9 +11580,10 @@
     "Militia": 1
    },
    "Canada": {
+    "Anti Tank": 1,
+    "Light Tank": 1,
     "Anti Air": 1,
-    "Infantry": 3,
-    "Anti Tank": 1
+    "Infantry": 4
    },
    "Ireland": {
     "Anti Air": 1,
@@ -11682,7 +11721,7 @@
     "Infantry": 2
    }
   },
-  "ts": 1792764076381
+  "ts": 1792767667342
  },
  "sync": {}
 }

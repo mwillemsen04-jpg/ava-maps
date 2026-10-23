@@ -1689,14 +1689,14 @@
    "frm": "France"
   },
   "804": {
-   "t": 7456,
-   "p": "Dnepropetrovsk",
-   "c": "Ukraine",
+   "t": 8217,
+   "p": "Berdiansk",
+   "c": "Cossack Republic",
    "u": "Infantry",
    "cap": false,
-   "no": 1,
+   "no": 11,
    "sn": 1,
-   "frm": "Caucasus"
+   "frm": "Ukraine"
   },
   "807": {
    "t": 8008,
@@ -4515,21 +4515,21 @@
     "Armored Car": 1
    },
    "France": {
-    "Infantry": 6,
     "Tactical Bomber": 4,
-    "Armored Car": 1
+    "Armored Car": 1,
+    "Infantry": 6
    },
    "United Kingdom": {
     "Anti Tank": 1
    },
    "Italy": {
-    "Armored Car": 2,
     "Light Tank": 1,
     "Anti Tank": 2,
     "Anti Air": 1,
     "Interceptor": 1,
     "Infantry": 12,
-    "Militia": 3
+    "Militia": 3,
+    "Armored Car": 2
    },
    "Spain": {
     "Infantry": 10,
@@ -4581,13 +4581,13 @@
     "Anti Air": 1
    },
    "Morocco": {
-    "Anti Air": 1,
     "Interceptor": 1,
     "Tactical Bomber": 1,
     "Infantry": 13,
     "Armored Car": 4,
     "Anti Tank": 2,
-    "Artillery": 1
+    "Artillery": 1,
+    "Anti Air": 1
    },
    "Algeria": {
     "Infantry": 6,
@@ -4600,11 +4600,11 @@
     "Infantry": 4
    },
    "Ukraine": {
-    "Armored Car": 1,
     "Anti Tank": 1,
     "Anti Air": 1,
     "Interceptor": 1,
-    "Infantry": 11
+    "Infantry": 11,
+    "Armored Car": 1
    },
    "Caucasus": {
     "Infantry": 12,
@@ -4618,7 +4618,7 @@
     "Infantry": 2
    }
   },
-  "ts": 1792764074144
+  "ts": 1792767665705
  },
  "sync": {
   "Kiel": {
