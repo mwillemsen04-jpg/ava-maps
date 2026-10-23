@@ -4674,10 +4674,10 @@
     "Infantry": 3
    },
    "Poland": {
+    "Anti Tank": 1,
     "Rocket Artillery": 3,
     "Infantry": 8,
-    "Armored Car": 1,
-    "Anti Tank": 1
+    "Armored Car": 1
    },
    "Crimea": {
     "Anti Air": 1,
@@ -4696,8 +4696,8 @@
     "Infantry": 1
    },
    "Belgium": {
-    "Infantry": 3,
-    "Anti Air": 1
+    "Anti Air": 1,
+    "Infantry": 3
    },
    "Netherlands": {
     "Anti Air": 1
@@ -4717,9 +4717,9 @@
     "Interceptor": 1
    },
    "Tunisia": {
+    "Anti Air": 1,
     "Armored Car": 2,
-    "Infantry": 4,
-    "Anti Air": 1
+    "Infantry": 4
    },
    "Ukraine": {
     "Anti Tank": 1,
@@ -4740,7 +4740,7 @@
     "Infantry": 2
    }
   },
-  "ts": 1792792868108
+  "ts": 1792796466232
  },
  "sync": {
   "Kiel": {
