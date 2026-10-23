@@ -5559,6 +5559,186 @@
    "no": 15,
    "sn": 2,
    "frm": "Ireland"
+  },
+  "2459": {
+   "t": 4141,
+   "p": "Stalino",
+   "c": "Russian Empire",
+   "u": "Light Tank",
+   "cap": false,
+   "no": 13,
+   "sn": 1,
+   "frm": "Ukraine"
+  },
+  "2460": {
+   "t": 4141,
+   "p": "Berdiansk",
+   "c": "Russian Empire",
+   "u": "Light Tank",
+   "cap": false,
+   "no": 15,
+   "sn": 1,
+   "frm": "Ukraine"
+  },
+  "2463": {
+   "t": 4144,
+   "p": "Ljubljana",
+   "c": "Germany",
+   "u": "Light Tank",
+   "cap": false,
+   "no": 10,
+   "sn": 1,
+   "frm": "Greater Romania"
+  },
+  "2464": {
+   "t": 4149,
+   "p": "Chernihiv",
+   "c": "Communist Russia",
+   "u": "Tank Destroyer",
+   "cap": false,
+   "no": 7,
+   "sn": 1,
+   "frm": "Ukraine"
+  },
+  "2465": {
+   "t": 4150,
+   "p": "Kryvyi Rih",
+   "c": "Libya",
+   "u": "Light Tank",
+   "cap": false,
+   "no": 2,
+   "sn": 1,
+   "frm": "Ukraine"
+  },
+  "2466": {
+   "t": 4151,
+   "p": "Kremenchuk",
+   "c": "Libya",
+   "u": "Light Tank",
+   "cap": false,
+   "no": 6,
+   "sn": 1,
+   "frm": "Ukraine"
+  },
+  "2469": {
+   "t": 4162,
+   "p": "Bari",
+   "c": "France",
+   "u": "Anti Tank",
+   "cap": false,
+   "no": 19,
+   "sn": 1,
+   "frm": "Libya"
+  },
+  "2476": {
+   "t": 4175,
+   "p": "Melitopol",
+   "c": "Russian Empire",
+   "u": "Light Tank",
+   "cap": false,
+   "no": 15,
+   "sn": 1,
+   "frm": "Ukraine"
+  },
+  "2477": {
+   "t": 4176,
+   "p": "Vienna",
+   "c": "Libya",
+   "u": "Light Tank",
+   "cap": false,
+   "no": 8,
+   "sn": 1,
+   "frm": "Germany"
+  },
+  "2480": {
+   "t": 4180,
+   "p": "Reggio",
+   "c": "France",
+   "u": "Infantry",
+   "cap": false,
+   "no": 4,
+   "sn": 1,
+   "frm": "Italy"
+  },
+  "2483": {
+   "t": 4183,
+   "p": "Poltava",
+   "c": "Libya",
+   "u": "Light Tank",
+   "cap": false,
+   "no": 6,
+   "sn": 1,
+   "frm": "Ukraine"
+  },
+  "2489": {
+   "t": 4189,
+   "p": "Uman",
+   "c": "Greater Romania",
+   "u": "Armored Car",
+   "cap": false,
+   "no": 6,
+   "sn": 1,
+   "frm": "Ukraine"
+  },
+  "2490": {
+   "t": 4191,
+   "p": "Orillia",
+   "c": "Canada",
+   "u": "Infantry",
+   "cap": false,
+   "no": 7,
+   "sn": 3,
+   "frm": "Southern United States"
+  },
+  "2491": {
+   "t": 4192,
+   "p": "Voronezh",
+   "c": "Russian Empire",
+   "u": "Anti Tank",
+   "cap": false,
+   "no": 14,
+   "sn": 1,
+   "frm": "Poland"
+  },
+  "2492": {
+   "t": 4193,
+   "p": "Yeysk",
+   "c": "Russian Empire",
+   "u": "Infantry",
+   "cap": false,
+   "no": 10,
+   "sn": 1,
+   "frm": "Poland"
+  },
+  "2493": {
+   "t": 4195,
+   "p": "Brno",
+   "c": "Germany",
+   "u": "Armored Car",
+   "cap": false,
+   "no": 20,
+   "sn": 1,
+   "frm": "Greater Romania"
+  },
+  "2496": {
+   "t": 4197,
+   "p": "Krasnohrad",
+   "c": "Russian Empire",
+   "u": "Light Tank",
+   "cap": false,
+   "no": 13,
+   "sn": 1,
+   "frm": "Ukraine"
+  },
+  "2497": {
+   "t": 4199,
+   "p": "Riga",
+   "c": "Russian Empire",
+   "u": "Light Tank",
+   "cap": false,
+   "no": 16,
+   "sn": 1,
+   "frm": "Germany"
   }
  },
  "loss": {
@@ -11259,6 +11439,104 @@
    "byu": "Infantry",
    "byn": 2,
    "by": "France"
+  },
+  "2467": {
+   "t": 4157,
+   "p": "Gulf of Sidra",
+   "c": "France",
+   "u": "Infantry",
+   "what": "1× Infantry",
+   "n": 1,
+   "dest": true,
+   "no": 2,
+   "byno": 25,
+   "byu": "Cruiser",
+   "byn": 1,
+   "by": "Greater Romania"
+  },
+  "2474": {
+   "t": 4172,
+   "p": "Mediterranean Sea",
+   "c": "France",
+   "u": "Infantry",
+   "what": "1× Infantry",
+   "n": 1,
+   "dest": true,
+   "no": 8,
+   "byno": 14,
+   "byu": "Infantry",
+   "byn": 1,
+   "by": "Libya"
+  },
+  "2478": {
+   "t": 4180,
+   "p": "Reggio",
+   "c": "Italy",
+   "u": "Infantry",
+   "what": "1× Infantry",
+   "n": 1,
+   "dest": true,
+   "no": 16,
+   "byno": 25,
+   "byu": "Cruiser",
+   "byn": 1,
+   "by": "Poland"
+  },
+  "2481": {
+   "t": 4182,
+   "p": "Zagreb",
+   "c": "Southern United States",
+   "u": "Anti Tank",
+   "what": "1× Anti Tank",
+   "n": 1,
+   "dest": true,
+   "no": 11,
+   "byno": 3,
+   "byu": "Interceptor",
+   "byn": 10,
+   "by": "Algeria"
+  },
+  "2486": {
+   "t": 4188,
+   "p": "Ventspils",
+   "c": "Germany",
+   "u": "Infantry",
+   "what": "1× Infantry",
+   "n": 1,
+   "dest": true,
+   "no": 16,
+   "byno": 19,
+   "byu": "Interceptor",
+   "byn": 9,
+   "by": "Russian Empire"
+  },
+  "2487": {
+   "t": 4188,
+   "p": "Ventspils",
+   "c": "Germany",
+   "u": "Infantry",
+   "what": "1× Infantry",
+   "n": 1,
+   "dest": true,
+   "no": 16,
+   "byno": 19,
+   "byu": "Interceptor",
+   "byn": 9,
+   "by": "Russian Empire"
+  },
+  "2494": {
+   "t": 4195,
+   "p": "Poltava",
+   "c": "Ukraine",
+   "u": "Infantry",
+   "what": "1× Infantry",
+   "n": 1,
+   "dest": true,
+   "no": 2,
+   "byno": 28,
+   "byu": "Armored Car",
+   "byn": 10,
+   "by": "Libya"
   }
  },
  "cas": {
@@ -11323,7 +11601,7 @@
    "ts": 1792771357000
   },
   "Italy|Poland": {
-   "v": 6108,
+   "v": 6182,
    "ts": 1792771357000
   },
   "France|Tunisia": {
@@ -11347,11 +11625,11 @@
    "ts": 1792771357000
   },
   "France|Italy": {
-   "v": 2097,
+   "v": 2228,
    "ts": 1792771357000
   },
   "Italy|France": {
-   "v": 15223,
+   "v": 15359,
    "ts": 1792771357000
   },
   "Bulgaria|Greater Romania": {
@@ -11495,7 +11773,7 @@
    "ts": 1792771357000
   },
   "United Kingdom|Poland": {
-   "v": 10505,
+   "v": 10635,
    "ts": 1792771357000
   },
   "Italy|Algeria": {
@@ -11899,11 +12177,11 @@
    "ts": 1792771357000
   },
   "Western Sahara|Algeria": {
-   "v": 114,
+   "v": 153,
    "ts": 1792771357000
   },
   "Algeria|Western Sahara": {
-   "v": 614,
+   "v": 784,
    "ts": 1792771357000
   },
   "Greater Romania|Albania": {
@@ -11979,7 +12257,7 @@
    "ts": 1792771357000
   },
   "Canada|Southern United States": {
-   "v": 7704,
+   "v": 7815,
    "ts": 1792771357000
   },
   "Southern United States|Canada": {
@@ -12099,11 +12377,11 @@
    "ts": 1792771478865
   },
   "Russian Empire|Germany": {
-   "v": 43,
+   "v": 191,
    "ts": 1792771684929
   },
   "Germany|Russian Empire": {
-   "v": 990,
+   "v": 3054,
    "ts": 1792771684929
   },
   "France|Southern United States": {
@@ -12123,11 +12401,11 @@
    "ts": 1792772413084
   },
   "Germany|Libya": {
-   "v": 933,
+   "v": 1448,
    "ts": 1792772816674
   },
   "Libya|Germany": {
-   "v": 728,
+   "v": 797,
    "ts": 1792772816674
   },
   "Germany|Southern United States": {
@@ -12151,7 +12429,7 @@
    "ts": 1792775061429
   },
   "France|Greater Romania": {
-   "v": 456,
+   "v": 649,
    "ts": 1792776002000
   },
   "Greater Romania|Poland": {
@@ -12183,12 +12461,44 @@
    "ts": 1792779266198
   },
   "Algeria|Southern United States": {
-   "v": 1162,
+   "v": 7782,
    "ts": 1792779361448
   },
   "Southern United States|Algeria": {
-   "v": 1230,
+   "v": 5550,
    "ts": 1792779361448
+  },
+  "Greater Romania|Algeria": {
+   "v": 898,
+   "ts": 1792782107325
+  },
+  "Algeria|Greater Romania": {
+   "v": 774,
+   "ts": 1792782107325
+  },
+  "Greater Romania|Germany": {
+   "v": 11,
+   "ts": 1792783599243
+  },
+  "Germany|Greater Romania": {
+   "v": 12,
+   "ts": 1792783599243
+  },
+  "Libya|France": {
+   "v": 12,
+   "ts": 1792783946113
+  },
+  "France|Libya": {
+   "v": 300,
+   "ts": 1792783946113
+  },
+  "Libya|Ukraine": {
+   "v": 302,
+   "ts": 1792784801323
+  },
+  "Ukraine|Libya": {
+   "v": 962,
+   "ts": 1792784801323
   }
  },
  "teams": {
@@ -12266,13 +12576,13 @@
   "lost": {
    "Germany": {
     "Anti Tank": 1,
-    "Infantry": 3,
+    "Infantry": 5,
     "Armored Car": 1,
     "Light Tank": 4
    },
    "France": {
     "Anti Tank": 1,
-    "Infantry": 2
+    "Infantry": 4
    },
    "United Kingdom": {
     "Anti Air": 1,
@@ -12285,7 +12595,7 @@
     "Artillery": 1,
     "Armored Car": 2,
     "Anti Tank": 3,
-    "Infantry": 17,
+    "Infantry": 18,
     "Interceptor": 1
    },
    "Spain": {
@@ -12423,8 +12733,9 @@
     "Infantry": 5
    },
    "Southern United States": {
+    "Anti Air": 1,
     "Infantry": 3,
-    "Anti Air": 1
+    "Anti Tank": 1
    },
    "Michigan": {
     "Anti Tank": 1,
@@ -12462,7 +12773,8 @@
     "Infantry": 4
    },
    "Ukraine": {
-    "Anti Air": 1
+    "Anti Air": 1,
+    "Infantry": 1
    },
    "Caucasus": {
     "Armored Car": 1,
@@ -12494,7 +12806,7 @@
     "Infantry": 2
    }
   },
-  "ts": 1792782071976
+  "ts": 1792785666529
  },
  "sync": {}
 }
