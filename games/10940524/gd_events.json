@@ -4209,6 +4209,20 @@
    "byu": "Rocket Artillery",
    "byn": 1,
    "by": "Poland"
+  },
+  "805": {
+   "t": 8243,
+   "p": "Cracow",
+   "c": "Belgium",
+   "u": "Infantry",
+   "what": "1× Infantry",
+   "n": 1,
+   "dest": true,
+   "no": 5,
+   "byno": 24,
+   "byu": "Rocket Artillery",
+   "byn": 1,
+   "by": "Poland"
   }
  },
  "cas": {
@@ -4575,7 +4589,7 @@
    },
    "Belgium": {
     "Anti Air": 1,
-    "Infantry": 2
+    "Infantry": 3
    },
    "Netherlands": {
     "Anti Air": 1
@@ -4618,7 +4632,7 @@
     "Infantry": 2
    }
   },
-  "ts": 1792767665705
+  "ts": 1792771266441
  },
  "sync": {
   "Kiel": {

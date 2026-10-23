@@ -5117,6 +5117,76 @@
    "no": 5,
    "sn": 2,
    "frm": "Syria"
+  },
+  "2042": {
+   "t": 3910,
+   "p": "Smara",
+   "c": "Algeria",
+   "u": "Infantry",
+   "cap": false,
+   "no": 11,
+   "sn": 1,
+   "frm": "Western Sahara"
+  },
+  "2044": {
+   "t": 3920,
+   "p": "Stockholm",
+   "c": "Communist Russia",
+   "u": "Infantry",
+   "cap": true,
+   "no": 2,
+   "sn": 1,
+   "frm": "Sweden"
+  },
+  "2047": {
+   "t": 3929,
+   "p": "Boston",
+   "c": "Southern United States",
+   "u": "Infantry",
+   "cap": false,
+   "no": 38,
+   "sn": 2,
+   "frm": "Northern States of America"
+  },
+  "2048": {
+   "t": 3947,
+   "p": "Athens",
+   "c": "Greater Romania",
+   "u": "Infantry",
+   "cap": true,
+   "no": 17,
+   "sn": 1,
+   "frm": "Greece"
+  },
+  "2049": {
+   "t": 3947,
+   "p": "Malmö",
+   "c": "Poland",
+   "u": "Anti Tank",
+   "cap": false,
+   "no": 22,
+   "sn": 1,
+   "frm": "Sweden"
+  },
+  "2050": {
+   "t": 3948,
+   "p": "Shakhty",
+   "c": "Ukraine",
+   "u": "Infantry",
+   "cap": false,
+   "no": 2,
+   "sn": 1,
+   "frm": "Cossack Republic"
+  },
+  "2052": {
+   "t": 3955,
+   "p": "Riga",
+   "c": "Germany",
+   "u": "Infantry",
+   "cap": true,
+   "no": 16,
+   "sn": 2,
+   "frm": "Latvia"
   }
  },
  "loss": {
@@ -10593,6 +10663,20 @@
    "byu": "Infantry",
    "byn": 3,
    "by": "Southern United States"
+  },
+  "2045": {
+   "t": 3929,
+   "p": "Boston",
+   "c": "Northern States of America",
+   "u": "Anti Tank",
+   "what": "1× Anti Tank",
+   "n": 1,
+   "dest": true,
+   "no": 2,
+   "byno": 38,
+   "byu": "Infantry",
+   "byn": 2,
+   "by": "Southern United States"
   }
  },
  "cas": {
@@ -10657,7 +10741,7 @@
    "ts": 1792684957000
   },
   "Italy|Poland": {
-   "v": 5804,
+   "v": 5867,
    "ts": 1792684957000
   },
   "France|Tunisia": {
@@ -10813,11 +10897,11 @@
    "ts": 1792684957000
   },
   "Southern United States|Northern States of America": {
-   "v": 8095,
+   "v": 8132,
    "ts": 1792684957000
   },
   "Northern States of America|Southern United States": {
-   "v": 18214,
+   "v": 18384,
    "ts": 1792684957000
   },
   "Netherlands|Poland": {
@@ -11313,7 +11397,7 @@
    "ts": 1792684957000
   },
   "Canada|Southern United States": {
-   "v": 5493,
+   "v": 5588,
    "ts": 1792684957000
   },
   "Southern United States|Canada": {
@@ -11417,7 +11501,7 @@
    "ts": 1792740635983
   },
   "Canada|Poland": {
-   "v": 968,
+   "v": 1019,
    "ts": 1792758478714
   },
   "Poland|Canada": {
@@ -11572,7 +11656,7 @@
     "Infantry": 5
    },
    "Northern States of America": {
-    "Anti Tank": 1,
+    "Anti Tank": 2,
     "Armored Car": 2,
     "Anti Air": 1,
     "Interceptor": 1,
@@ -11721,7 +11805,7 @@
     "Infantry": 2
    }
   },
-  "ts": 1792767667342
+  "ts": 1792771267862
  },
  "sync": {}
 }
