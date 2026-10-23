@@ -1797,6 +1797,46 @@
    "no": 8,
    "sn": 2,
    "frm": "Italy"
+  },
+  "840": {
+   "t": 7876,
+   "p": "Plock",
+   "c": "Poland",
+   "u": "Rocket Artillery",
+   "cap": false,
+   "no": 5,
+   "sn": 1,
+   "frm": "Caucasus"
+  },
+  "842": {
+   "t": 7876,
+   "p": "Freiburg",
+   "c": "Poland",
+   "u": "Rocket Artillery",
+   "cap": false,
+   "no": 7,
+   "sn": 1,
+   "frm": "Germany"
+  },
+  "843": {
+   "t": 7894,
+   "p": "Nuremburg",
+   "c": "Belgium",
+   "u": "Infantry",
+   "cap": false,
+   "no": 9,
+   "sn": 1,
+   "frm": "Italy"
+  },
+  "844": {
+   "t": 7904,
+   "p": "Oppeln",
+   "c": "Belgium",
+   "u": "Infantry",
+   "cap": false,
+   "no": 5,
+   "sn": 1,
+   "frm": "Germany"
   }
  },
  "loss": {
@@ -4243,7 +4283,7 @@
    "ts": 1792512201000
   },
   "Caucasus|Poland": {
-   "v": 2392,
+   "v": 2592,
    "ts": 1792726492682
   },
   "United Kingdom|Germany": {
@@ -4251,8 +4291,8 @@
    "ts": 1792512201000
   },
   "Cossack Republic|Ukraine": {
-   "v": 144,
-   "ts": 1792512201000
+   "v": 466,
+   "ts": 1792746361066
   },
   "Cuba|Algeria": {
    "v": 144,
@@ -4271,7 +4311,7 @@
    "ts": 1792701616252
   },
   "Poland|Belgium": {
-   "v": 506,
+   "v": 699,
    "ts": 1792725602000
   }
  },
@@ -4448,7 +4488,7 @@
     "Infantry": 2
    }
   },
-  "ts": 1792746073512
+  "ts": 1792749668385
  },
  "sync": {
   "Kiel": {

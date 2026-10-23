@@ -4967,6 +4967,26 @@
    "no": 2,
    "sn": 2,
    "frm": "France"
+  },
+  "1992": {
+   "t": 3544,
+   "p": "Toronto",
+   "c": "Southern United States",
+   "u": "Infantry",
+   "cap": false,
+   "no": 42,
+   "sn": 1,
+   "frm": "Canada"
+  },
+  "1997": {
+   "t": 3587,
+   "p": "Boston",
+   "c": "Northern States of America",
+   "u": "Anti Tank",
+   "cap": false,
+   "no": 2,
+   "sn": 1,
+   "frm": "Southern United States"
   }
  },
  "loss": {
@@ -10219,6 +10239,34 @@
    "byu": "Militia",
    "byn": 1,
    "by": "Tunisia"
+  },
+  "1993": {
+   "t": 3550,
+   "p": "Buffalo",
+   "c": "Northern States of America",
+   "u": "Infantry",
+   "what": "1× Infantry",
+   "n": 1,
+   "dest": true,
+   "no": 12,
+   "byno": 24,
+   "byu": "Cruiser",
+   "byn": 1,
+   "by": "Southern United States"
+  },
+  "1996": {
+   "t": 3566,
+   "p": "Tunis",
+   "c": "Algeria",
+   "u": "Infantry",
+   "what": "1× Infantry",
+   "n": 1,
+   "dest": true,
+   "no": 17,
+   "byno": 2,
+   "byu": "Militia",
+   "byn": 1,
+   "by": "Tunisia"
   }
  },
  "cas": {
@@ -10283,15 +10331,15 @@
    "ts": 1792684957000
   },
   "Italy|Poland": {
-   "v": 5387,
+   "v": 5460,
    "ts": 1792684957000
   },
   "France|Tunisia": {
-   "v": 858,
+   "v": 1050,
    "ts": 1792684957000
   },
   "Tunisia|France": {
-   "v": 2612,
+   "v": 2764,
    "ts": 1792684957000
   },
   "Greater Finland|Communist Russia": {
@@ -10443,7 +10491,7 @@
    "ts": 1792684957000
   },
   "Northern States of America|Southern United States": {
-   "v": 17605,
+   "v": 17634,
    "ts": 1792684957000
   },
   "Netherlands|Poland": {
@@ -10455,7 +10503,7 @@
    "ts": 1792684957000
   },
   "United Kingdom|Poland": {
-   "v": 9987,
+   "v": 10110,
    "ts": 1792684957000
   },
   "Italy|Algeria": {
@@ -10999,11 +11047,11 @@
    "ts": 1792684957000
   },
   "Algeria|Tunisia": {
-   "v": 790,
+   "v": 875,
    "ts": 1792684957000
   },
   "Tunisia|Algeria": {
-   "v": 773,
+   "v": 829,
    "ts": 1792684957000
   },
   "Libya|Italy": {
@@ -11192,7 +11240,7 @@
     "Armored Car": 2,
     "Anti Air": 1,
     "Interceptor": 1,
-    "Infantry": 12,
+    "Infantry": 13,
     "Militia": 1
    },
    "Canada": {
@@ -11279,7 +11327,7 @@
     "Interceptor": 1
    },
    "Algeria": {
-    "Infantry": 2,
+    "Infantry": 3,
     "Anti Tank": 1
    },
    "Tunisia": {
@@ -11333,7 +11381,7 @@
     "Infantry": 2
    }
   },
-  "ts": 1792746075851
+  "ts": 1792749671289
  },
  "sync": {}
 }
