@@ -4777,6 +4777,46 @@
    "no": 7,
    "sn": 5,
    "frm": "Northern States of America"
+  },
+  "1946": {
+   "t": 3077,
+   "p": "Bilbao",
+   "c": "France",
+   "u": "Infantry",
+   "cap": false,
+   "no": 3,
+   "sn": 1,
+   "frm": "Spain"
+  },
+  "1951": {
+   "t": 3096,
+   "p": "Quebec",
+   "c": "France",
+   "u": "Infantry",
+   "cap": false,
+   "no": 9,
+   "sn": 1,
+   "frm": "Canada"
+  },
+  "1952": {
+   "t": 3099,
+   "p": "Brescia",
+   "c": "Algeria",
+   "u": "Anti Air",
+   "cap": false,
+   "no": 14,
+   "sn": 1,
+   "frm": "Italy"
+  },
+  "1957": {
+   "t": 3120,
+   "p": "Zurich",
+   "c": "Ukraine",
+   "u": "Infantry",
+   "cap": false,
+   "no": 16,
+   "sn": 1,
+   "frm": "Switzerland"
   }
  },
  "loss": {
@@ -9847,6 +9887,62 @@
    "byu": "Armored Car",
    "byn": 5,
    "by": "Southern United States"
+  },
+  "1948": {
+   "t": 3079,
+   "p": "Valencia",
+   "c": "Libya",
+   "u": "Infantry",
+   "what": "1× Infantry",
+   "n": 1,
+   "dest": true,
+   "no": 4,
+   "byno": 1,
+   "byu": "Militia",
+   "byn": 1,
+   "by": "Spain"
+  },
+  "1949": {
+   "t": 3095,
+   "p": "Umeå",
+   "c": "Sweden",
+   "u": "Infantry",
+   "what": "1× Infantry",
+   "n": 1,
+   "dest": true,
+   "no": 11,
+   "byno": 13,
+   "byu": "Cruiser",
+   "byn": 1,
+   "by": "Communist Russia"
+  },
+  "1953": {
+   "t": 3104,
+   "p": "Toledo",
+   "c": "Spain",
+   "u": "Infantry",
+   "what": "1× Infantry",
+   "n": 1,
+   "dest": true,
+   "no": 16,
+   "byno": 17,
+   "byu": "Tactical Bomber",
+   "byn": 3,
+   "by": "France"
+  },
+  "1955": {
+   "t": 3117,
+   "p": "Malmö",
+   "c": "Sweden",
+   "u": "Militia",
+   "what": "1× Militia",
+   "n": 1,
+   "dest": true,
+   "no": 1,
+   "byno": 1,
+   "byu": "Infantry",
+   "byn": 1,
+   "by": "Germany"
   }
  },
  "cas": {
@@ -9903,7 +9999,7 @@
    "ts": 1792684957000
   },
   "Sweden|Communist Russia": {
-   "v": 9181,
+   "v": 9271,
    "ts": 1792684957000
   },
   "United Kingdom|Southern United States": {
@@ -10043,11 +10139,11 @@
    "ts": 1792684957000
   },
   "Sweden|Russian Empire": {
-   "v": 6010,
+   "v": 6235,
    "ts": 1792684957000
   },
   "Russian Empire|Sweden": {
-   "v": 2960,
+   "v": 3172,
    "ts": 1792684957000
   },
   "Communist Russia|Greater Finland": {
@@ -10071,7 +10167,7 @@
    "ts": 1792684957000
   },
   "Northern States of America|Southern United States": {
-   "v": 15925,
+   "v": 16029,
    "ts": 1792684957000
   },
   "Netherlands|Poland": {
@@ -10127,7 +10223,7 @@
    "ts": 1792684957000
   },
   "United Kingdom|Communist Russia": {
-   "v": 356,
+   "v": 493,
    "ts": 1792684957000
   },
   "Communist Russia|United Kingdom": {
@@ -10155,11 +10251,11 @@
    "ts": 1792684957000
   },
   "Sweden|Germany": {
-   "v": 2605,
+   "v": 2859,
    "ts": 1792684957000
   },
   "Germany|Sweden": {
-   "v": 1322,
+   "v": 1487,
    "ts": 1792684957000
   },
   "Cossack Republic|Communist Russia": {
@@ -10311,11 +10407,11 @@
    "ts": 1792684957000
   },
   "Libya|Spain": {
-   "v": 3721,
+   "v": 3732,
    "ts": 1792684957000
   },
   "Spain|Libya": {
-   "v": 6491,
+   "v": 6535,
    "ts": 1792684957000
   },
   "Turkey|Libya": {
@@ -10359,11 +10455,11 @@
    "ts": 1792684957000
   },
   "France|Spain": {
-   "v": 3142,
+   "v": 3254,
    "ts": 1792684957000
   },
   "Spain|France": {
-   "v": 11851,
+   "v": 12901,
    "ts": 1792684957000
   },
   "Greater Romania|Turkey": {
@@ -10623,7 +10719,7 @@
    "ts": 1792684957000
   },
   "Tunisia|Greater Romania": {
-   "v": 1142,
+   "v": 1268,
    "ts": 1792684957000
   },
   "Algeria|Tunisia": {
@@ -10736,8 +10832,8 @@
  "stats": {
   "lost": {
    "Germany": {
-    "Infantry": 1,
     "Anti Tank": 1,
+    "Infantry": 1,
     "Armored Car": 1,
     "Light Tank": 2
    },
@@ -10762,17 +10858,18 @@
     "Anti Tank": 4,
     "Armored Car": 2,
     "Interceptor": 1,
-    "Infantry": 15
+    "Infantry": 16
    },
    "Communist Russia": {
     "Infantry": 1,
     "Rocket Artillery": 2
    },
    "Sweden": {
-    "Infantry": 12,
-    "Interceptor": 1,
     "Armored Car": 2,
-    "Anti Tank": 3
+    "Infantry": 13,
+    "Anti Tank": 3,
+    "Interceptor": 1,
+    "Militia": 1
    },
    "Yugoslavia": {
     "Anti Air": 1,
@@ -10903,6 +11000,7 @@
     "Militia": 1
    },
    "Libya": {
+    "Infantry": 1,
     "Anti Tank": 2
    },
    "Egypt": {
@@ -10946,7 +11044,7 @@
     "Infantry": 2
    }
   },
-  "ts": 1792717270628
+  "ts": 1792720866257
  },
  "sync": {}
 }

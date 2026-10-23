@@ -1677,6 +1677,16 @@
    "no": 8,
    "sn": 2,
    "frm": "Ukraine"
+  },
+  "803": {
+   "t": 7399,
+   "p": "Caen",
+   "c": "Spain",
+   "u": "Anti Tank",
+   "cap": false,
+   "no": 6,
+   "sn": 1,
+   "frm": "France"
   }
  },
  "loss": {
@@ -4224,7 +4234,7 @@
     "Infantry": 2
    }
   },
-  "ts": 1792717268487
+  "ts": 1792720864145
  },
  "sync": {
   "Kiel": {
