@@ -4927,6 +4927,16 @@
    "no": 7,
    "sn": 1,
    "frm": "Spain"
+  },
+  "1986": {
+   "t": 3458,
+   "p": "Toledo",
+   "c": "France",
+   "u": "Infantry",
+   "cap": false,
+   "no": 5,
+   "sn": 1,
+   "frm": "Spain"
   }
  },
  "loss": {
@@ -10151,6 +10161,20 @@
    "byu": "Cruiser",
    "byn": 1,
    "by": "Communist Russia"
+  },
+  "1984": {
+   "t": 3450,
+   "p": "Saint Jerome",
+   "c": "France",
+   "u": "Infantry",
+   "what": "1× Infantry",
+   "n": 1,
+   "dest": true,
+   "no": 9,
+   "byno": 4,
+   "byu": "Armored Car",
+   "byn": 6,
+   "by": "Canada"
   }
  },
  "cas": {
@@ -10215,7 +10239,7 @@
    "ts": 1792684957000
   },
   "Italy|Poland": {
-   "v": 5237,
+   "v": 5312,
    "ts": 1792684957000
   },
   "France|Tunisia": {
@@ -10375,7 +10399,7 @@
    "ts": 1792684957000
   },
   "Northern States of America|Southern United States": {
-   "v": 17413,
+   "v": 17506,
    "ts": 1792684957000
   },
   "Netherlands|Poland": {
@@ -10387,7 +10411,7 @@
    "ts": 1792684957000
   },
   "United Kingdom|Poland": {
-   "v": 9734,
+   "v": 9866,
    "ts": 1792684957000
   },
   "Italy|Algeria": {
@@ -10965,6 +10989,14 @@
   "Switzerland|Ukraine": {
    "v": 444,
    "ts": 1792709565814
+  },
+  "Canada|France": {
+   "v": 276,
+   "ts": 1792740635983
+  },
+  "France|Canada": {
+   "v": 897,
+   "ts": 1792740635983
   }
  },
  "teams": {
@@ -11046,7 +11078,8 @@
     "Light Tank": 2
    },
    "France": {
-    "Anti Tank": 1
+    "Anti Tank": 1,
+    "Infantry": 1
    },
    "United Kingdom": {
     "Anti Air": 1,
@@ -11255,7 +11288,7 @@
     "Infantry": 2
    }
   },
-  "ts": 1792738864148
+  "ts": 1792742475373
  },
  "sync": {}
 }

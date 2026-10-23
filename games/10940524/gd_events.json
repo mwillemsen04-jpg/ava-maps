@@ -1777,6 +1777,26 @@
    "no": 4,
    "sn": 1,
    "frm": "Czechoslovakia"
+  },
+  "833": {
+   "t": 7786,
+   "p": "Dijon",
+   "c": "Belgium",
+   "u": "Anti Tank",
+   "cap": false,
+   "no": 4,
+   "sn": 2,
+   "frm": "Italy"
+  },
+  "834": {
+   "t": 7792,
+   "p": "Stuttgart",
+   "c": "Belgium",
+   "u": "Anti Tank",
+   "cap": false,
+   "no": 8,
+   "sn": 2,
+   "frm": "Italy"
   }
  },
  "loss": {
@@ -3949,6 +3969,62 @@
    "byu": "Rocket Artillery",
    "byn": 1,
    "by": "Poland"
+  },
+  "826": {
+   "t": 7744,
+   "p": "Kharkov",
+   "c": "Caucasus",
+   "u": "Rocket Artillery",
+   "what": "1× Infantry",
+   "n": 1,
+   "dest": true,
+   "no": 6,
+   "byno": 2,
+   "byu": "Rocket Artillery",
+   "byn": 3,
+   "by": "Poland"
+  },
+  "827": {
+   "t": 7744,
+   "p": "Mykalaiv",
+   "c": "Caucasus",
+   "u": "Infantry",
+   "what": "1× Infantry",
+   "n": 1,
+   "dest": true,
+   "no": 3,
+   "byno": 32,
+   "byu": "Rocket Artillery",
+   "byn": 1,
+   "by": "Poland"
+  },
+  "829": {
+   "t": 7774,
+   "p": "Kharkov",
+   "c": "Caucasus",
+   "u": "Rocket Artillery",
+   "what": "1× Rocket Artillery",
+   "n": 1,
+   "dest": true,
+   "no": 6,
+   "byno": 2,
+   "byu": "Rocket Artillery",
+   "byn": 3,
+   "by": "Poland"
+  },
+  "831": {
+   "t": 7785,
+   "p": "Berlin",
+   "c": "Italy",
+   "u": "Infantry",
+   "what": "1× Infantry",
+   "n": 1,
+   "dest": true,
+   "no": 8,
+   "byno": 10,
+   "byu": "Rocket Artillery",
+   "byn": 1,
+   "by": "Poland"
   }
  },
  "cas": {
@@ -4153,7 +4229,7 @@
    "ts": 1792512201000
   },
   "Caucasus|Poland": {
-   "v": 2132,
+   "v": 2392,
    "ts": 1792726492682
   },
   "United Kingdom|Germany": {
@@ -4264,7 +4340,7 @@
    },
    "Italy": {
     "Anti Tank": 2,
-    "Infantry": 11,
+    "Infantry": 12,
     "Armored Car": 2,
     "Militia": 2,
     "Anti Air": 1,
@@ -4292,9 +4368,9 @@
    },
    "Poland": {
     "Rocket Artillery": 3,
+    "Armored Car": 1,
     "Anti Tank": 1,
-    "Infantry": 6,
-    "Armored Car": 1
+    "Infantry": 6
    },
    "Crimea": {
     "Anti Air": 1,
@@ -4347,16 +4423,17 @@
    },
    "Caucasus": {
     "Strategic Bomber": 2,
+    "Rocket Artillery": 1,
+    "Infantry": 11,
     "Militia": 1,
     "Anti Tank": 1,
-    "Infantry": 9,
     "Anti Air": 1
    },
    "Melilla": {
     "Infantry": 2
    }
   },
-  "ts": 1792738862751
+  "ts": 1792742473246
  },
  "sync": {
   "Kiel": {
