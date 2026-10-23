@@ -1747,6 +1747,36 @@
    "no": 5,
    "sn": 1,
    "frm": "Poland"
+  },
+  "823": {
+   "t": 7685,
+   "p": "Breslau",
+   "c": "Belgium",
+   "u": "Infantry",
+   "cap": false,
+   "no": 5,
+   "sn": 1,
+   "frm": "Germany"
+  },
+  "824": {
+   "t": 7691,
+   "p": "Amiens",
+   "c": "Spain",
+   "u": "Anti Tank",
+   "cap": false,
+   "no": 6,
+   "sn": 1,
+   "frm": "France"
+  },
+  "825": {
+   "t": 7701,
+   "p": "Brno",
+   "c": "Poland",
+   "u": "Infantry",
+   "cap": false,
+   "no": 4,
+   "sn": 1,
+   "frm": "Czechoslovakia"
   }
  },
  "loss": {
@@ -4123,8 +4153,8 @@
    "ts": 1792512201000
   },
   "Caucasus|Poland": {
-   "v": 1620,
-   "ts": 1792556402000
+   "v": 2132,
+   "ts": 1792726492682
   },
   "United Kingdom|Germany": {
    "v": 750,
@@ -4326,7 +4356,7 @@
     "Infantry": 2
    }
   },
-  "ts": 1792735271683
+  "ts": 1792738862751
  },
  "sync": {
   "Kiel": {

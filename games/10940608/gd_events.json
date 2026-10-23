@@ -4907,6 +4907,26 @@
    "no": 2,
    "sn": 1,
    "frm": "Southern United States"
+  },
+  "1980": {
+   "t": 3376,
+   "p": "Uppsala",
+   "c": "Russian Empire",
+   "u": "Infantry",
+   "cap": false,
+   "no": 31,
+   "sn": 1,
+   "frm": "Sweden"
+  },
+  "1981": {
+   "t": 3409,
+   "p": "Cuenca",
+   "c": "France",
+   "u": "Infantry",
+   "cap": false,
+   "no": 7,
+   "sn": 1,
+   "frm": "Spain"
   }
  },
  "loss": {
@@ -10117,6 +10137,20 @@
    "byu": "Cruiser",
    "byn": 1,
    "by": "Poland"
+  },
+  "1978": {
+   "t": 3373,
+   "p": "Inverness",
+   "c": "United Kingdom",
+   "u": "Infantry",
+   "what": "1× Infantry",
+   "n": 1,
+   "dest": true,
+   "no": 17,
+   "byno": 24,
+   "byu": "Cruiser",
+   "byn": 1,
+   "by": "Communist Russia"
   }
  },
  "cas": {
@@ -10181,7 +10215,7 @@
    "ts": 1792684957000
   },
   "Italy|Poland": {
-   "v": 5168,
+   "v": 5237,
    "ts": 1792684957000
   },
   "France|Tunisia": {
@@ -10341,7 +10375,7 @@
    "ts": 1792684957000
   },
   "Northern States of America|Southern United States": {
-   "v": 17311,
+   "v": 17413,
    "ts": 1792684957000
   },
   "Netherlands|Poland": {
@@ -10353,7 +10387,7 @@
    "ts": 1792684957000
   },
   "United Kingdom|Poland": {
-   "v": 9606,
+   "v": 9734,
    "ts": 1792684957000
   },
   "Italy|Algeria": {
@@ -10397,7 +10431,7 @@
    "ts": 1792684957000
   },
   "United Kingdom|Communist Russia": {
-   "v": 1060,
+   "v": 1080,
    "ts": 1792684957000
   },
   "Communist Russia|United Kingdom": {
@@ -11017,7 +11051,7 @@
    "United Kingdom": {
     "Anti Air": 1,
     "Armored Car": 2,
-    "Infantry": 10,
+    "Infantry": 11,
     "Anti Tank": 2,
     "Interceptor": 1
    },
@@ -11221,7 +11255,7 @@
     "Infantry": 2
    }
   },
-  "ts": 1792735273645
+  "ts": 1792738864148
  },
  "sync": {}
 }
