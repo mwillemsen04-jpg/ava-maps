@@ -5047,6 +5047,66 @@
    "no": 10,
    "sn": 2,
    "frm": "Canada"
+  },
+  "2023": {
+   "t": 3785,
+   "p": "Moncton",
+   "c": "Southern United States",
+   "u": "Infantry",
+   "cap": false,
+   "no": 3,
+   "sn": 5,
+   "frm": "Canada"
+  },
+  "2024": {
+   "t": 3786,
+   "p": "Catania",
+   "c": "France",
+   "u": "Infantry",
+   "cap": false,
+   "no": 18,
+   "sn": 1,
+   "frm": "Italy"
+  },
+  "2025": {
+   "t": 3791,
+   "p": "Zagora",
+   "c": "Morocco",
+   "u": "Infantry",
+   "cap": false,
+   "no": 7,
+   "sn": 1,
+   "frm": "France"
+  },
+  "2026": {
+   "t": 3794,
+   "p": "Aosta",
+   "c": "Algeria",
+   "u": "Infantry",
+   "cap": false,
+   "no": 24,
+   "sn": 1,
+   "frm": "Italy"
+  },
+  "2031": {
+   "t": 3816,
+   "p": "Trabzon",
+   "c": "Russian Empire",
+   "u": "Infantry",
+   "cap": false,
+   "no": 6,
+   "sn": 2,
+   "frm": "Turkey"
+  },
+  "2032": {
+   "t": 3820,
+   "p": "Agadir",
+   "c": "Morocco",
+   "u": "Infantry",
+   "cap": false,
+   "no": 3,
+   "sn": 1,
+   "frm": "France"
   }
  },
  "loss": {
@@ -10425,6 +10485,76 @@
    "byu": "Infantry",
    "byn": 2,
    "by": "Southern United States"
+  },
+  "2021": {
+   "t": 3785,
+   "p": "Moncton",
+   "c": "Canada",
+   "u": "Infantry",
+   "what": "1× Infantry",
+   "n": 1,
+   "dest": true,
+   "no": 11,
+   "byno": 3,
+   "byu": "Infantry",
+   "byn": 5,
+   "by": "Southern United States"
+  },
+  "2028": {
+   "t": 3801,
+   "p": "Halifax",
+   "c": "Southern United States",
+   "u": "Anti Air",
+   "what": "1× Anti Air",
+   "n": 1,
+   "dest": true,
+   "no": 21,
+   "byno": 5,
+   "byu": "Infantry",
+   "byn": 2,
+   "by": "Canada"
+  },
+  "2029": {
+   "t": 3816,
+   "p": "Trabzon",
+   "c": "Turkey",
+   "u": "Infantry",
+   "what": "1× Infantry",
+   "n": 1,
+   "dest": true,
+   "no": 19,
+   "byno": 6,
+   "byu": "Infantry",
+   "byn": 2,
+   "by": "Russian Empire"
+  },
+  "2033": {
+   "t": 3833,
+   "p": "Kingston",
+   "c": "Canada",
+   "u": "Infantry",
+   "what": "1× Infantry",
+   "n": 1,
+   "dest": true,
+   "no": 8,
+   "byno": 42,
+   "byu": "Infantry",
+   "byn": 1,
+   "by": "Southern United States"
+  },
+  "2035": {
+   "t": 3837,
+   "p": null,
+   "c": "Canada",
+   "u": "Infantry",
+   "what": "1× Infantry",
+   "n": 1,
+   "dest": false,
+   "no": 5,
+   "byno": null,
+   "byu": null,
+   "byn": null,
+   "by": null
   }
  },
  "cas": {
@@ -10489,7 +10619,7 @@
    "ts": 1792684957000
   },
   "Italy|Poland": {
-   "v": 5668,
+   "v": 5732,
    "ts": 1792684957000
   },
   "France|Tunisia": {
@@ -10965,11 +11095,11 @@
    "ts": 1792684957000
   },
   "Russian Empire|Turkey": {
-   "v": 994,
+   "v": 1481,
    "ts": 1792684957000
   },
   "Turkey|Russian Empire": {
-   "v": 1787,
+   "v": 2220,
    "ts": 1792684957000
   },
   "Russian Empire|Norway": {
@@ -11145,11 +11275,11 @@
    "ts": 1792684957000
   },
   "Canada|Southern United States": {
-   "v": 2424,
+   "v": 4448,
    "ts": 1792684957000
   },
   "Southern United States|Canada": {
-   "v": 1785,
+   "v": 2970,
    "ts": 1792684957000
   },
   "Greater Romania|Greece": {
@@ -11241,19 +11371,19 @@
    "ts": 1792709565814
   },
   "Canada|France": {
-   "v": 276,
+   "v": 1211,
    "ts": 1792740635983
   },
   "France|Canada": {
-   "v": 1189,
+   "v": 1646,
    "ts": 1792740635983
   },
   "Canada|Poland": {
-   "v": 684,
+   "v": 762,
    "ts": 1792758478714
   },
   "Poland|Canada": {
-   "v": 16,
+   "v": 69,
    "ts": 1792760261223
   }
  },
@@ -11393,7 +11523,7 @@
    },
    "Turkey": {
     "Anti Air": 1,
-    "Infantry": 16,
+    "Infantry": 17,
     "Naval Bomber": 1,
     "Anti Tank": 3,
     "Interceptor": 1
@@ -11413,6 +11543,7 @@
    },
    "Canada": {
     "Anti Air": 1,
+    "Infantry": 3,
     "Anti Tank": 1
    },
    "Ireland": {
@@ -11483,7 +11614,8 @@
     "Infantry": 5
    },
    "Southern United States": {
-    "Infantry": 2
+    "Infantry": 2,
+    "Anti Air": 1
    },
    "Michigan": {
     "Anti Tank": 1,
@@ -11550,7 +11682,7 @@
     "Infantry": 2
    }
   },
-  "ts": 1792760472295
+  "ts": 1792764076381
  },
  "sync": {}
 }

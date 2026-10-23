@@ -3,15 +3,15 @@
  "name": "KH vs IA (AWT final)",
  "day": 3,
  "score": {
-  "G": 690,
+  "G": 700,
   "R": 520
  },
  "provinces": {
-  "G": 303,
+  "G": 305,
   "R": 213
  },
- "fetched": 1792760472295,
- "built": 1792760495481,
+ "fetched": 1792764076381,
+ "built": 1792764097633,
  "game_over": false,
  "winner": null,
  "teams": {
@@ -60,6 +60,6 @@
    }
   ]
  },
- "events": 506,
- "losses": 381
+ "events": 512,
+ "losses": 386
 }
