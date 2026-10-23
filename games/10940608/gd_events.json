@@ -4937,6 +4937,36 @@
    "no": 5,
    "sn": 1,
    "frm": "Spain"
+  },
+  "1987": {
+   "t": 3494,
+   "p": "Ipswich",
+   "c": "Germany",
+   "u": "Infantry",
+   "cap": false,
+   "no": 26,
+   "sn": 1,
+   "frm": "United Kingdom"
+  },
+  "1988": {
+   "t": 3498,
+   "p": "Concord",
+   "c": "Southern United States",
+   "u": "Armored Car",
+   "cap": false,
+   "no": 7,
+   "sn": 3,
+   "frm": "Northern States of America"
+  },
+  "1989": {
+   "t": 3529,
+   "p": "Quarzazate",
+   "c": "Morocco",
+   "u": "Infantry",
+   "cap": false,
+   "no": 2,
+   "sn": 2,
+   "frm": "France"
   }
  },
  "loss": {
@@ -10175,6 +10205,20 @@
    "byu": "Armored Car",
    "byn": 6,
    "by": "Canada"
+  },
+  "1991": {
+   "t": 3536,
+   "p": "Tunis",
+   "c": "Libya",
+   "u": "Anti Air",
+   "what": "1× Anti Air",
+   "n": 1,
+   "dest": true,
+   "no": 25,
+   "byno": 2,
+   "byu": "Militia",
+   "byn": 1,
+   "by": "Tunisia"
   }
  },
  "cas": {
@@ -10239,15 +10283,15 @@
    "ts": 1792684957000
   },
   "Italy|Poland": {
-   "v": 5312,
+   "v": 5387,
    "ts": 1792684957000
   },
   "France|Tunisia": {
-   "v": 506,
+   "v": 858,
    "ts": 1792684957000
   },
   "Tunisia|France": {
-   "v": 2377,
+   "v": 2612,
    "ts": 1792684957000
   },
   "Greater Finland|Communist Russia": {
@@ -10255,11 +10299,11 @@
    "ts": 1792684957000
   },
   "Libya|Tunisia": {
-   "v": 1108,
+   "v": 1447,
    "ts": 1792684957000
   },
   "Tunisia|Libya": {
-   "v": 3126,
+   "v": 3149,
    "ts": 1792684957000
   },
   "France|Italy": {
@@ -10399,7 +10443,7 @@
    "ts": 1792684957000
   },
   "Northern States of America|Southern United States": {
-   "v": 17506,
+   "v": 17605,
    "ts": 1792684957000
   },
   "Netherlands|Poland": {
@@ -10411,7 +10455,7 @@
    "ts": 1792684957000
   },
   "United Kingdom|Poland": {
-   "v": 9866,
+   "v": 9987,
    "ts": 1792684957000
   },
   "Italy|Algeria": {
@@ -10955,11 +10999,11 @@
    "ts": 1792684957000
   },
   "Algeria|Tunisia": {
-   "v": 410,
+   "v": 790,
    "ts": 1792684957000
   },
   "Tunisia|Algeria": {
-   "v": 575,
+   "v": 773,
    "ts": 1792684957000
   },
   "Libya|Italy": {
@@ -11244,8 +11288,9 @@
     "Militia": 2
    },
    "Libya": {
+    "Anti Tank": 2,
     "Infantry": 1,
-    "Anti Tank": 2
+    "Anti Air": 1
    },
    "Egypt": {
     "Anti Air": 1,
@@ -11288,7 +11333,7 @@
     "Infantry": 2
    }
   },
-  "ts": 1792742475373
+  "ts": 1792746075851
  },
  "sync": {}
 }

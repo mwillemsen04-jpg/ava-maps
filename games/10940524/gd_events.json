@@ -4025,6 +4025,20 @@
    "byu": "Rocket Artillery",
    "byn": 1,
    "by": "Poland"
+  },
+  "836": {
+   "t": 7828,
+   "p": "Rome",
+   "c": "Italy",
+   "u": "Light Tank",
+   "what": "1× Light Tank",
+   "n": 1,
+   "dest": true,
+   "no": 3,
+   "byno": 8,
+   "byu": "Tactical Bomber",
+   "byn": 6,
+   "by": "France"
   }
  },
  "cas": {
@@ -4257,7 +4271,7 @@
    "ts": 1792701616252
   },
   "Poland|Belgium": {
-   "v": 277,
+   "v": 506,
    "ts": 1792725602000
   }
  },
@@ -4331,20 +4345,21 @@
     "Light Tank": 1
    },
    "France": {
-    "Infantry": 6,
+    "Armored Car": 1,
     "Tactical Bomber": 4,
-    "Armored Car": 1
+    "Infantry": 6
    },
    "United Kingdom": {
     "Anti Tank": 1
    },
    "Italy": {
     "Anti Tank": 2,
-    "Infantry": 12,
-    "Armored Car": 2,
-    "Militia": 2,
     "Anti Air": 1,
-    "Interceptor": 1
+    "Interceptor": 1,
+    "Infantry": 12,
+    "Militia": 2,
+    "Armored Car": 2,
+    "Light Tank": 1
    },
    "Spain": {
     "Armored Car": 2,
@@ -4433,7 +4448,7 @@
     "Infantry": 2
    }
   },
-  "ts": 1792742473246
+  "ts": 1792746073512
  },
  "sync": {
   "Kiel": {
