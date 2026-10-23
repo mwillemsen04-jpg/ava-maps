@@ -5037,6 +5037,16 @@
    "no": 11,
    "sn": 1,
    "frm": "Morocco"
+  },
+  "2019": {
+   "t": 3771,
+   "p": "Kingston",
+   "c": "Southern United States",
+   "u": "Infantry",
+   "cap": false,
+   "no": 10,
+   "sn": 2,
+   "frm": "Canada"
   }
  },
  "loss": {
@@ -10373,6 +10383,48 @@
    "byu": "Light Tank",
    "byn": 1,
    "by": "Libya"
+  },
+  "2011": {
+   "t": 3723,
+   "p": "Meknes",
+   "c": "Algeria",
+   "u": "Infantry",
+   "what": "1× Infantry",
+   "n": 1,
+   "dest": true,
+   "no": 1,
+   "byno": 6,
+   "byu": "Tactical Bomber",
+   "byn": 1,
+   "by": "Morocco"
+  },
+  "2015": {
+   "t": 3756,
+   "p": "Trabzon",
+   "c": "Turkey",
+   "u": "Naval Bomber",
+   "what": "1× Naval Bomber",
+   "n": 1,
+   "dest": true,
+   "no": 1,
+   "byno": 6,
+   "byu": "Infantry",
+   "byn": 2,
+   "by": "Russian Empire"
+  },
+  "2017": {
+   "t": 3771,
+   "p": "Kingston",
+   "c": "Canada",
+   "u": "Anti Tank",
+   "what": "1× Anti Tank",
+   "n": 1,
+   "dest": true,
+   "no": 7,
+   "byno": 10,
+   "byu": "Infantry",
+   "byn": 2,
+   "by": "Southern United States"
   }
  },
  "cas": {
@@ -10437,7 +10489,7 @@
    "ts": 1792684957000
   },
   "Italy|Poland": {
-   "v": 5599,
+   "v": 5668,
    "ts": 1792684957000
   },
   "France|Tunisia": {
@@ -10497,11 +10549,11 @@
    "ts": 1792684957000
   },
   "Algeria|Morocco": {
-   "v": 2262,
+   "v": 2504,
    "ts": 1792684957000
   },
   "Morocco|Algeria": {
-   "v": 3972,
+   "v": 4002,
    "ts": 1792684957000
   },
   "Germany|Tunisia": {
@@ -10913,11 +10965,11 @@
    "ts": 1792684957000
   },
   "Russian Empire|Turkey": {
-   "v": 169,
+   "v": 994,
    "ts": 1792684957000
   },
   "Turkey|Russian Empire": {
-   "v": 911,
+   "v": 1787,
    "ts": 1792684957000
   },
   "Russian Empire|Norway": {
@@ -11093,11 +11145,11 @@
    "ts": 1792684957000
   },
   "Canada|Southern United States": {
-   "v": 2035,
+   "v": 2424,
    "ts": 1792684957000
   },
   "Southern United States|Canada": {
-   "v": 1479,
+   "v": 1785,
    "ts": 1792684957000
   },
   "Greater Romania|Greece": {
@@ -11193,8 +11245,16 @@
    "ts": 1792740635983
   },
   "France|Canada": {
-   "v": 897,
+   "v": 1189,
    "ts": 1792740635983
+  },
+  "Canada|Poland": {
+   "v": 684,
+   "ts": 1792758478714
+  },
+  "Poland|Canada": {
+   "v": 16,
+   "ts": 1792760261223
   }
  },
  "teams": {
@@ -11333,9 +11393,10 @@
    },
    "Turkey": {
     "Anti Air": 1,
-    "Interceptor": 1,
     "Infantry": 16,
-    "Anti Tank": 3
+    "Naval Bomber": 1,
+    "Anti Tank": 3,
+    "Interceptor": 1
    },
    "Portugal": {
     "Interceptor": 1,
@@ -11351,7 +11412,8 @@
     "Militia": 1
    },
    "Canada": {
-    "Anti Air": 1
+    "Anti Air": 1,
+    "Anti Tank": 1
    },
    "Ireland": {
     "Anti Air": 1,
@@ -11428,13 +11490,13 @@
     "Infantry": 3
    },
    "Morocco": {
-    "Infantry": 10,
-    "Armored Car": 2,
     "Anti Tank": 2,
-    "Interceptor": 1
+    "Armored Car": 2,
+    "Interceptor": 1,
+    "Infantry": 10
    },
    "Algeria": {
-    "Infantry": 3,
+    "Infantry": 4,
     "Anti Tank": 1
    },
    "Tunisia": {
@@ -11470,8 +11532,8 @@
     "Anti Tank": 1
    },
    "Russian Empire": {
-    "Light Tank": 1,
-    "Infantry": 2
+    "Infantry": 2,
+    "Light Tank": 1
    },
    "Karelia": {
     "Armored Car": 1,
@@ -11488,7 +11550,7 @@
     "Infantry": 2
    }
   },
-  "ts": 1792756879659
+  "ts": 1792760472295
  },
  "sync": {}
 }
