@@ -1819,24 +1819,24 @@
    "frm": "Germany"
   },
   "843": {
-   "t": 7894,
-   "p": "Nuremburg",
+   "t": 8303,
+   "p": "Strasbourg",
    "c": "Belgium",
-   "u": "Infantry",
+   "u": "Anti Tank",
    "cap": false,
-   "no": 9,
-   "sn": 1,
+   "no": 4,
+   "sn": 2,
    "frm": "Italy"
   },
   "844": {
-   "t": 7904,
-   "p": "Oppeln",
-   "c": "Belgium",
-   "u": "Infantry",
+   "t": 8307,
+   "p": "Mykalaiv",
+   "c": "Ukraine",
+   "u": "Anti Air",
    "cap": false,
-   "no": 5,
+   "no": 1,
    "sn": 1,
-   "frm": "Germany"
+   "frm": "Caucasus"
   },
   "817": {
    "t": 7979,
@@ -1897,6 +1897,52 @@
    "no": 5,
    "sn": 1,
    "frm": "Poland"
+  },
+  "835": {
+   "t": 8283,
+   "p": "Brest",
+   "c": "France",
+   "u": "Revolt",
+   "cap": false,
+   "rev": true,
+   "frm": "Spain"
+  },
+  "836": {
+   "t": 8283,
+   "p": "Dijon",
+   "c": "France",
+   "u": "Revolt",
+   "cap": false,
+   "rev": true,
+   "frm": "Belgium"
+  },
+  "837": {
+   "t": 8283,
+   "p": "Tlemcen",
+   "c": "Melilla",
+   "u": "Revolt",
+   "cap": false,
+   "rev": true,
+   "frm": "Poland"
+  },
+  "838": {
+   "t": 8283,
+   "p": "Cracow",
+   "c": "Poland",
+   "u": "Revolt",
+   "cap": false,
+   "rev": true,
+   "frm": "Belgium"
+  },
+  "845": {
+   "t": 8336,
+   "p": "Küstrin",
+   "c": "Poland",
+   "u": "Infantry",
+   "cap": false,
+   "no": 4,
+   "sn": 1,
+   "frm": "Germany"
   }
  },
  "loss": {
@@ -4072,17 +4118,17 @@
   },
   "826": {
    "t": 7744,
-   "p": "Kharkov",
+   "p": null,
    "c": "Caucasus",
    "u": "Rocket Artillery",
    "what": "1× Infantry",
    "n": 1,
-   "dest": true,
+   "dest": false,
    "no": 6,
-   "byno": 2,
-   "byu": "Rocket Artillery",
-   "byn": 3,
-   "by": "Poland"
+   "byno": null,
+   "byu": null,
+   "byn": null,
+   "by": null
   },
   "827": {
    "t": 7744,
@@ -4100,17 +4146,17 @@
   },
   "829": {
    "t": 7774,
-   "p": "Kharkov",
+   "p": null,
    "c": "Caucasus",
    "u": "Rocket Artillery",
    "what": "1× Rocket Artillery",
    "n": 1,
-   "dest": true,
+   "dest": false,
    "no": 6,
-   "byno": 2,
-   "byu": "Rocket Artillery",
-   "byn": 3,
-   "by": "Poland"
+   "byno": null,
+   "byu": null,
+   "byn": null,
+   "by": null
   },
   "831": {
    "t": 7785,
@@ -4222,6 +4268,20 @@
    "byno": 24,
    "byu": "Rocket Artillery",
    "byn": 1,
+   "by": "Poland"
+  },
+  "841": {
+   "t": 8286,
+   "p": "Daugavpils",
+   "c": "Latvia",
+   "u": "Artillery",
+   "what": "1× Artillery",
+   "n": 1,
+   "dest": true,
+   "no": 2,
+   "byno": 23,
+   "byu": "Rocket Artillery",
+   "byn": 2,
    "by": "Poland"
   }
  },
@@ -4518,7 +4578,8 @@
   2,
   3,
   4,
-  5
+  5,
+  6
  ],
  "stats": {
   "lost": {
@@ -4558,18 +4619,19 @@
     "Tank Destroyer": 1
    },
    "Latvia": {
-    "Infantry": 3,
-    "Anti Air": 2
+    "Artillery": 1,
+    "Anti Air": 2,
+    "Infantry": 3
    },
    "Lithuania": {
     "Armored Car": 1,
     "Infantry": 3
    },
    "Poland": {
-    "Infantry": 7,
-    "Rocket Artillery": 3,
     "Armored Car": 1,
-    "Anti Tank": 1
+    "Anti Tank": 1,
+    "Rocket Artillery": 3,
+    "Infantry": 7
    },
    "Crimea": {
     "Anti Air": 1,
@@ -4632,20 +4694,20 @@
     "Infantry": 2
    }
   },
-  "ts": 1792771266441
+  "ts": 1792774868756
  },
  "sync": {
   "Kiel": {
    "t": 5041,
    "c": "Belgium"
   },
-  "Brest": {
-   "t": 7261,
-   "c": "Spain"
-  },
   "Cuneo": {
    "t": 6361,
    "c": "Italy"
+  },
+  "Oppeln": {
+   "t": 8341,
+   "c": "Belgium"
   },
   "Oujda": {
    "t": 5341,
