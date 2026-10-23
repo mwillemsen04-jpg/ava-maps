@@ -1717,6 +1717,36 @@
    "no": 11,
    "sn": 1,
    "frm": "Belgium"
+  },
+  "818": {
+   "t": 7629,
+   "p": "Warsaw",
+   "c": "Caucasus",
+   "u": "Infantry",
+   "cap": true,
+   "no": 20,
+   "sn": 1,
+   "frm": "Poland"
+  },
+  "821": {
+   "t": 7649,
+   "p": "Namur",
+   "c": "Poland",
+   "u": "Infantry",
+   "cap": false,
+   "no": 11,
+   "sn": 1,
+   "frm": "Belgium"
+  },
+  "822": {
+   "t": 7664,
+   "p": "Antwerp",
+   "c": "Netherlands",
+   "u": "Anti Air",
+   "cap": false,
+   "no": 5,
+   "sn": 1,
+   "frm": "Poland"
   }
  },
  "loss": {
@@ -3861,6 +3891,34 @@
    "byu": "Anti Tank",
    "byn": 2,
    "by": "Belgium"
+  },
+  "816": {
+   "t": 7622,
+   "p": "Parma",
+   "c": "Poland",
+   "u": "Infantry",
+   "what": "1× Infantry",
+   "n": 1,
+   "dest": true,
+   "no": 17,
+   "byno": 15,
+   "byu": "Infantry",
+   "byn": 1,
+   "by": "Italy"
+  },
+  "819": {
+   "t": 7633,
+   "p": "Zilina",
+   "c": "Czechoslovakia",
+   "u": "Infantry",
+   "what": "1× Infantry",
+   "n": 1,
+   "dest": true,
+   "no": 5,
+   "byno": 24,
+   "byu": "Rocket Artillery",
+   "byn": 1,
+   "by": "Poland"
   }
  },
  "cas": {
@@ -4205,7 +4263,7 @@
    "Poland": {
     "Rocket Artillery": 3,
     "Anti Tank": 1,
-    "Infantry": 5,
+    "Infantry": 6,
     "Armored Car": 1
    },
    "Crimea": {
@@ -4214,7 +4272,7 @@
    },
    "Czechoslovakia": {
     "Armored Car": 1,
-    "Infantry": 4
+    "Infantry": 5
    },
    "Switzerland": {
     "Anti Tank": 1,
@@ -4268,7 +4326,7 @@
     "Infantry": 2
    }
   },
-  "ts": 1792731667278
+  "ts": 1792735271683
  },
  "sync": {
   "Kiel": {

@@ -4897,6 +4897,16 @@
    "no": 3,
    "sn": 5,
    "frm": "Northern States of America"
+  },
+  "1977": {
+   "t": 3337,
+   "p": "Concord",
+   "c": "Northern States of America",
+   "u": "Anti Tank",
+   "cap": false,
+   "no": 2,
+   "sn": 1,
+   "frm": "Southern United States"
   }
  },
  "loss": {
@@ -10331,7 +10341,7 @@
    "ts": 1792684957000
   },
   "Northern States of America|Southern United States": {
-   "v": 17220,
+   "v": 17311,
    "ts": 1792684957000
   },
   "Netherlands|Poland": {
@@ -10343,7 +10353,7 @@
    "ts": 1792684957000
   },
   "United Kingdom|Poland": {
-   "v": 9494,
+   "v": 9606,
    "ts": 1792684957000
   },
   "Italy|Algeria": {
@@ -10387,7 +10397,7 @@
    "ts": 1792684957000
   },
   "United Kingdom|Communist Russia": {
-   "v": 929,
+   "v": 1060,
    "ts": 1792684957000
   },
   "Communist Russia|United Kingdom": {
@@ -11211,7 +11221,7 @@
     "Infantry": 2
    }
   },
-  "ts": 1792731669364
+  "ts": 1792735273645
  },
  "sync": {}
 }
