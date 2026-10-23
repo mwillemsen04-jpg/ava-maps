@@ -1687,6 +1687,16 @@
    "no": 6,
    "sn": 1,
    "frm": "France"
+  },
+  "804": {
+   "t": 7456,
+   "p": "Dnepropetrovsk",
+   "c": "Ukraine",
+   "u": "Infantry",
+   "cap": false,
+   "no": 1,
+   "sn": 1,
+   "frm": "Caucasus"
   }
  },
  "loss": {
@@ -4234,7 +4244,7 @@
     "Infantry": 2
    }
   },
-  "ts": 1792720864145
+  "ts": 1792724464259
  },
  "sync": {
   "Kiel": {

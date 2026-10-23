@@ -4817,6 +4817,46 @@
    "no": 16,
    "sn": 1,
    "frm": "Switzerland"
+  },
+  "1958": {
+   "t": 3127,
+   "p": "Tarragona",
+   "c": "France",
+   "u": "Infantry",
+   "cap": false,
+   "no": 7,
+   "sn": 1,
+   "frm": "Spain"
+  },
+  "1961": {
+   "t": 3145,
+   "p": "Concord",
+   "c": "Southern United States",
+   "u": "Infantry",
+   "cap": false,
+   "no": 3,
+   "sn": 5,
+   "frm": "Northern States of America"
+  },
+  "1962": {
+   "t": 3147,
+   "p": "Meknes",
+   "c": "Algeria",
+   "u": "Infantry",
+   "cap": false,
+   "no": 1,
+   "sn": 1,
+   "frm": "Morocco"
+  },
+  "1963": {
+   "t": 3155,
+   "p": "Uppsala",
+   "c": "Sweden",
+   "u": "Infantry",
+   "cap": false,
+   "no": 7,
+   "sn": 1,
+   "frm": "Russian Empire"
   }
  },
  "loss": {
@@ -9943,6 +9983,20 @@
    "byu": "Infantry",
    "byn": 1,
    "by": "Germany"
+  },
+  "1959": {
+   "t": 3145,
+   "p": "Concord",
+   "c": "Northern States of America",
+   "u": "Infantry",
+   "what": "1× Infantry",
+   "n": 1,
+   "dest": true,
+   "no": 11,
+   "byno": 3,
+   "byu": "Infantry",
+   "byn": 5,
+   "by": "Southern United States"
   }
  },
  "cas": {
@@ -9999,7 +10053,7 @@
    "ts": 1792684957000
   },
   "Sweden|Communist Russia": {
-   "v": 9271,
+   "v": 9410,
    "ts": 1792684957000
   },
   "United Kingdom|Southern United States": {
@@ -10163,11 +10217,11 @@
    "ts": 1792684957000
   },
   "Southern United States|Northern States of America": {
-   "v": 7612,
+   "v": 7958,
    "ts": 1792684957000
   },
   "Northern States of America|Southern United States": {
-   "v": 16029,
+   "v": 17019,
    "ts": 1792684957000
   },
   "Netherlands|Poland": {
@@ -10223,7 +10277,7 @@
    "ts": 1792684957000
   },
   "United Kingdom|Communist Russia": {
-   "v": 493,
+   "v": 636,
    "ts": 1792684957000
   },
   "Communist Russia|United Kingdom": {
@@ -10719,7 +10773,7 @@
    "ts": 1792684957000
   },
   "Tunisia|Greater Romania": {
-   "v": 1268,
+   "v": 1402,
    "ts": 1792684957000
   },
   "Algeria|Tunisia": {
@@ -10905,7 +10959,7 @@
    "Northern States of America": {
     "Anti Air": 1,
     "Armored Car": 2,
-    "Infantry": 11,
+    "Infantry": 12,
     "Anti Tank": 1,
     "Interceptor": 1,
     "Militia": 1
@@ -11044,7 +11098,7 @@
     "Infantry": 2
    }
   },
-  "ts": 1792720866257
+  "ts": 1792724466150
  },
  "sync": {}
 }
