@@ -1943,6 +1943,16 @@
    "no": 4,
    "sn": 1,
    "frm": "Germany"
+  },
+  "841": {
+   "t": 8625,
+   "p": "Kaiserslautern",
+   "c": "Netherlands",
+   "u": "Anti Air",
+   "cap": false,
+   "no": 5,
+   "sn": 1,
+   "frm": "Belgium"
   }
  },
  "loss": {
@@ -4730,7 +4740,7 @@
     "Infantry": 2
    }
   },
-  "ts": 1792789266950
+  "ts": 1792792868108
  },
  "sync": {
   "Kiel": {

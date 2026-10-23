@@ -5909,6 +5909,166 @@
    "no": 8,
    "sn": 2,
    "frm": "Poland"
+  },
+  "2530": {
+   "t": 4261,
+   "p": "Maladzyechna",
+   "c": "Communist Russia",
+   "u": "Infantry",
+   "cap": false,
+   "no": 33,
+   "sn": 1,
+   "frm": "Poland"
+  },
+  "2531": {
+   "t": 4263,
+   "p": "Sevastopol",
+   "c": "Russian Empire",
+   "u": "Light Tank",
+   "cap": false,
+   "no": 15,
+   "sn": 1,
+   "frm": "Ukraine"
+  },
+  "2535": {
+   "t": 4268,
+   "p": "Stary Oskol",
+   "c": "Russian Empire",
+   "u": "Anti Tank",
+   "cap": false,
+   "no": 14,
+   "sn": 1,
+   "frm": "Poland"
+  },
+  "2539": {
+   "t": 4271,
+   "p": "Halifax",
+   "c": "Southern United States",
+   "u": "Armored Car",
+   "cap": false,
+   "no": 3,
+   "sn": 8,
+   "frm": "Canada"
+  },
+  "2540": {
+   "t": 4273,
+   "p": "Memel",
+   "c": "Russian Empire",
+   "u": "Light Tank",
+   "cap": false,
+   "no": 16,
+   "sn": 1,
+   "frm": "Ukraine"
+  },
+  "2541": {
+   "t": 4274,
+   "p": "Samara",
+   "c": "Ukraine",
+   "u": "Anti Tank",
+   "cap": false,
+   "no": 24,
+   "sn": 1,
+   "frm": "Russian Empire"
+  },
+  "2542": {
+   "t": 4275,
+   "p": "Birmingham",
+   "c": "Southern United States",
+   "u": "Armored Car",
+   "cap": false,
+   "no": 18,
+   "sn": 2,
+   "frm": "Germany"
+  },
+  "2543": {
+   "t": 4277,
+   "p": "Karlskrona",
+   "c": "Communist Russia",
+   "u": "Infantry",
+   "cap": false,
+   "no": 2,
+   "sn": 1,
+   "frm": "Germany"
+  },
+  "2544": {
+   "t": 4277,
+   "p": "Belgograd",
+   "c": "Russian Empire",
+   "u": "Light Tank",
+   "cap": false,
+   "no": 13,
+   "sn": 1,
+   "frm": "Ukraine"
+  },
+  "2545": {
+   "t": 4279,
+   "p": "Kilkenny",
+   "c": "France",
+   "u": "Infantry",
+   "cap": false,
+   "no": 15,
+   "sn": 1,
+   "frm": "Southern United States"
+  },
+  "2548": {
+   "t": 4284,
+   "p": "Kaunas",
+   "c": "Russian Empire",
+   "u": "Light Tank",
+   "cap": false,
+   "no": 18,
+   "sn": 1,
+   "frm": "Ukraine"
+  },
+  "2549": {
+   "t": 4287,
+   "p": "Rostov-on-Don",
+   "c": "Russian Empire",
+   "u": "Infantry",
+   "cap": false,
+   "no": 10,
+   "sn": 1,
+   "frm": "Poland"
+  },
+  "2550": {
+   "t": 4297,
+   "p": "Vienna",
+   "c": "Germany",
+   "u": "Light Tank",
+   "cap": false,
+   "no": 17,
+   "sn": 1,
+   "frm": "Libya"
+  },
+  "2551": {
+   "t": 4298,
+   "p": "Bryansk",
+   "c": "Communist Russia",
+   "u": "Armored Car",
+   "cap": false,
+   "no": 3,
+   "sn": 1,
+   "frm": "Ukraine"
+  },
+  "2556": {
+   "t": 4307,
+   "p": "Aleppo",
+   "c": "Libya",
+   "u": "Infantry",
+   "cap": false,
+   "no": 5,
+   "sn": 2,
+   "frm": "Syria"
+  },
+  "2557": {
+   "t": 4310,
+   "p": "Sousse",
+   "c": "Algeria",
+   "u": "Infantry",
+   "cap": false,
+   "no": 7,
+   "sn": 1,
+   "frm": "Libya"
   }
  },
  "loss": {
@@ -11780,17 +11940,129 @@
   },
   "2524": {
    "t": 4240,
-   "p": null,
+   "p": "Halifax",
    "c": "France",
    "u": "Infantry",
    "what": "1× Infantry",
    "n": 1,
-   "dest": false,
+   "dest": true,
    "no": 10,
-   "byno": null,
-   "byu": null,
-   "byn": null,
-   "by": null
+   "byno": 3,
+   "byu": "Armored Car",
+   "byn": 8,
+   "by": "Southern United States"
+  },
+  "2533": {
+   "t": 4267,
+   "p": "Ljubljana",
+   "c": "France",
+   "u": "Armored Car",
+   "what": "1× Armored Car",
+   "n": 1,
+   "dest": true,
+   "no": 1,
+   "byno": 7,
+   "byu": "Interceptor",
+   "byn": 10,
+   "by": "Southern United States"
+  },
+  "2536": {
+   "t": 4270,
+   "p": "Halifax",
+   "c": "Canada",
+   "u": "Rocket Artillery",
+   "what": "1× Rocket Artillery",
+   "n": 1,
+   "dest": true,
+   "no": 14,
+   "byno": 3,
+   "byu": "Armored Car",
+   "byn": 8,
+   "by": "Southern United States"
+  },
+  "2537": {
+   "t": 4271,
+   "p": "Halifax",
+   "c": "Canada",
+   "u": "Rocket Artillery",
+   "what": "1× Armored Car",
+   "n": 1,
+   "dest": true,
+   "no": 14,
+   "byno": 3,
+   "byu": "Armored Car",
+   "byn": 8,
+   "by": "Southern United States"
+  },
+  "2547": {
+   "t": 4280,
+   "p": "Halifax",
+   "c": "France",
+   "u": "Infantry",
+   "what": "1× Infantry",
+   "n": 1,
+   "dest": true,
+   "no": 10,
+   "byno": 3,
+   "byu": "Armored Car",
+   "byn": 8,
+   "by": "Southern United States"
+  },
+  "2552": {
+   "t": 4306,
+   "p": "Montreal",
+   "c": "Canada",
+   "u": "Infantry",
+   "what": "1× Infantry",
+   "n": 1,
+   "dest": true,
+   "no": 6,
+   "byno": 24,
+   "byu": "Cruiser",
+   "byn": 1,
+   "by": "Southern United States"
+  },
+  "2554": {
+   "t": 4307,
+   "p": "Aleppo",
+   "c": "Syria",
+   "u": "Infantry",
+   "what": "1× Infantry",
+   "n": 1,
+   "dest": true,
+   "no": 2,
+   "byno": 5,
+   "byu": "Infantry",
+   "byn": 2,
+   "by": "Libya"
+  },
+  "2558": {
+   "t": 4314,
+   "p": "Smara",
+   "c": "Algeria",
+   "u": "Infantry",
+   "what": "1× Infantry",
+   "n": 1,
+   "dest": true,
+   "no": 11,
+   "byno": 3,
+   "byu": "Attack Bomber",
+   "byn": 2,
+   "by": "Western Sahara"
+  },
+  "2560": {
+   "t": 4319,
+   "p": "Zhytomyr",
+   "c": "Ukraine",
+   "u": "Armored Car",
+   "what": "1× Armored Car",
+   "n": 1,
+   "dest": true,
+   "no": 4,
+   "byno": 19,
+   "byu": "Interceptor",
+   "byn": 10,
+   "by": "Russian Empire"
   }
  },
  "cas": {
@@ -12063,11 +12335,11 @@
    "ts": 1792771357000
   },
   "Syria|Libya": {
-   "v": 2084,
+   "v": 2401,
    "ts": 1792771357000
   },
   "Libya|Syria": {
-   "v": 1379,
+   "v": 1627,
    "ts": 1792771357000
   },
   "United Kingdom|Communist Russia": {
@@ -12431,11 +12703,11 @@
    "ts": 1792771357000
   },
   "Western Sahara|Algeria": {
-   "v": 186,
+   "v": 211,
    "ts": 1792771357000
   },
   "Algeria|Western Sahara": {
-   "v": 975,
+   "v": 1130,
    "ts": 1792771357000
   },
   "Greater Romania|Albania": {
@@ -12511,11 +12783,11 @@
    "ts": 1792771357000
   },
   "Canada|Southern United States": {
-   "v": 7930,
+   "v": 9942,
    "ts": 1792771357000
   },
   "Southern United States|Canada": {
-   "v": 4032,
+   "v": 4533,
    "ts": 1792771357000
   },
   "Greater Romania|Greece": {
@@ -12623,11 +12895,11 @@
    "ts": 1792771357000
   },
   "Ukraine|Russian Empire": {
-   "v": 899,
+   "v": 1915,
    "ts": 1792771478865
   },
   "Russian Empire|Ukraine": {
-   "v": 2814,
+   "v": 2928,
    "ts": 1792771478865
   },
   "Russian Empire|Germany": {
@@ -12639,11 +12911,11 @@
    "ts": 1792771684929
   },
   "France|Southern United States": {
-   "v": 85,
+   "v": 737,
    "ts": 1792771923877
   },
   "Southern United States|Poland": {
-   "v": 280,
+   "v": 431,
    "ts": 1792772007406
   },
   "Germany|Communist Russia": {
@@ -12739,11 +13011,11 @@
    "ts": 1792783599243
   },
   "Libya|France": {
-   "v": 12,
+   "v": 90,
    "ts": 1792783946113
   },
   "France|Libya": {
-   "v": 300,
+   "v": 872,
    "ts": 1792783946113
   },
   "Libya|Ukraine": {
@@ -12765,6 +13037,10 @@
   "Greater Romania|France": {
    "v": 21,
    "ts": 1792787808913
+  },
+  "Southern United States|France": {
+   "v": 141,
+   "ts": 1792789656136
   }
  },
  "teams": {
@@ -12848,8 +13124,9 @@
     "Light Tank": 5
    },
    "France": {
+    "Infantry": 6,
     "Anti Tank": 1,
-    "Infantry": 5
+    "Armored Car": 1
    },
    "United Kingdom": {
     "Anti Air": 1,
@@ -12924,10 +13201,12 @@
     "Militia": 1
    },
    "Canada": {
+    "Rocket Artillery": 1,
+    "Infantry": 7,
     "Anti Tank": 1,
-    "Light Tank": 1,
     "Anti Air": 1,
-    "Infantry": 6
+    "Armored Car": 1,
+    "Light Tank": 1
    },
    "Ireland": {
     "Anti Air": 1,
@@ -13016,7 +13295,7 @@
    },
    "Algeria": {
     "Anti Tank": 1,
-    "Infantry": 4
+    "Infantry": 5
    },
    "Tunisia": {
     "Anti Air": 1,
@@ -13038,11 +13317,12 @@
    },
    "Syria": {
     "Anti Air": 1,
-    "Infantry": 4
+    "Infantry": 5
    },
    "Ukraine": {
     "Anti Air": 1,
-    "Infantry": 1
+    "Infantry": 1,
+    "Armored Car": 1
    },
    "Caucasus": {
     "Armored Car": 1,
@@ -13074,7 +13354,7 @@
     "Infantry": 2
    }
   },
-  "ts": 1792789268872
+  "ts": 1792792870171
  },
  "sync": {}
 }
