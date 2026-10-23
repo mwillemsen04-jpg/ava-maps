@@ -1837,6 +1837,16 @@
    "no": 5,
    "sn": 1,
    "frm": "Germany"
+  },
+  "817": {
+   "t": 7979,
+   "p": "Liberec",
+   "c": "Poland",
+   "u": "Infantry",
+   "cap": false,
+   "no": 4,
+   "sn": 1,
+   "frm": "Czechoslovakia"
   }
  },
  "loss": {
@@ -4079,6 +4089,62 @@
    "byu": "Tactical Bomber",
    "byn": 6,
    "by": "France"
+  },
+  "801": {
+   "t": 7923,
+   "p": "Memel",
+   "c": "Lithuania",
+   "u": "Infantry",
+   "what": "1× Infantry",
+   "n": 1,
+   "dest": true,
+   "no": 2,
+   "byno": 13,
+   "byu": "Cruiser",
+   "byn": 1,
+   "by": "Poland"
+  },
+  "807": {
+   "t": 7929,
+   "p": "Warsaw",
+   "c": "Caucasus",
+   "u": "Infantry",
+   "what": "1× Infantry",
+   "n": 1,
+   "dest": true,
+   "no": 20,
+   "byno": 5,
+   "byu": "Rocket Artillery",
+   "byn": 1,
+   "by": "Poland"
+  },
+  "813": {
+   "t": 7943,
+   "p": "Dijon",
+   "c": "Poland",
+   "u": "Infantry",
+   "what": "1× Infantry",
+   "n": 1,
+   "dest": true,
+   "no": 11,
+   "byno": 4,
+   "byu": "Anti Tank",
+   "byn": 2,
+   "by": "Belgium"
+  },
+  "815": {
+   "t": 7955,
+   "p": "Kosice",
+   "c": "Czechoslovakia",
+   "u": "Infantry",
+   "what": "1× Infantry",
+   "n": 1,
+   "dest": true,
+   "no": 6,
+   "byno": 24,
+   "byu": "Rocket Artillery",
+   "byn": 1,
+   "by": "Poland"
   }
  },
  "cas": {
@@ -4380,37 +4446,37 @@
   "lost": {
    "Germany": {
     "Armored Car": 1,
-    "Infantry": 2,
+    "Light Tank": 1,
     "Interceptor": 1,
-    "Light Tank": 1
+    "Infantry": 2
    },
    "France": {
     "Armored Car": 1,
-    "Tactical Bomber": 4,
-    "Infantry": 6
+    "Infantry": 6,
+    "Tactical Bomber": 4
    },
    "United Kingdom": {
     "Anti Tank": 1
    },
    "Italy": {
-    "Anti Tank": 2,
-    "Anti Air": 1,
     "Interceptor": 1,
-    "Infantry": 12,
-    "Militia": 2,
+    "Anti Air": 1,
+    "Anti Tank": 2,
+    "Light Tank": 1,
     "Armored Car": 2,
-    "Light Tank": 1
+    "Militia": 2,
+    "Infantry": 12
    },
    "Spain": {
     "Armored Car": 2,
-    "Anti Tank": 2,
+    "Anti Air": 1,
     "Infantry": 10,
-    "Anti Air": 1
+    "Anti Tank": 2
    },
    "Turkey": {
-    "Anti Tank": 3,
-    "Armored Car": 2,
     "Tank Destroyer": 1,
+    "Armored Car": 2,
+    "Anti Tank": 3,
     "Infantry": 9
    },
    "Latvia": {
@@ -4418,30 +4484,30 @@
     "Infantry": 3
    },
    "Lithuania": {
-    "Armored Car": 1,
-    "Infantry": 2
+    "Infantry": 3,
+    "Armored Car": 1
    },
    "Poland": {
-    "Rocket Artillery": 3,
     "Armored Car": 1,
-    "Anti Tank": 1,
-    "Infantry": 6
+    "Rocket Artillery": 3,
+    "Infantry": 7,
+    "Anti Tank": 1
    },
    "Crimea": {
-    "Anti Air": 1,
-    "Infantry": 3
+    "Infantry": 3,
+    "Anti Air": 1
    },
    "Czechoslovakia": {
     "Armored Car": 1,
-    "Infantry": 5
+    "Infantry": 6
    },
    "Switzerland": {
     "Anti Tank": 1,
     "Infantry": 3
    },
    "Luxembourg": {
-    "Anti Air": 1,
-    "Infantry": 1
+    "Infantry": 1,
+    "Anti Air": 1
    },
    "Belgium": {
     "Infantry": 2,
@@ -4452,43 +4518,43 @@
    },
    "Morocco": {
     "Armored Car": 4,
-    "Anti Tank": 2,
-    "Artillery": 1,
-    "Anti Air": 1,
-    "Interceptor": 1,
+    "Infantry": 13,
     "Tactical Bomber": 1,
-    "Infantry": 13
+    "Interceptor": 1,
+    "Anti Air": 1,
+    "Artillery": 1,
+    "Anti Tank": 2
    },
    "Algeria": {
     "Armored Car": 2,
-    "Infantry": 6,
-    "Interceptor": 1
+    "Interceptor": 1,
+    "Infantry": 6
    },
    "Tunisia": {
-    "Armored Car": 2,
     "Infantry": 4,
+    "Armored Car": 2,
     "Anti Air": 1
    },
    "Ukraine": {
-    "Anti Tank": 1,
-    "Anti Air": 1,
     "Interceptor": 1,
-    "Infantry": 10,
-    "Armored Car": 1
+    "Anti Air": 1,
+    "Anti Tank": 1,
+    "Armored Car": 1,
+    "Infantry": 10
    },
    "Caucasus": {
     "Strategic Bomber": 2,
-    "Rocket Artillery": 1,
-    "Infantry": 11,
-    "Militia": 1,
+    "Anti Air": 1,
     "Anti Tank": 1,
-    "Anti Air": 1
+    "Militia": 1,
+    "Infantry": 12,
+    "Rocket Artillery": 1
    },
    "Melilla": {
     "Infantry": 2
    }
   },
-  "ts": 1792749668385
+  "ts": 1792753270893
  },
  "sync": {
   "Kiel": {

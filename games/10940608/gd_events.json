@@ -4987,6 +4987,26 @@
    "no": 2,
    "sn": 1,
    "frm": "Southern United States"
+  },
+  "2000": {
+   "t": 3608,
+   "p": "Palermo",
+   "c": "France",
+   "u": "Infantry",
+   "cap": false,
+   "no": 18,
+   "sn": 1,
+   "frm": "Italy"
+  },
+  "2003": {
+   "t": 3615,
+   "p": "Valencia",
+   "c": "France",
+   "u": "Infantry",
+   "cap": false,
+   "no": 7,
+   "sn": 1,
+   "frm": "Spain"
   }
  },
  "loss": {
@@ -10267,6 +10287,48 @@
    "byu": "Militia",
    "byn": 1,
    "by": "Tunisia"
+  },
+  "1998": {
+   "t": 3608,
+   "p": "Cardiff",
+   "c": "United Kingdom",
+   "u": "Infantry",
+   "what": "1× Infantry",
+   "n": 1,
+   "dest": true,
+   "no": 16,
+   "byno": 17,
+   "byu": "Cruiser",
+   "byn": 1,
+   "by": "Poland"
+  },
+  "2001": {
+   "t": 3615,
+   "p": "Valencia",
+   "c": "Spain",
+   "u": "Militia",
+   "what": "1× Militia",
+   "n": 1,
+   "dest": true,
+   "no": 1,
+   "byno": 17,
+   "byu": "Tactical Bomber",
+   "byn": 3,
+   "by": "France"
+  },
+  "2005": {
+   "t": 3626,
+   "p": "Tunis",
+   "c": "France",
+   "u": "Infantry",
+   "what": "1× Infantry",
+   "n": 1,
+   "dest": true,
+   "no": 14,
+   "byno": 2,
+   "byu": "Militia",
+   "byn": 1,
+   "by": "Tunisia"
   }
  },
  "cas": {
@@ -10331,15 +10393,15 @@
    "ts": 1792684957000
   },
   "Italy|Poland": {
-   "v": 5460,
+   "v": 5526,
    "ts": 1792684957000
   },
   "France|Tunisia": {
-   "v": 1050,
+   "v": 1085,
    "ts": 1792684957000
   },
   "Tunisia|France": {
-   "v": 2764,
+   "v": 2812,
    "ts": 1792684957000
   },
   "Greater Finland|Communist Russia": {
@@ -10347,11 +10409,11 @@
    "ts": 1792684957000
   },
   "Libya|Tunisia": {
-   "v": 1447,
+   "v": 1482,
    "ts": 1792684957000
   },
   "Tunisia|Libya": {
-   "v": 3149,
+   "v": 3260,
    "ts": 1792684957000
   },
   "France|Italy": {
@@ -10391,11 +10453,11 @@
    "ts": 1792684957000
   },
   "Algeria|Morocco": {
-   "v": 2011,
+   "v": 2262,
    "ts": 1792684957000
   },
   "Morocco|Algeria": {
-   "v": 3929,
+   "v": 3972,
    "ts": 1792684957000
   },
   "Germany|Tunisia": {
@@ -10503,7 +10565,7 @@
    "ts": 1792684957000
   },
   "United Kingdom|Poland": {
-   "v": 10110,
+   "v": 10137,
    "ts": 1792684957000
   },
   "Italy|Algeria": {
@@ -10779,11 +10841,11 @@
    "ts": 1792684957000
   },
   "France|Spain": {
-   "v": 3254,
+   "v": 3337,
    "ts": 1792684957000
   },
   "Spain|France": {
-   "v": 12901,
+   "v": 13055,
    "ts": 1792684957000
   },
   "Greater Romania|Turkey": {
@@ -11171,12 +11233,12 @@
    },
    "France": {
     "Anti Tank": 1,
-    "Infantry": 1
+    "Infantry": 2
    },
    "United Kingdom": {
     "Anti Air": 1,
     "Armored Car": 2,
-    "Infantry": 11,
+    "Infantry": 12,
     "Anti Tank": 2,
     "Interceptor": 1
    },
@@ -11188,10 +11250,11 @@
     "Interceptor": 1
    },
    "Spain": {
-    "Anti Tank": 4,
     "Armored Car": 2,
+    "Anti Tank": 4,
+    "Infantry": 16,
     "Interceptor": 1,
-    "Infantry": 16
+    "Militia": 1
    },
    "Communist Russia": {
     "Infantry": 1,
@@ -11381,7 +11444,7 @@
     "Infantry": 2
    }
   },
-  "ts": 1792749671289
+  "ts": 1792753272836
  },
  "sync": {}
 }
