@@ -4717,6 +4717,46 @@
    "no": 33,
    "sn": 1,
    "frm": "Greater Finland"
+  },
+  "1928": {
+   "t": 2951,
+   "p": "Birmingham",
+   "c": "Southern United States",
+   "u": "Infantry",
+   "cap": false,
+   "no": 18,
+   "sn": 1,
+   "frm": "United Kingdom"
+  },
+  "1929": {
+   "t": 2972,
+   "p": "Tangier",
+   "c": "Algeria",
+   "u": "Infantry",
+   "cap": false,
+   "no": 1,
+   "sn": 1,
+   "frm": "Morocco"
+  },
+  "1932": {
+   "t": 2992,
+   "p": "Bern",
+   "c": "Ukraine",
+   "u": "Infantry",
+   "cap": false,
+   "no": 16,
+   "sn": 1,
+   "frm": "Switzerland"
+  },
+  "1933": {
+   "t": 2999,
+   "p": "Zugdidi",
+   "c": "Caucasus",
+   "u": "Anti Air",
+   "cap": false,
+   "no": 3,
+   "sn": 1,
+   "frm": "Russian Empire"
   }
  },
  "loss": {
@@ -9689,6 +9729,34 @@
    "byu": "Infantry",
    "byn": 4,
    "by": "Southern United States"
+  },
+  "1926": {
+   "t": 2951,
+   "p": "Birmingham",
+   "c": "United Kingdom",
+   "u": "Anti Air",
+   "what": "1× Anti Air",
+   "n": 1,
+   "dest": true,
+   "no": 5,
+   "byno": 18,
+   "byu": "Infantry",
+   "byn": 1,
+   "by": "Southern United States"
+  },
+  "1930": {
+   "t": 2992,
+   "p": "Bern",
+   "c": "Switzerland",
+   "u": "Infantry",
+   "what": "1× Infantry",
+   "n": 1,
+   "dest": true,
+   "no": 1,
+   "byno": 16,
+   "byu": "Infantry",
+   "byn": 1,
+   "by": "Ukraine"
   }
  },
  "cas": {
@@ -9745,15 +9813,15 @@
    "ts": 1792684957000
   },
   "Sweden|Communist Russia": {
-   "v": 8915,
+   "v": 9055,
    "ts": 1792684957000
   },
   "United Kingdom|Southern United States": {
-   "v": 1597,
+   "v": 1745,
    "ts": 1792684957000
   },
   "Italy|Poland": {
-   "v": 4539,
+   "v": 4616,
    "ts": 1792684957000
   },
   "France|Tunisia": {
@@ -9813,11 +9881,11 @@
    "ts": 1792684957000
   },
   "Algeria|Morocco": {
-   "v": 1779,
+   "v": 2011,
    "ts": 1792684957000
   },
   "Morocco|Algeria": {
-   "v": 3893,
+   "v": 3929,
    "ts": 1792684957000
   },
   "Germany|Tunisia": {
@@ -9969,7 +10037,7 @@
    "ts": 1792684957000
   },
   "United Kingdom|Communist Russia": {
-   "v": 130,
+   "v": 202,
    "ts": 1792684957000
   },
   "Communist Russia|United Kingdom": {
@@ -10153,11 +10221,11 @@
    "ts": 1792684957000
   },
   "Libya|Spain": {
-   "v": 3158,
+   "v": 3487,
    "ts": 1792684957000
   },
   "Spain|Libya": {
-   "v": 6057,
+   "v": 6325,
    "ts": 1792684957000
   },
   "Turkey|Libya": {
@@ -10201,11 +10269,11 @@
    "ts": 1792684957000
   },
   "France|Spain": {
-   "v": 2890,
+   "v": 3010,
    "ts": 1792684957000
   },
   "Spain|France": {
-   "v": 9642,
+   "v": 10511,
    "ts": 1792684957000
   },
   "Greater Romania|Turkey": {
@@ -10353,11 +10421,11 @@
    "ts": 1792684957000
   },
   "Algeria|Spain": {
-   "v": 335,
+   "v": 748,
    "ts": 1792684957000
   },
   "Spain|Algeria": {
-   "v": 512,
+   "v": 708,
    "ts": 1792684957000
   },
   "Southern United States|Yugoslavia": {
@@ -10465,7 +10533,7 @@
    "ts": 1792684957000
   },
   "Tunisia|Greater Romania": {
-   "v": 881,
+   "v": 1003,
    "ts": 1792684957000
   },
   "Algeria|Tunisia": {
@@ -10485,7 +10553,7 @@
    "ts": 1792684957000
   },
   "Southern United States|United Kingdom": {
-   "v": 230,
+   "v": 259,
    "ts": 1792705276792
   },
   "Northern States of America|France": {
@@ -10497,11 +10565,11 @@
    "ts": 1792709235992
   },
   "Ukraine|Switzerland": {
-   "v": 249,
+   "v": 523,
    "ts": 1792709565814
   },
   "Switzerland|Ukraine": {
-   "v": 241,
+   "v": 444,
    "ts": 1792709565814
   }
  },
@@ -10587,10 +10655,11 @@
     "Anti Tank": 1
    },
    "United Kingdom": {
-    "Infantry": 10,
-    "Interceptor": 1,
+    "Anti Air": 1,
     "Armored Car": 2,
-    "Anti Tank": 2
+    "Infantry": 10,
+    "Anti Tank": 2,
+    "Interceptor": 1
    },
    "Italy": {
     "Artillery": 1,
@@ -10700,7 +10769,7 @@
    },
    "Switzerland": {
     "Anti Air": 1,
-    "Infantry": 2
+    "Infantry": 3
    },
    "Albania": {
     "Armored Car": 1
@@ -10787,7 +10856,7 @@
     "Infantry": 2
    }
   },
-  "ts": 1792710068508
+  "ts": 1792713668853
  },
  "sync": {}
 }

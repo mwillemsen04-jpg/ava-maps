@@ -1657,6 +1657,26 @@
    "no": 20,
    "sn": 1,
    "frm": "Poland"
+  },
+  "795": {
+   "t": 7261,
+   "p": "Leipzig",
+   "c": "Belgium",
+   "u": "Anti Tank",
+   "cap": false,
+   "no": 8,
+   "sn": 2,
+   "frm": "Italy"
+  },
+  "796": {
+   "t": 7263,
+   "p": "Balti",
+   "c": "Cossack Republic",
+   "u": "Infantry",
+   "cap": false,
+   "no": 8,
+   "sn": 2,
+   "frm": "Ukraine"
   }
  },
  "loss": {
@@ -4011,11 +4031,11 @@
    "ts": 1792512201000
   },
   "Italy|Belgium": {
-   "v": 583,
+   "v": 799,
    "ts": 1792701616252
   },
   "Belgium|Italy": {
-   "v": 397,
+   "v": 479,
    "ts": 1792701616252
   }
  },
@@ -4190,7 +4210,7 @@
     "Infantry": 2
    }
   },
-  "ts": 1792710066488
+  "ts": 1792713667343
  },
  "sync": {
   "Kiel": {
