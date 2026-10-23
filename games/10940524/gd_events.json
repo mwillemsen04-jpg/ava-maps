@@ -1697,6 +1697,26 @@
    "no": 1,
    "sn": 1,
    "frm": "Caucasus"
+  },
+  "807": {
+   "t": 7528,
+   "p": "Plock",
+   "c": "Caucasus",
+   "u": "Infantry",
+   "cap": false,
+   "no": 20,
+   "sn": 1,
+   "frm": "Poland"
+  },
+  "810": {
+   "t": 7538,
+   "p": "Antwerp",
+   "c": "Poland",
+   "u": "Infantry",
+   "cap": false,
+   "no": 11,
+   "sn": 1,
+   "frm": "Belgium"
   }
  },
  "loss": {
@@ -4071,6 +4091,10 @@
   "Belgium|Italy": {
    "v": 503,
    "ts": 1792701616252
+  },
+  "Poland|Belgium": {
+   "v": 190,
+   "ts": 1792725602000
   }
  },
  "slots": {
@@ -4244,7 +4268,7 @@
     "Infantry": 2
    }
   },
-  "ts": 1792724464259
+  "ts": 1792728069538
  },
  "sync": {
   "Kiel": {

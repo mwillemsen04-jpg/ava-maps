@@ -4857,6 +4857,26 @@
    "no": 7,
    "sn": 1,
    "frm": "Russian Empire"
+  },
+  "1964": {
+   "t": 3218,
+   "p": "Orillia",
+   "c": "Southern United States",
+   "u": "Infantry",
+   "cap": false,
+   "no": 10,
+   "sn": 2,
+   "frm": "Canada"
+  },
+  "1965": {
+   "t": 3228,
+   "p": "Atlantic City",
+   "c": "Northern States of America",
+   "u": "Infantry",
+   "cap": false,
+   "no": 18,
+   "sn": 1,
+   "frm": "Southern United States"
   }
  },
  "loss": {
@@ -10053,7 +10073,7 @@
    "ts": 1792684957000
   },
   "Sweden|Communist Russia": {
-   "v": 9410,
+   "v": 9550,
    "ts": 1792684957000
   },
   "United Kingdom|Southern United States": {
@@ -10061,7 +10081,7 @@
    "ts": 1792684957000
   },
   "Italy|Poland": {
-   "v": 4690,
+   "v": 4852,
    "ts": 1792684957000
   },
   "France|Tunisia": {
@@ -10221,7 +10241,7 @@
    "ts": 1792684957000
   },
   "Northern States of America|Southern United States": {
-   "v": 17019,
+   "v": 17117,
    "ts": 1792684957000
   },
   "Netherlands|Poland": {
@@ -10233,7 +10253,7 @@
    "ts": 1792684957000
   },
   "United Kingdom|Poland": {
-   "v": 9247,
+   "v": 9367,
    "ts": 1792684957000
   },
   "Italy|Algeria": {
@@ -10277,7 +10297,7 @@
    "ts": 1792684957000
   },
   "United Kingdom|Communist Russia": {
-   "v": 636,
+   "v": 793,
    "ts": 1792684957000
   },
   "Communist Russia|United Kingdom": {
@@ -10773,7 +10793,7 @@
    "ts": 1792684957000
   },
   "Tunisia|Greater Romania": {
-   "v": 1402,
+   "v": 1535,
    "ts": 1792684957000
   },
   "Algeria|Tunisia": {
@@ -10957,11 +10977,11 @@
     "Infantry": 5
    },
    "Northern States of America": {
-    "Anti Air": 1,
-    "Armored Car": 2,
-    "Infantry": 12,
     "Anti Tank": 1,
+    "Armored Car": 2,
+    "Anti Air": 1,
     "Interceptor": 1,
+    "Infantry": 12,
     "Militia": 1
    },
    "Ireland": {
@@ -11098,7 +11118,7 @@
     "Infantry": 2
    }
   },
-  "ts": 1792724466150
+  "ts": 1792728071696
  },
  "sync": {}
 }
