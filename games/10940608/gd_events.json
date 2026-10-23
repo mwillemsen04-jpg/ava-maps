@@ -4757,6 +4757,26 @@
    "no": 3,
    "sn": 1,
    "frm": "Russian Empire"
+  },
+  "1936": {
+   "t": 3017,
+   "p": "Khouribga",
+   "c": "Morocco",
+   "u": "Infantry",
+   "cap": false,
+   "no": 2,
+   "sn": 2,
+   "frm": "Algeria"
+  },
+  "1945": {
+   "t": 3052,
+   "p": "Scranton",
+   "c": "Southern United States",
+   "u": "Armored Car",
+   "cap": false,
+   "no": 7,
+   "sn": 5,
+   "frm": "Northern States of America"
   }
  },
  "loss": {
@@ -9757,6 +9777,76 @@
    "byu": "Infantry",
    "byn": 1,
    "by": "Ukraine"
+  },
+  "1934": {
+   "t": 3010,
+   "p": "Bilbao",
+   "c": "Spain",
+   "u": "Infantry",
+   "what": "1× Infantry",
+   "n": 1,
+   "dest": true,
+   "no": 7,
+   "byno": 17,
+   "byu": "Tactical Bomber",
+   "byn": 3,
+   "by": "France"
+  },
+  "1938": {
+   "t": 3019,
+   "p": "Valencia",
+   "c": "Algeria",
+   "u": "Infantry",
+   "what": "1× Infantry",
+   "n": 1,
+   "dest": true,
+   "no": 3,
+   "byno": 1,
+   "byu": "Militia",
+   "byn": 1,
+   "by": "Spain"
+  },
+  "1939": {
+   "t": 3025,
+   "p": "Bilbao",
+   "c": "Spain",
+   "u": "Armored Car",
+   "what": "1× Armored Car",
+   "n": 1,
+   "dest": true,
+   "no": 21,
+   "byno": 17,
+   "byu": "Tactical Bomber",
+   "byn": 3,
+   "by": "France"
+  },
+  "1941": {
+   "t": 3037,
+   "p": "Cuenca",
+   "c": "Spain",
+   "u": "Infantry",
+   "what": "1× Infantry",
+   "n": 1,
+   "dest": true,
+   "no": 11,
+   "byno": 25,
+   "byu": "Tactical Bomber",
+   "byn": 4,
+   "by": "France"
+  },
+  "1943": {
+   "t": 3052,
+   "p": "Scranton",
+   "c": "Northern States of America",
+   "u": "Infantry",
+   "what": "1× Infantry",
+   "n": 1,
+   "dest": true,
+   "no": 16,
+   "byno": 7,
+   "byu": "Armored Car",
+   "byn": 5,
+   "by": "Southern United States"
   }
  },
  "cas": {
@@ -9813,7 +9903,7 @@
    "ts": 1792684957000
   },
   "Sweden|Communist Russia": {
-   "v": 9055,
+   "v": 9181,
    "ts": 1792684957000
   },
   "United Kingdom|Southern United States": {
@@ -9821,7 +9911,7 @@
    "ts": 1792684957000
   },
   "Italy|Poland": {
-   "v": 4616,
+   "v": 4690,
    "ts": 1792684957000
   },
   "France|Tunisia": {
@@ -9953,11 +10043,11 @@
    "ts": 1792684957000
   },
   "Sweden|Russian Empire": {
-   "v": 5851,
+   "v": 6010,
    "ts": 1792684957000
   },
   "Russian Empire|Sweden": {
-   "v": 2710,
+   "v": 2960,
    "ts": 1792684957000
   },
   "Communist Russia|Greater Finland": {
@@ -9977,11 +10067,11 @@
    "ts": 1792684957000
   },
   "Southern United States|Northern States of America": {
-   "v": 7204,
+   "v": 7612,
    "ts": 1792684957000
   },
   "Northern States of America|Southern United States": {
-   "v": 14886,
+   "v": 15925,
    "ts": 1792684957000
   },
   "Netherlands|Poland": {
@@ -10037,7 +10127,7 @@
    "ts": 1792684957000
   },
   "United Kingdom|Communist Russia": {
-   "v": 202,
+   "v": 356,
    "ts": 1792684957000
   },
   "Communist Russia|United Kingdom": {
@@ -10065,11 +10155,11 @@
    "ts": 1792684957000
   },
   "Sweden|Germany": {
-   "v": 2363,
+   "v": 2605,
    "ts": 1792684957000
   },
   "Germany|Sweden": {
-   "v": 1145,
+   "v": 1322,
    "ts": 1792684957000
   },
   "Cossack Republic|Communist Russia": {
@@ -10221,11 +10311,11 @@
    "ts": 1792684957000
   },
   "Libya|Spain": {
-   "v": 3487,
+   "v": 3721,
    "ts": 1792684957000
   },
   "Spain|Libya": {
-   "v": 6325,
+   "v": 6491,
    "ts": 1792684957000
   },
   "Turkey|Libya": {
@@ -10269,11 +10359,11 @@
    "ts": 1792684957000
   },
   "France|Spain": {
-   "v": 3010,
+   "v": 3142,
    "ts": 1792684957000
   },
   "Spain|France": {
-   "v": 10511,
+   "v": 11851,
    "ts": 1792684957000
   },
   "Greater Romania|Turkey": {
@@ -10421,11 +10511,11 @@
    "ts": 1792684957000
   },
   "Algeria|Spain": {
-   "v": 748,
+   "v": 834,
    "ts": 1792684957000
   },
   "Spain|Algeria": {
-   "v": 708,
+   "v": 760,
    "ts": 1792684957000
   },
   "Southern United States|Yugoslavia": {
@@ -10533,7 +10623,7 @@
    "ts": 1792684957000
   },
   "Tunisia|Greater Romania": {
-   "v": 1003,
+   "v": 1142,
    "ts": 1792684957000
   },
   "Algeria|Tunisia": {
@@ -10669,10 +10759,10 @@
     "Interceptor": 1
    },
    "Spain": {
-    "Infantry": 13,
-    "Armored Car": 1,
     "Anti Tank": 4,
-    "Interceptor": 1
+    "Armored Car": 2,
+    "Interceptor": 1,
+    "Infantry": 15
    },
    "Communist Russia": {
     "Infantry": 1,
@@ -10718,7 +10808,7 @@
    "Northern States of America": {
     "Anti Air": 1,
     "Armored Car": 2,
-    "Infantry": 10,
+    "Infantry": 11,
     "Anti Tank": 1,
     "Interceptor": 1,
     "Militia": 1
@@ -10804,7 +10894,7 @@
     "Interceptor": 1
    },
    "Algeria": {
-    "Infantry": 1,
+    "Infantry": 2,
     "Anti Tank": 1
    },
    "Tunisia": {
@@ -10856,7 +10946,7 @@
     "Infantry": 2
    }
   },
-  "ts": 1792713668853
+  "ts": 1792717270628
  },
  "sync": {}
 }

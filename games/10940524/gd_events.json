@@ -3807,6 +3807,20 @@
    "byu": "Rocket Artillery",
    "byn": 1,
    "by": "Caucasus"
+  },
+  "802": {
+   "t": 7330,
+   "p": "Luxembourg",
+   "c": "Italy",
+   "u": "Militia",
+   "what": "1× Militia",
+   "n": 1,
+   "dest": true,
+   "no": 13,
+   "byno": 4,
+   "byu": "Anti Tank",
+   "byn": 2,
+   "by": "Belgium"
   }
  },
  "cas": {
@@ -4031,11 +4045,11 @@
    "ts": 1792512201000
   },
   "Italy|Belgium": {
-   "v": 799,
+   "v": 880,
    "ts": 1792701616252
   },
   "Belgium|Italy": {
-   "v": 479,
+   "v": 503,
    "ts": 1792701616252
   }
  },
@@ -4120,7 +4134,7 @@
     "Anti Tank": 2,
     "Infantry": 11,
     "Armored Car": 2,
-    "Militia": 1,
+    "Militia": 2,
     "Anti Air": 1,
     "Interceptor": 1
    },
@@ -4167,8 +4181,8 @@
     "Infantry": 1
    },
    "Belgium": {
-    "Anti Air": 1,
-    "Infantry": 2
+    "Infantry": 2,
+    "Anti Air": 1
    },
    "Netherlands": {
     "Anti Air": 1
@@ -4210,7 +4224,7 @@
     "Infantry": 2
    }
   },
-  "ts": 1792713667343
+  "ts": 1792717268487
  },
  "sync": {
   "Kiel": {
