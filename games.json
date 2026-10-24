@@ -468,7 +468,10 @@
         ]
       },
       "reason": "stopped",
-      "ended": "2026-10-24 03:56"
+      "ended": "2026-10-24 03:56",
+      "folders": [
+        "Opponent practice games"
+      ]
     },
     {
       "id": "10940608",
@@ -537,7 +540,11 @@
         }
       },
       "reason": "stopped",
-      "ended": "2026-10-24 03:55"
+      "ended": "2026-10-24 03:55",
+      "folders": [
+        "IA",
+        "KH"
+      ]
     }
   ],
   "folders": [
