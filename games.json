@@ -471,7 +471,7 @@
     {
       "id": "10940608",
       "name": "KH vs IA (AWT final)",
-      "status": "live",
+      "status": "saved",
       "added": "2026-10-21 18:32",
       "ran": 1792803661483,
       "pv": "bb342bb5d7",
@@ -482,10 +482,10 @@
           "R": 480
         },
         "provinces": {
-          "G": 339,
-          "R": 191
+          "G": 345,
+          "R": 187
         },
-        "fetched": 1792803666111,
+        "fetched": 1792806903477,
         "winner": null,
         "teams": {
           "G": [
@@ -533,7 +533,9 @@
             }
           ]
         }
-      }
+      },
+      "reason": "stopped",
+      "ended": "2026-10-24 03:55"
     }
   ],
   "folders": [

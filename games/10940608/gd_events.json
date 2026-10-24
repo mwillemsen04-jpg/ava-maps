@@ -6259,6 +6259,76 @@
    "no": 21,
    "sn": 1,
    "frm": "Germany"
+  },
+  "2594": {
+   "t": 4504,
+   "p": "Korosten",
+   "c": "Libya",
+   "u": "Light Tank",
+   "cap": false,
+   "no": 6,
+   "sn": 1,
+   "frm": "Ukraine"
+  },
+  "2595": {
+   "t": 4518,
+   "p": "Brno",
+   "c": "Libya",
+   "u": "Armored Car",
+   "cap": false,
+   "no": 13,
+   "sn": 5,
+   "frm": "Germany"
+  },
+  "2596": {
+   "t": 4524,
+   "p": "Ravenna",
+   "c": "Libya",
+   "u": "Light Tank",
+   "cap": false,
+   "no": 24,
+   "sn": 1,
+   "frm": "Germany"
+  },
+  "2599": {
+   "t": 4531,
+   "p": "Bialystok",
+   "c": "Libya",
+   "u": "Armored Car",
+   "cap": false,
+   "no": 28,
+   "sn": 6,
+   "frm": "Poland"
+  },
+  "2600": {
+   "t": 4540,
+   "p": "Vänersborg",
+   "c": "Germany",
+   "u": "Infantry",
+   "cap": false,
+   "no": 15,
+   "sn": 2,
+   "frm": "Sweden"
+  },
+  "2601": {
+   "t": 4544,
+   "p": "Halmstad",
+   "c": "Russian Empire",
+   "u": "Infantry",
+   "cap": false,
+   "no": 21,
+   "sn": 1,
+   "frm": "Sweden"
+  },
+  "2602": {
+   "t": 4553,
+   "p": "Ternopil",
+   "c": "Libya",
+   "u": "Light Tank",
+   "cap": false,
+   "no": 2,
+   "sn": 1,
+   "frm": "Poland"
   }
  },
  "loss": {
@@ -12323,6 +12393,20 @@
    "byu": "Armored Car",
    "byn": 1,
    "by": "Russian Empire"
+  },
+  "2597": {
+   "t": 4530,
+   "p": "Sherbrooke",
+   "c": "Canada",
+   "u": "Infantry",
+   "what": "1× Infantry",
+   "n": 1,
+   "dest": true,
+   "no": 16,
+   "byno": 24,
+   "byu": "Cruiser",
+   "byn": 1,
+   "by": "Southern United States"
   }
  },
  "cas": {
@@ -13043,7 +13127,7 @@
    "ts": 1792771357000
   },
   "Canada|Southern United States": {
-   "v": 10623,
+   "v": 10892,
    "ts": 1792771357000
   },
   "Southern United States|Canada": {
@@ -13471,7 +13555,7 @@
    },
    "Canada": {
     "Rocket Artillery": 1,
-    "Infantry": 7,
+    "Infantry": 8,
     "Anti Tank": 1,
     "Anti Air": 1,
     "Armored Car": 1,
@@ -13589,8 +13673,8 @@
     "Infantry": 5
    },
    "Ukraine": {
-    "Armored Car": 1,
     "Anti Tank": 1,
+    "Armored Car": 1,
     "Anti Air": 1,
     "Infantry": 1
    },
@@ -13624,7 +13708,7 @@
     "Infantry": 2
    }
   },
-  "ts": 1792803666111
+  "ts": 1792806903477
  },
  "sync": {}
 }
