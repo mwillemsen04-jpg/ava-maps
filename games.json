@@ -388,7 +388,7 @@
     {
       "id": "10940524",
       "name": "KH test game",
-      "status": "live",
+      "status": "saved",
       "added": "2026-10-19 21:02",
       "ran": 1792803661483,
       "pv": "bb342bb5d7",
@@ -402,7 +402,7 @@
           "G": 39,
           "R": 111
         },
-        "fetched": 1792803664079,
+        "fetched": 1792806971575,
         "winner": null,
         "teams": {
           "G": [
@@ -466,7 +466,9 @@
           "Russian Empire",
           "Southern United States"
         ]
-      }
+      },
+      "reason": "stopped",
+      "ended": "2026-10-24 03:56"
     },
     {
       "id": "10940608",
