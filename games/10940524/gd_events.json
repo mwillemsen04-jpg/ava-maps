@@ -1819,14 +1819,14 @@
    "frm": "Germany"
   },
   "843": {
-   "t": 8516,
-   "p": "Melitopol",
-   "c": "Cossack Republic",
-   "u": "Infantry",
+   "t": 8753,
+   "p": "Dijon",
+   "c": "Belgium",
+   "u": "Anti Tank",
    "cap": false,
-   "no": 11,
-   "sn": 1,
-   "frm": "Ukraine"
+   "no": 4,
+   "sn": 2,
+   "frm": "France"
   },
   "844": {
    "t": 8307,
@@ -1945,14 +1945,14 @@
    "frm": "Germany"
   },
   "841": {
-   "t": 8625,
-   "p": "Kaiserslautern",
-   "c": "Netherlands",
-   "u": "Anti Air",
+   "t": 8703,
+   "p": "Kherson",
+   "c": "Cossack Republic",
+   "u": "Infantry",
    "cap": false,
-   "no": 5,
+   "no": 11,
    "sn": 1,
-   "frm": "Belgium"
+   "frm": "Ukraine"
   }
  },
  "loss": {
@@ -4561,8 +4561,8 @@
    "ts": 1792783101804
   },
   "Germany|Poland": {
-   "v": 85,
-   "ts": 1792783101804
+   "v": 227,
+   "ts": 1792796079542
   }
  },
  "slots": {
@@ -4740,7 +4740,7 @@
     "Infantry": 2
    }
   },
-  "ts": 1792796466232
+  "ts": 1792800064892
  },
  "sync": {
   "Kiel": {
@@ -4778,6 +4778,10 @@
   "Lodz": {
    "t": 5881,
    "c": "Caucasus"
+  },
+  "Melitopol": {
+   "t": 8761,
+   "c": "Cossack Republic"
   },
   "Krasnodar": {
    "t": 6181,

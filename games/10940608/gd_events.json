@@ -6139,6 +6139,66 @@
    "no": 27,
    "sn": 12,
    "frm": "Germany"
+  },
+  "2575": {
+   "t": 4385,
+   "p": "Kerch",
+   "c": "Russian Empire",
+   "u": "Light Tank",
+   "cap": false,
+   "no": 15,
+   "sn": 1,
+   "frm": "Ukraine"
+  },
+  "2576": {
+   "t": 4399,
+   "p": "Agrinio",
+   "c": "Algeria",
+   "u": "Infantry",
+   "cap": false,
+   "no": 4,
+   "sn": 1,
+   "frm": "Greater Romania"
+  },
+  "2577": {
+   "t": 4402,
+   "p": "Saint Jerome",
+   "c": "Southern United States",
+   "u": "Infantry",
+   "cap": false,
+   "no": 10,
+   "sn": 3,
+   "frm": "Canada"
+  },
+  "2578": {
+   "t": 4413,
+   "p": "Venice",
+   "c": "Libya",
+   "u": "Light Tank",
+   "cap": false,
+   "no": 24,
+   "sn": 1,
+   "frm": "Germany"
+  },
+  "2579": {
+   "t": 4426,
+   "p": "Athens",
+   "c": "Algeria",
+   "u": "Infantry",
+   "cap": false,
+   "no": 2,
+   "sn": 1,
+   "frm": "Greater Romania"
+  },
+  "2580": {
+   "t": 4426,
+   "p": "Grodno",
+   "c": "Communist Russia",
+   "u": "Tank Destroyer",
+   "cap": false,
+   "no": 8,
+   "sn": 2,
+   "frm": "Poland"
   }
  },
  "loss": {
@@ -12381,11 +12441,11 @@
    "ts": 1792771357000
   },
   "Southern United States|Northern States of America": {
-   "v": 8132,
+   "v": 8652,
    "ts": 1792771357000
   },
   "Northern States of America|Southern United States": {
-   "v": 18384,
+   "v": 19233,
    "ts": 1792771357000
   },
   "Netherlands|Poland": {
@@ -12881,7 +12941,7 @@
    "ts": 1792771357000
   },
   "Canada|Southern United States": {
-   "v": 9942,
+   "v": 10002,
    "ts": 1792771357000
   },
   "Southern United States|Canada": {
@@ -12993,11 +13053,11 @@
    "ts": 1792771357000
   },
   "Ukraine|Russian Empire": {
-   "v": 2135,
+   "v": 2237,
    "ts": 1792771478865
   },
   "Russian Empire|Ukraine": {
-   "v": 2981,
+   "v": 3002,
    "ts": 1792771478865
   },
   "Russian Empire|Germany": {
@@ -13461,7 +13521,7 @@
     "Infantry": 2
    }
   },
-  "ts": 1792796468264
+  "ts": 1792800066250
  },
  "sync": {}
 }
