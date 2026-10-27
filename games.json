@@ -547,46 +547,6 @@
       ]
     },
     {
-      "id": "10941533",
-      "name": "MOB vs PHK",
-      "status": "saved",
-      "added": "2026-10-27 10:39",
-      "ran": 1793093978501,
-      "pv": "bb342bb5d7",
-      "last": {
-        "day": 9,
-        "score": {
-          "G": 840,
-          "R": 0
-        },
-        "provinces": {
-          "G": 1110,
-          "R": 0
-        },
-        "fetched": 1793094774903,
-        "winner": null,
-        "teams": {
-          "G": [
-            {
-              "c": "Italie",
-              "f": 1
-            },
-            {
-              "c": "L'Empire Allemand",
-              "f": 1
-            },
-            {
-              "c": "Royaume Uni",
-              "f": 2
-            }
-          ],
-          "R": []
-        }
-      },
-      "reason": "stopped",
-      "ended": "2026-10-27 10:52"
-    },
-    {
       "id": "10941553",
       "name": "MOB vs PHK",
       "status": "saved",
