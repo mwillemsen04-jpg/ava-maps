@@ -11,9 +11,9 @@
   "R": 396
  },
  "fetched": 1793094777448,
- "built": 1793094815776,
+ "built": 1793095443186,
  "game_over": true,
- "winner": "R",
+ "winner": null,
  "teams": {
   "G": [
    {
