@@ -1,0 +1,65 @@
+{
+ "id": "10941553",
+ "name": "MOB vs PHK",
+ "day": 6,
+ "score": {
+  "G": 150,
+  "R": 640
+ },
+ "provinces": {
+  "G": 91,
+  "R": 396
+ },
+ "fetched": 1793094777448,
+ "built": 1793094815776,
+ "game_over": true,
+ "winner": "R",
+ "teams": {
+  "G": [
+   {
+    "c": "Deutschland",
+    "f": 1
+   },
+   {
+    "c": "Frankreich",
+    "f": 2
+   },
+   {
+    "c": "Kommunistisches Russland",
+    "f": 3
+   },
+   {
+    "c": "Polen",
+    "f": 3
+   },
+   {
+    "c": "Südliche Staaten von Amerika",
+    "f": 4
+   }
+  ],
+  "R": [
+   {
+    "c": "Algerien",
+    "f": 2
+   },
+   {
+    "c": "Großrumänien",
+    "f": 3
+   },
+   {
+    "c": "Libyen",
+    "f": 4
+   },
+   {
+    "c": "Russisches Kaiserreich",
+    "f": 4
+   },
+   {
+    "c": "Ukraine",
+    "f": 1
+   }
+  ]
+ },
+ "events": 534,
+ "losses": 427
+}

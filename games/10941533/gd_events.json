@@ -22951,6 +22951,16 @@
    "no": 27,
    "sn": 1,
    "frm": "L'Empire Allemand"
+  },
+  "6300": {
+   "t": 12162,
+   "p": "Fethiye",
+   "c": "Italie",
+   "u": "Artillerie AM",
+   "cap": false,
+   "no": 14,
+   "sn": 5,
+   "frm": "Turquie"
   }
  },
  "loss": {
@@ -38726,15 +38736,15 @@
   },
   "Paraguay|Argentine": {
    "v": 9558,
-   "ts": 1792959413000
+   "ts": 1793045813000
   },
   "Argentine|Paraguay": {
    "v": 4913,
-   "ts": 1792959413000
+   "ts": 1793045813000
   },
   "Argentine|Chili": {
    "v": 1850,
-   "ts": 1792959413000
+   "ts": 1793045813000
   },
   "France|Royaume Uni": {
    "v": 23122,
@@ -38750,19 +38760,19 @@
   },
   "L'Empire Allemand|Suisse": {
    "v": 4276,
-   "ts": 1792959413000
+   "ts": 1793045813000
   },
   "L'Empire Allemand|Norvège": {
    "v": 9261,
-   "ts": 1792959413000
+   "ts": 1793045813000
   },
   "L'Empire Allemand|Espagne": {
    "v": 6513,
-   "ts": 1792959413000
+   "ts": 1793045813000
   },
   "L'Empire Allemand|Union Soviétique": {
    "v": 134750,
-   "ts": 1792959413000
+   "ts": 1793045813000
   },
   "L'Empire Allemand|Roumanie": {
    "v": 544,
@@ -38770,27 +38780,27 @@
   },
   "L'Empire Allemand|Slovaquie": {
    "v": 5549,
-   "ts": 1792959413000
+   "ts": 1793045813000
   },
   "L'Empire Allemand|Portugal": {
    "v": 5711,
-   "ts": 1792959413000
+   "ts": 1793045813000
   },
   "L'Empire Allemand|Lettonie": {
    "v": 2152,
-   "ts": 1792959413000
+   "ts": 1793045813000
   },
   "L'Empire Allemand|Suède": {
-   "v": 7196,
+   "v": 7434,
    "ts": 1793045813000
   },
   "Danemark|L'Empire Allemand": {
    "v": 13025,
-   "ts": 1792959413000
+   "ts": 1793045813000
   },
   "Danemark|Royaume Uni": {
    "v": 2106,
-   "ts": 1792959413000
+   "ts": 1793045813000
   },
   "Italie|France": {
    "v": 17325,
@@ -38798,15 +38808,15 @@
   },
   "Italie|Pays-Bas": {
    "v": 1086,
-   "ts": 1792959413000
+   "ts": 1793045813000
   },
   "Italie|Espagne": {
    "v": 4107,
-   "ts": 1792959413000
+   "ts": 1793045813000
   },
   "Italie|Union Soviétique": {
    "v": 54766,
-   "ts": 1792959413000
+   "ts": 1793045813000
   },
   "Italie|Roumanie": {
    "v": 26962,
@@ -38822,11 +38832,11 @@
   },
   "Royaume Uni|Afrique du Sud": {
    "v": 2904,
-   "ts": 1792959413000
+   "ts": 1793045813000
   },
   "Royaume Uni|Espagne": {
    "v": 805,
-   "ts": 1792959413000
+   "ts": 1793045813000
   },
   "Royaume Uni|Irlande": {
    "v": 6017,
@@ -38834,11 +38844,11 @@
   },
   "Royaume Uni|Chine Nationaliste": {
    "v": 25500,
-   "ts": 1792959413000
+   "ts": 1793045813000
   },
   "Royaume Uni|Danemark": {
    "v": 1597,
-   "ts": 1792959413000
+   "ts": 1793045813000
   },
   "Royaume Uni|Haïti": {
    "v": 3032,
@@ -38850,19 +38860,19 @@
   },
   "Afrique du Sud|Royaume Uni": {
    "v": 3527,
-   "ts": 1792959413000
+   "ts": 1793045813000
   },
   "Chine Nationaliste|États-Unis": {
    "v": 16380,
-   "ts": 1792959413000
+   "ts": 1793045813000
   },
   "Chine Nationaliste|Indes Britanniques": {
    "v": 278,
-   "ts": 1792959413000
+   "ts": 1793045813000
   },
   "Chine Nationaliste|Siam": {
    "v": 3200,
-   "ts": 1792959413000
+   "ts": 1793045813000
   },
   "Chine Nationaliste|Tibet": {
    "v": 10250,
@@ -38870,15 +38880,15 @@
   },
   "Chine Nationaliste|Royaume Uni": {
    "v": 6770,
-   "ts": 1792959413000
+   "ts": 1793045813000
   },
   "Chine Nationaliste|Japon": {
    "v": 1595,
-   "ts": 1792959413000
+   "ts": 1793045813000
   },
   "Chine Nationaliste|Népal": {
    "v": 485,
-   "ts": 1792959413000
+   "ts": 1793045813000
   },
   "Indes Britanniques|Mongolie": {
    "v": 7209,
@@ -38886,7 +38896,7 @@
   },
   "Indes Britanniques|Chine Nationaliste": {
    "v": 20549,
-   "ts": 1792959413000
+   "ts": 1793045813000
   },
   "Afghanistan|Xinjiang": {
    "v": 7400,
@@ -38894,7 +38904,7 @@
   },
   "Afghanistan|Mongolie": {
    "v": 3156,
-   "ts": 1792959413000
+   "ts": 1793045813000
   },
   "Xinjiang|Afghanistan": {
    "v": 2497,
@@ -38918,11 +38928,11 @@
   },
   "États-Unis|Chine Nationaliste": {
    "v": 23563,
-   "ts": 1792959413000
+   "ts": 1793045813000
   },
   "États-Unis|Cuba": {
    "v": 976,
-   "ts": 1792959413000
+   "ts": 1793045813000
   },
   "États-Unis|Guatemala": {
    "v": 5294,
@@ -38938,11 +38948,11 @@
   },
   "Suisse|L'Empire Allemand": {
    "v": 13780,
-   "ts": 1792959413000
+   "ts": 1793045813000
   },
   "Siam|Chine Nationaliste": {
    "v": 9950,
-   "ts": 1792959413000
+   "ts": 1793045813000
   },
   "Canada|États-Unis": {
    "v": 34718,
@@ -38950,11 +38960,11 @@
   },
   "Mongolie|Mandchoukouo": {
    "v": 8141,
-   "ts": 1792959413000
+   "ts": 1793045813000
   },
   "Mongolie|Afghanistan": {
    "v": 706,
-   "ts": 1792959413000
+   "ts": 1793045813000
   },
   "Mongolie|Japon": {
    "v": 19140,
@@ -38962,7 +38972,7 @@
   },
   "Mongolie|Union Soviétique": {
    "v": 2266,
-   "ts": 1792959413000
+   "ts": 1793045813000
   },
   "Mandchoukouo|Mongolie": {
    "v": 20359,
@@ -38970,27 +38980,27 @@
   },
   "Espagne|Royaume Uni": {
    "v": 5912,
-   "ts": 1792959413000
+   "ts": 1793045813000
   },
   "Espagne|L'Empire Allemand": {
    "v": 18091,
-   "ts": 1792959413000
+   "ts": 1793045813000
   },
   "Espagne|Italie": {
    "v": 9004,
-   "ts": 1792959413000
+   "ts": 1793045813000
   },
   "Turquie|Roumanie": {
    "v": 21840,
-   "ts": 1792959413000
+   "ts": 1793045813000
   },
   "Turquie|Italie": {
-   "v": 58932,
+   "v": 58995,
    "ts": 1793045813000
   },
   "Roumanie|Turquie": {
    "v": 12984,
-   "ts": 1792959413000
+   "ts": 1793045813000
   },
   "Roumanie|Hongrie": {
    "v": 5750,
@@ -38998,11 +39008,11 @@
   },
   "Roumanie|Italie": {
    "v": 35957,
-   "ts": 1792959413000
+   "ts": 1793045813000
   },
   "Roumanie|L'Empire Allemand": {
    "v": 6467,
-   "ts": 1792959413000
+   "ts": 1793045813000
   },
   "Brésil|Uruguay": {
    "v": 1600,
@@ -39010,11 +39020,11 @@
   },
   "Uruguay|Brésil": {
    "v": 594,
-   "ts": 1792959413000
+   "ts": 1793045813000
   },
   "Norvège|L'Empire Allemand": {
    "v": 43680,
-   "ts": 1792959413000
+   "ts": 1793045813000
   },
   "Japon|États-Unis": {
    "v": 9339,
@@ -39026,7 +39036,7 @@
   },
   "Japon|Chine Nationaliste": {
    "v": 8399,
-   "ts": 1792959413000
+   "ts": 1793045813000
   },
   "Hongrie|Roumanie": {
    "v": 12243,
@@ -39034,7 +39044,7 @@
   },
   "Égypte Britannique|Arabie Saoudite": {
    "v": 17734,
-   "ts": 1792959413000
+   "ts": 1793045813000
   },
   "Égypte Britannique|Italie": {
    "v": 36777,
@@ -39046,7 +39056,7 @@
   },
   "Arabie Saoudite|Égypte Britannique": {
    "v": 25284,
-   "ts": 1792959413000
+   "ts": 1793045813000
   },
   "Irlande|Royaume Uni": {
    "v": 9900,
@@ -39058,35 +39068,35 @@
   },
   "Irak|Perse": {
    "v": 38856,
-   "ts": 1792959413000
+   "ts": 1793045813000
   },
   "Perse|Irak": {
    "v": 19391,
-   "ts": 1792959413000
+   "ts": 1793045813000
   },
   "Union Soviétique|L'Empire Allemand": {
    "v": 166870,
-   "ts": 1792959413000
+   "ts": 1793045813000
   },
   "Union Soviétique|Italie": {
    "v": 37231,
-   "ts": 1792959413000
+   "ts": 1793045813000
   },
   "Union Soviétique|Mongolie": {
    "v": 3429,
-   "ts": 1792959413000
+   "ts": 1793045813000
   },
   "Slovaquie|L'Empire Allemand": {
    "v": 16480,
-   "ts": 1792959413000
+   "ts": 1793045813000
   },
   "Portugal|L'Empire Allemand": {
    "v": 14850,
-   "ts": 1792959413000
+   "ts": 1793045813000
   },
   "Népal|Chine Nationaliste": {
    "v": 15917,
-   "ts": 1792959413000
+   "ts": 1793045813000
   },
   "Cuba|États-Unis": {
    "v": 28610,
@@ -39094,7 +39104,7 @@
   },
   "Lettonie|L'Empire Allemand": {
    "v": 17120,
-   "ts": 1792959413000
+   "ts": 1793045813000
   },
   "Haïti|Royaume Uni": {
    "v": 18752,
@@ -39105,7 +39115,7 @@
    "ts": 1793045813000
   },
   "Suède|L'Empire Allemand": {
-   "v": 31786,
+   "v": 32135,
    "ts": 1793045813000
   },
   "Pays-Bas|Chine Nationaliste": {
@@ -39117,7 +39127,7 @@
    "ts": 1793050929420
   },
   "Perse|Oman": {
-   "v": 6656,
+   "v": 7022,
    "ts": 1793051402000
   },
   "États-Unis|Panama": {
@@ -39954,7 +39964,7 @@
     "Anti aérien": 3
    }
   },
-  "ts": 1793093981100
+  "ts": 1793094774903
  },
  "sync": {
   "Poznań": {
