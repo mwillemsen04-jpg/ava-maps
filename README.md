@@ -208,3 +208,6 @@ python scripts/run.py --no-fetch   (only rebuild)
 | Buttons say "Not connected to GitHub yet" | You opened the page locally; on the GitHub site this works by itself. |
 | The form opens but nothing happens | Only repository members count. Check the *Actions* tab for the run; the issue gets a comment when it is done or failed. |
 | Scheduled runs stopped | GitHub pauses schedules after 60 days without commits; the bot commits on every update, so this only happens when no game is live. Run the workflow once by hand to wake it up. |
+
+### Game updates (client version)
+Call of War raises its client version number with every game update (for example 215 → 216), and the game server gives no data to a client that names an old number. The robot handles this by itself: when the server stops answering, `scripts/fetch.js` tries the next numbers, and the one that works is written to `client_version.json` and used from then on. If a map shows *"Game server returned no game state"*, the message now also lists which versions were tried and what the server answered.

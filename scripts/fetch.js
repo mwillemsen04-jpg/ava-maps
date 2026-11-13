@@ -24,6 +24,54 @@ if (!USERNAME || !PASSWORD) {
   process.exit(1);
 }
 
+// The game client's version number. Call of War raises it with every game update (215 -> 216 -> ...), and the game
+// server gives no game state to a client that names an old version. So the number is not fixed here: it is read from
+// client_version.json, and when the server stops answering, fetchGame() looks for the new number by itself and
+// writes it back to that file (the workflow commits it, so the next round starts with the right number).
+const VERSION_FILE = path.join(__dirname, '..', 'client_version.json');
+const DEFAULT_CLIENT_VERSION = 215;
+function readClientVersion() {
+  try { const v = parseInt(JSON.parse(fs.readFileSync(VERSION_FILE, 'utf8')).version, 10); if (v > 0) return v; } catch (e) {}
+  return DEFAULT_CLIENT_VERSION;
+}
+function saveClientVersion(v, was) {
+  try { fs.writeFileSync(VERSION_FILE, JSON.stringify({ version: v, previous: was, found: new Date().toISOString() }, null, 1) + '\n'); } catch (e) {}
+}
+let CLIENT_VERSION = readClientVersion();
+const hasStates = (r) => !!(r && r.data && r.data.result && r.data.result.states);
+const shortAnswer = (r, n = 300) => { try { return JSON.stringify(r && r.data !== undefined ? r.data : null).slice(0, n); } catch (e) { return ''; } };
+
+// Ask the game server for the state. `post(version, host)` does one request. When the answer has no game state:
+//  1. the server may point to another host (newHostName): ask there;
+//  2. otherwise the game was probably updated: try the version the answer mentions (if any), then the next 15 numbers
+//     (and the 3 before, in case the file was ahead). The first number that works is remembered.
+// Returns { response, version, host, tried }.
+async function queryWithVersion(post, startVersion, host) {
+  let response = await post(startVersion, host);
+  if (hasStates(response)) return { response, version: startVersion, host, tried: [startVersion] };
+  const tried = [startVersion];
+  const newHost = response && response.data && response.data.result && response.data.result.newHostName;
+  if (newHost && newHost !== host) {
+    host = newHost;
+    response = await post(startVersion, host);
+    if (hasStates(response)) return { response, version: startVersion, host, tried };
+  }
+  const first = response;
+  const hint = (shortAnswer(response, 2000).match(/version\D{0,16}(\d{3,4})/i) || [])[1];
+  const candidates = [];
+  if (hint) candidates.push(parseInt(hint, 10));
+  for (let d = 1; d <= 15; d++) candidates.push(startVersion + d);
+  for (let d = 1; d <= 3; d++) candidates.push(startVersion - d);
+  for (const v of candidates) {
+    if (!(v > 0) || tried.includes(v)) continue;
+    tried.push(v);
+    let r;
+    try { r = await post(v, host); } catch (e) { continue; }
+    if (hasStates(r)) return { response: r, version: v, host, tried };
+  }
+  return { response: first, version: startVersion, host, tried };
+}
+
 function logAction(name, details = {}) {
   const msg = `\n[ACTION] ${name}${Object.keys(details).length ? '\n' + JSON.stringify(details, null, 2) : ''}`;
   writeToFileAndConsole(msg);
@@ -177,16 +225,16 @@ async function fetchGame(TARGET_GAME_ID, activeCookies) {
 
     // 6. Discovery Query & Dynamic Nation Resolution
     logAction("6. Discovery Handshake Query");
-    const gameServerUrl = `https://${gameServerSubdomain}/`;
+    let gameServerUrl = `https://${gameServerSubdomain}/`;
 
-    const makePayload = (slot) => ({
+    const makePayload = (slot, version = CLIENT_VERSION) => ({
       "requestID": 1,
       "@c": "ultshared.action.UltUpdateGameStateAction",
       "actions": [],
       "lastCallDuration": 150,
       "stateIDs": {},
       "tstamps": {},
-      "version": "215",
+      "version": String(version),
       "client": "ww2-client-ultimate",
       "siteUserID": parseInt(autoUserID, 10),
       "adminLevel": 0,
@@ -197,14 +245,22 @@ async function fetchGame(TARGET_GAME_ID, activeCookies) {
       "tstamp": syncedTstamp
     });
 
-    // Initial query to fetch State 1
-    let stateResponse = await client.post(gameServerUrl, makePayload(0), {
-      headers: {
-        'Content-Type': 'text/plain;charset=UTF-8',
-        'Origin': 'https://www.callofwar.com',
-        'Referer': 'https://www.callofwar.com/'
-      }
-    });
+    // Initial query to fetch State 1 (finds the game's current version number by itself after a game update)
+    const stateHeaders = { 'Content-Type': 'text/plain;charset=UTF-8', 'Origin': 'https://www.callofwar.com', 'Referer': 'https://www.callofwar.com/' };
+    const found = await queryWithVersion(
+      (version, host) => client.post(`https://${host}/`, makePayload(0, version), { headers: stateHeaders }),
+      CLIENT_VERSION, gameServerSubdomain);
+    let stateResponse = found.response;
+    gameServerUrl = `https://${found.host}/`;
+    if (hasStates(stateResponse) && found.version !== CLIENT_VERSION) {
+      writeToFileAndConsole(`🔁 [GAME UPDATE] client version ${CLIENT_VERSION} no longer works; ${found.version} does. Saved to client_version.json.`);
+      saveClientVersion(found.version, CLIENT_VERSION);
+      CLIENT_VERSION = found.version;
+    }
+    if (!hasStates(stateResponse)) {
+      writeToFileAndConsole(`⚠️ no game state. Versions tried: ${found.tried.join(', ')}. Server answered: ${shortAnswer(stateResponse, 600)}`);
+      throw new Error(`Game server returned no game state (versions tried: ${found.tried[0]}–${Math.max(...found.tried)}). Server answered: ${shortAnswer(stateResponse, 220)}`);
+    }
 
     // Auto-detect player slot by checking State 1 for autoUserID
     const detected = detectPlayerFromState(stateResponse.data, autoUserID);

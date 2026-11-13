@@ -73,7 +73,9 @@ async function tryGame(gameId, cookies) {
   log('token keys: ' + Object.keys(typeof tc === 'object' ? tc : {}).join(','));
   for (const [k, v] of Object.entries(typeof tc === 'object' ? tc : {})) if (typeof v === 'string' && /map|static|http|cdn/i.test(k + v) && k !== 'auth') log(`  token.${k} = ${v}`);
   const gs = `https://${tc.gs || 'thi-cow-gs-0n40.c.bytro.com'}/`;
-  const payload = (extra) => ({ requestID: 1, '@c': 'ultshared.action.UltUpdateGameStateAction', actions: [], lastCallDuration: 150, stateIDs: {}, tstamps: {}, version: '213', client: 'ww2-client-ultimate', siteUserID: +userID, adminLevel: 0, gameID: +gameId, playerID: 0, rights: 'chat', userAuth: typeof tc === 'object' ? tc.auth : tc, tstamp: tc.authTstamp || authTstamp, ...extra });
+  // the game's current client version: kept up to date by scripts/fetch.js in client_version.json (213 if that file is not there yet)
+  let CLIENT_VERSION = '213'; try { const v = parseInt(JSON.parse(require('fs').readFileSync(require('path').join(__dirname, '..', 'client_version.json'), 'utf8')).version, 10); if (v > 0) CLIENT_VERSION = String(v); } catch (e) {}
+  const payload = (extra) => ({ requestID: 1, '@c': 'ultshared.action.UltUpdateGameStateAction', actions: [], lastCallDuration: 150, stateIDs: {}, tstamps: {}, version: CLIENT_VERSION, client: 'ww2-client-ultimate', siteUserID: +userID, adminLevel: 0, gameID: +gameId, playerID: 0, rights: 'chat', userAuth: typeof tc === 'object' ? tc.auth : tc, tstamp: tc.authTstamp || authTstamp, ...extra });
   const post = (extra) => client.post(gs, payload(extra), { headers: { 'Content-Type': 'text/plain;charset=UTF-8', Origin: 'https://www.callofwar.com', Referer: 'https://www.callofwar.com/' }, validateStatus: () => true });
 
   // premium state (14) holds the War Bonds price of healing ("Army Reinforcement" offer)
