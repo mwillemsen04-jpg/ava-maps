@@ -1,1 +1,0 @@
-Game server returned no game state.

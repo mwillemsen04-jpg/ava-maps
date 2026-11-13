@@ -1,0 +1,57 @@
+{
+ "id": "10961499",
+ "name": "Russian bears vs Crimson Dominion",
+ "day": 4,
+ "score": {
+  "G": 570,
+  "R": 450
+ },
+ "provinces": {
+  "G": 250,
+  "R": 168
+ },
+ "fetched": 1794596215254,
+ "built": 1794596226758,
+ "game_over": false,
+ "winner": null,
+ "teams": {
+  "G": [
+   {
+    "c": "Algeria",
+    "f": 2
+   },
+   {
+    "c": "Greater Romania",
+    "f": 3
+   },
+   {
+    "c": "Libya",
+    "f": 4
+   },
+   {
+    "c": "Turkey",
+    "f": 3
+   }
+  ],
+  "R": [
+   {
+    "c": "France",
+    "f": 2
+   },
+   {
+    "c": "Germany",
+    "f": 1
+   },
+   {
+    "c": "Poland",
+    "f": 3
+   },
+   {
+    "c": "Ukraine",
+    "f": 1
+   }
+  ]
+ },
+ "events": 384,
+ "losses": 398
+}
