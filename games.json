@@ -545,6 +545,14 @@
         "IA",
         "KH"
       ]
+    },
+    {
+      "id": "10961499",
+      "name": "Russian bears vs Crimson Dominion",
+      "status": "live",
+      "added": "2026-11-13 19:32",
+      "ran": 1794594722103,
+      "error": "Game server returned no game state."
     }
   ],
   "folders": [
