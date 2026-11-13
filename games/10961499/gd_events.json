@@ -3884,6 +3884,126 @@
    "no": 8,
    "sn": 1,
    "frm": "Ukraine"
+  },
+  "1779": {
+   "t": 4141,
+   "p": "Kielce",
+   "c": "Greater Romania",
+   "u": "Armored Car",
+   "cap": false,
+   "no": 2,
+   "sn": 1,
+   "frm": "Poland"
+  },
+  "1780": {
+   "t": 4143,
+   "p": "Kropotkin",
+   "c": "Ukraine",
+   "u": "Infantry",
+   "cap": false,
+   "no": 4,
+   "sn": 1,
+   "frm": "Turkey"
+  },
+  "1781": {
+   "t": 4146,
+   "p": "Philadelphia",
+   "c": "Northern States of America",
+   "u": "Infantry",
+   "cap": false,
+   "no": 17,
+   "sn": 2,
+   "frm": "France"
+  },
+  "1782": {
+   "t": 4148,
+   "p": "Oppeln",
+   "c": "Libya",
+   "u": "Light Tank",
+   "cap": false,
+   "no": 4,
+   "sn": 20,
+   "frm": "Germany"
+  },
+  "1783": {
+   "t": 4151,
+   "p": "Mykalaiv",
+   "c": "Libya",
+   "u": "Infantry",
+   "cap": false,
+   "no": 7,
+   "sn": 18,
+   "frm": "Ukraine"
+  },
+  "1784": {
+   "t": 4152,
+   "p": "Krasnodar",
+   "c": "Turkey",
+   "u": "Anti Tank",
+   "cap": false,
+   "no": 5,
+   "sn": 1,
+   "frm": "Ukraine"
+  },
+  "1792": {
+   "t": 4162,
+   "p": "Sadovoe",
+   "c": "Ukraine",
+   "u": "Infantry",
+   "cap": false,
+   "no": 12,
+   "sn": 1,
+   "frm": "Turkey"
+  },
+  "1793": {
+   "t": 4167,
+   "p": "Balti",
+   "c": "Ukraine",
+   "u": "Armored Car",
+   "cap": false,
+   "no": 5,
+   "sn": 1,
+   "frm": "Libya"
+  },
+  "1794": {
+   "t": 4174,
+   "p": "Lvov",
+   "c": "Ukraine",
+   "u": "Infantry",
+   "cap": false,
+   "no": 10,
+   "sn": 1,
+   "frm": "Libya"
+  },
+  "1798": {
+   "t": 4177,
+   "p": "Plymouth",
+   "c": "Algeria",
+   "u": "Infantry",
+   "cap": false,
+   "no": 26,
+   "sn": 1,
+   "frm": "Germany"
+  },
+  "1801": {
+   "t": 4182,
+   "p": "Madrid",
+   "c": "France",
+   "u": "Armored Car",
+   "cap": false,
+   "no": 16,
+   "sn": 1,
+   "frm": "Libya"
+  },
+  "1805": {
+   "t": 4199,
+   "p": "Milan",
+   "c": "Libya",
+   "u": "Armored Car",
+   "cap": false,
+   "no": 22,
+   "sn": 1,
+   "frm": "France"
   }
  },
  "loss": {
@@ -9094,6 +9214,104 @@
    "byu": "Light Tank",
    "byn": 10,
    "by": "Libya"
+  },
+  "1785": {
+   "t": 4158,
+   "p": "Oppeln",
+   "c": "Germany",
+   "u": "Infantry",
+   "what": "3× Infantry",
+   "n": 3,
+   "dest": true,
+   "no": 2,
+   "byno": 4,
+   "byu": "Light Tank",
+   "byn": 10,
+   "by": "Libya"
+  },
+  "1787": {
+   "t": 4158,
+   "p": "Oppeln",
+   "c": "Germany",
+   "u": "Infantry",
+   "what": "3× Infantry",
+   "n": 3,
+   "dest": true,
+   "no": 2,
+   "byno": 4,
+   "byu": "Light Tank",
+   "byn": 10,
+   "by": "Libya"
+  },
+  "1789": {
+   "t": 4158,
+   "p": "Oppeln",
+   "c": "Germany",
+   "u": "Armored Car",
+   "what": "6× Armored Car",
+   "n": 6,
+   "dest": true,
+   "no": 1,
+   "byno": 8,
+   "byu": "Light Tank",
+   "byn": 10,
+   "by": "Libya"
+  },
+  "1790": {
+   "t": 4159,
+   "p": "Oppeln",
+   "c": "Germany",
+   "u": "Armored Car",
+   "what": "4× Armored Car",
+   "n": 4,
+   "dest": true,
+   "no": 1,
+   "byno": 8,
+   "byu": "Light Tank",
+   "byn": 10,
+   "by": "Libya"
+  },
+  "1799": {
+   "t": 4182,
+   "p": "Madrid",
+   "c": "Libya",
+   "u": "Anti Air",
+   "what": "1× Anti Air",
+   "n": 1,
+   "dest": true,
+   "no": 20,
+   "byno": 16,
+   "byu": "Armored Car",
+   "byn": 1,
+   "by": "France"
+  },
+  "1802": {
+   "t": 4190,
+   "p": null,
+   "c": "Northern States of America",
+   "u": "Infantry",
+   "what": "1× Infantry",
+   "n": 1,
+   "dest": false,
+   "no": 8,
+   "byno": null,
+   "byu": null,
+   "byn": null,
+   "by": null
+  },
+  "1803": {
+   "t": 4196,
+   "p": "Sieradz",
+   "c": "Ukraine",
+   "u": "Anti Tank",
+   "what": "1× Anti Tank",
+   "n": 1,
+   "dest": true,
+   "no": 7,
+   "byno": 4,
+   "byu": "Light Tank",
+   "byn": 19,
+   "by": "Libya"
   }
  },
  "cas": {
@@ -9314,7 +9532,7 @@
    "ts": 1794571213000
   },
   "France|Northern States of America": {
-   "v": 1746,
+   "v": 2048,
    "ts": 1794571213000
   },
   "Libya|Tunisia": {
@@ -9590,7 +9808,7 @@
    "ts": 1794571213000
   },
   "Northern States of America|France": {
-   "v": 10107,
+   "v": 11195,
    "ts": 1794571213000
   },
   "Canada|France": {
@@ -9626,11 +9844,11 @@
    "ts": 1794574236278
   },
   "Libya|Ukraine": {
-   "v": 1084,
+   "v": 1271,
    "ts": 1794574936580
   },
   "Ukraine|Libya": {
-   "v": 2791,
+   "v": 3519,
    "ts": 1794574936580
   },
   "France|Turkey": {
@@ -9650,20 +9868,32 @@
    "ts": 1794579352175
   },
   "Libya|Germany": {
-   "v": 5046,
+   "v": 5734,
    "ts": 1794579366513
   },
   "Germany|Libya": {
-   "v": 3766,
+   "v": 14218,
    "ts": 1794579366513
   },
   "France|Libya": {
-   "v": 2647,
+   "v": 2732,
    "ts": 1794579618375
   },
   "Libya|France": {
-   "v": 3228,
+   "v": 3502,
    "ts": 1794579618375
+  },
+  "Libya|Poland": {
+   "v": 932,
+   "ts": 1794601104896
+  },
+  "Greater Romania|Poland": {
+   "v": 1629,
+   "ts": 1794602200251
+  },
+  "Poland|Greater Romania": {
+   "v": 3916,
+   "ts": 1794602202251
   }
  },
  "teams": {
@@ -9738,16 +9968,17 @@
  "stats": {
   "lost": {
    "Germany": {
-    "Anti Tank": 2,
-    "Anti Air": 1,
+    "Infantry": 10,
     "Interceptor": 6,
-    "Infantry": 4
+    "Anti Air": 1,
+    "Armored Car": 10,
+    "Anti Tank": 2
    },
    "France": {
     "Submarine": 2,
     "Infantry": 8,
-    "Armored Car": 3,
-    "Tank Destroyer": 3
+    "Tank Destroyer": 3,
+    "Armored Car": 3
    },
    "United Kingdom": {
     "Anti Tank": 1,
@@ -9805,7 +10036,7 @@
     "Infantry": 2
    },
    "Northern States of America": {
-    "Infantry": 2,
+    "Infantry": 3,
     "Militia": 1,
     "Armored Car": 3,
     "Artillery": 1,
@@ -9908,8 +10139,9 @@
     "Infantry": 6
    },
    "Libya": {
-    "Interceptor": 7,
-    "Armored Car": 2
+    "Armored Car": 2,
+    "Anti Air": 1,
+    "Interceptor": 7
    },
    "Egypt": {
     "Armored Car": 1,
@@ -9924,7 +10156,7 @@
    },
    "Ukraine": {
     "Armored Car": 1,
-    "Anti Tank": 2,
+    "Anti Tank": 3,
     "Infantry": 2
    },
    "Caucasus": {
@@ -9957,7 +10189,7 @@
     "Infantry": 2
    }
   },
-  "ts": 1794600071537
+  "ts": 1794603676129
  },
  "sync": {}
 }
