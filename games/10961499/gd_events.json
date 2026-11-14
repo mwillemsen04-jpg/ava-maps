@@ -4494,6 +4494,56 @@
    "no": 8,
    "sn": 1,
    "frm": "France"
+  },
+  "1944": {
+   "t": 4682,
+   "p": "Daugavpils",
+   "c": "Greater Finland",
+   "u": "Infantry",
+   "cap": false,
+   "no": 10,
+   "sn": 1,
+   "frm": "Poland"
+  },
+  "1949": {
+   "t": 4708,
+   "p": "Kovrov",
+   "c": "Russian Empire",
+   "u": "Infantry",
+   "cap": false,
+   "no": 7,
+   "sn": 1,
+   "frm": "Ukraine"
+  },
+  "1950": {
+   "t": 4714,
+   "p": "Balti",
+   "c": "Libya",
+   "u": "Infantry",
+   "cap": false,
+   "no": 7,
+   "sn": 18,
+   "frm": "Ukraine"
+  },
+  "1953": {
+   "t": 4722,
+   "p": "Königsberg",
+   "c": "Greater Romania",
+   "u": "Tank Destroyer",
+   "cap": false,
+   "no": 10,
+   "sn": 1,
+   "frm": "Germany"
+  },
+  "1954": {
+   "t": 4727,
+   "p": "Krasnodar",
+   "c": "Ukraine",
+   "u": "Infantry",
+   "cap": false,
+   "no": 2,
+   "sn": 1,
+   "frm": "Turkey"
   }
  },
  "loss": {
@@ -10572,6 +10622,76 @@
    "byu": "Interceptor",
    "byn": 5,
    "by": "Libya"
+  },
+  "1945": {
+   "t": 4686,
+   "p": "Kursk",
+   "c": "Russian Empire",
+   "u": "Infantry",
+   "what": "1× Infantry",
+   "n": 1,
+   "dest": true,
+   "no": 6,
+   "byno": 19,
+   "byu": "Interceptor",
+   "byn": 14,
+   "by": "Germany"
+  },
+  "1947": {
+   "t": 4687,
+   "p": "Liberec",
+   "c": "Germany",
+   "u": "Light Tank",
+   "what": "1× Light Tank",
+   "n": 1,
+   "dest": true,
+   "no": 8,
+   "byno": 8,
+   "byu": "Light Tank",
+   "byn": 20,
+   "by": "Libya"
+  },
+  "1951": {
+   "t": 4720,
+   "p": "Philadelphia",
+   "c": "Northern States of America",
+   "u": "Infantry",
+   "what": "1× Infantry",
+   "n": 1,
+   "dest": true,
+   "no": 8,
+   "byno": 4,
+   "byu": "Cruiser",
+   "byn": 3,
+   "by": "France"
+  },
+  "1955": {
+   "t": 4738,
+   "p": null,
+   "c": "Poland",
+   "u": "Infantry",
+   "what": "7× Infantry",
+   "n": 7,
+   "dest": false,
+   "no": 5,
+   "byno": null,
+   "byu": null,
+   "byn": null,
+   "by": null
+  },
+  "1956": {
+   "t": 4738,
+   "p": null,
+   "c": "Poland",
+   "u": "Infantry",
+   "what": "1× Infantry",
+   "n": 1,
+   "dest": false,
+   "no": 5,
+   "byno": null,
+   "byu": null,
+   "byn": null,
+   "by": null
   }
  },
  "cas": {
@@ -11068,7 +11188,7 @@
    "ts": 1794571213000
   },
   "Northern States of America|France": {
-   "v": 13550,
+   "v": 13977,
    "ts": 1794571213000
   },
   "Canada|France": {
@@ -11128,11 +11248,11 @@
    "ts": 1794579352175
   },
   "Libya|Germany": {
-   "v": 8069,
+   "v": 8176,
    "ts": 1794579366513
   },
   "Germany|Libya": {
-   "v": 16376,
+   "v": 17307,
    "ts": 1794579366513
   },
   "France|Libya": {
@@ -11180,7 +11300,7 @@
    "ts": 1794613428803
   },
   "Poland|Turkey": {
-   "v": 22386,
+   "v": 23924,
    "ts": 1794620556226
   },
   "Turkey|Poland": {
@@ -11188,19 +11308,19 @@
    "ts": 1794620558226
   },
   "Germany|Russian Empire": {
-   "v": 117,
+   "v": 130,
    "ts": 1794622895399
   },
   "Russian Empire|Germany": {
-   "v": 1632,
+   "v": 1900,
    "ts": 1794622895399
   },
   "Greater Finland|Ukraine": {
-   "v": 489,
+   "v": 913,
    "ts": 1794630381983
   },
   "Ukraine|Greater Finland": {
-   "v": 239,
+   "v": 367,
    "ts": 1794630381983
   }
  },
@@ -11281,7 +11401,7 @@
     "Interceptor": 6,
     "Infantry": 10,
     "Armored Car": 13,
-    "Light Tank": 1
+    "Light Tank": 2
    },
    "France": {
     "Infantry": 10,
@@ -11349,7 +11469,7 @@
     "Infantry": 2
    },
    "Northern States of America": {
-    "Infantry": 6,
+    "Infantry": 7,
     "Militia": 1,
     "Armored Car": 3,
     "Artillery": 1,
@@ -11392,7 +11512,7 @@
     "Anti Air": 1,
     "Interceptor": 1,
     "Rocket Artillery": 33,
-    "Infantry": 9,
+    "Infantry": 17,
     "Armored Car": 2
    },
    "Crimea": {
@@ -11454,10 +11574,10 @@
     "Infantry": 6
    },
    "Libya": {
-    "Anti Tank": 1,
-    "Anti Air": 1,
     "Interceptor": 7,
-    "Armored Car": 3
+    "Anti Air": 1,
+    "Armored Car": 3,
+    "Anti Tank": 1
    },
    "Egypt": {
     "Armored Car": 1,
@@ -11490,7 +11610,7 @@
     "Infantry": 6
    },
    "Russian Empire": {
-    "Infantry": 15,
+    "Infantry": 16,
     "Militia": 1,
     "Anti Tank": 3,
     "Armored Car": 1
@@ -11506,7 +11626,7 @@
     "Infantry": 2
    }
   },
-  "ts": 1794632463702
+  "ts": 1794636070554
  },
  "sync": {}
 }
