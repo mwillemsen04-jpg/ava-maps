@@ -4952,31 +4952,34 @@
    "frm": "Algeria"
   },
   "2265": {
-   "t": 5100,
-   "p": "Parma",
-   "c": "Libya",
-   "u": "Revolt",
+   "t": 5539,
+   "p": "St. Etienne",
+   "c": "Algeria",
+   "u": "Infantry",
    "cap": false,
-   "rev": true,
-   "frm": "Algeria"
+   "no": 11,
+   "sn": 1,
+   "frm": "France"
   },
   "2266": {
-   "t": 5100,
-   "p": "Civitavecchia",
-   "c": "Libya",
-   "u": "Revolt",
+   "t": 5548,
+   "p": "Sardarapat",
+   "c": "Turkey",
+   "u": "Armored Car",
    "cap": false,
-   "rev": true,
-   "frm": "Turkey"
+   "no": 8,
+   "sn": 1,
+   "frm": "Ukraine"
   },
   "2267": {
-   "t": 5100,
-   "p": "Ajaccio",
-   "c": "France",
-   "u": "Revolt",
+   "t": 5551,
+   "p": "Orléans",
+   "c": "Libya",
+   "u": "Light Tank",
    "cap": false,
-   "rev": true,
-   "frm": "Algeria"
+   "no": 8,
+   "sn": 19,
+   "frm": "France"
   },
   "2268": {
    "t": 5100,
@@ -4997,39 +5000,43 @@
    "frm": "Algeria"
   },
   "2270": {
-   "t": 5100,
-   "p": "Zurich",
-   "c": "France",
-   "u": "Revolt",
+   "t": 5562,
+   "p": "Grodno",
+   "c": "Turkey",
+   "u": "Rocket Artillery",
    "cap": false,
-   "rev": true,
-   "frm": "Germany"
+   "no": 2,
+   "sn": 41,
+   "frm": "Greater Finland"
   },
   "2271": {
-   "t": 5100,
-   "p": "Olsztyn",
-   "c": "Poland",
-   "u": "Revolt",
+   "t": 5566,
+   "p": "Brescia",
+   "c": "Turkey",
+   "u": "Anti Tank",
    "cap": false,
-   "rev": true,
-   "frm": "Greater Romania"
+   "no": 24,
+   "sn": 1,
+   "frm": "Germany"
   },
   "2272": {
-   "t": 5100,
-   "p": "Odessa",
-   "c": "Ukraine",
-   "u": "Revolt",
+   "t": 5569,
+   "p": "Lyon",
+   "c": "Algeria",
+   "u": "Infantry",
    "cap": false,
-   "rev": true,
-   "frm": "Greater Romania"
+   "no": 15,
+   "sn": 1,
+   "frm": "France"
   },
   "2273": {
-   "t": 5100,
-   "p": "Nizhny Novgorod",
-   "c": "Russian Empire",
-   "u": "Revolt",
+   "t": 5574,
+   "p": "Voroshilovgrad",
+   "c": "Libya",
+   "u": "Infantry",
    "cap": false,
-   "rev": true,
+   "no": 7,
+   "sn": 1,
    "frm": "Ukraine"
   },
   "2274": {
@@ -13240,7 +13247,7 @@
     "Infantry": 2
    }
   },
-  "ts": 1794682861621
+  "ts": 1794686462228
  },
  "sync": {
   "Hamburg": {
@@ -13250,6 +13257,14 @@
   "Hanover": {
    "t": 5521,
    "c": "Germany"
+  },
+  "Ajaccio": {
+   "t": 5581,
+   "c": "France"
+  },
+  "Nizhny Novgorod": {
+   "t": 5581,
+   "c": "Russian Empire"
   }
  }
 }
