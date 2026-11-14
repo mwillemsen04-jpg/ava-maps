@@ -5443,6 +5443,66 @@
    "no": 7,
    "sn": 1,
    "frm": "Ukraine"
+  },
+  "2311": {
+   "t": 5287,
+   "p": "Dijon",
+   "c": "Libya",
+   "u": "Armored Car",
+   "cap": false,
+   "no": 2,
+   "sn": 1,
+   "frm": "France"
+  },
+  "2312": {
+   "t": 5299,
+   "p": "Zugdidi",
+   "c": "Turkey",
+   "u": "Armored Car",
+   "cap": false,
+   "no": 6,
+   "sn": 1,
+   "frm": "Ukraine"
+  },
+  "2313": {
+   "t": 5310,
+   "p": "London",
+   "c": "Algeria",
+   "u": "Infantry",
+   "cap": false,
+   "no": 4,
+   "sn": 2,
+   "frm": "Germany"
+  },
+  "2314": {
+   "t": 5317,
+   "p": "Veliky Novgorod",
+   "c": "Greater Finland",
+   "u": "Infantry",
+   "cap": false,
+   "no": 12,
+   "sn": 1,
+   "frm": "Poland"
+  },
+  "2315": {
+   "t": 5325,
+   "p": "Nancy",
+   "c": "Libya",
+   "u": "Armored Car",
+   "cap": false,
+   "no": 2,
+   "sn": 1,
+   "frm": "France"
+  },
+  "2319": {
+   "t": 5336,
+   "p": "Grodno",
+   "c": "Greater Finland",
+   "u": "Infantry",
+   "cap": false,
+   "no": 10,
+   "sn": 1,
+   "frm": "Greater Romania"
   }
  },
  "loss": {
@@ -11955,6 +12015,20 @@
    "byu": "Armored Car",
    "byn": 1,
    "by": "Turkey"
+  },
+  "2316": {
+   "t": 5330,
+   "p": "Alboran Sea",
+   "c": "France",
+   "u": "Infantry",
+   "what": "1× Infantry",
+   "n": 1,
+   "dest": true,
+   "no": 24,
+   "byno": 26,
+   "byu": "Cruiser",
+   "byn": 4,
+   "by": "Turkey"
   }
  },
  "cas": {
@@ -12471,11 +12545,11 @@
    "ts": 1794657613000
   },
   "France|Algeria": {
-   "v": 13950,
+   "v": 14447,
    "ts": 1794657613000
   },
   "Algeria|France": {
-   "v": 10995,
+   "v": 11256,
    "ts": 1794657613000
   },
   "Ukraine|Greater Romania": {
@@ -12495,7 +12569,7 @@
    "ts": 1794657613000
   },
   "France|Turkey": {
-   "v": 2555,
+   "v": 3438,
    "ts": 1794657613000
   },
   "Turkey|France": {
@@ -12595,11 +12669,11 @@
    "ts": 1794657613000
   },
   "Communist Russia|Russian Empire": {
-   "v": 512,
+   "v": 863,
    "ts": 1794657613000
   },
   "Russian Empire|Communist Russia": {
-   "v": 180,
+   "v": 1042,
    "ts": 1794657613000
   }
  },
@@ -12684,7 +12758,7 @@
     "Light Tank": 2
    },
    "France": {
-    "Infantry": 12,
+    "Infantry": 13,
     "Armored Car": 3,
     "Tank Destroyer": 3,
     "Cruiser": 1,
@@ -12910,7 +12984,7 @@
     "Infantry": 2
    }
   },
-  "ts": 1794668473669
+  "ts": 1794672061105
  },
  "sync": {}
 }
