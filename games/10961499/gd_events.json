@@ -4834,6 +4834,36 @@
    "no": 12,
    "sn": 1,
    "frm": "Poland"
+  },
+  "2023": {
+   "t": 4996,
+   "p": "Danzig",
+   "c": "Greater Romania",
+   "u": "Tank Destroyer",
+   "cap": false,
+   "no": 2,
+   "sn": 2,
+   "frm": "Poland"
+  },
+  "2027": {
+   "t": 5035,
+   "p": "Kempten",
+   "c": "Libya",
+   "u": "Armored Car",
+   "cap": false,
+   "no": 15,
+   "sn": 1,
+   "frm": "Germany"
+  },
+  "2028": {
+   "t": 5039,
+   "p": "Worcester",
+   "c": "Algeria",
+   "u": "Infantry",
+   "cap": false,
+   "no": 13,
+   "sn": 1,
+   "frm": "Germany"
   }
  },
  "loss": {
@@ -11778,11 +11808,11 @@
    "ts": 1794571292593
   },
   "France|Algeria": {
-   "v": 11530,
+   "v": 12192,
    "ts": 1794571837503
   },
   "Algeria|France": {
-   "v": 10342,
+   "v": 10466,
    "ts": 1794571837503
   },
   "Ukraine|Greater Romania": {
@@ -11846,11 +11876,11 @@
    "ts": 1794602202251
   },
   "Ukraine|Turkey": {
-   "v": 141,
+   "v": 288,
    "ts": 1794605934394
   },
   "Turkey|Ukraine": {
-   "v": 104,
+   "v": 174,
    "ts": 1794605934394
   },
   "Algeria|Ukraine": {
@@ -11900,6 +11930,14 @@
   "United Kingdom|Algeria": {
    "v": 950,
    "ts": 1794640466988
+  },
+  "Communist Russia|Russian Empire": {
+   "v": 487,
+   "ts": 1794653491494
+  },
+  "Russian Empire|Communist Russia": {
+   "v": 137,
+   "ts": 1794653491494
   }
  },
  "teams": {
@@ -12148,8 +12186,8 @@
    "Algeria": {
     "Anti Tank": 1,
     "Interceptor": 2,
-    "Armored Car": 2,
-    "Infantry": 1
+    "Infantry": 1,
+    "Armored Car": 2
    },
    "Tunisia": {
     "Anti Air": 1,
@@ -12208,7 +12246,7 @@
     "Infantry": 2
    }
   },
-  "ts": 1794650456064
+  "ts": 1794654069623
  },
  "sync": {}
 }
