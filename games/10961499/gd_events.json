@@ -5153,6 +5153,96 @@
    "no": 12,
    "sn": 1,
    "frm": "Poland"
+  },
+  "2278": {
+   "t": 5101,
+   "p": "Lubny",
+   "c": "Libya",
+   "u": "Infantry",
+   "cap": false,
+   "no": 7,
+   "sn": 1,
+   "frm": "Ukraine"
+  },
+  "2279": {
+   "t": 5111,
+   "p": "Rotterdam",
+   "c": "Libya",
+   "u": "Light Tank",
+   "cap": false,
+   "no": 6,
+   "sn": 1,
+   "frm": "Germany"
+  },
+  "2280": {
+   "t": 5121,
+   "p": "Antwerp",
+   "c": "Libya",
+   "u": "Light Tank",
+   "cap": false,
+   "no": 8,
+   "sn": 19,
+   "frm": "Germany"
+  },
+  "2281": {
+   "t": 5125,
+   "p": "Amsterdam",
+   "c": "Libya",
+   "u": "Light Tank",
+   "cap": false,
+   "no": 6,
+   "sn": 1,
+   "frm": "Germany"
+  },
+  "2282": {
+   "t": 5135,
+   "p": "Bruxelles",
+   "c": "Libya",
+   "u": "Light Tank",
+   "cap": false,
+   "no": 8,
+   "sn": 19,
+   "frm": "Germany"
+  },
+  "2283": {
+   "t": 5146,
+   "p": "Lida",
+   "c": "Greater Romania",
+   "u": "Tank Destroyer",
+   "cap": false,
+   "no": 8,
+   "sn": 1,
+   "frm": "Poland"
+  },
+  "2284": {
+   "t": 5152,
+   "p": "Kremenchuk",
+   "c": "Libya",
+   "u": "Infantry",
+   "cap": false,
+   "no": 7,
+   "sn": 1,
+   "frm": "Ukraine"
+  },
+  "2285": {
+   "t": 5156,
+   "p": "Brugge",
+   "c": "Libya",
+   "u": "Light Tank",
+   "cap": false,
+   "no": 8,
+   "sn": 19,
+   "frm": "Germany"
+  },
+  "2286": {
+   "t": 5157,
+   "p": "Milan",
+   "c": "Algeria",
+   "u": "Infantry",
+   "cap": false,
+   "no": 6,
+   "sn": 1,
+   "frm": "France"
   }
  },
  "loss": {
@@ -11642,647 +11732,647 @@
  "cas": {
   "Austria|Greater Romania": {
    "v": 3260,
-   "ts": 1794571213000
+   "ts": 1794657613000
   },
   "Austria|Germany": {
    "v": 3150,
-   "ts": 1794571213000
+   "ts": 1794657613000
   },
   "Czechoslovakia|Greater Romania": {
    "v": 1620,
-   "ts": 1794571213000
+   "ts": 1794657613000
   },
   "Czechoslovakia|Poland": {
    "v": 810,
-   "ts": 1794571213000
+   "ts": 1794657613000
   },
   "Czechoslovakia|Germany": {
    "v": 3070,
-   "ts": 1794571213000
+   "ts": 1794657613000
   },
   "Yugoslavia|Greater Romania": {
    "v": 17089,
-   "ts": 1794571213000
+   "ts": 1794657613000
   },
   "Yugoslavia|Turkey": {
    "v": 62,
-   "ts": 1794571213000
+   "ts": 1794657613000
   },
   "Yugoslavia|France": {
    "v": 1341,
-   "ts": 1794571213000
+   "ts": 1794657613000
   },
   "Yugoslavia|Algeria": {
    "v": 452,
-   "ts": 1794571213000
+   "ts": 1794657613000
   },
   "Albania|France": {
    "v": 1990,
-   "ts": 1794571213000
+   "ts": 1794657613000
   },
   "Albania|Algeria": {
    "v": 1890,
-   "ts": 1794571213000
+   "ts": 1794657613000
   },
   "Russian Empire|Turkey": {
    "v": 1774,
-   "ts": 1794571213000
+   "ts": 1794657613000
   },
   "Russian Empire|Ukraine": {
    "v": 15626,
-   "ts": 1794571213000
+   "ts": 1794657613000
   },
   "Caucasus|Turkey": {
    "v": 17720,
-   "ts": 1794571213000
+   "ts": 1794657613000
   },
   "Caucasus|Ukraine": {
    "v": 2236,
-   "ts": 1794571213000
+   "ts": 1794657613000
   },
   "Syria|Turkey": {
    "v": 2980,
-   "ts": 1794571213000
+   "ts": 1794657613000
   },
   "Syria|Libya": {
    "v": 1710,
-   "ts": 1794571213000
+   "ts": 1794657613000
   },
   "Italy|France": {
    "v": 14433,
-   "ts": 1794571213000
+   "ts": 1794657613000
   },
   "Italy|Libya": {
    "v": 4874,
-   "ts": 1794571213000
+   "ts": 1794657613000
   },
   "Italy|Turkey": {
    "v": 1050,
-   "ts": 1794571213000
+   "ts": 1794657613000
   },
   "Italy|Germany": {
    "v": 4344,
-   "ts": 1794571213000
+   "ts": 1794657613000
   },
   "Morocco|France": {
    "v": 978,
-   "ts": 1794571213000
+   "ts": 1794657613000
   },
   "Morocco|Algeria": {
    "v": 22273,
-   "ts": 1794571213000
+   "ts": 1794657613000
   },
   "Spain|France": {
    "v": 9140,
-   "ts": 1794571213000
+   "ts": 1794657613000
   },
   "Spain|Algeria": {
    "v": 4092,
-   "ts": 1794571213000
+   "ts": 1794657613000
   },
   "Spain|Libya": {
    "v": 8240,
-   "ts": 1794571213000
+   "ts": 1794657613000
   },
   "Crimea|Turkey": {
    "v": 2010,
-   "ts": 1794571213000
+   "ts": 1794657613000
   },
   "Crimea|Ukraine": {
    "v": 1884,
-   "ts": 1794571213000
+   "ts": 1794657613000
   },
   "Crimea|Greater Romania": {
    "v": 236,
-   "ts": 1794571213000
+   "ts": 1794657613000
   },
   "Algeria|Morocco": {
    "v": 5432,
-   "ts": 1794571213000
+   "ts": 1794657613000
   },
   "Algeria|Portugal": {
    "v": 1050,
-   "ts": 1794571213000
+   "ts": 1794657613000
   },
   "Algeria|Spain": {
    "v": 639,
-   "ts": 1794571213000
+   "ts": 1794657613000
   },
   "Algeria|Albania": {
    "v": 1288,
-   "ts": 1794571213000
+   "ts": 1794657613000
   },
   "Algeria|Yugoslavia": {
    "v": 355,
-   "ts": 1794571213000
+   "ts": 1794657613000
   },
   "Algeria|Melilla": {
    "v": 292,
-   "ts": 1794571213000
+   "ts": 1794657613000
   },
   "Algeria|Cuba": {
    "v": 750,
-   "ts": 1794571213000
+   "ts": 1794657613000
   },
   "Lithuania|Poland": {
    "v": 3070,
-   "ts": 1794571213000
+   "ts": 1794657613000
   },
   "Bulgaria|Greater Romania": {
    "v": 7130,
-   "ts": 1794571213000
+   "ts": 1794657613000
   },
   "Greece|Turkey": {
    "v": 5049,
-   "ts": 1794571213000
+   "ts": 1794657613000
   },
   "Greece|Greater Romania": {
    "v": 2551,
-   "ts": 1794571213000
+   "ts": 1794657613000
   },
   "Greater Romania|Austria": {
    "v": 1059,
-   "ts": 1794571213000
+   "ts": 1794657613000
   },
   "Greater Romania|Yugoslavia": {
    "v": 2178,
-   "ts": 1794571213000
+   "ts": 1794657613000
   },
   "Greater Romania|Bulgaria": {
    "v": 374,
-   "ts": 1794571213000
+   "ts": 1794657613000
   },
   "Greater Romania|Czechoslovakia": {
    "v": 142,
-   "ts": 1794571213000
+   "ts": 1794657613000
   },
   "Greater Romania|Cossack Republic": {
    "v": 187,
-   "ts": 1794571213000
+   "ts": 1794657613000
   },
   "Greater Romania|Crimea": {
    "v": 768,
-   "ts": 1794571213000
+   "ts": 1794657613000
   },
   "Greater Romania|Greece": {
    "v": 287,
-   "ts": 1794571213000
+   "ts": 1794657613000
   },
   "France|Spain": {
    "v": 5824,
-   "ts": 1794571213000
+   "ts": 1794657613000
   },
   "France|Albania": {
    "v": 1065,
-   "ts": 1794571213000
+   "ts": 1794657613000
   },
   "France|Italy": {
    "v": 9550,
-   "ts": 1794571213000
+   "ts": 1794657613000
   },
   "France|Morocco": {
    "v": 52,
-   "ts": 1794571213000
+   "ts": 1794657613000
   },
   "France|Yugoslavia": {
    "v": 236,
-   "ts": 1794571213000
+   "ts": 1794657613000
   },
   "France|Portugal": {
    "v": 848,
-   "ts": 1794571213000
+   "ts": 1794657613000
   },
   "France|Canada": {
    "v": 10,
-   "ts": 1794571213000
+   "ts": 1794657613000
   },
   "France|Northern States of America": {
    "v": 2505,
-   "ts": 1794571213000
+   "ts": 1794657613000
   },
   "Libya|Tunisia": {
    "v": 2276,
-   "ts": 1794571213000
+   "ts": 1794657613000
   },
   "Libya|Egypt": {
    "v": 5199,
-   "ts": 1794571213000
+   "ts": 1794657613000
   },
   "Libya|Italy": {
    "v": 2295,
-   "ts": 1794571213000
+   "ts": 1794657613000
   },
   "Libya|Syria": {
    "v": 284,
-   "ts": 1794571213000
+   "ts": 1794657613000
   },
   "Libya|Iraq": {
    "v": 509,
-   "ts": 1794571213000
+   "ts": 1794657613000
   },
   "Libya|Spain": {
    "v": 2530,
-   "ts": 1794571213000
+   "ts": 1794657613000
   },
   "Libya|Portugal": {
    "v": 283,
-   "ts": 1794571213000
+   "ts": 1794657613000
   },
   "Libya|Saudi-Arabia": {
    "v": 1935,
-   "ts": 1794571213000
+   "ts": 1794657613000
   },
   "Libya|Malta": {
    "v": 27,
-   "ts": 1794571213000
+   "ts": 1794657613000
   },
   "Tunisia|Libya": {
    "v": 7240,
-   "ts": 1794571213000
+   "ts": 1794657613000
   },
   "Egypt|Libya": {
    "v": 18287,
-   "ts": 1794571213000
+   "ts": 1794657613000
   },
   "Egypt|Turkey": {
    "v": 913,
-   "ts": 1794571213000
+   "ts": 1794657613000
   },
   "Germany|Austria": {
    "v": 1120,
-   "ts": 1794571213000
+   "ts": 1794657613000
   },
   "Germany|Czechoslovakia": {
    "v": 1001,
-   "ts": 1794571213000
+   "ts": 1794657613000
   },
   "Germany|Luxembourg": {
    "v": 985,
-   "ts": 1794571213000
+   "ts": 1794657613000
   },
   "Germany|United Kingdom": {
    "v": 8534,
-   "ts": 1794571213000
+   "ts": 1794657613000
   },
   "Germany|Norway": {
    "v": 5036,
-   "ts": 1794571213000
+   "ts": 1794657613000
   },
   "Germany|Denmark": {
    "v": 2311,
-   "ts": 1794571213000
+   "ts": 1794657613000
   },
   "Germany|Belgium": {
    "v": 1956,
-   "ts": 1794571213000
+   "ts": 1794657613000
   },
   "Germany|Italy": {
    "v": 724,
-   "ts": 1794571213000
+   "ts": 1794657613000
   },
   "Germany|Switzerland": {
    "v": 2518,
-   "ts": 1794571213000
+   "ts": 1794657613000
   },
   "Germany|Netherlands": {
    "v": 1341,
-   "ts": 1794571213000
+   "ts": 1794657613000
   },
   "Ukraine|Caucasus": {
    "v": 1075,
-   "ts": 1794571213000
+   "ts": 1794657613000
   },
   "Ukraine|Cossack Republic": {
    "v": 2315,
-   "ts": 1794571213000
+   "ts": 1794657613000
   },
   "Ukraine|Crimea": {
    "v": 1334,
-   "ts": 1794571213000
+   "ts": 1794657613000
   },
   "Ukraine|Russian Empire": {
    "v": 8381,
-   "ts": 1794571213000
+   "ts": 1794657613000
   },
   "Ukraine|Communist Russia": {
    "v": 1907,
-   "ts": 1794571213000
+   "ts": 1794657613000
   },
   "Luxembourg|Germany": {
    "v": 2000,
-   "ts": 1794571213000
+   "ts": 1794657613000
   },
   "Cossack Republic|Ukraine": {
    "v": 6103,
-   "ts": 1794571213000
+   "ts": 1794657613000
   },
   "Cossack Republic|Turkey": {
    "v": 2164,
-   "ts": 1794571213000
+   "ts": 1794657613000
   },
   "Cossack Republic|Greater Romania": {
    "v": 134,
-   "ts": 1794571213000
+   "ts": 1794657613000
   },
   "Turkey|Caucasus": {
    "v": 2622,
-   "ts": 1794571213000
+   "ts": 1794657613000
   },
   "Turkey|Greece": {
    "v": 47,
-   "ts": 1794571213000
+   "ts": 1794657613000
   },
   "Turkey|Crimea": {
    "v": 4,
-   "ts": 1794571213000
+   "ts": 1794657613000
   },
   "Turkey|Russian Empire": {
    "v": 586,
-   "ts": 1794571213000
+   "ts": 1794657613000
   },
   "Turkey|Egypt": {
    "v": 91,
-   "ts": 1794571213000
+   "ts": 1794657613000
   },
   "Turkey|Cossack Republic": {
    "v": 164,
-   "ts": 1794571213000
+   "ts": 1794657613000
   },
   "Turkey|Italy": {
    "v": 69,
-   "ts": 1794571213000
+   "ts": 1794657613000
   },
   "Poland|Belarus": {
    "v": 1818,
-   "ts": 1794571213000
+   "ts": 1794657613000
   },
   "Poland|Lithuania": {
    "v": 41,
-   "ts": 1794571213000
+   "ts": 1794657613000
   },
   "Poland|Greater Finland": {
    "v": 2421,
-   "ts": 1794571213000
+   "ts": 1794657613000
   },
   "Poland|Latvia": {
    "v": 211,
-   "ts": 1794571213000
+   "ts": 1794657613000
   },
   "Poland|Communist Russia": {
    "v": 2250,
-   "ts": 1794571213000
+   "ts": 1794657613000
   },
   "Poland|Sweden": {
    "v": 3395,
-   "ts": 1794571213000
+   "ts": 1794657613000
   },
   "Poland|Estonia": {
    "v": 329,
-   "ts": 1794571213000
+   "ts": 1794657613000
   },
   "Belarus|Poland": {
    "v": 6550,
-   "ts": 1794571213000
+   "ts": 1794657613000
   },
   "Portugal|France": {
    "v": 1895,
-   "ts": 1794571213000
+   "ts": 1794657613000
   },
   "Portugal|Algeria": {
    "v": 315,
-   "ts": 1794571213000
+   "ts": 1794657613000
   },
   "Portugal|Libya": {
    "v": 1050,
-   "ts": 1794571213000
+   "ts": 1794657613000
   },
   "Iraq|Turkey": {
    "v": 582,
-   "ts": 1794571213000
+   "ts": 1794657613000
   },
   "Iraq|Libya": {
    "v": 3508,
-   "ts": 1794571213000
+   "ts": 1794657613000
   },
   "United Kingdom|Germany": {
    "v": 18100,
-   "ts": 1794571213000
+   "ts": 1794657613000
   },
   "Norway|Germany": {
    "v": 3700,
-   "ts": 1794571213000
+   "ts": 1794657613000
   },
   "Denmark|Germany": {
    "v": 4400,
-   "ts": 1794571213000
+   "ts": 1794657613000
   },
   "Greater Finland|Poland": {
    "v": 9200,
-   "ts": 1794571213000
+   "ts": 1794657613000
   },
   "Belgium|Germany": {
    "v": 5900,
-   "ts": 1794571213000
+   "ts": 1794657613000
   },
   "Latvia|Poland": {
    "v": 3961,
-   "ts": 1794571213000
+   "ts": 1794657613000
   },
   "Communist Russia|Poland": {
    "v": 12610,
-   "ts": 1794571213000
+   "ts": 1794657613000
   },
   "Communist Russia|Ukraine": {
    "v": 8038,
-   "ts": 1794571213000
+   "ts": 1794657613000
   },
   "Melilla|Algeria": {
    "v": 1900,
-   "ts": 1794571213000
+   "ts": 1794657613000
   },
   "Sweden|Poland": {
    "v": 10390,
-   "ts": 1794571213000
+   "ts": 1794657613000
   },
   "Saudi-Arabia|Libya": {
    "v": 4650,
-   "ts": 1794571213000
+   "ts": 1794657613000
   },
   "Malta|Turkey": {
    "v": 913,
-   "ts": 1794571213000
+   "ts": 1794657613000
   },
   "Malta|Libya": {
    "v": 37,
-   "ts": 1794571213000
+   "ts": 1794657613000
   },
   "Estonia|Poland": {
    "v": 3900,
-   "ts": 1794571213000
+   "ts": 1794657613000
   },
   "Cuba|Algeria": {
    "v": 341,
-   "ts": 1794571213000
+   "ts": 1794657613000
   },
   "Switzerland|Germany": {
    "v": 5970,
-   "ts": 1794571213000
+   "ts": 1794657613000
   },
   "Netherlands|Germany": {
    "v": 6253,
-   "ts": 1794571213000
+   "ts": 1794657613000
   },
   "Northern States of America|France": {
    "v": 15111,
-   "ts": 1794571213000
+   "ts": 1794657613000
   },
   "Canada|France": {
    "v": 2751,
-   "ts": 1794571213000
+   "ts": 1794657613000
   },
   "Germany|Turkey": {
    "v": 931,
-   "ts": 1794571216668
+   "ts": 1794657613000
   },
   "Algeria|Poland": {
    "v": 276,
-   "ts": 1794571292593
+   "ts": 1794657613000
   },
   "Poland|Algeria": {
    "v": 3005,
-   "ts": 1794571292593
+   "ts": 1794657613000
   },
   "France|Algeria": {
    "v": 12845,
-   "ts": 1794571837503
+   "ts": 1794657613000
   },
   "Algeria|France": {
    "v": 10552,
-   "ts": 1794571837503
+   "ts": 1794657613000
   },
   "Ukraine|Greater Romania": {
    "v": 273,
-   "ts": 1794574236278
+   "ts": 1794657613000
   },
   "Greater Romania|Ukraine": {
    "v": 667,
-   "ts": 1794574236278
+   "ts": 1794657613000
   },
   "Libya|Ukraine": {
    "v": 3402,
-   "ts": 1794574936580
+   "ts": 1794657613000
   },
   "Ukraine|Libya": {
    "v": 10950,
-   "ts": 1794574936580
+   "ts": 1794657613000
   },
   "France|Turkey": {
    "v": 2555,
-   "ts": 1794578346460
+   "ts": 1794657613000
   },
   "Turkey|France": {
    "v": 2062,
-   "ts": 1794578346460
+   "ts": 1794657613000
   },
   "Germany|Algeria": {
    "v": 9379,
-   "ts": 1794579336054
+   "ts": 1794657613000
   },
   "Algeria|Germany": {
    "v": 2970,
-   "ts": 1794579352175
+   "ts": 1794657613000
   },
   "Libya|Germany": {
    "v": 8570,
-   "ts": 1794579366513
+   "ts": 1794657613000
   },
   "Germany|Libya": {
    "v": 20529,
-   "ts": 1794579366513
+   "ts": 1794657613000
   },
   "France|Libya": {
    "v": 3966,
-   "ts": 1794579618375
+   "ts": 1794657613000
   },
   "Libya|France": {
    "v": 4069,
-   "ts": 1794579618375
+   "ts": 1794657613000
   },
   "Libya|Poland": {
    "v": 1160,
-   "ts": 1794601104896
+   "ts": 1794657613000
   },
   "Greater Romania|Poland": {
    "v": 6609,
-   "ts": 1794602200251
+   "ts": 1794657613000
   },
   "Poland|Greater Romania": {
    "v": 16117,
-   "ts": 1794602202251
+   "ts": 1794657613000
   },
   "Ukraine|Turkey": {
-   "v": 615,
-   "ts": 1794605934394
+   "v": 827,
+   "ts": 1794657613000
   },
   "Turkey|Ukraine": {
-   "v": 398,
-   "ts": 1794605934394
+   "v": 562,
+   "ts": 1794657613000
   },
   "Algeria|Ukraine": {
    "v": 256,
-   "ts": 1794607183455
+   "ts": 1794657613000
   },
   "Ukraine|Algeria": {
    "v": 1726,
-   "ts": 1794607183455
+   "ts": 1794657613000
   },
   "Turkey|Germany": {
    "v": 455,
-   "ts": 1794612602027
+   "ts": 1794657613000
   },
   "Poland|Libya": {
    "v": 1288,
-   "ts": 1794613428803
+   "ts": 1794657613000
   },
   "Poland|Turkey": {
    "v": 24671,
-   "ts": 1794620556226
+   "ts": 1794657613000
   },
   "Turkey|Poland": {
    "v": 7052,
-   "ts": 1794620558226
+   "ts": 1794657613000
   },
   "Germany|Russian Empire": {
    "v": 130,
-   "ts": 1794622895399
+   "ts": 1794657613000
   },
   "Russian Empire|Germany": {
    "v": 1900,
-   "ts": 1794622895399
+   "ts": 1794657613000
   },
   "Greater Finland|Ukraine": {
    "v": 1050,
-   "ts": 1794630381983
+   "ts": 1794657613000
   },
   "Ukraine|Greater Finland": {
    "v": 404,
-   "ts": 1794630381983
+   "ts": 1794657613000
   },
   "Algeria|United Kingdom": {
-   "v": 1201,
-   "ts": 1794640466988
+   "v": 1589,
+   "ts": 1794657613000
   },
   "United Kingdom|Algeria": {
-   "v": 1366,
-   "ts": 1794640466988
+   "v": 1697,
+   "ts": 1794657613000
   },
   "Communist Russia|Russian Empire": {
    "v": 512,
-   "ts": 1794653491494
+   "ts": 1794657613000
   },
   "Russian Empire|Communist Russia": {
    "v": 180,
-   "ts": 1794653491494
+   "ts": 1794657613000
   }
  },
  "teams": {
@@ -12592,7 +12682,7 @@
     "Infantry": 2
    }
   },
-  "ts": 1794657666152
+  "ts": 1794661262611
  },
  "sync": {}
 }
