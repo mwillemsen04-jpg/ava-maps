@@ -5503,6 +5503,16 @@
    "no": 10,
    "sn": 1,
    "frm": "Greater Romania"
+  },
+  "2320": {
+   "t": 5345,
+   "p": "Bern",
+   "c": "Libya",
+   "u": "Armored Car",
+   "cap": false,
+   "no": 15,
+   "sn": 1,
+   "frm": "Germany"
   }
  },
  "loss": {
@@ -12029,6 +12039,20 @@
    "byu": "Cruiser",
    "byn": 4,
    "by": "Turkey"
+  },
+  "2321": {
+   "t": 5350,
+   "p": null,
+   "c": "France",
+   "u": "Interceptor",
+   "what": "1× Interceptor",
+   "n": 1,
+   "dest": false,
+   "no": 20,
+   "byno": null,
+   "byu": null,
+   "byn": null,
+   "by": null
   }
  },
  "cas": {
@@ -12569,7 +12593,7 @@
    "ts": 1794657613000
   },
   "France|Turkey": {
-   "v": 3438,
+   "v": 3786,
    "ts": 1794657613000
   },
   "Turkey|France": {
@@ -12758,11 +12782,12 @@
     "Light Tank": 2
    },
    "France": {
-    "Infantry": 13,
-    "Armored Car": 3,
+    "Interceptor": 1,
     "Tank Destroyer": 3,
+    "Submarine": 2,
     "Cruiser": 1,
-    "Submarine": 2
+    "Infantry": 13,
+    "Armored Car": 3
    },
    "United Kingdom": {
     "Anti Tank": 1,
@@ -12984,7 +13009,7 @@
     "Infantry": 2
    }
   },
-  "ts": 1794672061105
+  "ts": 1794672680533
  },
  "sync": {}
 }
