@@ -4866,22 +4866,24 @@
    "frm": "Germany"
   },
   "2256": {
-   "t": 5100,
-   "p": "Hamburg",
-   "c": "Germany",
-   "u": "Revolt",
+   "t": 5492,
+   "p": "Kerch",
+   "c": "Greater Romania",
+   "u": "Armored Car",
    "cap": false,
-   "rev": true,
-   "frm": "Libya"
+   "no": 11,
+   "sn": 1,
+   "frm": "Ukraine"
   },
   "2257": {
-   "t": 5100,
-   "p": "Hanover",
-   "c": "Germany",
-   "u": "Revolt",
+   "t": 5494,
+   "p": "Svetlograd",
+   "c": "Turkey",
+   "u": "Armored Car",
    "cap": false,
-   "rev": true,
-   "frm": "Libya"
+   "no": 6,
+   "sn": 1,
+   "frm": "Ukraine"
   },
   "2258": {
    "t": 5100,
@@ -4911,31 +4913,34 @@
    "frm": "Algeria"
   },
   "2261": {
-   "t": 5100,
-   "p": "Tirana",
+   "t": 5504,
+   "p": "Strasbourg",
    "c": "Libya",
-   "u": "Revolt",
+   "u": "Armored Car",
    "cap": false,
-   "rev": true,
-   "frm": "Algeria"
+   "no": 15,
+   "sn": 1,
+   "frm": "France"
   },
   "2262": {
-   "t": 5100,
-   "p": "Turin",
-   "c": "Libya",
-   "u": "Revolt",
+   "t": 5506,
+   "p": "Olsztyn",
+   "c": "Greater Finland",
+   "u": "Infantry",
    "cap": false,
-   "rev": true,
-   "frm": "Algeria"
+   "no": 10,
+   "sn": 1,
+   "frm": "Poland"
   },
   "2263": {
-   "t": 5100,
-   "p": "Genoa",
-   "c": "Turkey",
-   "u": "Revolt",
+   "t": 5518,
+   "p": "Maladzyechna",
+   "c": "Greater Finland",
+   "u": "Infantry",
    "cap": false,
-   "rev": true,
-   "frm": "Algeria"
+   "no": 21,
+   "sn": 1,
+   "frm": "Poland"
   },
   "2264": {
    "t": 5100,
@@ -5603,6 +5608,16 @@
    "no": 7,
    "sn": 1,
    "frm": "Ukraine"
+  },
+  "2340": {
+   "t": 5466,
+   "p": "Mazagan",
+   "c": "Algeria",
+   "u": "Infantry",
+   "cap": false,
+   "no": 9,
+   "sn": 1,
+   "frm": "Morocco"
   }
  },
  "loss": {
@@ -12132,17 +12147,17 @@
   },
   "2321": {
    "t": 5350,
-   "p": null,
+   "p": "Oran",
    "c": "France",
    "u": "Interceptor",
    "what": "1× Interceptor",
    "n": 1,
-   "dest": false,
+   "dest": true,
    "no": 20,
-   "byno": null,
-   "byu": null,
-   "byn": null,
-   "by": null
+   "byno": 5,
+   "byu": "Interceptor",
+   "byn": 1,
+   "by": "Algeria"
   },
   "2324": {
    "t": 5361,
@@ -12160,31 +12175,31 @@
   },
   "2330": {
    "t": 5410,
-   "p": null,
+   "p": "Oran",
    "c": "France",
    "u": "Interceptor",
    "what": "1× Interceptor",
    "n": 1,
-   "dest": false,
+   "dest": true,
    "no": 20,
-   "byno": null,
-   "byu": null,
-   "byn": null,
-   "by": null
+   "byno": 5,
+   "byu": "Interceptor",
+   "byn": 1,
+   "by": "Algeria"
   },
   "2333": {
    "t": 5440,
-   "p": null,
+   "p": "Oran",
    "c": "France",
    "u": "Interceptor",
    "what": "1× Interceptor",
    "n": 1,
-   "dest": false,
+   "dest": true,
    "no": 20,
-   "byno": null,
-   "byu": null,
-   "byn": null,
-   "by": null
+   "byno": 5,
+   "byu": "Interceptor",
+   "byn": 1,
+   "by": "Algeria"
   },
   "2335": {
    "t": 5441,
@@ -12202,31 +12217,73 @@
   },
   "2336": {
    "t": 5444,
-   "p": null,
+   "p": "Oran",
    "c": "France",
    "u": "Interceptor",
    "what": "1× Interceptor",
    "n": 1,
-   "dest": false,
+   "dest": true,
    "no": 20,
-   "byno": null,
-   "byu": null,
-   "byn": null,
-   "by": null
+   "byno": 5,
+   "byu": "Interceptor",
+   "byn": 1,
+   "by": "Algeria"
   },
   "2338": {
    "t": 5448,
-   "p": null,
+   "p": "Oran",
    "c": "France",
    "u": "Interceptor",
    "what": "1× Interceptor",
    "n": 1,
-   "dest": false,
+   "dest": true,
    "no": 20,
-   "byno": null,
-   "byu": null,
-   "byn": null,
-   "by": null
+   "byno": 5,
+   "byu": "Interceptor",
+   "byn": 1,
+   "by": "Algeria"
+  },
+  "2341": {
+   "t": 5470,
+   "p": "Oran",
+   "c": "France",
+   "u": "Interceptor",
+   "what": "2× Interceptor",
+   "n": 2,
+   "dest": true,
+   "no": 20,
+   "byno": 5,
+   "byu": "Interceptor",
+   "byn": 1,
+   "by": "Algeria"
+  },
+  "2342": {
+   "t": 5478,
+   "p": "Oran",
+   "c": "France",
+   "u": "Interceptor",
+   "what": "1× Interceptor",
+   "n": 1,
+   "dest": true,
+   "no": 20,
+   "byno": 5,
+   "byu": "Interceptor",
+   "byn": 1,
+   "by": "Algeria"
+  },
+  "2259": {
+   "t": 5498,
+   "p": "Oran",
+   "c": "France",
+   "u": "Interceptor",
+   "what": "2× Interceptor",
+   "n": 2,
+   "dest": true,
+   "no": 20,
+   "byno": 5,
+   "byu": "Interceptor",
+   "byn": 1,
+   "by": "Algeria"
   }
  },
  "cas": {
@@ -12743,11 +12800,11 @@
    "ts": 1794657613000
   },
   "France|Algeria": {
-   "v": 15859,
+   "v": 16092,
    "ts": 1794657613000
   },
   "Algeria|France": {
-   "v": 11707,
+   "v": 11730,
    "ts": 1794657613000
   },
   "Ukraine|Greater Romania": {
@@ -12767,7 +12824,7 @@
    "ts": 1794657613000
   },
   "France|Turkey": {
-   "v": 4600,
+   "v": 4926,
    "ts": 1794657613000
   },
   "Turkey|France": {
@@ -12956,7 +13013,7 @@
     "Light Tank": 2
    },
    "France": {
-    "Interceptor": 5,
+    "Interceptor": 10,
     "Tank Destroyer": 3,
     "Submarine": 2,
     "Cruiser": 1,
@@ -13183,7 +13240,16 @@
     "Infantry": 2
    }
   },
-  "ts": 1794679257820
+  "ts": 1794682861621
  },
- "sync": {}
+ "sync": {
+  "Hamburg": {
+   "t": 5521,
+   "c": "Germany"
+  },
+  "Hanover": {
+   "t": 5521,
+   "c": "Germany"
+  }
+ }
 }
