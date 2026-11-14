@@ -5543,6 +5543,26 @@
    "no": 8,
    "sn": 1,
    "frm": "Poland"
+  },
+  "2327": {
+   "t": 5392,
+   "p": "Stalino",
+   "c": "Libya",
+   "u": "Infantry",
+   "cap": false,
+   "no": 7,
+   "sn": 1,
+   "frm": "Ukraine"
+  },
+  "2329": {
+   "t": 5399,
+   "p": "Šiauliai",
+   "c": "Greater Finland",
+   "u": "Infantry",
+   "cap": false,
+   "no": 14,
+   "sn": 1,
+   "frm": "Poland"
   }
  },
  "loss": {
@@ -12613,11 +12633,11 @@
    "ts": 1794657613000
   },
   "France|Algeria": {
-   "v": 14570,
+   "v": 14876,
    "ts": 1794657613000
   },
   "Algeria|France": {
-   "v": 11362,
+   "v": 11471,
    "ts": 1794657613000
   },
   "Ukraine|Greater Romania": {
@@ -12637,7 +12657,7 @@
    "ts": 1794657613000
   },
   "France|Turkey": {
-   "v": 3786,
+   "v": 4043,
    "ts": 1794657613000
   },
   "Turkey|France": {
@@ -13053,7 +13073,7 @@
     "Infantry": 2
    }
   },
-  "ts": 1794674084999
+  "ts": 1794675660741
  },
  "sync": {}
 }
