@@ -5563,6 +5563,46 @@
    "no": 14,
    "sn": 1,
    "frm": "Poland"
+  },
+  "2331": {
+   "t": 5426,
+   "p": "Barysaw",
+   "c": "Greater Romania",
+   "u": "Tank Destroyer",
+   "cap": false,
+   "no": 8,
+   "sn": 1,
+   "frm": "Poland"
+  },
+  "2332": {
+   "t": 5429,
+   "p": "Voroshilovsk",
+   "c": "Turkey",
+   "u": "Armored Car",
+   "cap": false,
+   "no": 6,
+   "sn": 1,
+   "frm": "Ukraine"
+  },
+  "2337": {
+   "t": 5447,
+   "p": "Nalchik",
+   "c": "Turkey",
+   "u": "Armored Car",
+   "cap": false,
+   "no": 5,
+   "sn": 1,
+   "frm": "Ukraine"
+  },
+  "2339": {
+   "t": 5459,
+   "p": "Mariupol",
+   "c": "Libya",
+   "u": "Infantry",
+   "cap": false,
+   "no": 7,
+   "sn": 1,
+   "frm": "Ukraine"
   }
  },
  "loss": {
@@ -12117,6 +12157,76 @@
    "byu": "Militia",
    "byn": 2,
    "by": "Communist Russia"
+  },
+  "2330": {
+   "t": 5410,
+   "p": null,
+   "c": "France",
+   "u": "Interceptor",
+   "what": "1× Interceptor",
+   "n": 1,
+   "dest": false,
+   "no": 20,
+   "byno": null,
+   "byu": null,
+   "byn": null,
+   "by": null
+  },
+  "2333": {
+   "t": 5440,
+   "p": null,
+   "c": "France",
+   "u": "Interceptor",
+   "what": "1× Interceptor",
+   "n": 1,
+   "dest": false,
+   "no": 20,
+   "byno": null,
+   "byu": null,
+   "byn": null,
+   "by": null
+  },
+  "2335": {
+   "t": 5441,
+   "p": "Oran",
+   "c": "Algeria",
+   "u": "Armored Car",
+   "what": "1× Armored Car",
+   "n": 1,
+   "dest": true,
+   "no": 22,
+   "byno": 20,
+   "byu": "Interceptor",
+   "byn": 10,
+   "by": "France"
+  },
+  "2336": {
+   "t": 5444,
+   "p": null,
+   "c": "France",
+   "u": "Interceptor",
+   "what": "1× Interceptor",
+   "n": 1,
+   "dest": false,
+   "no": 20,
+   "byno": null,
+   "byu": null,
+   "byn": null,
+   "by": null
+  },
+  "2338": {
+   "t": 5448,
+   "p": null,
+   "c": "France",
+   "u": "Interceptor",
+   "what": "1× Interceptor",
+   "n": 1,
+   "dest": false,
+   "no": 20,
+   "byno": null,
+   "byu": null,
+   "byn": null,
+   "by": null
   }
  },
  "cas": {
@@ -12633,11 +12743,11 @@
    "ts": 1794657613000
   },
   "France|Algeria": {
-   "v": 14876,
+   "v": 15859,
    "ts": 1794657613000
   },
   "Algeria|France": {
-   "v": 11471,
+   "v": 11707,
    "ts": 1794657613000
   },
   "Ukraine|Greater Romania": {
@@ -12657,7 +12767,7 @@
    "ts": 1794657613000
   },
   "France|Turkey": {
-   "v": 4043,
+   "v": 4600,
    "ts": 1794657613000
   },
   "Turkey|France": {
@@ -12846,7 +12956,7 @@
     "Light Tank": 2
    },
    "France": {
-    "Interceptor": 1,
+    "Interceptor": 5,
     "Tank Destroyer": 3,
     "Submarine": 2,
     "Cruiser": 1,
@@ -13014,7 +13124,7 @@
     "Anti Tank": 1,
     "Interceptor": 2,
     "Infantry": 1,
-    "Armored Car": 2
+    "Armored Car": 3
    },
    "Tunisia": {
     "Anti Air": 1,
@@ -13073,7 +13183,7 @@
     "Infantry": 2
    }
   },
-  "ts": 1794675660741
+  "ts": 1794679257820
  },
  "sync": {}
 }
