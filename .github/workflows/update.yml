@@ -113,6 +113,16 @@ jobs:
           COW_PASSWORD: ${{ secrets.COW_PASSWORD }}
         run: python scripts/run.py
 
+      # planner-style protection: push the built pages + maps to the backend,
+      # which serves them behind the clan password. Harmless if it fails.
+      - name: Upload maps to the protected backend
+        if: steps.due.outputs.due == 'true'
+        continue-on-error: true
+        env:
+          BACKEND_URL: ${{ secrets.BACKEND_URL }}
+          CLAN_PASSWORD: ${{ secrets.CLAN_PASSWORD }}
+        run: node scripts/upload_protected.js
+
       - name: Save history
         if: steps.due.outputs.due == 'true'
         run: |
@@ -123,6 +133,11 @@ jobs:
           # someone may have pushed in the meantime (e.g. from GitHub Desktop): take their changes first
           for i in 1 2 3 4 5; do git push && exit 0; sleep $((i*3)); git pull --rebase --no-edit || { git rebase --abort; exit 1; }; done
           exit 1
+
+      # the protected viewer on a test path, so it can be tried before switching over
+      - name: Add the protected viewer (test path)
+        if: steps.due.outputs.due == 'true'
+        run: mkdir -p site/viewer && cp viewer/index.html site/viewer/index.html
 
       - uses: actions/configure-pages@v5
         if: steps.due.outputs.due == 'true'
