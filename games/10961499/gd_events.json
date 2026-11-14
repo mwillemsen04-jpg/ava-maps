@@ -4654,6 +4654,66 @@
    "no": 3,
    "sn": 6,
    "frm": "Libya"
+  },
+  "1989": {
+   "t": 4874,
+   "p": "Bristol",
+   "c": "Algeria",
+   "u": "Infantry",
+   "cap": false,
+   "no": 13,
+   "sn": 3,
+   "frm": "United Kingdom"
+  },
+  "1992": {
+   "t": 4881,
+   "p": "Philadelphia",
+   "c": "France",
+   "u": "Infantry",
+   "cap": false,
+   "no": 7,
+   "sn": 1,
+   "frm": "Northern States of America"
+  },
+  "1995": {
+   "t": 4882,
+   "p": "Ivanovo",
+   "c": "Communist Russia",
+   "u": "Infantry",
+   "cap": false,
+   "no": 2,
+   "sn": 2,
+   "frm": "Ukraine"
+  },
+  "1996": {
+   "t": 4885,
+   "p": "Innsbruck",
+   "c": "Libya",
+   "u": "Armored Car",
+   "cap": false,
+   "no": 15,
+   "sn": 1,
+   "frm": "Germany"
+  },
+  "1997": {
+   "t": 4886,
+   "p": "Algiers",
+   "c": "France",
+   "u": "Infantry",
+   "cap": true,
+   "no": 2,
+   "sn": 1,
+   "frm": "Algeria"
+  },
+  "1998": {
+   "t": 4886,
+   "p": "Zugdidi",
+   "c": "Ukraine",
+   "u": "Infantry",
+   "cap": false,
+   "no": 4,
+   "sn": 1,
+   "frm": "Turkey"
   }
  },
  "loss": {
@@ -10007,17 +10067,17 @@
   },
   "1827": {
    "t": 4296,
-   "p": null,
+   "p": "Ivanovo",
    "c": "Ukraine",
    "u": "Infantry",
    "what": "1× Infantry",
    "n": 1,
-   "dest": false,
+   "dest": true,
    "no": 18,
-   "byno": null,
-   "byu": null,
-   "byn": null,
-   "by": null
+   "byno": 2,
+   "byu": "Infantry",
+   "byn": 2,
+   "by": "Communist Russia"
   },
   "1831": {
    "t": 4322,
@@ -10917,17 +10977,17 @@
   },
   "1977": {
    "t": 4822,
-   "p": null,
+   "p": "Ivanovo",
    "c": "Ukraine",
    "u": "Infantry",
    "what": "1× Infantry",
    "n": 1,
-   "dest": false,
+   "dest": true,
    "no": 18,
-   "byno": null,
-   "byu": null,
-   "byn": null,
-   "by": null
+   "byno": 2,
+   "byu": "Infantry",
+   "byn": 2,
+   "by": "Communist Russia"
   },
   "1978": {
    "t": 4828,
@@ -10945,17 +11005,59 @@
   },
   "1984": {
    "t": 4852,
-   "p": null,
+   "p": "Ivanovo",
    "c": "Ukraine",
    "u": "Infantry",
    "what": "1× Infantry",
    "n": 1,
-   "dest": false,
+   "dest": true,
    "no": 18,
-   "byno": null,
-   "byu": null,
-   "byn": null,
-   "by": null
+   "byno": 2,
+   "byu": "Infantry",
+   "byn": 2,
+   "by": "Communist Russia"
+  },
+  "1987": {
+   "t": 4874,
+   "p": "Bristol",
+   "c": "United Kingdom",
+   "u": "Infantry",
+   "what": "1× Infantry",
+   "n": 1,
+   "dest": true,
+   "no": 3,
+   "byno": 13,
+   "byu": "Infantry",
+   "byn": 3,
+   "by": "Algeria"
+  },
+  "1990": {
+   "t": 4875,
+   "p": "Uman",
+   "c": "Ukraine",
+   "u": "Armored Car",
+   "what": "1× Armored Car",
+   "n": 1,
+   "dest": true,
+   "no": 5,
+   "byno": 16,
+   "byu": "Tactical Bomber",
+   "byn": 16,
+   "by": "Algeria"
+  },
+  "1993": {
+   "t": 4882,
+   "p": "Ivanovo",
+   "c": "Ukraine",
+   "u": "Infantry",
+   "what": "1× Infantry",
+   "n": 1,
+   "dest": true,
+   "no": 18,
+   "byno": 2,
+   "byu": "Infantry",
+   "byn": 2,
+   "by": "Communist Russia"
   }
  },
  "cas": {
@@ -11284,7 +11386,7 @@
    "ts": 1794571213000
   },
   "Ukraine|Communist Russia": {
-   "v": 1676,
+   "v": 1907,
    "ts": 1794571213000
   },
   "Luxembourg|Germany": {
@@ -11412,7 +11514,7 @@
    "ts": 1794571213000
   },
   "Communist Russia|Ukraine": {
-   "v": 7945,
+   "v": 8038,
    "ts": 1794571213000
   },
   "Melilla|Algeria": {
@@ -11452,7 +11554,7 @@
    "ts": 1794571213000
   },
   "Northern States of America|France": {
-   "v": 14524,
+   "v": 14857,
    "ts": 1794571213000
   },
   "Canada|France": {
@@ -11472,11 +11574,11 @@
    "ts": 1794571292593
   },
   "France|Algeria": {
-   "v": 10482,
+   "v": 11104,
    "ts": 1794571837503
   },
   "Algeria|France": {
-   "v": 8202,
+   "v": 8745,
    "ts": 1794571837503
   },
   "Ukraine|Greater Romania": {
@@ -11548,11 +11650,11 @@
    "ts": 1794605934394
   },
   "Algeria|Ukraine": {
-   "v": 244,
+   "v": 256,
    "ts": 1794607183455
   },
   "Ukraine|Algeria": {
-   "v": 1499,
+   "v": 1726,
    "ts": 1794607183455
   },
   "Turkey|Germany": {
@@ -11588,11 +11690,11 @@
    "ts": 1794630381983
   },
   "Algeria|United Kingdom": {
-   "v": 549,
+   "v": 642,
    "ts": 1794640466988
   },
   "United Kingdom|Algeria": {
-   "v": 852,
+   "v": 950,
    "ts": 1794640466988
   }
  },
@@ -11687,7 +11789,7 @@
     "Rocket Artillery": 1,
     "Anti Air": 1,
     "Armored Car": 3,
-    "Infantry": 13
+    "Infantry": 14
    },
    "Italy": {
     "Infantry": 18,
@@ -11839,8 +11941,8 @@
     "Infantry": 18
    },
    "Algeria": {
-    "Anti Tank": 1,
-    "Armored Car": 2
+    "Armored Car": 2,
+    "Anti Tank": 1
    },
    "Tunisia": {
     "Anti Air": 1,
@@ -11865,8 +11967,8 @@
    },
    "Ukraine": {
     "Anti Tank": 3,
-    "Infantry": 6,
-    "Armored Car": 1,
+    "Infantry": 7,
+    "Armored Car": 2,
     "Medium Tank": 5
    },
    "Caucasus": {
@@ -11899,7 +12001,7 @@
     "Infantry": 2
    }
   },
-  "ts": 1794643259034
+  "ts": 1794646868333
  },
  "sync": {}
 }
