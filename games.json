@@ -551,19 +551,19 @@
       "name": "Russian bears vs Crimson Dominion",
       "status": "live",
       "added": "2026-11-13 19:32",
-      "ran": 1794690057394,
+      "ran": 1794693660421,
       "pv": "bb342bb5d7",
       "last": {
         "day": 5,
         "score": {
-          "G": 800,
-          "R": 180
+          "G": 810,
+          "R": 170
         },
         "provinces": {
-          "G": 325,
-          "R": 74
+          "G": 329,
+          "R": 70
         },
-        "fetched": 1794690060580,
+        "fetched": 1794693662167,
         "winner": null,
         "teams": {
           "G": [
