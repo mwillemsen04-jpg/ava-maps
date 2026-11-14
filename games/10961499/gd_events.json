@@ -4354,6 +4354,46 @@
    "no": 1,
    "sn": 5,
    "frm": "France"
+  },
+  "1878": {
+   "t": 4515,
+   "p": "Sevilla",
+   "c": "France",
+   "u": "Armored Car",
+   "cap": false,
+   "no": 16,
+   "sn": 1,
+   "frm": "Libya"
+  },
+  "1883": {
+   "t": 4533,
+   "p": "Rostov-on-Don",
+   "c": "Ukraine",
+   "u": "Infantry",
+   "cap": false,
+   "no": 2,
+   "sn": 1,
+   "frm": "Turkey"
+  },
+  "1884": {
+   "t": 4535,
+   "p": "Plock",
+   "c": "Greater Romania",
+   "u": "Tank Destroyer",
+   "cap": false,
+   "no": 10,
+   "sn": 1,
+   "frm": "Poland"
+  },
+  "1893": {
+   "t": 4550,
+   "p": "Voroshilovsk",
+   "c": "Ukraine",
+   "u": "Infantry",
+   "cap": false,
+   "no": 4,
+   "sn": 1,
+   "frm": "Turkey"
   }
  },
  "loss": {
@@ -9858,6 +9898,118 @@
    "byu": "Light Tank",
    "byn": 9,
    "by": "Libya"
+  },
+  "1881": {
+   "t": 4525,
+   "p": "Kursk",
+   "c": "Russian Empire",
+   "u": "Infantry",
+   "what": "1× Infantry",
+   "n": 1,
+   "dest": true,
+   "no": 8,
+   "byno": 19,
+   "byu": "Interceptor",
+   "byn": 7,
+   "by": "Germany"
+  },
+  "1885": {
+   "t": 4535,
+   "p": "Adriatic Sea",
+   "c": "France",
+   "u": "Cruiser",
+   "what": "1× Cruiser",
+   "n": 1,
+   "dest": true,
+   "no": 3,
+   "byno": 28,
+   "byu": "Cruiser",
+   "byn": 3,
+   "by": "Turkey"
+  },
+  "1887": {
+   "t": 4542,
+   "p": null,
+   "c": "Poland",
+   "u": "Rocket Artillery",
+   "what": "1× Rocket Artillery",
+   "n": 1,
+   "dest": false,
+   "no": 5,
+   "byno": null,
+   "byu": null,
+   "byn": null,
+   "by": null
+  },
+  "1888": {
+   "t": 4542,
+   "p": null,
+   "c": "Poland",
+   "u": "Rocket Artillery",
+   "what": "1× Rocket Artillery",
+   "n": 1,
+   "dest": false,
+   "no": 1,
+   "byno": null,
+   "byu": null,
+   "byn": null,
+   "by": null
+  },
+  "1889": {
+   "t": 4542,
+   "p": null,
+   "c": "Poland",
+   "u": "Rocket Artillery",
+   "what": "1× Rocket Artillery",
+   "n": 1,
+   "dest": false,
+   "no": 5,
+   "byno": null,
+   "byu": null,
+   "byn": null,
+   "by": null
+  },
+  "1890": {
+   "t": 4542,
+   "p": null,
+   "c": "Poland",
+   "u": "Rocket Artillery",
+   "what": "1× Rocket Artillery",
+   "n": 1,
+   "dest": false,
+   "no": 2,
+   "byno": null,
+   "byu": null,
+   "byn": null,
+   "by": null
+  },
+  "1891": {
+   "t": 4542,
+   "p": null,
+   "c": "Poland",
+   "u": "Rocket Artillery",
+   "what": "1× Rocket Artillery",
+   "n": 1,
+   "dest": false,
+   "no": 1,
+   "byno": null,
+   "byu": null,
+   "byn": null,
+   "by": null
+  },
+  "1892": {
+   "t": 4542,
+   "p": null,
+   "c": "Germany",
+   "u": "Armored Car",
+   "what": "1× Armored Car",
+   "n": 1,
+   "dest": false,
+   "no": 6,
+   "byno": null,
+   "byu": null,
+   "byn": null,
+   "by": null
   }
  },
  "cas": {
@@ -10398,11 +10550,11 @@
    "ts": 1794574936580
   },
   "France|Turkey": {
-   "v": 2324,
+   "v": 2555,
    "ts": 1794578346460
   },
   "Turkey|France": {
-   "v": 2037,
+   "v": 2062,
    "ts": 1794578346460
   },
   "Germany|Algeria": {
@@ -10414,11 +10566,11 @@
    "ts": 1794579352175
   },
   "Libya|Germany": {
-   "v": 7604,
+   "v": 7785,
    "ts": 1794579366513
   },
   "Germany|Libya": {
-   "v": 15611,
+   "v": 16229,
    "ts": 1794579366513
   },
   "France|Libya": {
@@ -10434,11 +10586,11 @@
    "ts": 1794601104896
   },
   "Greater Romania|Poland": {
-   "v": 1629,
+   "v": 4447,
    "ts": 1794602200251
   },
   "Poland|Greater Romania": {
-   "v": 6000,
+   "v": 9614,
    "ts": 1794602202251
   },
   "Ukraine|Turkey": {
@@ -10466,12 +10618,20 @@
    "ts": 1794613428803
   },
   "Poland|Turkey": {
-   "v": 3812,
+   "v": 11296,
    "ts": 1794620556226
   },
   "Turkey|Poland": {
-   "v": 2933,
+   "v": 5312,
    "ts": 1794620558226
+  },
+  "Germany|Russian Empire": {
+   "v": 63,
+   "ts": 1794622895399
+  },
+  "Russian Empire|Germany": {
+   "v": 950,
+   "ts": 1794622895399
   }
  },
  "teams": {
@@ -10549,14 +10709,15 @@
     "Infantry": 10,
     "Interceptor": 6,
     "Anti Air": 1,
-    "Armored Car": 10,
+    "Armored Car": 11,
     "Anti Tank": 2
    },
    "France": {
-    "Submarine": 2,
     "Infantry": 8,
+    "Armored Car": 3,
     "Tank Destroyer": 3,
-    "Armored Car": 3
+    "Submarine": 2,
+    "Cruiser": 1
    },
    "United Kingdom": {
     "Anti Tank": 1,
@@ -10656,11 +10817,12 @@
     "Anti Tank": 1
    },
    "Poland": {
-    "Infantry": 2,
-    "Interceptor": 1,
+    "Anti Tank": 1,
     "Anti Air": 1,
-    "Armored Car": 2,
-    "Anti Tank": 1
+    "Interceptor": 1,
+    "Rocket Artillery": 5,
+    "Infantry": 2,
+    "Armored Car": 2
    },
    "Crimea": {
     "Armored Car": 1,
@@ -10757,7 +10919,7 @@
     "Infantry": 6
    },
    "Russian Empire": {
-    "Infantry": 14,
+    "Infantry": 15,
     "Militia": 1,
     "Anti Tank": 3,
     "Armored Car": 1
@@ -10773,7 +10935,7 @@
     "Infantry": 2
    }
   },
-  "ts": 1794621664232
+  "ts": 1794625265590
  },
  "sync": {}
 }
