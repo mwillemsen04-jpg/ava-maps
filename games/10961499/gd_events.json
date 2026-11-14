@@ -4204,6 +4204,76 @@
    "no": 4,
    "sn": 1,
    "frm": "Turkey"
+  },
+  "1854": {
+   "t": 4383,
+   "p": "Stettin",
+   "c": "Libya",
+   "u": "Light Tank",
+   "cap": false,
+   "no": 8,
+   "sn": 1,
+   "frm": "Germany"
+  },
+  "1855": {
+   "t": 4391,
+   "p": "Volgodonsk",
+   "c": "Ukraine",
+   "u": "Infantry",
+   "cap": false,
+   "no": 2,
+   "sn": 1,
+   "frm": "Turkey"
+  },
+  "1856": {
+   "t": 4415,
+   "p": "Malaga",
+   "c": "France",
+   "u": "Armored Car",
+   "cap": false,
+   "no": 16,
+   "sn": 1,
+   "frm": "Libya"
+  },
+  "1857": {
+   "t": 4422,
+   "p": "Sevastopol",
+   "c": "Libya",
+   "u": "Anti Tank",
+   "cap": false,
+   "no": 1,
+   "sn": 1,
+   "frm": "Ukraine"
+  },
+  "1858": {
+   "t": 4426,
+   "p": "Svetlograd",
+   "c": "Ukraine",
+   "u": "Infantry",
+   "cap": false,
+   "no": 12,
+   "sn": 1,
+   "frm": "Turkey"
+  },
+  "1859": {
+   "t": 4428,
+   "p": "Rostock",
+   "c": "Libya",
+   "u": "Light Tank",
+   "cap": false,
+   "no": 8,
+   "sn": 1,
+   "frm": "Germany"
+  },
+  "1860": {
+   "t": 4432,
+   "p": "Warsaw",
+   "c": "Turkey",
+   "u": "Rocket Artillery",
+   "cap": true,
+   "no": 7,
+   "sn": 20,
+   "frm": "Poland"
   }
  },
  "loss": {
@@ -10184,11 +10254,11 @@
    "ts": 1794574236278
   },
   "Libya|Ukraine": {
-   "v": 1549,
+   "v": 1571,
    "ts": 1794574936580
   },
   "Ukraine|Libya": {
-   "v": 3942,
+   "v": 4090,
    "ts": 1794574936580
   },
   "France|Turkey": {
@@ -10208,11 +10278,11 @@
    "ts": 1794579352175
   },
   "Libya|Germany": {
-   "v": 6490,
+   "v": 7363,
    "ts": 1794579366513
   },
   "Germany|Libya": {
-   "v": 15153,
+   "v": 15208,
    "ts": 1794579366513
   },
   "France|Libya": {
@@ -10557,7 +10627,7 @@
     "Infantry": 2
    }
   },
-  "ts": 1794614469670
+  "ts": 1794618071329
  },
  "sync": {}
 }
