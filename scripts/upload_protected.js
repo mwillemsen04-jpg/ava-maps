@@ -20,14 +20,33 @@ const CHUNK = 700000; // characters per database document (stays under the 1 MB 
 
 if (!PW) { console.error('Set the CLAN_PASSWORD secret'); process.exit(1); }
 
-function put(name, obj) {
-  return fetch(BASE + '/api/doc/' + name, {
-    method: 'PUT',
-    headers: { 'Authorization': 'Bearer ' + PW, 'Content-Type': 'application/json' },
-    body: JSON.stringify(obj)
-  }).then(r => {
-    if (!r.ok) throw new Error('PUT ' + name + ' -> ' + r.status);
-  });
+const sleep = ms => new Promise(r => setTimeout(r, ms));
+
+// Wake the free backend before uploading, so the first request does not fail
+// on a cold start (it can take ~50s to spin up).
+async function wake() {
+  for (let i = 0; i < 20; i++) {
+    try { const r = await fetch(BASE + '/healthz'); if (r.ok) { console.log('backend awake'); return; } } catch (e) {}
+    await sleep(4000);
+  }
+  console.warn('backend did not respond to /healthz; trying anyway');
+}
+
+async function put(name, obj) {
+  let last;
+  for (let i = 0; i < 4; i++) {
+    try {
+      const r = await fetch(BASE + '/api/doc/' + name, {
+        method: 'PUT',
+        headers: { 'Authorization': 'Bearer ' + PW, 'Content-Type': 'application/json' },
+        body: JSON.stringify(obj)
+      });
+      if (r.status === 401) throw new Error('PUT ' + name + ' -> 401 (the CLAN_PASSWORD secret does not match the one on Render)');
+      if (!r.ok) throw new Error('PUT ' + name + ' -> ' + r.status);
+      return;
+    } catch (e) { last = e; await sleep(2000); }
+  }
+  throw last;
 }
 
 // Store an HTML string as one document, or as numbered chunks if it is big.
@@ -43,6 +62,7 @@ function read(p) { return fs.readFileSync(p, 'utf8'); }
 function exists(p) { return fs.existsSync(p); }
 
 (async () => {
+  await wake();
   // 1) the games list
   const regPath = exists('games.json') ? 'games.json' : path.join(SITE, 'games.json');
   if (exists(regPath)) { await put('ava/index', JSON.parse(read(regPath))); console.log('uploaded ava/index'); }

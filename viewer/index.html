@@ -26,8 +26,16 @@ html,body{height:100%;margin:0;background:#0a0c10}
   function pw(){ try{ return localStorage.getItem(KEY)||''; }catch(e){ return ''; } }
   function setPw(v){ try{ localStorage.setItem(KEY,v); }catch(e){} }
 
-  function api(sub){ return fetch(BASE+sub,{headers:{'Authorization':'Bearer '+pw()}})
-    .then(function(r){ if(r.status===401){ askLogin(true); throw new Error('unauthorized'); } if(!r.ok) throw new Error('http '+r.status); return r.text(); }); }
+  function sleep(ms){ return new Promise(function(r){ setTimeout(r,ms); }); }
+  function api(sub,tries){ tries=tries||0;
+    return fetch(BASE+sub,{headers:{'Authorization':'Bearer '+pw()}})
+      .then(function(r){ if(r.status===401){ askLogin(true); throw new Error('unauthorized'); }
+        if(r.status===404){ throw new Error('notuploaded'); }
+        if(!r.ok) throw new Error('http '+r.status); return r.text(); })
+      .catch(function(e){ var m=e&&e.message;
+        if((m==='unauthorized'||m==='notuploaded')||tries>=3) throw e;      /* real answer, or give up: stop retrying */
+        return sleep(1500).then(function(){ return api(sub,tries+1); });    /* network/cold-start: try again */
+      }); }
 
   function gameIdFromHref(href){ if(!href) return null;
     var m=String(href).match(/games\/([0-9A-Za-z_-]{1,40})\/(?:index\.html)?/); return m?m[1]:null; }
@@ -50,7 +58,10 @@ html,body{height:100%;margin:0;background:#0a0c10}
   function openOverview(){ api('/api/ava/overview').then(show).catch(fail); }
   function openGame(id){ boot.hidden=false; view.hidden=true; document.querySelector('#boot .t').textContent='Opening map';
     api('/api/ava/page/'+id).then(show).catch(fail); }
-  function fail(e){ if((e&&e.message)==='unauthorized') return; boot.hidden=false; view.hidden=true; errEl.textContent='Could not reach the server. Try again in a moment.'; }
+  function fail(e){ var m=e&&e.message; if(m==='unauthorized') return; boot.hidden=false; view.hidden=true;
+    errEl.textContent = (m==='notuploaded')
+      ? 'The maps are not in the database yet — run the update workflow once more.'
+      : 'Could not reach the server. Give it a moment and refresh.'; }
 
   /* login box, identical in spirit to the planner's */
   var loginOpen=false;
