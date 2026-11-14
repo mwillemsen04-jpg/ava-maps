@@ -13,12 +13,12 @@
 const fs = require('fs');
 const path = require('path');
 
-const BASE = (process.env.BACKEND_URL || '').replace(/\/+$/, '');
+const BASE = (process.env.BACKEND_URL || 'https://af-farm-backend.onrender.com').replace(/\/+$/, '');
 const PW = process.env.CLAN_PASSWORD || '';
 const SITE = process.env.SITE || 'site';
 const CHUNK = 700000; // characters per database document (stays under the 1 MB limit)
 
-if (!BASE || !PW) { console.error('Set BACKEND_URL and CLAN_PASSWORD'); process.exit(1); }
+if (!PW) { console.error('Set the CLAN_PASSWORD secret'); process.exit(1); }
 
 function put(name, obj) {
   return fetch(BASE + '/api/doc/' + name, {
