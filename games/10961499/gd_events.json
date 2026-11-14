@@ -4594,6 +4594,66 @@
    "no": 2,
    "sn": 1,
    "frm": "Germany"
+  },
+  "1980": {
+   "t": 4832,
+   "p": "Memel",
+   "c": "Greater Romania",
+   "u": "Tank Destroyer",
+   "cap": false,
+   "no": 10,
+   "sn": 1,
+   "frm": "Poland"
+  },
+  "1981": {
+   "t": 4838,
+   "p": "Ordzhonikidze",
+   "c": "Ukraine",
+   "u": "Infantry",
+   "cap": false,
+   "no": 12,
+   "sn": 1,
+   "frm": "Turkey"
+  },
+  "1982": {
+   "t": 4843,
+   "p": "Turin",
+   "c": "Algeria",
+   "u": "Infantry",
+   "cap": false,
+   "no": 1,
+   "sn": 5,
+   "frm": "France"
+  },
+  "1983": {
+   "t": 4847,
+   "p": "Chudovo",
+   "c": "Greater Finland",
+   "u": "Infantry",
+   "cap": false,
+   "no": 5,
+   "sn": 1,
+   "frm": "Poland"
+  },
+  "1985": {
+   "t": 4852,
+   "p": "Berlin",
+   "c": "Libya",
+   "u": "Light Tank",
+   "cap": false,
+   "no": 8,
+   "sn": 20,
+   "frm": "Germany"
+  },
+  "1986": {
+   "t": 4858,
+   "p": "Kiel",
+   "c": "Germany",
+   "u": "Infantry",
+   "cap": false,
+   "no": 3,
+   "sn": 6,
+   "frm": "Libya"
   }
  },
  "loss": {
@@ -10143,17 +10203,17 @@
   },
   "1888": {
    "t": 4542,
-   "p": null,
+   "p": "Lodz",
    "c": "Poland",
    "u": "Rocket Artillery",
    "what": "1× Rocket Artillery",
    "n": 1,
-   "dest": false,
+   "dest": true,
    "no": 1,
-   "byno": null,
-   "byu": null,
-   "byn": null,
-   "by": null
+   "byno": 9,
+   "byu": "Tank Destroyer",
+   "byn": 4,
+   "by": "Greater Romania"
   },
   "1889": {
    "t": 4542,
@@ -10185,17 +10245,17 @@
   },
   "1891": {
    "t": 4542,
-   "p": null,
+   "p": "Lodz",
    "c": "Poland",
    "u": "Rocket Artillery",
    "what": "1× Rocket Artillery",
    "n": 1,
-   "dest": false,
+   "dest": true,
    "no": 1,
-   "byno": null,
-   "byu": null,
-   "byn": null,
-   "by": null
+   "byno": 9,
+   "byu": "Tank Destroyer",
+   "byn": 4,
+   "by": "Greater Romania"
   },
   "1892": {
    "t": 4542,
@@ -10241,17 +10301,17 @@
   },
   "1896": {
    "t": 4572,
-   "p": null,
+   "p": "Lodz",
    "c": "Poland",
    "u": "Rocket Artillery",
    "what": "1× Rocket Artillery",
    "n": 1,
-   "dest": false,
+   "dest": true,
    "no": 1,
-   "byno": null,
-   "byu": null,
-   "byn": null,
-   "by": null
+   "byno": 9,
+   "byu": "Tank Destroyer",
+   "byn": 4,
+   "by": "Greater Romania"
   },
   "1897": {
    "t": 4572,
@@ -10311,17 +10371,17 @@
   },
   "1901": {
    "t": 4602,
-   "p": null,
+   "p": "Lodz",
    "c": "Poland",
    "u": "Rocket Artillery",
    "what": "1× Rocket Artillery",
    "n": 1,
-   "dest": false,
+   "dest": true,
    "no": 1,
-   "byno": null,
-   "byu": null,
-   "byn": null,
-   "by": null
+   "byno": 9,
+   "byu": "Tank Destroyer",
+   "byn": 4,
+   "by": "Greater Romania"
   },
   "1902": {
    "t": 4602,
@@ -10353,17 +10413,17 @@
   },
   "1904": {
    "t": 4602,
-   "p": null,
+   "p": "Lodz",
    "c": "Poland",
    "u": "Rocket Artillery",
    "what": "1× Rocket Artillery",
    "n": 1,
-   "dest": false,
+   "dest": true,
    "no": 1,
-   "byno": null,
-   "byu": null,
-   "byn": null,
-   "by": null
+   "byno": 9,
+   "byu": "Tank Destroyer",
+   "byn": 4,
+   "by": "Greater Romania"
   },
   "1909": {
    "t": 4632,
@@ -10395,17 +10455,17 @@
   },
   "1911": {
    "t": 4632,
-   "p": null,
+   "p": "Lodz",
    "c": "Poland",
    "u": "Rocket Artillery",
    "what": "1× Rocket Artillery",
    "n": 1,
-   "dest": false,
+   "dest": true,
    "no": 1,
-   "byno": null,
-   "byu": null,
-   "byn": null,
-   "by": null
+   "byno": 9,
+   "byu": "Tank Destroyer",
+   "byn": 4,
+   "by": "Greater Romania"
   },
   "1912": {
    "t": 4632,
@@ -10437,17 +10497,17 @@
   },
   "1914": {
    "t": 4632,
-   "p": null,
+   "p": "Lodz",
    "c": "Poland",
    "u": "Rocket Artillery",
    "what": "2× Rocket Artillery",
    "n": 2,
-   "dest": false,
+   "dest": true,
    "no": 1,
-   "byno": null,
-   "byu": null,
-   "byn": null,
-   "by": null
+   "byno": 9,
+   "byu": "Tank Destroyer",
+   "byn": 4,
+   "by": "Greater Romania"
   },
   "1915": {
    "t": 4634,
@@ -10493,17 +10553,17 @@
   },
   "1920": {
    "t": 4640,
-   "p": null,
+   "p": "Lodz",
    "c": "Poland",
    "u": "Rocket Artillery",
    "what": "1× Rocket Artillery",
    "n": 1,
-   "dest": false,
+   "dest": true,
    "no": 1,
-   "byno": null,
-   "byu": null,
-   "byn": null,
-   "by": null
+   "byno": 9,
+   "byu": "Tank Destroyer",
+   "byn": 4,
+   "by": "Greater Romania"
   },
   "1928": {
    "t": 4662,
@@ -10535,31 +10595,31 @@
   },
   "1930": {
    "t": 4662,
-   "p": null,
+   "p": "Lodz",
    "c": "Poland",
    "u": "Rocket Artillery",
    "what": "1× Infantry, 2× Rocket Artillery",
    "n": 3,
-   "dest": false,
+   "dest": true,
    "no": 1,
-   "byno": null,
-   "byu": null,
-   "byn": null,
-   "by": null
+   "byno": 9,
+   "byu": "Tank Destroyer",
+   "byn": 4,
+   "by": "Greater Romania"
   },
   "1931": {
    "t": 4662,
-   "p": null,
+   "p": "Lodz",
    "c": "Poland",
    "u": "Rocket Artillery",
    "what": "1× Infantry",
    "n": 1,
-   "dest": false,
+   "dest": true,
    "no": 1,
-   "byno": null,
-   "byu": null,
-   "byn": null,
-   "by": null
+   "byno": 9,
+   "byu": "Tank Destroyer",
+   "byn": 4,
+   "by": "Greater Romania"
   },
   "1932": {
    "t": 4662,
@@ -10619,17 +10679,17 @@
   },
   "1938": {
    "t": 4670,
-   "p": null,
+   "p": "Lodz",
    "c": "Poland",
    "u": "Rocket Artillery",
    "what": "1× Infantry",
    "n": 1,
-   "dest": false,
+   "dest": true,
    "no": 1,
-   "byno": null,
-   "byu": null,
-   "byn": null,
-   "by": null
+   "byno": 9,
+   "byu": "Tank Destroyer",
+   "byn": 4,
+   "by": "Greater Romania"
   },
   "1939": {
    "t": 4670,
@@ -10801,31 +10861,31 @@
   },
   "1968": {
    "t": 4791,
-   "p": null,
+   "p": "Lodz",
    "c": "Poland",
    "u": "Rocket Artillery",
    "what": "2× Infantry",
    "n": 2,
-   "dest": false,
+   "dest": true,
    "no": 1,
-   "byno": null,
-   "byu": null,
-   "byn": null,
-   "by": null
+   "byno": 9,
+   "byu": "Tank Destroyer",
+   "byn": 4,
+   "by": "Greater Romania"
   },
   "1969": {
    "t": 4792,
-   "p": null,
+   "p": "Lodz",
    "c": "Poland",
    "u": "Rocket Artillery",
    "what": "1× Infantry",
    "n": 1,
-   "dest": false,
+   "dest": true,
    "no": 1,
-   "byno": null,
-   "byu": null,
-   "byn": null,
-   "by": null
+   "byno": 9,
+   "byu": "Tank Destroyer",
+   "byn": 4,
+   "by": "Greater Romania"
   },
   "1970": {
    "t": 4800,
@@ -10840,6 +10900,62 @@
    "byu": "Interceptor",
    "byn": 10,
    "by": "Algeria"
+  },
+  "1973": {
+   "t": 4812,
+   "p": "Lodz",
+   "c": "Poland",
+   "u": "Rocket Artillery",
+   "what": "1× Tank Destroyer",
+   "n": 1,
+   "dest": true,
+   "no": 1,
+   "byno": 9,
+   "byu": "Tank Destroyer",
+   "byn": 4,
+   "by": "Greater Romania"
+  },
+  "1977": {
+   "t": 4822,
+   "p": null,
+   "c": "Ukraine",
+   "u": "Infantry",
+   "what": "1× Infantry",
+   "n": 1,
+   "dest": false,
+   "no": 18,
+   "byno": null,
+   "byu": null,
+   "byn": null,
+   "by": null
+  },
+  "1978": {
+   "t": 4828,
+   "p": "Lvov",
+   "c": "Poland",
+   "u": "Anti Tank",
+   "what": "1× Anti Tank",
+   "n": 1,
+   "dest": true,
+   "no": 10,
+   "byno": 5,
+   "byu": "Interceptor",
+   "byn": 7,
+   "by": "Libya"
+  },
+  "1984": {
+   "t": 4852,
+   "p": null,
+   "c": "Ukraine",
+   "u": "Infantry",
+   "what": "1× Infantry",
+   "n": 1,
+   "dest": false,
+   "no": 18,
+   "byno": null,
+   "byu": null,
+   "byn": null,
+   "by": null
   }
  },
  "cas": {
@@ -11168,7 +11284,7 @@
    "ts": 1794571213000
   },
   "Ukraine|Communist Russia": {
-   "v": 898,
+   "v": 1676,
    "ts": 1794571213000
   },
   "Luxembourg|Germany": {
@@ -11296,7 +11412,7 @@
    "ts": 1794571213000
   },
   "Communist Russia|Ukraine": {
-   "v": 7410,
+   "v": 7945,
    "ts": 1794571213000
   },
   "Melilla|Algeria": {
@@ -11336,7 +11452,7 @@
    "ts": 1794571213000
   },
   "Northern States of America|France": {
-   "v": 14174,
+   "v": 14524,
    "ts": 1794571213000
   },
   "Canada|France": {
@@ -11356,11 +11472,11 @@
    "ts": 1794571292593
   },
   "France|Algeria": {
-   "v": 9886,
+   "v": 10482,
    "ts": 1794571837503
   },
   "Algeria|France": {
-   "v": 8180,
+   "v": 8202,
    "ts": 1794571837503
   },
   "Ukraine|Greater Romania": {
@@ -11412,15 +11528,15 @@
    "ts": 1794579618375
   },
   "Libya|Poland": {
-   "v": 948,
+   "v": 1160,
    "ts": 1794601104896
   },
   "Greater Romania|Poland": {
-   "v": 6503,
+   "v": 6609,
    "ts": 1794602200251
   },
   "Poland|Greater Romania": {
-   "v": 15865,
+   "v": 16117,
    "ts": 1794602202251
   },
   "Ukraine|Turkey": {
@@ -11432,11 +11548,11 @@
    "ts": 1794605934394
   },
   "Algeria|Ukraine": {
-   "v": 186,
+   "v": 244,
    "ts": 1794607183455
   },
   "Ukraine|Algeria": {
-   "v": 710,
+   "v": 1499,
    "ts": 1794607183455
   },
   "Turkey|Germany": {
@@ -11444,7 +11560,7 @@
    "ts": 1794612602027
   },
   "Poland|Libya": {
-   "v": 676,
+   "v": 1288,
    "ts": 1794613428803
   },
   "Poland|Turkey": {
@@ -11470,6 +11586,14 @@
   "Ukraine|Greater Finland": {
    "v": 404,
    "ts": 1794630381983
+  },
+  "Algeria|United Kingdom": {
+   "v": 549,
+   "ts": 1794640466988
+  },
+  "United Kingdom|Algeria": {
+   "v": 852,
+   "ts": 1794640466988
   }
  },
  "teams": {
@@ -11657,10 +11781,10 @@
    },
    "Poland": {
     "Rocket Artillery": 33,
-    "Anti Tank": 1,
+    "Anti Tank": 2,
     "Anti Air": 1,
     "Interceptor": 1,
-    "Tank Destroyer": 3,
+    "Tank Destroyer": 4,
     "Infantry": 20,
     "Armored Car": 2
    },
@@ -11741,7 +11865,7 @@
    },
    "Ukraine": {
     "Anti Tank": 3,
-    "Infantry": 4,
+    "Infantry": 6,
     "Armored Car": 1,
     "Medium Tank": 5
    },
@@ -11775,7 +11899,7 @@
     "Infantry": 2
    }
   },
-  "ts": 1794639660737
+  "ts": 1794643259034
  },
  "sync": {}
 }
