@@ -5353,6 +5353,96 @@
    "no": 7,
    "sn": 1,
    "frm": "Ukraine"
+  },
+  "2298": {
+   "t": 5235,
+   "p": "Zurich",
+   "c": "Libya",
+   "u": "Armored Car",
+   "cap": false,
+   "no": 15,
+   "sn": 1,
+   "frm": "France"
+  },
+  "2301": {
+   "t": 5236,
+   "p": "Portsmouth",
+   "c": "Algeria",
+   "u": "Infantry",
+   "cap": false,
+   "no": 4,
+   "sn": 2,
+   "frm": "United Kingdom"
+  },
+  "2302": {
+   "t": 5238,
+   "p": "Florence",
+   "c": "Turkey",
+   "u": "Anti Tank",
+   "cap": false,
+   "no": 24,
+   "sn": 1,
+   "frm": "France"
+  },
+  "2303": {
+   "t": 5239,
+   "p": "Northampton",
+   "c": "Algeria",
+   "u": "Infantry",
+   "cap": false,
+   "no": 13,
+   "sn": 1,
+   "frm": "United Kingdom"
+  },
+  "2304": {
+   "t": 5242,
+   "p": "Korosten",
+   "c": "Turkey",
+   "u": "Rocket Artillery",
+   "cap": false,
+   "no": 2,
+   "sn": 38,
+   "frm": "Ukraine"
+  },
+  "2305": {
+   "t": 5246,
+   "p": "Grozny",
+   "c": "Turkey",
+   "u": "Armored Car",
+   "cap": false,
+   "no": 5,
+   "sn": 1,
+   "frm": "Ukraine"
+  },
+  "2306": {
+   "t": 5256,
+   "p": "Mogilev",
+   "c": "Greater Finland",
+   "u": "Infantry",
+   "cap": false,
+   "no": 11,
+   "sn": 1,
+   "frm": "Poland"
+  },
+  "2309": {
+   "t": 5273,
+   "p": "Nyasvizh",
+   "c": "Greater Romania",
+   "u": "Tank Destroyer",
+   "cap": false,
+   "no": 8,
+   "sn": 1,
+   "frm": "Poland"
+  },
+  "2310": {
+   "t": 5275,
+   "p": "Kharkov",
+   "c": "Libya",
+   "u": "Infantry",
+   "cap": false,
+   "no": 7,
+   "sn": 1,
+   "frm": "Ukraine"
   }
  },
  "loss": {
@@ -11837,6 +11927,34 @@
    "byu": "Interceptor",
    "byn": 5,
    "by": "Algeria"
+  },
+  "2299": {
+   "t": 5236,
+   "p": "Portsmouth",
+   "c": "United Kingdom",
+   "u": "Infantry",
+   "what": "1× Infantry",
+   "n": 1,
+   "dest": true,
+   "no": 6,
+   "byno": 4,
+   "byu": "Infantry",
+   "byn": 2,
+   "by": "Algeria"
+  },
+  "2307": {
+   "t": 5268,
+   "p": "Zugdidi",
+   "c": "Ukraine",
+   "u": "Infantry",
+   "what": "1× Infantry",
+   "n": 1,
+   "dest": true,
+   "no": 4,
+   "byno": 6,
+   "byu": "Armored Car",
+   "byn": 1,
+   "by": "Turkey"
   }
  },
  "cas": {
@@ -12353,11 +12471,11 @@
    "ts": 1794657613000
   },
   "France|Algeria": {
-   "v": 13318,
+   "v": 13950,
    "ts": 1794657613000
   },
   "Algeria|France": {
-   "v": 10705,
+   "v": 10995,
    "ts": 1794657613000
   },
   "Ukraine|Greater Romania": {
@@ -12421,11 +12539,11 @@
    "ts": 1794657613000
   },
   "Ukraine|Turkey": {
-   "v": 1027,
+   "v": 1125,
    "ts": 1794657613000
   },
   "Turkey|Ukraine": {
-   "v": 665,
+   "v": 737,
    "ts": 1794657613000
   },
   "Algeria|Ukraine": {
@@ -12469,11 +12587,11 @@
    "ts": 1794657613000
   },
   "Algeria|United Kingdom": {
-   "v": 1838,
+   "v": 1903,
    "ts": 1794657613000
   },
   "United Kingdom|Algeria": {
-   "v": 1944,
+   "v": 1960,
    "ts": 1794657613000
   },
   "Communist Russia|Russian Empire": {
@@ -12577,7 +12695,7 @@
     "Rocket Artillery": 1,
     "Anti Air": 1,
     "Armored Car": 3,
-    "Infantry": 14
+    "Infantry": 15
    },
    "Italy": {
     "Infantry": 18,
@@ -12758,7 +12876,7 @@
    },
    "Ukraine": {
     "Anti Tank": 3,
-    "Infantry": 8,
+    "Infantry": 9,
     "Armored Car": 2,
     "Medium Tank": 5
    },
@@ -12792,7 +12910,7 @@
     "Infantry": 2
    }
   },
-  "ts": 1794664856866
+  "ts": 1794668473669
  },
  "sync": {}
 }
