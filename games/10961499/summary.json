@@ -3,15 +3,15 @@
  "name": "Russian bears vs Crimson Dominion",
  "day": 5,
  "score": {
-  "G": 740,
-  "R": 240
+  "G": 760,
+  "R": 220
  },
  "provinces": {
-  "G": 303,
-  "R": 99
+  "G": 306,
+  "R": 96
  },
- "fetched": 1794672680533,
- "built": 1794672697346,
+ "fetched": 1794674084999,
+ "built": 1794674101904,
  "game_over": false,
  "winner": null,
  "teams": {
@@ -52,6 +52,6 @@
    }
   ]
  },
- "events": 554,
- "losses": 528
+ "events": 557,
+ "losses": 529
 }

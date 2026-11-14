@@ -5513,6 +5513,36 @@
    "no": 15,
    "sn": 1,
    "frm": "Germany"
+  },
+  "2322": {
+   "t": 5358,
+   "p": "Grenoble",
+   "c": "Algeria",
+   "u": "Infantry",
+   "cap": false,
+   "no": 15,
+   "sn": 1,
+   "frm": "France"
+  },
+  "2325": {
+   "t": 5372,
+   "p": "Odessa",
+   "c": "Algeria",
+   "u": "Infantry",
+   "cap": false,
+   "no": 2,
+   "sn": 1,
+   "frm": "Ukraine"
+  },
+  "2326": {
+   "t": 5373,
+   "p": "Minsk",
+   "c": "Greater Romania",
+   "u": "Tank Destroyer",
+   "cap": false,
+   "no": 8,
+   "sn": 1,
+   "frm": "Poland"
   }
  },
  "loss": {
@@ -12053,6 +12083,20 @@
    "byu": null,
    "byn": null,
    "by": null
+  },
+  "2324": {
+   "t": 5361,
+   "p": "Yaroslavl",
+   "c": "Russian Empire",
+   "u": "Infantry",
+   "what": "1× Infantry",
+   "n": 1,
+   "dest": true,
+   "no": 6,
+   "byno": 1,
+   "byu": "Militia",
+   "byn": 2,
+   "by": "Communist Russia"
   }
  },
  "cas": {
@@ -12569,11 +12613,11 @@
    "ts": 1794657613000
   },
   "France|Algeria": {
-   "v": 14447,
+   "v": 14570,
    "ts": 1794657613000
   },
   "Algeria|France": {
-   "v": 11256,
+   "v": 11362,
    "ts": 1794657613000
   },
   "Ukraine|Greater Romania": {
@@ -12693,11 +12737,11 @@
    "ts": 1794657613000
   },
   "Communist Russia|Russian Empire": {
-   "v": 863,
+   "v": 934,
    "ts": 1794657613000
   },
   "Russian Empire|Communist Russia": {
-   "v": 1042,
+   "v": 1130,
    "ts": 1794657613000
   }
  },
@@ -12993,7 +13037,7 @@
     "Infantry": 6
    },
    "Russian Empire": {
-    "Infantry": 16,
+    "Infantry": 17,
     "Militia": 1,
     "Anti Tank": 3,
     "Armored Car": 1
@@ -13009,7 +13053,7 @@
     "Infantry": 2
    }
   },
-  "ts": 1794672680533
+  "ts": 1794674084999
  },
  "sync": {}
 }
