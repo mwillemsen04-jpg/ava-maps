@@ -5375,48 +5375,48 @@
    "frm": "Ukraine"
   },
   "2298": {
-   "t": 5766,
-   "p": "Kursk",
+   "t": 6122,
+   "p": "Salamanca",
+   "c": "Libya",
+   "u": "Light Tank",
+   "cap": false,
+   "no": 8,
+   "sn": 19,
+   "frm": "Spain"
+  },
+  "2301": {
+   "t": 6137,
+   "p": "Mikhaylovka",
+   "c": "Libya",
+   "u": "Infantry",
+   "cap": false,
+   "no": 7,
+   "sn": 1,
+   "frm": "Ukraine"
+  },
+  "2302": {
+   "t": 6143,
+   "p": "Malaga",
+   "c": "Algeria",
+   "u": "Armored Car",
+   "cap": false,
+   "no": 21,
+   "sn": 1,
+   "frm": "France"
+  },
+  "2303": {
+   "t": 6149,
+   "p": "Podolsk",
    "c": "Libya",
    "u": "Infantry",
    "cap": false,
    "no": 1,
    "sn": 17,
-   "frm": "Ukraine"
-  },
-  "2301": {
-   "t": 5236,
-   "p": "Portsmouth",
-   "c": "Algeria",
-   "u": "Infantry",
-   "cap": false,
-   "no": 4,
-   "sn": 2,
-   "frm": "United Kingdom"
-  },
-  "2302": {
-   "t": 5771,
-   "p": "Hanover",
-   "c": "Turkey",
-   "u": "Armored Car",
-   "cap": false,
-   "no": 9,
-   "sn": 2,
-   "frm": "Germany"
-  },
-  "2303": {
-   "t": 5239,
-   "p": "Northampton",
-   "c": "Algeria",
-   "u": "Infantry",
-   "cap": false,
-   "no": 13,
-   "sn": 1,
-   "frm": "United Kingdom"
+   "frm": "Russian Empire"
   },
   "2304": {
-   "t": 5794,
-   "p": "Berdiansk",
+   "t": 6161,
+   "p": "Poltava",
    "c": "Greater Romania",
    "u": "Armored Car",
    "cap": false,
@@ -5425,14 +5425,14 @@
    "frm": "Ukraine"
   },
   "2305": {
-   "t": 5794,
-   "p": "Exeter",
+   "t": 6177,
+   "p": "Edinburgh",
    "c": "Algeria",
    "u": "Infantry",
    "cap": false,
-   "no": 13,
-   "sn": 1,
-   "frm": "United Kingdom"
+   "no": 4,
+   "sn": 2,
+   "frm": "Germany"
   },
   "2306": {
    "t": 5256,
@@ -5635,13 +5635,13 @@
    "frm": "Morocco"
   },
   "2299": {
-   "t": 5767,
-   "p": "Daugavpils",
+   "t": 6133,
+   "p": "Riga",
    "c": "Greater Romania",
-   "u": "Armored Car",
+   "u": "Rocket Artillery",
    "cap": false,
-   "no": 7,
-   "sn": 1,
+   "no": 3,
+   "sn": 20,
    "frm": "Greater Finland"
   },
   "2317": {
@@ -5673,6 +5673,16 @@
    "no": 11,
    "sn": 1,
    "frm": "Ukraine"
+  },
+  "2300": {
+   "t": 6136,
+   "p": "Tallinn",
+   "c": "Turkey",
+   "u": "Rocket Artillery",
+   "cap": false,
+   "no": 7,
+   "sn": 20,
+   "frm": "Greater Finland"
   }
  },
  "loss": {
@@ -12425,18 +12435,18 @@
    "by": "Turkey"
   },
   "2296": {
-   "t": 5750,
-   "p": "Strait of Gibraltar",
-   "c": "France",
-   "u": "Interceptor",
-   "what": "2× Interceptor",
-   "n": 2,
+   "t": 6122,
+   "p": "Salamanca",
+   "c": "Spain",
+   "u": "Infantry",
+   "what": "1× Infantry",
+   "n": 1,
    "dest": true,
-   "no": 8,
-   "byno": 26,
-   "byu": "Cruiser",
-   "byn": 4,
-   "by": "Turkey"
+   "no": 10,
+   "byno": 8,
+   "byu": "Light Tank",
+   "byn": 19,
+   "by": "Libya"
   },
   "2300": {
    "t": 5770,
@@ -13287,15 +13297,15 @@
    "ts": 1794657613000
   },
   "Communist Russia|Russian Empire": {
-   "v": 934,
-   "ts": 1794657613000
+   "v": 969,
+   "ts": 1794710212216
   },
   "Russian Empire|Communist Russia": {
    "v": 1130,
    "ts": 1794657613000
   },
   "Greater Finland|Greater Romania": {
-   "v": 2180,
+   "v": 2415,
    "ts": 1794708435950
   },
   "Greater Romania|Greater Finland": {
@@ -13415,7 +13425,7 @@
    },
    "Spain": {
     "Anti Tank": 3,
-    "Infantry": 16,
+    "Infantry": 17,
     "Interceptor": 1,
     "Armored Car": 2
    },
@@ -13481,11 +13491,11 @@
     "Infantry": 3
    },
    "Greater Finland": {
-    "Armored Car": 1,
+    "Anti Tank": 2,
     "Infantry": 11,
     "Interceptor": 1,
     "Anti Air": 1,
-    "Anti Tank": 2
+    "Armored Car": 1
    },
    "Estonia": {
     "Infantry": 3,
@@ -13623,7 +13633,7 @@
     "Infantry": 2
    }
   },
-  "ts": 1794718869584
+  "ts": 1794722463635
  },
  "sync": {
   "Kaiserslautern": {
@@ -13664,6 +13674,14 @@
   },
   "Birmingham": {
    "t": 5941,
+   "c": "Algeria"
+  },
+  "Portsmouth": {
+   "t": 6181,
+   "c": "Algeria"
+  },
+  "Northampton": {
+   "t": 6181,
    "c": "Algeria"
   },
   "Milan": {
@@ -13730,6 +13748,10 @@
    "t": 5701,
    "c": "Libya"
   },
+  "Daugavpils": {
+   "t": 6181,
+   "c": "Greater Romania"
+  },
   "Grenoble": {
    "t": 5881,
    "c": "Algeria"
@@ -13762,6 +13784,10 @@
    "t": 5821,
    "c": "Libya"
   },
+  "Berdiansk": {
+   "t": 6181,
+   "c": "Greater Romania"
+  },
   "Kremenchuk": {
    "t": 6061,
    "c": "Libya"
@@ -13780,6 +13806,10 @@
   },
   "Lubny": {
    "t": 5701,
+   "c": "Libya"
+  },
+  "Kursk": {
+   "t": 6181,
    "c": "Libya"
   },
   "Grozny": {
