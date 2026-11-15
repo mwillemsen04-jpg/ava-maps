@@ -5615,24 +5615,24 @@
    "frm": "Greater Finland"
   },
   "2339": {
-   "t": 5459,
-   "p": "Mariupol",
+   "t": 6363,
+   "p": "Kalinin",
    "c": "Libya",
    "u": "Infantry",
    "cap": false,
-   "no": 7,
-   "sn": 1,
-   "frm": "Ukraine"
+   "no": 1,
+   "sn": 17,
+   "frm": "Russian Empire"
   },
   "2340": {
-   "t": 5466,
-   "p": "Mazagan",
+   "t": 6376,
+   "p": "Ajaccio",
    "c": "Algeria",
    "u": "Infantry",
    "cap": false,
-   "no": 9,
+   "no": 14,
    "sn": 1,
-   "frm": "Morocco"
+   "frm": "France"
   },
   "2299": {
    "t": 6133,
@@ -5751,6 +5751,26 @@
    "u": "Armored Car",
    "cap": false,
    "no": 7,
+   "sn": 1,
+   "frm": "France"
+  },
+  "2341": {
+   "t": 6381,
+   "p": "Zelenodolsk",
+   "c": "Russian Empire",
+   "u": "Infantry",
+   "cap": false,
+   "no": 7,
+   "sn": 1,
+   "frm": "Ukraine"
+  },
+  "2342": {
+   "t": 6386,
+   "p": "Lisbon",
+   "c": "Algeria",
+   "u": "Infantry",
+   "cap": false,
+   "no": 9,
    "sn": 1,
    "frm": "France"
   }
@@ -13431,11 +13451,11 @@
    "ts": 1794657613000
   },
   "Greater Finland|Greater Romania": {
-   "v": 2967,
+   "v": 3666,
    "ts": 1794708435950
   },
   "Greater Romania|Greater Finland": {
-   "v": 1055,
+   "v": 1199,
    "ts": 1794708435950
   },
   "Greater Finland|Turkey": {
@@ -13767,7 +13787,7 @@
     "Infantry": 2
    }
   },
-  "ts": 1794733259316
+  "ts": 1794736863050
  },
  "sync": {
   "Kaiserslautern": {
@@ -13842,10 +13862,6 @@
    "t": 6001,
    "c": "Libya"
   },
-  "Ajaccio": {
-   "t": 5581,
-   "c": "France"
-  },
   "Voroshilovgrad": {
    "t": 5701,
    "c": "Libya"
@@ -13902,6 +13918,10 @@
    "t": 5761,
    "c": "Algeria"
   },
+  "Mazagan": {
+   "t": 6421,
+   "c": "Algeria"
+  },
   "Sahara Desert": {
    "t": 5641,
    "c": "Morocco"
@@ -13936,6 +13956,10 @@
   },
   "Kremenchuk": {
    "t": 6061,
+   "c": "Libya"
+  },
+  "Mariupol": {
+   "t": 6421,
    "c": "Libya"
   },
   "Korosten": {
