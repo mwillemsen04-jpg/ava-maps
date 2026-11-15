@@ -5585,14 +5585,14 @@
    "frm": "France"
   },
   "2331": {
-   "t": 5426,
-   "p": "Barysaw",
-   "c": "Greater Romania",
-   "u": "Tank Destroyer",
+   "t": 6335,
+   "p": "Chudovo",
+   "c": "Turkey",
+   "u": "Rocket Artillery",
    "cap": false,
-   "no": 8,
-   "sn": 1,
-   "frm": "Poland"
+   "no": 2,
+   "sn": 21,
+   "frm": "Greater Finland"
   },
   "2332": {
    "t": 5429,
@@ -5605,14 +5605,14 @@
    "frm": "Ukraine"
   },
   "2337": {
-   "t": 5447,
-   "p": "Nalchik",
-   "c": "Turkey",
-   "u": "Armored Car",
+   "t": 6347,
+   "p": "Plock",
+   "c": "Greater Romania",
+   "u": "Tank Destroyer",
    "cap": false,
-   "no": 5,
-   "sn": 1,
-   "frm": "Ukraine"
+   "no": 2,
+   "sn": 2,
+   "frm": "Greater Finland"
   },
   "2339": {
    "t": 5459,
@@ -5733,6 +5733,26 @@
    "no": 1,
    "sn": 17,
    "frm": "Russian Empire"
+  },
+  "2334": {
+   "t": 6343,
+   "p": "Coimbra",
+   "c": "Libya",
+   "u": "Light Tank",
+   "cap": false,
+   "no": 8,
+   "sn": 19,
+   "frm": "Portugal"
+  },
+  "2338": {
+   "t": 6354,
+   "p": "Toledo",
+   "c": "Algeria",
+   "u": "Armored Car",
+   "cap": false,
+   "no": 7,
+   "sn": 1,
+   "frm": "France"
   }
  },
  "loss": {
@@ -12317,18 +12337,18 @@
    "by": null
   },
   "2335": {
-   "t": 5441,
-   "p": "Oran",
-   "c": "Algeria",
-   "u": "Armored Car",
-   "what": "1× Armored Car",
+   "t": 6347,
+   "p": "Plock",
+   "c": "Greater Finland",
+   "u": "Infantry",
+   "what": "1× Infantry",
    "n": 1,
    "dest": true,
-   "no": 22,
-   "byno": 20,
-   "byu": "Interceptor",
-   "byn": 10,
-   "by": "France"
+   "no": 10,
+   "byno": 2,
+   "byu": "Tank Destroyer",
+   "byn": 2,
+   "by": "Greater Romania"
   },
   "2336": {
    "t": 5444,
@@ -12749,6 +12769,20 @@
    "byu": "Infantry",
    "byn": 1,
    "by": "Greater Finland"
+  },
+  "2332": {
+   "t": 6343,
+   "p": "Coimbra",
+   "c": "Portugal",
+   "u": "Infantry",
+   "what": "1× Infantry",
+   "n": 1,
+   "dest": true,
+   "no": 6,
+   "byno": 8,
+   "byu": "Light Tank",
+   "byn": 19,
+   "by": "Libya"
   }
  },
  "cas": {
@@ -13165,7 +13199,7 @@
    "ts": 1794657613000
   },
   "Portugal|Libya": {
-   "v": 1050,
+   "v": 2100,
    "ts": 1794727185511
   },
   "Iraq|Turkey": {
@@ -13397,11 +13431,11 @@
    "ts": 1794657613000
   },
   "Greater Finland|Greater Romania": {
-   "v": 2868,
+   "v": 2967,
    "ts": 1794708435950
   },
   "Greater Romania|Greater Finland": {
-   "v": 1034,
+   "v": 1055,
    "ts": 1794708435950
   },
   "Greater Finland|Turkey": {
@@ -13566,7 +13600,7 @@
     "Anti Tank": 1
    },
    "Portugal": {
-    "Infantry": 3,
+    "Infantry": 4,
     "Armored Car": 1
    },
    "Northern States of America": {
@@ -13592,7 +13626,7 @@
    },
    "Greater Finland": {
     "Anti Tank": 2,
-    "Infantry": 11,
+    "Infantry": 12,
     "Interceptor": 1,
     "Anti Air": 1,
     "Armored Car": 1
@@ -13733,7 +13767,7 @@
     "Infantry": 2
    }
   },
-  "ts": 1794729660755
+  "ts": 1794733259316
  },
  "sync": {
   "Kaiserslautern": {
@@ -13934,6 +13968,10 @@
   },
   "Zugdidi": {
    "t": 5881,
+   "c": "Turkey"
+  },
+  "Nalchik": {
+   "t": 6360,
    "c": "Turkey"
   },
   "Sardarapat": {
