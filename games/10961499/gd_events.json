@@ -5065,13 +5065,14 @@
    "frm": "Germany"
   },
   "2276": {
-   "t": 5100,
-   "p": "Kaluga",
-   "c": "Communist Russia",
-   "u": "Revolt",
+   "t": 6006,
+   "p": "Ivanovo",
+   "c": "Russian Empire",
+   "u": "Infantry",
    "cap": false,
-   "rev": true,
-   "frm": "Russian Empire"
+   "no": 7,
+   "sn": 1,
+   "frm": "Communist Russia"
   },
   "2029": {
    "t": 5041,
@@ -5194,64 +5195,64 @@
    "frm": "United Kingdom"
   },
   "2280": {
-   "t": 5121,
-   "p": "Antwerp",
-   "c": "Libya",
-   "u": "Light Tank",
-   "cap": false,
-   "no": 8,
-   "sn": 19,
-   "frm": "Germany"
-  },
-  "2281": {
-   "t": 5125,
-   "p": "Amsterdam",
-   "c": "Libya",
-   "u": "Light Tank",
-   "cap": false,
-   "no": 6,
-   "sn": 1,
-   "frm": "Germany"
-  },
-  "2282": {
-   "t": 5135,
-   "p": "Bruxelles",
-   "c": "Libya",
-   "u": "Light Tank",
-   "cap": false,
-   "no": 8,
-   "sn": 19,
-   "frm": "Germany"
-  },
-  "2283": {
-   "t": 5146,
-   "p": "Lida",
-   "c": "Greater Romania",
-   "u": "Tank Destroyer",
-   "cap": false,
-   "no": 8,
-   "sn": 1,
-   "frm": "Poland"
-  },
-  "2284": {
-   "t": 5152,
-   "p": "Kremenchuk",
-   "c": "Libya",
+   "t": 6022,
+   "p": "Ventspils",
+   "c": "Greater Finland",
    "u": "Infantry",
    "cap": false,
-   "no": 7,
+   "no": 20,
+   "sn": 1,
+   "frm": "Greater Romania"
+  },
+  "2281": {
+   "t": 6031,
+   "p": "Kryvyi Rih",
+   "c": "Greater Romania",
+   "u": "Armored Car",
+   "cap": false,
+   "no": 11,
    "sn": 1,
    "frm": "Ukraine"
   },
-  "2285": {
-   "t": 5156,
-   "p": "Brugge",
-   "c": "Libya",
-   "u": "Light Tank",
+  "2282": {
+   "t": 6032,
+   "p": "Madrid",
+   "c": "Algeria",
+   "u": "Armored Car",
    "cap": false,
-   "no": 8,
-   "sn": 19,
-   "frm": "Germany"
+   "no": 7,
+   "sn": 1,
+   "frm": "France"
+  },
+  "2283": {
+   "t": 6043,
+   "p": "Tarragona",
+   "c": "Algeria",
+   "u": "Infantry",
+   "cap": false,
+   "no": 19,
+   "sn": 1,
+   "frm": "France"
+  },
+  "2284": {
+   "t": 6045,
+   "p": "Tula",
+   "c": "Libya",
+   "u": "Infantry",
+   "cap": false,
+   "no": 1,
+   "sn": 17,
+   "frm": "Russian Empire"
+  },
+  "2285": {
+   "t": 6058,
+   "p": "Pärnu",
+   "c": "Turkey",
+   "u": "Rocket Artillery",
+   "cap": false,
+   "no": 7,
+   "sn": 20,
+   "frm": "Greater Finland"
   },
   "2286": {
    "t": 5690,
@@ -12576,6 +12577,34 @@
    "byu": "Light Tank",
    "byn": 19,
    "by": "Libya"
+  },
+  "2274": {
+   "t": 6006,
+   "p": "Ivanovo",
+   "c": "Communist Russia",
+   "u": "Militia",
+   "what": "1× Militia",
+   "n": 1,
+   "dest": true,
+   "no": 2,
+   "byno": 7,
+   "byu": "Infantry",
+   "byn": 1,
+   "by": "Russian Empire"
+  },
+  "2278": {
+   "t": 6020,
+   "p": "Polatsk",
+   "c": "Greater Finland",
+   "u": "Infantry",
+   "what": "1× Infantry",
+   "n": 1,
+   "dest": true,
+   "no": 5,
+   "byno": 2,
+   "byu": "Rocket Artillery",
+   "byn": 21,
+   "by": "Turkey"
   }
  },
  "cas": {
@@ -13349,7 +13378,7 @@
     "Anti Air": 1,
     "Infantry": 19,
     "Anti Tank": 2,
-    "Militia": 2,
+    "Militia": 3,
     "Armored Car": 2
    },
    "Sweden": {
@@ -13409,7 +13438,7 @@
     "Anti Air": 1,
     "Interceptor": 1,
     "Armored Car": 1,
-    "Infantry": 9
+    "Infantry": 10
    },
    "Estonia": {
     "Infantry": 3,
@@ -13547,7 +13576,7 @@
     "Infantry": 2
    }
   },
-  "ts": 1794711666372
+  "ts": 1794715260954
  },
  "sync": {
   "Kaiserslautern": {
@@ -13618,13 +13647,29 @@
    "t": 5761,
    "c": "Libya"
   },
+  "Bruxelles": {
+   "t": 6061,
+   "c": "Libya"
+  },
   "Namur": {
    "t": 5761,
+   "c": "Libya"
+  },
+  "Antwerp": {
+   "t": 6061,
+   "c": "Libya"
+  },
+  "Brugge": {
+   "t": 6061,
    "c": "Libya"
   },
   "Groningen": {
    "t": 5941,
    "c": "Turkey"
+  },
+  "Amsterdam": {
+   "t": 6061,
+   "c": "Libya"
   },
   "Rotterdam": {
    "t": 5701,
@@ -13650,12 +13695,20 @@
    "t": 5641,
    "c": "Turkey"
   },
+  "Lida": {
+   "t": 6061,
+   "c": "Greater Romania"
+  },
   "Kerch": {
    "t": 5941,
    "c": "Greater Romania"
   },
   "Kharkov": {
    "t": 5821,
+   "c": "Libya"
+  },
+  "Kremenchuk": {
+   "t": 6061,
    "c": "Libya"
   },
   "Korosten": {
