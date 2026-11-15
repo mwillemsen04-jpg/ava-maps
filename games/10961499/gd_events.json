@@ -5473,34 +5473,34 @@
    "frm": "France"
   },
   "2312": {
-   "t": 5299,
-   "p": "Zugdidi",
-   "c": "Turkey",
-   "u": "Armored Car",
-   "cap": false,
-   "no": 6,
-   "sn": 1,
-   "frm": "Ukraine"
-  },
-  "2313": {
-   "t": 5310,
-   "p": "London",
+   "t": 5822,
+   "p": "Toulouse",
    "c": "Algeria",
    "u": "Infantry",
    "cap": false,
-   "no": 4,
-   "sn": 2,
-   "frm": "Germany"
+   "no": 11,
+   "sn": 1,
+   "frm": "France"
+  },
+  "2313": {
+   "t": 5825,
+   "p": "Minsk",
+   "c": "Turkey",
+   "u": "Rocket Artillery",
+   "cap": false,
+   "no": 2,
+   "sn": 21,
+   "frm": "Greater Finland"
   },
   "2314": {
-   "t": 5317,
-   "p": "Veliky Novgorod",
-   "c": "Greater Finland",
-   "u": "Infantry",
+   "t": 5833,
+   "p": "Bayonne",
+   "c": "Libya",
+   "u": "Light Tank",
    "cap": false,
-   "no": 12,
-   "sn": 1,
-   "frm": "Poland"
+   "no": 8,
+   "sn": 19,
+   "frm": "France"
   },
   "2315": {
    "t": 5325,
@@ -5533,34 +5533,34 @@
    "frm": "Germany"
   },
   "2322": {
-   "t": 5358,
-   "p": "Grenoble",
+   "t": 5848,
+   "p": "Manchester",
    "c": "Algeria",
    "u": "Infantry",
    "cap": false,
-   "no": 15,
-   "sn": 1,
-   "frm": "France"
+   "no": 4,
+   "sn": 2,
+   "frm": "Germany"
   },
   "2325": {
-   "t": 5372,
-   "p": "Odessa",
+   "t": 5855,
+   "p": "Oryol",
+   "c": "Libya",
+   "u": "Infantry",
+   "cap": false,
+   "no": 1,
+   "sn": 17,
+   "frm": "Russian Empire"
+  },
+  "2326": {
+   "t": 5877,
+   "p": "Girona",
    "c": "Algeria",
    "u": "Infantry",
    "cap": false,
-   "no": 2,
+   "no": 19,
    "sn": 1,
-   "frm": "Ukraine"
-  },
-  "2326": {
-   "t": 5373,
-   "p": "Minsk",
-   "c": "Greater Romania",
-   "u": "Tank Destroyer",
-   "cap": false,
-   "no": 8,
-   "sn": 1,
-   "frm": "Poland"
+   "frm": "France"
   },
   "2327": {
    "t": 5392,
@@ -5641,6 +5641,26 @@
    "no": 7,
    "sn": 1,
    "frm": "Greater Finland"
+  },
+  "2317": {
+   "t": 5837,
+   "p": "Philadelphia",
+   "c": "Northern States of America",
+   "u": "Infantry",
+   "cap": false,
+   "no": 5,
+   "sn": 2,
+   "frm": "France"
+  },
+  "2323": {
+   "t": 5848,
+   "p": "Plymouth",
+   "c": "Algeria",
+   "u": "Infantry",
+   "cap": false,
+   "no": 13,
+   "sn": 1,
+   "frm": "United Kingdom"
   }
  },
  "loss": {
@@ -12461,6 +12481,34 @@
    "byu": "Cruiser",
    "byn": 4,
    "by": "Turkey"
+  },
+  "2315": {
+   "t": 5837,
+   "p": "Philadelphia",
+   "c": "France",
+   "u": "Infantry",
+   "what": "1× Infantry",
+   "n": 1,
+   "dest": true,
+   "no": 7,
+   "byno": 5,
+   "byu": "Infantry",
+   "byn": 2,
+   "by": "Northern States of America"
+  },
+  "2320": {
+   "t": 5843,
+   "p": "Berdiansk",
+   "c": "Ukraine",
+   "u": "Interceptor",
+   "what": "1× Interceptor",
+   "n": 1,
+   "dest": true,
+   "no": 19,
+   "byno": 11,
+   "byu": "Armored Car",
+   "byn": 1,
+   "by": "Greater Romania"
   }
  },
  "cas": {
@@ -13109,11 +13157,11 @@
    "ts": 1794657613000
   },
   "Greater Finland|Greater Romania": {
-   "v": 277,
+   "v": 397,
    "ts": 1794692040121
   },
   "Greater Romania|Greater Finland": {
-   "v": 625,
+   "v": 911,
    "ts": 1794692040121
   },
   "Greater Finland|Turkey": {
@@ -13207,7 +13255,7 @@
     "Tank Destroyer": 3,
     "Interceptor": 20,
     "Armored Car": 4,
-    "Infantry": 13
+    "Infantry": 14
    },
    "United Kingdom": {
     "Armored Car": 3,
@@ -13395,10 +13443,11 @@
     "Anti Tank": 1
    },
    "Ukraine": {
-    "Infantry": 9,
     "Anti Tank": 3,
+    "Armored Car": 2,
+    "Interceptor": 1,
     "Medium Tank": 5,
-    "Armored Car": 2
+    "Infantry": 9
    },
    "Caucasus": {
     "Anti Tank": 2,
@@ -13430,7 +13479,7 @@
     "Infantry": 2
    }
   },
-  "ts": 1794700872214
+  "ts": 1794704470446
  },
  "sync": {
   "Kaiserslautern": {
@@ -13449,9 +13498,9 @@
    "t": 5821,
    "c": "Libya"
   },
-  "Plymouth": {
-   "t": 5641,
-   "c": "United Kingdom"
+  "London": {
+   "t": 5881,
+   "c": "Algeria"
   },
   "Milan": {
    "t": 5701,
@@ -13468,6 +13517,10 @@
   "Ajaccio": {
    "t": 5581,
    "c": "France"
+  },
+  "Veliky Novgorod": {
+   "t": 5881,
+   "c": "Greater Finland"
   },
   "Voroshilovgrad": {
    "t": 5701,
@@ -13488,6 +13541,10 @@
   "Rotterdam": {
    "t": 5701,
    "c": "Libya"
+  },
+  "Grenoble": {
+   "t": 5881,
+   "c": "Algeria"
   },
   "Oran": {
    "t": 5761,
@@ -13527,6 +13584,10 @@
   },
   "Ordzhonikidze": {
    "t": 5761,
+   "c": "Turkey"
+  },
+  "Zugdidi": {
+   "t": 5881,
    "c": "Turkey"
   },
   "Svetlograd": {
