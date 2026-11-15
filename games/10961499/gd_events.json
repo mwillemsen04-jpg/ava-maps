@@ -4876,14 +4876,14 @@
    "frm": "Germany"
   },
   "2257": {
-   "t": 5606,
-   "p": "Divnoye",
+   "t": 6441,
+   "p": "Leningrad",
    "c": "Turkey",
-   "u": "Armored Car",
+   "u": "Rocket Artillery",
    "cap": false,
-   "no": 5,
-   "sn": 1,
-   "frm": "Ukraine"
+   "no": 2,
+   "sn": 21,
+   "frm": "Greater Finland"
   },
   "2258": {
    "t": 5608,
@@ -4976,14 +4976,14 @@
    "frm": "France"
   },
   "2267": {
-   "t": 5551,
-   "p": "Orléans",
-   "c": "Libya",
-   "u": "Light Tank",
+   "t": 6474,
+   "p": "Krasnodar",
+   "c": "Turkey",
+   "u": "Armored Car",
    "cap": false,
-   "no": 8,
-   "sn": 19,
-   "frm": "France"
+   "no": 6,
+   "sn": 4,
+   "frm": "Ukraine"
   },
   "2268": {
    "t": 5100,
@@ -12441,18 +12441,18 @@
    "by": "Algeria"
   },
   "2262": {
-   "t": 5618,
-   "p": "Birmingham",
-   "c": "Germany",
+   "t": 6455,
+   "p": "Poltava",
+   "c": "Greater Finland",
    "u": "Infantry",
    "what": "1× Infantry",
    "n": 1,
    "dest": true,
-   "no": 4,
-   "byno": 4,
-   "byu": "Infantry",
-   "byn": 2,
-   "by": "Algeria"
+   "no": 11,
+   "byno": 11,
+   "byu": "Armored Car",
+   "byn": 1,
+   "by": "Greater Romania"
   },
   "2272": {
    "t": 5660,
@@ -12803,6 +12803,20 @@
    "byu": "Light Tank",
    "byn": 19,
    "by": "Libya"
+  },
+  "2265": {
+   "t": 6474,
+   "p": "Krasnodar",
+   "c": "Ukraine",
+   "u": "Infantry",
+   "what": "1× Infantry",
+   "n": 1,
+   "dest": true,
+   "no": 2,
+   "byno": 6,
+   "byu": "Armored Car",
+   "byn": 4,
+   "by": "Turkey"
   }
  },
  "cas": {
@@ -13548,134 +13562,134 @@
  "stats": {
   "lost": {
    "Germany": {
-    "Infantry": 18,
-    "Interceptor": 6,
-    "Anti Air": 1,
     "Anti Tank": 2,
-    "Light Tank": 2,
-    "Armored Car": 13
+    "Anti Air": 1,
+    "Interceptor": 6,
+    "Infantry": 18,
+    "Armored Car": 13,
+    "Light Tank": 2
    },
    "France": {
-    "Cruiser": 1,
-    "Submarine": 2,
-    "Tank Destroyer": 3,
     "Interceptor": 20,
-    "Armored Car": 4,
-    "Infantry": 14
+    "Tank Destroyer": 3,
+    "Submarine": 2,
+    "Cruiser": 1,
+    "Infantry": 14,
+    "Armored Car": 4
    },
    "United Kingdom": {
-    "Armored Car": 3,
-    "Anti Air": 1,
     "Rocket Artillery": 1,
-    "Anti Tank": 1,
-    "Infantry": 15
+    "Anti Air": 1,
+    "Armored Car": 3,
+    "Infantry": 15,
+    "Anti Tank": 1
    },
    "Italy": {
-    "Anti Tank": 2,
     "Infantry": 18,
-    "Interceptor": 1,
+    "Anti Tank": 2,
+    "Armored Car": 2,
     "Anti Air": 1,
-    "Armored Car": 2
+    "Interceptor": 1
    },
    "Spain": {
-    "Anti Tank": 3,
     "Infantry": 17,
-    "Interceptor": 1,
-    "Armored Car": 2
+    "Anti Tank": 3,
+    "Armored Car": 2,
+    "Interceptor": 1
    },
    "Communist Russia": {
-    "Light Tank": 2,
-    "Anti Air": 1,
-    "Infantry": 20,
     "Anti Tank": 2,
-    "Militia": 3,
-    "Armored Car": 2
+    "Infantry": 20,
+    "Anti Air": 1,
+    "Light Tank": 2,
+    "Armored Car": 2,
+    "Militia": 3
    },
    "Sweden": {
-    "Anti Tank": 1,
     "Infantry": 8,
+    "Anti Tank": 1,
     "Armored Car": 1
    },
    "Yugoslavia": {
-    "Armored Car": 2,
-    "Anti Air": 1,
     "Interceptor": 1,
-    "Anti Tank": 2,
-    "Infantry": 18
+    "Anti Air": 1,
+    "Armored Car": 2,
+    "Infantry": 18,
+    "Anti Tank": 2
    },
    "Greater Romania": {
     "Anti Tank": 1,
     "Tank Destroyer": 2
    },
    "Bulgaria": {
-    "Infantry": 6,
-    "Anti Tank": 1
+    "Anti Tank": 1,
+    "Infantry": 6
    },
    "Greece": {
     "Infantry": 6,
-    "Armored Car": 1,
-    "Anti Air": 1
+    "Anti Air": 1,
+    "Armored Car": 1
    },
    "Turkey": {
     "Anti Tank": 1
    },
    "Portugal": {
-    "Infantry": 4,
-    "Armored Car": 1
+    "Armored Car": 1,
+    "Infantry": 4
    },
    "Northern States of America": {
-    "Anti Air": 1,
-    "Infantry": 9,
     "Anti Tank": 1,
-    "Militia": 1,
+    "Infantry": 9,
+    "Anti Air": 1,
+    "Artillery": 1,
     "Armored Car": 3,
-    "Artillery": 1
+    "Militia": 1
    },
    "Canada": {
-    "Infantry": 2,
-    "Anti Air": 1
+    "Anti Air": 1,
+    "Infantry": 2
    },
    "Denmark": {
-    "Anti Tank": 1,
+    "Infantry": 3,
     "Militia": 1,
-    "Infantry": 3
+    "Anti Tank": 1
    },
    "Norway": {
     "Anti Air": 1,
     "Infantry": 3
    },
    "Greater Finland": {
+    "Infantry": 13,
     "Anti Tank": 2,
-    "Infantry": 12,
-    "Interceptor": 1,
+    "Armored Car": 1,
     "Anti Air": 1,
-    "Armored Car": 1
+    "Interceptor": 1
    },
    "Estonia": {
-    "Infantry": 3,
+    "Anti Tank": 1,
     "Artillery": 1,
-    "Anti Tank": 1
+    "Infantry": 3
    },
    "Latvia": {
-    "Infantry": 4,
-    "Anti Air": 1
+    "Anti Air": 1,
+    "Infantry": 4
    },
    "Lithuania": {
     "Infantry": 3,
     "Anti Tank": 1
    },
    "Poland": {
-    "Infantry": 20,
-    "Tank Destroyer": 4,
-    "Interceptor": 1,
-    "Anti Air": 1,
-    "Anti Tank": 2,
     "Rocket Artillery": 33,
+    "Anti Tank": 2,
+    "Anti Air": 1,
+    "Interceptor": 1,
+    "Tank Destroyer": 4,
+    "Infantry": 20,
     "Armored Car": 2
    },
    "Crimea": {
-    "Infantry": 4,
-    "Armored Car": 1
+    "Armored Car": 1,
+    "Infantry": 4
    },
    "Czechoslovakia": {
     "Infantry": 6,
@@ -13686,21 +13700,21 @@
     "Armored Car": 1
    },
    "Switzerland": {
-    "Infantry": 4,
+    "Anti Tank": 1,
     "Anti Air": 1,
-    "Anti Tank": 1
+    "Infantry": 4
    },
    "Albania": {
     "Infantry": 4,
     "Anti Tank": 1
    },
    "Saudi-Arabia": {
-    "Infantry": 4,
-    "Anti Air": 1
+    "Anti Air": 1,
+    "Infantry": 4
    },
    "Iraq": {
-    "Infantry": 3,
-    "Anti Air": 1
+    "Anti Air": 1,
+    "Infantry": 3
    },
    "Luxembourg": {
     "Infantry": 1,
@@ -13711,83 +13725,83 @@
     "Armored Car": 2
    },
    "Netherlands": {
-    "Interceptor": 1,
+    "Anti Tank": 1,
     "Infantry": 4,
-    "Anti Tank": 1
+    "Interceptor": 1
    },
    "Morocco": {
-    "Armored Car": 2,
-    "Anti Air": 1,
-    "Militia": 1,
     "Interceptor": 1,
-    "Anti Tank": 2,
-    "Infantry": 18
+    "Militia": 1,
+    "Anti Air": 1,
+    "Armored Car": 2,
+    "Infantry": 18,
+    "Anti Tank": 2
    },
    "Algeria": {
-    "Infantry": 1,
     "Interceptor": 2,
-    "Anti Tank": 1,
-    "Armored Car": 3
+    "Infantry": 1,
+    "Armored Car": 3,
+    "Anti Tank": 1
    },
    "Tunisia": {
-    "Infantry": 6,
-    "Anti Air": 1
+    "Anti Air": 1,
+    "Infantry": 6
    },
    "Libya": {
-    "Anti Tank": 1,
-    "Armored Car": 3,
+    "Interceptor": 7,
     "Anti Air": 1,
-    "Interceptor": 7
+    "Armored Car": 3,
+    "Anti Tank": 1
    },
    "Egypt": {
-    "Anti Air": 1,
-    "Anti Tank": 3,
     "Armored Car": 1,
-    "Infantry": 15,
-    "Interceptor": 1
+    "Anti Tank": 3,
+    "Anti Air": 1,
+    "Interceptor": 1,
+    "Infantry": 15
    },
    "Syria": {
     "Infantry": 5,
     "Anti Tank": 1
    },
    "Ukraine": {
-    "Anti Tank": 3,
-    "Armored Car": 2,
-    "Interceptor": 1,
     "Medium Tank": 5,
-    "Infantry": 9
+    "Interceptor": 1,
+    "Armored Car": 2,
+    "Anti Tank": 3,
+    "Infantry": 10
    },
    "Caucasus": {
-    "Anti Tank": 2,
-    "Rocket Artillery": 1,
     "Infantry": 18,
-    "Interceptor": 1,
+    "Rocket Artillery": 1,
+    "Anti Tank": 2,
+    "Armored Car": 2,
     "Anti Air": 1,
-    "Armored Car": 2
+    "Interceptor": 1
    },
    "Cossack Republic": {
-    "Infantry": 6,
+    "Armored Car": 1,
     "Anti Air": 1,
-    "Armored Car": 1
+    "Infantry": 6
    },
    "Russian Empire": {
-    "Militia": 1,
-    "Infantry": 18,
     "Anti Tank": 3,
+    "Infantry": 18,
+    "Militia": 1,
     "Armored Car": 1
    },
    "Malta": {
     "Infantry": 1
    },
    "Belarus": {
-    "Infantry": 6,
-    "Anti Air": 1
+    "Anti Air": 1,
+    "Infantry": 6
    },
    "Melilla": {
     "Infantry": 2
    }
   },
-  "ts": 1794736863050
+  "ts": 1794740461100
  },
  "sync": {
   "Kaiserslautern": {
@@ -13820,6 +13834,10 @@
   },
   "Dijon": {
    "t": 5821,
+   "c": "Libya"
+  },
+  "Orléans": {
+   "t": 6481,
    "c": "Libya"
   },
   "St. Etienne": {
@@ -14000,6 +14018,10 @@
   },
   "Sardarapat": {
    "t": 6001,
+   "c": "Turkey"
+  },
+  "Divnoye": {
+   "t": 6481,
    "c": "Turkey"
   },
   "Svetlograd": {
